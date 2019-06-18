@@ -1,4 +1,5 @@
 # ignore everything except .gitignore and folders that I care about:
-*
+
 !.manifest*
 !.gitignore
+!*
