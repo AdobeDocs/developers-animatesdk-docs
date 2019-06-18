@@ -1,0 +1,1548 @@
+{
+    "name": "Animate JSFL",
+    "version": "1.0.0",
+    "description": "Animate JSFL Documentation",
+    "view_type": "mdbook",
+    "meta_keywords": "adobe, flash, animate JSFL",
+    "meta_description": "default description",
+    "publish_date": "03/07/2019",
+    "show_edit_github_banner": false,
+    "base_path": "https://raw.githubusercontent.com",
+    "app2app_map":{
+        "AdobeDocs/developers-animatesdk-docs/master/swagger-specs/":"/apis/experiencecloud/cloud-manager/api-reference.html",
+        "adobedocs/adobeio-events/master/":"/apis/cloudplatform/events/documentation.html"
+    },
+    "pages": [
+        {
+          "pages": [],
+          "path": "AdobeDocs/developers-animatesdk-docs/master/Introduction/README.md",
+          "title": "Flash Extending Reference - JSFL"
+        },
+        {
+          "pages": [
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Introduction/understanding-the-api.md",
+              "title": "Working with the JavaScript API"
+            },
+            {
+                "pages": [],
+                "path": "AdobeDocs/developers-animatesdk-docs/master/Introduction/create-api-integration.md",
+                "title": "What's new in the JavaScript API"
+            },
+            {
+                "pages": [],
+                "path": "AdobeDocs/developers-animatesdk-docs/master/Introduction/create-event-integration.md",
+                "title": "JavaScript API Objects"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/Introduction/getting-started-with-postman.md",
+                "title": "Sample Implementations"
+            }
+          ],
+          "title": "Introduction"
+        },
+        {
+            "pages" : [
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/receiving-events.md",
+                    "title": "Top-Level summary"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-metric-data.md",
+                    "title": "activate()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/advancing-and-cancelling-steps.md",
+                    "title": "alert()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/receiving-events.md",
+                    "title": "configure Tool()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-metric-data.md",
+                    "title": "confirm()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/receiving-events.md",
+                    "title": "deactivate()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-metric-data.md",
+                    "title": "keyDown()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/receiving-events.md",
+                    "title": "keyUp()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-metric-data.md",
+                    "title": "mouseDoubleClick()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/receiving-events.md",
+                    "title": "mouseDown()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-metric-data.md",
+                    "title": "mouseMove()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/receiving-events.md",
+                    "title": "mouseUp()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-metric-data.md",
+                    "title": "notifySettingsChanged()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/receiving-events.md",
+                    "title": "prompt()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-metric-data.md",
+                    "title": "setCursor()"
+                }
+            ],
+            "title": "Top-Level Functions and Methods"
+        },
+        {
+            "pages" : [
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/tutorial/0-setup.md",
+                    "title": "actionsPanel summary"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/tutorial/1-a-basic-webhook.md",
+                    "title": "actionsPanel.getClassForObject() - dropped"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/tutorial/2-webhook-signature-validation.md",
+                    "title": "actionsPanel.getScriptAssistMode() - dropped"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/tutorial/3-handling-specific-events.md",
+                    "title": "actionsPanel.getSelectedText()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/tutorial/4-getting-an-access-token.md",
+                    "title": "actionsPanel.getText()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/tutorial/5-getting-the-execution.md",
+                    "title": "actionsPanel.hasSelection()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/tutorial/6-getting-the-program.md",
+                    "title": "actionsPanel.replaceSelectedText()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/tutorial/7-sending-notifications.md",
+                    "title": "actionsPanel.setScriptAssistMode() - dropped"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/tutorial/5-getting-the-execution.md",
+                    "title": "actionsPanel.setSelection()"
+                },
+                {
+                    "path": "AdobeDocs/developers-animatesdk-docs/master/tutorial/6-getting-the-program.md",
+                    "title": "actionsPanel.setText()"
+                }
+            ],
+            "title": "actionsPanel object"
+        },
+        {
+          "pages": [
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "bitmapInstance summary"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "bitmapInstance.getBits()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "bitmapInstance.hPixels"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "bitmapInstance.setBits()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "bitmapInstance.vPixels"
+            }
+          ],
+          "title": "BitmapInstance object"
+        },
+        {
+          "pages": [
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "bitmapItem summary"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "bitmapItem.allowSmoothing"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "bitmapItem.compressionType"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "bitmapItem.exportToFile()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "bitmapItem.fileLastModifiedDate"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "bitmapItem.hasValidAlphaLayer"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "bitmapItem.hPixels"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "bitmapItem.lastModifiedDate"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "bitmapItem.originalCompressionType"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "bitmapItem.quality"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "bitmapItem.sourceFileExists"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "bitmapItem.sourceFileIsCurrent"
+            },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "bitmapItem.sourceFilePath"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "bitmapItem.useDeblocking"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "bitmapItem.useImportedJPEGQuality"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "bitmapItem.vPixels"
+            }
+          ],
+          "title": "BitmapItem object"
+        },
+        {
+          "pages": [
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "compiledClipInstance summary"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "compiledClipInstance.accName"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "compiledClipInstance.actionScript - dropped"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "compiledClipInstance.backgroundColor"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "compiledClipInstance.blendMode"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "compiledClipInstance.brightness"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "compiledClipInstance.cacheAsBitmap"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "compiledClipInstance.colorAlphaAmount"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "compiledClipInstance.colorAlphaPercent"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "compiledClipInstance.colorBlueAmount"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "compiledClipInstance.colorBluePercent"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "compiledClipInstance.colorGreenAmount"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "compiledClipInstance.colorGreenPercent"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "compiledClipInstance.colorMode"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "compiledClipInstance.blendMode"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "compiledClipInstance.colorRedAmount"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "compiledClipInstance.colorRedPercent"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "compiledClipInstance.description"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "compiledClipInstance.filters"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "compiledClipInstance.forceSimple"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "compiledClipInstance.shortcut"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "compiledClipInstance.silent"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "compiledClipInstance.tabIndex"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "compiledClipInstance.tintColor"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "compiledClipInstance.tintPercent"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "compiledClipInstance.useBackgroundColor"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "compiledClipInstance.visible"
+            }
+          ],
+          "title": "CompiledClipInstance object"
+        },
+        {
+          "pages": [
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "compilerErrors summary"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "compilerErrors.clear()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "compilerErrors.save()"
+            }
+          ],
+          "title": "CompilerErrors object"
+        },
+         {
+          "pages": [
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "componentInstance summary"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "componentInstance.parameters"
+            }
+          ],
+          "title": "ComponentInstance object"
+        },
+         {
+          "pages": [
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "componentsPanel summary"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "componentsPanel.addItemToDocument()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "componentsPanel.reload()"
+            }
+          ],
+          "title": "ComponentsPanel object"
+        },
+         {
+          "pages": [
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "contour summary"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "contour.fill"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "contour.getHalfEdge()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "contour.interior"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "contour.orientation"
+            }
+          ],
+          "title": "Contour object"
+        },
+        {
+          "pages": [
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document summary"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.accName"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.addDataToDocument()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.addDataToSelection()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.addFilter()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.addItem()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.addNewLine()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.addNewOval()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.addNewPrimitiveOval()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.addNewPrimitiveRectangle()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.addNewPublishProfile()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.addNewRectangle()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.addNewScene()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.addNewText()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.align()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.allowScreens() - dropped"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.arrange()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.as3AutoDeclare"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.as3Dialect"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.as3ExportFrame"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.as3StrictMode"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.as3WarningsMode"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.asVersion"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.autoLabel"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.backgroundColor"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.breakApart()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.canEditSymbol()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.canRevert()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.canTestMovie()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.canTestScene()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.changeFilterOrder()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.clipCopy()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.clipCut()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.clipPaste()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.close()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.convertLinesToFills()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.convertSelectionToBitmap()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.convertToSymbol()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.crop()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.currentPublishProfile"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.currentTimeline"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.debugMovie()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.deleteEnvelope()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.deletePublishProfile()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.deleteScene()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.deleteSelection()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.description"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.disableAllFilters()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.disableFilter()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.disableOtherFilters()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.distribute()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.distributeToKeyframes()"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.distributeToLayers()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.docClass"
+            },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.documentHasData()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.duplicatePublishProfile()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.duplicateScene()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.duplicateSelection()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.editScene()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.enableAllFilters()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.enableFilter()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.enterEditMode()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.exitEditMode()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.exportInstanceToLibrary()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.exportInstanceToPNGSequence()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.exportPNG()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.exportPublishProfile()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.exportPublishProfileString()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.exportSWF()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.exportVideo()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.externalLibraryPath"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.forceSimple"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.frameRate"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.getAlignToDocument()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.getBlendMode()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.getCustomFill()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.getCustomStroke()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.getDataFromDocument()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.getElementProperty()"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.getElementTextAttr()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.getFilters()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.getMetadata()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.getMobileSettings()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.getPlayerVersion()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.getPublishDocumentData()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.getSelectionRect()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.getSWFPathFromProfile()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.getTelemetryForSwf()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.getTextString()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.getTimeline()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.getTransformationPoint()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.group()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.height"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.id"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.importFile()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.importPublishProfile()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.importPublishProfileString()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.importSWF() - dropped"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.intersect()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.library"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.libraryPath"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.livePreview"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.loadCuepointXML() - dropped"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.match()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.mouseClick()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.mouseDblClk()"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.moveSelectedBezierPointsBy()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.moveSelectionBy()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.name"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.optimizeCurves()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.path"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.pathURI"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.publish()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.publishProfiles"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.punch()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.removeAllFilters()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.removeDataFromDocument()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.removeDataFromSelection()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.removeFilter()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.renamePublishProfile()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.renameScene()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.reorderScene()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.resetOvalObject()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.resetRectangleObject()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.resetTransformation()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.revert()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.rotate3DSelection()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.rotateSelection()"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.save()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.saveAndCompact() - dropped"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.saveAsCopy()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.scaleSelection()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.screenOutline - dropped"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.selectAll()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.rotate3DSelectionselection"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.selectNone()"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setAlignToDocument()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setBlendMode()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.setCustomFill()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.setCustomStroke()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.setElementProperty()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setElementTextAttr()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setFillColor()"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setFilterProperty()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setFilters()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.setInstanceAlpha()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.setInstanceBrightness()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.setInstanceTint()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setMetadata()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setMobileSettings()"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setOvalObjectProperty()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setPlayerVersion()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.setPublishDocumentData()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.setRectangleObjectProperty()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.setSelectionBounds()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setSelectionRect()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setStageVanishingPoint()"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setStageViewAngle()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setStroke()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setStrokeColor()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.setStrokeSize()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.setStrokeStyle()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.setTextRectangle()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setTextSelection()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setTextString()"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.setTransformationPoint()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.silent"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "document.skewSelection()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.smoothSelection()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.space()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.straightenSelection()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.swapElement()"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.swapStrokeAndFill()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.swfJPEGQuality"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.testMovie()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.testScene()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.timelines"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.traceBitmap()"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.translate3DCenter()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.translate3DSelection()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.transformSelection()"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.unGroup()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.union()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "document.unlockAllElements()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "document.viewMatrix"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.width"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.xmlPanel()"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/getting-started-with-postman.md",
+                "title": "document.zoomFactor"
+            }
+          ],
+          "title": "Document object"
+        },
+        {
+          "pages": [
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "drawingLayer summary"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "drawingLayer.beginDraw()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "drawingLayer.beginFrame()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "drawingLayer.cubicCurveTo()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "drawingLayer.curveTo()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "drawingLayer.drawPath()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "drawingLayer.endDraw()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "drawingLayer.endFrame()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "drawingLayer.lineTo()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "drawingLayer.moveTo()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "drawingLayer.newPath()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "drawingLayer.setColor()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "drawingLayer.setFill()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "drawingLayer.setStroke()"
+            }
+          ],
+          "title": "drawingLayer object"
+        },
+        {
+          "pages": [
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "edge summary"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "edge.cubicSegmentIndex"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "edge.getControl()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "edge.getHalfEdge()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "edge.id"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "edge.isLine"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "edge.setControl()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "edge.splitEdge()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "edge.stroke"
+            }
+          ],
+          "title": "Edge object"
+        },
+        {   
+          "pages": [
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "element summary"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "element.depth"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "element.elementType"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "element.getPersistentData()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "element.getPublishPersistentData()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "element.getTransformationPoint()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "element.hasPersistentData()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "element.height"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "edge.layer"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "element.left"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "element.locked"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "element.matrix"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "element.name"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "element.removePersistentData()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "element.rotation()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "element.scaleX"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "element.scaleY"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "edge.selected"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "element.setPersistentData()"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "element.setPublishPersistentData()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "element.setTransformationPoint()"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "element.skewX"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "edge.skewY"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "element.top"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "element.transformX"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "edge.transformY"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "edge.width"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "element.x"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "edge.y"
+            }
+          ],
+          "title": "Element object"
+        },
+        {
+          "pages": [
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "fill summary"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "fill.bitmapIsClipped"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "fill.bitmapPath"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "fill.color"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "fill.colorArray"
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "fill.focalPoint"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "fill.linearRGB"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "fill.matrix"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "fill.overflow"
+            },
+             {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "fill.posArray"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "fill.style"
+            }
+          ],
+          "title": "Fill object"
+        },
+        {
+          "pages": [
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "filter summary"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "filter.angle"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "filter.blurX"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "filter.blurY"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "filter.brightness"
+            },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "filter.color"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "filter.contrast"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "filter.distance"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "filter.enabled"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "filter.hideObject"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "filter.highlightColor"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "filter.hue"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "filter.inner"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "filter.knockout"
+            },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/master/understanding-the-api.md",
+              "title": "filter.name"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "filter.quality"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "filter.saturation"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-api-integration.md",
+                "title": "filter.shadowColor"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "filter.strength"
+            },
+            {
+                "path": "AdobeDocs/developers-animatesdk-docs/master/create-event-integration.md",
+                "title": "filter.type"
+            }
+          ],
+          "title": "Filter object"
+        },
+    ]
+    }
