@@ -15,7 +15,6 @@ xmlui.get(controlPropertyName)
 #### Returns
 
 A string that represents the value of the specified property. In cases where you might expect a Boolean value of true
->
 or false, it returns the string "true" or "false".
 
 #### Description

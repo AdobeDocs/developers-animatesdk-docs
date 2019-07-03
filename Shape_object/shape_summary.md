@@ -9,9 +9,7 @@ Flash MX 2004.
 #### Description
 
 The Shape object is a subclass of the Element object. The Shape object provides more precise control than the drawing APIs when manipulating or creating geometry on the Stage. This control is necessary so that scripts can create useful effects and other drawing commands (see [Element object](#_bookmark374)).
->
 All Shape methods and properties that change a shape or any of its subordinate parts must be placed between
->
 [shape.beginEdit()](#shape.beginEdit()) and [shape.endEdit()](#_bookmark812) calls to function correctly.
 
 #### Method summary

@@ -11,7 +11,6 @@ Math.transformPoint(matrix, point)
 #### Parameters
 
 **matrix** Contains the matrix obejct applied to the point.
->
 **point** Contains the point to which the matrix is applied.
 
 #### Returns

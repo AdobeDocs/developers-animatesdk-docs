@@ -11,9 +11,7 @@ frame.setCustomEase(property, easeCurve)
 #### Parameters
 
 **property** A string that specifies the property the ease curve should be used for. Acceptable values are "all", "position", "rotation", "scale", "color", and "filters".
->
 **easeCurve** An array of objects that defines the ease curve. Each array element must be a JavaScript object with *x* and
->
 *y* properties.
 
 #### Returns

@@ -19,7 +19,6 @@ A Boolean value: true if folder is created successfully; false otherwise.
 #### Description
 
 Method; creates a new folder with the specified name, or a default name ("untitled folder \#") if no *folderName*
->
 parameter is provided, in the currently selected folder.
 
 #### Example

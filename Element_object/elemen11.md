@@ -11,7 +11,6 @@ element.name
 #### Description
 
 Property; a string that specifies the name of the element, normally referred to as the Instance name. If the value of
->
 element.elementType is "shape", this property is ignored. See [element.elementType](#_bookmark377).
 
 #### Example

@@ -11,7 +11,6 @@ fill.overflow
 #### Description
 
 Property; a string that specifies the behavior of a gradient’s overflow. Acceptable values are "extend", "repeat", and
->
 "reflect"; the strings are not case-sensitive. The default value is "extend".
 
 #### Example

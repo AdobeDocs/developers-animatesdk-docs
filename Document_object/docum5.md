@@ -11,9 +11,7 @@ document.skewSelection(xSkew, ySkew \[, whichEdge\])
 #### Parameters
 
 **xSkew** A floating-point number that specifies the amount of *x* by which to skew, measured in degrees.
->
 **ySkew** A floating-point number that specifies the amount of *y* by which to skew, measured in degrees.
->
 **whichEdge** A string that specifies the edge where the transformation occurs; if omitted, skew occurs at the transformation point. Acceptable values are "top center", "right center", "bottom center", and "left center". This parameter is optional.
 
 #### Returns

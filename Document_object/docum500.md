@@ -11,11 +11,8 @@ document.setElementTextAttr(attrName, attrValue \[, startIndex \[, endIndex\]\])
 #### Parameters
 
 **attrName** A string that specifies the name of the TextAttrs property to change.
->
 **attrValue** The value to which to set the TextAttrs property. For a list of property names and expected values, see the Property summary table for the [TextAttrs object](#_bookmark1003).
->
 **startIndex** An integer value that specifies the index of the first character that is affected. This parameter is optional.
->
 **endIndex** An integer value that specifies the index of the last character that is affected. This parameter is optional.
 
 #### Returns

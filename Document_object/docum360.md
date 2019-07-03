@@ -11,7 +11,6 @@ document.rotateSelection(angle \[, rotationPoint\])
 #### Parameters
 
 **angle** A floating-point value that specifies the angle of the rotation.
->
 **rotationPoint** A string that specifies which side of the bounding box to rotate. Acceptable values are "top right", "top left", "bottom right", "bottom left", "top center", "right center", "bottom center", and "left center". If unspecified, the method uses the transformation point. This parameter is optional.
 
 #### Returns

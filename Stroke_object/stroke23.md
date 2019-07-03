@@ -11,7 +11,6 @@ stroke.waveHeight
 #### Description
 
 Property; a string that specifies the wave height of a ragged line. This property is available only if the stroke.style
->
 property is set to ragged (see [stroke.style](#_bookmark898)). Acceptable values are "flat", "wavy", "very wavy", and "wild".
 
 #### Example

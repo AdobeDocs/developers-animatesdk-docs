@@ -19,7 +19,6 @@ Nothing.
 #### Description
 
 Method; sends a text string to the Output panel, terminated by a new line, and displays the Output panel if it is not already visible. This method is identical to [fl.trace()](#_bookmark552), and works in the same way as the trace() statement in ActionScript.
->
 To send a blank line, use outputPanel.trace("") or outputPanel.trace("\\n"). You can use the latter command inline, making \\n a part of the *message* string.
 
 #### Example

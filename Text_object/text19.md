@@ -11,7 +11,6 @@ text.selectable
 #### Description
 
 Property; a Boolean value. If the value is true, the text can be selected.
->
 Input text is always selectable. Flash generates a warning when this property is set to false and used with input text.
 
 #### Example

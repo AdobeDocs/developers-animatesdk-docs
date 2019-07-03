@@ -11,7 +11,6 @@ fl.closeDocument(documentObject \[, bPromptToSaveChanges\])
 #### Parameters
 
 **documentObject** A [Document object](#_bookmark116). If *documentObject* refers to the active document, the Document window might not close until the script that calls this method finishes executing.
->
 **bPromptToSaveChanges** A Boolean value. When *bPromptToSaveChanges* is false, the user is not prompted if the document contains unsaved changes; that is, the file is closed and the changes are discarded. If *bPromptToSaveChanges* is true, and if the document contains unsaved changes, the user is prompted with the standard yes-or-no dialog box. The default value is true. This parameter is optional.
 
 #### Returns

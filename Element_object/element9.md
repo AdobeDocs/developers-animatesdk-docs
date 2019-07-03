@@ -11,7 +11,6 @@ element.locked
 #### Description
 
 Property; a Boolean value: true if the element is locked; false otherwise. If the value of [element.elementType](#_bookmark377) is
->
 "shape", this property is ignored.
 
 #### Example

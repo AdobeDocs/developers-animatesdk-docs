@@ -10,7 +10,7 @@ soundItem.originalCompressionType
 
 #### Description
 
-Read-only property: a string that specifies whether the specified item was imported as an mp3 file. Possible values for this property are “RAW” and “MP3”.
+Read-only property: a string that specifies whether the specified item was imported as an mp3 file. Possible values for this property are "RAW" and "MP3".
 
 #### Example
 

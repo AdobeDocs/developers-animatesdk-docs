@@ -11,10 +11,8 @@ text.embeddedCharacters
 #### Description
 
 Property; a string that specifies characters to embed. This is equivalent to entering text in the Character Embedding dialog box.
->
 This property works only with dynamic or input text; it generates a warning if used with other text types.
->
-***Note:** Beginning in Flash Professional CS5, font embedding is controlled at the document level instead of the text object level. Use the* *[“fontItem.embeddedCharacters” on page 310](#_bookmark585) property instead of the text.embeddedCharacters property.*
+***Note:** Beginning in Flash Professional CS5, font embedding is controlled at the document level instead of the text object level. Use the* *["fontItem.embeddedCharacters" on page 310](#_bookmark585) property instead of the text.embeddedCharacters property.*
 
 #### Example
 

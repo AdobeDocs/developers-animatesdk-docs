@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-Returns boolean. Returns true if the “Enable detailed telemetry” checkbox is selected; otherwise false.
+Returns boolean. Returns true if the "Enable detailed telemetry" checkbox is selected; otherwise false.
 
 #### Description
 
-Method; Indicates whether if the “Enable detailed telemetry” checkbox is selected in the Publish Settings dialog.
+Method; Indicates whether if the "Enable detailed telemetry" checkbox is selected in the Publish Settings dialog.
 
 #### Example
 

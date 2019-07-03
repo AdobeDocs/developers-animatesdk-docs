@@ -19,7 +19,6 @@ A Boolean value of true if the preset is successfully applied, false otherwise.
 #### Description
 
 Method; applies the specified or currently selected preset to the currently selected item on the Stage. The item must be a motion tween, a symbol, or an item that can be converted to a symbol. If the item is a motion tween, its current motion is replaced with the selected preset without requesting user confirmation.
->
 This method fails in the following situations:
 
 -   The path you specify as *presetPath* doesn’t exist.

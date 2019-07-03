@@ -11,7 +11,6 @@ xmlui.setControlItemElements(controlID, elementItemArray)
 #### Parameters
 
 **controlID** A string that specifies the ID attribute of the control you want to set.
->
 **elementItemArray** An array of JavaScript objects, where each object has a string property named label and an optional string property named value. If the value property does not exist, then it is created and assigned the same value as label.
 
 #### Returns

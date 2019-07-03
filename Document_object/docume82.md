@@ -19,7 +19,6 @@ A string that represents the Flash Player version specified by using document.se
 #### Description
 
 Method; returns a string that represents the targeted player version for the specified document. For a list of values that this method can return, see [document.setPlayerVersion()](#_bookmark299).
->
 To determine which version of ActionScript is being targeted in the specified file, use [document.asVersion](#_bookmark140).
 
 #### Example

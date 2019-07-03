@@ -11,7 +11,6 @@ document.addNewLine(startPoint, endpoint)
 #### Parameters
 
 **startpoint** A pair of floating-point numbers that specify the *x* and *y* coordinates where the line starts.
->
 **endpoint** A pair of floating-point numbers that specify the *x* and *y* coordinates where the line ends.
 
 #### Returns

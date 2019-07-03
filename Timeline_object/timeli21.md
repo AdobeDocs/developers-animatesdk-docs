@@ -11,7 +11,6 @@ timeline.getBounds(\[frame \[, includeHiddenLayers\]\])
 #### Parameters
 
 **frame** The number of the frame for which you want the bounds. Defaults to 1, which is the first frame. This parameter is optional.
->
 **includeHiddenLayers** Indicates whether to include element bounds from hidden layers. Defaults to the SWF publish setting value for "include hidden layers". This parameter is optional.
 
 #### Returns

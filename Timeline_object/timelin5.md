@@ -11,9 +11,7 @@ timeline.convertToKeyframes(\[startFrameIndex \[, endFrameIndex\]\])
 #### Parameters
 
 **startFrameIndex** A zero-based index that specifies the first frame to convert to keyframes. If you omit
->
 *startFrameIndex*, the method converts the currently selected frames. This parameter is optional.
->
 **endFrameIndex** A zero-based index that specifies the frame at which conversion to keyframes will stop. The range of frames to convert goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.
 
 #### Returns

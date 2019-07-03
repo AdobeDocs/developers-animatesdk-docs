@@ -11,7 +11,6 @@ prompt(promptMsg \[,text\])
 #### Parameters
 
 **promptMsg** A string to display in the Prompt dialog box (limited to 256 characters in Mac OS X).
->
 **text** An optional string to display as a default value for the text field.
 
 #### Returns

@@ -11,9 +11,7 @@ document.match(bWidth, bHeight \[, bUseDocumentBounds\])
 #### Parameters
 
 **bWidth** A Boolean value that, when set to true, causes the method to make the widths of the selected items the same.
->
 **bHeight** A Boolean value that, when set to true, causes the method to make the heights of the selected items the same.
->
 **bUseDocumentBounds** A Boolean value that, when set to true, causes the method to match the size of the objects to the bounds of the document. Otherwise, the method uses the bounds of the largest object. The default is false. This parameter is optional.
 
 #### Returns

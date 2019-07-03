@@ -11,9 +11,7 @@ FLfile.write(fileURI, textToWrite, \[ , strAppendMode\])
 #### Parameters
 
 **fileURI** A string, expressed as a file:/// URI, specifying the file to which you want to write.
->
 **textToWrite** A string representing the text you want to place in the file.
->
 **strAppendMode** An optional string with the value "append", which specifies that you want to append *textToWrite* to the existing file. If omitted, *fileURI* is overwritten with *textToWrite*.
 
 #### Returns

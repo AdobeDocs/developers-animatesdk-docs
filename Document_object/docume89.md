@@ -19,7 +19,6 @@ A point (for example, {x:10, y:20}, where x and y are floating-point numbers) th
 #### Description
 
 Method; gets the location of the transformation point of the current selection. You can use the transformation point for commutations such as rotate and skew.
->
 ***Note:** Transformation points are relative to different locations, depending on the type of item selected. For more information, see [document.setTransformationPoint()](#_bookmark316).*
 
 #### Example

@@ -19,7 +19,6 @@ An object that represents the current control item for the control specified by 
 #### Description
 
 Method; returns the label and value of the line selected in a ListBox or ComboBox control for the control specified by
->
 *controlPropertyName*.
 
 #### Example

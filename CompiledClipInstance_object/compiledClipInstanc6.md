@@ -11,7 +11,6 @@ compiledClipInstance.colorAlphaAmount
 #### Description
 
 Property; an int that reduces or increases the tint and alpha values by a constant amount. This value is added to the current value. This setting is most useful if used in conjunction with colorAlphaPercent. Valid values are -255 to 255.
->
 This setting is the same as selecting Color \Advanced in the Instance Property Inspector and adjusting the controls on the right of the dialog.
 
 #### Example

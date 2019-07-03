@@ -11,7 +11,6 @@ symbolItem.exportToLibrary(frameNumber, bitmapName)
 #### Parameters
 
 **frameNumber** An integer indicating the frame within the symbol to be exported.
->
 **bitmapName** A string indicating the name of the new bitmap to be added to the Library.
 
 #### Returns
@@ -25,7 +24,7 @@ Method; exports a frame from the selected instance of movie clip, graphic, or bu
 #### Example
 
 ```
-The following example exports the first frame of the currently selected symbol instance to a new bitmap in the library that will be called “mytestBitmap”:
+The following example exports the first frame of the currently selected symbol instance to a new bitmap in the library that will be called "mytestBitmap":
 fl.getDocumentDOM().library.item\[0\].exportToLibrary(1, "mytestBitmap");
 
 ```

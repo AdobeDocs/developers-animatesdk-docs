@@ -9,7 +9,6 @@ Flash CS3 Professional.
 #### Description
 
 The Oval object is a shape that is drawn using the Oval Primitive tool. To determine if an item is an Oval object, use
->
 [shape.isOvalObject](#_bookmark820).
 
 #### Property summary

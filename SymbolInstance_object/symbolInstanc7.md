@@ -11,8 +11,7 @@ symbolInstance.cacheAsBitmap
 #### Description
 
 Property; a Boolean value that specifies whether run-time bitmap caching is enabled.
->
-***Note:** Starting w/ Flash Professional CS5.5, users should switch to using the [“symbolInstance.bitmapRenderMode”](#_bookmark920)* *[on page 470](#_bookmark920) property instead of this property.*
+***Note:** Starting w/ Flash Professional CS5.5, users should switch to using the ["symbolInstance.bitmapRenderMode"](#_bookmark920)* *[on page 470](#_bookmark920) property instead of this property.*
 
 #### Example
 

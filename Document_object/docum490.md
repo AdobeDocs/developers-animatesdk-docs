@@ -11,11 +11,8 @@ document.setElementProperty(property, value)
 #### Parameters
 
 **property** A string that specifies the name of the Element property to set. For a complete list of properties and values, see the Property summary table for the [Element object](#_bookmark374).
->
 You can’t use this method to set values for read-only properties, such as [element.elementType](#_bookmark378), [element.top](#_bookmark405), or
->
 [element.left](#_bookmark387).
->
 **value** An integer that specifies the value to set in the specified Element property.
 
 #### Returns

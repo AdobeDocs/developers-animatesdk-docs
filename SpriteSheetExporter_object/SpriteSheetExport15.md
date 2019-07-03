@@ -11,7 +11,6 @@ SpriteSheetExporter.exportSpriteSheet( path, imageFormat \[, writeMetaData\] )
 #### Parameters
 
 **path** String; A file path with no extension to be used as the base name of the exported files.
->
 **imageFormat** String or Object. A string or an object that describes the type of image format to generate.
 
 -   String: Valid values are either "png" or "jpg", the exporter use whatever values where last used.

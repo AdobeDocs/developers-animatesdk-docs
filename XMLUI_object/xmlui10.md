@@ -11,7 +11,6 @@ xmlui.setVisible(controlID, visible)
 #### Parameters
 
 **controlID** A string that specifies the ID attribute of the control you want to show or hide.
->
 **visible** A Boolean value of true if you want to show the control; false if you want to hide it.
 
 #### Returns

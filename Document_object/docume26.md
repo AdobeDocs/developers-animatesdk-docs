@@ -15,7 +15,6 @@ None.
 #### Returns
 
 A Boolean value: true if you can use the document.revert() or fl.revertDocument() methods successfully;
->
 false otherwise.
 
 #### Description

@@ -11,7 +11,6 @@ library.addItemToDocument(position \[, namePath\])
 #### Parameters
 
 **position** A point that specifies the *x,y* position of the center of the item on the Stage.
->
 **namePath** A string that specifies the name of the item. If the item is in a folder, you can specify its name and path using slash notation. If *namePath* is not specified, the current library selection is used. This parameter is optional.
 
 #### Returns

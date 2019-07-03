@@ -11,7 +11,6 @@ bitmapInstance.setBits(bitmap)
 #### Parameters
 
 **bitmap** An object that contains height, width, depth, bits, and cTab properties. The height, width, and depth propertiesare integers. The bits property is a byte array. The cTab property is required only for bitmaps with a bit depth of 8 or less and is a string that represents a color value in the form "\#RRGGBB".
->
 ***Note:** The byte array is meaningful only when referenced by an external library. You typically use it only when creating an extensible tool or effect.*
 
 #### Returns

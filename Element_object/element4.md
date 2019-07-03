@@ -19,7 +19,6 @@ A point (for example, {x:10, y:20}, where x and y are floating-point numbers) th
 #### Description
 
 Method; gets the value of the specified element’s transformation point.
->
 Transformation points are relative to different locations, depending on the type of item selected. For more information, see [element.setTransformationPoint()](#_bookmark400).
 
 #### Example

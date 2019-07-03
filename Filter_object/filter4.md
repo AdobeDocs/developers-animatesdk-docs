@@ -19,7 +19,6 @@ Property; the color of the filter, in one of the following formats:
 -   An integer that represents the decimal equivalent of a hexadecimal number
 
 This property is defined for Filter objects with a value of "dropShadowFilter" or "glowFilter" for the
->
 [filter.name](#_bookmark440) property.
 
 #### Example

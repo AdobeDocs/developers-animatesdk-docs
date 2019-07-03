@@ -11,9 +11,7 @@ matrix.tx
 #### Description
 
 Property; a floating-point value that specifies the *x*-axis location of a symbol’s registration point (also *origin point* or
->
 *zero point*) or the center of a shape. It defines the *x* translation of the transformation.
->
 You can move an object by setting the matrix.tx and matrix.ty properties (see [matrix.ty](#matrix.ty)).
 
 #### Example

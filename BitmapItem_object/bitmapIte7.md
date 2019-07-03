@@ -10,7 +10,7 @@ bitmapItem.originalCompressionType
 
 #### Description
 
-Read-only property; a string that specifies whether the specified item was imported as an jpeg file. Possible values for this property are “photo” (for jpeg files) and “lossless” (for uncompressed file types such as GIF and PNG).
+Read-only property; a string that specifies whether the specified item was imported as an jpeg file. Possible values for this property are "photo" (for jpeg files) and "lossless" (for uncompressed file types such as GIF and PNG).
 
 #### Example
 

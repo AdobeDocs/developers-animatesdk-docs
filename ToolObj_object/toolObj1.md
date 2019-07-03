@@ -11,9 +11,7 @@ toolObj.enablePIControl(control, bEnable)
 #### Parameters
 
 **control** A string that specifies the name of the control to enable or disable. Legal values depend on the Property inspector invoked by this tool; see [toolObj.setPI()](#_bookmark1098).
->
 A shape Property inspector has the following controls:
->
 A text Property inspector has the following controls:
 
 | type        | font         | pointsize   |

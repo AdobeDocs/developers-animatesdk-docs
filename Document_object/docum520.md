@@ -11,11 +11,8 @@ document.setFilterProperty(property, filterIndex, value)
 #### Parameters
 
 **property** A string specifying the property to be set. Acceptable values are "blurX", "blurY", "quality", angle", "distance", "strength", "knockout", "inner", "bevelType", "color", "shadowColor", and
->
 "highlightColor".
->
 **filterIndex** An integer specifying the zero-based index of the filter in the Filters list.
->
 **value** A number or string specifying the value to be set for the specified filter property. Acceptable values depend on the property and the filter being set.
 
 #### Returns

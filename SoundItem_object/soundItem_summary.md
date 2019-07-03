@@ -9,7 +9,6 @@ Flash MX 2004.
 #### Description
 
 The SoundItem object is a subclass of the Item object. It represents a library item used to create a sound. See also
->
 [frame.soundLibraryItem](#_bookmark631) and [Item object](#_bookmark658).
 
 #### Method summary

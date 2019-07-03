@@ -11,7 +11,6 @@ presetItem.open
 #### Description
 
 Read-only property: specifies whether a folder in the Motion Presets panel is currently expanded (true) or not (false).
->
 This property is true if the item is not a folder. To determine if an item is a folder or a preset, use [presetItem.isFolder](#_bookmark773).
 
 #### Example

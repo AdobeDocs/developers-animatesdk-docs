@@ -11,7 +11,6 @@ element.width
 #### Description
 
 Property; a float value that specifies the width of the element in pixels.
->
 Do not use this property to resize a text field. Instead, select the text field and use [document.setTextRectangle()](#_bookmark313). Using this property with a text field scales the text.
 
 #### Example

@@ -11,7 +11,6 @@ A ToolObj object represents an individual tool in the Tools panel. To access a T
 #### Method summary
 
 The following methods are available for the ToolObj object.
->
 ***Note:** The following methods are used only when creating extensible tools.*
 
 | **Method**                                       | **Description**                                                                                                                                                                 |

@@ -10,7 +10,7 @@ swfPanel.call(request)
 
 #### Parameters
 
-**request** Parameters to pass to the function (see “Description” and “Example” below).
+**request** Parameters to pass to the function (see "Description" and "Example" below).
 
 #### Returns
 
@@ -19,7 +19,6 @@ Either null or a string that is returned by the function call. The function resu
 #### Description
 
 Method; works in conjunction with the ActionScript ExternalInterface.addCallback() and MMExecute()
->
 methods to communicate with the SWF panel from the authoring environment.
 
 #### Example
@@ -57,7 +56,7 @@ MMExecute("fl.trace(\\"AS3 File Status Panel Initialized\\");");
 
 2.  Close Flash.
 
-3.  Copy the fileStatus.swf file to the WindowSWF folder, which is a subfolder of the Configuration folder (see [“Saving JSFL files” on page 2](#_bookmark3)). For example, on Windows XP, the folder is in *boot drive*\\Documents and Settings\\*user*\\Local Settings\\Application Data\\Adobe\\Flash CS4\\*language*\\Configuration\\WindowSWF.
+3.  Copy the fileStatus.swf file to the WindowSWF folder, which is a subfolder of the Configuration folder (see ["Saving JSFL files" on page 2](#_bookmark3)). For example, on Windows XP, the folder is in *boot drive*\\Documents and Settings\\*user*\\Local Settings\\Application Data\\Adobe\\Flash CS4\\*language*\\Configuration\\WindowSWF.
 
 4.  Start Flash.
 

@@ -11,9 +11,7 @@ presetPanel.expandFolder( \[bExpand \[, bRecurse \[, folderPath\] \] \] )
 #### Parameters
 
 **bExpand** A Boolean value that specifies whether to expand the folder (true) or collapse it (false). This parameter is optional; the default value is true.
->
 **bRecurse** A Boolean value that specifies whether to expand or collapse the folder’s subfolders (true) or not false). This parameter is optional; the default value is false.
->
 **folderPath** A string that specifies the path to the folder to expand or collapse. This parameter is optional.
 
 #### Returns

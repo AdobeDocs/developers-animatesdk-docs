@@ -10,12 +10,9 @@ timeline.addNewLayer(\[name\] \[, layerType \[, bAddAbove\]\])
 
 #### Parameters
 
-**name** A string that specifies the name for the new layer. If you omit this parameter, a new default layer name is assigned to the new layer (“Layer n,” where *n* is the total number of layers created and deleted for that particular instance of the file). This parameter is optional.
->
-**layerType** A string that specifies the type of layer to add. If you omit this parameter, a “Normal” type layer is created. This parameter is optional. Acceptable values are "normal", "guide", "guided", "mask", "masked", and "folder".
->
+**name** A string that specifies the name for the new layer. If you omit this parameter, a new default layer name is assigned to the new layer ("Layer n," where *n* is the total number of layers created and deleted for that particular instance of the file). This parameter is optional.
+**layerType** A string that specifies the type of layer to add. If you omit this parameter, a "Normal" type layer is created. This parameter is optional. Acceptable values are "normal", "guide", "guided", "mask", "masked", and "folder".
 **bAddAbove** A Boolean value that, if set to true (the default), causes Flash to add the new layer above the current layer;
->
 false causes Flash to add the layer below the current layer. This parameter is optional.
 
 #### Returns

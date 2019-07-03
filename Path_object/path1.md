@@ -11,7 +11,6 @@ path.addCurve(xAnchor, yAnchor, x2, y2, x3, y3)
 #### Parameters
 
 **xAnchor** A floating-point number that specifies the *x* position of the first control point. **yAnchor** A floating-point number that specifies the *y* position of the first control point. **x2** A floating-point number that specifies the *x* position of the second control point.
->
 **y2** A floating-point number that specifies the *y* position of the second control point. **x3** A floating-point number that specifies the *x* position of the third control point. **y3** A floating-point number that specifies the *y* position of the third control point.
 
 #### Returns

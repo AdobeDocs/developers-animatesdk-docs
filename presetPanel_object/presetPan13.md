@@ -11,9 +11,7 @@ presetPanel.selectItem(namePath \[, bReplaceCurrentSelection \[, bSelect\] \])
 #### Parameters
 
 **namePath** A string that specifies the path and name of the item to select from the Motion Presets panel.
->
 **bReplaceCurrentSelection** A Boolean value that specifies whether the specified item replaces any current selection (true) or is added to the current selection (false). This parameter is optional; the default value is true.
->
 **bSelect** A Boolean value that specifies whether to select the item (true) or deselect the item (false). This parameter is optional; the default value is true. If you pass false for *bSelect*, the value of *bReplaceCurrentSelection* is ignored.
 
 #### Returns

@@ -11,7 +11,6 @@ FLfile.copy(fileURI, copyURI)
 #### Parameters
 
 **fileURI** A string, expressed as a file:/// URI, that specifies the file you want to copy.
->
 **copyURI** A string, expressed as a file:/// URI, that specifies the location and name of the copied file.
 
 #### Returns

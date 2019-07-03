@@ -19,9 +19,7 @@ A Boolean value of true if successful; false if *folderURI* already exists.
 #### Description
 
 Method; creates one or more folders at the specified location.
->
 You can create multiple folders at one time. For example, the following command creates both the MyData and the TempData folders if they don’t already exist:
->
 FLfile.createFolder("file:///c\|/MyData/TempData")
 
 #### Example

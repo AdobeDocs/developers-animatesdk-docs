@@ -69,7 +69,6 @@ JSBool JS\_DefineFunction(unsigned short \*name, JSNative call, unsigned int nar
 #### Description
 
 Method; registers a C-level function with the JavaScript interpreter in Flash. After the JS\_DefineFunction() function registers the C-level function that you specify in the *call* argument, you can invoke it in a JavaScript script by referring to it with the name that you specify in the *name* argument. The *name* argument is case-sensitive.
->
 Typically, this function is called from the MM\_Init() function, which Flash calls during startup.
 
 #### Arguments
@@ -95,7 +94,6 @@ unsigned short \*JS\_ValueToString(JSContext \*cx, jsval v, unsigned int \*pLeng
 #### Description
 
 Method; extracts a function argument from a jsval structure, converts it to a string, if possible, and passes the converted value back to the caller.
->
 ***Note:** Do not modify the returned buffer pointer or you might corrupt the data structures of the JavaScript interpreter. To change the string, you must copy the characters into another buffer and create a new JavaScript string.*
 
 #### Arguments
@@ -317,7 +315,6 @@ Method; converts a long integer value to JSVal structure.
 #### Arguments
 
 *lv*
->
 The *lv* argument is the long integer value that you want to convert to a jsval structure.
 
 #### Returns
@@ -333,13 +330,11 @@ jsval JS\_ObjectToValue(JSObject \*obj);
 #### Description
 
 Method; stores an object return value in a JSVal. Use JS\_NewArrayObject() to create an array object; use
->
 JS\_SetElement() to define its contents.
 
 #### Arguments
 
 JSObject *\*obj*
->
 The *obj* argument is a pointer to the JSObject object that you want to convert to a JSVal structure.
 
 #### Returns
@@ -355,13 +350,11 @@ unsigned short \*JS\_ObjectType(JSObject \*obj);
 #### Description
 
 Method; given an object reference, returns the class name of the object. For example, if the object is a DOM object, the function returns "Document". If the object is a node in the document, the function returns "Element". For an array object, the function returns "Array".
->
 ***Note:** Do not modify the returned buffer pointer, or you might corrupt the data structures of the JavaScript interpreter.*
 
 #### Arguments
 
 JSObject *\*obj*
->
 Typically, this argument is passed in and converted using the JS\_ValueToObject() function.
 
 #### Returns
@@ -471,7 +464,6 @@ A Boolean value: JS\_TRUE indicates success; JS\_FALSE indicates failure.
 #### Usage
 
 JS\_ExecuteScript (JSContext \*cx, JSObject \*obj, unsigned short \*script, unsigned int sz, jsval
->
 \*rval)
 
 #### Description

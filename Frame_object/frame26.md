@@ -11,7 +11,6 @@ frame.setMotionObjectXML( xmlstr \[, endAtCurrentLocation\] )
 #### Parameters
 
 **xmlstr** A string value that specifies the XML string.
->
 **endAtCurrentLocation** A boolean value that determines whether the tween starts or ends at the current position.
 
 #### Description

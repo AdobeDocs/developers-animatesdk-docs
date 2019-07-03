@@ -11,7 +11,6 @@ stroke.rotate
 #### Description
 
 Property; a string that specifies the rotation of a hatch line. This property is available only if the stroke.style
->
 property is set to hatched (see [stroke.style](#_bookmark898)). Acceptable values are "none", "slight", "medium", and "free".
 
 #### Example

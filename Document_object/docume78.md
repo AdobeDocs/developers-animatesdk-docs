@@ -11,9 +11,7 @@ document.getElementTextAttr(attrName \[, startIndex \[, endIndex\]\])
 #### Parameters
 
 **attrName** A string that specifies the name of the TextAttrs property to be returned. For a list of property names and expected values, see the Property summary table for the [TextAttrs object](#_bookmark1003).
->
 **startIndex** An integer that specifies the index of first character, with 0 (zero) specifying the first position. This parameter is optional.
->
 **endIndex** An integer that specifies the index of last character. This parameter is optional.
 
 #### Returns

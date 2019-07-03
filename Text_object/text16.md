@@ -11,7 +11,6 @@ text.orientation
 #### Description
 
 Property; a string that specifies the orientation of the text field. Acceptable values are "horizontal", "vertical left to right", and "vertical right to left".
->
 This property works only with static text; it generates a warning if used with other text types.
 
 #### Example

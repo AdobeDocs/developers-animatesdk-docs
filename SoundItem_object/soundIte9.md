@@ -11,7 +11,6 @@ soundItem.sampleRate
 #### Description
 
 Property; a string that specifies the sample rate for the audio clip. This property is available only for the ADPCM, Raw, and Speech compression types. Acceptable values are "5 kHz", "11 kHz", "22 kHz", and "44 kHz".
->
 If you want to specify a value for this property, set [soundItem.useImportedMP3Quality](#_bookmark842) to false.
 
 #### Example

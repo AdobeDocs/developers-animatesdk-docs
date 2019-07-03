@@ -11,7 +11,6 @@ xmlui.set(controlPropertyName, value)
 #### Parameters
 
 **controlPropertyName** A string that specifies the name of XMLUI property to modify.
->
 **value** A string that specifies the value to which you want to set the XMLUI property.
 
 #### Returns

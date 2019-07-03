@@ -19,9 +19,7 @@ A Boolean value: true if successful; false otherwise.
 #### Description
 
 Method; sets the XML metadata for the specified document, overwriting any existing metadata. The XML passed as *strMetadata* is validated and may be rewritten before being stored. If it cannot be validated as legal XML or violates specific rules, then the XML metadata is not set and false is returned. (If false is returned, there is no way to get more detailed error information.)
->
 ***Note:** Even if true is returned, the XML that is set may not be exactly the same string that you passed in. To get the exact value to which the XML was set, use [document.getMetadata()](#_bookmark209).*
->
 The format of the metadata is RDF that is compliant with the XMP specification. For more information about RDF and XMP, see the following sources:
 
 -   The RDF Primer at [www.w3.org/TR/rdf-primer/](http://www.w3.org/TR/rdf-primer/)

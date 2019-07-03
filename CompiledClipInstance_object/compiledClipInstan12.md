@@ -10,7 +10,7 @@ compiledClipInstance.colorMode
 
 #### Description
 
-Property; a string that specifies the color mode, as identified in the Symbol Properties dialog. Valid values are “none”, “brightness”, “tint”, “alpha”, and “advanced”.
+Property; a string that specifies the color mode, as identified in the Symbol Properties dialog. Valid values are "none", "brightness", "tint", "alpha", and "advanced".
 
 #### Example
 

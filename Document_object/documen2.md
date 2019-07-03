@@ -11,9 +11,7 @@ document.addDataToSelection(name, type, data)
 #### Parameters
 
 **name** A string that specifies the name of the persistent data.
->
 **type** Defines the type of data. Acceptable values are "integer", "integerArray", "double", "doubleArray", "string", and "byteArray".
->
 **data** The value to add. Valid types depend on the *type* parameter.
 
 #### Returns

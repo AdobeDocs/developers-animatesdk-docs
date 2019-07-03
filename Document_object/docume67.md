@@ -11,7 +11,6 @@ document.exportSWF(\[fileURI \[, bCurrentSettings\]\])
 #### Parameters
 
 **fileURI** A string, expressed as a file:/// URI, that specifies the name of the exported file. If *fileURI* is empty or not specified, Flash displays the Export Movie dialog box. This parameter is optional.
->
 **bCurrentSettings** A Boolean value that, when set to true, causes Flash to use current SWF publish settings. Otherwise, Flash displays the Export Flash Player dialog box. The default is false. This parameter is optional.
 
 #### Returns

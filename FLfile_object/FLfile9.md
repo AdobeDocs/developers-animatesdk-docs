@@ -11,7 +11,6 @@ FLfile.listFolder(folderURI \[, filesOrDirectories\])
 #### Parameters
 
 **folderURI** A string, expressed as a file:/// URI, specifying the folder whose contents you want to retrieve. You can include a wildcard mask as part of *folderURI*. Valid wildcards are \* (matches one or more characters) and ? (matches a single character).
->
 **filesOrDirectories** An optional string that specifies whether to return only filenames or only folder (directory) names. If omitted, both filenames and folder names are returned. Acceptable values are "files" and "directories".
 
 #### Returns

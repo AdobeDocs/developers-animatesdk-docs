@@ -11,9 +11,7 @@ document.scaleSelection(xScale, yScale \[, whichCorner\])
 #### Parameters
 
 **xScale** A floating-point value that specifies the amount of *x* by which to scale.
->
 **yScale** A floating-point value that specifies the amount of *y* by which to scale.
->
 **whichCorner** A string value that specifies the edge about which the transformation occurs. If omitted, scaling occurs about the transformation point. Acceptable values are: "bottom left", "bottom right", "top right", "top left", "top center", "right center", "bottom center", and "left center". This parameter is optional.
 
 #### Returns

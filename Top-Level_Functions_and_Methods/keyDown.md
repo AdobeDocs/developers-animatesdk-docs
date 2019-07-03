@@ -7,9 +7,7 @@ Flash MX 2004.
 #### Usage
 
 function keyDown() {
->
 // statements
->
 }
 
 #### Parameters
@@ -23,7 +21,6 @@ Nothing.
 #### Description
 
 Function; called when the extensible tool is active and the user presses a key. The script should call
->
 [tools.getKeyDown()](#_bookmark1112) to determine which key was pressed.
 
 #### Example

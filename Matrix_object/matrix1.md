@@ -11,7 +11,6 @@ matrix.b
 #### Description
 
 Property; a floating-point value that specifies the (0,1) element in the matrix. This value represents the vertical skew of a shape; it causes Flash to move the shape’s right edge along the vertical axis.
->
 The matrix.b and matrix.c properties in a matrix represent skewing (see [matrix.c](#matrix.c)).
 
 #### Example

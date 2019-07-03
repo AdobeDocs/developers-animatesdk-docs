@@ -15,7 +15,6 @@ shape.getCubicSegmentPoints(cubicSegmentIndex)
 #### Returns
 
 An array of points that define a cubic curve for the Edge object that corresponds to the specified *cubicSegmentIndex*
->
 (see [edge.cubicSegmentIndex](#_bookmark365)).
 
 #### Description

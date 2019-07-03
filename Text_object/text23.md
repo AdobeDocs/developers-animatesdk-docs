@@ -11,9 +11,7 @@ text.setTextString(text \[, startIndex \[, endIndex\]\])
 #### Parameters
 
 **text** A string that consists of the characters to be inserted into this Text object.
->
 **startIndex** An integer that specifies the index (zero-based) of the character in the string where the text will be inserted. This parameter is optional.
->
 **endIndex** An integer that specifies the index of the end point in the selected text string. The new text overwrites the text from *startIndex* up to, but not including, *endIndex*. This parameter is optional.
 
 #### Returns

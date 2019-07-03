@@ -11,7 +11,6 @@ SpriteSheetExporter.canBorderPad
 #### Description
 
 Read-only property; A boolean value indicating whether the framework specified by the
->
 SpriteSheetExporter.layoutFormat property supports border padding.
 
 #### Example

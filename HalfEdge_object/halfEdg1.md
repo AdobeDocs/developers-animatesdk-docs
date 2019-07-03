@@ -19,7 +19,6 @@ A HalfEdge object.
 #### Description
 
 Method; gets the next half edge on the current contour.
->
 ***Note:** Although half edges have a direction and a sequence order, edges do not.*
 
 #### Example

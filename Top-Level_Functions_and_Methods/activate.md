@@ -7,9 +7,7 @@ Flash MX 2004.
 #### Usage
 
 function activate() {
->
 // statements
->
 }
 
 #### Parameters

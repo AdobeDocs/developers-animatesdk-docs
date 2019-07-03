@@ -11,10 +11,8 @@ text.embedRanges
 #### Description
 
 Property; a string that consists of delimited integers that correspond to the items that can be selected in the Character Embedding dialog box. This property works only with dynamic or input text; it is ignored if used with static text.
->
 This property corresponds to the XML file in the Configuration/Font Embedding folder.
->
-***Note:** Beginning in Flash Professional CS5, font embedding is controlled at the document level instead of the text object level. Use the* *[“fontItem.embedRanges” on page 311](#_bookmark587) property instead of the text.embedRanges property.*
+***Note:** Beginning in Flash Professional CS5, font embedding is controlled at the document level instead of the text object level. Use the* *["fontItem.embedRanges" on page 311](#_bookmark587) property instead of the text.embedRanges property.*
 
 #### Example
 

@@ -29,13 +29,11 @@ Nothing.
 #### Description
 
 Method; sets the position of the element’s transformation point.
->
 This method is almost identical to [document.setTransformationPoint()](#_bookmark317). It is different in the following way:
 
 -   You can set transformation points for elements without first selecting them.
 
 This method moves the transformation point but does not move the element. By contrast, the
->
 [element.transformX](#_bookmark406) and [element.transformY](#_bookmark407) properties move the element.
 
 #### Example

@@ -11,7 +11,6 @@ drawingLayer.moveTo(x, y)
 #### Parameters
 
 **x** A floating-point value that specifies the *x* coordinate of the position at which to start drawing.
->
 **y** A floating-point value that specifies the *y* coordinate of the position at which to start drawing.
 
 #### Returns

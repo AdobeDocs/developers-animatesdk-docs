@@ -11,7 +11,6 @@ RectangleObject.topLeftRadius
 #### Description
 
 Read-only property; a float value that sets the radius of all corners of the rectangle (if [RectangleObject.lockFlag](#_bookmark801) is
->
 true) or that sets only the radius of the top-left corner (if RectangleObject.lockFlag is false). To set this value, use [document.setRectangleObjectProperty()](#_bookmark302).
 
 #### See also

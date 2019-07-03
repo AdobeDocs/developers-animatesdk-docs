@@ -19,7 +19,6 @@ A string that represents the class of which *ASvariableName* is a member.
 #### Description
 
 *Dropped in Adobe Animate.*
->
 Method; returns the class of the specified variable, which must be defined in the currently displayed Actions panel. In addition, the cursor or selected text in the Actions panel must be positioned after the variable definition.
 
 #### Example

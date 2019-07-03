@@ -19,7 +19,6 @@ A Boolean value that specifies whether Script Assist mode was enabled or disable
 #### Description
 
 *Dropped in Adobe Animate.*
->
 Method; enables or disables Script Assist mode.
 
 #### Example

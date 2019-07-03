@@ -11,9 +11,7 @@ fontItem.embedVariantGlyphs
 #### Description
 
 ***Note:** While this property is available in Flash CS5 Professional, it has no effect when applied to Text Layout Framework (TLF) text. Beginning in Flash Professional CS5, variant glyphs are always embedded in fonts used with TLF text. The flash.text.engine (FTE) referenced below is only available in Flash Professional CS4.*
->
 Property; a Boolean value that specifies whether variant glyphs should be output in the font when publishing a SWF file (true) or not (false). Setting this value to true increases the size of your SWF file. The default value is false.
->
 Some languages dynamically substitute characters glyphs as you are typing (for example, Thai, Arabic, Hebrew, and Greek). If you are laying out or inputting text in these types of languages, set this property to true.
 
 #### Examples

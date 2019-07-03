@@ -15,7 +15,7 @@ Method: Sets the keyboard focus to the specified SWF panel.
 #### Example
 
 ```
-The following code sets the focus to the SWF panel named “Project”:
+The following code sets the focus to the SWF panel named "Project":
 Please do the followings steps before running this command:
 
 1.  Undock the Project panel, so it is a floating panel.

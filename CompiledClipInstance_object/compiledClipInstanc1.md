@@ -11,7 +11,6 @@ compiledClipInstance.actionScript
 #### Description
 
 *Dropped in Adobe Animate.*
->
 Property; a string that represents the ActionScript for this instance; equivalent to [symbolInstance.actionScript -](#_bookmark918) [dropped](#_bookmark918).
 
 #### Example

@@ -11,7 +11,6 @@ document.selection
 #### Description
 
 Property; an array of the selected objects in the document. If nothing is selected, returns an array of length zero. If no document is open, returns null.
->
 To add objects to the array, you must first select them in one of the following ways:
 
 -   Manually select objects on the Stage.

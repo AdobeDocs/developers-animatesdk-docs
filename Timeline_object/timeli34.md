@@ -11,9 +11,7 @@ timeline.pasteFrames(\[startFrameIndex \[, endFrameIndex\]\])
 #### Parameters
 
 **startFrameIndex** A zero-based index that specifies the beginning of a range of frames to paste. If you omit
->
 *startFrameIndex*, the method uses the current selection. This parameter is optional.
->
 **endFrameIndex** A zero-based index that specifies the frame at which to stop pasting frames. The method pastes up to, but not including, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the *startFrameIndex* value. This parameter is optional.
 
 #### Returns

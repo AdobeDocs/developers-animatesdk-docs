@@ -11,11 +11,8 @@ timeline.setSelectedFrames(startFrameIndex, endFrameIndex \[, bReplaceCurrentSel
 #### Parameters
 
 **startFrameIndex** A zero-based index that specifies the beginning frame to set.
->
 **endFrameIndex** A zero-based index that specifies the end of the selection; *endFrameIndex* is the frame after the last frame in the range to select.
->
 **bReplaceCurrentSelection** A Boolean value that, if it is set to true, causes the currently selected frames to be deselected before the specified frames are selected. The default value is true.
->
 **selectionList** An array of three integers, as returned by timeline.getSelectedFrames().
 
 #### Returns

@@ -11,9 +11,7 @@ library.selectItem(namePath \[, bReplaceCurrentSelection \[, bSelect\]\])
 #### Parameters
 
 **namePath** A string that specifies the name of the item. If the item is in a folder, you can specify its name and path using slash notation.
->
 **bReplaceCurrentSelection** A Boolean value that specifies whether to replace the current selection or add the item to the current selection. The default value is true (replace current selection). This parameter is optional.
->
 **bSelect** A Boolean value that specifies whether to select or deselect an item. The default value is true (select). This parameter is optional.
 
 #### Returns

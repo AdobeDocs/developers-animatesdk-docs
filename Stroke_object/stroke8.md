@@ -11,7 +11,6 @@ stroke.dotSpace
 #### Description
 
 Property; an integer that specifies the spacing between dots in a dotted line. This property is available only if the
->
 stroke.style property is set to dotted. See [stroke.style](#_bookmark898).
 
 #### Example

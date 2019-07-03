@@ -11,7 +11,6 @@ OvalObject.innerRadius
 #### Description
 
 Read-only property; a float value that specifies the inner radius of the Oval object as a percentage. Acceptable values are from 0 to 99.
->
 To set this value, use [document.setOvalObjectProperty()](#_bookmark298).
 
 #### Example

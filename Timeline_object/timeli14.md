@@ -11,9 +11,7 @@ timeline.cutFrames(\[startFrameIndex \[, endFrameIndex\]\])
 #### Parameters
 
 **startFrameIndex** A zero-based index that specifies the beginning of a range of frames to cut. If you omit
->
 *startFrameIndex*, the method uses the current selection. This parameter is optional.
->
 **endFrameIndex** A zero-based index that specifies the frame at which to stop cutting. The range of frames goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the *startFrameIndex* value. This parameter is optional.
 
 #### Returns

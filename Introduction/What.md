@@ -1,8 +1,7 @@
 ## What’s new in the JavaScript API
 
 The following section lists new objects, methods, and properties in Flash CC. It also lists changes in Flash CS5, CS5.5, and CS6.
->
-If you have not used the JavaScript API before, you might want to skip this section and go directly to [“JavaScript API](#JavaScript_API_objects) [objects” on page 10](#JavaScript_API_objects)).
+If you have not used the JavaScript API before, you might want to skip this section and go directly to ["JavaScript API](#JavaScript_API_objects) [objects" on page 10](#JavaScript_API_objects)).
 
 ### New methods and properties in Flash CC
 

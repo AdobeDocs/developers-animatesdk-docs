@@ -3,7 +3,6 @@
 #### Availability
 
 Flash MX 2004.
->
 **TextRun object**
 
 #### Usage

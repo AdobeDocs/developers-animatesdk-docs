@@ -17,7 +17,6 @@ document.getCustomFill(\[objectToFill\])
 -   "selection" returns the fill object of the selection.
 
 If you omit this parameter, the default value is "selection". If there is no selection, the method returns
->
 undefined. This parameter is optional.
 
 #### Returns

@@ -7,9 +7,7 @@ Flash MX 2004.
 #### Description
 
 The Timeline object represents the Flash timeline, which can be accessed for the current document by using fl.getDocumentDOM().getTimeline(). This method returns the timeline of the current scene or symbol that is being edited.
->
 When you work with scenes, each scene’s timeline has an index value, and can be accessed for the current document by fl.getDocumentDOM().timelines\[i\]. (In this example, i is the index of the value of the timeline.)
->
 When you work with frames by using the methods and properties of the Timeline object, remember that the frame value is a zero-based index (not the actual frame number in the sequence of frames in the timeline). That is, the first frame has a frame index of 0.
 
 #### Method summary

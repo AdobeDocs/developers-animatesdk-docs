@@ -11,7 +11,6 @@ document.addItem(position, item)
 #### Parameters
 
 **position** A point that specifies the *x* and *y* coordinates of the location at which to add the item. It uses the center of a symbol or the upper left corner of a bitmap or video.
->
 **item** An Item object that specifies the item to add and the library from which to add it (see [Item object](#_bookmark658)).
 
 #### Returns

@@ -11,7 +11,6 @@ path.makeShape(\[bSupressFill \[, bSupressStroke\]\])
 #### Parameters
 
 **bSuppressFill** A Boolean value that, if set to true, suppresses the fill that would be applied to the shape. The default value is false. This parameter is optional.
->
 **bSupressStroke** A Boolean value that, if set to true, suppresses the stroke that would be applied to the shape. The default value is false. This parameter is optional.
 
 #### Returns

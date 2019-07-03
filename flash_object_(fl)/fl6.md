@@ -19,7 +19,6 @@ Nothing.
 #### Description
 
 Method; copies the specified string to the Clipboard.
->
 To copy the current selection to the Clipboard, use [document.clipCopy()](#_bookmark151).
 
 #### Example

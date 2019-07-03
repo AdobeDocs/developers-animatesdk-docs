@@ -11,9 +11,7 @@ document.space(direction \[, bUseDocumentBounds\])
 #### Parameters
 
 **direction** A string that specifies the direction in which to space the objects in the selection. Acceptable values are
->
 "horizontal" or "vertical".
->
 **bUseDocumentBounds** A Boolean value that, when set to true*,* spaces the objects to the document bounds. Otherwise, the method uses the bounds of the selected objects. The default is false. This parameter is optional.
 
 #### Returns

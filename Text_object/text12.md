@@ -11,7 +11,6 @@ text.getTextString(\[startIndex \[, endIndex\]\])
 #### Parameters
 
 **startIndex** An integer that specifies the index (zero-based) of the first character. This parameter is optional.
->
 **endIndex** An integer that specifies the end of the range of text, which starts from *startIndex* and goes up to, but does not include, *endIndex*. This parameter is optional.
 
 #### Returns

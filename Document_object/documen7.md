@@ -11,9 +11,7 @@ document.addNewPrimitiveOval( boundingRectangle \[, bSpupressFill \[, bSuppressS
 #### Parameters
 
 **boundingRectangle** A rectangle that specifies the bounds within which the new oval primitive is added. For information on the format of *boundingRectangle*, see [document.addNewRectangle()](#_bookmark128).
->
 **bSuppressFill** A Boolean value that, if set to true, causes the method to create the oval without a fill. The default value is false. This parameter is optional.
->
 **bSuppressStroke** A Boolean value that, if set to true, causes the method to create the oval without a stroke**.** The default value is false. This parameter is optional.
 
 #### Returns

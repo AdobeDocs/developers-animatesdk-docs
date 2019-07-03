@@ -11,11 +11,8 @@ parameter.insertItem(index, name, value, type)
 #### Parameters
 
 **index** A zero-based integer index that indicates where the item will be inserted in the object or array. If the index is 0, the item is inserted at the beginning. If the index is greater than the list size, the new item is inserted at the end.
->
 **name** A string that specifies the name of the item to insert. This is a required parameter for object parameters.
->
 **value** A string that specifies the value of the item to insert.
->
 **type** A string that specifies the type of item to insert.
 
 #### Returns

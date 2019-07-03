@@ -11,7 +11,6 @@ document.changeFilterOrder(oldIndex, newIndex)
 #### Parameters
 
 **oldIndex** An integer that represents the current zero-based index position of the filter you want to reposition in the Filters list.
->
 **newIndex** An integer that represents the new index position of the filter in the list.
 
 #### Returns

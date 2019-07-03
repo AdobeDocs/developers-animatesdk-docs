@@ -11,7 +11,6 @@ soundItem.compressionType
 #### Description
 
 Property; a string that specifies that compression type for a sound in the library. Acceptable values are "Default", "ADPCM", "MP3", "Raw", and "Speech".
->
 If you want to specify a value for this property, set [soundItem.useImportedMP3Quality](#_bookmark842) to false.
 
 #### Example
