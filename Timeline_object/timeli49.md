@@ -2,22 +2,24 @@
 
 #### Availability
 
-> Flash Professional CS5.
+Flash Professional CS5.
 
 #### Usage
 
-> timeline.startPlayback()
+timeline.startPlayback()
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; starts automatic playback of the timeline if it is currently playing. This method can be used with SWF panels to control timeline playback in the authoring environment.
+Method; starts automatic playback of the timeline if it is currently playing. This method can be used with SWF panels to control timeline playback in the authoring environment.
 
 #### Example
 
-> The following example starts playback of the timeline.
->
-> fl.getDocumentDOM().getTimeline().startPlayback();
+```
+The following example starts playback of the timeline.
+fl.getDocumentDOM().getTimeline().startPlayback();
+
+```

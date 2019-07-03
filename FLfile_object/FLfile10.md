@@ -2,34 +2,33 @@
 
 #### Availability
 
-> Flash CS4 Professional.
+Flash CS4 Professional.
 
 #### Usage
 
-> FLfile.platformPathToURI(fileName)
+FLfile.platformPathToURI(fileName)
 
 #### Parameters
 
-> **fileName** A string, expressed in a platform-specific format, specifying the filename you want to convert.
+**fileName** A string, expressed in a platform-specific format, specifying the filename you want to convert.
 
 #### Returns
 
-> A string expressed as a file:/// URI.
+A string expressed as a file:/// URI.
 
 #### Description
 
-> Method; converts a filename in a platform-specific format to a file:/// URI.
+Method; converts a filename in a platform-specific format to a file:/// URI.
 
 #### Example
 
-> The following example converts a filename from a platform-specific format to a file:/// URI, which is passed to
->
-> outputPanel.save():
->
-> var myFilename = "C:\\\\outputPanel.txt";
->
-> var myURI=FLfile.platformPathToURI(myFilename); fl.outputPanel.save(myURI);
+```
+The following example converts a filename from a platform-specific format to a file:/// URI, which is passed to
+outputPanel.save():
+var myFilename = "C:\\\\outputPanel.txt";
+var myURI=FLfile.platformPathToURI(myFilename); fl.outputPanel.save(myURI);
 
+```
 #### See also
 
-> [FLfile.uriToPlatformPath()](#_bookmark576)
+[FLfile.uriToPlatformPath()](#_bookmark576)

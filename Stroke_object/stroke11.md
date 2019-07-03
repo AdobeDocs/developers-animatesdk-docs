@@ -2,16 +2,16 @@
 
 #### Availability
 
-> Flash 8.
+Flash 8.
 
 #### Usage
 
-> stroke.joinType
+stroke.joinType
 
 #### Description
 
-> Property; a string that specifies the type of join for the stroke. Acceptable values are "miter", "round", and "bevel".
+Property; a string that specifies the type of join for the stroke. Acceptable values are "miter", "round", and "bevel".
 
 #### See also
 
-> [stroke.capType](#_bookmark879)
+[stroke.capType](#_bookmark879)

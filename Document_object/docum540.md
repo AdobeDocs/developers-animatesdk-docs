@@ -2,26 +2,28 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> document.setInstanceAlpha(opacity)
+document.setInstanceAlpha(opacity)
 
 #### Parameters
 
-> **opacity** An integer between 0 (transparent) and 100 (completely saturated) that adjusts the transparency of the instance.
+**opacity** An integer between 0 (transparent) and 100 (completely saturated) that adjusts the transparency of the instance.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Methods; sets the opacity of the instance.
+Methods; sets the opacity of the instance.
 
 #### Example
 
-> The following example sets the opacity of the tint to a value of 50:
->
-> fl.getDocumentDOM().setInstanceAlpha(50);
+```
+The following example sets the opacity of the tint to a value of 50:
+fl.getDocumentDOM().setInstanceAlpha(50);
+
+```

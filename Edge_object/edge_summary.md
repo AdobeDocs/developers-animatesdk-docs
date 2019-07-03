@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The Edge object represents an edge of a shape on the Stage.
+The Edge object represents an edge of a shape on the Stage.
 
 #### Method summary
 
-> The following methods are available for the Edge object:
+The following methods are available for the Edge object:
 
 | **Method**                          | **Description**                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
@@ -21,7 +21,7 @@
 
 #### Property summary
 
-> The following properties are available for the Edge object:
+The following properties are available for the Edge object:
 
 | **Property**                                      | **Description**                                                           |
 |---------------------------------------------------|---------------------------------------------------------------------------|
@@ -31,3 +31,4 @@
 | [edge.stroke](#_bookmark372)                      | A [Stroke object](#_bookmark876).                                         |
 
 <span id="edge.cubicSegmentIndex" class="anchor"></span>
+

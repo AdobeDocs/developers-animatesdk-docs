@@ -2,28 +2,30 @@
 
 #### Availability
 
-> Flash 8.
+Flash 8.
 
 #### Usage
 
-> document.getBlendMode()
+document.getBlendMode()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> A string that specifies the blending mode for the selected objects. If more than one object is selected and they have different blending modes, the string reflects the blending mode of the object with the highest depth.
+A string that specifies the blending mode for the selected objects. If more than one object is selected and they have different blending modes, the string reflects the blending mode of the object with the highest depth.
 >
-> ***Note:** The return value is unpredictable if the selection contains objects that donâ€™t support blending modes, or that have a blending mode value of "normal".*
+***Note:** The return value is unpredictable if the selection contains objects that don’t support blending modes, or that have a blending mode value of "normal".*
 
 #### Description
 
-> Method; returns a string that specifies the blending mode for the selected objects.
+Method; returns a string that specifies the blending mode for the selected objects.
 
 #### Example
 
-> The following example displays the name of the blending mode in the Output panel:
->
-> fl.trace(fl.getDocumentDom().getBlendMode());
+```
+The following example displays the name of the blending mode in the Output panel:
+fl.trace(fl.getDocumentDom().getBlendMode());
+
+```

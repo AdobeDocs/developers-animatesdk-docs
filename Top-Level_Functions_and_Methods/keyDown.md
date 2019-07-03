@@ -2,42 +2,41 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> function keyDown() {
+function keyDown() {
 >
-> // statements
+// statements
 >
-> }
+}
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Function; called when the extensible tool is active and the user presses a key. The script should call
+Function; called when the extensible tool is active and the user presses a key. The script should call
 >
-> [tools.getKeyDown()](#_bookmark1112) to determine which key was pressed.
+[tools.getKeyDown()](#_bookmark1112) to determine which key was pressed.
 
 #### Example
 
-> The following example displays information about which key was pressed when the extensible tool is active and the user presses a key.
->
-> function keyDown() {
->
-> fl.trace("key " + fl.tools.getKeyDown() + " was pressed");
->
-> }
+```
+The following example displays information about which key was pressed when the extensible tool is active and the user presses a key.
+function keyDown() {
+fl.trace("key " + fl.tools.getKeyDown() + " was pressed");
+}
 
+```
 #### See also
 
-> [keyUp()](#keyUp()), [tools.getKeyDown()](#_bookmark1112)
+[keyUp()](#keyUp()), [tools.getKeyDown()](#_bookmark1112)
 
 <span id="keyUp()" class="anchor"></span>

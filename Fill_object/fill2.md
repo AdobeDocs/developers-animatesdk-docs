@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> fill.color
+fill.color
 
 #### Description
 
-> Property; the color of the fill, in one of the following formats:
+Property; the color of the fill, in one of the following formats:
 
 -   A string in the format "\#RRGGBB" or "\#RRGGBBAA"
 
@@ -20,6 +20,8 @@
 
 #### Example
 
-> The following example sets the fill color of the current selection:
->
-> var fill = fl.getDocumentDOM().getCustomFill(); fill.color = "\#FFFFFF"; fl.getDocumentDOM().setCustomFill( fill );
+```
+The following example sets the fill color of the current selection:
+var fill = fl.getDocumentDOM().getCustomFill(); fill.color = "\#FFFFFF"; fl.getDocumentDOM().setCustomFill( fill );
+
+```

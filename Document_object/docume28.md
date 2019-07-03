@@ -2,32 +2,32 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> document.canTestScene()
+document.canTestScene()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> A Boolean value: true if you can use the document.testScene() method successfully; false otherwise.
+A Boolean value: true if you can use the document.testScene() method successfully; false otherwise.
 
 #### Description
 
-> Method; determines whether you can use the [document.testScene()](#_bookmark329) method successfully.
+Method; determines whether you can use the [document.testScene()](#_bookmark329) method successfully.
 
 #### Example
 
-> The following example first tests whether fl.getDocumentDOM().testScene() can be used successfully. If so, it calls the method.
->
-> if(fl.getDocumentDOM().canTestScene()){ fl.getDocumentDOM().testScene();
->
-> }
+```
+The following example first tests whether fl.getDocumentDOM().testScene() can be used successfully. If so, it calls the method.
+if(fl.getDocumentDOM().canTestScene()){ fl.getDocumentDOM().testScene();
+}
 
+```
 #### See also
 
-> [document.canTestMovie()](#_bookmark147), [document.testMovie()](#_bookmark328)
+[document.canTestMovie()](#_bookmark147), [document.testMovie()](#_bookmark328)

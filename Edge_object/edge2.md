@@ -2,28 +2,29 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> edge.getHalfEdge(index)
+edge.getHalfEdge(index)
 
 #### Parameters
 
-> **index** An integer that specifies which half edge to return. The value of *index* must be either 0 for the first half edge or 1 for the second half edge.
+**index** An integer that specifies which half edge to return. The value of *index* must be either 0 for the first half edge or 1 for the second half edge.
 
 #### Returns
 
-> A HalfEdge object.
+A HalfEdge object.
 
 #### Description
 
-> Method; returns a [HalfEdge object](#_bookmark644).
+Method; returns a [HalfEdge object](#_bookmark644).
 
 #### Example
 
-> The following example stores the half edges of the specified edge in the hEdge0 and hEdge1 variables:
->
-> var shape = fl.getDocumentDOM().selection\[0\]; var edge = shape.edges\[0\];
->
-> var hEdge0 = edge.getHalfEdge(0); var hEdge1 = edge.getHalfEdge(1);
+```
+The following example stores the half edges of the specified edge in the hEdge0 and hEdge1 variables:
+var shape = fl.getDocumentDOM().selection\[0\]; var edge = shape.edges\[0\];
+var hEdge0 = edge.getHalfEdge(0); var hEdge1 = edge.getHalfEdge(1);
+
+```

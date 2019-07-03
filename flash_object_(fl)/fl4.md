@@ -2,30 +2,31 @@
 
 #### Availability
 
-> Flash 8.
+Flash 8.
 
 #### Usage
 
-> fl.browseForFolderURL(\[description\])
+fl.browseForFolderURL(\[description\])
 
 #### Parameters
 
-> **description** An optional string that specifies the description of the Browse For Folder dialog box. If this parameter is omitted, the dialog box title is â€œSelect Folder.â€
+**description** An optional string that specifies the description of the Browse For Folder dialog box. If this parameter is omitted, the dialog box title is “Select Folder.”
 
 #### Returns
 
-> The URL of the folder, expressed as a file:/// URI; returns null if the user cancels out of the dialog box.
+The URL of the folder, expressed as a file:/// URI; returns null if the user cancels out of the dialog box.
 
 #### Description
 
-> Method; displays a Browse for Folder dialog box and lets the user select a folder.
+Method; displays a Browse for Folder dialog box and lets the user select a folder.
 
 #### Example
 
-> The following example lets the user select a folder and then displays a list of files in that folder:
->
-> var folderURI = fl.browseForFolderURL("Select a folder."); var folderContents = FLfile.listFolder(folderURI);
+```
+The following example lets the user select a folder and then displays a list of files in that folder:
+var folderURI = fl.browseForFolderURL("Select a folder."); var folderContents = FLfile.listFolder(folderURI);
 
+```
 #### See also
 
-> [fl.browseForFileURL()](#_bookmark453), [FLfile object](#_bookmark559)
+[fl.browseForFileURL()](#_bookmark453), [FLfile object](#_bookmark559)

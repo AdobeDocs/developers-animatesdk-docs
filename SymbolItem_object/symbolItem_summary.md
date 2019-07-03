@@ -1,18 +1,18 @@
 ## symbolItem summary
 
-> **Inheritance** [Item object](#_bookmark658) \> SymbolItem object
+**Inheritance** [Item object](#_bookmark658) \SymbolItem object
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The SymbolItem object is a subclass of the [Item object](#_bookmark658).
+The SymbolItem object is a subclass of the [Item object](#_bookmark658).
 
 #### Method summary
 
-> In addition to the Item object methods, you can use the following methods with the SymbolItem object:
+In addition to the Item object methods, you can use the following methods with the SymbolItem object:
 
 | **Method**                                                                | **Description**                                                 |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------|
@@ -24,7 +24,7 @@
 
 #### Property summary
 
-> In addition to the Item object properties, the following properties are available for the SymbolItem object:
+In addition to the Item object properties, the following properties are available for the SymbolItem object:
 
 | **Property**                                  | **Description**                                                                            |
 |-----------------------------------------------|--------------------------------------------------------------------------------------------|
@@ -38,3 +38,4 @@
 | [symbolItem.timeline](#_bookmark964)          | Read-only; a [Timeline object](#_bookmark1030).                                            |
 
 <span id="symbolItem.convertToCompiledClip()" class="anchor"></span>
+

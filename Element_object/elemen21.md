@@ -2,22 +2,23 @@
 
 #### Availability
 
-> Flash CS3 Professional.
+Flash CS3 Professional.
 
 #### Usage
 
-> element.skewY
+element.skewY
 
 #### Description
 
-> Property; a float value between -180 and 180 that specifies the *y* skew value of symbols, drawing objects, and primitive rectangles and ovals.
+Property; a float value between -180 and 180 that specifies the *y* skew value of symbols, drawing objects, and primitive rectangles and ovals.
 
 #### Example
 
-> The following example sets the *y* skew value of the current selection to 10:
->
-> var element = fl.getDocumentDOM().selection\[0\]; element.skewY = 10;
+```
+The following example sets the *y* skew value of the current selection to 10:
+var element = fl.getDocumentDOM().selection\[0\]; element.skewY = 10;
 
+```
 #### See also
 
-> [document.setTransformationPoint()](#_bookmark317), [element.skewX](#_bookmark402)
+[document.setTransformationPoint()](#_bookmark317), [element.skewX](#_bookmark402)

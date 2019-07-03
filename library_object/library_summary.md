@@ -2,17 +2,17 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The library object represents the Library panel. It is a property of the Document object (see [document.library](#_bookmark232)) and can be accessed by fl.getDocumentDOM().library.
+The library object represents the Library panel. It is a property of the Document object (see [document.library](#_bookmark232)) and can be accessed by fl.getDocumentDOM().library.
 >
-> The library object contains an array of items of different types, including symbols, bitmaps, sounds, and video.
+The library object contains an array of items of different types, including symbols, bitmaps, sounds, and video.
 
 #### Method summary
 
-> The following methods are available for the library object:
+The following methods are available for the library object:
 
 | **Method**                                                  | **Description**                                                                                                                                                  |
 |-------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -21,7 +21,7 @@
 | [library.deleteItem()](#_bookmark698)                       | Deletes the current items or a specified item from the Library panel.                                                                                            |
 | [library.duplicateItem()](#_bookmark699)                    | Makes a copy of the currently selected or specified item.                                                                                                        |
 | [library.editItem()](#_bookmark700)                         | Opens the currently selected or specified item in Edit mode.                                                                                                     |
-| [library.findItemIndex()](#_bookmark701)                    | Returns the library itemâ€™s index value (zero-based).                                                                                                             |
+| [library.findItemIndex()](#_bookmark701)                    | Returns the library item’s index value (zero-based).                                                                                                             |
 | [library.getItemProperty()](#_bookmark702)                  | Gets the property for the selected item.                                                                                                                         |
 | [library.getItemType()](#_bookmark703)                      | Gets the type of object currently selected or specified by a library path.                                                                                       |
 | [library.getSelectedItems()](#_bookmark704)                 | Gets the array of all currently selected items in the library.                                                                                                   |
@@ -37,7 +37,7 @@
 
 #### Property summary for the library object
 
-> The following property is available for the library object:
+The following property is available for the library object:
 
 | **Property**                         | **Description**                                              |
 |--------------------------------------|--------------------------------------------------------------|
@@ -45,3 +45,4 @@
 | [library.unusedItems](#_bookmark715) | An array of library Items that are not used in the document. |
 
 <span id="library.addItemToDocument()" class="anchor"></span>
+

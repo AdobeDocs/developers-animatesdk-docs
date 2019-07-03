@@ -2,32 +2,32 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> document.setCustomFill(fill)
+document.setCustomFill(fill)
 
 #### Parameters
 
-> **fill** A Fill object that specifies the fill settings to be used. See [Fill object](#_bookmark412).
+**fill** A Fill object that specifies the fill settings to be used. See [Fill object](#_bookmark412).
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; sets the fill settings for the Tools panel, Property inspector, and any selected shapes. This allows a script to set the fill settings before drawing the object, rather than drawing the object, selecting it, and changing the fill settings. It also lets a script change the Tools panel and Property inspector fill settings.
+Method; sets the fill settings for the Tools panel, Property inspector, and any selected shapes. This allows a script to set the fill settings before drawing the object, rather than drawing the object, selecting it, and changing the fill settings. It also lets a script change the Tools panel and Property inspector fill settings.
 
 #### Example
 
-> The following example changes the color of the fill color swatch in the Tools panel, Property inspector, and any selected shapes to white:
->
-> var fill = fl.getDocumentDOM().getCustomFill(); fill.color = '\#FFFFFF';
->
-> fill.style = "solid"; fl.getDocumentDOM().setCustomFill(fill);
+```
+The following example changes the color of the fill color swatch in the Tools panel, Property inspector, and any selected shapes to white:
+var fill = fl.getDocumentDOM().getCustomFill(); fill.color = '\#FFFFFF';
+fill.style = "solid"; fl.getDocumentDOM().setCustomFill(fill);
 
+```
 #### See also
 
-> [document.getCustomFill()](#_bookmark200)
+[document.getCustomFill()](#_bookmark200)

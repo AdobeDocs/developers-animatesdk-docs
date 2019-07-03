@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> stroke.style
+stroke.style
 
 #### Description
 
-> Property; a string that describes the stroke style. Acceptable values are "noStroke","solid", "dashed", "dotted", "ragged", "stipple", and "hatched". Some of these values require additional properties of the Stroke object to be set, as described in the following list:
+Property; a string that describes the stroke style. Acceptable values are "noStroke","solid", "dashed", "dotted", "ragged", "stipple", and "hatched". Some of these values require additional properties of the Stroke object to be set, as described in the following list:
 
 -   If value is "solid" or "noStroke", there are no other properties.
 
@@ -24,10 +24,12 @@
 
 -   If value is "hatched", there are six additional properties: hatchThickness, space, jiggle, rotate, curve, and
 
-> length.
+length.
 
 #### Example
 
-> The following example sets the stroke style to ragged:
->
-> var myStroke = fl.getDocumentDOM().getCustomStroke(); myStroke.style = "ragged"; fl.getDocumentDOM().setCustomStroke(myStroke);
+```
+The following example sets the stroke style to ragged:
+var myStroke = fl.getDocumentDOM().getCustomStroke(); myStroke.style = "ragged"; fl.getDocumentDOM().setCustomStroke(myStroke);
+
+```

@@ -2,26 +2,28 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> library.selectNone()
+library.selectNone()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; deselects all the library items.
+Method; deselects all the library items.
 
 #### Example
 
-> The following examples deselect all the items in the library:
->
-> fl.getDocumentDOM().library.selectNone(); fl.getDocumentDOM().library.selectAll(false);
+```
+The following examples deselect all the items in the library:
+fl.getDocumentDOM().library.selectNone(); fl.getDocumentDOM().library.selectAll(false);
+
+```

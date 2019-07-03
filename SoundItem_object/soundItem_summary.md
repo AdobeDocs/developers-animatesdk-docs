@@ -1,20 +1,20 @@
 ## soundItem summary
 
-> **Inheritance** [Item object](#_bookmark658) \> SoundItem object
+**Inheritance** [Item object](#_bookmark658) \SoundItem object
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The SoundItem object is a subclass of the Item object. It represents a library item used to create a sound. See also
+The SoundItem object is a subclass of the Item object. It represents a library item used to create a sound. See also
 >
-> [frame.soundLibraryItem](#_bookmark631) and [Item object](#_bookmark658).
+[frame.soundLibraryItem](#_bookmark631) and [Item object](#_bookmark658).
 
 #### Method summary
 
-> In addition to the Item object methods, the SoundItem object has the following method:
+In addition to the Item object methods, the SoundItem object has the following method:
 
 | **Method**                                | **Description**                                                           |
 |-------------------------------------------|---------------------------------------------------------------------------|
@@ -22,7 +22,7 @@
 
 #### Property summary
 
-> In addition to the Item object properties, the following properties are available for the SoundItem object:
+In addition to the Item object properties, the following properties are available for the SoundItem object:
 
 | **Property**                                       | **Description**                                                                                                                                                                                                                                 |
 |----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -44,3 +44,4 @@
 | [soundItem.useImportedMP3Quality](#_bookmark842) | A Boolean value; if true, all other properties are ignored, and the imported MP3 quality is used.                                                                            |
 
 <span id="soundItem.bitRate" class="anchor"></span>
+

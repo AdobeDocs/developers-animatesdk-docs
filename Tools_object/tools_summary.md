@@ -2,17 +2,17 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The Tools object is accessible from the flash object ([fl.tools](#_bookmark550)). The [tools.toolObjs](#_bookmark1120) property contains an array of ToolObj objects, and the [tools.activeTool](#tools.activeTool) property returns the ToolObj object for the currently active tool. (See also [ToolObj object](#_bookmark1089) and the list of Extensible tools in [â€œTop-Level Functions and Methodsâ€ on page 18](#_bookmark13).)
+The Tools object is accessible from the flash object ([fl.tools](#_bookmark550)). The [tools.toolObjs](#_bookmark1120) property contains an array of ToolObj objects, and the [tools.activeTool](#tools.activeTool) property returns the ToolObj object for the currently active tool. (See also [ToolObj object](#_bookmark1089) and the list of Extensible tools in [“Top-Level Functions and Methods” on page 18](#_bookmark13).)
 >
-> ***Note:** The following methods and properties are used only when creating extensible tools.*
+***Note:** The following methods and properties are used only when creating extensible tools.*
 
 #### Method summary
 
-> The following methods are available for the Tools object:
+The following methods are available for the Tools object:
 
 | **Method**                               | **Description**                                                                                                   |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
@@ -23,7 +23,7 @@
 
 #### Property summary
 
-> The following properties are available for the Tools object:
+The following properties are available for the Tools object:
 
 | **Property**                          | **Description**                                                                            |
 |---------------------------------------|--------------------------------------------------------------------------------------------|
@@ -37,3 +37,4 @@
 | [tools.toolObjs](#_bookmark1120)      | Read-only; an array of ToolObj objects.                                                    |
 
 <span id="tools.activeTool" class="anchor"></span>
+

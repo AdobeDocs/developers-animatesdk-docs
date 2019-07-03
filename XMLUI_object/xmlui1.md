@@ -2,24 +2,24 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> xmlui.cancel()
+xmlui.cancel()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; closes the current XMLUI dialog box with a cancel state, which is equivalent to the user clicking the Cancel button.
+Method; closes the current XMLUI dialog box with a cancel state, which is equivalent to the user clicking the Cancel button.
 
 #### See also
 
-> [fl.xmlui](#_bookmark557), [document.xmlPanel()](#_bookmark342), [xmlui.accept()](#_bookmark1153)
+[fl.xmlui](#_bookmark557), [document.xmlPanel()](#_bookmark342), [xmlui.accept()](#_bookmark1153)

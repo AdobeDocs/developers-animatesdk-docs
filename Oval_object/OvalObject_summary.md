@@ -1,20 +1,20 @@
 ## OvalObject summary
 
-> **Inheritance** [Element object](#_bookmark374) \> [Shape object](#_bookmark805) \> Oval object
+**Inheritance** [Element object](#_bookmark374) \[Shape object](#_bookmark805) \Oval object
 
 #### Availability
 
-> Flash CS3 Professional.
+Flash CS3 Professional.
 
 #### Description
 
-> The Oval object is a shape that is drawn using the Oval Primitive tool. To determine if an item is an Oval object, use
+The Oval object is a shape that is drawn using the Oval Primitive tool. To determine if an item is an Oval object, use
 >
-> [shape.isOvalObject](#_bookmark820).
+[shape.isOvalObject](#_bookmark820).
 
 #### Property summary
 
-> In addition to the [Shape object](#_bookmark805) properties, you can use the following properties with the Oval object. To set the properties of an Oval object, use [document.setOvalObjectProperty()](#_bookmark298).
+In addition to the [Shape object](#_bookmark805) properties, you can use the following properties with the Oval object. To set the properties of an Oval object, use [document.setOvalObjectProperty()](#_bookmark298).
 
 | **Property**                                  | **Description**                                                                                                   |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
@@ -24,3 +24,4 @@
 | [OvalObject.startAngle](#_bookmark746)        | Read-only; a float value that specifies the start angle of the Oval object.                                       |
 
 <span id="OvalObject.closePath" class="anchor"></span>
+

@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Flash CS3 Professional.
+Flash CS3 Professional.
 
 #### Description
 
-> The actionsPanel object, which represents the currently displayed Actions panel, is a property of the flash object (see [fl.actionsPanel](#_bookmark450)).
+The actionsPanel object, which represents the currently displayed Actions panel, is a property of the flash object (see [fl.actionsPanel](#_bookmark450)).
 
 #### Method summary
 
-> The following methods can be used with the actionsPanel object:
+The following methods can be used with the actionsPanel object:
 
 | **Method**                                                                                                                           | **Description**                                                        |
 |--------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
@@ -25,3 +25,4 @@
 | [actionsPanel.setText()](#_bookmark41)                                                                                               | Clears any text in the Actions panel and then adds specified text.     |
 
 <span id="actionsPanel.getClassForObject()_-_dropp" class="anchor"></span>
+

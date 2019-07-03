@@ -2,18 +2,21 @@
 
 #### Availability
 
-> Flash Pro CS6.
+Flash Pro CS6.
 
 #### Usage
 
-> SpriteSheetExporter.sheetWidth
+SpriteSheetExporter.sheetWidth
 
 #### Description
 
-> Property; An integer value specifying the width of the sprite sheet. This value is read-only if
+Property; An integer value specifying the width of the sprite sheet. This value is read-only if
 >
-> SpriteSheetExporter.autoSize is set to true.
+SpriteSheetExporter.autoSize is set to true.
 
 #### Example
 
-> var exporter = new SpriteSheetExporter; exporter.sheetwidth = 512;
+```
+var exporter = new SpriteSheetExporter; exporter.sheetwidth = 512;
+
+```

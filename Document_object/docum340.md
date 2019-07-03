@@ -2,30 +2,31 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> document.revert()
+document.revert()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; reverts the specified document to its previously saved version. This method is equivalent to selecting File \> Revert.
+Method; reverts the specified document to its previously saved version. This method is equivalent to selecting File \Revert.
 
 #### Example
 
-> The following example reverts the current document to the previously saved version:
->
-> fl.getDocumentDOM().revert();
+```
+The following example reverts the current document to the previously saved version:
+fl.getDocumentDOM().revert();
 
+```
 #### See also
 
-> [document.canRevert()](#_bookmark145), [fl.revertDocument()](#_bookmark528)
+[document.canRevert()](#_bookmark145), [fl.revertDocument()](#_bookmark528)

@@ -2,24 +2,24 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The Path object defines a sequence of line segments (straight, curved, or both), which you typically use when creating extensible tools. The following example shows an instance of a Path object being returned from the flash object:
+The Path object defines a sequence of line segments (straight, curved, or both), which you typically use when creating extensible tools. The following example shows an instance of a Path object being returned from the flash object:
 >
-> path = fl.drawingLayer.newPath();
+path = fl.drawingLayer.newPath();
 >
-> See also the [drawingLayer object](#_bookmark345).
+See also the [drawingLayer object](#_bookmark345).
 
 #### Method summary
 
-> The following methods are available for the Path object:
+The following methods are available for the Path object:
 
 | **Method**                                    | **Description**                                                                                                           |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| [path.addCubicCurve()](#path.addCubicCurve()) | Appends a cubic BÃ©zier curve segment to the path.                                                                         |
-| [path.addCurve()](#_bookmark762)              | Appends a quadratic BÃ©zier segment to the path.                                                                           |
+| [path.addCubicCurve()](#path.addCubicCurve()) | Appends a cubic Bézier curve segment to the path.                                                                         |
+| [path.addCurve()](#_bookmark762)              | Appends a quadratic Bézier segment to the path.                                                                           |
 | [path.addPoint()](#_bookmark763)              | Adds a point to the path.                                                                                                 |
 | [path.clear()](#_bookmark764)                 | Removes all points from the path.                                                                                         |
 | [path.close()](#_bookmark765)                 | Appends a point at the location of the first point of the path and extends the path to that point, which closes the path. |
@@ -28,10 +28,11 @@
 
 #### Property summary
 
-> The following properties are available for the Path object:
+The following properties are available for the Path object:
 
 | **Property**               | **Description**                                                      |
 |----------------------------|----------------------------------------------------------------------|
 | [path.nPts](#_bookmark768) | Read-only; an integer representing the number of points in the path. |
 
 <span id="path.addCubicCurve()" class="anchor"></span>
+

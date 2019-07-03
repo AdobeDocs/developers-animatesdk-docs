@@ -2,34 +2,35 @@
 
 #### Availability
 
-> Flash CS3 Professional.
+Flash CS3 Professional.
 
 #### Usage
 
-> compilerErrors.clear()
+compilerErrors.clear()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; clears the contents of the Compiler Errors panel.
+Method; clears the contents of the Compiler Errors panel.
 
 #### Example
 
-> The following example clears the contents of the Compiler Errors panel:
->
-> fl.compilerErrors.clear();
+```
+The following example clears the contents of the Compiler Errors panel:
+fl.compilerErrors.clear();
 
+```
 #### See also
 
-> [compilerErrors.save()](#compilerErrors.save())
+[compilerErrors.save()](#compilerErrors.save())
 >
-> **compilerErrors object**
+**compilerErrors object**
 
 <span id="compilerErrors.save()" class="anchor"></span>

@@ -2,36 +2,36 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> function keyUp() {
+function keyUp() {
 >
-> // statements
+// statements
 >
-> }
+}
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Function; called when the extensible tool is active and a key is released.
+Function; called when the extensible tool is active and a key is released.
 
 #### Example
 
-> The following example displays a message in the Output panel when the extensible tool is active and a key is released.
->
-> function keyUp() { fl.trace("Key is released");
->
-> }
+```
+The following example displays a message in the Output panel when the extensible tool is active and a key is released.
+function keyUp() { fl.trace("Key is released");
+}
 
+```
 #### See also
 
-> [keyDown()](#_bookmark21)
+[keyDown()](#_bookmark21)

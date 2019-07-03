@@ -1,8 +1,8 @@
 ## JavaScript API objects
 
-> This section provides a summary of the objects available in the Flash JavaScript API and how to begin working with them. All standard JavaScript commands are also available when working with the JavaScript API.
+This section provides a summary of the objects available in the Flash JavaScript API and how to begin working with them. All standard JavaScript commands are also available when working with the JavaScript API.
 >
-> The following table briefly describes each of the objects in the JavaScript API. The objects are listed in alphabetical order.
+The following table briefly describes each of the objects in the JavaScript API. The objects are listed in alphabetical order.
 
 | **Object**                  | **Description**                                                                                                              |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@
 | Parameter object      | The Parameter object type is accessed from the screen.parameters array (which corresponds to the screen Property inspector in the Flash authoring tool) or by the componentInstance.parameters array (which corresponds to the component Property inspector in the authoring tool). |
 | Path object           | The Path object defines a sequence of line segments (straight, curved, or both), which you typically use when creating extensible tools.                                                                                                                                            |
 | presetItem object     | The presetItem object represents an item (preset or folder) in the Motion Presets panel.                                                                                                                                                                                            |
-| presetPanel object    | The presetPanel object represents the Motion Presets panel (Window \> Motion Presets). It is a property of the flash object (fl.presetPanel).                                                                                                                                       |
+| presetPanel object    | The presetPanel object represents the Motion Presets panel (Window \Motion Presets). It is a property of the flash object (fl.presetPanel).                                                                                                                                       |
 | Rectangle object      | The Rectangle object is a shape that is drawn using the Rectangle tool. To determine if an item is a Rectangle object, use shape.isRectangleObject.                                                                                                                                 |
 | Screen object         | The Screen object represents a single screen in a slide or form document.                                                                                                                                                                                                           |
 | ScreenOutline object  | The ScreenOutline object represents the group of screens in a slide or form document.                                                                                                                                                                                               |
@@ -65,13 +65,13 @@
 
 ### The Flash Document Object Model
 
-> The Flash Document Object Model (DOM) for the Flash JavaScript API consists of a set of top-level functions (see [â€œTop-Level Functions and Methodsâ€ on page 18](#_bookmark13)) and two top-level objectsâ€”the FLfile object and the flash object (fl). Each object is guaranteed to be available to a script because it always exists when the Flash authoring environment is open. For more information, see [FLfile object](#_bookmark559) and [flash object (fl)](#_bookmark447).
+The Flash Document Object Model (DOM) for the Flash JavaScript API consists of a set of top-level functions (see [“Top-Level Functions and Methods” on page 18](#_bookmark13)) and two top-level objects—the FLfile object and the flash object (fl). Each object is guaranteed to be available to a script because it always exists when the Flash authoring environment is open. For more information, see [FLfile object](#_bookmark559) and [flash object (fl)](#_bookmark447).
 >
-> When referring to the flash object, you can use flash or fl. For example, to close all open FLA files, you can use either of the following statements:
+When referring to the flash object, you can use flash or fl. For example, to close all open FLA files, you can use either of the following statements:
 >
-> flash.closeAll(); fl.closeAll();
+flash.closeAll(); fl.closeAll();
 >
-> The flash object contains the following *child objects*:
+The flash object contains the following *child objects*:
 
 | **Object**             | **How to access**                                                                                                                                                                                        |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -85,149 +85,150 @@
 
 | **Object**         | **How to access**                                                                                                                                    |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| presetPanel object | Use fl.presetPanel to access the presetPanel object. This object corresponds to the Motion Presets panel (Window \> Motion Presets).                 |
+| presetPanel object | Use fl.presetPanel to access the presetPanel object. This object corresponds to the Motion Presets panel (Window \Motion Presets).                 |
 | swfPanel object    | Use fl.swfPanels to access an array of swfPanel objects. These objects correspond to Window SWF panels.                                              |
 | Tools object       | Use fl.tools to access an array of Tools objects.                                                                                                    |
 | XMLUI object       | Use fl.xmlui to access an XML User Interface (XMLUI) object. The XMLUI object provides the ability to get and set properties of an XMLUI dialog box. |
 
 ### The Document object
 
-> An important property of the top-level flash object is the [fl.documents](#_bookmark476) property. This property contains an array of Document objects, each of which represents one of the FLA files currently open in the authoring environment. The properties of each Document object represent most of the elements that a FLA file can contain. Therefore, a large portion of the DOM is composed of child objects and properties of the Document object. For more information, see [Document object](#_bookmark116).
+An important property of the top-level flash object is the [fl.documents](#_bookmark476) property. This property contains an array of Document objects, each of which represents one of the FLA files currently open in the authoring environment. The properties of each Document object represent most of the elements that a FLA file can contain. Therefore, a large portion of the DOM is composed of child objects and properties of the Document object. For more information, see [Document object](#_bookmark116).
 >
-> To refer to the first open document, for example, use the statement flash.documents\[0\] or fl.documents\[0\]. The first document is the first Flash document that was opened during the current session in the authoring environment. When the first opened document is closed, the indexes of the other open documents are decremented.
+To refer to the first open document, for example, use the statement flash.documents\[0\] or fl.documents\[0\]. The first document is the first Flash document that was opened during the current session in the authoring environment. When the first opened document is closed, the indexes of the other open documents are decremented.
 >
-> To find a particular documentâ€™s index, use flash.findDocumentIndex(*nameOfDocument*) or fl.findDocumentIndex(*nameOfDocument*). See [fl.findDocumentIndex()](#_bookmark485).
+To find a particular document’s index, use flash.findDocumentIndex(*nameOfDocument*) or fl.findDocumentIndex(*nameOfDocument*). See [fl.findDocumentIndex()](#_bookmark485).
 >
-> To access the document that is currently focused, use the statement flash.getDocumentDOM() or fl.getDocumentDOM(). See [fl.getDocumentDOM()](#_bookmark491). The latter is the syntax used in most of the examples in this document.
+To access the document that is currently focused, use the statement flash.getDocumentDOM() or fl.getDocumentDOM(). See [fl.getDocumentDOM()](#_bookmark491). The latter is the syntax used in most of the examples in this document.
 >
-> To find a particular document in the fl.documents array, iterate through the array and test each document for its
+To find a particular document in the fl.documents array, iterate through the array and test each document for its
 >
-> document.name property. See [fl.documents](#_bookmark476) and [document.name](#_bookmark244).
+document.name property. See [fl.documents](#_bookmark476) and [document.name](#_bookmark244).
 >
-> All the objects in the DOM that arenâ€™t listed in the previous table (see [â€œThe Flash Document Object Modelâ€ on page 12](#the-flash-document-object-model)) are accessed from the Document object. For example, to access the library of a document, you use the document.library property, which retrieves a library object:
+All the objects in the DOM that aren’t listed in the previous table (see [“The Flash Document Object Model” on page 12](#the-flash-document-object-model)) are accessed from the Document object. For example, to access the library of a document, you use the document.library property, which retrieves a library object:
 >
-> fl.getDocumentDOM().library
+fl.getDocumentDOM().library
 >
-> To access the array of items in the library, you use the library.items property; each element in the array is an Item object:
+To access the array of items in the library, you use the library.items property; each element in the array is an Item object:
 >
-> fl.getDocumentDOM().library.items
+fl.getDocumentDOM().library.items
 >
-> To access a particular item in the library, you specify a member of the library.items array:
+To access a particular item in the library, you specify a member of the library.items array:
 >
-> fl.getDocumentDOM().library.items\[0\]
+fl.getDocumentDOM().library.items\[0\]
 >
-> In other words, the library object is a child of the Document object, and the Item object is a child of the library object. For more information, see [document.library](#_bookmark232), [library object](#_bookmark693), [library.items](#_bookmark707)library.items, and [Item object](#_bookmark658).
+In other words, the library object is a child of the Document object, and the Item object is a child of the library object. For more information, see [document.library](#_bookmark232), [library object](#_bookmark693), [library.items](#_bookmark707)library.items, and [Item object](#_bookmark658).
 
 ### Specifying the target of an action
 
-> Unless otherwise specified, methods affect the current focus or selection. For example, the following script doubles the size of the current selection because no particular object is specified:
+Unless otherwise specified, methods affect the current focus or selection. For example, the following script doubles the size of the current selection because no particular object is specified:
 >
-> fl.getDocumentDOM().scaleSelection(2, 2);
+fl.getDocumentDOM().scaleSelection(2, 2);
 >
-> In some cases, you might want an action to specifically target the currently selected item in the Flash document. To do this, use the array that the document.selection property contains (see [document.selection](#_bookmark275)). The first element in the array represents the currently selected item, as shown in the following example:
+In some cases, you might want an action to specifically target the currently selected item in the Flash document. To do this, use the array that the document.selection property contains (see [document.selection](#_bookmark275)). The first element in the array represents the currently selected item, as shown in the following example:
 >
-> var accDescription = fl.getDocumentDOM().selection\[0\].description;
+var accDescription = fl.getDocumentDOM().selection\[0\].description;
 >
-> The following script doubles the size of the first element on the Stage that is stored in the element array, instead of the current selection:
+The following script doubles the size of the first element on the Stage that is stored in the element array, instead of the current selection:
 >
-> var element = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\]; if (element) {
+var element = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\]; if (element) {
 >
-> element.width = element.width\*2; element.height = element.height\*2;
+element.width = element.width\*2; element.height = element.height\*2;
 >
-> }
+}
 >
-> You can also do something such as loop through all the elements on the Stage and increase the width and height by a specified amount, as shown in the following example:
+You can also do something such as loop through all the elements on the Stage and increase the width and height by a specified amount, as shown in the following example:
 >
-> var elementArray = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements; for (var i=0; i \< elementArray.length; i++) {
+var elementArray = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements; for (var i=0; i \< elementArray.length; i++) {
 >
-> var offset = 10; elementArray\[i\].width += offset; elementArray\[i\].height += offset;
+var offset = 10; elementArray\[i\].width += offset; elementArray\[i\].height += offset;
 >
-> }
+}
 
 ### Summary of the DOM structure
 
-> The following list displays the DOM structure in outline format. Numbers at the beginning of each line represent the level of an object. For example, an object preceded by â€œ03â€ is a child of next highest â€œ02â€ object, which, in turn, is a child of the next highest â€œ01â€ object.
+The following list displays the DOM structure in outline format. Numbers at the beginning of each line represent the level of an object. For example, an object preceded by “03” is a child of next highest “02” object, which, in turn, is a child of the next highest “01” object.
 >
-> In some cases, an object is available by specifying a property of its parent object. For example, the document.timelines property contains an array of Timeline objects. These properties are noted in the following outline.
+In some cases, an object is available by specifying a property of its parent object. For example, the document.timelines property contains an array of Timeline objects. These properties are noted in the following outline.
 >
-> Some objects are subclasses of other objects, rather than being children of other objects. An object that is a subclass of another object has methods and/or properties of its own in addition to the methods and properties of the parent object (the superclass). Subclasses share the same level in the hierarchy as their superclass. For example, the Item object is a superclass of the BitmapItem object. These relationships are illustrated in the following outline:
+Some objects are subclasses of other objects, rather than being children of other objects. An object that is a subclass of another object has methods and/or properties of its own in addition to the methods and properties of the parent object (the superclass). Subclasses share the same level in the hierarchy as their superclass. For example, the Item object is a superclass of the BitmapItem object. These relationships are illustrated in the following outline:
 >
-> 01 Top-Level Functions and Methods 01 FLfile object
+01 Top-Level Functions and Methods 01 FLfile object
 >
-> 01 flash object (fl)
+01 flash object (fl)
 >
-> 02 compilerErrors object
+02 compilerErrors object
 >
-> 02 componentsPanel object
+02 componentsPanel object
 >
-> 02 Document object (fl.documents array) 03 Filter object
+02 Document object (fl.documents array) 03 Filter object
 >
-> 03 Matrix object
+03 Matrix object
 >
-> 03 Fill object
+03 Fill object
 >
-> 03 Stroke object
+03 Stroke object
 >
-> 03 library object
+03 library object
 >
-> 04 Item object (library.items array)
+04 Item object (library.items array)
 >
-> 04 BitmapItem object(subclass of Item object) 04 folderItem object (subclass of Item object) 04 fontItem object (subclass of Item object) 04 SoundItem object (subclass of Item object) 04 SymbolItem object (subclass of Item object) 04 VideoItem object (subclass of Item object)
+04 BitmapItem object(subclass of Item object) 04 folderItem object (subclass of Item object) 04 fontItem object (subclass of Item object) 04 SoundItem object (subclass of Item object) 04 SymbolItem object (subclass of Item object) 04 VideoItem object (subclass of Item object)
 >
-> 03 Timeline object (document.timelines array) 04 Layer object (timeline.layers array)
+03 Timeline object (document.timelines array) 04 Layer object (timeline.layers array)
 >
-> 05 Frame object (layer.frames array)
+05 Frame object (layer.frames array)
 >
-> 06 Element object (frame.elements array) 07 Matrix object (element.matrix)
+06 Element object (frame.elements array) 07 Matrix object (element.matrix)
 >
-> 06 Instance object (abstract class, subclass of Element object) 06 BitmapInstance object (subclass of Instance object)
+06 Instance object (abstract class, subclass of Element object) 06 BitmapInstance object (subclass of Instance object)
 >
-> 06 CompiledClipInstance object (subclass of Instance object)
+06 CompiledClipInstance object (subclass of Instance object)
 >
-> 06 ComponentInstance object (subclass of SymbolInstance object) 07 Parameter object (componentInstance.parameters array)
+06 ComponentInstance object (subclass of SymbolInstance object) 07 Parameter object (componentInstance.parameters array)
 >
-> 06 SymbolInstance object (subclass of Instance object) 06 Text object (subclass of Element object)
+06 SymbolInstance object (subclass of Instance object) 06 Text object (subclass of Element object)
 >
-> 07 TextRun object (text.textRuns array)
+07 TextRun object (text.textRuns array)
 >
-> 08 TextAttrs object (textRun.textAttrs array) 06 Shape object (subclass of Element object)
+08 TextAttrs object (textRun.textAttrs array) 06 Shape object (subclass of Element object)
 >
-> 07 Oval object
+07 Oval object
 >
-> 07 Rectangle object
+07 Rectangle object
 >
-> 07 Contour object (shape.contours array) 08 HalfEdge object
+07 Contour object (shape.contours array) 08 HalfEdge object
 >
-> 09 Vertex object
+09 Vertex object
 >
-> 09 Edge object
+09 Edge object
 >
-> 07 Edge object (shape.edges array) 08 HalfEdge object
+07 Edge object (shape.edges array) 08 HalfEdge object
 >
-> 09 Vertex object
+09 Vertex object
 >
-> 09 Edge object
+09 Edge object
 >
-> 07 Vertex object(shape.vertices array) 08 HalfEdge object
+07 Vertex object(shape.vertices array) 08 HalfEdge object
 >
-> 09 Vertex object
+09 Vertex object
 >
-> 09 Edge object
+09 Edge object
 >
-> 05 Parameter object (screen.parameters array) 02 drawingLayer object
+05 Parameter object (screen.parameters array) 02 drawingLayer object
 >
-> 03 Path object
+03 Path object
 >
-> 04 Contour object
+04 Contour object
 >
-> 02 Math object
+02 Math object
 >
-> 02 outputPanel object
+02 outputPanel object
 >
-> 02 presetPanel object
+02 presetPanel object
 >
-> 03 presetItem object(presetPanel.items array) 02 swfPanel object
+03 presetItem object(presetPanel.items array) 02 swfPanel object
 >
-> 02 Tools object (fl.tools array)
+02 Tools object (fl.tools array)
 >
-> 03 ToolObj object (tools.toolObjs array) 02 XMLUI object
+03 ToolObj object (tools.toolObjs array) 02 XMLUI object
+

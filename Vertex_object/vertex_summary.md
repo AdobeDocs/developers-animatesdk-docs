@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The Vertex object is the part of the shape data structure that holds the coordinate data.
+The Vertex object is the part of the shape data structure that holds the coordinate data.
 
 #### Method summary
 
-> You can use the following methods with the Vertex object:
+You can use the following methods with the Vertex object:
 
 | **Method**                                    | **Description**                                                  |
 |-----------------------------------------------|------------------------------------------------------------------|
@@ -19,7 +19,7 @@
 
 #### Property summary
 
-> The following properties are available for the Vertex object:
+The following properties are available for the Vertex object:
 
 | **Property**               | **Description**                                      |
 |----------------------------|------------------------------------------------------|
@@ -27,3 +27,4 @@
 | [vertex.y](#_bookmark1138) | Read-only; the *y* location of the vertex in pixels. |
 
 <span id="vertex.getHalfEdge()" class="anchor"></span>
+

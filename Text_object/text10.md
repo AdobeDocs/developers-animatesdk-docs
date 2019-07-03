@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Flash 8.
+Flash 8.
 
 #### Usage
 
-> text.fontRenderingMode
+text.fontRenderingMode
 
 #### Description
 
-> Property; a string that specifies the rendering mode for the text. This property affects how the text is displayed both on the Stage and in Flash Player. Acceptable values are described in the following table:
+Property; a string that specifies the rendering mode for the text. This property affects how the text is displayed both on the Stage and in Flash Player. Acceptable values are described in the following table:
 
 | **Property value** | **How text is rendered**                                    |
 |--------------------|-------------------------------------------------------------|
@@ -25,12 +25,12 @@
 
 #### Example
 
-> The following example shows how you can use the customThicknessSharpness value to specify the sharpness and thickness of the text:
->
-> fl.getDocumentDOM().setElementProperty("fontRenderingMode", "customThicknessSharpness"); fl.getDocumentDOM().setElementProperty("antiAliasSharpness", 400);
->
-> fl.getDocumentDOM().setElementProperty("antiAliasThickness", -200);
+```
+The following example shows how you can use the customThicknessSharpness value to specify the sharpness and thickness of the text:
+fl.getDocumentDOM().setElementProperty("fontRenderingMode", "customThicknessSharpness"); fl.getDocumentDOM().setElementProperty("antiAliasSharpness", 400);
+fl.getDocumentDOM().setElementProperty("antiAliasThickness", -200);
 
+```
 #### See also
 
-> [text.antiAliasSharpness](#_bookmark970), [text.antiAliasThickness](#_bookmark971)
+[text.antiAliasSharpness](#_bookmark970), [text.antiAliasThickness](#_bookmark971)

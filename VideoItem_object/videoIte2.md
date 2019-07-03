@@ -2,20 +2,21 @@
 
 #### Availability
 
-> Flash Pro CS6.
+Flash Pro CS6.
 
 #### Usage
 
-> videoItem.lastModifiedDate
+videoItem.lastModifiedDate
 
 #### Description
 
-> Read-only property; a hexadecimal value indicating the modification date and time of the video item. This value is incremented every time the video item is imported.
+Read-only property; a hexadecimal value indicating the modification date and time of the video item. This value is incremented every time the video item is imported.
 
 #### Example
 
-> Assuming the first item in the Library is a video item, the following code displays a hex number as described above.
->
-> var libItem = fl.getDocumentDOM().library.items\[0\];
->
-> fl.trace("Mod date when imported = " + libItem.lastModifiedDate);
+```
+Assuming the first item in the Library is a video item, the following code displays a hex number as described above.
+var libItem = fl.getDocumentDOM().library.items\[0\];
+fl.trace("Mod date when imported = " + libItem.lastModifiedDate);
+
+```

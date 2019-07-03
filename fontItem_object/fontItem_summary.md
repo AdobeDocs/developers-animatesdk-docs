@@ -1,18 +1,18 @@
 ## fontItem summary
 
-> **Inheritance** [Item object](#_bookmark658) \> fontItem object
+**Inheritance** [Item object](#_bookmark658) \fontItem object
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The fontItem object is a subclass of the Item object (see [Item object](#_bookmark658)).
+The fontItem object is a subclass of the Item object (see [Item object](#_bookmark658)).
 
 #### Property summary
 
-> In addition to the Item object properties, the following properties are available for the fontItem object:
+In addition to the Item object properties, the following properties are available for the fontItem object:
 
 | **Property**                                  | **Description**                                                                           |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------|
@@ -27,3 +27,4 @@
 | [fontItem.size](#_bookmark593)                | The size of the Font item, in points.                                                     |
 
 <span id="fontItem.bitmap" class="anchor"></span>
+

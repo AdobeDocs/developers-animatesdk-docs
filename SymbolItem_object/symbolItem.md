@@ -2,26 +2,28 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> symbolItem.convertToCompiledClip()
+symbolItem.convertToCompiledClip()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; converts a symbol item in the library to a compiled movie clip.
+Method; converts a symbol item in the library to a compiled movie clip.
 
 #### Example
 
-> The following example converts an item in the library to a compiled movie clip:
->
-> fl.getDocumentDOM().library.items\[3\].convertToCompiledClip();
+```
+The following example converts an item in the library to a compiled movie clip:
+fl.getDocumentDOM().library.items\[3\].convertToCompiledClip();
+
+```

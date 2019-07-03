@@ -2,18 +2,20 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> timeline.layers
+timeline.layers
 
 #### Description
 
-> Read-only property; an array of layer objects.
+Read-only property; an array of layer objects.
 
 #### Example
 
-> The following example uses the currentLayers variable to store the array of layer objects in the current document:
->
-> var currentLayers = fl.getDocumentDOM().getTimeline().layers;
+```
+The following example uses the currentLayers variable to store the array of layer objects in the current document:
+var currentLayers = fl.getDocumentDOM().getTimeline().layers;
+
+```

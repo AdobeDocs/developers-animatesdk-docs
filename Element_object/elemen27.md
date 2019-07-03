@@ -2,16 +2,19 @@
 
 #### Availability
 
-> Flash CS3 Professional.
+Flash CS3 Professional.
 
 #### Usage
 
-> element.y
+element.y
 
 #### Description
 
-> Property; a float value that specifies the *y* value of the selected elementâ€™s registration point.
+Property; a float value that specifies the *y* value of the selected element’s registration point.
 
 #### Example
 
-> See [element.x](#_bookmark409)
+```
+See [element.x](#_bookmark409)
+
+```

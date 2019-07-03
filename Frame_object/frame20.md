@@ -2,12 +2,13 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> frame.motionTweenSnap
+frame.motionTweenSnap
 
 #### Description
 
-> Property; a Boolean value that specifies whether the tweened element automatically snaps to the nearest point on the motion guide layer associated with this frameâ€™s layer (true) or not (false).
+Property; a Boolean value that specifies whether the tweened element automatically snaps to the nearest point on the motion guide layer associated with this frame’s layer (true) or not (false).
+

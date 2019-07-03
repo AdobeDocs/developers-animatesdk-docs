@@ -2,26 +2,28 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> path.clear()
+path.clear()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; removes all points from the path.
+Method; removes all points from the path.
 
 #### Example
 
-> The following example removes all points from a path stored in the myPath variable:
->
-> var myPath = fl.drawingLayer.newPath(); myPath.clear();
+```
+The following example removes all points from a path stored in the myPath variable:
+var myPath = fl.drawingLayer.newPath(); myPath.clear();
+
+```

@@ -1,18 +1,18 @@
 ## videoItem summary
 
-> **Inheritance** [Item object](#_bookmark658) \> VideoItem object
+**Inheritance** [Item object](#_bookmark658) \VideoItem object
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The VideoItem object is a subclass of the [Item object](#_bookmark658).
+The VideoItem object is a subclass of the [Item object](#_bookmark658).
 
 #### Method summary
 
-> In addition to the Item object methods, the VideoItem object has the following method:
+In addition to the Item object methods, the VideoItem object has the following method:
 
 | **Property**                                        | **Description**                            |
 |-----------------------------------------------------|--------------------------------------------|
@@ -20,7 +20,7 @@
 
 #### Property summary
 
-> In addition to the Item object properties, you can use the following properties with the VideoItem object:
+In addition to the Item object properties, you can use the following properties with the VideoItem object:
 
 | **Property**                                     | **Description**                                                                                                                                                                                                                                 |
 |--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -32,3 +32,4 @@
 | [videoItem.videoType](#_bookmark1148)            | Read-only; a string that specifies the type of video the item represents.                                                                                                                                                                       |
 
 <span id="videoItem.exportToFLV()" class="anchor"></span>
+

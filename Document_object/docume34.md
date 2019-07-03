@@ -2,26 +2,28 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> document.convertLinesToFills()
+document.convertLinesToFills()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; converts lines to fills on the selected objects.
+Method; converts lines to fills on the selected objects.
 
 #### Example
 
-> The following example converts the current selected lines to fills:
->
-> fl.getDocumentDOM().convertLinesToFills();
+```
+The following example converts the current selected lines to fills:
+fl.getDocumentDOM().convertLinesToFills();
+
+```

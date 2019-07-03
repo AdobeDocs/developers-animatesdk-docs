@@ -2,18 +2,20 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> text.textRuns
+text.textRuns
 
 #### Description
 
-> Read-only property; an array of TextRun objects (see [TextRun object](#_bookmark1024)).
+Read-only property; an array of TextRun objects (see [TextRun object](#_bookmark1024)).
 
 #### Example
 
-> The following example stores the value of the textRuns property in the myTextRuns variable:
->
-> var myTextRuns = fl.getDocumentDOM().selection\[0\].textRuns;
+```
+The following example stores the value of the textRuns property in the myTextRuns variable:
+var myTextRuns = fl.getDocumentDOM().selection\[0\].textRuns;
+
+```

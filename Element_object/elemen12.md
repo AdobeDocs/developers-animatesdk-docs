@@ -2,24 +2,27 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> element.removePersistentData(name)
+element.removePersistentData(name)
 
 #### Parameters
 
-> **name** A string that specifies the name of the data to remove.
+**name** A string that specifies the name of the data to remove.
 
 #### Returns
 
-> A Boolean value: true if data was removed; false otherwise.
+A Boolean value: true if data was removed; false otherwise.
 
 #### Description
 
-> Method; removes any persistent data with the specified name that has been attached to the object. Only symbols and bitmaps support persistent data.
+Method; removes any persistent data with the specified name that has been attached to the object. Only symbols and bitmaps support persistent data.
 
 #### Example
 
-> See [element.getPersistentData()](#_bookmark379).
+```
+See [element.getPersistentData()](#_bookmark379).
+
+```

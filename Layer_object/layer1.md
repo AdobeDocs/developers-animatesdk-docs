@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> layer.color
+layer.color
 
 #### Description
 
-> Property; the color assigned to outline the layer, in one of the following formats:
+Property; the color assigned to outline the layer, in one of the following formats:
 
 -   A string in the format "\#RRGGBB" or "\#RRGGBBAA"
 
@@ -18,12 +18,13 @@
 
 -   An integer that represents the decimal equivalent of a hexadecimal number
 
-> This property is equivalent to the Outline color setting in the Layer Properties dialog box.
+This property is equivalent to the Outline color setting in the Layer Properties dialog box.
 
 #### Example
 
-> The following example stores the value of the first layer in the colorValue variable: var colorValue = fl.getDocumentDOM().getTimeline().layers\[0\].color; The following example shows three ways to set the color of the first layer to red:
->
-> fl.getDocumentDOM().getTimeline().layers\[0\].color=16711680;
->
-> fl.getDocumentDOM().getTimeline().layers\[0\].color="\#ff0000"; fl.getDocumentDOM().getTimeline().layers\[0\].color=0xFF0000;
+```
+The following example stores the value of the first layer in the colorValue variable: var colorValue = fl.getDocumentDOM().getTimeline().layers\[0\].color; The following example shows three ways to set the color of the first layer to red:
+fl.getDocumentDOM().getTimeline().layers\[0\].color=16711680;
+fl.getDocumentDOM().getTimeline().layers\[0\].color="\#ff0000"; fl.getDocumentDOM().getTimeline().layers\[0\].color=0xFF0000;
+
+```

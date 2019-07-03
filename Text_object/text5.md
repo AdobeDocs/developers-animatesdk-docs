@@ -2,24 +2,23 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> text.description
+text.description
 
 #### Description
 
-> Property; a string that is equivalent to the Description field in the Accessibility panel. The description is read by the screen reader.
+Property; a string that is equivalent to the Description field in the Accessibility panel. The description is read by the screen reader.
 
 #### Example
 
-> The following example retrieves the description of the object:
->
-> var doc = fl.getDocumentDOM();
->
-> var desc = doc.selection\[0\].description;
->
-> The following example sets the description of the object:
->
-> var doc = fl.getDocumentDOM(); doc.selection\[0\].description= "Enter your name here";
+```
+The following example retrieves the description of the object:
+var doc = fl.getDocumentDOM();
+var desc = doc.selection\[0\].description;
+The following example sets the description of the object:
+var doc = fl.getDocumentDOM(); doc.selection\[0\].description= "Enter your name here";
+
+```

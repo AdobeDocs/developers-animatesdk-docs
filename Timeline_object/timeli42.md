@@ -2,26 +2,28 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> timeline.selectAllFrames()
+timeline.selectAllFrames()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; selects all the frames in the current timeline.
+Method; selects all the frames in the current timeline.
 
 #### Example
 
-> The following example selects all the frames in the current timeline.
->
-> fl.getDocumentDOM().getTimeline().selectAllFrames();
+```
+The following example selects all the frames in the current timeline.
+fl.getDocumentDOM().getTimeline().selectAllFrames();
+
+```

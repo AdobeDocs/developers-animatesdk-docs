@@ -2,22 +2,22 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> layer.height
+layer.height
 
 #### Description
 
-> Property; an integer that specifies the percentage layer height; equivalent to the Layer height value in the Layer Properties dialog box. Acceptable values represent percentages of the default height: 100, 200, or 300.
+Property; an integer that specifies the percentage layer height; equivalent to the Layer height value in the Layer Properties dialog box. Acceptable values represent percentages of the default height: 100, 200, or 300.
 
 #### Example
 
-> The following example stores the percentage value of the first layerâ€™s height setting:
->
-> var layerHeight = fl.getDocumentDOM().getTimeline().layers\[0\].height;
->
-> The following example sets the height of the first layer to 300 percent:
->
-> fl.getDocumentDOM().getTimeline().layers\[0\].height = 300;
+```
+The following example stores the percentage value of the first layer’s height setting:
+var layerHeight = fl.getDocumentDOM().getTimeline().layers\[0\].height;
+The following example sets the height of the first layer to 300 percent:
+fl.getDocumentDOM().getTimeline().layers\[0\].height = 300;
+
+```

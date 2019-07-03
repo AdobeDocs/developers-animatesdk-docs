@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The Item object is an abstract base class. Anything in the library derives from Item. See also [library object](#_bookmark693).
+The Item object is an abstract base class. Anything in the library derives from Item. See also [library object](#_bookmark693).
 
 #### Method summary
 
-> The following methods are available for the Item object:
+The following methods are available for the Item object:
 
 | **Method**                             | **Description**                                                                                                                |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
@@ -23,7 +23,7 @@
 
 #### Property summary
 
-> The following properties are available for the Item object:
+The following properties are available for the Item object:
 
 | **Property**                                    | **Description**                                                                                                 |
 |-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -39,3 +39,4 @@
 | [item.name](#_bookmark675)                      | A string that specifies the name of the library item, which includes the folder structure.                      |
 
 <span id="item.addData()" class="anchor"></span>
+

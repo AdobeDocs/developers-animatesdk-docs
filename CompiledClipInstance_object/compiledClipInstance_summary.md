@@ -1,18 +1,18 @@
 ## compiledClipInstance summary
 
-> **Inheritance** [Element object](#_bookmark374) \> [Instance object](#_bookmark653) \> CompiledClipInstance object
+**Inheritance** [Element object](#_bookmark374) \[Instance object](#_bookmark653) \CompiledClipInstance object
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The CompiledClipInstance object is a subclass of the Instance object. It is essentially an instance of a movie clip that has been converted to a compiled clip library item (see [Instance object](#_bookmark653)).
+The CompiledClipInstance object is a subclass of the Instance object. It is essentially an instance of a movie clip that has been converted to a compiled clip library item (see [Instance object](#_bookmark653)).
 
 #### Property summary
 
-> In addition to the properties of the [Instance object](#_bookmark653), the CompiledClipInstance object has the following properties:
+In addition to the properties of the [Instance object](#_bookmark653), the CompiledClipInstance object has the following properties:
 
 | **Property**                                                                | **Description**                                                                           |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
@@ -47,3 +47,4 @@
 | [compiledClipInstance.visible](#_bookmark93)                             | A boolean that sets visibility.                                                                                                                                             |
 
 <span id="compiledClipInstance.accName" class="anchor"></span>
+

@@ -2,26 +2,28 @@
 
 #### Availability
 
-> Flash CS5.5 Professional.
+Flash CS5.5 Professional.
 
 #### Usage
 
-> symbolInstance.bitmapRenderMode
+symbolInstance.bitmapRenderMode
 
 #### Description
 
-> Property; a string that sets the display type for the symbol. Acceptable values include:
+Property; a string that sets the display type for the symbol. Acceptable values include:
 
--   â€œnoneâ€
+-   “none”
 
--   â€œcacheâ€ - sets the symbol to be cached as a bitmap by Flash Player at runtime.
+-   “cache” - sets the symbol to be cached as a bitmap by Flash Player at runtime.
 
--   â€œexportâ€ - sets the symbol to be exported as a bitmap when the SWF is compiled.
+-   “export” - sets the symbol to be exported as a bitmap when the SWF is compiled.
 
-> The older [â€œsymbolInstance.cacheAsBitmapâ€ on page 472](#_bookmark925) property is similar to this property, but it offers fewer choices since it's a boolean. In the future, the cacheAsBitmap property may be deprecated, so users should switch to this new property. The true/false options in the boolean cacheAsBitmap property are the same as the "cache" / "none" values for this new property.
+The older [“symbolInstance.cacheAsBitmap” on page 472](#_bookmark925) property is similar to this property, but it offers fewer choices since it's a boolean. In the future, the cacheAsBitmap property may be deprecated, so users should switch to this new property. The true/false options in the boolean cacheAsBitmap property are the same as the "cache" / "none" values for this new property.
 
 #### Example
 
-> The following example assigns the symbolâ€™s bitmapRenderMode to â€œexportâ€:
->
-> var symbol = fl.getDocumentDOM().selection\[0\]; fl.trace(symbol.bitmapRenderMode); symbol.bitmapRenderMode = "export";
+```
+The following example assigns the symbol’s bitmapRenderMode to “export”:
+var symbol = fl.getDocumentDOM().selection\[0\]; fl.trace(symbol.bitmapRenderMode); symbol.bitmapRenderMode = "export";
+
+```

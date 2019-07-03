@@ -2,34 +2,34 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> function deactivate() {
+function deactivate() {
 >
-> // statements
+// statements
 >
-> }
+}
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Function; called when the extensible tool becomes inactive (that is, when the active tool changes from this tool to another one). Use this function to perform any cleanup the tool needs.
+Function; called when the extensible tool becomes inactive (that is, when the active tool changes from this tool to another one). Use this function to perform any cleanup the tool needs.
 
 #### Example
 
-> The following example displays a message in the Output panel when the tool becomes inactive:
->
-> function deactivate() {
->
-> fl.trace( "Tool is no longer active" );
->
-> }
+```
+The following example displays a message in the Output panel when the tool becomes inactive:
+function deactivate() {
+fl.trace( "Tool is no longer active" );
+}
+
+```

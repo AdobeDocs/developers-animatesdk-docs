@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> This object contains all the properties of the Fill color setting of the Tools panel or of a selected shape. To retrieve a Fill object, use [document.getCustomFill()](#_bookmark201).
+This object contains all the properties of the Fill color setting of the Tools panel or of a selected shape. To retrieve a Fill object, use [document.getCustomFill()](#_bookmark201).
 
 #### Property summary
 
-> The following properties are available for the Fill object:
+The following properties are available for the Fill object:
 
 | **Property**                                                            | **Description**                                                                                                           |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -21,8 +21,9 @@
 | [fill.focalPoint](#_bookmark418)                                        | An integer that specifies the gradient focal point horizontal offset from the transformation point.                       |
 | [fill.linearRGB](#_bookmark419)                                         | A Boolean value that specifies whether to render the fill as a linear or radial RGB gradient.                             |
 | [fill.matrix](#_bookmark420)                                            | A [Matrix object](#_bookmark725) that defines the placement, orientation, and scales for gradient fills.                  |
-| [fill.overflow](#_bookmark421)                                          | A string that specifies the behavior of a gradientâ€™s overflow.                                                            |
+| [fill.overflow](#_bookmark421)                                          | A string that specifies the behavior of a gradient’s overflow.                                                            |
 | [fill.posArray](#_bookmark422)                                          | An array of integers, each in the range of zero to 255, indicating the position of the corresponding color.               |
 | [fill.style](#_bookmark423)                                             | A string that specifies the fill style.                                                                                   |
 
 <span id="fill.bitmapIsClipped" class="anchor"></span>
+

@@ -2,22 +2,22 @@
 
 #### Availability
 
-> Flash Pro CS6.
+Flash Pro CS6.
 
 #### Usage
 
-> SpriteSheetExporter.overflowed
+SpriteSheetExporter.overflowed
 
 #### Description
 
-> Read-only property; A boolean value indicating whether all the exported symbol frames cannot fit within the currently specified size of the sprite sheet.
+Read-only property; A boolean value indicating whether all the exported symbol frames cannot fit within the currently specified size of the sprite sheet.
 
 #### Example
 
-> var exporter = new SpriteSheetExporter; if (exporter.overflowed)
->
-> {
->
-> exporter.sheetWidth = 1024;
->
-> }
+```
+var exporter = new SpriteSheetExporter; if (exporter.overflowed)
+{
+exporter.sheetWidth = 1024;
+}
+
+```

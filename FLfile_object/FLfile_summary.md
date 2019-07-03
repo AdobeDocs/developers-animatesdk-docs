@@ -2,35 +2,35 @@
 
 #### Availability
 
-> Flash MX 2004 7.2.
+Flash MX 2004 7.2.
 
 #### Description
 
-> The FLfile object lets you write Flash extensions that can access, modify, and remove files and folders on the local file system. The FLfile API is provided in the form of an extension to the JavaScript API. This extension is called a *shared library* and is located in the following folder:
+The FLfile object lets you write Flash extensions that can access, modify, and remove files and folders on the local file system. The FLfile API is provided in the form of an extension to the JavaScript API. This extension is called a *shared library* and is located in the following folder:
 
 -   Windows 7 and 8:
 
-> *boot drive*\\Users\\*username*\\AppData\\Local\\Adobe\\Flash CC\\*language*\\Configuration\\External Libraries\\FLfile.dll
+*boot drive*\\Users\\*username*\\AppData\\Local\\Adobe\\Flash CC\\*language*\\Configuration\\External Libraries\\FLfile.dll
 
 -   Mac OS X:
 
-> Macintosh HD/Users/*username*/Library/Application Support/Adobe/Flash CC/*language*/Configuration/External Libraries/FLfile.dll
+Macintosh HD/Users/*username*/Library/Application Support/Adobe/Flash CC/*language*/Configuration/External Libraries/FLfile.dll
 >
-> ***Note:** Don't confuse the shared libraries that contain symbols in your Flash documents with the JavaScript API shared libraries. They are two different things.*
+***Note:** Don't confuse the shared libraries that contain symbols in your Flash documents with the JavaScript API shared libraries. They are two different things.*
 >
-> The FLfile methods work with files or folders (directories) on disk. Therefore, each method takes one or more parameters to specify the location of a file or folder. The location of the file or folder is expressed as a string in a form very similar to a website URL. It is called a file URI (Uniform Resource Identifier) and is formatted as shown here (including the quote marks):
+The FLfile methods work with files or folders (directories) on disk. Therefore, each method takes one or more parameters to specify the location of a file or folder. The location of the file or folder is expressed as a string in a form very similar to a website URL. It is called a file URI (Uniform Resource Identifier) and is formatted as shown here (including the quote marks):
 >
-> "file:///drive\|/folder 1/folder 2/.../filename"
+"file:///drive\|/folder 1/folder 2/.../filename"
 >
-> For example, if you want to create a folder on the C drive called config and place it in the Program Files/MyApp folder, use the following command:
+For example, if you want to create a folder on the C drive called config and place it in the Program Files/MyApp folder, use the following command:
 >
-> FLfile.createFolder("file:///C\|/Program Files/MyApp/config");
+FLfile.createFolder("file:///C\|/Program Files/MyApp/config");
 >
-> If you then want to place a file called config.ini in that folder, use the following command: FLfile.write("file:///C\|/Program Files/MyApp/config/config.ini", ""); To create a folder on the Macintosh, you could use the following command: FLfile.createFolder("file:///Macintosh/MyApp/config");
+If you then want to place a file called config.ini in that folder, use the following command: FLfile.write("file:///C\|/Program Files/MyApp/config/config.ini", ""); To create a folder on the Macintosh, you could use the following command: FLfile.createFolder("file:///Macintosh/MyApp/config");
 
 #### Method summary
 
-> The following methods can be used with the FLfile object:
+The following methods can be used with the FLfile object:
 
 | **Method**                             | **Description**                               |
 |----------------------------------------|-----------------------------------------------|
@@ -55,3 +55,4 @@
 | [FLfile.write()](#_bookmark577)                  | Creates, writes to, or appends to a file.                                                                         |
 
 <span id="FLfile.copy()" class="anchor"></span>
+

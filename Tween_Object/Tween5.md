@@ -2,16 +2,19 @@
 
 #### Availability
 
-> Flash Pro CC
+Flash Pro CC
 
 #### Usage
 
-> Tween.startFrame
+Tween.startFrame
 
 #### Description
 
-> Start frame of a tween.
+Start frame of a tween.
 
 #### Example
 
-> var tweenObj = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].tweenObj; fl.trace(tweenObj.startFrame);
+```
+var tweenObj = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].tweenObj; fl.trace(tweenObj.startFrame);
+
+```

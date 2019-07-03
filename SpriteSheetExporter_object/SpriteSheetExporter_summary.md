@@ -1,18 +1,18 @@
 ## SpriteSheetExporter summary
 
-> **Inheritance** [Item object](#_bookmark658) \> SpriteSheetExporter object
+**Inheritance** [Item object](#_bookmark658) \SpriteSheetExporter object
 
 #### Availability
 
-> Flash Pro CS6.
+Flash Pro CS6.
 
 #### Description
 
-> The SpriteSheetExporter object is a subclass of the [Item object](#_bookmark658).
+The SpriteSheetExporter object is a subclass of the [Item object](#_bookmark658).
 
 #### Method summary
 
-> In addition to the Item object methods, you can use the following methods with the SpriteSheetExporter object:
+In addition to the Item object methods, you can use the following methods with the SpriteSheetExporter object:
 
 | **Method**                                                          | **Description**                                                   |
 |---------------------------------------------------------------------|-------------------------------------------------------------------|
@@ -26,7 +26,7 @@
 
 #### Property summary
 
-> In addition to the Item object properties, the following properties are available for the SpriteSheetExporter object:
+In addition to the Item object properties, the following properties are available for the SpriteSheetExporter object:
 
 | **Property**                                       | **Description**                                                                                                          |
 |----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -47,8 +47,8 @@
 | [SpriteSheetExporter.format](#_bookmark862)                                        | The format of the sprite sheet image file.                                                                               |
 | [SpriteSheetExporter.image](#_bookmark863)                                         | The name of the image file of the sprite sheet.                                                                          |
 | [SpriteSheetExporter.layoutFormat](#_bookmark864)                                  | The format of the sprite sheet metadata.                                                                                 |
-| [‚ÄúSpriteSheetExporter.maxSheetHeight‚Äù on](#_bookmark865) [page 442](#_bookmark865) | Controls the maximum height of the generated sprite sheet when autoSize = true, clipped to a maximum value of 8192.      |
-| [‚ÄúSpriteSheetExporter.maxSheetWidth‚Äù](#_bookmark866) [on page 442](#_bookmark866)  | Controls the maximum width of the generated sprite sheet when autoSize = true, clipped to a maximum value of 8192.       |
+| [ìSpriteSheetExporter.maxSheetHeightî on](#_bookmark865) [page 442](#_bookmark865) | Controls the maximum height of the generated sprite sheet when autoSize = true, clipped to a maximum value of 8192.      |
+| [ìSpriteSheetExporter.maxSheetWidthî](#_bookmark866) [on page 442](#_bookmark866)  | Controls the maximum width of the generated sprite sheet when autoSize = true, clipped to a maximum value of 8192.       |
 | [SpriteSheetExporter.overflowed](#_bookmark867)                                    | A Boolean value indicating whether all the specified frames can fit in the specified sprite sheet size.                  |
 | [SpriteSheetExporter.shapePadding](#_bookmark870)                                  | The amount of padding around each sprite, in pixels.                                                                     |
 | [SpriteSheetExporter.sheetHeight](#_bookmark871)                                   | The height of the sprite sheet, in pixels.                                                                               |
@@ -57,3 +57,4 @@
 | [SpriteSheetExporter.version](#_bookmark874)                                       | The version number of the application creating the sprite sheet.                                                         |
 
 <span id="SpriteSheetExporter.addBitmap()" class="anchor"></span>
+

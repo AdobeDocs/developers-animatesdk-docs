@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> tools.setCursor(cursor)
+tools.setCursor(cursor)
 
 #### Parameters
 
-> **cursor** An integer that defines the pointer appearance, as described in the following list:
+**cursor** An integer that defines the pointer appearance, as described in the following list:
 
 -   0 = Plus cursor (+)
 
@@ -30,14 +30,16 @@
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; sets the pointer to a specified appearance.
+Method; sets the pointer to a specified appearance.
 
 #### Example
 
-> The following example sets the pointer to a black arrow.
->
-> fl.tools.setCursor(1);
+```
+The following example sets the pointer to a black arrow.
+fl.tools.setCursor(1);
+
+```

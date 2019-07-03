@@ -2,26 +2,28 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> document.deleteSelection()
+document.deleteSelection()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; deletes the current selection on the Stage. Displays an error message if there is no selection.
+Method; deletes the current selection on the Stage. Displays an error message if there is no selection.
 
 #### Example
 
-> The following example deletes the current selection in the document:
->
-> fl.getDocumentDOM().deleteSelection();
+```
+The following example deletes the current selection in the document:
+fl.getDocumentDOM().deleteSelection();
+
+```

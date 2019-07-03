@@ -2,32 +2,33 @@
 
 #### Availability
 
-> Flash 8.
+Flash 8.
 
 #### Usage
 
-> confirm ( strAlert )
+confirm ( strAlert )
 
 #### Parameters
 
-> **strAlert** A string that specifies the message you want to display in the Alert dialog box.
+**strAlert** A string that specifies the message you want to display in the Alert dialog box.
 
 #### Returns
 
-> A Boolean value: true if the user clicks OK; false if the user clicks Cancel.
+A Boolean value: true if the user clicks OK; false if the user clicks Cancel.
 
 #### Description
 
-> Method; displays a string in a modal Alert dialog box, along with OK and Cancel buttons.
+Method; displays a string in a modal Alert dialog box, along with OK and Cancel buttons.
 >
-> ***Note:** If there are no documents (FLA files) open, this method fails with an error condition.*
+***Note:** If there are no documents (FLA files) open, this method fails with an error condition.*
 
 #### Example
 
-> The following example displays the message â€œSort data?â€ in an Alert dialog box:
->
-> confirm("Sort data?");
+```
+The following example displays the message “Sort data?” in an Alert dialog box:
+confirm("Sort data?");
 
+```
 #### See also
 
-> [alert()](#_bookmark16), [prompt()](#_bookmark28)
+[alert()](#_bookmark16), [prompt()](#_bookmark28)

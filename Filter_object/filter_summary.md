@@ -2,17 +2,17 @@
 
 #### Availability
 
-> Flash 8.
+Flash 8.
 
 #### Description
 
-> This object contains all the properties for all filters. The filter.name property specifies the type of filter, and determines which properties are applicable to each filter. See [filter.name](#_bookmark440).
+This object contains all the properties for all filters. The filter.name property specifies the type of filter, and determines which properties are applicable to each filter. See [filter.name](#_bookmark440).
 >
-> To return the filter list for an object or objects, use document.getFilters(). To apply filters to an object or objects, use document.setFilters(). See [document.getFilters()](#_bookmark208) and [document.setFilters()](#_bookmark291).
+To return the filter list for an object or objects, use document.getFilters(). To apply filters to an object or objects, use document.setFilters(). See [document.getFilters()](#_bookmark208) and [document.setFilters()](#_bookmark291).
 
 #### Property summary
 
-> The following properties can be used with the Filter object:
+The following properties can be used with the Filter object:
 
 | **Property**                           | **Description**                                                                                 |
 |----------------------------------------|-------------------------------------------------------------------------------------------------|
@@ -22,7 +22,7 @@
 | [filter.brightness](#_bookmark430)     | A float value that specifies the brightness of the filter.                                      |
 | [filter.color](#_bookmark431)          | A string, hexadecimal value, or integer that represents the filter color.                       |
 | [filter.contrast](#_bookmark432)       | A float value that specifies the contrast value of the filter.                                  |
-| [filter.distance](#_bookmark433)       | A float value that specifies the distance between the filterâ€™s effect and an object, in pixels. |
+| [filter.distance](#_bookmark433)       | A float value that specifies the distance between the filter’s effect and an object, in pixels. |
 | [filter.enabled](#_bookmark434)        | A Boolean value that specifies whether the specified filter is enabled.                         |
 | [filter.hideObject](#_bookmark435)     | A Boolean value that specifies whether the source image is hidden.                              |
 | [filter.highlightColor](#_bookmark436) | A string, hexadecimal value, or integer that represents the highlight color.                    |
@@ -37,3 +37,4 @@
 | [filter.type](#_bookmark445)           | A string that specifies the type of bevel or glow.                                              |
 
 <span id="filter.angle" class="anchor"></span>
+

@@ -1,22 +1,22 @@
 ## shape summary
 
-> **Inheritance** [Element object](#_bookmark374) \> Shape object
+**Inheritance** [Element object](#_bookmark374) \Shape object
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The Shape object is a subclass of the Element object. The Shape object provides more precise control than the drawing APIs when manipulating or creating geometry on the Stage. This control is necessary so that scripts can create useful effects and other drawing commands (see [Element object](#_bookmark374)).
+The Shape object is a subclass of the Element object. The Shape object provides more precise control than the drawing APIs when manipulating or creating geometry on the Stage. This control is necessary so that scripts can create useful effects and other drawing commands (see [Element object](#_bookmark374)).
 >
-> All Shape methods and properties that change a shape or any of its subordinate parts must be placed between
+All Shape methods and properties that change a shape or any of its subordinate parts must be placed between
 >
-> [shape.beginEdit()](#shape.beginEdit()) and [shape.endEdit()](#_bookmark812) calls to function correctly.
+[shape.beginEdit()](#shape.beginEdit()) and [shape.endEdit()](#_bookmark812) calls to function correctly.
 
 #### Method summary
 
-> In addition to the Element object methods, you can use the following methods with the Shape object:
+In addition to the Element object methods, you can use the following methods with the Shape object:
 
 | **Method**                                     | **Description**                                       |
 |------------------------------------------------|-------------------------------------------------------|
@@ -27,7 +27,7 @@
 
 #### Property summary
 
-> In addition to the Element object properties, the following properties are available for the Shape object:
+In addition to the Element object properties, the following properties are available for the Shape object:
 
 | **Property**                             | **Description**                                                                                       |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -43,3 +43,4 @@
 | [shape.vertices](#_bookmark825)          | Read-only; an array of Vertex objects (see [Vertex object](#_bookmark1133)).                          |
 
 <span id="shape.beginEdit()" class="anchor"></span>
+

@@ -2,30 +2,31 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> alert ( alertText )
+alert ( alertText )
 
 #### Parameters
 
-> **alertText** A string that specifies the message you want to display in the Alert dialog box.
+**alertText** A string that specifies the message you want to display in the Alert dialog box.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; displays a string in a modal Alert dialog box, along with an OK button.
+Method; displays a string in a modal Alert dialog box, along with an OK button.
 
 #### Example
 
-> The following example displays the message â€œProcess Completeâ€ in an Alert dialog box:
->
-> alert("Process Complete");
+```
+The following example displays the message “Process Complete” in an Alert dialog box:
+alert("Process Complete");
 
+```
 #### See also
 
-> [confirm()](#_bookmark19), [prompt()](#_bookmark28)
+[confirm()](#_bookmark19), [prompt()](#_bookmark28)

@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> A Contour object represents a closed path of half edges on the boundary of a shape.
+A Contour object represents a closed path of half edges on the boundary of a shape.
 
 #### Method summary
 
-> You can use the following method with the Contour object:
+You can use the following method with the Contour object:
 
 | **Method**                             | **Description**                                                             |
 |----------------------------------------|-----------------------------------------------------------------------------|
@@ -18,7 +18,7 @@
 
 #### Property summary
 
-> You can use the following properties with the Contour object:
+You can use the following properties with the Contour object:
 
 | **Property**                         | **Description**                                                                |
 |--------------------------------------|--------------------------------------------------------------------------------|
@@ -27,3 +27,4 @@
 | [contour.orientation](#_bookmark114) | Read-only; an integer indicating the orientation of the contour.               |
 
 <span id="contour.fill" class="anchor"></span>
+

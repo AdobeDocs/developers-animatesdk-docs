@@ -2,30 +2,27 @@
 
 #### Availability
 
-> Flash MX 2004. *Dropped in Adobe Animate.*
+Flash MX 2004. *Dropped in Adobe Animate.*
 
 #### Usage
 
-> document.screenOutline
+document.screenOutline
 
 #### Description
 
-> *Dropped in Adobe Animate.*
+*Dropped in Adobe Animate.*
 
 #### Example
 
-> The following example displays the array of values in the screenOutline property:
->
-> var myArray = new Array();
->
-> for(var i in fl.getDocumentDOM().screenOutline) {
->
-> myArray.push(" "+i+" : "+fl.getDocumentDOM().screenOutline\[i\]) ;
->
-> }
->
-> fl.trace("Here is the property dump for screenOutline: "+myArray);
+```
+The following example displays the array of values in the screenOutline property:
+var myArray = new Array();
+for(var i in fl.getDocumentDOM().screenOutline) {
+myArray.push(" "+i+" : "+fl.getDocumentDOM().screenOutline\[i\]) ;
+}
+fl.trace("Here is the property dump for screenOutline: "+myArray);
 
+```
 #### See also
 
-> [document.allowScreens() - dropped](#_bookmark133)
+[document.allowScreens() - dropped](#_bookmark133)

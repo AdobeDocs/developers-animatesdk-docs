@@ -2,16 +2,19 @@
 
 #### Availability
 
-> Flash Pro CS6.
+Flash Pro CS6.
 
 #### Usage
 
-> SpriteSheetExporter.stackDuplicateFrames
+SpriteSheetExporter.stackDuplicateFrames
 
 #### Description
 
-> Property; A boolean value specifying whether the sprite sheet can stack duplicate symbol frames when adding them to the sprite sheet. The default is true.
+Property; A boolean value specifying whether the sprite sheet can stack duplicate symbol frames when adding them to the sprite sheet. The default is true.
 
 #### Example
 
-> var exporter = new SpriteSheetExporter; exporter.stackDuplicateFrames = true;
+```
+var exporter = new SpriteSheetExporter; exporter.stackDuplicateFrames = true;
+
+```

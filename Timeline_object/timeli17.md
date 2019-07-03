@@ -2,36 +2,35 @@
 
 #### Availability
 
-> Flash CS5.5 Professional.
+Flash CS5.5 Professional.
 
 #### Usage
 
-> timeline.duplicateLayers(\[startLayerIndex \[, endLayerIndex\]\])
+timeline.duplicateLayers(\[startLayerIndex \[, endLayerIndex\]\])
 
 #### Parameters
 
-> **startLayerIndex** Optional. A zero-based index that specifies the beginning of the range of layers to copy. It also specifies the layer above which the layers on the clipboard are pasted. If you omit startLayerIndex, the method uses the current layer selection.
+**startLayerIndex** Optional. A zero-based index that specifies the beginning of the range of layers to copy. It also specifies the layer above which the layers on the clipboard are pasted. If you omit startLayerIndex, the method uses the current layer selection.
 >
-> **endLayerIndex** Optional. A zero-based index that specifies the layer at which to stop copying. The range of layers to copy goes up to and including endLayerIndex. If you specify only startLayerIndex, then endLayerIndex defaults to the value of startLayerIndex.
+**endLayerIndex** Optional. A zero-based index that specifies the layer at which to stop copying. The range of layers to copy goes up to and including endLayerIndex. If you specify only startLayerIndex, then endLayerIndex defaults to the value of startLayerIndex.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; Duplicates the layers that are currently selected in the Timeline, or the layers in the specified range. Optional arguments can be provided in order to specify a layer or range of layers to duplicate.
+Method; Duplicates the layers that are currently selected in the Timeline, or the layers in the specified range. Optional arguments can be provided in order to specify a layer or range of layers to duplicate.
 
 #### Example
 
-> The following example duplicates the layer currently selected in the Timeline:
->
-> fl.getDocumentDOM().getTimeline().duplicateLayers();
->
-> The following example duplicates the layers from index 2 to index 7 above layer index 2:
->
-> fl.getDocumentDOM().getTimeline().duplicatedLayers(2,7);
+```
+The following example duplicates the layer currently selected in the Timeline:
+fl.getDocumentDOM().getTimeline().duplicateLayers();
+The following example duplicates the layers from index 2 to index 7 above layer index 2:
+fl.getDocumentDOM().getTimeline().duplicatedLayers(2,7);
 
+```
 #### See also
 
-> [timeline.copyLayers()](#_bookmark1039), [timeline.cutLayers()](#_bookmark1048), [timeline.pasteLayers()](#_bookmark1070)
+[timeline.copyLayers()](#_bookmark1039), [timeline.cutLayers()](#_bookmark1048), [timeline.pasteLayers()](#_bookmark1070)

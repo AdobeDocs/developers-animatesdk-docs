@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Adobe Animate.
+Adobe Animate.
 
 #### Usage
 
-> compiledClipInstance.useBackgroundColor
+compiledClipInstance.useBackgroundColor
 
 #### Description
 
-> Property; a boolean that sets the background color:
+Property; a boolean that sets the background color:
 
 -   true - Use 32-bit with alpha.
 
@@ -18,6 +18,8 @@
 
 #### Example
 
-> The following example illustrates use of this property:
->
-> fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].useBackgroundColor = true;
+```
+The following example illustrates use of this property:
+fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].useBackgroundColor = true;
+
+```

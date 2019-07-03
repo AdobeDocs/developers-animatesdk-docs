@@ -2,18 +2,20 @@
 
 #### Availability
 
-> Flash CS4 Professional.
+Flash CS4 Professional.
 
 #### Usage
 
-> fontItem.bitmap
+fontItem.bitmap
 
 #### Description
 
-> Property; a Boolean value that specifies whether the Font item is bitmapped (true) or not (false).
+Property; a Boolean value that specifies whether the Font item is bitmapped (true) or not (false).
 
 #### Example
 
-> Assuming that the first item in the Library is a Font item, the following code displays true in the Output panel if it is bitmapped, false if it is not:
->
-> var theItem = fl.getDocumentDOM().library.items\[0\]; fl.trace("bitmap: "+ theItem.bitmap);
+```
+Assuming that the first item in the Library is a Font item, the following code displays true in the Output panel if it is bitmapped, false if it is not:
+var theItem = fl.getDocumentDOM().library.items\[0\]; fl.trace("bitmap: "+ theItem.bitmap);
+
+```

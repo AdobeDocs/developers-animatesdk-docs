@@ -2,26 +2,28 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> document.smoothSelection()
+document.smoothSelection()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; smooths the curve of each selected fill outline or curved line. This method performs the same action as the Smooth button in the Tools panel.
+Method; smooths the curve of each selected fill outline or curved line. This method performs the same action as the Smooth button in the Tools panel.
 
 #### Example
 
-> The following example smooths the curve of the current selection:
->
-> fl.getDocumentDOM().smoothSelection();
+```
+The following example smooths the curve of the current selection:
+fl.getDocumentDOM().smoothSelection();
+
+```

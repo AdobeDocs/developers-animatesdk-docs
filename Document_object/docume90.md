@@ -2,30 +2,31 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> document.group()
+document.group()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; converts the current selection to a group.
+Method; converts the current selection to a group.
 
 #### Example
 
-> The following example converts the objects in the current selection to a group:
->
-> fl.getDocumentDOM().group();
+```
+The following example converts the objects in the current selection to a group:
+fl.getDocumentDOM().group();
 
+```
 #### See also
 
-> [document.unGroup()](#_bookmark335)
+[document.unGroup()](#_bookmark335)

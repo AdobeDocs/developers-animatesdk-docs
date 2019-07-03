@@ -2,18 +2,20 @@
 
 #### Availability
 
-> Flash rofessional CC.
+Flash rofessional CC.
 
 #### Usage
 
-> swfPanel.reload()
+swfPanel.reload()
 
 #### Description
 
-> Method: Reloads content in the SWF panel.
+Method: Reloads content in the SWF panel.
 
 #### Example
 
-> The following example illustrates the use of this method:
->
-> fl.swfPanels\[0\].reload();
+```
+The following example illustrates the use of this method:
+fl.swfPanels\[0\].reload();
+
+```

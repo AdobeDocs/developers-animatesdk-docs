@@ -2,26 +2,28 @@
 
 #### Availability
 
-> Adobe Animate.
+Adobe Animate.
 
 #### Usage
 
-> document.distributeToKeyframes()
+document.distributeToKeyframes()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; performs a distribute-to-keyframes operation on the current selectionâ€”equivalent to selecting Distribute to KeyFrames. A new keyframe is created for every object. New keyframes are created on the active layer immediately after the active frame
+Method; performs a distribute-to-keyframes operation on the current selection—equivalent to selecting Distribute to KeyFrames. A new keyframe is created for every object. New keyframes are created on the active layer immediately after the active frame
 
 #### Example
 
-> The following example distributes the current selection to keyframes:
->
-> if(fl.getDocumentDOM().canDistributeToKeyframes()) fl.getDocumentDOM().distributeToKeyframes();
+```
+The following example distributes the current selection to keyframes:
+if(fl.getDocumentDOM().canDistributeToKeyframes()) fl.getDocumentDOM().distributeToKeyframes();
+
+```

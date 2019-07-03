@@ -2,30 +2,27 @@
 
 #### Availability
 
-> Flash 8.
+Flash 8.
 
 #### Usage
 
-> filter.name
+filter.name
 
 #### Description
 
-> Read-only property; a string that specifies the type of filter. The value of this property determines which other properties of the Filter object are available. The value is one of the following: "adjustColorFilter", "bevelFilter", "blurFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", or "gradientGlowFilter".
+Read-only property; a string that specifies the type of filter. The value of this property determines which other properties of the Filter object are available. The value is one of the following: "adjustColorFilter", "bevelFilter", "blurFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", or "gradientGlowFilter".
 
 #### Example
 
-> The following example displays the filter names and index positions in the Output panel:
->
-> var myFilters = fl.getDocumentDOM().getFilters(); var traceStr = "";
->
-> for(i=0; i \< myFilters.length; i++){
->
-> traceStr = traceStr + " At index " + i + ": " + myFilters\[i\].name;
->
-> }
->
-> fl.trace(traceStr);
+```
+The following example displays the filter names and index positions in the Output panel:
+var myFilters = fl.getDocumentDOM().getFilters(); var traceStr = "";
+for(i=0; i \< myFilters.length; i++){
+traceStr = traceStr + " At index " + i + ": " + myFilters\[i\].name;
+}
+fl.trace(traceStr);
 
+```
 #### See also
 
-> [document.getFilters()](#_bookmark208), [document.setFilterProperty()](#_bookmark289)
+[document.getFilters()](#_bookmark208), [document.setFilterProperty()](#_bookmark289)

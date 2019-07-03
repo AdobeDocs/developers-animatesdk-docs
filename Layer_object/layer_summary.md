@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The Layer object represents a layer in the timeline. The [timeline.layers](#_bookmark1066) property contains an array of Layer objects, which can be accessed by fl.getDocumentDOM().getTimeline().layers.
+The Layer object represents a layer in the timeline. The [timeline.layers](#_bookmark1066) property contains an array of Layer objects, which can be accessed by fl.getDocumentDOM().getTimeline().layers.
 
 #### Property summary
 
-> The following properties are available for the Layer object:
+The following properties are available for the Layer object:
 
 | **Property**                                                         | **Description**                                                                                                                 |
 |----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
@@ -23,7 +23,8 @@
 | [layer.locked](#_bookmark687)                                        | A Boolean value that specifies the locked status of the layer.                                                                  |
 | [layer.name](#_bookmark688)                                          | A string that specifies the name of the layer.                                                                                  |
 | [layer.outline](#_bookmark689)                                       | A Boolean value that specifies the status of outlines for all objects in the layer.                                             |
-| [layer.parentLayer](#_bookmark690)                                   | A Layer object that represents the layerâ€™s containing folder, guiding, or masking layer.                                        |
-| [layer.visible](#_bookmark691)                                       | A Boolean value that specifies whether the layerâ€™s objects on the Stage are shown or hidden.                                    |
+| [layer.parentLayer](#_bookmark690)                                   | A Layer object that represents the layer’s containing folder, guiding, or masking layer.                                        |
+| [layer.visible](#_bookmark691)                                       | A Boolean value that specifies whether the layer’s objects on the Stage are shown or hidden.                                    |
 
 <span id="layer.animationType" class="anchor"></span>
+

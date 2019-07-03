@@ -1,12 +1,12 @@
-## Whatâ€™s new in the JavaScript API
+## What’s new in the JavaScript API
 
-> The following section lists new objects, methods, and properties in Flash CC. It also lists changes in Flash CS5, CS5.5, and CS6.
+The following section lists new objects, methods, and properties in Flash CC. It also lists changes in Flash CS5, CS5.5, and CS6.
 >
-> If you have not used the JavaScript API before, you might want to skip this section and go directly to [â€œJavaScript API](#JavaScript_API_objects) [objectsâ€ on page 10](#JavaScript_API_objects)).
+If you have not used the JavaScript API before, you might want to skip this section and go directly to [“JavaScript API](#JavaScript_API_objects) [objects” on page 10](#JavaScript_API_objects)).
 
 ### New methods and properties in Flash CC
 
-> The following methods and properties for existing objects are new in Flash Profesional CC:
+The following methods and properties for existing objects are new in Flash Profesional CC:
 
 -   [Tween Object](#_bookmark1123)
 
@@ -148,7 +148,7 @@
 
 ### Dropped methods and properties in Flash CC
 
-> The following methods and properties for existing objects are dropped in Adobe Animate:
+The following methods and properties for existing objects are dropped in Adobe Animate:
 
 -   ActionsPanel.getClassForObject()
 
@@ -184,13 +184,13 @@
 
 ### New objects in Flash CS6
 
-> The following object is new in Flash CS6:
+The following object is new in Flash CS6:
 
 -   [SpriteSheetExporter object](#_bookmark844)
 
 ### New methods and properties in Flash CS6
 
-> The following methods and properties for existing objects are new in Flash Pro CS6:
+The following methods and properties for existing objects are new in Flash Pro CS6:
 
 -   [BitmapItem object](#_bookmark49)
 
@@ -254,7 +254,7 @@
 
 ### New methods and properties in Flash CS5 and CS5.5
 
-> The following methods and properties for existing objects are new in Flash Pro CS5:
+The following methods and properties for existing objects are new in Flash Pro CS5:
 
 -   [Document object](#_bookmark116)
 
@@ -302,7 +302,7 @@
 
     -   timeline.stopPlayback
 
-> The following methods and properties for existing objects are new in Flash Pro CS5.5:
+The following methods and properties for existing objects are new in Flash Pro CS5.5:
 
 -   [SymbolInstance object](#_bookmark914)
 
@@ -346,7 +346,7 @@
 
 ### Other changes in Flash CS5 and CS5.5
 
-> The following methods and properties are updated in Flash CS5:
+The following methods and properties are updated in Flash CS5:
 
 -   fl.openScript()
 
@@ -358,7 +358,7 @@
 
 -   fontItem.embedVariantGlyphs
 
-> The following objects and method are no longer available in Flash CS5:
+The following objects and method are no longer available in Flash CS5:
 
 -   Screen object
 
@@ -381,3 +381,4 @@
 -   fl.synchronizeDocumentWithHeadVersion()
 
 <span id="JavaScript_API_objects" class="anchor"></span>
+

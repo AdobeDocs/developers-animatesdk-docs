@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The flash object represents the Flash application. You can use flash or fl to refer to this object. This documentation uses fl in code samples throughout.
+The flash object represents the Flash application. You can use flash or fl to refer to this object. This documentation uses fl in code samples throughout.
 
 #### Method summary
 
-> The following methods can be used with the flash object:
+The following methods can be used with the flash object:
 
 | **Method**                                       | **Description**                                                                                                |
 |--------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -20,7 +20,7 @@
 | [fl.clearPublishCache()](#_bookmark456)          | Clears the publish cache.                                                                                      |
 | [fl.clipCopyString()](#_bookmark457)             | Copies the specified string to the Clipboard.                                                                  |
 | [fl.closeAll()](#_bookmark459)                   | Closes all open documents, displaying the Save As dialog box for any documents that were not previously saved. |
-| [fl.closeAllPlayerDocuments()](#_bookmark460)    | Closes all the SWF files that were opened with Control \> Test Movie.                                          |
+| [fl.closeAllPlayerDocuments()](#_bookmark460)    | Closes all the SWF files that were opened with Control \Test Movie.                                          |
 | [fl.closeDocument()](#_bookmark461)              | Closes the specified document.                                                                                 |
 | [fl.copyLibraryItem()](#_bookmark470)            | Silently copies a library item from a document without exposing the item in the Flash Pro user interface.      |
 | [fl.createDocument()](#_bookmark471)             | Opens a new document and selects it.                                                                           |
@@ -37,7 +37,7 @@
 
 #### Property summary
 
-> The following properties can be used with the flash object.
+The following properties can be used with the flash object.
 
 | **Property**                                                           | **Description**                                                                                                                                                          |
 |------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -45,8 +45,8 @@
 | [fl.as3PackagePaths](#_bookmark452)                                    | A string that corresponds to the global Classpath setting in the ActionScript 3.0 Settings dialog box.                                                                   |
 | [fl.compilerErrors](#_bookmark462)                                     | Read-only; a [compilerErrors object](#_bookmark95).                                                                                                                      |
 | [fl.componentsPanel](#_bookmark463)                                    | Read-only; a [componentsPanel object](#_bookmark104), which represents the Components panel.                                                                             |
-| [fl.configDirectory](#_bookmark464)                                    | Read-only; a string that specifies the full path for the local userâ€™s Configuration folder as a platform-specific path.                                                  |
-| [fl.configURI](#_bookmark466)                                          | Read-only; a string that specifies the full path for the local userâ€™s Configuration directory as a file:/// URI.                                                         |
+| [fl.configDirectory](#_bookmark464)                                    | Read-only; a string that specifies the full path for the local user’s Configuration folder as a platform-specific path.                                                  |
+| [fl.configURI](#_bookmark466)                                          | Read-only; a string that specifies the full path for the local user’s Configuration directory as a file:/// URI.                                                         |
 | [fl.contactSensitiveSelection](#_bookmark468)                          | A Boolean value that specifies whether Contact Sensitive selection mode is enabled.                                                                                      |
 | [fl.createNewDocList](#_bookmark472)                                   | Read-only; an array of strings that represent the various types of documents that can be created.                                                                        |
 | [fl.createNewDocListType](#_bookmark473)                               | Read-only; an array of strings that represent the file extensions of the types of documents that can be created.                                                         |
@@ -56,7 +56,7 @@
 | [fl.externalLibraryPath](#_bookmark479)                                | A string that contains a list of items in the global ActionScript 3.0 External library path, which specifies the location of SWC files used as runtime shared libraries. |
 | [fl.flexSDKPath](#_bookmark488)                                        | A string that specifies the path to the Flex SDK folder, which contains bin, frameworks, lib, and other folders.                                                         |
 | [fl.installedPlayers](#_bookmark496)                                   | Returns an array of generic objects corresponding to the list of installed Flash Players in the document Property inspector.                                             |
-| [fl.languageCode](#_bookmark499)                                       | Returns the five character code identifying the locale of the applicationâ€™s user interface.                                                                              |
+| [fl.languageCode](#_bookmark499)                                       | Returns the five character code identifying the locale of the application’s user interface.                                                                              |
 | [fl.libraryPath](#_bookmark500)                                        | A string that contains a list of items in the global ActionScript 3.0 Library path, which specifies the location of SWC files or folders containing SWC files.           |
 | [fl.Math](#_bookmark503)                                               | Read-only; the [Math object](#_bookmark718), which provides methods for matrix and point operations.                                                                     |
 | [fl.mruRecentFileList](#_bookmark505)                                  | Read-only; an array of the complete filenames in the Most Recently Used (MRU) list that the Flash authoring tool manages.                                                |
@@ -81,3 +81,4 @@
 | [fl.xmlui](#_bookmark556)                     | Read-only; an [XMLUI object](#_bookmark1151).                                                                                                |
 
 <span id="fl.actionsPanel" class="anchor"></span>
+

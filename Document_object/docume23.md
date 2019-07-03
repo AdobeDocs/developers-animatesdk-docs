@@ -2,15 +2,15 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> document.backgroundColor
+document.backgroundColor
 
 #### Description
 
-> Property; the color of the background, in one of the following formats:
+Property; the color of the background, in one of the following formats:
 
 -   A string in the format "\#RRGGBB" or "\#RRGGBBAA"
 
@@ -20,6 +20,8 @@
 
 #### Example
 
-> The following example sets the background color to black:
->
-> fl.getDocumentDOM().backgroundColor = '\#000000';
+```
+The following example sets the background color to black:
+fl.getDocumentDOM().backgroundColor = '\#000000';
+
+```

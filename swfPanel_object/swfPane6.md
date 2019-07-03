@@ -2,21 +2,21 @@
 
 #### Availability
 
-> Flash CS5.5 Professional.
+Flash CS5.5 Professional.
 
 #### Usage
 
-> swfPanel.setFocus()
+swfPanel.setFocus()
 
 #### Description
 
-> Method: Sets the keyboard focus to the specified SWF panel.
+Method: Sets the keyboard focus to the specified SWF panel.
 
 #### Example
 
-> The following code sets the focus to the SWF panel named â€œProjectâ€:
->
-> Please do the followings steps before running this command:
+```
+The following code sets the focus to the SWF panel named “Project”:
+Please do the followings steps before running this command:
 
 1.  Undock the Project panel, so it is a floating panel.
 
@@ -28,8 +28,9 @@
 
 5.  Press the tab key. You should see an insertion cursor in one of the text fields in the Create File dialog box.
 
-> flash.getSwfPanel("Project").setFocus();
+flash.getSwfPanel("Project").setFocus();
 
+```
 #### See also
 
-> [swfPanel.name](#_bookmark909), [fl.swfPanels](#_bookmark547)
+[swfPanel.name](#_bookmark909), [fl.swfPanels](#_bookmark547)

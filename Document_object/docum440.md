@@ -2,30 +2,31 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> document.selectNone()
+document.selectNone()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; deselects any selected items.
+Method; deselects any selected items.
 
 #### Example
 
-> The following example deselects any items that are selected:
->
-> fl.getDocumentDOM().selectNone();
+```
+The following example deselects any items that are selected:
+fl.getDocumentDOM().selectNone();
 
+```
 #### See also
 
-> [document.selectAll()](#_bookmark273), [document.selection](#_bookmark274)
+[document.selectAll()](#_bookmark273), [document.selection](#_bookmark274)

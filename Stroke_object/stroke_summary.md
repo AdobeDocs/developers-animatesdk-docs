@@ -2,17 +2,17 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Description
 
-> The Stroke object contains all the settings for a stroke, including the custom settings. This object represents the information contained in the Property inspector. Using the Stroke object together with the [document.setCustomStroke()](#_bookmark282) method, you can change the stroke settings for the Tools panel, the Property inspector, and the current selection. You can also get the stroke settings of the Tools panel and Property inspector, or of the current selection, by using the [document.getCustomStroke()](#_bookmark203) method.
+The Stroke object contains all the settings for a stroke, including the custom settings. This object represents the information contained in the Property inspector. Using the Stroke object together with the [document.setCustomStroke()](#_bookmark282) method, you can change the stroke settings for the Tools panel, the Property inspector, and the current selection. You can also get the stroke settings of the Tools panel and Property inspector, or of the current selection, by using the [document.getCustomStroke()](#_bookmark203) method.
 >
-> This object always has the following four properties: style, thickness, color, and breakAtCorners. (In Flash CS3, the breakAtCorners property was deprecated in favor of [stroke.joinType](#_bookmark889).) Other properties can be set, depending on the value of the [stroke.style](#_bookmark898) property.
+This object always has the following four properties: style, thickness, color, and breakAtCorners. (In Flash CS3, the breakAtCorners property was deprecated in favor of [stroke.joinType](#_bookmark889).) Other properties can be set, depending on the value of the [stroke.style](#_bookmark898) property.
 
 #### Property summary
 
-> The following properties are available for the Stroke object:
+The following properties are available for the Stroke object:
 
 | **Property**                                    | **Description**                                                                                         |
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------|
@@ -46,3 +46,4 @@
 | [stroke.waveLength](#_bookmark902)    | A string that specifies the wave length of a ragged line.                       |
 
 <span id="stroke.breakAtCorners" class="anchor"></span>
+

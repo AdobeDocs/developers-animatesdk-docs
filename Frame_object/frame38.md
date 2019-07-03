@@ -2,18 +2,20 @@
 
 #### Availability
 
-> Flash Professional CS5.
+Flash Professional CS5.
 
 #### Usage
 
-> Frame.tweenInstanceName()
+Frame.tweenInstanceName()
 
 #### Description
 
-> Property; a string that assigns an instance name to the selected motion object.
+Property; a string that assigns an instance name to the selected motion object.
 
 #### Example
 
-> The following example assigns the instance name MyMotionTween to the specified motion object.
->
-> theFrame.tweenInstanceName = "MyMotionTween";
+```
+The following example assigns the instance name MyMotionTween to the specified motion object.
+theFrame.tweenInstanceName = "MyMotionTween";
+
+```

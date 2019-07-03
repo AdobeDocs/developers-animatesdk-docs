@@ -2,26 +2,24 @@
 
 #### Availability
 
-> Flash 8.
+Flash 8.
 
 #### Usage
 
-> filter.hue
+filter.hue
 
 #### Description
 
-> Property; a float value that specifies the hue of the filter. Acceptable values are between -180 and 180. This property is defined for Filter objects with a value of "adjustColorFilter" for the [filter.name](#_bookmark440) property.
+Property; a float value that specifies the hue of the filter. Acceptable values are between -180 and 180. This property is defined for Filter objects with a value of "adjustColorFilter" for the [filter.name](#_bookmark440) property.
 
 #### Example
 
-> The following example sets the hue to 120 for the Adjust Color filters on the selected object(s):
->
-> var myFilters = fl.getDocumentDOM().getFilters(); for(i=0; i \< myFilters.length; i++){
->
-> if(myFilters\[i\].name == 'adjustColorFilter'){ myFilters\[i\].hue = 120;
->
-> }
->
-> }
->
-> fl.getDocumentDOM().setFilters(myFilters);
+```
+The following example sets the hue to 120 for the Adjust Color filters on the selected object(s):
+var myFilters = fl.getDocumentDOM().getFilters(); for(i=0; i \< myFilters.length; i++){
+if(myFilters\[i\].name == 'adjustColorFilter'){ myFilters\[i\].hue = 120;
+}
+}
+fl.getDocumentDOM().setFilters(myFilters);
+
+```

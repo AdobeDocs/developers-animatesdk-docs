@@ -2,20 +2,21 @@
 
 #### Availability
 
-> Flash Pro CS6.
+Flash Pro CS6.
 
 #### Usage
 
-> SpriteSheetExporter.beginExport()
+SpriteSheetExporter.beginExport()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; Initializes the SpriteSheetExporter to create a new sprite sheet. This method is not necessary if you create the exporter from new. It is necessary if you reuse the same exporter to make multiple sprite sheets.
+Method; Initializes the SpriteSheetExporter to create a new sprite sheet. This method is not necessary if you create the exporter from new. It is necessary if you reuse the same exporter to make multiple sprite sheets.
+

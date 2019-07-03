@@ -2,32 +2,33 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> function mouseDoubleClick() {
+function mouseDoubleClick() {
 >
-> // statements
+// statements
 >
-> }
+}
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Function; called when the extensible tool is active and the mouse button is double-clicked on the Stage.
+Function; called when the extensible tool is active and the mouse button is double-clicked on the Stage.
 
 #### Example
 
-> The following example displays a message in the Output panel when the extensible tool is active and the mouse button is double-clicked.
->
-> function mouseDoubleClick() { fl.trace("Mouse was double-clicked");
->
-> }
+```
+The following example displays a message in the Output panel when the extensible tool is active and the mouse button is double-clicked.
+function mouseDoubleClick() { fl.trace("Mouse was double-clicked");
+}
+
+```

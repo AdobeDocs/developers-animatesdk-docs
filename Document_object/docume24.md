@@ -2,26 +2,28 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> document.breakApart()
+document.breakApart()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; performs a break-apart operation on the current selection.
+Method; performs a break-apart operation on the current selection.
 
 #### Example
 
-> The following example breaks apart the current selection:
->
-> fl.getDocumentDOM().breakApart();
+```
+The following example breaks apart the current selection:
+fl.getDocumentDOM().breakApart();
+
+```

@@ -2,26 +2,28 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> document.straightenSelection()
+document.straightenSelection()
 
 #### Parameters
 
-> None.
+None.
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; straightens the currently selected strokes. This method is equivalent to using the Straighten button in the Tools panel.
+Method; straightens the currently selected strokes. This method is equivalent to using the Straighten button in the Tools panel.
 
 #### Example
 
-> The following example straightens the curve of the current selection:
->
-> fl.getDocumentDOM().straightenSelection();
+```
+The following example straightens the curve of the current selection:
+fl.getDocumentDOM().straightenSelection();
+
+```

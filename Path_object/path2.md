@@ -2,11 +2,11 @@
 
 #### Availability
 
-> Flash MX 2004.
+Flash MX 2004.
 
 #### Usage
 
-> path.addPoint(x, y)
+path.addPoint(x, y)
 
 #### Parameters
 
@@ -16,14 +16,16 @@
 
 #### Returns
 
-> Nothing.
+Nothing.
 
 #### Description
 
-> Method; adds a point to the path.
+Method; adds a point to the path.
 
 #### Example
 
-> The following example creates a new path, stores it in the myPath variable, and assigns the new point to the path:
->
-> var myPath = fl.drawingLayer.newPath(); myPath.addPoint(10, 100);
+```
+The following example creates a new path, stores it in the myPath variable, and assigns the new point to the path:
+var myPath = fl.drawingLayer.newPath(); myPath.addPoint(10, 100);
+
+```
