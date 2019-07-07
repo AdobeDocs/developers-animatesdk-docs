@@ -19,7 +19,7 @@ Nothing.
 
 #### Description
 
-Method; appends a quadratic Bézier segment to the path.
+Method; appends a quadratic BÃ©zier segment to the path.
 
 #### Example
 

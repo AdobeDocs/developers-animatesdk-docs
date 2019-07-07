@@ -15,7 +15,7 @@ Property; an integer that specifies the percentage layer height; equivalent to t
 #### Example
 
 ```
-The following example stores the percentage value of the first layer’s height setting:
+The following example stores the percentage value of the first layerâ€™s height setting:
 var layerHeight = fl.getDocumentDOM().getTimeline().layers\[0\].height;
 The following example sets the height of the first layer to 300 percent:
 fl.getDocumentDOM().getTimeline().layers\[0\].height = 300;

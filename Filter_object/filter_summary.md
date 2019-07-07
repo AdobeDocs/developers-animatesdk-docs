@@ -21,7 +21,7 @@ The following properties can be used with the Filter object:
 | [filter.brightness](#_bookmark430)     | A float value that specifies the brightness of the filter.                                      |
 | [filter.color](#_bookmark431)          | A string, hexadecimal value, or integer that represents the filter color.                       |
 | [filter.contrast](#_bookmark432)       | A float value that specifies the contrast value of the filter.                                  |
-| [filter.distance](#_bookmark433)       | A float value that specifies the distance between the filter’s effect and an object, in pixels. |
+| [filter.distance](#_bookmark433)       | A float value that specifies the distance between the filterâ€™s effect and an object, in pixels. |
 | [filter.enabled](#_bookmark434)        | A Boolean value that specifies whether the specified filter is enabled.                         |
 | [filter.hideObject](#_bookmark435)     | A Boolean value that specifies whether the source image is hidden.                              |
 | [filter.highlightColor](#_bookmark436) | A string, hexadecimal value, or integer that represents the highlight color.                    |

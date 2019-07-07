@@ -10,11 +10,11 @@ element.setTransformationPoint(transformationPoint)
 
 #### Parameters
 
-**transformationPoint** A point (for example, {x:10, y:20}, where x and y are floating-point numbers) that specifies values for an element’s or group’s transformation point.
+**transformationPoint** A point (for example, {x:10, y:20}, where x and y are floating-point numbers) that specifies values for an elementâ€™s or groupâ€™s transformation point.
 
 -   Shapes: *transformationPoint* is set relative to the document (0,0 is the upper-left corner of the Stage).
 
--   Symbols: *transformationPoint* is set relative to the symbol’s registration point (0,0 is located at the registration point).
+-   Symbols: *transformationPoint* is set relative to the symbolâ€™s registration point (0,0 is located at the registration point).
 
 -   Text: *transformationPoint* is set relative to the text field (0,0 is the upper-left corner of the text field).
 
@@ -28,7 +28,7 @@ Nothing.
 
 #### Description
 
-Method; sets the position of the element’s transformation point.
+Method; sets the position of the elementâ€™s transformation point.
 This method is almost identical to [document.setTransformationPoint()](#_bookmark317). It is different in the following way:
 
 -   You can set transformation points for elements without first selecting them.

@@ -30,7 +30,7 @@ Method; retrieves the fill object of the selected shape or, if specified, of the
 #### Example
 
 ```
-The following example gets the fill object of the selection and then changes the selection’s color to white:
+The following example gets the fill object of the selection and then changes the selectionâ€™s color to white:
 var fill = fl.getDocumentDOM().getCustomFill(); fill.color = '\#FFFFFF';
 fill.style = "solid"; fl.getDocumentDOM().setCustomFill(fill);
 The following example returns the fill object of the Tools panel and Property inspector and then changes the color swatch to a linear gradient:

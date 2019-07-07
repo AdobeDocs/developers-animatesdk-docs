@@ -24,7 +24,7 @@ Method; replaces the currently selected text with the text specified in *replace
 
 ```
 The following example replaces currently selected text in the Actions panel.
-if (fl.actionsPanel.hasSelection()) { fl.actionsPanel.replaceSelectedText("// © 2006 Adobe Inc.");
+if (fl.actionsPanel.hasSelection()) { fl.actionsPanel.replaceSelectedText("// Â© 2006 Adobe Inc.");
 }
 
 ```

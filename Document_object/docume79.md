@@ -18,7 +18,7 @@ An array that contains a list of filters applied to the currently selected objec
 
 #### Description
 
-Method; returns an array that contains the list of filters applied to the currently selected objects. If multiple objects are selected and they don’t have identical filters, this method returns the list of filters applied to the first selected object.
+Method; returns an array that contains the list of filters applied to the currently selected objects. If multiple objects are selected and they donâ€™t have identical filters, this method returns the list of filters applied to the first selected object.
 
 #### Example
 

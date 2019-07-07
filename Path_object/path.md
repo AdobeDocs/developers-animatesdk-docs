@@ -19,7 +19,7 @@ Nothing.
 
 #### Description
 
-Method; appends a cubic Bézier curve segment to the path.
+Method; appends a cubic BÃ©zier curve segment to the path.
 
 #### Example
 

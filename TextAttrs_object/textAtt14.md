@@ -10,7 +10,7 @@ textAttrs.rotation
 
 #### Description
 
-Property; a Boolean value. A value of true causes Flash to rotate the characters of the text 90บ. The default value is false. This property applies only to static text with a vertical orientation; it generates a warning if used with other text types.
+Property; a Boolean value. A value of true causes Flash to rotate the characters of the text 90ยบ. The default value is false. This property applies only to static text with a vertical orientation; it generates a warning if used with other text types.
 
 #### Example
 

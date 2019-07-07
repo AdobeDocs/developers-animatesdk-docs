@@ -23,7 +23,7 @@ The following methods are available for the ToolObj object.
 | [toolObj.setToolName()](#_bookmark1099)          | Assigns a name to the tool for the configuration of the Tools panel.                                                                                                            |
 | [toolObj.setToolTip()](#_bookmark1100)           | Sets the tooltip that appears when the mouse is held over the tool icon.                                                                                                        |
 | [toolObj.showPIControl()](#_bookmark1101)        | Shows or hides a control in the Property inspector.                                                                                                                             |
-| [toolObj.showTransformHandles()](#_bookmark1102) | Called in the [configureTool()](#_bookmark18) method of an extensible tool’s JavaScript file to indicate that the free transform handles should appear when the tool is active. |
+| [toolObj.showTransformHandles()](#_bookmark1102) | Called in the [configureTool()](#_bookmark18) method of an extensible toolâ€™s JavaScript file to indicate that the free transform handles should appear when the tool is active. |
 
 #### Property summary
 

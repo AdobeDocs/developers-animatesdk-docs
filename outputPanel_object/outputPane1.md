@@ -11,7 +11,7 @@ outputPanel.save(fileURI \[, bAppendToFile \[ , bUseSystemEncoding\]\])
 #### Parameters
 
 **fileURI** A string, expressed as a file:/// URI, that specifies the local file to contain the contents of the Output panel.
-**bAppendToFile** An optional Boolean value. If true, it appends the Output panel’s contents to the output file, and if
+**bAppendToFile** An optional Boolean value. If true, it appends the Output panelâ€™s contents to the output file, and if
 false, the method overwrites the output file if it already exists. The default value is false.
 **bUseSystemEncoding** An optional Boolean value. If true, it saves the Output panel text using the system encoding; if false, it saves the Output panel text using UTF-8 encoding, with Byte Order Mark characters at the beginning of the text. The default value is false.
 
@@ -28,7 +28,7 @@ This method is useful for batch processing. For example, you can create a JSFL f
 #### Example
 
 ```
-The following example saves the Output panel’s contents to the batch.log file in the /tests folder, overwriting the batch.log file if it already exists:
+The following example saves the Output panelâ€™s contents to the batch.log file in the /tests folder, overwriting the batch.log file if it already exists:
 fl.outputPanel.save("file:///c\|/tests/batch.log");
 
 ```

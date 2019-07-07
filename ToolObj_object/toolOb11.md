@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; called in the configureTool() method of an extensible tool’s JavaScript file to indicate that the free transform handles should appear when the tool is active. This method is used only when you create extensible tools.
+Method; called in the configureTool() method of an extensible toolâ€™s JavaScript file to indicate that the free transform handles should appear when the tool is active. This method is used only when you create extensible tools.
 
 #### Example
 

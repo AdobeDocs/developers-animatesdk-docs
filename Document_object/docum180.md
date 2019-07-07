@@ -24,7 +24,7 @@ Method; optimizes smoothing for the current selection, allowing multiple passes,
 #### Example
 
 ```
-The following example optimizes the curve of the current selection to 50บ of smoothing with multiple passes:
+The following example optimizes the curve of the current selection to 50ยบ of smoothing with multiple passes:
 fl.getDocumentDOM().optimizeCurves(50, true);
 
 ```

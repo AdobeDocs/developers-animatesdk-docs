@@ -14,7 +14,7 @@ FLfile.getModificationDateObj(fileOrFolderURI)
 
 #### Returns
 
-A JavaScript Date object that represents the date and time when the specified file or folder was last modified. If the file or folder doesn’t exist, the object contains information indicating that the file or folder was created at midnight GMT on December 31, 1969.
+A JavaScript Date object that represents the date and time when the specified file or folder was last modified. If the file or folder doesnâ€™t exist, the object contains information indicating that the file or folder was created at midnight GMT on December 31, 1969.
 
 #### Description
 

@@ -10,7 +10,7 @@ document.docClass
 
 #### Description
 
-Property; a string that specifies the top-level ActionScript 3.0 class associated with the document. If the document isn’t configured to use ActionScript 3.0, this property is ignored.
+Property; a string that specifies the top-level ActionScript 3.0 class associated with the document. If the document isnâ€™t configured to use ActionScript 3.0, this property is ignored.
 
 #### Example
 

@@ -10,7 +10,7 @@ element.y
 
 #### Description
 
-Property; a float value that specifies the *y* value of the selected element’s registration point.
+Property; a float value that specifies the *y* value of the selected elementâ€™s registration point.
 
 #### Example
 

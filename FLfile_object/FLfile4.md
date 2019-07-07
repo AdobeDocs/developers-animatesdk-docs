@@ -14,7 +14,7 @@ FLfile.getCreationDate(fileOrFolderURI)
 
 #### Returns
 
-A string containing a hexadecimal number that represents the number of seconds that have elapsed between January 1, 1970 and the time the file or folder was created, or "00000000" if the file or folder doesn’t exist.
+A string containing a hexadecimal number that represents the number of seconds that have elapsed between January 1, 1970 and the time the file or folder was created, or "00000000" if the file or folder doesnâ€™t exist.
 
 #### Description
 

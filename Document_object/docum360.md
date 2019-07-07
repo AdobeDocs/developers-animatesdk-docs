@@ -24,9 +24,9 @@ Method; rotates the selection by a specified number of degrees. The effect is th
 #### Example
 
 ```
-The following example rotates the selection by 45บ around the transformation point:
+The following example rotates the selection by 45ยบ around the transformation point:
 fl.getDocumentDOM().rotateSelection(45);
-The following example rotates the selection by 45บ around the lower-left corner:
+The following example rotates the selection by 45ยบ around the lower-left corner:
 fl.getDocumentDOM().rotateSelection(45, "bottom left");
 
 ```

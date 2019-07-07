@@ -12,7 +12,7 @@ document.addNewRectangle(boundingRectangle, roundness \[, bSuppressFill \[, bSup
 
 **boundingRectangle** A rectangle that specifies the bounds within which the new rectangle is added, in the format
 {left:value1,top:value2,right:value3,bottom:value4}. The left and top values specify the location of the upper left corner (e.g., left:0,top:0 represents the upper left corner of the Stage) and the right and bottom values specify the location of the lower-right corner. Therefore, the width of the rectangle is the difference in value between left and right, and the height of the rectangle is the difference in value between top and bottom.
-In other words, the rectangle bounds do not all correspond to the values shown in the Property inspector. The left and top values correspond to the X and Y values in the Property inspector, respectively. However, the right and bottom values don’t correspond to the W and H values in the Property inspector. For example, consider a rectangle with the following bounds:
+In other words, the rectangle bounds do not all correspond to the values shown in the Property inspector. The left and top values correspond to the X and Y values in the Property inspector, respectively. However, the right and bottom values donâ€™t correspond to the W and H values in the Property inspector. For example, consider a rectangle with the following bounds:
 {left:10,top:10,right:50,bottom:100}
 This rectangle would display the following values in the Property inspector:
 X = 10, Y = 10, W = 40, H = 90
@@ -26,7 +26,7 @@ Nothing.
 
 #### Description
 
-Method; adds a new rectangle or rounded rectangle, fitting it into the specified bounds. This method performs the same operation as the Rectangle tool. The method uses the document’s current default stroke and fill attributes and adds the rectangle on the current frame and layer. If both *bSuppressFill* and *bSuppressStroke* are set to true, the method has no effect.
+Method; adds a new rectangle or rounded rectangle, fitting it into the specified bounds. This method performs the same operation as the Rectangle tool. The method uses the documentâ€™s current default stroke and fill attributes and adds the rectangle on the current frame and layer. If both *bSuppressFill* and *bSuppressStroke* are set to true, the method has no effect.
 
 #### Example
 

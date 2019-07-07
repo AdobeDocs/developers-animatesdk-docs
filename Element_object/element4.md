@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-A point (for example, {x:10, y:20}, where x and y are floating-point numbers) that specifies the position of the transformation point (also *origin point* or *zero point*) within the element’s coordinate system.
+A point (for example, {x:10, y:20}, where x and y are floating-point numbers) that specifies the position of the transformation point (also *origin point* or *zero point*) within the elementâ€™s coordinate system.
 
 #### Description
 
-Method; gets the value of the specified element’s transformation point.
+Method; gets the value of the specified elementâ€™s transformation point.
 Transformation points are relative to different locations, depending on the type of item selected. For more information, see [element.setTransformationPoint()](#_bookmark400).
 
 #### Example

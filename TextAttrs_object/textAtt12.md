@@ -15,7 +15,7 @@ Property; an integer that specifies the line spacing (*leading*) of the paragrap
 #### Example
 
 ```
-The following example sets the selected text field’s lineSpacing property to 100:
+The following example sets the selected text fieldâ€™s lineSpacing property to 100:
 fl.getDocumentDOM().selection\[0\].setTextAttr("lineSpacing", 100);
 
 ```

@@ -24,11 +24,11 @@ The following properties are available for the TextAttrs object:
 | [textAttrs.fillColor](#_bookmark1012)         | A string, hexadecimal value, or integer that represents the fill color.                                                                |
 | [textAttrs.indent](#_bookmark1013)            | An integer that specifies paragraph indentation.                                                                                       |
 | [textAttrs.italic](#_bookmark1014)            | A Boolean value. A value of true causes text to appear with the italic version of the font.                                            |
-| [textAttrs.leftMargin](#_bookmark1015)        | An integer that specifies the paragraph’s left margin.                                                                                 |
+| [textAttrs.leftMargin](#_bookmark1015)        | An integer that specifies the paragraphâ€™s left margin.                                                                                 |
 | [textAttrs.letterSpacing](#_bookmark1016)     | An integer that represents the space between characters.                                                                               |
 | [textAttrs.lineSpacing](#_bookmark1017)       | An integer that specifies the line spacing (leading) of the paragraph                                                                  |
-| [textAttrs.rightMargin](#_bookmark1018)       | An integer that specifies the paragraph’s right margin.                                                                                |
-| [textAttrs.rotation](#_bookmark1019)          | A Boolean value. A value of true causes Flash to rotate the characters of the text 90°. The default value is false.                    |
+| [textAttrs.rightMargin](#_bookmark1018)       | An integer that specifies the paragraphâ€™s right margin.                                                                                |
+| [textAttrs.rotation](#_bookmark1019)          | A Boolean value. A value of true causes Flash to rotate the characters of the text 90Â°. The default value is false.                    |
 | [textAttrs.size](#_bookmark1020)              | An integer that specifies the size of the font.                                                                                        |
 | [textAttrs.target](#_bookmark1021)            | A string that represents the target property of the text field.                                                                        |
 | [textAttrs.url](#_bookmark1022)               | A string that represents the URL property of the text field.                                                                           |

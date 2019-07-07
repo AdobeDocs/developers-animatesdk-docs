@@ -12,7 +12,7 @@ document.addNewText(boundingRectangle \[, text \])
 
 **boundingRectangle** Specifies the size and location of the text field. For information on the format of
 *boundingRectangle*, see [document.addNewRectangle()](#_bookmark128).
-**text** An optional string that specifies the text to place in the field. If you omit this parameter, the selection in the Tools panel switches to the Text tool. Therefore, if you don’t want the selected tool to change, pass a value for *text*.
+**text** An optional string that specifies the text to place in the field. If you omit this parameter, the selection in the Tools panel switches to the Text tool. Therefore, if you donâ€™t want the selected tool to change, pass a value for *text*.
 
 #### Returns
 

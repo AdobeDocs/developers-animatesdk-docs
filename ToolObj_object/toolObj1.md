@@ -42,7 +42,7 @@ Method; enables or disables the specified control in a Property inspector. Used 
 #### Example
 
 ```
-The following command in an extensible tool’s JavaScript file sets Flash to not show the stroke options in the Property inspector for that tool:
+The following command in an extensible toolâ€™s JavaScript file sets Flash to not show the stroke options in the Property inspector for that tool:
 theTool.enablePIControl("stroke",false);
 
 ```

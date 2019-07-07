@@ -10,7 +10,7 @@ layer.parentLayer
 
 #### Description
 
-Property; a Layer object that represents the layer’s containing folder, guiding, or masking layer. The parent layer must be a folder, guide, or mask layer that precedes the layer, or the parentLayer of the preceding or following layer. Setting the layer’s parentLayer does not move the layer’s position in the list; trying to set a layer’s parentLayer to a layer that would require moving it has no effect. Uses null for a top-level layer.
+Property; a Layer object that represents the layerâ€™s containing folder, guiding, or masking layer. The parent layer must be a folder, guide, or mask layer that precedes the layer, or the parentLayer of the preceding or following layer. Setting the layerâ€™s parentLayer does not move the layerâ€™s position in the list; trying to set a layerâ€™s parentLayer to a layer that would require moving it has no effect. Uses null for a top-level layer.
 
 #### Example
 

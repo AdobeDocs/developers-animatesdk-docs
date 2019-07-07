@@ -14,11 +14,11 @@ library.findItemIndex(namePath)
 
 #### Returns
 
-An integer value representing the item’s zero-based index value.
+An integer value representing the itemâ€™s zero-based index value.
 
 #### Description
 
-Method; returns the library item’s index value (zero-based). The library index is flat, so folders are considered part of the main index. Folder paths can be used to specify a nested item.
+Method; returns the library itemâ€™s index value (zero-based). The library index is flat, so folders are considered part of the main index. Folder paths can be used to specify a nested item.
 
 #### Example
 

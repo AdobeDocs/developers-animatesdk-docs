@@ -18,7 +18,7 @@ A Boolean value of true if the Component panel list is refreshed, false otherwis
 
 #### Description
 
-Method; refreshes the Components panel’s list of components.
+Method; refreshes the Components panelâ€™s list of components.
 
 #### Example
 

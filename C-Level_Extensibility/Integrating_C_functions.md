@@ -27,7 +27,7 @@ Macintosh HD/Users/*username*/Library/Application Support/Adobe/Flash
 
 The C code in the DLL or shared library interacts with the Flash JavaScript API at three different times:
 
--   At startup, to register the library’s functions
+-   At startup, to register the libraryâ€™s functions
 
 -   When the C function is called, to unpack the arguments that are being passed from JavaScript to C
 

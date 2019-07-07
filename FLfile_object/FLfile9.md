@@ -15,7 +15,7 @@ FLfile.listFolder(folderURI \[, filesOrDirectories\])
 
 #### Returns
 
-An array of strings representing the contents of the folder. If the folder doesn’t exist or if no files or folders match the specified criteria, returns an empty array.
+An array of strings representing the contents of the folder. If the folder doesnâ€™t exist or if no files or folders match the specified criteria, returns an empty array.
 
 #### Description
 

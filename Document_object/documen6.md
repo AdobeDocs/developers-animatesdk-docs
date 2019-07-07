@@ -21,7 +21,7 @@ Nothing.
 
 #### Description
 
-Method; adds a new Oval object in the specified bounding rectangle. This method performs the same operation as the Oval tool. The method uses the document’s current default stroke and fill attributes and adds the oval on the current frame and layer. If both *bSuppressFill* and *bSuppressStroke* are set to true, the method has no effect.
+Method; adds a new Oval object in the specified bounding rectangle. This method performs the same operation as the Oval tool. The method uses the documentâ€™s current default stroke and fill attributes and adds the oval on the current frame and layer. If both *bSuppressFill* and *bSuppressStroke* are set to true, the method has no effect.
 
 #### Example
 

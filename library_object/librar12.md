@@ -10,7 +10,7 @@ library.newFolder(\[folderPath\])
 
 #### Parameters
 
-**folderPath** A string that specifies the name of the folder to be created. If it is specified as a path, and the path doesn’t exist, the path is created. This parameter is optional.
+**folderPath** A string that specifies the name of the folder to be created. If it is specified as a path, and the path doesnâ€™t exist, the path is created. This parameter is optional.
 
 #### Returns
 

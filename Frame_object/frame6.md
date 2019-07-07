@@ -18,7 +18,7 @@ Returns an array of JavaScript objects, each of which has an *x* and *y* propert
 
 #### Description
 
-Method; returns an array of objects that represent the control points for the cubic Bézier curve that defines the ease curve.
+Method; returns an array of objects that represent the control points for the cubic BÃ©zier curve that defines the ease curve.
 
 #### Example
 

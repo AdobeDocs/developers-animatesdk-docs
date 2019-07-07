@@ -10,7 +10,7 @@ layer.visible
 
 #### Description
 
-Property; a Boolean value that specifies whether the layer’s objects on the Stage are shown or hidden. If set to true, all objects in the layer are visible; if false, they are hidden. The default value is true.
+Property; a Boolean value that specifies whether the layerâ€™s objects on the Stage are shown or hidden. If set to true, all objects in the layer are visible; if false, they are hidden. The default value is true.
 
 #### Example
 

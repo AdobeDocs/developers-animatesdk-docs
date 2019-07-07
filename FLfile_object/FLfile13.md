@@ -16,24 +16,24 @@ FLfile.setAttributes(fileURI, strAttrs)
 #### Returns
 
 A Boolean value of true if successful.
-***Note:** Results are unpredictable if the file or folder doesn’t exist. You should use* *[FLfile.exists()](#_bookmark563) before using this method.*
+***Note:** Results are unpredictable if the file or folder doesnâ€™t exist. You should use* *[FLfile.exists()](#_bookmark563) before using this method.*
 
 #### Description
 
 Method; specifies system-level attributes for the specified file.
 The following values are valid for *strAttrs*:
 
--   N — No specific attributes (not read-only, not hidden, and so on)
+-   N â€” No specific attributes (not read-only, not hidden, and so on)
 
--   A — Ready for archiving (Windows only)
+-   A â€” Ready for archiving (Windows only)
 
--   R — Read-only (on the Macintosh, read-only means "locked")
+-   R â€” Read-only (on the Macintosh, read-only means "locked")
 
--   W — Writable (overrides R)
+-   W â€” Writable (overrides R)
 
--   H — Hidden (Windows only)
+-   H â€” Hidden (Windows only)
 
--   V — Visible (overrides H, Windows only)
+-   V â€” Visible (overrides H, Windows only)
 
 If you include both R and W in *strAttrs*, the R is ignored and the file is set as writable. Similarly, if you pass H and V, the
 H is ignored and the file is set as visible.

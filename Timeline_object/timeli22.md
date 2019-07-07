@@ -21,12 +21,12 @@ A value for the specified property, or undefined if all the selected frames do n
 
 #### Description
 
-Method; retrieves the specified property’s value for the selected frames.
+Method; retrieves the specified propertyâ€™s value for the selected frames.
 
 #### Example
 
 ```
-The following example retrieves the name of the first frame in the current document’s top layer and displays the name in the Output panel:
+The following example retrieves the name of the first frame in the current documentâ€™s top layer and displays the name in the Output panel:
 fl.getDocumentDOM().getTimeline().currentLayer = 0;
 fl.getDocumentDOM().getTimeline().setSelectedFrames(0, 0, true);
 var frameName = fl.getDocumentDOM().getTimeline().getFrameProperty("name"); fl.trace(frameName);

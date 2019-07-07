@@ -10,7 +10,7 @@ textAttrs.leftMargin
 
 #### Description
 
-Property; an integer that specifies the paragraph’s left margin. Acceptable values are 0 through 720.
+Property; an integer that specifies the paragraphâ€™s left margin. Acceptable values are 0 through 720.
 
 #### Example
 

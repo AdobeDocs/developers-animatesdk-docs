@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; performs a distribute-to-layers operation on the current selection—equivalent to selecting Distribute to Layers. This method displays an error if there is no selection.
+Method; performs a distribute-to-layers operation on the current selectionâ€”equivalent to selecting Distribute to Layers. This method displays an error if there is no selection.
 
 #### Example
 

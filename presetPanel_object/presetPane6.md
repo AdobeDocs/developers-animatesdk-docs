@@ -14,13 +14,13 @@ presetPanel.findItemIndex(\[presetName\])
 
 #### Returns
 
-An integer that represents the index of the specified preset in the presetPanel.items array. If you don’t pass a value for *presetName*, the index of the currently specified preset is returned. This method returns -1 in the following situations:
+An integer that represents the index of the specified preset in the presetPanel.items array. If you donâ€™t pass a value for *presetName*, the index of the currently specified preset is returned. This method returns -1 in the following situations:
 
--   You don’t pass a value for *presetName* and no preset is selected.
+-   You donâ€™t pass a value for *presetName* and no preset is selected.
 
--   You don’t pass a value for *presetName* and multiple presets are selected.
+-   You donâ€™t pass a value for *presetName* and multiple presets are selected.
 
--   You pass a value for *presetName* that doesn’t correspond to an item in the panel.
+-   You pass a value for *presetName* that doesnâ€™t correspond to an item in the panel.
 
 #### Description
 

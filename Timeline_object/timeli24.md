@@ -14,11 +14,11 @@ timeline.getLayerProperty(property)
 
 #### Returns
 
-The value of the specified property. Flash looks at the layer’s properties to determine the type. If all the specified layers don’t have the same property value, Flash returns undefined.
+The value of the specified property. Flash looks at the layerâ€™s properties to determine the type. If all the specified layers donâ€™t have the same property value, Flash returns undefined.
 
 #### Description
 
-Method; retrieves the specified property’s value for the selected layers.
+Method; retrieves the specified propertyâ€™s value for the selected layers.
 
 #### Example
 

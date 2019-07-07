@@ -10,7 +10,7 @@ filter.distance
 
 #### Description
 
-Property; a float value that specifies the distance between the filter’s effect and an object, in pixels. Acceptable values are from -255 to 255. This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "gradientBevelFilter", or "gradientGlowFilter" for the [filter.name](#_bookmark440) property.
+Property; a float value that specifies the distance between the filterâ€™s effect and an object, in pixels. Acceptable values are from -255 to 255. This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "gradientBevelFilter", or "gradientGlowFilter" for the [filter.name](#_bookmark440) property.
 
 #### Example
 

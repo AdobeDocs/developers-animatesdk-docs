@@ -64,7 +64,7 @@ The following table briefly describes each of the objects in the JavaScript API.
 
 ### The Flash Document Object Model
 
-The Flash Document Object Model (DOM) for the Flash JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods" on page 18](#_bookmark13)) and two top-level objects—the FLfile object and the flash object (fl). Each object is guaranteed to be available to a script because it always exists when the Flash authoring environment is open. For more information, see [FLfile object](#_bookmark559) and [flash object (fl)](#_bookmark447).
+The Flash Document Object Model (DOM) for the Flash JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods" on page 18](#_bookmark13)) and two top-level objectsâ€”the FLfile object and the flash object (fl). Each object is guaranteed to be available to a script because it always exists when the Flash authoring environment is open. For more information, see [FLfile object](#_bookmark559) and [flash object (fl)](#_bookmark447).
 When referring to the flash object, you can use flash or fl. For example, to close all open FLA files, you can use either of the following statements:
 flash.closeAll(); fl.closeAll();
 The flash object contains the following *child objects*:
@@ -90,11 +90,11 @@ The flash object contains the following *child objects*:
 
 An important property of the top-level flash object is the [fl.documents](#_bookmark476) property. This property contains an array of Document objects, each of which represents one of the FLA files currently open in the authoring environment. The properties of each Document object represent most of the elements that a FLA file can contain. Therefore, a large portion of the DOM is composed of child objects and properties of the Document object. For more information, see [Document object](#_bookmark116).
 To refer to the first open document, for example, use the statement flash.documents\[0\] or fl.documents\[0\]. The first document is the first Flash document that was opened during the current session in the authoring environment. When the first opened document is closed, the indexes of the other open documents are decremented.
-To find a particular document’s index, use flash.findDocumentIndex(*nameOfDocument*) or fl.findDocumentIndex(*nameOfDocument*). See [fl.findDocumentIndex()](#_bookmark485).
+To find a particular documentâ€™s index, use flash.findDocumentIndex(*nameOfDocument*) or fl.findDocumentIndex(*nameOfDocument*). See [fl.findDocumentIndex()](#_bookmark485).
 To access the document that is currently focused, use the statement flash.getDocumentDOM() or fl.getDocumentDOM(). See [fl.getDocumentDOM()](#_bookmark491). The latter is the syntax used in most of the examples in this document.
 To find a particular document in the fl.documents array, iterate through the array and test each document for its
 document.name property. See [fl.documents](#_bookmark476) and [document.name](#_bookmark244).
-All the objects in the DOM that aren’t listed in the previous table (see ["The Flash Document Object Model" on page 12](#the-flash-document-object-model)) are accessed from the Document object. For example, to access the library of a document, you use the document.library property, which retrieves a library object:
+All the objects in the DOM that arenâ€™t listed in the previous table (see ["The Flash Document Object Model" on page 12](#the-flash-document-object-model)) are accessed from the Document object. For example, to access the library of a document, you use the document.library property, which retrieves a library object:
 fl.getDocumentDOM().library
 To access the array of items in the library, you use the library.items property; each element in the array is an Item object:
 fl.getDocumentDOM().library.items

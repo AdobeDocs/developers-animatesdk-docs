@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A point (for example, {x:10, y:20}, where x and y are floating-point numbers) that specifies the position of the transformation point (also *origin point* or *zero point*) within the selected element’s coordinate system.
+A point (for example, {x:10, y:20}, where x and y are floating-point numbers) that specifies the position of the transformation point (also *origin point* or *zero point*) within the selected elementâ€™s coordinate system.
 
 #### Description
 

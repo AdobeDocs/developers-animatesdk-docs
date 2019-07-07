@@ -18,7 +18,7 @@ An XML string.
 
 #### Description
 
-Method: returns a string that specifies, in XML format, the specified profile. If you don’t pass a value for *profileName*, the current profile is exported.
+Method: returns a string that specifies, in XML format, the specified profile. If you donâ€™t pass a value for *profileName*, the current profile is exported.
 
 #### Example
 

@@ -21,7 +21,7 @@ The following properties are available for the Fill object:
 | [fill.focalPoint](#_bookmark418)                                        | An integer that specifies the gradient focal point horizontal offset from the transformation point.                       |
 | [fill.linearRGB](#_bookmark419)                                         | A Boolean value that specifies whether to render the fill as a linear or radial RGB gradient.                             |
 | [fill.matrix](#_bookmark420)                                            | A [Matrix object](#_bookmark725) that defines the placement, orientation, and scales for gradient fills.                  |
-| [fill.overflow](#_bookmark421)                                          | A string that specifies the behavior of a gradient’s overflow.                                                            |
+| [fill.overflow](#_bookmark421)                                          | A string that specifies the behavior of a gradientâ€™s overflow.                                                            |
 | [fill.posArray](#_bookmark422)                                          | An array of integers, each in the range of zero to 255, indicating the position of the corresponding color.               |
 | [fill.style](#_bookmark423)                                             | A string that specifies the fill style.                                                                                   |
 

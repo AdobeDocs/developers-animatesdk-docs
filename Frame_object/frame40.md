@@ -11,7 +11,7 @@ frame.useSingleEaseCurve
 #### Description
 
 Property; a Boolean value. If true, a single custom ease curve is used for easing information for all properties. If false, each property has its own ease curve.
-This property is ignored if the frame doesn’t have custom easing applied.
+This property is ignored if the frame doesnâ€™t have custom easing applied.
 
 #### Example
 

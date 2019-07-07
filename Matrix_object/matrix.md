@@ -10,7 +10,7 @@ matrix.a
 
 #### Description
 
-Property; a floating-point value that specifies the (0,0) element in the transformation matrix. This value represents the scale factor of the object’s *x-*axis.
+Property; a floating-point value that specifies the (0,0) element in the transformation matrix. This value represents the scale factor of the objectâ€™s *x-*axis.
 
 #### Example
 
@@ -19,7 +19,7 @@ The a and d properties in a matrix represent scaling. In the following example, 
 var mat = fl.getDocumentDOM().selection\[0\].matrix; mat.a = 2;
 mat.d = 3; fl.getDocumentDOM().selection\[0\].matrix = mat;
 You can rotate an object by setting the a, b, c, and d matrix properties relative to one another, where a = d and b =
--c. For example, values of 0.5, 0.8, -0.8, and 0.5 rotate the object 60º:
+-c. For example, values of 0.5, 0.8, -0.8, and 0.5 rotate the object 60Âº:
 var mat = fl.getDocumentDOM().selection\[0\].matrix; mat.a = 0.5;
 mat.b = 0.8; mat.c = 0.8\*(-1); mat.d = 0.5;
 fl.getDocumentDOM().selection\[0\].matrix = mat;

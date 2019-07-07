@@ -23,7 +23,7 @@ The older ["symbolInstance.cacheAsBitmap" on page 472](#_bookmark925) property i
 #### Example
 
 ```
-The following example assigns the symbol’s bitmapRenderMode to "export":
+The following example assigns the symbolâ€™s bitmapRenderMode to "export":
 var symbol = fl.getDocumentDOM().selection\[0\]; fl.trace(symbol.bitmapRenderMode); symbol.bitmapRenderMode = "export";
 
 ```

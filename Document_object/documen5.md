@@ -19,7 +19,7 @@ Nothing.
 
 #### Description
 
-Method; adds a new path between two points. The method uses the document’s current stroke attributes and adds the path on the current frame and current layer. This method works in the same way as clicking on the line tool and drawing a line.
+Method; adds a new path between two points. The method uses the documentâ€™s current stroke attributes and adds the path on the current frame and current layer. This method works in the same way as clicking on the line tool and drawing a line.
 
 #### Example
 

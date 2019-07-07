@@ -50,7 +50,7 @@ Method; shows or hides a control in the Property inspector. This method is used 
 #### Example
 
 ```
-The following command in an extensible tool’s JavaScript file will set Flash to not show the fill options in the Property inspector for that tool:
+The following command in an extensible toolâ€™s JavaScript file will set Flash to not show the fill options in the Property inspector for that tool:
 fl.tools.activeTool.showPIControl("fill", false);
 
 ```

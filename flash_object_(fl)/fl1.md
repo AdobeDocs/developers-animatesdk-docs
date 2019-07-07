@@ -11,7 +11,7 @@ fl.addEventListener(eventType, callbackFunction)
 #### Parameters
 
 **eventType** A string that specifies the event type to pass to this callback function. Acceptable values are "documentNew", "documentOpened", "documentClosed", "mouseMove", "documentChanged", "layerChanged""timelineChanged", "frameChanged", "prePublish", "postPublish", "selectionChanged", and dpiChanged.
-The documentChanged value doesn’t mean that the content of a document has changed; it means that a different document is now in the foreground. That is, fl.getDocumentDOM() will return a different value than it did before this event occurred.
+The documentChanged value doesnâ€™t mean that the content of a document has changed; it means that a different document is now in the foreground. That is, fl.getDocumentDOM() will return a different value than it did before this event occurred.
 **callbackFunction** The name of the function you want to execute every time the event occurs.
 
 #### Returns

@@ -10,7 +10,7 @@ element.top
 
 #### Description
 
-Read-only property; top side of the element. The value of element.top is relative to the upper left of the Stage for elements that are in a scene and is relative to the symbol’s registration point if the element is stored within a symbol. Use [document.setSelectionBounds()](#_bookmark304) or [document.moveSelectionBy()](#_bookmark242) to set this property.
+Read-only property; top side of the element. The value of element.top is relative to the upper left of the Stage for elements that are in a scene and is relative to the symbolâ€™s registration point if the element is stored within a symbol. Use [document.setSelectionBounds()](#_bookmark304) or [document.moveSelectionBy()](#_bookmark242) to set this property.
 
 #### Example
 

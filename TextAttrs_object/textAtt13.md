@@ -10,7 +10,7 @@ textAttrs.rightMargin
 
 #### Description
 
-Property; an integer that specifies the paragraph’s right margin. Acceptable values are 0 through 720.
+Property; an integer that specifies the paragraphâ€™s right margin. Acceptable values are 0 through 720.
 
 #### Example
 

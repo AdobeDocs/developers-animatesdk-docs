@@ -20,8 +20,8 @@ A Boolean value of true if the items are successfully moved; false otherwise.
 #### Description
 
 Method; moves the specified item to the specified folder.
-If you pass an empty string ("") for *folderPath*, the items are moved to the Custom Presets folder. If you don’t pass a value for *namePath*, the currently selected items are moved.
-You can’t move items to or from the Default Presets folder.
+If you pass an empty string ("") for *folderPath*, the items are moved to the Custom Presets folder. If you donâ€™t pass a value for *namePath*, the currently selected items are moved.
+You canâ€™t move items to or from the Default Presets folder.
 
 #### Example
 

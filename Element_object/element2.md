@@ -14,7 +14,7 @@ element.getPersistentData(name)
 
 #### Returns
 
-The data specified by the *name* parameter, or 0 if the data doesn’t exist.
+The data specified by the *name* parameter, or 0 if the data doesnâ€™t exist.
 
 #### Description
 

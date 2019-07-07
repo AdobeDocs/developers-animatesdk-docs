@@ -18,7 +18,7 @@ A Boolean value of true if the item or items are successfully deleted; false oth
 
 #### Description
 
-Method; deletes the specified preset from the Motion Presets panel. If you don’t pass a value for *namePath*, any presets that are currently selected are deleted. You can’t delete items from the Default Presets folder.
+Method; deletes the specified preset from the Motion Presets panel. If you donâ€™t pass a value for *namePath*, any presets that are currently selected are deleted. You canâ€™t delete items from the Default Presets folder.
 ***Note:** Items are deleted without requesting user confirmation, and there is no way to undo this action.*
 
 #### Example

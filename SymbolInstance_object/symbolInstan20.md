@@ -10,7 +10,7 @@ symbolInstance.forceSimple
 
 #### Description
 
-Property; a Boolean value that enables and disables the accessibility of the object’s children. This property is equivalent to the inverse logic of the Make Child Objects Accessible setting in the Accessibility panel. For example, if forceSimple is true, it is the same as the Make Child Object Accessible option being unchecked. If forceSimple is false, it is the same as the Make Child Object Accessible option being checked.
+Property; a Boolean value that enables and disables the accessibility of the objectâ€™s children. This property is equivalent to the inverse logic of the Make Child Objects Accessible setting in the Accessibility panel. For example, if forceSimple is true, it is the same as the Make Child Object Accessible option being unchecked. If forceSimple is false, it is the same as the Make Child Object Accessible option being checked.
 This property is available only for MovieClip objects.
 
 #### Example

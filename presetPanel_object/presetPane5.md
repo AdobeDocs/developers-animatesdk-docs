@@ -20,7 +20,7 @@ A Boolean value of true if the preset was exported successfully; false otherwise
 #### Description
 
 Method; exports the currently selected or the specified preset to an XML file. Only presets can be exported; the method fails if you try to export a folder. This method also fails if you try to overwrite a file on disk.
-If you don’t specify a filename as part of *fileURI* (that is, if the last character of *fileURI* is a slash (/)), the exported file is saved with the same name as the preset being exported. If you don’t specify a value for *namePath*, the currently selected preset is exported. See the example below.
+If you donâ€™t specify a filename as part of *fileURI* (that is, if the last character of *fileURI* is a slash (/)), the exported file is saved with the same name as the preset being exported. If you donâ€™t specify a value for *namePath*, the currently selected preset is exported. See the example below.
 
 #### Example
 

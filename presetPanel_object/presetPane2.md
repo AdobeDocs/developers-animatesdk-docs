@@ -18,8 +18,8 @@ A Boolean value of true if the folder or folders are successfully deleted; false
 
 #### Description
 
-Method; deletes the specified folder and any of its subfolders from the folder tree of the Motion Presets panel. Any presets in the folders are also deleted. You can’t delete folders from the Default Presets folder.
-If you don’t pass a value for *folderPath*, any folders that are currently selected are deleted.
+Method; deletes the specified folder and any of its subfolders from the folder tree of the Motion Presets panel. Any presets in the folders are also deleted. You canâ€™t delete folders from the Default Presets folder.
+If you donâ€™t pass a value for *folderPath*, any folders that are currently selected are deleted.
 ***Note:** Folders are deleted without requesting user confirmation, and there is no way to undo this action.*
 
 #### Example

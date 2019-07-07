@@ -46,7 +46,7 @@ The C-level extensibility API consists of the JSBool (\*JSNative) function signa
 
 Method; describes C-level implementations of JavaScript functions in the following situations:
 
--   The *cx* pointer is a pointer to an opaque JSContext structure, which must be passed to some of the functions in the JavaScript API. This variable holds the interpreter’s execution context.
+-   The *cx* pointer is a pointer to an opaque JSContext structure, which must be passed to some of the functions in the JavaScript API. This variable holds the interpreterâ€™s execution context.
 
 -   The *obj* pointer is a pointer to the object in whose context the script executes. While the script is running, the this
 
@@ -56,7 +56,7 @@ keyword is equal to this object.
 
 -   The *argv* pointer is a pointer to an array of jsval structures. The array is argc elements in length.
 
--   The *rval* pointer is a pointer to a single jsval structure. The function’s return value should be written to \*rval.
+-   The *rval* pointer is a pointer to a single jsval structure. The functionâ€™s return value should be written to \*rval.
 
 The function returns JS\_TRUE if successful; JS\_FALSE otherwise. If the function returns JS\_FALSE, the current script stops executing and an error message appears.
 
@@ -484,7 +484,7 @@ this keyword is equal to this object. Usually this is the JSObject pointer that 
 
 -   The *sz* argument is the size of the string. If *sz* is 0, the length of the null-terminated string is computed automatically.
 
--   The *rval* argument is a pointer to a single jsval structure. The function’s return value is stored in \*rval.
+-   The *rval* argument is a pointer to a single jsval structure. The functionâ€™s return value is stored in \*rval.
 
 #### Returns
 
