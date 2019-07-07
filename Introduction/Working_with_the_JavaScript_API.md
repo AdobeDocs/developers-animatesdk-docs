@@ -1,11 +1,11 @@
 ## Working with the JavaScript API
 
-As a user of AdobeÂ® FlashÂ® Professional CC, you may be familiar with AdobeÂ® ActionScriptÂ®, which lets you create scripts that execute at run time in AdobeÂ® FlashÂ® Player. The Flash JavaScript application programming interface (JavaScript API or JSAPI) described in this document is a complementary programming tool that lets you create scripts that run in the Flash authoring environment.
+As a user of Adobe® Flash® Professional CC, you may be familiar with Adobe® ActionScript®, which lets you create scripts that execute at run time in Adobe® Flash® Player. The Flash JavaScript application programming interface (JavaScript API or JSAPI) described in this document is a complementary programming tool that lets you create scripts that run in the Flash authoring environment.
 This document describes the objects, methods, and properties available in the JavaScript API. It assumes that you know how to use the documented commands when working in the authoring environment. If you have a question about what a particular command does, use other documents in Flash Help, such as *Using Flash*, to find that information.
 This document also assumes that you are familiar with JavaScript or ActionScript syntax and with basic programming concepts such as functions, parameters, and data types.
 The Flash JavaScript API lets you write scripts to perform several actions in the Flash authoring environment (that is, while a user has the Flash program open). This functionality is different from the ActionScript language, which lets you write scripts to perform actions in the Flash Player environment (that is, while a SWF file is playing). This functionality is also different from JavaScript commands that you might use in pages displayed in a web browser.
 Using the JavaScript API, you can write Flash application scripts to help streamline the authoring process. For example, you can write scripts to automate repetitive tasks or add custom tools to the Tools panel.
-The Flash JavaScript API is designed to resemble the AdobeÂ® DreamweaverÂ® and AdobeÂ® FireworksÂ® JavaScript API (which were designed based on the Netscape JavaScript API). The Flash JavaScript API is based on a Document Object Model (DOM), which allows Flash documents to be accessed using JavaScript objects. The Flash JavaScript API includes all elements of the Netscape JavaScript API, plus the Flash DOM. These added objects and their methods and properties are described in this document. You can use any of the elements of the native JavaScript language in a Flash script, but only elements that make sense in the context of a Flash document have an effect.
+The Flash JavaScript API is designed to resemble the Adobe® Dreamweaver® and Adobe® Fireworks® JavaScript API (which were designed based on the Netscape JavaScript API). The Flash JavaScript API is based on a Document Object Model (DOM), which allows Flash documents to be accessed using JavaScript objects. The Flash JavaScript API includes all elements of the Netscape JavaScript API, plus the Flash DOM. These added objects and their methods and properties are described in this document. You can use any of the elements of the native JavaScript language in a Flash script, but only elements that make sense in the context of a Flash document have an effect.
 The JavaScript API also contains methods that let you implement extensibility using a combination of JavaScript and custom C code. For more information, see ["C-Level Extensibility" on page 591](#_bookmark1165).
 The JavaScript interpreter in Flash is the Mozilla SpiderMonkey engine, version 1.8, which is available on the web at [www.mozilla.org/js/spidermonkey/](http://www.mozilla.org/js/spidermonkey/). SpiderMonkey is one of the two reference implementations of the JavaScript language developed by Mozilla.org. It is the same engine that is embedded in the Mozilla browser.
 SpiderMonkey implements the core JavaScript language as defined in the ECMAScript (ECMA-262) edition 3 language specification and it is fully compliant with the specification. Only the browser-specific host objects, which are not part of the ECMA-262 specification, are not supported. Similarly, many JavaScript reference guides distinguish between core JavaScript and client-side (browser-related) JavaScript. Only core JavaScript applies to the Flash JavaScript interpreter.
@@ -34,15 +34,15 @@ The History panel provides some other useful options as well. You can copy selec
 
 You can have JSFL scripts available within the Flash authoring environment by storing them in one of several folders within the Configuration folder. By default, the Configuration folder is in the following location:
 
--   WindowsÂ® 7â„¢:
+-   Windows® 7™:
 
 *boot drive*\\Users\\*username*\\AppData\\Local\\Adobe\\Flash *CC*\\*language*\\Configuration\\
 
--   WindowsÂ® Vistaâ„¢:
+-   Windows® Vista™:
 
 *boot drive*\\Users\\*username*\\Local Settings\\Application Data\\Adobe\\Flash *CC*\\*language*\\Configuration\\
 
--   Mac OSÂ® X:
+-   Mac OS® X:
 
 Macintosh HD/Users/*username*/Library/Application Support/Adobe/Flash *CC*/*language*/Configuration/
 To determine the location of the Configuration folder, use [fl.configDirectory](#_bookmark465) or [fl.configURI](#_bookmark467), as shown in the following example:
