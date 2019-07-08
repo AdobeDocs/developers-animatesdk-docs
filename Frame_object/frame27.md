@@ -28,7 +28,7 @@ Method; Sets the sound envelope of any frame with sound file. The soundEnv objec
 
 #### Example
 
-```
+```javascript
 The following example illustrates the use of setSoundEnvelope:
 // Add a sound item to the first Frame
 // Get the sound Envelope

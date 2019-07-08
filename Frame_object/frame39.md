@@ -17,7 +17,7 @@ If you specify "shape", the object in the frame must be a shape. It will blend f
 
 #### Example
 
-```
+```javascript
 The following example specifies that the object is a motion tween, and therefore, it should be tweened from its location in the current keyframe to the location in the following keyframe:
 fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].tweenType = "motion";
 

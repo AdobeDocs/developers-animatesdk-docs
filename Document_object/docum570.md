@@ -30,7 +30,7 @@ The format of the metadata is RDF that is compliant with the XMP specification. 
 
 #### Example
 
-```
+```javascript
 The following examples show several different legal ways to represent the same data. In all of these cases but the second one, if the data were sent to Document.setMetadata(), it would not be rewritten (aside from removing line breaks).
 In the first example, metadata is in tags, with different schemas placed in separate rdf:Description tags:
 \<rdf:RDF [xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns\#'\>](http://www.w3.org/1999/02/22-rdf-syntax-ns#%27)

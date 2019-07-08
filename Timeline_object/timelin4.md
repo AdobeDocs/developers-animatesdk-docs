@@ -24,7 +24,7 @@ Method; converts frames to blank keyframes on the current layer.
 
 #### Example
 
-```
+```javascript
 The following example converts Frame 2 up to, but not including, Frame 10 to blank keyframes (remember that index values are different from frame number values):
 fl.getDocumentDOM().getTimeline().convertToBlankKeyframes(1, 9); The following example converts Frame 5 to a blank keyframe: fl.getDocumentDOM().getTimeline().convertToBlankKeyframes(4);
 

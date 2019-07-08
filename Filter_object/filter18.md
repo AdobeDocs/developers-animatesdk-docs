@@ -14,7 +14,7 @@ Property; a string that specifies the type of bevel or glow. Acceptable values a
 
 #### Example
 
-```
+```javascript
 The following example sets the type to "full" for all Bevel filters on the selected object(s):
 var myFilters = fl.getDocumentDOM().getFilters(); for(i=0; i \< myFilters.length; i++){
 if(myFilters\[i\].name == 'bevelFilter'){ myFilters\[i\].type = 'full';

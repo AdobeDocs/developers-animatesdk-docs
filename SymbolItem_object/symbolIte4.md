@@ -25,7 +25,7 @@ Method; exports a movie clip, graphic, or button symbol to a sequence of PNG fil
 
 #### Example
 
-```
+```javascript
 The following example exports the first symbol in the Library new sequence of numbered PNG files starting with the filename"myTest.png":
 fl.getDocumentDOM().library.items\[0\].exportToPNGSequence("file:///c\|/tests/mytest.png");
 

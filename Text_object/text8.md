@@ -15,7 +15,7 @@ Property; a Boolean value that specifies whether to enable the embedding of vari
 
 #### Example
 
-```
+```javascript
 The following example enables variant glyphs to be embedded in the selected Text object:
 fl.getDocumentDOM().selection\[0\].embedVariantGlyphs = true;
 

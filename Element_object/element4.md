@@ -23,7 +23,7 @@ Transformation points are relative to different locations, depending on the type
 
 #### Example
 
-```
+```javascript
 The following example gets the transformation point for the third element in the ninth frame on the first layer in the document. The transPoint.x property gives the *x* coordinate of the transformation point. The transPoint.y property gives the *y* coordinate of the transformation point.
 var transPoint = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[8\].elements\[2\].getTransformationPoint();
 

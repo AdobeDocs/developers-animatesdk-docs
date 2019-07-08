@@ -14,7 +14,7 @@ Read-only property: a string that represents the path to the SWF file used in th
 
 #### Example
 
-```
+```javascript
 The following code displays the path of the SWF file used in the first registered Window SWF panel in the Output panel:
 fl.trace(fl.swfPanels\[0\].path);
 

@@ -22,7 +22,7 @@ Method; pastes the contents of the Clipboard into the document.
 
 #### Example
 
-```
+```javascript
 The following example pastes the Clipboard contents to the center of the document:
 fl.getDocumentDOM().clipPaste();
 The following example pastes the Clipboard contents in place in the current document:

@@ -14,7 +14,7 @@ Property; a boolean that indicates whether to cache bitmaps. (Equivalent to Use 
 
 #### Example
 
-```
+```javascript
 The following example illustrates use of this property:
 fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].cacheAsBitmap = true;
 

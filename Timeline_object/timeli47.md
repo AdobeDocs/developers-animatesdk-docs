@@ -23,7 +23,7 @@ Method; sets the layer to be selected, and also makes the specified layer the cu
 
 #### Example
 
-```
+```javascript
 The following example selects the top layer: fl.getDocumentDOM().getTimeline().setSelectedLayers(0); The following example adds the next layer to the selection:
 fl.getDocumentDOM().getTimeline().setSelectedLayers(1, false);
 

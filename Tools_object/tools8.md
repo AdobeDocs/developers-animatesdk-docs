@@ -38,7 +38,7 @@ Method; sets the pointer to a specified appearance.
 
 #### Example
 
-```
+```javascript
 The following example sets the pointer to a black arrow.
 fl.tools.setCursor(1);
 

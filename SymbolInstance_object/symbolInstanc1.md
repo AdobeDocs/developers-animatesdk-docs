@@ -15,7 +15,7 @@ Property; a string that specifies the actions assigned to the symbol. This appli
 
 #### Example
 
-```
+```javascript
 The following example assigns an onClipEvent action to the first item in the first frame of the first layer in the timeline:
 fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].actionScript
 = "onClipEvent(enterFrame) {trace('movie clip enterFrame');}";

@@ -28,7 +28,7 @@ Returns the stroke object of the selected shape or, if specified, of the Tools p
 
 #### Example
 
-```
+```javascript
 The following example returns the current stroke settings of the selection and changes the stroke thickness to 2:
 var stroke = fl.getDocumentDOM().getCustomStroke("selection"); stroke.thickness = 2; fl.getDocumentDOM().setCustomStroke(stroke);
 The following example returns the current stroke settings of the Tools panel and Property inspector and sets the stroke color to red:

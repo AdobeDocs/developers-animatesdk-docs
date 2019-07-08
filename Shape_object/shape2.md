@@ -22,7 +22,7 @@ Method; deletes the specified edge. You must call [shape.beginEdit()](#_bookmark
 
 #### Example
 
-```
+```javascript
 The following example takes the currently selected shape and removes the first edge in the edge array:
 var shape = fl.getDocumentDOM().selection\[0\]; shape.beginEdit();
 shape.deleteEdge(0); shape.endEdit();

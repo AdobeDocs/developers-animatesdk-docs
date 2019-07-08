@@ -14,7 +14,7 @@ Property; a string that specifies the type of scale to be applied to the stroke.
 
 #### Example
 
-```
+```javascript
 The following example sets the scale type of the stroke to horizontal:
 var myStroke = fl.getDocumentDOM().getCustomStroke(); myStroke.scaleType = "horizontal"; fl.getDocumentDOM().setCustomStroke(myStroke);
 

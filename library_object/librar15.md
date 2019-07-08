@@ -24,7 +24,7 @@ Method; selects a specified library item.
 
 #### Example
 
-```
+```javascript
 The following example changes the current selection in the library to Symbol\_1 inside untitled Folder\_1: fl.getDocumentDOM().library.selectItem("untitled Folder\_1/Symbol\_1");
 The following example extends what is currently selected in the library to include Symbol\_1 inside untitled Folder\_1:
 fl.getDocumentDOM().library.selectItem("untitled Folder\_1/Symbol\_1", false);

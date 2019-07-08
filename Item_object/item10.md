@@ -14,7 +14,7 @@ Property; a string that specifies the name Flash will use to identify the asset 
 
 #### Example
 
-```
+```javascript
 The following example specifies that the string my\_mc will be used to identify the library item when it is linked to the destination SWF file to which it is being exported:
 fl.getDocumentDOM().library.items\[0\].linkageIdentifier = "my\_mc";
 

@@ -25,7 +25,7 @@ You can’t move items to or from the Default Presets folder.
 
 #### Example
 
-```
+```javascript
 In the following example, the currently selected items are moved to the Custom Presets/Bouncing folder, and then the Fast Bounce preset is moved to the same folder:
 fl.presetPanel.moveToFolder("Custom Presets/Bouncing"); fl.presetPanel.moveToFolder("Custom Presets/Bouncing" , "Custom Presets/Fast Bounce");
 

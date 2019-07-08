@@ -24,7 +24,7 @@ Method; Copies the layers that are currently selected in the Timeline, or the la
 
 #### Example
 
-```
+```javascript
 The following example copies the layers from index 2 to index 7 in the Timeline:
 fl.getDocumentDOM().getTimeline().copyLayers(2, 7);
 

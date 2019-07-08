@@ -22,7 +22,7 @@ Method; specifies whether any text is currently selected in the Actions panel.
 
 #### Example
 
-```
+```javascript
 The following example displays text that is currently selected in the Actions panel. If no text is selected, it displays all the text in the Actions panel.
 if (fl.actionsPanel.hasSelection()) {
 var apText = fl.actionsPanel.getSelectedText();

@@ -24,7 +24,7 @@ Method; writes the specified string to the specified file (as UTF-8). If the spe
 
 #### Example
 
-```
+```javascript
 The following example attempts to write the string "xxx" to the file mydata.txt and displays an alert message if the write succeeded. It then attempts to append the string "aaa" to the file and displays a second alert message if the write succeeded. After executing this script, the file mydata.txt will contain only the text "xxxaaa".
 var URI = "file:///c\|/temp/mydata.txt"; if (FLfile.write(URI, "xxx")) {
 alert("Wrote xxx to " + URI);

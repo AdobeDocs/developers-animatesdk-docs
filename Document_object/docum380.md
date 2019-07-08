@@ -22,7 +22,7 @@ A Boolean value: true if the save-and-compact operation completes successfully; 
 
 #### Example
 
-```
+```javascript
 The following example saves and compacts the current document:
 fl.getDocumentDOM().saveAndCompact();
 

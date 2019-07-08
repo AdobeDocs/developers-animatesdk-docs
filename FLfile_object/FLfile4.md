@@ -22,7 +22,7 @@ Method; specifies how many seconds have passed between January 1, 1970 and the t
 
 #### Example
 
-```
+```javascript
 The following example determines whether a file has been modified since it was created:
 // Make sure the specified file exists
 var fileURI = "file:///C\|/MyApplication/MyApp.fla"; var creationTime = FLfile.getCreationDate(fileURI);

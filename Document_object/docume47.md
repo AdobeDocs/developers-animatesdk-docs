@@ -22,7 +22,7 @@ Method; disables the specified filter in the Filters list.
 
 #### Example
 
-```
+```javascript
 The following example disables the first and third filters (index values of 0 and 2) in the Filters list from the selected objects:
 fl.getDocumentDOM().disableFilter(0); fl.getDocumentDOM().disableFilter(2);
 

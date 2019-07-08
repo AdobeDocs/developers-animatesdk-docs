@@ -22,7 +22,7 @@ A Boolean value: true if document.screenOutline can be used safely; false otherw
 
 #### Example
 
-```
+```javascript
 The following example determines whether screens methods can be used in the current document:
 if(fl.getDocumentDOM().allowScreens()) { fl.trace("screen outline is available.");
 }

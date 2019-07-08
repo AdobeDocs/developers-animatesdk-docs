@@ -22,7 +22,7 @@ Method; takes a point as input and returns a new point that may be adjusted or *
 
 #### Example
 
-```
+```javascript
 The following example returns a new point that may be snapped to the nearest geometric object.
 var theSnapPoint = fl.tools.snapPoint(pt1);
 

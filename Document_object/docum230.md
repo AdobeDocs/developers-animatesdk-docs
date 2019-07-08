@@ -22,7 +22,7 @@ Method; uses the top selected drawing object to punch through all selected drawi
 
 #### Example
 
-```
+```javascript
 The following example punches through drawing objects underneath the selected drawing object:
 fl.getDocumentDOM().punch();
 

@@ -22,7 +22,7 @@ Method; publishes the document according to the active publish settings (File \P
 
 #### Example
 
-```
+```javascript
 The following example publishes the current document:
 fl.getDocumentDOM().publish();
 

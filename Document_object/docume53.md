@@ -22,7 +22,7 @@ Method; checks the document for persistent data with the specified name.
 
 #### Example
 
-```
+```javascript
 The following example checks the document for persistent data with the name "myData": var hasData = fl.getDocumentDOM().documentHasData("myData");
 
 ```

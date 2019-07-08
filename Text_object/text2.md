@@ -14,7 +14,7 @@ Property; a float value that specifies the anti-aliasing thickness of the text. 
 
 #### Example
 
-```
+```javascript
 See [text.fontRenderingMode](#_bookmark980).
 
 ```

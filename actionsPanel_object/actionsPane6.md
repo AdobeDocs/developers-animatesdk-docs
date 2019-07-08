@@ -23,7 +23,7 @@ Method; enables or disables Script Assist mode.
 
 #### Example
 
-```
+```javascript
 The following example toggles the state of Script Assist mode.
 fl.trace(fl.actionsPanel.getScriptAssistMode()); if (fl.actionsPanel.getScriptAssistMode()){
 fl.actionsPanel.setScriptAssistMode(false);

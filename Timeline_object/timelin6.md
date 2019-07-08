@@ -24,7 +24,7 @@ Method; copies a range of frames on the current layer to the clipboard.
 
 #### Example
 
-```
+```javascript
 The following example copies the selected frames to the clipboard:
 fl.getDocumentDOM().getTimeline().copyFrames();
 The following example copies Frame 2 up to, but not including, Frame 10, to the clipboard (remember that index values are different from frame number values):

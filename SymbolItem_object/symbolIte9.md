@@ -14,7 +14,7 @@ Property; a string that specifies the path for the source FLA file as a file:///
 
 #### Example
 
-```
+```javascript
 The following example shows the value of the sourceFilePath property in the Output panel:
 fl.trace(fl.getDocumentDOM().library.items\[0\].sourceFilePath);
 

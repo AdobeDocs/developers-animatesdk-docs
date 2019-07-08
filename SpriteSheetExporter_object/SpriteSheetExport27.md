@@ -14,7 +14,7 @@ Property; A boolean value specifying whether the sprite sheet can stack duplicat
 
 #### Example
 
-```
+```javascript
 var exporter = new SpriteSheetExporter; exporter.stackDuplicateFrames = true;
 
 ```

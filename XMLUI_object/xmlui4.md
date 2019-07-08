@@ -22,7 +22,7 @@ Method; returns a Boolean value that specifies whether the control is enabled or
 
 #### Example
 
-```
+```javascript
 The following example returns a value that indicates whether the control with the ID attribute myListBox is enabled:
 var isEnabled = fl.xmlui.getEnabled("myListBox"); fl.trace(isEnabled);
 

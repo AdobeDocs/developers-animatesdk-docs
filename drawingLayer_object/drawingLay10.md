@@ -28,7 +28,7 @@ Method; sets the color of subsequently drawn data. Applies only to persistent da
 
 #### Example
 
-```
+```javascript
 The following example draws a red line on the Stage:
 fl.drawingLayer.beginDraw( true ); fl.drawingLayer.beginFrame(); fl.drawingLayer.setColor( "\#ff0000" ); fl.drawingLayer.moveTo(0,0); fl.drawingLayer.lineTo(100,100); fl.drawingLayer.endFrame(); fl.drawingLayer.endDraw();
 

@@ -15,7 +15,7 @@ If you want to specify a value for [frame.motionTweenOrientToPath](#_bookmark615
 
 #### Example
 
-```
+```javascript
 See [frame.motionTweenRotateTimes](#frame.motionTweenRotateTimes).
 
 <span id="frame.motionTweenRotateTimes" class="anchor"></span

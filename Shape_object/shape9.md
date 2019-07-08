@@ -14,7 +14,7 @@ Read-only property; if true, the shape is a primitive Oval object (was created u
 
 #### Example
 
-```
+```javascript
 The following example displays "true" if the first selected item is a primitive Oval object, and "false" if it is not:
 var sel = fl.getDocumentDOM().selection\[0\]; fl.trace(sel.isOvalObject);
 

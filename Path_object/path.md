@@ -23,7 +23,7 @@ Method; appends a cubic Bézier curve segment to the path.
 
 #### Example
 
-```
+```javascript
 The following example creates a new path, stores it in the myPath variable, and assigns the curve to the path:
 var myPath = fl.drawingLayer.newPath(); myPath.addCubicCurve(0, 0, 10, 20, 20, 20, 30, 0);
 

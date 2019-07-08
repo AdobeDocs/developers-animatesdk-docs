@@ -22,7 +22,7 @@ Method; returns the text in the Actions panel.
 
 #### Example
 
-```
+```javascript
 The following example displays the text that is in the Actions panel.
 var apText = fl.actionsPanel.getText(); fl.trace(apText);
 

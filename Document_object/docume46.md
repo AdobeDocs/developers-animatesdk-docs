@@ -22,7 +22,7 @@ Method; disables all filters on the selected objects.
 
 #### Example
 
-```
+```javascript
 The following example disables all filters on the selected objects:
 fl.getDocumentDOM().disableAllFilters();
 

@@ -15,7 +15,7 @@ This property works only with dynamic or input text; it generates a warning if u
 
 #### Example
 
-```
+```javascript
 The following example sets the scrollable property to false: fl.getDocumentDOM().selection\[0\].scrollable = false;
 
 ```

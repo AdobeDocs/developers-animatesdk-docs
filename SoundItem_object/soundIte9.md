@@ -15,7 +15,7 @@ If you want to specify a value for this property, set [soundItem.useImportedMP3Q
 
 #### Example
 
-```
+```javascript
 The following example sets the sample rate of an item in the library to 5 kHz if the item has the ADPCM, Raw, or Speech compression type:
 fl.getDocumentDOM().library.items\[0\].sampleRate = "5 kHz";
 

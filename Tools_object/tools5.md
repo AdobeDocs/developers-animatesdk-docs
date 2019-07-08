@@ -14,7 +14,7 @@ Read-only property; a Boolean value that is true if the left mouse button is cur
 
 #### Example
 
-```
+```javascript
 The following example determines whether the left mouse button is pressed.
 var isMouseDown = fl.tools.mouseIsDown;
 

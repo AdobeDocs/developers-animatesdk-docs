@@ -24,7 +24,7 @@ FLfile.createFolder("file:///c\|/MyData/TempData")
 
 #### Example
 
-```
+```javascript
 The following example creates a folder and a subfolder under the configuration folder ([fl.configURI](#_bookmark467)):
 fl.trace(FLfile.createFolder(fl.configURI+"folder01/subfolder01"));
 The following example attempts to create a folder called tempFolder at the root level on the C drive and displays an alert box indicating whether the operation was successful:

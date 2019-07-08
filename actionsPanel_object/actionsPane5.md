@@ -23,7 +23,7 @@ Method; replaces the currently selected text with the text specified in *replace
 #### Example
 
 ```javascript
-//The following example replaces currently selected text in the Actions panel.
+The following example replaces currently selected text in the Actions panel.
 if (fl.actionsPanel.hasSelection()) { fl.actionsPanel.replaceSelectedText("// © 2006 Adobe Inc.");
 }
 

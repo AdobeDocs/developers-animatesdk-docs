@@ -30,7 +30,7 @@ Method; adds a new rectangle or rounded rectangle, fitting it into the specified
 
 #### Example
 
-```
+```javascript
 The following example adds a new rectangle with no rounding on the corners within the specified coordinates; it is 100 pixels in width and in height:
 fl.getDocumentDOM().addNewRectangle({left:0,top:0,right:100,bottom:100},0);
 The following example adds a new rectangle with no rounding on the corners and without a fill; it is 100 pixels in width and 200 in height:

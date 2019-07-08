@@ -14,7 +14,7 @@ Property; an array of item objects in the library.
 
 #### Example
 
-```
+```javascript
 The following example stores the array of all library items in the itemArray variable:
 var itemArray = fl.getDocumentDOM().library.items;
 

@@ -22,7 +22,7 @@ Method; returns the mobile XML settings for the document.
 
 #### Example
 
-```
+```javascript
 The following example displays the XML settings string for the current document:
 fl.trace(fl.getDocumentDOM().getMobileSettings());
 //traces a string like the following"\<? xml version="1.0" encoding="UTF-16" standalone="no"

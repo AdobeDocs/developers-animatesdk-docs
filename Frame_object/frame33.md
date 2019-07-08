@@ -14,7 +14,7 @@ Property; a string that specifies whether a sound that is attached directly to a
 
 #### Example
 
-```
+```javascript
 The following example specifies that a sound should play two times:
 fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].soundLoopMode = "repeat"; fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].soundLoop = 2;
 

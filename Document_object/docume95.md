@@ -22,7 +22,7 @@ Method: imports an XML string that represents a publish profile and sets it as t
 
 #### Example
 
-```
+```javascript
 In the following example, the default profile is exported as an XML string. The standard JavaScript replace command is used to modify the XML string. The string is then imported, and the default ActionScript 3 output setting is set to ActionScript 1.
 var profileXML=fl.getDocumentDOM().exportPublishProfileString('Default'); fl.trace(profileXML);
 var newProfileXML = profileXML.replace("\<ActionScriptVersion\>3\</ActionScriptVersion\>", "\<ActionScriptVersion\>1\</ActionScriptVersion\>"); fl.getDocumentDOM().importPublishProfileString(newProfileXML);

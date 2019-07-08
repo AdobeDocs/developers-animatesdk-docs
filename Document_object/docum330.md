@@ -22,7 +22,7 @@ Method; resets the transformation matrix. This method is equivalent to selecting
 
 #### Example
 
-```
+```javascript
 The following example resets the transformation matrix for the current selection:
 fl.getDocumentDOM().resetTransformation();
 

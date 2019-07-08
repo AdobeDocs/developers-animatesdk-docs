@@ -14,7 +14,7 @@ Read-only property; a Boolean value that is true if the Shift key is pressed; fa
 
 #### Example
 
-```
+```javascript
 The following example determines whether the Shift key is being pressed.
 var isShiftDown = fl.tools.shiftIsDown;
 

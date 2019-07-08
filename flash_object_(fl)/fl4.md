@@ -22,7 +22,7 @@ Method; displays a Browse for Folder dialog box and lets the user select a folde
 
 #### Example
 
-```
+```javascript
 The following example lets the user select a folder and then displays a list of files in that folder:
 var folderURI = fl.browseForFolderURL("Select a folder."); var folderContents = FLfile.listFolder(folderURI);
 

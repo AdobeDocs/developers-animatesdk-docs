@@ -22,7 +22,7 @@ Method; clears the contents of the Compiler Errors panel.
 
 #### Example
 
-```
+```javascript
 The following example clears the contents of the Compiler Errors panel:
 fl.compilerErrors.clear();
 

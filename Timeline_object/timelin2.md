@@ -24,7 +24,7 @@ Method; deletes all the contents from a frame or range of frames on the current 
 
 #### Example
 
-```
+```javascript
 The following example clears the frames from Frame 6 up to, but not including, Frame 11 (remember that index values are different from frame number values):
 fl.getDocumentDOM().getTimeline().clearFrames(5, 10); The following example clears Frame 15: fl.getDocumentDOM().getTimeline().clearFrames(14);
 

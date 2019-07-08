@@ -22,7 +22,7 @@ Method; removes all points from the path.
 
 #### Example
 
-```
+```javascript
 The following example removes all points from a path stored in the myPath variable:
 var myPath = fl.drawingLayer.newPath(); myPath.clear();
 

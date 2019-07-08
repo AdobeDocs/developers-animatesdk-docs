@@ -23,7 +23,7 @@ To copy motion in a format that you can apply to other frames, see [timeline.cop
 
 #### Example
 
-```
+```javascript
 The following example copies the motion from the selected frame or frames to the clipboard as ActionScript 3.0 code:
 fl.getDocumentDOM().getTimeline().copyMotionAsAS3();
 

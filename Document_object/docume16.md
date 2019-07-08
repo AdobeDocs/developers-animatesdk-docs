@@ -14,7 +14,7 @@ Property; a Boolean value that describes whether the instances placed on the Sta
 
 #### Example
 
-```
+```javascript
 The following example specifies that instances placed on the Stage in the current document must be manually added to user-defined timeline classes.
 fl.getDocumentDOM().as3AutoDeclare=false;
 

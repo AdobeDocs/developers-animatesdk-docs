@@ -28,7 +28,7 @@ Method; opens a File Open or File Save system dialog box and lets the user speci
 
 #### Example
 
-```
+```javascript
 The following examples illustrate various options of the fl.browseForFileURL() method:
 //CC
 var uri = fl.browseForFileURL("open", "Select a FLA", "FLA Document (\*.fla)", "fla"); or

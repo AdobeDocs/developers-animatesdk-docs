@@ -14,7 +14,7 @@ Read-only property; an integer with a value of -1. This property is used only wh
 
 #### Example
 
-```
+```javascript
 The following example assigns a value of -1 (the icon ID of the current tool) to the toolIconID variable:
 var toolIconID = fl.tools.activeTool.iconID
 

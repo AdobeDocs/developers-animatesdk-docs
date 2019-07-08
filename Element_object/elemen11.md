@@ -15,7 +15,7 @@ element.elementType is "shape", this property is ignored. See [element.elementTy
 
 #### Example
 
-```
+```javascript
 The following example sets the Instance name of the first element in Frame 1, top layer to "clip\_mc": fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].name = "clip\_mc"; See the [element.elementType](#_bookmark377) example.
 
 ```

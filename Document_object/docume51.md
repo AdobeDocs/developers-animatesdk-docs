@@ -22,7 +22,7 @@ Method; performs a distribute-to-layers operation on the current selection—equ
 
 #### Example
 
-```
+```javascript
 The following example distributes the current selection to layers:
 fl.getDocumentDOM().distributeToLayers();
 

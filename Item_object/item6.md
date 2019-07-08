@@ -15,7 +15,7 @@ For this property to be defined, the [item.linkageExportForAS](#item.linkageExpo
 
 #### Example
 
-```
+```javascript
 The following example specifies that the ActionScript 2.0 class name associated with the first item in the library is
 myClass:
 fl.getDocumentDOM().library.items\[0\].linkageClassName = "myClass";

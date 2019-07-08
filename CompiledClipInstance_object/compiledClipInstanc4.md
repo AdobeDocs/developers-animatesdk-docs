@@ -14,7 +14,7 @@ Read-only property; an int that contains the value set in the Color Effect Prope
 
 #### Example
 
-```
+```javascript
 The following example illustrates use of this property:
 var elem = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\]; if (elem.colorMode == 'brightness') {
 fl.trace(elem.brightness);

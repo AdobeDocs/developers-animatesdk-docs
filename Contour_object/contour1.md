@@ -22,7 +22,7 @@ Method; returns a [HalfEdge object](#_bookmark644) on the contour of the selecti
 
 #### Example
 
-```
+```javascript
 This example traverses all the contours of the selected shape and shows the coordinates of the vertices in the Output panel:
 // with a shape selected
 var elt = fl.getDocumentDOM().selection\[0\]; elt.beginEdit();

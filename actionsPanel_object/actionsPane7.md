@@ -23,7 +23,7 @@ Method; selects a specified set of characters in the Actions panel.
 
 #### Example
 
-```
+```javascript
 The following example replaces the characters "2006" in the Actions panel with the specified text.
 // Type the following as the first line in the Actions panel
 // 2006 - Addresses user request 40196

@@ -23,7 +23,7 @@ Method; clears the values of the ListBox or ComboBox control specified by *contr
 
 #### Example
 
-```
+```javascript
 The following example sets the label and value of items in the control with the ID attribute myControlID to the label, value pairs specified:
 var nameArray = new Array("January", "February", "March"); var monthArray = new Array();
 for (i=0;i\<nameArray.length;i++){ elem = new Object(); elem.label = nameArray\[i\]; elem.value = i;

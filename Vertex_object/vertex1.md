@@ -24,7 +24,7 @@ Method; sets the location of the vertex. You must call [shape.beginEdit()](#_boo
 
 #### Example
 
-```
+```javascript
 The following example sets the vertex to the origin point:
 var shape = fl.getDocumentDOM().selection\[0\]; shape.beginEdit();
 var hEdge = shape.edges\[0\].getHalfEdge(0); var vertex = hEdge.getVertex();

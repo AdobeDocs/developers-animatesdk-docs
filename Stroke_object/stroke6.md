@@ -14,7 +14,7 @@ Property; a string that specifies the density of a stippled line. This property 
 
 #### Example
 
-```
+```javascript
 The following example sets the density property to sparse for the stroke style of stipple:
 var myStroke = fl.getDocumentDOM().getCustomStroke(); myStroke.style = "stipple";
 myStroke.dotSpace= 3; myStroke.variation = "random sizes"; myStroke.density = "sparse";

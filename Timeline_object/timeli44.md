@@ -23,7 +23,7 @@ Method: replaces the guide lines for the timeline (View \Guides \Show Guides) wi
 
 #### Example
 
-```
+```javascript
 The following example applies the guide lines from one FLA file to another FLA file:
 var doc0 = fl.documents\[0\];
 var guides0 = doc0.timelines\[0\].getGuidelines(); var doc1 = fl.documents\[1\]; doc1.timelines\[0\].setGuidelines(guides0);

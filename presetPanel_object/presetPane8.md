@@ -25,7 +25,7 @@ If you don’t pass a value for *namePath*, the imported preset is placed in the
 
 #### Example
 
-```
+```javascript
 The following example imports a preset into the Custom Presets/Pulse folder, and names it fastPulse.
 fl.presetPanel.importItem("file:///C\|/My Presets/thePulsePreset.xml", "Custom Presets/Pulse/fastPulse");
 

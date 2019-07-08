@@ -16,7 +16,7 @@ Some languages dynamically substitute characters glyphs as you are typing (for e
 
 #### Examples
 
-```
+```javascript
 Font symbols that are compatible with flash.text APIs appear in the Library and the user can manage them directly. However, font symbols that are compatible with the flash.text.engine (FTE) APIs do not appear in the Library, so you must manage them manually. The following function adds a new font to the Library that can be used with the FTE APIs.
 function embedFontSymbol(symbolName, fontName, includeVariants) { var doc = fl.getDocumentDOM();
 if (doc) {

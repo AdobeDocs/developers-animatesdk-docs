@@ -25,7 +25,7 @@ Method; inserts a new text field and optionally places text into the field. If y
 
 #### Example
 
-```
+```javascript
 The following example creates a new text field in the upper left corner of the Stage and sets the text string to "Hello World":
 fl.getDocumentDOM().addNewText({left:0, top:0, right:100, bottom:100} , "Hello World!" ); fl.getDocumentDOM().setTextString('Hello World!');
 

@@ -14,7 +14,7 @@ Read-only property; a unique integer (assigned automatically) that identifies a 
 
 #### Example
 
-```
+```javascript
 The following example displays the document ID for the current document:
 fl.trace("Current doc's internal ID is: " + fl.getDocumentDOM().id);
 

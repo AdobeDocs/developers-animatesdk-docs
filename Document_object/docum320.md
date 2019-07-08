@@ -22,7 +22,7 @@ Method; sets all values in the Property inspector to default Rectangle object se
 
 #### Example
 
-```
+```javascript
 The following example resets Rectangle object properties in the current document to default values:
 fl.getDocumentDOM().resetRectangleObject();
 

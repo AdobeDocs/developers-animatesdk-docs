@@ -16,7 +16,7 @@ If you want to specify a value for this property, set [soundItem.useImportedMP3Q
 
 #### Example
 
-```
+```javascript
 The following example displays the bitRate value in the Output panel if the specified item in the library has the MP3 compression type:
 alert(fl.getDocumentDOM().library.items\[0\].bitRate);
 

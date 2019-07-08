@@ -22,7 +22,7 @@ Method; called in the configureTool() method of an extensible tool’s JavaScrip
 
 #### Example
 
-```
+```javascript
 See [configureTool()](#_bookmark18).
 
 ```

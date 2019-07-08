@@ -22,7 +22,7 @@ Method; returns an array of objects that represent the control points for the cu
 
 #### Example
 
-```
+```javascript
 The following example returns the custom ease value of the position property for the first frame in the top layer:
 var theFrame = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\] var easeArray = theFrame.getCustomEase("position");
 

@@ -22,7 +22,7 @@ Method; switches the authoring tool into the editing mode specified by the param
 
 #### Example
 
-```
+```javascript
 The following example puts Flash in edit-in-place mode for the currently selected symbol:
 fl.getDocumentDOM().enterEditMode('inPlace');
 The following example puts Flash in edit-in-new-window mode for the currently selected symbol:

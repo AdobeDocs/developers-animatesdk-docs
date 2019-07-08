@@ -25,7 +25,7 @@ Function; called when the extensible tool is active and the user presses a key. 
 
 #### Example
 
-```
+```javascript
 The following example displays information about which key was pressed when the extensible tool is active and the user presses a key.
 function keyDown() {
 fl.trace("key " + fl.tools.getKeyDown() + " was pressed");

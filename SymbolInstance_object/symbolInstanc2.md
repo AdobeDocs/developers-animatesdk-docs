@@ -14,7 +14,7 @@ Property; a string that specifies the matte color when 24 bit mode is selected f
 
 #### Example
 
-```
+```javascript
 The following example assigns the symbol instance a background color of black:
 var bitmapInstance = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\]; bitmapInstance.backgroundColor = "\#000000";
 

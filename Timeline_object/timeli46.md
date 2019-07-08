@@ -25,7 +25,7 @@ Method; selects a range of frames in the current layer or sets the selected fram
 
 #### Example
 
-```
+```javascript
 The following examples show two ways to select the top layer, Frame 1, up to but not including Frame 10, and then to add Frame 12 up to but not including Frame 15 on the same layer to the current selection (remember that index values are different from frame number values):
 fl.getDocumentDOM().getTimeline().setSelectedFrames(0, 9);
 fl.getDocumentDOM().getTimeline().setSelectedFrames(11, 14, false);

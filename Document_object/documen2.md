@@ -24,7 +24,7 @@ Method; stores specified data with the selected objects. Data is written to the 
 
 #### Example
 
-```
+```javascript
 The following example adds an integer value of 12 to the selected object:
 fl.getDocumentDOM().addDataToSelection("myData", "integer", 12);
 

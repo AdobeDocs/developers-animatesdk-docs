@@ -24,7 +24,7 @@ Method; Indicates whether publishing of a specified persistent data item is enab
 
 #### Example
 
-```
+```javascript
 The following example illustrates the use of this method:
 var doc = fl.getDocumentDOM();
 // set the data if (doc) {

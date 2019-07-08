@@ -23,7 +23,7 @@ Method; returns the label and value of the line selected in a ListBox or ComboBo
 
 #### Example
 
-```
+```javascript
 The following example returns the label and value of the currently selected line for the myListBox control:
 var elem = new Object();
 elem = fl.xmlui.getControlItemElement("myListBox"); fl.trace("label = " + elem.label + " value = " + elem.value);

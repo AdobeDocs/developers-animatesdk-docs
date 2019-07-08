@@ -25,7 +25,7 @@ Method; stores data with an element. The data is available when the FLA file con
 
 #### Example
 
-```
+```javascript
 See [element.getPersistentData()](#_bookmark379).
 
 ```

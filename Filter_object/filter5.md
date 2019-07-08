@@ -14,7 +14,7 @@ Property; a float value that specifies the contrast value of the filter. Accepta
 
 #### Example
 
-```
+```javascript
 The following example sets the contrast value to -15.5 for the Adjust Color filters on the selected object(s):
 var myFilters = fl.getDocumentDOM().getFilters(); for(i=0; i \< myFilters.length; i++){
 if(myFilters\[i\].name == 'adjustColorFilter'){ myFilters\[i\].contrast = -15.5;

@@ -15,7 +15,7 @@ This property works only with input text; if used with other text types, the pro
 
 #### Example
 
-```
+```javascript
 The following example sets the value of the maxCharacters property to 30:
 fl.getDocumentDOM().selection\[0\].maxCharacters = 30;
 

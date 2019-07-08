@@ -24,7 +24,7 @@ Method; sets the label and value of the currently selected line in the ListBox o
 
 #### Example
 
-```
+```javascript
 The following example sets the label and value for the current item of the control property named PhoneNumber:
 var elem = new Object(); elem.label = "Fax"; elem.value = "707-555-5555";
 fl.xmlui.setControlItemElement("PhoneNumber",elem);

@@ -22,7 +22,7 @@ Method; pastes the range of motion frames retrieved by [timeline.copyMotion()](#
 
 #### Example
 
-```
+```javascript
 The following example pastes the motion on the clipboard to the currently selected frame or playhead location, displacing that frame to the right of the pasted frames:
 fl.getDocumentDOM().getTimeline().pasteMotion();
 

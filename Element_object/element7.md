@@ -14,7 +14,7 @@ Read-only property; represents the [Layer object](#_bookmark679) on which the el
 
 #### Example
 
-```
+```javascript
 The following example stores the Layer object that contains the element in the theLayer variable:
 var theLayer = element.layer;
 

@@ -20,7 +20,7 @@ text.selectionStart, and no text is selected.
 
 #### Example
 
-```
+```javascript
 The following example sets the start of the text subselection to the sixth character:
 fl.getDocumentDOM().selection\[0\].selectionStart = 5;
 The following example selects the characters Barbara from a text field that contains the text My name is Barbara

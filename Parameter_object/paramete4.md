@@ -22,7 +22,7 @@ Method; removes an element of the object or array type of a screen or component 
 
 #### Example
 
-```
+```javascript
 The following example removes the element at index 1 from the labelPlacement parameter of a component:
 // Select an instance of a Button component on the Stage. var parms = fl.getDocumentDOM().selection\[0\].parameters; var values = parms\[2\].value;
 fl.trace("--Original--"); for(var prop in values){

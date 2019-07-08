@@ -14,7 +14,7 @@ Property; an integer that represents the space between characters. Acceptable va
 
 #### Example
 
-```
+```javascript
 The following code selects the characters from index 0 up to but not including index 10 and sets the character spacing to 60:
 fl.getDocumentDOM().setTextSelection(0, 10);
 fl.getDocumentDOM().setElementTextAttr("letterSpacing", 60);

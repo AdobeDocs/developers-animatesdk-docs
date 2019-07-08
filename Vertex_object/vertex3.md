@@ -14,7 +14,7 @@ Read-only property; the *y* location of the vertex, in pixels.
 
 #### Example
 
-```
+```javascript
 See [vertex.x](#_bookmark1137).
 
 ```

@@ -14,7 +14,7 @@ Property; An integer value indicating how many pixels of padding should be added
 
 #### Example
 
-```
+```javascript
 var exporter = new SpriteSheetExporter; exporter.shapePadding = 10;
 
 ```

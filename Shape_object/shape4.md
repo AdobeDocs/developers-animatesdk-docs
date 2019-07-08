@@ -22,7 +22,7 @@ Method; defines the end of an edit session for the shape. All changes made to th
 
 #### Example
 
-```
+```javascript
 The following example takes the currently selected shape and removes the first edge in the edge array from it:
 var shape = fl.getDocumentDOM().selection\[0\]; shape.beginEdit();
 shape.deleteEdge(0); shape.endEdit();

@@ -15,7 +15,7 @@ stroke.style property is set to dashed(see [stroke.style](#_bookmark898)).
 
 #### Example
 
-```
+```javascript
 The following example sets the dash1 and dash2 properties for a stroke style of dashed:
 var myStroke = fl.getDocumentDOM().getCustomStroke(); myStroke.style = "dashed";
 myStroke.dash1 = 1;

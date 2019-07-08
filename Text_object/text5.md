@@ -14,7 +14,7 @@ Property; a string that is equivalent to the Description field in the Accessibil
 
 #### Example
 
-```
+```javascript
 The following example retrieves the description of the object:
 var doc = fl.getDocumentDOM();
 var desc = doc.selection\[0\].description;

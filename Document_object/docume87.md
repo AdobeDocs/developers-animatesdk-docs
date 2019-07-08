@@ -24,7 +24,7 @@ If there are several text fields selected, the concatenation of all the strings 
 
 #### Example
 
-```
+```javascript
 The following example gets the string in the selected text fields:
 fl.getDocumentDOM().getTextString();
 The following example gets the string at character index 5 in the selected text fields:

@@ -24,7 +24,7 @@ Method; spaces the objects in the selection evenly.
 
 #### Example
 
-```
+```javascript
 The following example spaces the objects horizontally, relative to the Stage:
 fl.getDocumentDOM().space("horizontal",true);
 The following example spaces the objects horizontally, relative to each other:

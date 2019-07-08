@@ -22,7 +22,7 @@ Method; gets the bounding rectangle of the current selection. If a selection is 
 
 #### Example
 
-```
+```javascript
 The following example gets the bounding rectangle for the current selection and then displays its properties:
 var newRect = fl.getDocumentDOM().getSelectionRect();
 var outputStr = "left: " + newRect.left + " top: " + newRect.top + " right: " + newRect.right

@@ -15,7 +15,7 @@ Property; a string that determines the baseline for the text. Acceptable values 
 
 #### Example
 
-```
+```javascript
 The following example selects the characters from index 2 up to, but not including, index 6 of the selected text field and sets the characterPosition property to subscript:
 fl.getDocumentDOM().setTextSelection(2, 6); fl.getDocumentDOM().setElementTextAttr("characterPosition", "subscript");
 

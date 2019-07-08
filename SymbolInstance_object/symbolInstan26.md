@@ -14,7 +14,7 @@ Property; an integer that is equivalent to the Tab index field in the Accessibil
 
 #### Example
 
-```
+```javascript
 The following example sets the tabIndex property of the mySymbol object to 3 and displays that value in the Output panel:
 var mySymbol = fl.getDocumentDOM().selection\[0\]; mySymbol.tabIndex = 3; fl.trace(mySymbol.tabIndex);
 

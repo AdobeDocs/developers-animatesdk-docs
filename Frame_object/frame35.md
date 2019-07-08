@@ -14,7 +14,7 @@ Property; a string that specifies the sync behavior of a sound that is attached 
 
 #### Example
 
-```
+```javascript
 The following example specifies that a sound should stream:
 fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].soundSync = 'stream';
 

@@ -31,7 +31,7 @@ max="1" defaultValue=".5" type="Double" /\>
 
 #### Example
 
-```
+```javascript
 The following example specifies that the file named PolyStar.xml is associated with the currently active tool. This code is taken from the sample PolyStar.jsfl file (see ["Sample PolyStar tool" on page 17](#_bookmark10)):
 theTool = fl.tools.activeTool; theTool.setOptionsFile("PolyStar.xml");
 

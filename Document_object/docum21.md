@@ -22,7 +22,7 @@ Method; smooths the curve of each selected fill outline or curved line. This met
 
 #### Example
 
-```
+```javascript
 The following example smooths the curve of the current selection:
 fl.getDocumentDOM().smoothSelection();
 

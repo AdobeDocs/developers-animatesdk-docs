@@ -22,7 +22,7 @@ Method; straightens the currently selected strokes. This method is equivalent to
 
 #### Example
 
-```
+```javascript
 The following example straightens the curve of the current selection:
 fl.getDocumentDOM().straightenSelection();
 

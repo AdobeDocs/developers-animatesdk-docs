@@ -24,7 +24,7 @@ If you don’t pass a value for *folderPath*, a folder named "Untitled folder *n
 
 #### Example
 
-```
+```javascript
 The following example adds a folder named Bouncing below the Custom Presets folder:
 fl.presetPanel.newFolder("Custom Presets/Bouncing");
 

@@ -14,7 +14,7 @@ Property; a string that specifies the current use of the layer; equivalent to th
 
 #### Example
 
-```
+```javascript
 The following example sets the first layer in the timeline to type folder: fl.getDocumentDOM().getTimeline().layers\[0\].layerType = "folder";
 
 ```

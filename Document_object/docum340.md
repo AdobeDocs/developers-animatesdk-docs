@@ -22,7 +22,7 @@ Method; reverts the specified document to its previously saved version. This met
 
 #### Example
 
-```
+```javascript
 The following example reverts the current document to the previously saved version:
 fl.getDocumentDOM().revert();
 

@@ -14,7 +14,7 @@ Property; a string that specifies the name of the current timeline. This name is
 
 #### Example
 
-```
+```javascript
 The following example retrieves the first scene name:
 var sceneName = fl.getDocumentDOM().timelines\[0\].name; The following example sets the first scene name to FirstScene: fl.getDocumentDOM().timelines\[0\].name = "FirstScene";
 

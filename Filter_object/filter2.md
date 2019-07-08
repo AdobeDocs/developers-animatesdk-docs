@@ -14,7 +14,7 @@ Property; a float value that specifies the amount to blur in the *y* direction, 
 
 #### Example
 
-```
+```javascript
 See [filter.blurX](#_bookmark428).
 
 ```

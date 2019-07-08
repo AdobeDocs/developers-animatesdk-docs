@@ -24,7 +24,7 @@ For information on making a selection, see [document.setSelectionRect()](#_bookm
 
 #### Example
 
-```
+```javascript
 The following example moves the selected item 62 pixels to the right and 84 pixels down:
 fl.getDocumentDOM().moveSelectionBy({x:62, y:84});
 

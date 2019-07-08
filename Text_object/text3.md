@@ -14,7 +14,7 @@ Property; a Boolean value. For static text fields, a value of true causes the bo
 
 #### Example
 
-```
+```javascript
 The following example sets the autoExpand property to a value of true: fl.getDocumentDOM().selection\[0\].autoExpand = true;
 
 ```

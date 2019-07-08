@@ -23,7 +23,7 @@ Method; exports a frame from the selected instance of movie clip, graphic, or bu
 
 #### Example
 
-```
+```javascript
 The following example exports the first frame of the currently selected symbol instance to a new bitmap in the library that will be called "mytestBitmap":
 fl.getDocumentDOM().library.item\[0\].exportToLibrary(1, "mytestBitmap");
 

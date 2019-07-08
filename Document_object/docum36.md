@@ -14,7 +14,7 @@ Property; a string that contains a list of items in the document’s ActionScrip
 
 #### Example
 
-```
+```javascript
 The following example adds the ./Class files folder to the document’s Source path:
 var myDoc = fl.getDocumentDOM(); fl.trace(myDoc.sourcePath);
 myDoc.sourcePath = "./Class files;" + myDoc.sourcePath; fl.trace(myDoc.sourcePath);

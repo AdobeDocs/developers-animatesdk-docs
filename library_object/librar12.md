@@ -23,7 +23,7 @@ parameter is provided, in the currently selected folder.
 
 #### Example
 
-```
+```javascript
 The following example creates two new library folders. The second folder is a subfolder of the first folder:
 fl.getDocumentDOM().library.newFolder("first/second");
 

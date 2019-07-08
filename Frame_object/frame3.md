@@ -14,7 +14,7 @@ Property; a string that represents ActionScript code. To insert a new line chara
 
 #### Example
 
-```
+```javascript
 The following example assigns stop() to first frame top layer action:
 fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].actionScript = 'stop();';
 

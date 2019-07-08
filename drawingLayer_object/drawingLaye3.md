@@ -23,7 +23,7 @@ Method; draws a quadratic curve segment starting at the current drawing position
 
 #### Example
 
-```
+```javascript
 The following example draws a quadratic curve using the specified control points:
 fl.drawingLayer.curveTo(0, 0, 2, 0);
 

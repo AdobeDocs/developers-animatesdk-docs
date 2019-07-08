@@ -26,7 +26,7 @@ Method; exports the document as one or more PNG files. If *fileURI* is specified
 
 #### Example
 
-```
+```javascript
 The following example exports the current frame in the current document to myFile.png, using the current PNG publish settings:
 fl.getDocumentDOM().exportPNG("file:///C\|/myProject/myFile.png", true, true);
 

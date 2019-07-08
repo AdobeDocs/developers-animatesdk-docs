@@ -24,7 +24,7 @@ Method; adds specified data to a library item.
 
 #### Example
 
-```
+```javascript
 The following example adds data named myData with an integer value of 12 to the first item in the library:
 fl.getDocumentDOM().library.items\[0\].addData("myData", "integer", 12);
 

@@ -24,7 +24,7 @@ Read-only property; a string that represents the type of the specified element. 
 
 #### Example
 
-```
+```javascript
 The following example stores the type of the first element in the eType variable:
 // In a new file, place a movie clip on first frame top layer, and
 // then run this line of script.

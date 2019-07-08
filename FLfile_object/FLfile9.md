@@ -23,7 +23,7 @@ Method; returns an array of strings representing the contents of the folder.
 
 #### Examples
 
-```
+```javascript
 The following example returns three arrays. The first represents all the files in the C:\\temp folder, the second represents all the folders in the C:\\temp folder, and the third represents the files and folders in the C:\\temp folder:
 var fileURI = "file:///C\|/temp/" ; var folderURI = "file:///C\|/temp" ;
 var fileList1 = FLfile.listFolder(fileURI, "files"); // files

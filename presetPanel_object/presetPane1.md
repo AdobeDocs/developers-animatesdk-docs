@@ -31,7 +31,7 @@ This method fails in the following situations:
 
 #### Example
 
-```
+```javascript
 The following example applies the aDribble preset to the currently selected item on the Stage:
 var result = fl.presetPanel.applyPreset("Custom Presets/Bounces/aDribble"); fl.trace(result);
 

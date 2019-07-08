@@ -15,7 +15,7 @@ This property is not available for graphic objects.
 
 #### Example
 
-```
+```javascript
 The following example checks to see if the object is accessible; a return value of false means the object is accessible:
 var isSilent = fl.getDocumentDOM().selection\[0\].silent; The following example sets the object to be accessible: fl.getDocumentDOM().selection\[0\].silent = false;
 

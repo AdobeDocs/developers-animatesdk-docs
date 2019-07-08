@@ -14,7 +14,7 @@ Property; a string that specifies the blend mode. Valid blend modes are: normal,
 
 #### Example
 
-```
+```javascript
 The following example illustrates getting and setting the blendMode property:
 //if the blend mode is 'add', change it to 'subtract'
 var blend = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].blendMode; fl.trace(blend);

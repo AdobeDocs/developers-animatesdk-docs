@@ -14,7 +14,7 @@ Property; part of the color transformation for the instance. This property is eq
 
 #### Example
 
-```
+```javascript
 The following example sets the colorGreenPercent of the selected symbol instance to 70:
 fl.getDocumentDOM().selection\[0\].colorGreenPercent = 70;
 

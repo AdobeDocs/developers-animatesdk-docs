@@ -24,7 +24,7 @@ Method; converts a range of frames to keyframes (or converts the selection if no
 
 #### Example
 
-```
+```javascript
 The following example converts the selected frames to keyframes:
 fl.getDocumentDOM().getTimeline().convertToKeyframes();
 The following example converts to keyframes the frames from Frame 2 up to, but not including, Frame 10 (remember that index values are different from frame number values):

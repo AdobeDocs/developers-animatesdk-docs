@@ -15,7 +15,7 @@ SpriteSheetExporter.layoutFormat property supports border padding.
 
 #### Example
 
-```
+```javascript
 var exporter = new SpriteSheetExporter; alert(exporter.canBorderPad);
 
 ```

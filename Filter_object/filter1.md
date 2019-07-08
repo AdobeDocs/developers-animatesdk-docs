@@ -14,7 +14,7 @@ Property; a float value that specifies the amount to blur in the *x* direction, 
 
 #### Example
 
-```
+```javascript
 The following example sets the blurX value to 30 and the blurY value to 20 for the Blur filters on the selected object(s):
 var myFilters = fl.getDocumentDOM().getFilters(); for(i=0; i \< myFilters.length; i++){
 if(myFilters\[i\].name == 'blurFilter'){ myFilters\[i\].blurX = 30;

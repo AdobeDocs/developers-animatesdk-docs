@@ -14,7 +14,7 @@ Property; a float value that specifies the distance between the filter’s effec
 
 #### Example
 
-```
+```javascript
 The following example sets the distance to 10 pixels for the Drop Shadow filters on the selected object(s):
 var myFilters = fl.getDocumentDOM().getFilters(); for(i=0; i \< myFilters.length; i++){
 if(myFilters\[i\].name == 'dropShadowFilter'){ myFilters\[i\].distance = 10;

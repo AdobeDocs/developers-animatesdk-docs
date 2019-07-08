@@ -14,7 +14,7 @@ Read-only property; if true, the shape is a primitive Rectangle object (was crea
 
 #### Example
 
-```
+```javascript
 The following example displays "true" if the first selected item is a primitive Rectangle object, "false" if it is not:
 var sel = fl.getDocumentDOM().selection\[0\]; fl.trace(sel.isRectangleObject);
 

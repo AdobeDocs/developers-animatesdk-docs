@@ -22,7 +22,7 @@ Method; sets the preferences for [document.align()](#_bookmark132), [document.di
 
 #### Example
 
-```
+```javascript
 The following example enables the To Stage button in the Align panel to align objects with the Stage:
 fl.getDocumentDOM().setAlignToDocument(true);
 

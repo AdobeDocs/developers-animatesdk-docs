@@ -24,7 +24,7 @@ Method; moves the currently selected or specified library item to a specified fo
 
 #### Example
 
-```
+```javascript
 The following example moves the item Symbol\_1 to the library folder new and replaces the item in that folder with the same name:
 fl.getDocumentDOM().library.moveToFolder("new", "Symbol\_1", true);
 

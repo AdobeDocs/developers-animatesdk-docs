@@ -22,7 +22,7 @@ Method; closes all open files (FLA files, SWF files, JSFL files, and so on). If 
 
 #### Example
 
-```
+```javascript
 The following code closes all open files, prompting the user to save any new or changed files.
 fl.closeAll();
 

@@ -24,7 +24,7 @@ Method; pastes the range of frames from the clipboard into the specified frames.
 
 #### Example
 
-```
+```javascript
 The following example pastes the frames on the clipboard to the currently selected frame or playhead location:
 fl.getDocumentDOM().getTimeline().pasteFrames();
 The following example pastes the frames on the clipboard at Frame 2 up to, but not including, Frame 10 (remember that index values are different from frame number values):

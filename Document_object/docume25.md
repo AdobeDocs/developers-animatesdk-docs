@@ -22,7 +22,7 @@ Method; indicates whether the Edit Symbols menu and functionality are enabled. T
 
 #### Example
 
-```
+```javascript
 The following example displays in the Output panel the state of the Edit Symbols menu and functionality:
 fl.trace("fl.getDocumentDOM().canEditSymbol() returns: " + fl.getDocumentDOM().canEditSymbol());
 

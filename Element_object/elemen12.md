@@ -22,7 +22,7 @@ Method; removes any persistent data with the specified name that has been attach
 
 #### Example
 
-```
+```javascript
 See [element.getPersistentData()](#_bookmark379).
 
 ```

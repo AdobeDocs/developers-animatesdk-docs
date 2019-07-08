@@ -25,7 +25,7 @@ If you don’t pass a value for *namePath*, the item is added to the Custom Pres
 
 #### Example
 
-```
+```javascript
 Assuming that a single motion tween is selected on the Stage, the following code adds a preset named Bouncing Ball
 to the Custom Presets folder:
 fl.presetPanel.addNewItem("Custom Presets/Bouncing Ball");

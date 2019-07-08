@@ -22,7 +22,7 @@ Method; deselects all the library items.
 
 #### Example
 
-```
+```javascript
 The following examples deselect all the items in the library:
 fl.getDocumentDOM().library.selectNone(); fl.getDocumentDOM().library.selectAll(false);
 

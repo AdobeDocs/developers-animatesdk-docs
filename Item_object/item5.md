@@ -17,7 +17,7 @@ When you set this value, none of the checks performed by the Linkage dialog box 
 
 #### Example
 
-```
+```javascript
 The following lines of code show a few ways to use this property:
 // sets the library item base class to "Sprite" fl.getDocumentDOM().library.items\[0\].linkageBaseClass = "flash.display.Sprite";
 // sets the library item base class to the default for that item type fl.getDocumentDOM().library.items\[0\].linkageBaseClass = "";

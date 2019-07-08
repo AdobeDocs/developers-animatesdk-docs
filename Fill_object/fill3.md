@@ -15,7 +15,7 @@ fill.style property is either "radialGradient" or "linearGradient". See [fill.st
 
 #### Example
 
-```
+```javascript
 The following example displays the color array of the current selection, if appropriate, in the Output panel:
 var fill = fl.getDocumentDOM().getCustomFill();
 if(fill.style == "linearGradient" \|\| fill.style == "radialGradient") alert(fill.colorArray);

@@ -14,7 +14,7 @@ Property; a string that specifies the type of text field. Acceptable values are 
 
 #### Example
 
-```
+```javascript
 The following example sets the textType property to input: fl.getDocumentDOM().selection\[0\].textType = "input";
 
 ```

@@ -22,7 +22,7 @@ Method; determines whether the library item has the named data.
 
 #### Example
 
-```
+```javascript
 The following example shows a message in the Output panel if the first item in the library contains data named myData:
 if (fl.getDocumentDOM().library.items\[0\].hasData("myData")){ fl.trace("Yep, it's there!");
 }

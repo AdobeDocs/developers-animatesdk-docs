@@ -23,7 +23,7 @@ Method; saves the document in its default location. This method is equivalent to
 
 #### Example
 
-```
+```javascript
 The following example saves the current document in its default location:
 fl.getDocumentDOM().save();
 

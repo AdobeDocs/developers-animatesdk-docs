@@ -14,7 +14,7 @@ Property; a string that is equivalent to the Description field in the Accessibil
 
 #### Example
 
-```
+```javascript
 The following example sets the description of the document:
 fl.getDocumentDOM().description= "This is the main movie";
 The following example gets the description of the document and displays it in the Output panel:

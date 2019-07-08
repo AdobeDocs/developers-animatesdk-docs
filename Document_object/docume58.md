@@ -22,7 +22,7 @@ Method; enables all the filters on the Filters list for the selected objects.
 
 #### Example
 
-```
+```javascript
 The following example enables all the filters on the Filters list for the selected objects:
 fl.getDocumentDOM().enableAllFilters();
 

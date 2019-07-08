@@ -22,7 +22,7 @@ Method; converts a filename in a platform-specific format to a file:/// URI.
 
 #### Example
 
-```
+```javascript
 The following example converts a filename from a platform-specific format to a file:/// URI, which is passed to
 outputPanel.save():
 var myFilename = "C:\\\\outputPanel.txt";

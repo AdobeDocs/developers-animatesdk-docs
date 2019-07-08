@@ -22,7 +22,7 @@ Method; sets the version of the Flash Player targeted by the specified document.
 
 #### Example
 
-```
+```javascript
 The following example targets Flash Player 6 as the player version for the current document:
 fl.getDocumentDOM().setPlayerVersion("6");
 

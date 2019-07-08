@@ -14,7 +14,7 @@ Read-only property; a hexadecimal value indicating the modification date and tim
 
 #### Example
 
-```
+```javascript
 Assuming the first item in the Library is a sound item, the following code displays a hex number as described above.
 var libItem = fl.getDocumentDOM().library.items\[0\];
 fl.trace("Mod date when imported = " + libItem.lastModifiedDate);

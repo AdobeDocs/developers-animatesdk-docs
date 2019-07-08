@@ -14,7 +14,7 @@ Property; a string that contains a list of items in the document’s ActionScrip
 
 #### Example
 
-```
+```javascript
 The following example sets the document’s External library path to "." and "../mySWCLibrary":
 var myDocument = fl.getDocumentDOM(); myDocument.externalLibraryPath = ".;../mySWCLibrary"; fl.trace(myDocument.externalLibraryPath);
 

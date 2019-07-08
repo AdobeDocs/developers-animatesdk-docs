@@ -14,7 +14,7 @@ Property; an integer that specifies part of the color transformation for the ins
 
 #### Example
 
-```
+```javascript
 The following example sets the colorAlphaPercent of the selected symbol instance to 80:
 fl.getDocumentDOM().selection\[0\].colorAlphaPercent = 80;
 

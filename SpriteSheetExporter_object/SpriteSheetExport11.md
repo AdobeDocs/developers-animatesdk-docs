@@ -14,7 +14,7 @@ Read-only property; A boolean value indicating whether the framework specified b
 
 #### Example
 
-```
+```javascript
 var exporter = new SpriteSheetExporter; alert(exporter.canTrim);
 
 ```

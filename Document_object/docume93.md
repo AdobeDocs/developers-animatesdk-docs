@@ -25,7 +25,7 @@ Method; imports a file into a document. This method performs the same operation 
 
 #### Example
 
-```
+```javascript
 The following example lets the user browse for a file to import onto the Stage:
 var dom = fl.getDocumentDOM();
 var URI = fl.browseForFileURL("select", "Import File"); dom.importFile(URI);

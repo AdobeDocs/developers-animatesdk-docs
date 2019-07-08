@@ -15,7 +15,7 @@ The matrix.b and matrix.c properties in a matrix represent skewing.
 
 #### Example
 
-```
+```javascript
 See the [matrix.b](#_bookmark728) example.
 
 ```

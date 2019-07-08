@@ -22,7 +22,7 @@ Method; swaps the current selection with the specified one. The selection must c
 
 #### Example
 
-```
+```javascript
 The following example swaps the current selection with Symbol 1 from the library:
 fl.getDocumentDOM().swapElement('Symbol 1');
 

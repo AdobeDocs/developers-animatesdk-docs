@@ -14,7 +14,7 @@ Method; a Boolean value. Lets you know whether the current selection includes a 
 
 #### Example
 
-```
+```javascript
 The following example returns a trace statement informing you if the current selection has a motion path.
 var doc = fl.getDocumentDOM(); var my\_tl = doc.getTimeline() ;
 t his .getCurrentFrame = function(){

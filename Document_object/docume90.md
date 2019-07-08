@@ -22,7 +22,7 @@ Method; converts the current selection to a group.
 
 #### Example
 
-```
+```javascript
 The following example converts the objects in the current selection to a group:
 fl.getDocumentDOM().group();
 

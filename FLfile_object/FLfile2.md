@@ -22,7 +22,7 @@ Method; determines whether a specified file exists. If you specify a folder and 
 
 #### Examples
 
-```
+```javascript
 The following example checks for a file called mydata.txt in the temp folder and displays an alert box indicating whether the file exists:
 var fileURI = "file:///c\|/temp/mydata.txt"; if (FLfile.exists(fileURI)) {
 alert( fileURI + " exists.");

@@ -14,7 +14,7 @@ Read-only property; A string value indicating the name of the sprite sheet image
 
 #### Example
 
-```
+```javascript
 var exporter = new SpriteSheetExporter; alert(exporter.image);
 
 ```

@@ -14,7 +14,7 @@ Read-only property; A string value indicating the format of the sprite sheet ima
 
 #### Example
 
-```
+```javascript
 var exporter = new SpriteSheetExporter; alert(exporter.format);
 // "RGBA8888"
 

@@ -41,7 +41,7 @@ If you want to make sure the archive attribute is not set, use this command with
 
 #### Examples
 
-```
+```javascript
 The following example sets the file mydata.txt to be read-only and hidden. It has no effect on the archive attribute.
 var URI = "file:///c\|/temp/mydata.txt"; if (FLfile.exists(URI)) {
 FLfile.setAttributes(URI, "RH");

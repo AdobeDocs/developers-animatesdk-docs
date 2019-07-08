@@ -14,7 +14,7 @@ Property; a Boolean value that specifies whether the bitmap fill for a shape tha
 
 #### Example
 
-```
+```javascript
 The following example displays information on whether the bitmap fill is clipped, if appropriate, in the Output panel:
 var fill = fl.getDocumentDOM().getCustomFill(); if (fill.style == "bitmap")
 fl.trace("Fill image is clipped: " + fill.bitmapIsClipped);

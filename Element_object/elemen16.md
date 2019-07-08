@@ -14,7 +14,7 @@ Property; a Boolean value that specifies whether the element is selected (true) 
 
 #### Example
 
-```
+```javascript
 The following example selects the element:
 element.selected = true;
 

@@ -24,7 +24,7 @@ Method; skews the selection by a specified amount. The effect is the same as usi
 
 #### Example
 
-```
+```javascript
 The following examples skew the selected object by 2.0 vertically and 1.5 horizontally. The second example transforms the object at the top center edge:
 fl.getDocumentDOM().skewSelection(2.0, 1.5); fl.getDocumentDOM().skewSelection(2.0, 1.5, "top center");
 

@@ -14,7 +14,7 @@ Property; a zero-based integer that specifies the first frame to appear in the t
 
 #### Example
 
-```
+```javascript
 The following example specifies that Frame 10 should be the first frame to appear in the timeline of the specified element:
 fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].firstFrame = 10;
 

@@ -14,7 +14,7 @@ Property; a string that determines the type of image compression applied to the 
 
 #### Example
 
-```
+```javascript
 The following code sets the compressionType property of the first item in the library of the current document to
 "photo":
 fl.getDocumentDOM().library.items\[0\].compressionType = "photo"; alert(fl.getDocumentDOM().library.items\[0\].compressionType);

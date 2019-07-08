@@ -23,7 +23,7 @@ Method; deletes the specified preset from the Motion Presets panel. If you donâ€
 
 #### Example
 
-```
+```javascript
 The following code deletes a preset named aDribble from the Custom Presets folder:
 fl.presetPanel.deleteItem("Custom Presets/aDribble");
 

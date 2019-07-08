@@ -22,7 +22,7 @@ Method; Gets the sound envelope data of any frame.
 
 #### Example
 
-```
+```javascript
 The following example illustrates the use of getSoundEnvelope:
 // Add a sound item to the first Frame
 // Get the sound Envelope

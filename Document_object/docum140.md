@@ -28,7 +28,7 @@ Method; performs a double mouse click from the Selection tool.
 
 #### Example
 
-```
+```javascript
 The following example performs a double mouse click at the specified location:
 fl.getDocumentDOM().mouseDblClk({x:392.9, y:73}, false, false, true);
 

@@ -15,7 +15,7 @@ In Flash MX 2004, the value of instance.instanceType for an item added to the li
 
 #### Example
 
-```
+```javascript
 The following example shows that the instance type of a movie clip is symbol:
 // Select a movie clip and then run this script.
 var type = fl.getDocumentDOM().selection\[0\].instanceType; fl.trace("This instance type is " + type);

@@ -22,7 +22,7 @@ Method; gets the property for the selected item.
 
 #### Example
 
-```
+```javascript
 The following example shows a dialog box that contains the Linkage Identifier value for the symbol when referencing it using ActionScript or for run-time sharing:
 alert(fl.getDocumentDOM().library.getItemProperty("linkageIdentifier"));
 

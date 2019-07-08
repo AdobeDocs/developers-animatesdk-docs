@@ -22,7 +22,7 @@ Method; retrieves the specified property’s value for the selected layers.
 
 #### Example
 
-```
+```javascript
 The following example retrieves the name of the top layer in the current document and displays it in the Output panel:
 fl.getDocumentDOM().getTimeline().currentLayer = 0;
 var layerName = fl.getDocumentDOM().getTimeline().getLayerProperty("name"); fl.trace(layerName);

@@ -22,7 +22,7 @@ Method; renames the currently selected scene in the Scenes panel. The new name f
 
 #### Example
 
-```
+```javascript
 The following example renames the current scene to "new name":
 var success = fl.getDocumentDOM().renameScene("new name");
 

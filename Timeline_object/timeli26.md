@@ -18,7 +18,7 @@ Method; gets the zero-based index values of the currently selected layers.
 
 #### Example
 
-```
+```javascript
 The following example displays 1,0 in the Output panel:
 fl.getDocumentDOM().getTimeline().setSelectedLayers(0); fl.getDocumentDOM().getTimeline().setSelectedLayers(1, false);
 var layerArray = fl.getDocumentDOM().getTimeline().getSelectedLayers(); fl.trace(layerArray);

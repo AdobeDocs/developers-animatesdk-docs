@@ -23,7 +23,7 @@ Method; modifies the value of the specified property of the current XMLUI dialog
 
 #### Example
 
-```
+```javascript
 The following example sets the value of a property named URL to [www.adobe.com:](http://www.adobe.com/) fl.xmlui.set("URL", ["www.adobe.com");](http://www.adobe.com/)
 
 ```

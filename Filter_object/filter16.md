@@ -22,7 +22,7 @@ This property is defined for Filter objects with a value of "bevelFilter" for th
 
 #### Example
 
-```
+```javascript
 The following example sets the shadow color to "\#ff00003e" for the Bevel filters on the selected object(s):
 var myFilters = fl.getDocumentDOM().getFilters(); for(i=0; i \< myFilters.length; i++){
 if(myFilters\[i\].name == 'bevelFilter'){ myFilters\[i\].shadowColor = '\#ff00003e';

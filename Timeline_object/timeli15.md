@@ -24,7 +24,7 @@ Method; Cuts the layers that are currently selected in the Timeline, or the laye
 
 #### Example
 
-```
+```javascript
 The following example cuts the layers from index 2 to index 7 in the Timeline:
 fl.getDocumentDOM().getTimeline().cutLayers(2, 7);
 

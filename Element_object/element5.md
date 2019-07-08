@@ -22,7 +22,7 @@ Method; determines whether the specified data has been attached to the specified
 
 #### Example
 
-```
+```javascript
 See [element.getPersistentData()](#_bookmark379).
 
 ```

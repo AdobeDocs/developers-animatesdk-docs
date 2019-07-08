@@ -16,7 +16,7 @@ For example, if the group contains three drawing objects and three raw shapes, t
 
 #### Example
 
-```
+```javascript
 The following code displays the number of cubic segments of each drawing object in the currently selected group:
 var shapesArray = fl.getDocumentDOM().selection\[0\].members; for (i=0; i\<shapesArray.length; i++) {
 fl.trace(shapesArray\[i\].numCubicSegments);

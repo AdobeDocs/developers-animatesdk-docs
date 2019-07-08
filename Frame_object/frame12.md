@@ -14,7 +14,7 @@ Method; a Boolean value. Lets you know whether the current selection is a 3D mot
 
 #### Example
 
-```
+```javascript
 The following example returns a trace statement informing you that the current selection is or is not a 3D motion object.
 var doc = fl.getDocumentDOM();
 va r my\_tl = doc.getTimeline(); this.getCurrentFr ame = func t i o n(){

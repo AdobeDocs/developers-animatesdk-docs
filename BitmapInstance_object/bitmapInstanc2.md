@@ -23,7 +23,7 @@ Method; sets the bits of an existing bitmap element. This lets you create bitmap
 
 #### Example
 
-```
+```javascript
 The following code tests whether the current selection is a bitmap and then sets the height of the bitmap to 150 pixels:
 var isBitmap = fl.getDocumentDOM().selection\[0\].instanceType; if(isBitmap == "bitmap"){
 var bits = fl.getDocumentDOM().selection\[0\].getBits(); bits.height = 150; fl.getDocumentDOM().selection\[0\].setBits(bits);

@@ -15,7 +15,7 @@ This property can be set to true only when [item.linkageExportForAS](#_bookmark6
 
 #### Example
 
-```
+```javascript
 The following example specifies that the specified library item is exported in the first frame:
 fl.getDocumentDOM().library.items\[0\].linkageExportInFirstFrame = true;
 

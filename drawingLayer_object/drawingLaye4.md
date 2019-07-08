@@ -22,7 +22,7 @@ Method; draws the path specified by the *path* parameter. You typically use this
 
 #### Example
 
-```
+```javascript
 The following example draws a path specified by the Path object named gamePath: fl.drawingLayer.drawPath(gamePath);
 
 ```

@@ -22,7 +22,7 @@ Method; deletes a layer. If the layer is a folder, all layers within the folder 
 
 #### Example
 
-```
+```javascript
 The following example deletes the second layer from the top: fl.getDocumentDOM().getTimeline().deleteLayer(1); The following example deletes the currently selected layers: fl.getDocumentDOM().getTimeline().deleteLayer();
 
 ```

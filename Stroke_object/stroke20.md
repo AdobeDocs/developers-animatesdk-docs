@@ -28,7 +28,7 @@ length.
 
 #### Example
 
-```
+```javascript
 The following example sets the stroke style to ragged:
 var myStroke = fl.getDocumentDOM().getCustomStroke(); myStroke.style = "ragged"; fl.getDocumentDOM().setCustomStroke(myStroke);
 

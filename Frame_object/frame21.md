@@ -14,7 +14,7 @@ Property; a Boolean value that if set to true, synchronizes the animation of the
 
 #### Example
 
-```
+```javascript
 The following example specifies that tweened object should be synchronized with the timeline:
 fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].motionTweenSync = true;
 

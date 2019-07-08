@@ -15,7 +15,7 @@ SpriteSheetExporter.layoutFormat property supports shape padding.
 
 #### Example
 
-```
+```javascript
 var exporter = new SpriteSheetExporter; alert(exporter.canShapePad);
 
 ```

@@ -23,7 +23,7 @@ Method; aligns the selection.
 
 #### Example
 
-```
+```javascript
 The following example aligns objects to the left and to the Stage. This is equivalent to turning on the To Stage setting in the Align panel and clicking the Align to Left button:
 fl.getDocumentDOM().align("left", true);
 

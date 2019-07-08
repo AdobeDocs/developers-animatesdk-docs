@@ -22,7 +22,7 @@ Method; exits drawing mode. Drawing mode is used when you want to temporarily dr
 
 #### Example
 
-```
+```javascript
 The following example exits drawing mode:
 fl.drawingLayer.endDraw();
 

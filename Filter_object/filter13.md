@@ -14,7 +14,7 @@ Read-only property; a string that specifies the type of filter. The value of thi
 
 #### Example
 
-```
+```javascript
 The following example displays the filter names and index positions in the Output panel:
 var myFilters = fl.getDocumentDOM().getFilters(); var traceStr = "";
 for(i=0; i \< myFilters.length; i++){

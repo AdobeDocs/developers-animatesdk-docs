@@ -22,7 +22,7 @@ Method; deletes the current selection on the Stage. Displays an error message if
 
 #### Example
 
-```
+```javascript
 The following example deletes the current selection in the document:
 fl.getDocumentDOM().deleteSelection();
 

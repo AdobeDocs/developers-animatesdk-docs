@@ -14,7 +14,7 @@ Property; a Matrix object. A matrix has properties a, b, c, d, tx, and ty. The a
 
 #### Example
 
-```
+```javascript
 The following example moves the specified element by 10 pixels in *x* and 20 pixels in *y*:
 var mat = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].matrix; mat.tx += 10;
 mat.ty += 20; fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].matrix = mat;

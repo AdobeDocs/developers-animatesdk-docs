@@ -29,7 +29,7 @@ Method; retrieves the fill object of the selected shape or, if specified, of the
 
 #### Example
 
-```
+```javascript
 The following example gets the fill object of the selection and then changes the selection’s color to white:
 var fill = fl.getDocumentDOM().getCustomFill(); fill.color = '\#FFFFFF';
 fill.style = "solid"; fl.getDocumentDOM().setCustomFill(fill);

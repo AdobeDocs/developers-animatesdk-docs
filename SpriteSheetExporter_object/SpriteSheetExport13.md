@@ -15,7 +15,7 @@ SpriteSheetExporter.layoutFormat property supports stacking duplicate symbol fra
 
 #### Example
 
-```
+```javascript
 var exporter = new SpriteSheetExporter; alert(exporter.canStackDuplicateFrames);
 
 ```

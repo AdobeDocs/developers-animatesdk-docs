@@ -14,7 +14,7 @@ Property; An integer indicating the number of pixels of padding to add around ea
 
 #### Example
 
-```
+```javascript
 var exporter = new SpriteSheetExporter; exporter.borderPadding = 5;
 
 ```

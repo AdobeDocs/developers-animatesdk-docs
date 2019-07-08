@@ -15,7 +15,7 @@ Property; a string that specifies the type of Frame name. Acceptable values are 
 
 #### Example
 
-```
+```javascript
 The following example sets the name of the first frame in the top layer to "First Frame" and then sets its label to"comment":
 fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].name = 'First Frame'; fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].labelType = 'comment';
 

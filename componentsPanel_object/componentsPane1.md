@@ -22,7 +22,7 @@ Method; refreshes the Components panel’s list of components.
 
 #### Example
 
-```
+```javascript
 The following example refreshes the Components panel:
 fl.componentsPanel.reload();
 

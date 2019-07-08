@@ -23,7 +23,7 @@ Method; shows or hides a control.
 
 #### Example
 
-```
+```javascript
 The following example hides the control with the ID attribute myControl: fl.xmlui.setVisible("myControl", false);
 
 ```

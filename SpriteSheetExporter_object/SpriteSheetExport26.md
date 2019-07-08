@@ -15,7 +15,7 @@ SpriteSheetExporter.autoSize is set to true.
 
 #### Example
 
-```
+```javascript
 var exporter = new SpriteSheetExporter; exporter.sheetwidth = 512;
 
 ```

@@ -24,7 +24,7 @@ Function; called when Flash opens and the extensible tool is loaded into the Too
 
 #### Example
 
-```
+```javascript
 The following examples show two possible implementations of this function:
 function configureTool() { theTool = fl.tools.activeTool; theTool.setToolName("myTool"); theTool.setIcon("myTool.png");
 theTool.setMenuString("My Tool's menu string"); theTool.setToolTip("my tool's tool tip"); theTool.setOptionsFile( "mtTool.xml" );

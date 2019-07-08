@@ -23,7 +23,7 @@ Method; draws a line from the current drawing position to the point (*x,y*). You
 
 #### Example
 
-```
+```javascript
 The following example draws a line from the current drawing position to the point (20,30):
 fl.drawingLayer.lineTo(20, 30);
 

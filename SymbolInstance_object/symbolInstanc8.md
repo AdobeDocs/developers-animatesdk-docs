@@ -14,7 +14,7 @@ Property; an integer that is part of the color transformation for the instance, 
 
 #### Example
 
-```
+```javascript
 The following example subtracts 100 from the alpha setting of the selected symbol instance:
 fl.getDocumentDOM().selection\[0\].colorAlphaAmount = -100;
 

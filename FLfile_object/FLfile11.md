@@ -22,7 +22,7 @@ Method; returns the contents of the specified file as a string, or null if the r
 
 #### Examples
 
-```
+```javascript
 The following example reads the file mydata.txt and, if successful, displays an alert box with the contents of the file.
 var fileURI = "file:///c\|/temp/mydata.txt"; var str = FLfile.read( fileURI);
 if (str) {

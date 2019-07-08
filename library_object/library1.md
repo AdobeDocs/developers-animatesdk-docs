@@ -23,7 +23,7 @@ Method; creates a new item of the specified type in the Library panel and sets t
 
 #### Example
 
-```
+```javascript
 The following example creates a new button item named start in a new folder named folderTwo: fl.getDocumentDOM().library.addNewItem("button", "folderTwo/start");
 
 ```

@@ -14,7 +14,7 @@ Property; a floating-point value that specifies the (0,0) element in the transfo
 
 #### Example
 
-```
+```javascript
 The a and d properties in a matrix represent scaling. In the following example, the values are set to 2 and 3, respectively, to scale the selected object to two times its width and three times its height:
 var mat = fl.getDocumentDOM().selection\[0\].matrix; mat.a = 2;
 mat.d = 3; fl.getDocumentDOM().selection\[0\].matrix = mat;

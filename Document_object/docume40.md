@@ -18,7 +18,7 @@ Method; Invokes the Debug Movie command on the document.
 
 #### Example
 
-```
+```javascript
 The following example opens the current document in debug mode, but aborts the operation if compiler errors exist:
 fl.getDocumentDOM().debugMovie(1);
 

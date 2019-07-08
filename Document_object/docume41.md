@@ -22,7 +22,7 @@ Method; deletes the envelope (bounding box that contains one or more objects) fr
 
 #### Example
 
-```
+```javascript
 The following example deletes the envelope from the selected objects:
 fl.getDocumentDOM().deleteEnvelope();
 

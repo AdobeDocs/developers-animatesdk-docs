@@ -14,7 +14,7 @@ Read-only property; an integer that represents the width of the bitmap—that is
 
 #### Example
 
-```
+```javascript
 The following code retrieves the width of the bitmap in pixels:
 // Get the number of pixels in the horizontal dimension. var bmObj = fl.getDocumentDOM().selection\[0\];
 var isBitmap = bmObj.instanceType; if(isBitmap == "bitmap"){

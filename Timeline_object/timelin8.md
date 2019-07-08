@@ -23,7 +23,7 @@ To copy motion as text (code) that you can paste into a script, see [timeline.co
 
 #### Example
 
-```
+```javascript
 The following example copies the motion from the selected frame or frames:
 fl.getDocumentDOM().getTimeline().copyMotion();
 

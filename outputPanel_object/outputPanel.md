@@ -22,7 +22,7 @@ Method; clears the contents of the Output panel. You can use this method in a ba
 
 #### Example
 
-```
+```javascript
 The following example clears the current contents of the Output panel:
 fl.outputPanel.clear();
 

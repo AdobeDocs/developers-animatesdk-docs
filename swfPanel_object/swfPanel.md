@@ -23,7 +23,7 @@ methods to communicate with the SWF panel from the authoring environment.
 
 #### Example
 
-```
+```javascript
 The following example illustrates how to use ActionScript and JavaScript code to create a Window SWF panel and communicate with it from the authoring environment.
 
 1.  Create an ActionScript 3.0 FLA file, set its color to a medium gray, and set its size to 400 pixels wide and 250 pixels high.

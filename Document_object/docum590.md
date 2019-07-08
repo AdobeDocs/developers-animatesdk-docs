@@ -24,7 +24,7 @@ Method; specifies a value for a specified property of primitive Oval objects.
 
 #### Example
 
-```
+```javascript
 See individual properties in [Oval object](#_bookmark741) for examples.
 
 ```

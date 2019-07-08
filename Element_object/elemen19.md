@@ -38,7 +38,7 @@ This method moves the transformation point but does not move the element. By con
 
 #### Example
 
-```
+```javascript
 The following example sets the transformation point of the third element on the Stage to 100, 200:
 fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[2\].setTransformationPoint({x: 100, y:200});
 

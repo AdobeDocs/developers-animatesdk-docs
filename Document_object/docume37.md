@@ -22,7 +22,7 @@ Method; uses the top selected drawing object to crop all selected drawing object
 
 #### Example
 
-```
+```javascript
 The following example crops the currently selected objects:
 fl.getDocumentDOM().crop();
 

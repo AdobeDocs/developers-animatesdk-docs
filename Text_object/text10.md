@@ -25,7 +25,7 @@ Property; a string that specifies the rendering mode for the text. This property
 
 #### Example
 
-```
+```javascript
 The following example shows how you can use the customThicknessSharpness value to specify the sharpness and thickness of the text:
 fl.getDocumentDOM().setElementProperty("fontRenderingMode", "customThicknessSharpness"); fl.getDocumentDOM().setElementProperty("antiAliasSharpness", 400);
 fl.getDocumentDOM().setElementProperty("antiAliasThickness", -200);

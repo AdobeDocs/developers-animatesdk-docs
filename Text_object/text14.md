@@ -16,7 +16,7 @@ value works only for input text.
 
 #### Example
 
-```
+```javascript
 The following example sets the lineType property to the value multiline no wrap: fl.getDocumentDOM().selection\[0\].lineType = "multiline no wrap";
 
 ```

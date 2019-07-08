@@ -23,7 +23,7 @@ Method; distributes the selection.
 
 #### Example
 
-```
+```javascript
 The following example distributes the selected objects by their top edges:
 fl.getDocumentDOM().distribute("top edge");
 The following example distributes the selected objects by their top edges and expressly sets the *bUseDcoumentBounds*

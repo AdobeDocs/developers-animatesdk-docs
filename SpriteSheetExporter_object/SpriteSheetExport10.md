@@ -15,7 +15,7 @@ SpriteSheetExporter.layoutFormat property may rotate symbol frames when adding t
 
 #### Example
 
-```
+```javascript
 var exporter = new SpriteSheetExporter; alert(exporter.canRotate);
 
 ```

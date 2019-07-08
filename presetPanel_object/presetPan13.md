@@ -24,7 +24,7 @@ Method; selects or deselects an item in the Motion Presets panel, optionally rep
 
 #### Example
 
-```
+```javascript
 The following code adds the fly-in-blur-right preset to the currently selected presets (if any) in the Motion Presets panel:
 fl.presetPanel.selectItem("Default Presets/fly-in-blur-right", false);
 

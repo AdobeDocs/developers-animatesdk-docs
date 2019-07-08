@@ -15,7 +15,7 @@ Property; a string that represents the ActionScript for this instance; equivalen
 
 #### Example
 
-```
+```javascript
 The following code assigns ActionScript to specified elements:
 // Assign some ActionScript to a specified Button compiled clip instance. fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\]
 .actionScript = "on(click) {trace('button is clicked');}";

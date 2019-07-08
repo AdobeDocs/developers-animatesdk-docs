@@ -30,7 +30,7 @@ Method; renames the currently selected preset or folder to a specified name. Thi
 
 #### Example
 
-```
+```javascript
 The following example renames the currently selected preset in the Custom Presets folder to Bounce Faster.
 var renamed = fl.presetPanel.renameItem("Bounce Faster"); fl.trace(renamed);
 

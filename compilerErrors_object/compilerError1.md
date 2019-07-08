@@ -24,7 +24,7 @@ Method; saves the contents of the Compiler Errors panel to a local text file.
 
 #### Example
 
-```
+```javascript
 The following example saves the contents of the Compiler Errors panel to a file named errors.log in the C:\\tests folder:
 fl.compilerErrors.save("file:///c\|/tests/errors.log");
 

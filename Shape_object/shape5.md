@@ -23,7 +23,7 @@ Method; returns an array of points that define a cubic curve.
 
 #### Example
 
-```
+```javascript
 The following example displays the *x* and *y* values for each point on the cubic curve of the first edge of the selection:
 var elem = fl.getDocumentDOM().selection\[0\]; var index = elem.edges\[0\].cubicSegmentIndex;
 var cubicPoints = elem.getCubicSegmentPoints(index); for (i=0; i\<cubicPoints.length; i++) {

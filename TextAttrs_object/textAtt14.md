@@ -14,7 +14,7 @@ Property; a Boolean value. A value of true causes Flash to rotate the characters
 
 #### Example
 
-```
+```javascript
 The following example sets the rotation of the selected text field to true: fl.getDocumentDOM().setElementTextAttr("rotation", true);
 
 ```

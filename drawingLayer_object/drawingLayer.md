@@ -22,7 +22,7 @@ Method; puts Flash in drawing mode. Drawing mode is used for temporary drawing w
 
 #### Example
 
-```
+```javascript
 The following example puts Flash in drawing mode:
 fl.drawingLayer.beginDraw();
 

@@ -22,7 +22,7 @@ Method; converts a symbol item in the library to a compiled movie clip.
 
 #### Example
 
-```
+```javascript
 The following example converts an item in the library to a compiled movie clip:
 fl.getDocumentDOM().library.items\[3\].convertToCompiledClip();
 

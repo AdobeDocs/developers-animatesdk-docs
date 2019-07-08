@@ -23,7 +23,7 @@ This method returns correct file size values only for files that are less than o
 
 #### Example
 
-```
+```javascript
 The following example stores the size of the mydata.txt file in the fileSize variable:
 var URL = "file:///c\|/temp/mydata.txt"; var fileSize = FLfile.getSize(URL);
 

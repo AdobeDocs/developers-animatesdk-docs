@@ -14,7 +14,7 @@ Read-only property: a Boolean value of true if the file that was imported to the
 
 #### Example
 
-```
+```javascript
 Assuming that the first item in the Library is a video item, the following code displays "true" if the file that was imported into the Library still exists.
 var libItem = fl.getDocumentDOM().library.items\[0\]; fl.trace("sourceFileExists = "+ libItem.sourceFileExists);
 

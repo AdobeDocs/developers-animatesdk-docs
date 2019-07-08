@@ -22,7 +22,7 @@ Method; deletes the currently active profile, if there is more than one. There m
 
 #### Example
 
-```
+```javascript
 The following example deletes the currently active profile, if there is more than one, and displays the index of the new currently active profile:
 alert(fl.getDocumentDOM().deletePublishProfile());
 

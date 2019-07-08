@@ -23,7 +23,7 @@ Method; rotates the selection by a specified number of degrees. The effect is th
 
 #### Example
 
-```
+```javascript
 The following example rotates the selection by 45º around the transformation point:
 fl.getDocumentDOM().rotateSelection(45);
 The following example rotates the selection by 45º around the lower-left corner:

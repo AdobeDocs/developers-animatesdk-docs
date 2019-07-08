@@ -22,7 +22,7 @@ Method; returns an array that contains the list of filters applied to the curren
 
 #### Example
 
-```
+```javascript
 See [document.setFilters()](#_bookmark290).
 
 ```

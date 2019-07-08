@@ -23,7 +23,7 @@ Method; retrieves the value of the specified property of the current XMLUI dialo
 
 #### Example
 
-```
+```javascript
 The following example returns the value of a property named URL: fl.xmlui.get("URL");
 
 ```

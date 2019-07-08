@@ -23,7 +23,7 @@ To send a blank line, use outputPanel.trace("") or outputPanel.trace("\\n"). You
 
 #### Example
 
-```
+```javascript
 The following example displays several lines of text in the Output panel:
 fl.outputPanel.clear(); fl.outputPanel.trace("Hello World!!!"); var myPet = "cat";
 fl.outputPanel.trace("\\nI have a " + myPet); fl.outputPanel.trace(""); fl.outputPanel.trace("I love my " + myPet);

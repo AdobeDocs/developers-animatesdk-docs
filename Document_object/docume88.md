@@ -22,7 +22,7 @@ Method; retrieves the current [Timeline object](#_bookmark1030) in the document.
 
 #### Example
 
-```
+```javascript
 The following example gets the Timeline object and returns the number of frames in the longest layer:
 var longestLayer = fl.getDocumentDOM().getTimeline().frameCount; fl.trace("The longest layer has" + longestLayer + "frames");
 The following example enters edit-in-place mode for the selected symbol on the Stage and inserts a frame on the symbol’s timeline.

@@ -16,7 +16,7 @@ This property corresponds to the XML file in the Configuration/Font Embedding fo
 
 #### Example
 
-```
+```javascript
 The following example assumes that the first or only item in the current selection is a classic text object and sets the
 embedRanges property to "1\|3\|7":
 var doc = fl.getDocumentDOM(); doc.selection\[0\].embedRanges = "1\|3\|7";

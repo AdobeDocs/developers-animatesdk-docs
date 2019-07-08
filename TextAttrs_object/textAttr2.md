@@ -14,7 +14,7 @@ Property; a Boolean value that determines whether Flash uses (true) or ignores (
 
 #### Example
 
-```
+```javascript
 The following example selects the characters from index 2 up to, but not including, index 6 and sets the autoKern
 property to true:
 fl.getDocumentDOM().setTextSelection(3, 6); fl.getDocumentDOM().setElementTextAttr('autoKern', true);

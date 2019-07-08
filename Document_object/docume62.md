@@ -23,7 +23,7 @@ Method; Exports a selected instance of a movie clip, graphic, or button symbol o
 
 #### Example
 
-```
+```javascript
 The following example exports the selected item on frame 1 to the library and assigns the new bitmap the name "myTestBitmap":
 fl.getDocumentDOM().exportInstanceToLibrary(1, "myTestBitmap");
 

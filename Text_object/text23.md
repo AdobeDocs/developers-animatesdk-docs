@@ -24,7 +24,7 @@ Property; changes the text string within this Text object. If you omit the optio
 
 #### Example
 
-```
+```javascript
 The following example assigns the string this is a string to the selected text field:
 fl.getDocumentDOM().selection\[0\].setTextString("this is a string");
 The following example inserts the string abc beginning at the fifth character of the selected text field:

@@ -29,7 +29,7 @@ To add objects to the array, you must first select them in one of the following 
 
 #### Example
 
-```
+```javascript
 The following example assigns all elements on Frame 11 to the current selection (remember that index values are different from frame number values):
 fl.getDocumentDOM().getTimeline().currentFrame = 10; fl.getDocumentDOM().selection = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[10\].elements;
 The following example creates a rectangle in the upper left corner of the Stage and a text string underneath the rectangle. Then it selects both objects using [document.setSelectionRect()](#_bookmark305) and adds them to the document.selection array. Finally, it displays the contents of document.selection in the Output panel.

@@ -22,7 +22,7 @@ Method; closes the specified document.
 
 #### Example
 
-```
+```javascript
 The following example closes the current document and prompts the user with a dialog box to save changes:
 fl.getDocumentDOM().close();
 The following example closes the current document without saving changes:

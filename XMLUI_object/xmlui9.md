@@ -23,7 +23,7 @@ Method; enables or disables (dims) a control.
 
 #### Example
 
-```
+```javascript
 The following example dims the control with the ID attribute myControl: fl.xmlui.setEnabled("myControl", false);
 
 ```

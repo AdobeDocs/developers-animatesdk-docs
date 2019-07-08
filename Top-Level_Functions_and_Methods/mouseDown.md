@@ -24,7 +24,7 @@ Function; called when the extensible tool is active and the mouse button is pres
 
 #### Example
 
-```
+```javascript
 The following examples show how this function can be used when the extensible tool is active. The first example displays a message in the Output panel that the mouse button was pressed. The second example displays the *x* and *y* coordinates of the mouse’s location when the button was pressed.
 function mouseDown() {
 fl.trace("Mouse button has been pressed");

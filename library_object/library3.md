@@ -22,7 +22,7 @@ Method; makes a copy of the currently selected or specified item. The new item h
 
 #### Example
 
-```
+```javascript
 The following example creates a copy of the item square in the library folder test: fl.getDocumentDOM().library.duplicateItem("test/square");
 
 ```

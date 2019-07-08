@@ -23,7 +23,7 @@ Method; exports the specified item to a PNG or JPG file.
 
 #### Example
 
-```
+```javascript
 Assuming the first item in the Library is a bitmap item, the following code exports it as a JPG file:
 var imageFileURL = "file:///C\|/exportTest/out.jpg"; var libItem = fl.getDocumentDOM().library.items\[0\]; libItem.exportToFile(imageFileURL);
 

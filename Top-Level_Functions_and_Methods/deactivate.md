@@ -24,7 +24,7 @@ Function; called when the extensible tool becomes inactive (that is, when the ac
 
 #### Example
 
-```
+```javascript
 The following example displays a message in the Output panel when the tool becomes inactive:
 function deactivate() {
 fl.trace( "Tool is no longer active" );

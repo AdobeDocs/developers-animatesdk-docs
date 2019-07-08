@@ -14,7 +14,7 @@ Property; a Boolean value that specifies whether Live Preview is enabled. If set
 
 #### Example
 
-```
+```javascript
 The following example sets Live Preview to false: fl.getDocumentDOM().livePreview = false;
 
 ```

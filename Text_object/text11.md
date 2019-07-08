@@ -24,7 +24,7 @@ Method; retrieves the attribute specified by the *attrName* parameter for the te
 
 #### Example
 
-```
+```javascript
 The following example gets the font size of the currently selected text field and shows it:
 var TheTextSize = fl.getDocumentDOM().selection\[0\].getTextAttr("size"); fl.trace(TheTextSize);
 The following example gets the text fill color of the selected text field:

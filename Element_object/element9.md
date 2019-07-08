@@ -15,7 +15,7 @@ Property; a Boolean value: true if the element is locked; false otherwise. If th
 
 #### Example
 
-```
+```javascript
 The following example locks the first element in the first frame, top layer:
 // Similar to Modify \Arrange \Lock: fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].locked = true;
 

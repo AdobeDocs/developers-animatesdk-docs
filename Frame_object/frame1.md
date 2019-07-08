@@ -14,7 +14,7 @@ Method; Converts the selected motion object to a 3D motion object.
 
 #### Example
 
-```
+```javascript
 The following example converts the selected motion object to a 3D motion object:
 var doc = fl.getDocumentDOM();
 v a r my\_tl = doc.getTimeline(); this.getCurrentF r ame = functi on() {

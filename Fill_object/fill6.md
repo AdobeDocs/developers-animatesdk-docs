@@ -14,7 +14,7 @@ Property; a [Matrix object](#_bookmark725) that defines the placement, orientati
 
 #### Example
 
-```
+```javascript
 The following example uses the fill.matrix property to specify a gradient fill for the current selection:
 var fill = fl.getDocumentDOM().getCustomFill(); fill.style = 'radialGradient';
 fill.colorArray = \['\#00ff00','\#ff00ff'\]; fill.posArray = \[0, 255\];

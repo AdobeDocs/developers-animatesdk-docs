@@ -14,7 +14,7 @@ Read-only property; A string indicating the name of the application that is gene
 
 #### Example
 
-```
+```javascript
 var exporter = new SpriteSheetExporter; alert(exporter.app);
 // "Flash Pro CS6"
 

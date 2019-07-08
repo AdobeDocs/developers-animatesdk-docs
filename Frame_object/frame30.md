@@ -14,7 +14,7 @@ Property; a string that specifies effects for a sound that is attached directly 
 
 #### Example
 
-```
+```javascript
 The following example specifies that the sound attached to the first frame should fade in:
 fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].soundEffect = "fade in";
 

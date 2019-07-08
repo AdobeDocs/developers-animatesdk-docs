@@ -23,7 +23,7 @@ Method; sets the current drawing position. You typically use this method only wh
 
 #### Example
 
-```
+```javascript
 The following example sets the current drawing position at the point (10,15):
 fl.drawingLayer.moveTo(10, 15);
 

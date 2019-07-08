@@ -22,7 +22,7 @@ Method; retrieves the value of the specified data. The type returned depends on 
 
 #### Example
 
-```
+```javascript
 The following example adds an integer value of 12 to the current document and uses this method to display the value in the Output panel:
 fl.getDocumentDOM().addDataToDocument("myData", "integer", 12); fl.trace(fl.getDocumentDOM().getDataFromDocument("myData"));
 

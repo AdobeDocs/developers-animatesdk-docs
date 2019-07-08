@@ -22,7 +22,7 @@ Method; draws a cubic curve from the current pen location using the parameters a
 
 #### Example
 
-```
+```javascript
 The following example draws a cubic curve using the specified control points:
 fl.drawingLayer.cubicCurveTo(0, 0, 1, 1, 2, 0);
 

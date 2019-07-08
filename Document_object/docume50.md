@@ -22,7 +22,7 @@ Method; performs a distribute-to-keyframes operation on the current selection—
 
 #### Example
 
-```
+```javascript
 The following example distributes the current selection to keyframes:
 if(fl.getDocumentDOM().canDistributeToKeyframes()) fl.getDocumentDOM().distributeToKeyframes();
 

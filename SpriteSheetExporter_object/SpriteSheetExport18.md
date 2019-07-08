@@ -14,7 +14,7 @@ Property; A string value indicating the format of the sprite sheet metadata. Val
 
 #### Example
 
-```
+```javascript
 var exporter = new SpriteSheetExporter; exporter.layoutFormat = "JSON";
 
 ```

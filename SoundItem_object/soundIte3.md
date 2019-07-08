@@ -15,7 +15,7 @@ If you want to specify a value for this property, set [soundItem.useImportedMP3Q
 
 #### Example
 
-```
+```javascript
 The following example converts an item in the library to mono only if the item has the MP3 or Raw compression type:
 fl.getDocumentDOM().library.items\[0\].convertStereoToMono = true;
 

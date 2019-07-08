@@ -14,7 +14,7 @@ Read-only property; a string that specifies whether the specified item was impor
 
 #### Example
 
-```
+```javascript
 Assuming that the first item in the Library is a bitmap item, the following code displays "photo" if the file was imported into the Library as a jpeg file, or "lossless" if is was not:
 var libItem = fl.getDocumentDOM().library.items\[0\];
 fl.trace("Imported compression type = "+ libItem.originalCompressionType);

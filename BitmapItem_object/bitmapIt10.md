@@ -14,7 +14,7 @@ Read-only property; a Boolean value of true if the file modification date of the
 
 #### Example
 
-```
+```javascript
 Assuming the first item in the Library is a bitmap item, the following code displays "true" if the file that was imported has not been modified on disk since it was imported:
 var libItem = fl.getDocumentDOM().library.items\[0\]; fl.trace("fileIsCurrent = "+ libItem.sourceFileIsCurrent);
 

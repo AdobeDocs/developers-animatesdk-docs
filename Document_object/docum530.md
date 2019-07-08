@@ -22,7 +22,7 @@ Method; applies filters to the selected objects. Use this method after calling d
 
 #### Example
 
-```
+```javascript
 The following example gets the filters on the selected object and sets the blurX property for all Blur filters to 50:
 var myFilters = fl.getDocumentDOM().getFilters(); for (i=0; i \< myFilters.length; i++) {
 if (myFilters\[i\].name == "blurFilter"){ myFilters\[i\].blurX = 50;

@@ -23,7 +23,7 @@ Method; adds a new path between two points. The method uses the document’s cur
 
 #### Example
 
-```
+```javascript
 The following example adds a line between the specified starting point and ending point:
 fl.getDocumentDOM().addNewLine({x:216.7, y:122.3}, {x:366.8, y:165.8});
 

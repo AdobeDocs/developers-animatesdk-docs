@@ -22,7 +22,7 @@ Method; copies the current selection from the document to the Clipboard. To copy
 
 #### Example
 
-```
+```javascript
 The following example copies the current selection from the document to the Clipboard:
 fl.getDocumentDOM().clipCopy();
 

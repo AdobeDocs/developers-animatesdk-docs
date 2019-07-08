@@ -19,7 +19,7 @@ Method; sets the duration (the tween span length) of the currently selected moti
 
 #### Example
 
-```
+```javascript
 The following example specifies a duration of 11 frames for the selected motion object.
 var doc = fl.getDocumentDOM(); var my\_tl = doc.getTimeline();
 this.getCurrentFrame = function(){

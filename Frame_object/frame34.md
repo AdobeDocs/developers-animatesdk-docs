@@ -14,7 +14,7 @@ Property; a string that specifies the name of a sound that is attached directly 
 
 #### Example
 
-```
+```javascript
 The following example changes the soundName property of the first frame to "song1.mp3"; song1.mp3 must exist in the library:
 fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].soundName = "song1.mp3";
 

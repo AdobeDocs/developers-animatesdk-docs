@@ -25,7 +25,7 @@ Method; sets a specified filter property for the currently selected objects (ass
 
 #### Example
 
-```
+```javascript
 The following example sets the quality property to 2 for the second filter (index value of 1) in the Filters list of the selected objects and then sets the shadowColor property of the first filter in the Filters list on the selected objects:
 fl.getDocumentDOM().setFilterProperty("quality", 1, 2);
 fl.getDocumentDOM().setFilterProperty("shadowColor", 0, "\#FF00FF");

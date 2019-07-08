@@ -23,7 +23,7 @@ Method; adds an item from any open document or library to the specified Document
 
 #### Example
 
-```
+```javascript
 The following example adds the first item from the library to the first document at the specified location for the selected symbol, bitmap, or video:
 var item = fl.documents\[0\].library.items\[0\]; fl.documents\[0\].addItem({x:0,y:0}, item);
 The following example adds the symbol myMovieClip from the current document’s library to the current document:

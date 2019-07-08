@@ -14,7 +14,7 @@ Read-only property; a string that indicates the modification date of the symbol 
 
 #### Example
 
-```
+```javascript
 The following example returns the hexidecimal modification date of the first symbol in the Library:
 var item = fl.getDocumentDOM().library.items\[0\];
 fl.trace("name: " + item.name + ", date: " + item.lastModifiedDate);

@@ -14,7 +14,7 @@ Read-only property; if true, the shape is a drawing object.
 
 #### Example
 
-```
+```javascript
 The following example stores the first selected object in the sel variable and then uses the [element.elementType](#_bookmark378) and
 shape.isDrawingObject properties to determine if the selected item is a drawing object:
 var sel = fl.getDocumentDOM().selection\[0\];

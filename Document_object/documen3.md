@@ -22,7 +22,7 @@ Method; applies a filter to the selected objects and places the filter at the en
 
 #### Example
 
-```
+```javascript
 The following example applies a glow filter to the selected objects:
 fl.getDocumentDOM().addFilter("glowFilter");
 

@@ -22,7 +22,7 @@ Method; adds a new scene ([Timeline object](#_bookmark1030)) as the next scene a
 
 #### Example
 
-```
+```javascript
 The following example adds a new scene named myScene after the current scene in the current document. The variable
 success will be true when the new scene is created; false otherwise.
 var success = fl.getDocumentDOM().addNewScene("myScene");

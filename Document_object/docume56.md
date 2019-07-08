@@ -22,7 +22,7 @@ Method; duplicates the selection on the Stage.
 
 #### Example
 
-```
+```javascript
 The following example duplicates the current selection, which is similar to Alt-clicking and then dragging an item:
 fl.getDocumentDOM().duplicateSelection();
 

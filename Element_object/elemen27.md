@@ -14,7 +14,7 @@ Property; a float value that specifies the *y* value of the selected element’s
 
 #### Example
 
-```
+```javascript
 See [element.x](#_bookmark409)
 
 ```

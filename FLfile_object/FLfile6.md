@@ -22,7 +22,7 @@ Method; specifies how many seconds have passed between January 1, 1970 and the t
 
 #### Example
 
-```
+```javascript
 The following example compares the modification dates of two files and determines which of the two was modified more recently:
 // Make sure the specified files exist.
 file1 = "file:///C\|/MyApplication/MyApp.fla"; file2 = "file:///C\|/MyApplication/MyApp.as";

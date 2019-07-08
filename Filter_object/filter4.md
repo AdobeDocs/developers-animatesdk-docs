@@ -23,7 +23,7 @@ This property is defined for Filter objects with a value of "dropShadowFilter" o
 
 #### Example
 
-```
+```javascript
 The following example sets the color to "\#ff00003e" for the Drop Shadow filters on the selected object(s):
 var myFilters = fl.getDocumentDOM().getFilters(); for(i=0; i \< myFilters.length; i++){
 if(myFilters\[i\].name == 'dropShadowFilter'){ myFilters\[i\].color = '\#ff00003e';

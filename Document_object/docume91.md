@@ -14,7 +14,7 @@ Property; an integer that specifies the height of the document (Stage) in pixels
 
 #### Example
 
-```
+```javascript
 The following example sets the height of the Stage to 400 pixels:
 fl.getDocumentDOM().height = 400;
 

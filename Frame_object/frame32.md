@@ -14,7 +14,7 @@ Property; an integer value that specifies the number of times a sound that is at
 
 #### Example
 
-```
+```javascript
 See [frame.soundLoopMode](#frame.soundLoopMode).
 
 <span id="frame.soundLoopMode" class="anchor"></span

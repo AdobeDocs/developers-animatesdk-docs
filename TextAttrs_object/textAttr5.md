@@ -14,7 +14,7 @@ Property; an integer that represents the space between characters. Acceptable va
 
 #### Example
 
-```
+```javascript
 The following example sets the character spacing of the selected text field to 10:
 fl.getDocumentDOM().setElementTextAttr("characterSpacing", 10);
 

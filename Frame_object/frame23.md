@@ -14,7 +14,7 @@ Method; a Boolean value. Selects (true) or deselects (false) the motion path of 
 
 #### Example
 
-```
+```javascript
 The example selects or deselects the motion path of the current motion object.
 var doc = fl.getDocumentDOM(); var my\_tl = doc.getTimeline();
 t his.getCurrentFrame = function(){

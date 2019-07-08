@@ -14,7 +14,7 @@ Read-only property: a string containing a hexadecimal number that represents the
 
 #### Example
 
-```
+```javascript
 Assuming that the first item in the Library is a video item, the following code displays a hexadecimal number as described above.
 var libItem = fl.getDocumentDOM().library.items\[0\];
 fl.trace("Mod date when imported = " + libItem.fileLastModifiedDate);

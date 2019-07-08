@@ -14,7 +14,7 @@ Read-only property; the value is true if the contour encloses an area; false oth
 
 #### Example
 
-```
+```javascript
 This example traverses all the contours of the selected shape and shows the value of the interior property for each contour in the Output panel:
 var elt = fl.getDocumentDOM().selection\[0\]; elt.beginEdit();
 var contourArray = elt.contours; var contourCount = 0;

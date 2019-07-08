@@ -24,7 +24,7 @@ Method; cuts a range of frames on the current layer from the timeline and saves 
 
 #### Example
 
-```
+```javascript
 The following example cuts the selected frames from the timeline and saves them to the clipboard:
 fl.getDocumentDOM().getTimeline().cutFrames();
 The following example cuts Frame 2 up to, but not including, Frame 10 from the timeline and saves them to the clipboard (remember that index values are different from frame number values):

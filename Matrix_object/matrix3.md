@@ -14,7 +14,7 @@ Property; a floating-point value that specifies the (1,1) element in the matrix.
 
 #### Example
 
-```
+```javascript
 See the [matrix.a](#_bookmark727) example.
 
 ```

@@ -22,7 +22,7 @@ Method; renames the currently selected library item in the Library panel.
 
 #### Example
 
-```
+```javascript
 The following example renames the currently selected library item to new name: fl.getDocumentDOM().library.renameItem("new name");
 
 ```

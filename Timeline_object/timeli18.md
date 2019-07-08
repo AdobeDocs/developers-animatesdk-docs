@@ -24,7 +24,7 @@ Method; expands or collapses the specified folder or folders. If you do not spec
 
 #### Example
 
-```
+```javascript
 The following examples use this folder structure:
 Folder 1 \*\*\*
 --layer 7

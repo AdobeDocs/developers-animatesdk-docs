@@ -22,7 +22,7 @@ Method; gets the type of object currently selected or specified by a library pat
 
 #### Example
 
-```
+```javascript
 The following example shows a dialog box that contains the item type of Symbol\_1 located in the Folder\_1/Folder\_2
 folder:
 alert(fl.getDocumentDOM().library.getItemType("Folder\_1/Folder\_2/Symbol\_1"));

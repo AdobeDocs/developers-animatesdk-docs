@@ -14,7 +14,7 @@ Property; a Boolean value that specifies whether 9-slice scaling is enabled for 
 
 #### Example
 
-```
+```javascript
 The following example enables 9-slice scaling for an item in the library:
 fl.getDocumentDOM().library.items\[0\].scalingGrid = true;
 

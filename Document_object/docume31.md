@@ -22,7 +22,7 @@ Method; cuts the current selection from the document and writes it to the Clipbo
 
 #### Example
 
-```
+```javascript
 The following example cuts the current selection from the document and writes it to the Clipboard:
 fl.getDocumentDOM().clipCut();
 

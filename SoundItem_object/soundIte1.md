@@ -15,7 +15,7 @@ If you want to specify a value for this property, set [soundItem.useImportedMP3Q
 
 #### Example
 
-```
+```javascript
 The following example displays the bits value in the Output panel if the currently selected item in the library has the ADPCM compression type:
 alert(fl.getDocumentDOM().library.items\[0\].bits);
 

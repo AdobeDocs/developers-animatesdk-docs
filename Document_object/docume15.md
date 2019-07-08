@@ -22,7 +22,7 @@ Method; arranges the selection on the Stage. This method applies only to non-sha
 
 #### Example
 
-```
+```javascript
 The following example moves the current selection to the front:
 fl.getDocumentDOM().arrange("front");
 

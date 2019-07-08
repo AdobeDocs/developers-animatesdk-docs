@@ -22,7 +22,7 @@ Method; deletes the specified file or folder. If the folder contains files, thos
 
 #### Examples
 
-```
+```javascript
 The following example warns a user if a file exists and then deletes it if the user chooses to do so:
 var fileURI = prompt ("Enter file/folder to be deleted: ", "file:///c\|/temp/delete.txt"); if (FLfile.exists(fileURI)) {
 var confirm = prompt("File exists. Delete it? (y/n)", "y"); if (confirm == "y" \|\| confirm == "Y") {

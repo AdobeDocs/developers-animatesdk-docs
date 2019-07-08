@@ -25,7 +25,7 @@ Method; Enables or disables publishing of persistent data for a specified format
 
 #### Example
 
-```
+```javascript
 The following example illustrates the use of this method:
 var doc = fl.getDocumentDOM();
 // set the data if (doc) {

@@ -22,7 +22,7 @@ Method; updates the specified item.
 
 #### Example
 
-```
+```javascript
 The following example displays a dialog box that shows whether the currently selected item is updated (true) or not (false):
 alert(fl.getDocumentDOM().library.updateItem());
 

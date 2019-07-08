@@ -22,7 +22,7 @@ Method; opens the currently selected or specified item in Edit mode.
 
 #### Example
 
-```
+```javascript
 The following example opens the item circle in the test folder of the library for editing:
 fl.getDocumentDOM().library.editItem("test/circle");
 

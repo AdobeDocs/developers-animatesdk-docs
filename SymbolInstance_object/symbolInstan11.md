@@ -14,7 +14,7 @@ Property; an integer that is part of the color transformation for the instance. 
 
 #### Example
 
-```
+```javascript
 The following example sets the colorBluePercent of the selected symbol instance to 80:
 fl.getDocumentDOM().selection\[0\].colorBluePercent = 80;
 

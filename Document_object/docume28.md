@@ -22,7 +22,7 @@ Method; determines whether you can use the [document.testScene()](#_bookmark329)
 
 #### Example
 
-```
+```javascript
 The following example first tests whether fl.getDocumentDOM().testScene() can be used successfully. If so, it calls the method.
 if(fl.getDocumentDOM().canTestScene()){ fl.getDocumentDOM().testScene();
 }

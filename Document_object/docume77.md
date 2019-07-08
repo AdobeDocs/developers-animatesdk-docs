@@ -22,7 +22,7 @@ Method; gets the specified Element property for the current selection. For a lis
 
 #### Example
 
-```
+```javascript
 The following example gets the name of the Element property for the current selection:
 // elementName = the instance name of the selected object.
 var elementName = fl.getDocumentDOM().getElementProperty("name");

@@ -24,7 +24,7 @@ Method; expands or collapses the currently selected folder or folders in the Mot
 
 #### Example
 
-```
+```javascript
 The following example expands the Custom Presets folder but does not expand its subfolders:
 fl.presetPanel.expandFolder(true, false, "Custom Presets");
 The following example expands the Custom Presets folder and all its subfolders:

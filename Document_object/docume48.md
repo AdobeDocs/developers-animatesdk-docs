@@ -22,7 +22,7 @@ Method; disables all filters except the one at the specified position in the Fil
 
 #### Example
 
-```
+```javascript
 The following example disables all filters except the second filter in the list (index value of 1):
 fl.getDocumentDom().disableOtherFilters(1);
 

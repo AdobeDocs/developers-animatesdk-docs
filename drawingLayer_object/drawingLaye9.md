@@ -22,7 +22,7 @@ Method; returns a new Path object. You typically use this method only when creat
 
 #### Example
 
-```
+```javascript
 The following example returns a new Path object:
 fl.drawingLayer.newPath();
 

@@ -22,7 +22,7 @@ Method; selects all items on the Stage. This method is equivalent to pressing Co
 
 #### Example
 
-```
+```javascript
 The following example selects everything that is currently visible to the user:
 fl.getDocumentDOM().selectAll();
 

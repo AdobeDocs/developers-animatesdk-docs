@@ -14,7 +14,7 @@ Read-only property: a string that represents the name of the preset or folder, w
 
 #### Example
 
-```
+```javascript
 See [presetItem.path](#_bookmark777).
 
 ```

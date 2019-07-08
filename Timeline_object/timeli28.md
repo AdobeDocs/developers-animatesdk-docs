@@ -36,7 +36,7 @@ If the specified or selected frame is a regular frame, the frame is inserted at 
 
 #### Example
 
-```
+```javascript
 The following example inserts a frame (or frames, depending on the selection) at the current selection in the current layer:
 fl.getDocumentDOM().getTimeline().insertFrames();
 The following example inserts five frames at the current frame in all layers:
