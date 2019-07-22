@@ -2346,6 +2346,27 @@
         ],
           "title": "Layer Object"
         },
+		{
+            "pages": [
+            {
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_Parenting_Object/layerParenting_summary.md",
+             "title": "Working with the JavaScript API"
+            },
+            {
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_Parenting_Object/layerParenting1.md",
+             "title": "What’s new in the JavaScript API"
+            },
+            {
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_Parenting_Object/layerParenting2.md",
+             "title": "JavaScript API objects"
+            },
+            {
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_Parenting_Object/layerParenting3.md",
+             "title": "Sample implementations"
+            }           
+        ],
+          "title": "Layer Parenting Object"
+        },
         {
         "pages": [
         {
