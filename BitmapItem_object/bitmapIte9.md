@@ -21,6 +21,6 @@ var libItem = fl.getDocumentDOM().library.items\[0\]; fl.trace("sourceFileExists
 ```
 #### See also
 
-[bitmapItem.sourceFileIsCurrent](#bitmapItem.sourceFileIsCurrent), [bitmapItem.sourceFilePath](#_bookmark62)
+[bitmapItem.sourceFileIsCurrent](#!AdobeDocs/developers-animatesdk-docs/master/BitmapItem_object/bitmapIt10.md), [bitmapItem.sourceFilePath](#!AdobeDocs/developers-animatesdk-docs/master/BitmapItem_object/bitmapIt11.md)
 
 <span id="bitmapItem.sourceFileIsCurrent" class="anchor"></span>

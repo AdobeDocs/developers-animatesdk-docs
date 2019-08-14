@@ -29,4 +29,4 @@ fl.clearPublishCache()
 ```
 #### See also
 
-[fl.publishCacheDiskSizeMax](#_bookmark515), [fl.publishCacheEnabled](#_bookmark516), [fl.publishCacheMemoryEntrySizeLimit](#_bookmark517), [fl.publishCacheMemorySizeMax](#_bookmark518)
+[fl.publishCacheDiskSizeMax](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl50.md), [fl.publishCacheEnabled](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl51.md), [fl.publishCacheMemoryEntrySizeLimit](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl52.md), [fl.publishCacheMemorySizeMax](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl53.md)

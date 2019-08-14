@@ -21,4 +21,4 @@ var tempPt = fl.tools.penLoc;
 ```
 #### See also
 
-[tools.penDownLoc](#_bookmark1114)
+[tools.penDownLoc](#!AdobeDocs/developers-animatesdk-docs/master/Tools_object/tools6.md)

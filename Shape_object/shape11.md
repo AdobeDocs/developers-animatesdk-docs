@@ -25,4 +25,4 @@ fl.trace(shapesArray\[i\].numCubicSegments);
 ```
 #### See also
 
-[shape.isGroup](#_bookmark818)
+[shape.isGroup](#!AdobeDocs/developers-animatesdk-docs/master/Shape_object/shape8.md)

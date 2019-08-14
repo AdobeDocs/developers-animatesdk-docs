@@ -1,6 +1,6 @@
 ## instance summary
 
-**Inheritance** [Element object](#_bookmark374) \Instance object
+**Inheritance** [Element object](#!AdobeDocs/developers-animatesdk-docs/master/Element_object/element_summary.md) \Instance object
 
 #### Availability
 
@@ -8,7 +8,7 @@ Flash MX 2004.
 
 #### Description
 
-Instance is a subclass of the [Element object](#_bookmark374).
+Instance is a subclass of the [Element object](#!AdobeDocs/developers-animatesdk-docs/master/Element_object/element_summary.md).
 
 #### Property summary
 
@@ -16,8 +16,8 @@ In addition to all of the Element object properties, Instance has the following 
 
 | **Property**                                    | **Description**                                           |
 |-------------------------------------------------|-----------------------------------------------------------|
-| [instance.instanceType](#instance.instanceType) | Read-only; a string that represents the type of instance. |
-| [instance.libraryItem](#_bookmark656)           | Library item used to instantiate this instance.           |
+| [instance.instanceType](#!AdobeDocs/developers-animatesdk-docs/master/Instance_object/instance.md) | Read-only; a string that represents the type of instance. |
+| [instance.libraryItem](#!AdobeDocs/developers-animatesdk-docs/master/Instance_object/instanc1.md)           | Library item used to instantiate this instance.           |
 
 <span id="instance.instanceType" class="anchor"></span>
 

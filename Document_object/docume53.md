@@ -28,4 +28,4 @@ The following example checks the document for persistent data with the name "myD
 ```
 #### See also
 
-[document.addDataToDocument()](#_bookmark119), [document.getDataFromDocument()](#_bookmark204), [document.removeDataFromDocument()](#_bookmark253)
+[document.addDataToDocument()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/documen1.md), [document.getDataFromDocument()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume76.md), [document.removeDataFromDocument()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum250.md)

@@ -18,7 +18,7 @@ A Boolean value of true if successful; false otherwise.
 
 #### Description
 
-Method; determines whether a specified file exists. If you specify a folder and a filename, the folder must already exist. To create folders, see [FLfile.createFolder()](#_bookmark562).
+Method; determines whether a specified file exists. If you specify a folder and a filename, the folder must already exist. To create folders, see [FLfile.createFolder()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile1.md).
 
 #### Examples
 
@@ -38,4 +38,4 @@ FLfile.write(configFile,"");
 ```
 #### See also
 
-[FLfile.write()](#_bookmark577)
+[FLfile.write()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile15.md)

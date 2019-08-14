@@ -11,7 +11,7 @@ document.asVersion
 #### Description
 
 Property; an integer that specifies which version of ActionScript is being used in the specified document. Acceptable values are 1, 2, and 3.
-To determine the targeted player version for the specified document, use [document.getPlayerVersion()](#_bookmark211); this method returns a string, so it can be used by Flash® Lite™ players.
+To determine the targeted player version for the specified document, use [document.getPlayerVersion()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume82.md); this method returns a string, so it can be used by Flash® Lite™ players.
 
 #### Example
 
@@ -24,4 +24,4 @@ fl.getDocumentDOM().asVersion = 2;
 ```
 #### See also
 
-[document.as3Dialect](#_bookmark136), [document.getPlayerVersion()](#_bookmark211)
+[document.as3Dialect](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume17.md), [document.getPlayerVersion()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume82.md)

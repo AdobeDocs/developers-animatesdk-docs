@@ -22,6 +22,6 @@ fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].y= 200;
 ```
 #### See also
 
-[element.y](#element.y)
+[element.y](#!AdobeDocs/developers-animatesdk-docs/master/Element_object/elemen27.md)
 
 <span id="element.y" class="anchor"></span>

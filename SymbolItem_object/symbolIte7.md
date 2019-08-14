@@ -10,7 +10,7 @@ symbolItem.scalingGridRect
 
 #### Description
 
-Property; a Rectangle object that specifies the locations of the four 9-slice guides. For information on the format of the rectangle, see [document.addNewRectangle()](#_bookmark129).
+Property; a Rectangle object that specifies the locations of the four 9-slice guides. For information on the format of the rectangle, see [document.addNewRectangle()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume10.md).
 
 #### Example
 
@@ -21,4 +21,4 @@ fl.getDocumentDOM().library.items\[0\].scalingGridRect = {left:338, top:237, rig
 ```
 #### See also
 
-[symbolItem.scalingGrid](#_bookmark958)
+[symbolItem.scalingGrid](#!AdobeDocs/developers-animatesdk-docs/master/SymbolItem_object/symbolIte6.md)

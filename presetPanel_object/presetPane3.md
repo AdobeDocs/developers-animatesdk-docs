@@ -30,4 +30,4 @@ fl.presetPanel.deleteItem("Custom Presets/aDribble");
 ```
 #### See also
 
-[presetPanel.deleteFolder()](#_bookmark783)
+[presetPanel.deleteFolder()](#!AdobeDocs/developers-animatesdk-docs/master/presetPanel_object/presetPane2.md)

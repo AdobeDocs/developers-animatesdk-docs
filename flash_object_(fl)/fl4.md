@@ -29,4 +29,4 @@ var folderURI = fl.browseForFolderURL("Select a folder."); var folderContents = 
 ```
 #### See also
 
-[fl.browseForFileURL()](#_bookmark453), [FLfile object](#_bookmark559)
+[fl.browseForFileURL()](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl3.md), [FLfile object](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile_summary.md)

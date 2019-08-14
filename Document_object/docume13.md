@@ -30,4 +30,4 @@ fl.getDocumentDOM().align("left", true);
 ```
 #### See also
 
-[document.distribute()](#_bookmark173), [document.getAlignToDocument()](#_bookmark198), [document.setAlignToDocument()](#_bookmark277)
+[document.distribute()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume49.md), [document.getAlignToDocument()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume72.md), [document.setAlignToDocument()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum450.md)

@@ -29,4 +29,4 @@ fl.getDocumentDOM().selectNone();
 ```
 #### See also
 
-[document.selectAll()](#_bookmark273), [document.selection](#_bookmark274)
+[document.selectAll()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum420.md), [document.selection](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum430.md)

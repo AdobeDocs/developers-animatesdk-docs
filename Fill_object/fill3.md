@@ -11,7 +11,7 @@ fill.colorArray
 #### Description
 
 Property; an array of colors in the gradient, expressed as integers. This property is available only if the value of the
-fill.style property is either "radialGradient" or "linearGradient". See [fill.style](#_bookmark423)
+fill.style property is either "radialGradient" or "linearGradient". See [fill.style](#!AdobeDocs/developers-animatesdk-docs/master/Fill_object/fill9.md)
 
 #### Example
 

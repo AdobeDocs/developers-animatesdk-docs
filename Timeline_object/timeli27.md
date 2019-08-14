@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; inserts a blank keyframe at the specified frame index; if the index is not specified, the method inserts the blank keyframe by using the playhead/selection. See also [timeline.insertKeyframe()](#_bookmark1063).
+Method; inserts a blank keyframe at the specified frame index; if the index is not specified, the method inserts the blank keyframe by using the playhead/selection. See also [timeline.insertKeyframe()](#!AdobeDocs/developers-animatesdk-docs/master/Timeline_object/timeli29.md).
 
 #### Example
 

@@ -35,4 +35,4 @@ fl.getDocumentDOM().mouseDblClk({x:392.9, y:73}, false, false, true);
 ```
 #### See also
 
-[document.mouseClick()](#_bookmark238)
+[document.mouseClick()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum130.md)

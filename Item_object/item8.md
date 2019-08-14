@@ -11,8 +11,8 @@ item.linkageExportForRS
 #### Description
 
 Property; a Boolean value. If this property is true, the item is exported for run-time sharing. You can also set the
-[item.linkageExportForAS](#_bookmark669) and [item.linkageExportInFirstFrame](#item.linkageExportInFirstFrame) properties to true.
-If you set this property to true, the [item.linkageImportForRS](#_bookmark673) property must be set to false. Also, you must specify an identifier ([item.linkageIdentifier](#_bookmark672)) and a URL ([item.linkageURL](#_bookmark674)).
+[item.linkageExportForAS](#!AdobeDocs/developers-animatesdk-docs/master/Item_object/item7.md) and [item.linkageExportInFirstFrame](#!AdobeDocs/developers-animatesdk-docs/master/Item_object/item9.md) properties to true.
+If you set this property to true, the [item.linkageImportForRS](#!AdobeDocs/developers-animatesdk-docs/master/Item_object/item11.md) property must be set to false. Also, you must specify an identifier ([item.linkageIdentifier](#!AdobeDocs/developers-animatesdk-docs/master/Item_object/item10.md)) and a URL ([item.linkageURL](#!AdobeDocs/developers-animatesdk-docs/master/Item_object/item12.md)).
 
 #### Example
 

@@ -43,4 +43,4 @@ fl.trace(soundEnv\[i\].leftChannel); fl.trace(soundEnv\[i\].rightChannel);
 ```
 #### See also
 
-[frame.getSoundEnvelope()](#_bookmark607)
+[frame.getSoundEnvelope()](#!AdobeDocs/developers-animatesdk-docs/master/Frame_object/frame8.md)

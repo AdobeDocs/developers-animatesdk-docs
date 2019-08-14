@@ -50,4 +50,4 @@ fl.trace("DF4 symbol = " + item.isDefineFont4Symbol); fl.trace("font = " + item.
 ```
 #### See also
 
-[fontItem.isDefineFont4Symbol](#_bookmark591), [text.embedVariantGlyphs](#_bookmark978)
+[fontItem.isDefineFont4Symbol](#!AdobeDocs/developers-animatesdk-docs/master/fontItem_object/fontIte6.md), [text.embedVariantGlyphs](#!AdobeDocs/developers-animatesdk-docs/master/Text_object/text8.md)

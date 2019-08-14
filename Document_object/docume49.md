@@ -35,4 +35,4 @@ fl.getDocumentDOM().distribute("top edge", true);
 ```
 #### See also
 
-[document.getAlignToDocument()](#_bookmark198), [document.setAlignToDocument()](#_bookmark277)
+[document.getAlignToDocument()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume72.md), [document.setAlignToDocument()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum450.md)

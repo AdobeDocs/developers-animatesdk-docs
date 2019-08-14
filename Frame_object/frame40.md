@@ -22,4 +22,4 @@ var theFrame = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\] theFram
 ```
 #### See also
 
-[frame.getCustomEase()](#_bookmark605), [frame.hasCustomEase](#_bookmark609), [frame.setCustomEase()](#_bookmark623)
+[frame.getCustomEase()](#!AdobeDocs/developers-animatesdk-docs/master/Frame_object/frame6.md), [frame.hasCustomEase](#!AdobeDocs/developers-animatesdk-docs/master/Frame_object/frame10.md), [frame.setCustomEase()](#!AdobeDocs/developers-animatesdk-docs/master/Frame_object/frame24.md)

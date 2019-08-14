@@ -10,7 +10,7 @@ stroke.pattern
 
 #### Description
 
-Property; a string that specifies the pattern of a ragged line. This property is available only if the stroke.style property is set to ragged (see [stroke.style](#_bookmark898)). Acceptable values are "solid", "simple", "random", "dotted", "random dotted", "triple dotted", and "random triple dotted".
+Property; a string that specifies the pattern of a ragged line. This property is available only if the stroke.style property is set to ragged (see [stroke.style](#!AdobeDocs/developers-animatesdk-docs/master/Stroke_object/stroke20.md)). Acceptable values are "solid", "simple", "random", "dotted", "random dotted", "triple dotted", and "random triple dotted".
 
 #### Example
 

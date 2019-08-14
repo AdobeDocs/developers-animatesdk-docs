@@ -15,6 +15,6 @@ Property; a float value that specifies the *y* value of the selected element’s
 #### Example
 
 ```javascript
-See [element.x](#_bookmark409)
+See [element.x](#!AdobeDocs/developers-animatesdk-docs/master/Element_object/elemen26.md)
 
 ```

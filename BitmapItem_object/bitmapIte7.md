@@ -22,4 +22,4 @@ fl.trace("Imported compression type = "+ libItem.originalCompressionType);
 ```
 #### See also
 
-[bitmapItem.compressionType](#_bookmark52)
+[bitmapItem.compressionType](#!AdobeDocs/developers-animatesdk-docs/master/BitmapItem_object/bitmapIte1.md)

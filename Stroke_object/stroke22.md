@@ -10,7 +10,7 @@ stroke.variation
 
 #### Description
 
-Property; a string that specifies the variation of a stippled line. This property is available only if the stroke.style property is set to stipple (see [stroke.style](#_bookmark898)). Acceptable values are "one size", "small variation", "varied sizes", and "random sizes".
+Property; a string that specifies the variation of a stippled line. This property is available only if the stroke.style property is set to stipple (see [stroke.style](#!AdobeDocs/developers-animatesdk-docs/master/Stroke_object/stroke20.md)). Acceptable values are "one size", "small variation", "varied sizes", and "random sizes".
 
 #### Example
 

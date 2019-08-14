@@ -24,7 +24,7 @@ Nothing.
 
 #### Description
 
-Method; sets the color of subsequently drawn data. Applies only to persistent data. To use this method, the parameter passed to drawingLayer.beginDraw() must be set to true. You typically use this method only when creating extensible tools. See [drawingLayer.beginDraw()](#_bookmark347).
+Method; sets the color of subsequently drawn data. Applies only to persistent data. To use this method, the parameter passed to drawingLayer.beginDraw() must be set to true. You typically use this method only when creating extensible tools. See [drawingLayer.beginDraw()](#!AdobeDocs/developers-animatesdk-docs/master/drawingLayer_object/drawingLayer.md).
 
 #### Example
 

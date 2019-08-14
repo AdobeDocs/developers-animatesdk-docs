@@ -10,7 +10,7 @@ Math.concatMatrix(mat1, mat2)
 
 #### Parameters
 
-**mat1, mat2** Specify the Matrix objects to be concatenated (see [Matrix object](#_bookmark725)). Each parameter must be an object with fields a, b, c, d, tx, and ty.
+**mat1, mat2** Specify the Matrix objects to be concatenated (see [Matrix object](#!AdobeDocs/developers-animatesdk-docs/master/Matrix_object/matrix_summary.md)). Each parameter must be an object with fields a, b, c, d, tx, and ty.
 
 #### Returns
 

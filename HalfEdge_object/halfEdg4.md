@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-A [Vertex object](#_bookmark1133)
+A [Vertex object](#!AdobeDocs/developers-animatesdk-docs/master/Vertex_object/vertex_summary.md)
 
 #### Description
 
-Method; gets the Vertex object at the head of the HalfEdge object. See [Vertex object](#_bookmark1133)
+Method; gets the Vertex object at the head of the HalfEdge object. See [Vertex object](#!AdobeDocs/developers-animatesdk-docs/master/Vertex_object/vertex_summary.md)
 
 #### Example
 

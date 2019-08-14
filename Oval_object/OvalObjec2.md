@@ -11,7 +11,7 @@ OvalObject.innerRadius
 #### Description
 
 Read-only property; a float value that specifies the inner radius of the Oval object as a percentage. Acceptable values are from 0 to 99.
-To set this value, use [document.setOvalObjectProperty()](#_bookmark298).
+To set this value, use [document.setOvalObjectProperty()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum590.md).
 
 #### Example
 
@@ -22,4 +22,4 @@ fl.getDocumentDOM().setOvalObjectProperty("innerRadius",50);
 ```
 #### See also
 
-[document.setOvalObjectProperty()](#_bookmark298), [shape.isOvalObject](#_bookmark820)
+[document.setOvalObjectProperty()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum590.md), [shape.isOvalObject](#!AdobeDocs/developers-animatesdk-docs/master/Shape_object/shape9.md)

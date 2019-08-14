@@ -32,6 +32,6 @@ fl.xmlui.setControlItemElement("PhoneNumber",elem);
 ```
 #### See also
 
-[fl.xmlui](#_bookmark557), [document.xmlPanel()](#_bookmark342), [xmlui.getControlItemElement()](#_bookmark1156), [xmlui.set()](#_bookmark1159), [xmlui.setControlItemElements()](#xmlui.setControlItemElements())
+[fl.xmlui](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl81.md), [document.xmlPanel()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6198.md), [xmlui.getControlItemElement()](#!AdobeDocs/developers-animatesdk-docs/master/XMLUI_object/xmlui3.md), [xmlui.set()](#!AdobeDocs/developers-animatesdk-docs/master/XMLUI_object/xmlui6.md), [xmlui.setControlItemElements()](#!AdobeDocs/developers-animatesdk-docs/master/XMLUI_object/xmlui8.md))
 
 <span id="xmlui.setControlItemElements()" class="anchor"></span>

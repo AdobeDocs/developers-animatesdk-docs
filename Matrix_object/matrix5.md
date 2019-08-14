@@ -16,6 +16,6 @@ You can move an object by setting the matrix.tx and matrix.ty properties.
 #### Example
 
 ```javascript
-See the [matrix.tx](#_bookmark731) example.
+See the [matrix.tx](#!AdobeDocs/developers-animatesdk-docs/master/Matrix_object/matrix4.md) example.
 
 ```

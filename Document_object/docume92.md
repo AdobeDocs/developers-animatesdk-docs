@@ -10,7 +10,7 @@ document.id
 
 #### Description
 
-Read-only property; a unique integer (assigned automatically) that identifies a document during a Flash session. Use this property in conjunction with [fl.findDocumentDOM()](#_bookmark483) to specify a particular document for an action.
+Read-only property; a unique integer (assigned automatically) that identifies a document during a Flash session. Use this property in conjunction with [fl.findDocumentDOM()](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl25.md) to specify a particular document for an action.
 
 #### Example
 
@@ -21,4 +21,4 @@ fl.trace("Current doc's internal ID is: " + fl.getDocumentDOM().id);
 ```
 #### See also
 
-[fl.findDocumentDOM()](#_bookmark483)
+[fl.findDocumentDOM()](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl25.md)

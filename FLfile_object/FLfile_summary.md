@@ -28,25 +28,25 @@ The following methods can be used with the FLfile object:
 
 | **Method**                             | **Description**                               |
 |----------------------------------------|-----------------------------------------------|
-| [FLfile.copy()](#FLfile.copy())        | Copies a file.                                |
-| [FLfile.createFolder()](#_bookmark562) | Creates one or more folders.                  |
-| [FLfile.exists()](#_bookmark563)       | Determines the existence of a file or folder. |
+| [FLfile.copy()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile.md))        | Copies a file.                                |
+| [FLfile.createFolder()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile1.md) | Creates one or more folders.                  |
+| [FLfile.exists()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile2.md)       | Determines the existence of a file or folder. |
 
 | **Method**                                       | **Description**                                                                                                   |
 |--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [FLfile.getAttributes()](#_bookmark564)          | Finds out whether a file is writable, read-only, hidden, visible, or a system folder.                             |
-| [FLfile.getCreationDate()](#_bookmark565)        | Specifies how many seconds have passed between January 1, 1970 and the time the file or folder was created.       |
-| [FLfile.getCreationDateObj()](#_bookmark566)     | Gets the date a file or folder was created.                                                                       |
-| [FLfile.getModificationDate()](#_bookmark567)    | Specifies how many seconds have passed between January 1, 1970 and the time the file or folder was last modified. |
-| [FLfile.getModificationDateObj()](#_bookmark569) | Gets the date a file or folder was last modified.                                                                 |
-| [FLfile.getSize()](#_bookmark570)                | Gets the size of a file.                                                                                          |
-| [FLfile.listFolder()](#_bookmark571)             | Lists the contents of a folder.                                                                                   |
-| [FLfile.platformPathToURI()](#_bookmark572)      | Converts a filename in a platform-specific format to a file:/// URI.                                              |
-| [FLfile.read()](#_bookmark573)                   | Reads the contents of a file.                                                                                     |
-| [FLfile.remove()](#_bookmark574)                 | Deletes a file or folder.                                                                                         |
-| [FLfile.setAttributes()](#_bookmark575)          | Makes a file or folder read-only, writable, hidden, or visible.                                                   |
-| [FLfile.uriToPlatformPath()](#_bookmark576)      | Converts a filename expressed as a file:/// URI to a platform- specific format.                                   |
-| [FLfile.write()](#_bookmark577)                  | Creates, writes to, or appends to a file.                                                                         |
+| [FLfile.getAttributes()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile3.md)          | Finds out whether a file is writable, read-only, hidden, visible, or a system folder.                             |
+| [FLfile.getCreationDate()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile4.md)        | Specifies how many seconds have passed between January 1, 1970 and the time the file or folder was created.       |
+| [FLfile.getCreationDateObj()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile5.md)     | Gets the date a file or folder was created.                                                                       |
+| [FLfile.getModificationDate()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile6.md)    | Specifies how many seconds have passed between January 1, 1970 and the time the file or folder was last modified. |
+| [FLfile.getModificationDateObj()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile7.md) | Gets the date a file or folder was last modified.                                                                 |
+| [FLfile.getSize()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile8.md)                | Gets the size of a file.                                                                                          |
+| [FLfile.listFolder()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile9.md)             | Lists the contents of a folder.                                                                                   |
+| [FLfile.platformPathToURI()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile10.md)      | Converts a filename in a platform-specific format to a file:/// URI.                                              |
+| [FLfile.read()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile11.md)                   | Reads the contents of a file.                                                                                     |
+| [FLfile.remove()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile12.md)                 | Deletes a file or folder.                                                                                         |
+| [FLfile.setAttributes()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile13.md)          | Makes a file or folder read-only, writable, hidden, or visible.                                                   |
+| [FLfile.uriToPlatformPath()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile14.md)      | Converts a filename expressed as a file:/// URI to a platform- specific format.                                   |
+| [FLfile.write()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile15.md)                  | Creates, writes to, or appends to a file.                                                                         |
 
 <span id="FLfile.copy()" class="anchor"></span>
 

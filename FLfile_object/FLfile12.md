@@ -45,4 +45,4 @@ FLfile.remove("file:///C\|/MyApplication/Configuration/");
 ```
 #### See also
 
-[FLfile.createFolder()](#_bookmark562), [FLfile.getAttributes()](#_bookmark564)
+[FLfile.createFolder()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile1.md), [FLfile.getAttributes()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile3.md)

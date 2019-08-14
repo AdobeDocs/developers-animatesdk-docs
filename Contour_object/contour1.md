@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-A [HalfEdge object](#_bookmark644).
+A [HalfEdge object](#!AdobeDocs/developers-animatesdk-docs/master/HalfEdge_object/halfEdge_summary.md).
 
 #### Description
 
-Method; returns a [HalfEdge object](#_bookmark644) on the contour of the selection.
+Method; returns a [HalfEdge object](#!AdobeDocs/developers-animatesdk-docs/master/HalfEdge_object/halfEdge_summary.md) on the contour of the selection.
 
 #### Example
 

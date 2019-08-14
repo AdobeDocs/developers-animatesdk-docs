@@ -10,7 +10,7 @@ element.layer
 
 #### Description
 
-Read-only property; represents the [Layer object](#_bookmark679) on which the element is located.
+Read-only property; represents the [Layer object](#!AdobeDocs/developers-animatesdk-docs/master/Layer_object/layer_summary.md) on which the element is located.
 
 #### Example
 

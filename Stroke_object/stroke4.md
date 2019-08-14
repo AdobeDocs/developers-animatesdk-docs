@@ -11,7 +11,7 @@ stroke.dash1
 #### Description
 
 Property; an integer that specifies the lengths of the solid parts of a dashed line. This property is available only if the
-stroke.style property is set to dashed(see [stroke.style](#_bookmark898)).
+stroke.style property is set to dashed(see [stroke.style](#!AdobeDocs/developers-animatesdk-docs/master/Stroke_object/stroke20.md)).
 
 #### Example
 

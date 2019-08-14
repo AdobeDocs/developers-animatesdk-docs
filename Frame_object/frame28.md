@@ -30,4 +30,4 @@ limits.start = 2000; limits.end = 15000; fl.getDocumentDOM().getTimeline().layer
 ```
 #### See also
 
-[frame.getSoundEnvelopeLimits()](#_bookmark608)
+[frame.getSoundEnvelopeLimits()](#!AdobeDocs/developers-animatesdk-docs/master/Frame_object/frame9.md)

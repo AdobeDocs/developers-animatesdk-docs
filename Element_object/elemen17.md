@@ -26,6 +26,6 @@ Method; stores data with an element. The data is available when the FLA file con
 #### Example
 
 ```javascript
-See [element.getPersistentData()](#_bookmark379).
+See [element.getPersistentData()](#!AdobeDocs/developers-animatesdk-docs/master/Element_object/element2.md).
 
 ```

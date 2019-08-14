@@ -10,7 +10,7 @@ fill.posArray
 
 #### Description
 
-Property; an array of integers, each in the range of zero to 255, indicating the position of the corresponding color. This property is available only if the value of the [fill.style](#fill.style) property is either "radialGradient" or "linearGradient".
+Property; an array of integers, each in the range of zero to 255, indicating the position of the corresponding color. This property is available only if the value of the [fill.style](#!AdobeDocs/developers-animatesdk-docs/master/Fill_object/fill9.md) property is either "radialGradient" or "linearGradient".
 
 #### Example
 

@@ -18,7 +18,7 @@ A Boolean value: true if you can use the document.testScene() method successfull
 
 #### Description
 
-Method; determines whether you can use the [document.testScene()](#_bookmark329) method successfully.
+Method; determines whether you can use the [document.testScene()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docu5979.md) method successfully.
 
 #### Example
 
@@ -30,4 +30,4 @@ if(fl.getDocumentDOM().canTestScene()){ fl.getDocumentDOM().testScene();
 ```
 #### See also
 
-[document.canTestMovie()](#_bookmark147), [document.testMovie()](#_bookmark328)
+[document.canTestMovie()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume27.md), [document.testMovie()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docu5948.md)

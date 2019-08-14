@@ -29,4 +29,4 @@ fl.getDocumentDOM().exitEditMode();
 ```
 #### See also
 
-[document.enterEditMode()](#_bookmark185)
+[document.enterEditMode()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume60.md)

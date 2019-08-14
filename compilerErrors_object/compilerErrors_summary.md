@@ -14,8 +14,8 @@ The following methods can be used with the compilerErrors object:
 
 | **Method**                                        | **Description**                                                       |
 |---------------------------------------------------|-----------------------------------------------------------------------|
-| [compilerErrors.clear()](#compilerErrors.clear()) | Clears the contents of the Compiler Errors panel.                     |
-| [compilerErrors.save()](#_bookmark98)             | Saves the contents of the Compiler Errors panel to a local text file. |
+| [compilerErrors.clear()](#!AdobeDocs/developers-animatesdk-docs/master/compilerErrors_object/compilerErrors.md)) | Clears the contents of the Compiler Errors panel.                     |
+| [compilerErrors.save()](#!AdobeDocs/developers-animatesdk-docs/master/compilerErrors_object/compilerError1.md)             | Saves the contents of the Compiler Errors panel to a local text file. |
 
 <span id="compilerErrors.clear()" class="anchor"></span>
 

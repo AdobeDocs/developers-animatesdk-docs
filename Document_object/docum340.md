@@ -29,4 +29,4 @@ fl.getDocumentDOM().revert();
 ```
 #### See also
 
-[document.canRevert()](#_bookmark145), [fl.revertDocument()](#_bookmark528)
+[document.canRevert()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume26.md), [fl.revertDocument()](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl61.md)

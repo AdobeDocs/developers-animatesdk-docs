@@ -10,7 +10,7 @@ contour.fill
 
 #### Description
 
-Property; a [Fill object](#_bookmark412).
+Property; a [Fill object](#!AdobeDocs/developers-animatesdk-docs/master/Fill_object/fill_summary.md).
 
 #### Example
 

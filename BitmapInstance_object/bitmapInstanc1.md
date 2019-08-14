@@ -24,4 +24,4 @@ var numHorizontalPixels = bmObj.hPixels;
 ```
 #### See also
 
-[bitmapInstance.vPixels](#_bookmark47)
+[bitmapInstance.vPixels](#!AdobeDocs/developers-animatesdk-docs/master/BitmapInstance_object/bitmapInstanc3.md)

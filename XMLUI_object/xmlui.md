@@ -22,6 +22,6 @@ Method; closes the current XMLUI dialog box with an accept state, which is equiv
 
 #### See also
 
-[fl.xmlui](#_bookmark557), [document.xmlPanel()](#_bookmark342), [xmlui.cancel()](#xmlui.cancel())
+[fl.xmlui](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl81.md), [document.xmlPanel()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6198.md), [xmlui.cancel()](#!AdobeDocs/developers-animatesdk-docs/master/XMLUI_object/xmlui1.md))
 
 <span id="xmlui.cancel()" class="anchor"></span>

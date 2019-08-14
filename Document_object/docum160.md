@@ -20,7 +20,7 @@ Nothing.
 
 Method; moves selected objects by a specified distance.
 ***Note:** When the user uses the arrow keys to move the item, the History panel combines all presses of the arrow key as one move step. When the user presses the arrow keys repeatedly, rather than taking multiple steps in the History panel, the method performs one step, and the arguments are updated to reflect the repeated arrow keys.*
-For information on making a selection, see [document.setSelectionRect()](#_bookmark305), [document.mouseClick()](#_bookmark238), [document.mouseDblClk()](#_bookmark239), and the [Element object](#_bookmark374).
+For information on making a selection, see [document.setSelectionRect()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docu9689.md), [document.mouseClick()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum130.md), [document.mouseDblClk()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum140.md), and the [Element object](#!AdobeDocs/developers-animatesdk-docs/master/Element_object/element_summary.md).
 
 #### Example
 

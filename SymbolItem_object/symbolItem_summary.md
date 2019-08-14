@@ -1,6 +1,6 @@
 ## symbolItem summary
 
-**Inheritance** [Item object](#_bookmark658) \SymbolItem object
+**Inheritance** [Item object](#!AdobeDocs/developers-animatesdk-docs/master/Item_object/item_summary.md) \SymbolItem object
 
 #### Availability
 
@@ -8,7 +8,7 @@ Flash MX 2004.
 
 #### Description
 
-The SymbolItem object is a subclass of the [Item object](#_bookmark658).
+The SymbolItem object is a subclass of the [Item object](#!AdobeDocs/developers-animatesdk-docs/master/Item_object/item_summary.md).
 
 #### Method summary
 
@@ -16,11 +16,11 @@ In addition to the Item object methods, you can use the following methods with t
 
 | **Method**                                                                | **Description**                                                 |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------|
-| [symbolItem.convertToCompiledClip()](#symbolItem.convertToCompiledClip()) | Converts a symbol item in the library to a compiled movie clip. |
-| [symbolItem.exportSWC()](#_bookmark953)                                   | Exports the symbol item to a SWC file.                          |
-| [symbolItem.exportSWF()](#_bookmark954)                                   | Exports the symbol item to a SWF file.                          |
-| [symbolItem.exportToLibrary()](#_bookmark955)                             | Export an instance to a new bitmap in the Library.              |
-| [symbolItem.exportToPNGSequence()](#_bookmark956)                         | Export a symbol to a sequence of PNG files.                     |
+| [symbolItem.convertToCompiledClip()](#!AdobeDocs/developers-animatesdk-docs/master/SymbolItem_object/symbolItem.md)) | Converts a symbol item in the library to a compiled movie clip. |
+| [symbolItem.exportSWC()](#!AdobeDocs/developers-animatesdk-docs/master/SymbolItem_object/symbolIte1.md)                                   | Exports the symbol item to a SWC file.                          |
+| [symbolItem.exportSWF()](#!AdobeDocs/developers-animatesdk-docs/master/SymbolItem_object/symbolIte2.md)                                   | Exports the symbol item to a SWF file.                          |
+| [symbolItem.exportToLibrary()](#!AdobeDocs/developers-animatesdk-docs/master/SymbolItem_object/symbolIte3.md)                             | Export an instance to a new bitmap in the Library.              |
+| [symbolItem.exportToPNGSequence()](#!AdobeDocs/developers-animatesdk-docs/master/SymbolItem_object/symbolIte4.md)                         | Export a symbol to a sequence of PNG files.                     |
 
 #### Property summary
 
@@ -28,14 +28,14 @@ In addition to the Item object properties, the following properties are availabl
 
 | **Property**                                  | **Description**                                                                            |
 |-----------------------------------------------|--------------------------------------------------------------------------------------------|
-| [symbolItem.lastModifiedDate](#_bookmark957)  | A string hexadecimal value that indicates the modification date of the symbol.             |
-| [symbolItem.scalingGrid](#_bookmark958)       | A Boolean value that specifies whether 9-slice scaling is enabled for the item.            |
-| [symbolItem.scalingGridRect](#_bookmark959)   | A Rectangle object that specifies the locations of the four 9-slice guides.                |
-| [symbolItem.sourceAutoUpdate](#_bookmark960)  | A Boolean value that specifies whether the item is updated when the FLA file is published. |
-| [symbolItem.sourceFilePath](#_bookmark961)    | A string that specifies the path for the source FLA file as a file:/// URI.                |
-| [symbolItem.sourceLibraryName](#_bookmark962) | A string that specifies the name of the item in the source file library.                   |
-| [symbolItem.symbolType](#_bookmark963)        | A string that specifies the type of symbol.                                                |
-| [symbolItem.timeline](#_bookmark964)          | Read-only; a [Timeline object](#_bookmark1030).                                            |
+| [symbolItem.lastModifiedDate](#!AdobeDocs/developers-animatesdk-docs/master/SymbolItem_object/symbolIte5.md)  | A string hexadecimal value that indicates the modification date of the symbol.             |
+| [symbolItem.scalingGrid](#!AdobeDocs/developers-animatesdk-docs/master/SymbolItem_object/symbolIte6.md)       | A Boolean value that specifies whether 9-slice scaling is enabled for the item.            |
+| [symbolItem.scalingGridRect](#!AdobeDocs/developers-animatesdk-docs/master/SymbolItem_object/symbolIte7.md)   | A Rectangle object that specifies the locations of the four 9-slice guides.                |
+| [symbolItem.sourceAutoUpdate](#!AdobeDocs/developers-animatesdk-docs/master/SymbolItem_object/symbolIte8.md)  | A Boolean value that specifies whether the item is updated when the FLA file is published. |
+| [symbolItem.sourceFilePath](#!AdobeDocs/developers-animatesdk-docs/master/SymbolItem_object/symbolIte9.md)    | A string that specifies the path for the source FLA file as a file:/// URI.                |
+| [symbolItem.sourceLibraryName](#!AdobeDocs/developers-animatesdk-docs/master/SymbolItem_object/symbolIt10.md) | A string that specifies the name of the item in the source file library.                   |
+| [symbolItem.symbolType](#!AdobeDocs/developers-animatesdk-docs/master/SymbolItem_object/symbolIt11.md)        | A string that specifies the type of symbol.                                                |
+| [symbolItem.timeline](#!AdobeDocs/developers-animatesdk-docs/master/SymbolItem_object/symbolIt12.md)          | Read-only; a [Timeline object](#!AdobeDocs/developers-animatesdk-docs/master/Timeline_object/timeline_summary.md).                                            |
 
 <span id="symbolItem.convertToCompiledClip()" class="anchor"></span>
 

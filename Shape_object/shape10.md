@@ -21,4 +21,4 @@ var sel = fl.getDocumentDOM().selection\[0\]; fl.trace(sel.isRectangleObject);
 ```
 #### See also
 
-[shape.isOvalObject](#_bookmark819)
+[shape.isOvalObject](#!AdobeDocs/developers-animatesdk-docs/master/Shape_object/shape9.md)
