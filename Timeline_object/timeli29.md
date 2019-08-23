@@ -19,7 +19,7 @@ Nothing.
 #### Description
 
 Method; inserts a keyframe at the specified frame. If you omit the parameter, the method inserts a keyframe using the playhead or selection location.
-This method works the same as [timeline.insertBlankKeyframe()](#_bookmark1061) except that the inserted keyframe contains the contents of the frame it converted (that is, it’s not blank).
+This method works the same as [timeline.insertBlankKeyframe()](#!AdobeDocs/developers-animatesdk-docs/master/Timeline_object/timeli27.md) except that the inserted keyframe contains the contents of the frame it converted (that is, it’s not blank).
 
 #### Example
 

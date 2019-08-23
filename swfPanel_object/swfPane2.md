@@ -21,4 +21,4 @@ fl.trace(fl.swfPanel\[x\].dpiScaleFactorY);
 ```
 #### See also
 
-[swfPanel.dpiScaleFactorX](#_bookmark907)
+[swfPanel.dpiScaleFactorX](#!AdobeDocs/developers-animatesdk-docs/master/swfPanel_object/swfPane1.md)

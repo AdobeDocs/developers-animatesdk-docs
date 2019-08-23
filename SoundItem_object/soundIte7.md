@@ -22,4 +22,4 @@ fl.trace("Imported compression type = "+ libItem.originalCompressionType);
 ```
 #### See also
 
-[soundItem.compressionType](#_bookmark831)
+[soundItem.compressionType](#!AdobeDocs/developers-animatesdk-docs/master/SoundItem_object/soundIte2.md)

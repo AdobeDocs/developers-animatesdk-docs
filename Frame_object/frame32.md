@@ -10,12 +10,12 @@ frame.soundLoop
 
 #### Description
 
-Property; an integer value that specifies the number of times a sound that is attached directly to a frame ([frame.soundLibraryItem](#_bookmark630)) plays. If you want to specify a value for this property, set [frame.soundLoopMode](#frame.soundLoopMode) to "repeat".
+Property; an integer value that specifies the number of times a sound that is attached directly to a frame ([frame.soundLibraryItem](#!AdobeDocs/developers-animatesdk-docs/master/Frame_object/frame31.md)) plays. If you want to specify a value for this property, set [frame.soundLoopMode](#!AdobeDocs/developers-animatesdk-docs/master/Frame_object/frame33.md) to "repeat".
 
 #### Example
 
 ```javascript
-See [frame.soundLoopMode](#frame.soundLoopMode).
+See [frame.soundLoopMode](#!AdobeDocs/developers-animatesdk-docs/master/Frame_object/frame33.md).
 
 <span id="frame.soundLoopMode" class="anchor"></span
 ```

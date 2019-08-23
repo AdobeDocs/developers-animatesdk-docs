@@ -33,4 +33,4 @@ fl.trace(fl.getDocumentDOM().getDataFromDocument("myData"));
 ```
 #### See also
 
-[document.getDataFromDocument()](#_bookmark204), [document.removeDataFromDocument()](#_bookmark253)
+[document.getDataFromDocument()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume76.md), [document.removeDataFromDocument()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum250.md)

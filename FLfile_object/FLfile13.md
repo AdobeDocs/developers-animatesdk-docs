@@ -16,7 +16,7 @@ FLfile.setAttributes(fileURI, strAttrs)
 #### Returns
 
 A Boolean value of true if successful.
-***Note:** Results are unpredictable if the file or folder doesn’t exist. You should use* *[FLfile.exists()](#_bookmark563) before using this method.*
+***Note:** Results are unpredictable if the file or folder doesn’t exist. You should use* *[FLfile.exists()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile2.md) before using this method.*
 
 #### Description
 
@@ -54,4 +54,4 @@ if (FLfile.exists(URI)) { FLfile.setAttributes(URI, "N"); FLfile.setAttributes(U
 ```
 #### See also
 
-[FLfile.getAttributes()](#_bookmark564)
+[FLfile.getAttributes()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile3.md)

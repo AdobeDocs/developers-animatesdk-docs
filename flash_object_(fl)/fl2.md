@@ -26,4 +26,4 @@ fl.trace(fl.as3PackagePaths);
 ```
 #### See also
 
-[fl.resetAS3PackagePaths()](#_bookmark525)
+[fl.resetAS3PackagePaths()](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl59.md)

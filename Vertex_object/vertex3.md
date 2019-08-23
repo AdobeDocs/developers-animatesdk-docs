@@ -15,6 +15,6 @@ Read-only property; the *y* location of the vertex, in pixels.
 #### Example
 
 ```javascript
-See [vertex.x](#_bookmark1137).
+See [vertex.x](#!AdobeDocs/developers-animatesdk-docs/master/Vertex_object/vertex2.md).
 
 ```

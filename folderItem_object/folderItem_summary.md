@@ -1,6 +1,6 @@
 ## folderItem summary
 
-**Inheritance** [Item object](#_bookmark658) \folderItem object
+**Inheritance** [Item object](#!AdobeDocs/developers-animatesdk-docs/master/Item_object/item_summary.md) \folderItem object
 
 #### Availability
 
@@ -8,5 +8,5 @@ Flash MX 2004.
 
 #### Description
 
-The folderItem object is a subclass of the Item object. There are no unique methods or properties for folderItem. See [Item object](#_bookmark658).
+The folderItem object is a subclass of the Item object. There are no unique methods or properties for folderItem. See [Item object](#!AdobeDocs/developers-animatesdk-docs/master/Item_object/item_summary.md).
 

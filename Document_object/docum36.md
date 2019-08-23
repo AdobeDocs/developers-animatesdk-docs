@@ -22,4 +22,4 @@ myDoc.sourcePath = "./Class files;" + myDoc.sourcePath; fl.trace(myDoc.sourcePat
 ```
 #### See also
 
-[document.externalLibraryPath](#_bookmark194), [document.libraryPath](#_bookmark233), [fl.sourcePath](#_bookmark544)
+[document.externalLibraryPath](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume69.md), [document.libraryPath](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume99.md), [fl.sourcePath](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl72.md)

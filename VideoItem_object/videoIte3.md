@@ -21,6 +21,6 @@ var libItem = fl.getDocumentDOM().library.items\[0\]; fl.trace("sourceFileExists
 ```
 #### See also
 
-[videoItem.sourceFileIsCurrent](#videoItem.sourceFileIsCurrent), [videoItem.sourceFilePath](#_bookmark1147)
+[videoItem.sourceFileIsCurrent](#!AdobeDocs/developers-animatesdk-docs/master/VideoItem_object/videoIte4.md), [videoItem.sourceFilePath](#!AdobeDocs/developers-animatesdk-docs/master/VideoItem_object/videoIte5.md)
 
 <span id="videoItem.sourceFileIsCurrent" class="anchor"></span>

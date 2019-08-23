@@ -21,4 +21,4 @@ fl.getDocumentDOM().height = 400;
 ```
 #### See also
 
-[document.width](#_bookmark340)
+[document.width](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6182.md)

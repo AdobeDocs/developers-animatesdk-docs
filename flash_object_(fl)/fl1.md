@@ -33,4 +33,4 @@ var eventID = fl.addEventListener("documentClosed", myFunction);
 ```
 #### See also
 
-[fl.removeEventListener()](#_bookmark524)
+[fl.removeEventListener()](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl58.md)

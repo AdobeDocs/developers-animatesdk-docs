@@ -29,6 +29,6 @@ fl.closeAllPlayerDocuments();
 ```
 #### See also
 
-[fl.closeAll()](#_bookmark459), [fl.closeDocument()](#fl.closeDocument())
+[fl.closeAll()](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl7.md), [fl.closeDocument()](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl9.md))
 
 <span id="fl.closeDocument()" class="anchor"></span>

@@ -30,4 +30,4 @@ var file1Date = FLfile.getModificationDateObj("file:///c\|/temp/file1.txt"); tra
 ```
 #### See also
 
-[FLfile.getCreationDateObj()](#_bookmark566), [FLfile.getModificationDate()](#_bookmark567)
+[FLfile.getCreationDateObj()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile5.md), [FLfile.getModificationDate()](#!AdobeDocs/developers-animatesdk-docs/master/FLfile_object/FLfile6.md)

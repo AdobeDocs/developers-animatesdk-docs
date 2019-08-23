@@ -10,7 +10,7 @@ text.textRuns
 
 #### Description
 
-Read-only property; an array of TextRun objects (see [TextRun object](#_bookmark1024)).
+Read-only property; an array of TextRun objects (see [TextRun object](#!AdobeDocs/developers-animatesdk-docs/master/TextRun_object/textRun_summary.md)).
 
 #### Example
 

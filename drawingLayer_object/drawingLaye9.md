@@ -18,7 +18,7 @@ A Path object.
 
 #### Description
 
-Method; returns a new Path object. You typically use this method only when creating extensible tools. See [Path object](#_bookmark759).
+Method; returns a new Path object. You typically use this method only when creating extensible tools. See [Path object](#!AdobeDocs/developers-animatesdk-docs/master/Path_object/path_summary.md).
 
 #### Example
 

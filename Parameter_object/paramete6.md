@@ -14,4 +14,4 @@ Read-only property; a string that indicates the type of the screen or component 
 
 #### See also
 
-[parameter.value](#_bookmark755)
+[parameter.value](#!AdobeDocs/developers-animatesdk-docs/master/Parameter_object/paramete5.md)

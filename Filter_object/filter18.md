@@ -10,7 +10,7 @@ filter.type
 
 #### Description
 
-Property; a string that specifies the type of bevel or glow. Acceptable values are "inner", "outer", and "full". This property is defined for Filter objects with a value of "bevelFilter", "gradientGlowFilter", or "gradientBevelFilter" for the [filter.name](#_bookmark440) property.
+Property; a string that specifies the type of bevel or glow. Acceptable values are "inner", "outer", and "full". This property is defined for Filter objects with a value of "bevelFilter", "gradientGlowFilter", or "gradientBevelFilter" for the [filter.name](#!AdobeDocs/developers-animatesdk-docs/master/Filter_object/filter13.md) property.
 
 #### Example
 
@@ -25,4 +25,4 @@ fl.getDocumentDOM().setFilters(myFilters);
 ```
 #### See also
 
-[document.setFilterProperty()](#_bookmark289)
+[document.setFilterProperty()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum520.md)

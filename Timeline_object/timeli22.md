@@ -10,7 +10,7 @@ timeline.getFrameProperty(property \[, startframeIndex \[, endFrameIndex\]\])
 
 #### Parameters
 
-**property** A string that specifies the name of the property for which to get the value. See the Property summary for the [Frame object](#_bookmark595) for a complete list of properties.
+**property** A string that specifies the name of the property for which to get the value. See the Property summary for the [Frame object](#!AdobeDocs/developers-animatesdk-docs/master/Frame_object/frame_summary.md) for a complete list of properties.
 **startFrameIndex** A zero-based index that specifies the starting frame number for which to get the value. If you omit
 *startFrameIndex*, the method uses the current selection. This parameter is optional.
 **endFrameIndex** A zero-based index that specifies the end of the range of frames to select. The range goes up to, but does not include, *endFrameIndex*. If you specify only *startFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.

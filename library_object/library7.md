@@ -14,7 +14,7 @@ library.getItemType(\[namePath\])
 
 #### Returns
 
-A string value specifying the type of object. For possible return values, see [item.itemType](#_bookmark665).
+A string value specifying the type of object. For possible return values, see [item.itemType](#!AdobeDocs/developers-animatesdk-docs/master/Item_object/item4.md).
 
 #### Description
 

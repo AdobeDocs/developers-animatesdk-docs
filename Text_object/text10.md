@@ -33,4 +33,4 @@ fl.getDocumentDOM().setElementProperty("antiAliasThickness", -200);
 ```
 #### See also
 
-[text.antiAliasSharpness](#_bookmark970), [text.antiAliasThickness](#_bookmark971)
+[text.antiAliasSharpness](#!AdobeDocs/developers-animatesdk-docs/master/Text_object/text1.md), [text.antiAliasThickness](#!AdobeDocs/developers-animatesdk-docs/master/Text_object/text2.md)

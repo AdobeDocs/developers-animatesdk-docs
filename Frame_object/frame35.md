@@ -10,7 +10,7 @@ frame.soundSync
 
 #### Description
 
-Property; a string that specifies the sync behavior of a sound that is attached directly to a frame ([frame.soundLibraryItem](#_bookmark630)). Acceptable values are "event", "stop", "start", and "stream".
+Property; a string that specifies the sync behavior of a sound that is attached directly to a frame ([frame.soundLibraryItem](#!AdobeDocs/developers-animatesdk-docs/master/Frame_object/frame31.md)). Acceptable values are "event", "stop", "start", and "stream".
 
 #### Example
 

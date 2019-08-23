@@ -10,7 +10,7 @@ fill.matrix
 
 #### Description
 
-Property; a [Matrix object](#_bookmark725) that defines the placement, orientation, and scales for gradient fills.
+Property; a [Matrix object](#!AdobeDocs/developers-animatesdk-docs/master/Matrix_object/matrix_summary.md) that defines the placement, orientation, and scales for gradient fills.
 
 #### Example
 

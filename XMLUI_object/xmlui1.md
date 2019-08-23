@@ -22,4 +22,4 @@ Method; closes the current XMLUI dialog box with a cancel state, which is equiva
 
 #### See also
 
-[fl.xmlui](#_bookmark557), [document.xmlPanel()](#_bookmark342), [xmlui.accept()](#_bookmark1153)
+[fl.xmlui](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl81.md), [document.xmlPanel()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6198.md), [xmlui.accept()](#!AdobeDocs/developers-animatesdk-docs/master/XMLUI_object/xmlui.md)

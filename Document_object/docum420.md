@@ -29,6 +29,6 @@ fl.getDocumentDOM().selectAll();
 ```
 #### See also
 
-[document.selection](#document.selection), [document.selectNone()](#_bookmark276)
+[document.selection](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum430.md), [document.selectNone()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum440.md)
 
 <span id="document.selection" class="anchor"></span>

@@ -29,6 +29,6 @@ var apText = fl.actionsPanel.getSelectedText(); fl.trace(apText);
 ```
 #### See also
 
-[actionsPanel.getText()](#actionsPanel.getText()), [actionsPanel.hasSelection()](#_bookmark37), [actionsPanel.replaceSelectedText()](#_bookmark38), [actionsPanel.setSelection()](#_bookmark40)
+[actionsPanel.getText()](#!AdobeDocs/developers-animatesdk-docs/master/actionsPanel_object/actionsPane3.md)), [actionsPanel.hasSelection()](#!AdobeDocs/developers-animatesdk-docs/master/actionsPanel_object/actionsPane4.md), [actionsPanel.replaceSelectedText()](#!AdobeDocs/developers-animatesdk-docs/master/actionsPanel_object/actionsPane5.md), [actionsPanel.setSelection()](#!AdobeDocs/developers-animatesdk-docs/master/actionsPanel_object/actionsPane7.md)
 
 <span id="actionsPanel.getText()" class="anchor"></span>

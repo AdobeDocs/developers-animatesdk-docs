@@ -10,7 +10,7 @@ frame.soundLoopMode
 
 #### Description
 
-Property; a string that specifies whether a sound that is attached directly to a frame ([frame.soundLibraryItem](#_bookmark630)) should play a specific number of times or loop indefinitely. Acceptable values are "repeat" and "loop". To specify the number of times the sound should play, set a value for [frame.soundLoop](#_bookmark632).
+Property; a string that specifies whether a sound that is attached directly to a frame ([frame.soundLibraryItem](#!AdobeDocs/developers-animatesdk-docs/master/Frame_object/frame31.md)) should play a specific number of times or loop indefinitely. Acceptable values are "repeat" and "loop". To specify the number of times the sound should play, set a value for [frame.soundLoop](#!AdobeDocs/developers-animatesdk-docs/master/Frame_object/frame32.md).
 
 #### Example
 

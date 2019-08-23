@@ -10,7 +10,7 @@ filter.blurX
 
 #### Description
 
-Property; a float value that specifies the amount to blur in the *x* direction, in pixels. Acceptable values are between 0 and 255. This property is defined for Filter objects with a value of "bevelFilter", "blurFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", or "gradientGlowFilter" for the [filter.name](#_bookmark440) property.
+Property; a float value that specifies the amount to blur in the *x* direction, in pixels. Acceptable values are between 0 and 255. This property is defined for Filter objects with a value of "bevelFilter", "blurFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", or "gradientGlowFilter" for the [filter.name](#!AdobeDocs/developers-animatesdk-docs/master/Filter_object/filter13.md) property.
 
 #### Example
 
@@ -26,6 +26,6 @@ fl.getDocumentDOM().setFilters(myFilters);
 ```
 #### See also
 
-[document.setFilterProperty()](#_bookmark289), [filter.blurY](#filter.blurY)
+[document.setFilterProperty()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum520.md), [filter.blurY](#!AdobeDocs/developers-animatesdk-docs/master/Filter_object/filter2.md)
 
 <span id="filter.blurY" class="anchor"></span>

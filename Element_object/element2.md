@@ -18,7 +18,7 @@ The data specified by the *name* parameter, or 0 if the data doesn’t exist.
 
 #### Description
 
-Method; retrieves the value of the data specified by the *name* parameter. The type of data depends on the type of the data that was stored (see [element.setPersistentData()](#_bookmark398)). Only symbols and bitmaps support persistent data.
+Method; retrieves the value of the data specified by the *name* parameter. The type of data depends on the type of the data that was stored (see [element.setPersistentData()](#!AdobeDocs/developers-animatesdk-docs/master/Element_object/elemen17.md)). Only symbols and bitmaps support persistent data.
 
 #### Example
 

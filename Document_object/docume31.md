@@ -29,6 +29,6 @@ fl.getDocumentDOM().clipCut();
 ```
 #### See also
 
-[document.clipCopy()](#_bookmark150), [document.clipPaste()](#document.clipPaste()), [fl.clipCopyString()](#_bookmark458)
+[document.clipCopy()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume30.md), [document.clipPaste()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume32.md)), [fl.clipCopyString()](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl6.md)
 
 <span id="document.clipPaste()" class="anchor"></span>

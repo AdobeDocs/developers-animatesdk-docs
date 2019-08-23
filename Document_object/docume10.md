@@ -41,4 +41,4 @@ fl.getDocumentDOM().addNewRectangle({left:20,top:20,right:220,bottom:120},0, fal
 ```
 #### See also
 
-[document.addNewPrimitiveRectangle()](#_bookmark126)
+[document.addNewPrimitiveRectangle()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/documen8.md)

@@ -10,7 +10,7 @@ timeline.getLayerProperty(property)
 
 #### Parameters
 
-**property** A string that specifies the name of the property whose value you want to retrieve. For a list of properties, see the Property summary for the [Frame object](#_bookmark595).
+**property** A string that specifies the name of the property whose value you want to retrieve. For a list of properties, see the Property summary for the [Frame object](#!AdobeDocs/developers-animatesdk-docs/master/Frame_object/frame_summary.md).
 
 #### Returns
 

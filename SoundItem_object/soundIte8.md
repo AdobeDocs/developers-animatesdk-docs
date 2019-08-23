@@ -11,7 +11,7 @@ soundItem.quality
 #### Description
 
 Property; a string that specifies the playback quality of a sound in the library. This property is available only for the MP3 compression type. Acceptable values are "Fast", "Medium", and "Best".
-If you want to specify a value for this property, set [soundItem.useImportedMP3Quality](#_bookmark842) to false.
+If you want to specify a value for this property, set [soundItem.useImportedMP3Quality](#!AdobeDocs/developers-animatesdk-docs/master/SoundItem_object/soundIt13.md) to false.
 
 #### Example
 
@@ -22,4 +22,4 @@ fl.getDocumentDOM().library.items\[0\].quality = "Best";
 ```
 #### See also
 
-[soundItem.compressionType](#_bookmark831)
+[soundItem.compressionType](#!AdobeDocs/developers-animatesdk-docs/master/SoundItem_object/soundIte2.md)

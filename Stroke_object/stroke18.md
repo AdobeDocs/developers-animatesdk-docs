@@ -10,7 +10,7 @@ stroke.space
 
 #### Description
 
-Property; a string that specifies the spacing of a hatched line. This property is available only if the stroke.style property is set to hatched (see [stroke.style](#_bookmark898)). Acceptable values are "very close", "close", "distant", and "very distant".
+Property; a string that specifies the spacing of a hatched line. This property is available only if the stroke.style property is set to hatched (see [stroke.style](#!AdobeDocs/developers-animatesdk-docs/master/Stroke_object/stroke20.md)). Acceptable values are "very close", "close", "distant", and "very distant".
 
 #### Example
 

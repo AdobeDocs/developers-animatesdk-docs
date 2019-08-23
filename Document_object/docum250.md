@@ -28,4 +28,4 @@ The following example removes from the document the persistent data named "myDat
 ```
 #### See also
 
-[document.addDataToDocument()](#_bookmark119), [document.documentHasData()](#_bookmark178), [document.getDataFromDocument()](#_bookmark204)
+[document.addDataToDocument()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/documen1.md), [document.documentHasData()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume53.md), [document.getDataFromDocument()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docume76.md)

@@ -32,4 +32,4 @@ The following example replaces the characters "2006" in the Actions panel with t
 ```
 #### See also
 
-[actionsPanel.getSelectedText()](#_bookmark35), [actionsPanel.hasSelection()](#_bookmark37), [actionsPanel.replaceSelectedText()](#_bookmark38)
+[actionsPanel.getSelectedText()](#!AdobeDocs/developers-animatesdk-docs/master/actionsPanel_object/actionsPane2.md), [actionsPanel.hasSelection()](#!AdobeDocs/developers-animatesdk-docs/master/actionsPanel_object/actionsPane4.md), [actionsPanel.replaceSelectedText()](#!AdobeDocs/developers-animatesdk-docs/master/actionsPanel_object/actionsPane5.md)

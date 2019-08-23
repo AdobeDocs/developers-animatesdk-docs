@@ -10,7 +10,7 @@ filter.inner
 
 #### Description
 
-Property; a Boolean value that specifies whether the shadow is an inner shadow (true) or not (false). This property is defined for Filter objects with a value of "dropShadowFilter" or "glowFilter" for the [filter.name](#_bookmark440) property.
+Property; a Boolean value that specifies whether the shadow is an inner shadow (true) or not (false). This property is defined for Filter objects with a value of "dropShadowFilter" or "glowFilter" for the [filter.name](#!AdobeDocs/developers-animatesdk-docs/master/Filter_object/filter13.md) property.
 
 #### Example
 
@@ -25,4 +25,4 @@ fl.getDocumentDOM().setFilters(myFilters);
 ```
 #### See also
 
-[document.setFilterProperty()](#_bookmark289)
+[document.setFilterProperty()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docum520.md)

@@ -10,7 +10,7 @@ stroke.length
 
 #### Description
 
-Property; a string that specifies the length of a hatch line. This property is available only if the stroke.style property is set to hatched (see [stroke.style](#_bookmark898)). Acceptable values are "equal", "slight variation", "medium variation", and "random". (The value "random" actually maps to "medium variation".)
+Property; a string that specifies the length of a hatch line. This property is available only if the stroke.style property is set to hatched (see [stroke.style](#!AdobeDocs/developers-animatesdk-docs/master/Stroke_object/stroke20.md)). Acceptable values are "equal", "slight variation", "medium variation", and "random". (The value "random" actually maps to "medium variation".)
 
 #### Example
 

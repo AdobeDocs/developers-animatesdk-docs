@@ -10,7 +10,7 @@ textRun.textAttrs
 
 #### Description
 
-Property; the [TextAttrs object](#_bookmark1003) containing the attributes of the run of text.
+Property; the [TextAttrs object](#!AdobeDocs/developers-animatesdk-docs/master/TextAttrs_object/textAttrs_summary.md) containing the attributes of the run of text.
 
 #### Example
 

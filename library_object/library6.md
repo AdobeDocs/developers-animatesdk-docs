@@ -10,7 +10,7 @@ library.getItemProperty(property)
 
 #### Parameters
 
-**property** A string. For a list of values that you can use as a *property* parameter, see the Property summary table for the [Item object](#_bookmark658), along with property summaries for its subclasses.
+**property** A string. For a list of values that you can use as a *property* parameter, see the Property summary table for the [Item object](#!AdobeDocs/developers-animatesdk-docs/master/Item_object/item_summary.md), along with property summaries for its subclasses.
 
 #### Returns
 

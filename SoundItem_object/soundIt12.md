@@ -26,4 +26,4 @@ if (fl.getDocumentDOM().library.items\[idx\].itemType == "sound") { var myItem =
 ```
 #### See also
 
-[soundItem.sourceFileExists](#_bookmark839)
+[soundItem.sourceFileExists](#!AdobeDocs/developers-animatesdk-docs/master/SoundItem_object/soundIt10.md)

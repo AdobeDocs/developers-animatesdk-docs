@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; associates an XML file with the tool. The file specifies the options to appear in a modal panel that is invoked by an Options button in the Property inspector. You would usually use this method in the configureTool() function inside your JSFL file. See [configureTool()](#_bookmark18).
+Method; associates an XML file with the tool. The file specifies the options to appear in a modal panel that is invoked by an Options button in the Property inspector. You would usually use this method in the configureTool() function inside your JSFL file. See [configureTool()](#!AdobeDocs/developers-animatesdk-docs/master/Top-Level_Functions_and_Methods/configureTool.md).
 For example, the PolyStar.xml file specifies three options associated with the Polygon tool:
 \<properties\>
 \<property name="Style" variable="style" list="polygon,star" defaultValue="0" type="Strings"/\>

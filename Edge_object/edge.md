@@ -10,7 +10,7 @@ edge.cubicSegmentIndex
 
 #### Description
 
-Read-only property; an integer that specifies the index value of a cubic segment of the edge (see [shape.getCubicSegmentPoints()](#_bookmark814)).
+Read-only property; an integer that specifies the index value of a cubic segment of the edge (see [shape.getCubicSegmentPoints()](#!AdobeDocs/developers-animatesdk-docs/master/Shape_object/shape5.md)).
 
 #### Example
 

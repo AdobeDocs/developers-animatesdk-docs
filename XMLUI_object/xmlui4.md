@@ -29,4 +29,4 @@ var isEnabled = fl.xmlui.getEnabled("myListBox"); fl.trace(isEnabled);
 ```
 #### See also
 
-[fl.xmlui](#_bookmark557), [document.xmlPanel()](#_bookmark342), [xmlui.setEnabled()](#_bookmark1162)
+[fl.xmlui](#!AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl81.md), [document.xmlPanel()](#!AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6198.md), [xmlui.setEnabled()](#!AdobeDocs/developers-animatesdk-docs/master/XMLUI_object/xmlui9.md)
