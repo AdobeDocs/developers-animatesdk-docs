@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; sets the position of the control point of the edge. You must call shape.beginEdit() before using this method. See [shape.beginEdit()](#_bookmark808).
+Method; sets the position of the control point of the edge. You must call shape.beginEdit() before using this method. See [shape.beginEdit()](#!AdobeDocs/developers-animatesdk-docs/test/Shape_object/shape.md).
 
 #### Example
 

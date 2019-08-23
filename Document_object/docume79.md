@@ -23,9 +23,9 @@ Method; returns an array that contains the list of filters applied to the curren
 #### Example
 
 ```javascript
-See [document.setFilters()](#_bookmark290).
+See [document.setFilters()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum530.md).
 
 ```
 #### See also
 
-[document.addFilter()](#_bookmark121), [document.changeFilterOrder()](#_bookmark149), [document.setFilters()](#_bookmark290), [Filter object](#_bookmark425)
+[document.addFilter()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/documen3.md), [document.changeFilterOrder()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume29.md), [document.setFilters()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum530.md), [Filter object](#!AdobeDocs/developers-animatesdk-docs/test/Filter_object/filter_summary.md)

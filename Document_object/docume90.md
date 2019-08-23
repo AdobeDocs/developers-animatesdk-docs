@@ -29,4 +29,4 @@ fl.getDocumentDOM().group();
 ```
 #### See also
 
-[document.unGroup()](#_bookmark335)
+[document.unGroup()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6104.md)

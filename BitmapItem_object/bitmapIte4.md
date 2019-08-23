@@ -23,4 +23,4 @@ bitmapItem.exportToFile(uri);
 ```
 #### See also
 
-[bitmapItem.sourceFileExists](#_bookmark60), [bitmapItem.sourceFileIsCurrent](#_bookmark61), [bitmapItem.sourceFilePath](#_bookmark62), [FLfile.getModificationDate()](#_bookmark568)
+[bitmapItem.sourceFileExists](#!AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIte9.md), [bitmapItem.sourceFileIsCurrent](#!AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIt10.md), [bitmapItem.sourceFilePath](#!AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIt11.md), [FLfile.getModificationDate()](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile6.md)

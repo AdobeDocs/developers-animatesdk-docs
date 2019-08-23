@@ -29,4 +29,4 @@ fl.getDocumentDOM().setPlayerVersion("6");
 ```
 #### See also
 
-[document.getPlayerVersion()](#_bookmark211)
+[document.getPlayerVersion()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume82.md)

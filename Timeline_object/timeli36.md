@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; pastes the range of motion frames retrieved by [timeline.copyMotion()](#_bookmark1040) to the Timeline. If necessary, existing frames are displaced (moved to the right) to make room for the frames being pasted.
+Method; pastes the range of motion frames retrieved by [timeline.copyMotion()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timelin8.md) to the Timeline. If necessary, existing frames are displaced (moved to the right) to make room for the frames being pasted.
 
 #### Example
 
@@ -29,4 +29,4 @@ fl.getDocumentDOM().getTimeline().pasteMotion();
 ```
 #### See also
 
-[timeline.copyMotion()](#_bookmark1040)
+[timeline.copyMotion()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timelin8.md)

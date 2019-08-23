@@ -21,7 +21,7 @@ Nothing.
 
 #### Description
 
-Method; imports a file into a document. This method performs the same operation as the Import To Library or Import To Stage menu command. To import a publish profile, use [document.importPublishProfile()](#document.importPublishProfile()).
+Method; imports a file into a document. This method performs the same operation as the Import To Library or Import To Stage menu command. To import a publish profile, use [document.importPublishProfile()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume94.md)).
 
 #### Example
 
@@ -33,6 +33,6 @@ var URI = fl.browseForFileURL("select", "Import File"); dom.importFile(URI);
 ```
 #### See also
 
-[fl.browseForFileURL()](#_bookmark454)
+[fl.browseForFileURL()](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl3.md)/fl3.md)
 
 <span id="document.importPublishProfile()" class="anchor"></span>

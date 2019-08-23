@@ -10,7 +10,7 @@ stroke.shapeFill
 
 #### Description
 
-Property; a [Fill object](#_bookmark412) that represents the fill settings of the stroke.
+Property; a [Fill object](#!AdobeDocs/developers-animatesdk-docs/test/Fill_object/fill_summary.md) that represents the fill settings of the stroke.
 
 #### Example
 

@@ -31,4 +31,4 @@ fl.compilerErrors.save("file:///c\|/tests/errors.log");
 ```
 #### See also
 
-[compilerErrors.clear()](#_bookmark97)
+[compilerErrors.clear()](#!AdobeDocs/developers-animatesdk-docs/test/compilerErrors_object/compilerErrors.md)

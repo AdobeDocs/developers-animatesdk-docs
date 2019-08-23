@@ -22,4 +22,4 @@ fl.getDocumentDOM().selection\[0\].embedVariantGlyphs = true;
 ```
 #### See also
 
-[fontItem.embedVariantGlyphs](#_bookmark589)
+[fontItem.embedVariantGlyphs](#!AdobeDocs/developers-animatesdk-docs/test/fontItem_object/fontIte4.md)

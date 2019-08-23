@@ -10,7 +10,7 @@ element.getPublishPersistentData(name, format)
 
 #### Parameters
 
-**name** A string that specifies the name of the persistent data item (set with [element.setPersistentData()](#_bookmark398)).
+**name** A string that specifies the name of the persistent data item (set with [element.setPersistentData()](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/elemen17.md)).
 **format** A string that specifies the publishing format.
 ***Note:** \_EMBED\_SWF\_ is a special built-in publishing format for persistent data. If set, the persistent data will be embedded in the SWF file every time a document is published. The persistent data can then be accessed via ActionScript with the .metaData property. This requires SWF version 19 (Flash Player 11.6) and above and is only for symbol instances onstage. Other custom publishing formats may be specified for custom JSFL scripts if this method is called with the same format.*
 
@@ -47,4 +47,4 @@ alert("elem.metaData.myAlign = '" + elem.getPersistentData("myAlign") + "' will 
 ```
 #### See also
 
-[element.setPublishPersistentData()](#_bookmark399)
+[element.setPublishPersistentData()](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/elemen18.md)

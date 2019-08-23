@@ -22,4 +22,4 @@ fl.trace("Mod date when imported = " + libItem.fileLastModifiedDate);
 ```
 #### See also
 
-[videoItem.sourceFileExists](#_bookmark1145), [videoItem.sourceFileIsCurrent](#_bookmark1146), [videoItem.sourceFilePath](#_bookmark1147), [FLfile.getModificationDate()](#_bookmark568)
+[videoItem.sourceFileExists](#!AdobeDocs/developers-animatesdk-docs/test/VideoItem_object/videoIte3.md), [videoItem.sourceFileIsCurrent](#!AdobeDocs/developers-animatesdk-docs/test/VideoItem_object/videoIte4.md), [videoItem.sourceFilePath](#!AdobeDocs/developers-animatesdk-docs/test/VideoItem_object/videoIte5.md), [FLfile.getModificationDate()](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile6.md)

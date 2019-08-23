@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; splits the edge into two pieces. You must call [shape.beginEdit()](#_bookmark808) before using this method.
+Method; splits the edge into two pieces. You must call [shape.beginEdit()](#!AdobeDocs/developers-animatesdk-docs/test/Shape_object/shape.md) before using this method.
 
 #### Example
 

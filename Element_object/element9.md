@@ -10,7 +10,7 @@ element.locked
 
 #### Description
 
-Property; a Boolean value: true if the element is locked; false otherwise. If the value of [element.elementType](#_bookmark377) is
+Property; a Boolean value: true if the element is locked; false otherwise. If the value of [element.elementType](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/element1.md) is
 "shape", this property is ignored.
 
 #### Example

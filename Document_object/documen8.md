@@ -10,7 +10,7 @@ document.addNewPrimitiveRectangle( boundingRectangle, roundness, \[, bSuppressFi
 
 #### Parameters
 
-**rect** A rectangle that specifies the bounds within which the new rectangle primitive is added. For information on the format of *boundingRectangle*, see [document.addNewRectangle()](#_bookmark128).
+**rect** A rectangle that specifies the bounds within which the new rectangle primitive is added. For information on the format of *boundingRectangle*, see [document.addNewRectangle()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume10.md).
 **roundness** An integer between 0 and 999 that represents the number of points used to specify how much the corners should be rounded.
 **bSuppressFill** A Boolean value that, if set to true, causes the method to create the rectangle without a fill. The default value is false. This parameter is optional.
 **bSuppressStroke** A Boolean value that, if set to true, causes the method to create the rectangle without a stroke**.** The default value is false. This parameter is optional.
@@ -34,4 +34,4 @@ The following example adds rectangle primitives within the specified coordinates
 ```
 #### See also
 
-[document.addNewRectangle()](#_bookmark128)
+[document.addNewRectangle()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume10.md)

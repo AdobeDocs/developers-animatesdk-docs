@@ -11,7 +11,7 @@ stroke.rotate
 #### Description
 
 Property; a string that specifies the rotation of a hatch line. This property is available only if the stroke.style
-property is set to hatched (see [stroke.style](#_bookmark898)). Acceptable values are "none", "slight", "medium", and "free".
+property is set to hatched (see [stroke.style](#!AdobeDocs/developers-animatesdk-docs/test/Stroke_object/stroke20.md)). Acceptable values are "none", "slight", "medium", and "free".
 
 #### Example
 

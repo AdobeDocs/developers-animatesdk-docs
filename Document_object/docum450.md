@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; sets the preferences for [document.align()](#_bookmark132), [document.distribute()](#_bookmark173), [document.match()](#_bookmark237), and [document.space()](#_bookmark323) to act on the document. This method is equivalent to enabling the To Stage button in the Align panel.
+Method; sets the preferences for [document.align()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume13.md), [document.distribute()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume49.md), [document.match()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum120.md), and [document.space()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum67.md) to act on the document. This method is equivalent to enabling the To Stage button in the Align panel.
 
 #### Example
 
@@ -29,4 +29,4 @@ fl.getDocumentDOM().setAlignToDocument(true);
 ```
 #### See also
 
-[document.getAlignToDocument()](#_bookmark198)
+[document.getAlignToDocument()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume72.md)

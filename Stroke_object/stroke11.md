@@ -14,4 +14,4 @@ Property; a string that specifies the type of join for the stroke. Acceptable va
 
 #### See also
 
-[stroke.capType](#_bookmark879)
+[stroke.capType](#!AdobeDocs/developers-animatesdk-docs/test/Stroke_object/stroke1.md)

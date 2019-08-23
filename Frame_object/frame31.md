@@ -10,7 +10,7 @@ frame.soundLibraryItem
 
 #### Description
 
-Property; a library item (see [SoundItem object](#_bookmark827)) used to create a sound. The sound is attached directly to the frame.
+Property; a library item (see [SoundItem object](#!AdobeDocs/developers-animatesdk-docs/test/SoundItem_object/soundItem_summary.md)) used to create a sound. The sound is attached directly to the frame.
 
 #### Example
 

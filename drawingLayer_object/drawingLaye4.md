@@ -10,7 +10,7 @@ drawingLayer.drawPath(path)
 
 #### Parameters
 
-**path** A [Path object](#_bookmark759) to draw.
+**path** A [Path object](#!AdobeDocs/developers-animatesdk-docs/test/Path_object/path_summary.md) to draw.
 
 #### Returns
 

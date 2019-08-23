@@ -11,7 +11,7 @@ soundItem.compressionType
 #### Description
 
 Property; a string that specifies that compression type for a sound in the library. Acceptable values are "Default", "ADPCM", "MP3", "Raw", and "Speech".
-If you want to specify a value for this property, set [soundItem.useImportedMP3Quality](#_bookmark842) to false.
+If you want to specify a value for this property, set [soundItem.useImportedMP3Quality](#!AdobeDocs/developers-animatesdk-docs/test/SoundItem_object/soundIt13.md) to false.
 
 #### Example
 
@@ -22,4 +22,4 @@ The following example changes the compression type of the selected library items
 ```
 #### See also
 
-[soundItem.originalCompressionType](#_bookmark836)
+[soundItem.originalCompressionType](#!AdobeDocs/developers-animatesdk-docs/test/SoundItem_object/soundIte7.md)

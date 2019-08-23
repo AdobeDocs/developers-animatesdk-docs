@@ -33,4 +33,4 @@ fl.presetPanel.addNewItem("Custom Presets/Bouncing Ball");
 ```
 #### See also
 
-[presetPanel.newFolder()](#_bookmark793)
+[presetPanel.newFolder()](#!AdobeDocs/developers-animatesdk-docs/test/presetPanel_object/presetPan11.md)

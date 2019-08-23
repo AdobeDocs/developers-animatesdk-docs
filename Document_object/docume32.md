@@ -31,4 +31,4 @@ fl.getDocumentDOM().clipPaste(true);
 ```
 #### See also
 
-[document.clipCopy()](#_bookmark150), [document.clipCut()](#_bookmark152), [fl.clipCopyString()](#_bookmark458)
+[document.clipCopy()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume30.md), [document.clipCut()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume31.md), [fl.clipCopyString()](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl6.md)/fl6.md)

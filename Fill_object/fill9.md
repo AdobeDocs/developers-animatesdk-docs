@@ -11,7 +11,7 @@ fill.style
 #### Description
 
 Property; a string that specifies the fill style. Acceptable values are "bitmap", "solid", "linearGradient", "radialGradient", and "noFill".
-If this value is "linearGradient" or "radialGradient", the [fill.colorArray](#_bookmark417) and [fill.posArray](#_bookmark422) properties are also available. If this value is "bitmap", the [fill.bitmapIsClipped](#_bookmark414) and [fill.bitmapPath](#_bookmark415) properties are also available.
+If this value is "linearGradient" or "radialGradient", the [fill.colorArray](#!AdobeDocs/developers-animatesdk-docs/test/Fill_object/fill3.md) and [fill.posArray](#!AdobeDocs/developers-animatesdk-docs/test/Fill_object/fill8.md) properties are also available. If this value is "bitmap", the [fill.bitmapIsClipped](#!AdobeDocs/developers-animatesdk-docs/test/Fill_object/fill.md) and [fill.bitmapPath](#!AdobeDocs/developers-animatesdk-docs/test/Fill_object/fill1.md) properties are also available.
 
 #### Example
 

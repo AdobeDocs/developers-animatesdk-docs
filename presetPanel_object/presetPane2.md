@@ -31,6 +31,6 @@ fl.presetPanel.deleteFolder("Custom Presets/Bouncing");
 ```
 #### See also
 
-[presetPanel.deleteItem()](#presetPanel.deleteItem())
+[presetPanel.deleteItem()](#!AdobeDocs/developers-animatesdk-docs/test/presetPanel_object/presetPane3.md))
 
 <span id="presetPanel.deleteItem()" class="anchor"></span>

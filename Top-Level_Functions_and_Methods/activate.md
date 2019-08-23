@@ -25,7 +25,7 @@ Function; called when the extensible tool becomes active (that is, when the tool
 #### Example
 
 ```javascript
-The following example sets the value of [tools.activeTool](#_bookmark1107) when the extensible tool is selected in the Tools panel:
+The following example sets the value of [tools.activeTool](#!AdobeDocs/developers-animatesdk-docs/test/Tools_object/tools.md) when the extensible tool is selected in the Tools panel:
 function activate() {
 var theTool = fl.tools.activeTool
 }
@@ -33,4 +33,4 @@ var theTool = fl.tools.activeTool
 ```
 #### See also
 
-[tools.activeTool](#_bookmark1107)
+[tools.activeTool](#!AdobeDocs/developers-animatesdk-docs/test/Tools_object/tools.md)

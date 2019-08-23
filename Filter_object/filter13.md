@@ -25,4 +25,4 @@ fl.trace(traceStr);
 ```
 #### See also
 
-[document.getFilters()](#_bookmark208), [document.setFilterProperty()](#_bookmark289)
+[document.getFilters()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume79.md), [document.setFilterProperty()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum520.md)

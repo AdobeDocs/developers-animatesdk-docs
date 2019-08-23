@@ -29,4 +29,4 @@ fl.trace("XML Metadata is :" + fl.getDocumentDOM().getMetadata());
 ```
 #### See also
 
-[document.setMetadata()](#_bookmark295)
+[document.setMetadata()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum570.md)

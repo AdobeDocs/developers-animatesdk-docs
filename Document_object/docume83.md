@@ -46,4 +46,4 @@ alert("elem.metaData.myAlign = '" + elem.getPersistentData("myAlign") + "' will 
 ```
 #### See also
 
-[document.setPublishDocumentData()](#_bookmark300)
+[document.setPublishDocumentData()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu9627.md)

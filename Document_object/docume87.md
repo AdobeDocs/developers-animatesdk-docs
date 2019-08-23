@@ -35,4 +35,4 @@ fl.getDocumentDOM().getTextString(2, 10);
 ```
 #### See also
 
-[document.setTextString()](#_bookmark315)
+[document.setTextString()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu9908.md)

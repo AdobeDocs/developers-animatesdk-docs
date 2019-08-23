@@ -15,15 +15,15 @@ To add objects to the array, you must first select them in one of the following 
 
 -   Manually select objects on the Stage.
 
--   Use one of the selection methods, such as [document.setSelectionRect()](#_bookmark305), [document.setSelectionBounds()](#_bookmark303), [document.mouseClick()](#_bookmark238), [document.mouseDblClk()](#_bookmark239), or [document.selectAll()](#_bookmark273).
+-   Use one of the selection methods, such as [document.setSelectionRect()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu9689.md), [document.setSelectionBounds()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu9658.md), [document.mouseClick()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum130.md), [document.mouseDblClk()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum140.md), or [document.selectAll()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum420.md).
 
 -   Manually select a frame or frames.
 
--   Use one of the methods of the [Timeline object](#_bookmark1030) to select a frame or frames, such as
+-   Use one of the methods of the [Timeline object](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeline_summary.md) to select a frame or frames, such as
 
-[timeline.getSelectedFrames()](#_bookmark1059), [timeline.setSelectedFrames()](#_bookmark1083), or [timeline.selectAllFrames()](#_bookmark1078).
+[timeline.getSelectedFrames()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli25.md), [timeline.setSelectedFrames()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli46.md), or [timeline.selectAllFrames()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli42.md).
 
--   Specify all the elements in a particular frame (see [Element object](#_bookmark374)). See the first example below.
+-   Specify all the elements in a particular frame (see [Element object](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/element_summary.md)). See the first example below.
 
 -   Create an array of one or more elements and then assign that array to the document.selection array. See the third example below.
 
@@ -32,7 +32,7 @@ To add objects to the array, you must first select them in one of the following 
 ```javascript
 The following example assigns all elements on Frame 11 to the current selection (remember that index values are different from frame number values):
 fl.getDocumentDOM().getTimeline().currentFrame = 10; fl.getDocumentDOM().selection = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[10\].elements;
-The following example creates a rectangle in the upper left corner of the Stage and a text string underneath the rectangle. Then it selects both objects using [document.setSelectionRect()](#_bookmark305) and adds them to the document.selection array. Finally, it displays the contents of document.selection in the Output panel.
+The following example creates a rectangle in the upper left corner of the Stage and a text string underneath the rectangle. Then it selects both objects using [document.setSelectionRect()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu9689.md) and adds them to the document.selection array. Finally, it displays the contents of document.selection in the Output panel.
 fl.getDocumentDOM().addNewRectangle({left:0, top:0, right:99, bottom:99}, 0); fl.getDocumentDOM().addNewText({left:-1, top:117.3, right:9.2, bottom:134.6}); fl.getDocumentDOM().setTextString('Hello World'); fl.getDocumentDOM().setSelectionRect({left:-28, top:-22, right:156.0, bottom:163});
 var theSelectionArray = fl.getDocumentDOM().selection; for(var i=0;i\<theSelectionArray.length;i++){
 fl.trace("fl.getDocumentDOM().selection\["+i+"\] = " + theSelectionArray\[i\]);

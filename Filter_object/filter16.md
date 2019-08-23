@@ -18,7 +18,7 @@ Property; the color of the shadow, in one of the following formats:
 
 -   An integer that represents the decimal equivalent of a hexadecimal number
 
-This property is defined for Filter objects with a value of "bevelFilter" for the [filter.name](#_bookmark440) property.
+This property is defined for Filter objects with a value of "bevelFilter" for the [filter.name](#!AdobeDocs/developers-animatesdk-docs/test/Filter_object/filter13.md) property.
 
 #### Example
 
@@ -33,4 +33,4 @@ fl.getDocumentDOM().setFilters(myFilters);
 ```
 #### See also
 
-[document.setFilterProperty()](#_bookmark289)
+[document.setFilterProperty()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum520.md)

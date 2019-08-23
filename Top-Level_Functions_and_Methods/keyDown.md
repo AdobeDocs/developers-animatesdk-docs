@@ -21,7 +21,7 @@ Nothing.
 #### Description
 
 Function; called when the extensible tool is active and the user presses a key. The script should call
-[tools.getKeyDown()](#_bookmark1112) to determine which key was pressed.
+[tools.getKeyDown()](#!AdobeDocs/developers-animatesdk-docs/test/Tools_object/tools4.md) to determine which key was pressed.
 
 #### Example
 
@@ -34,6 +34,6 @@ fl.trace("key " + fl.tools.getKeyDown() + " was pressed");
 ```
 #### See also
 
-[keyUp()](#keyUp()), [tools.getKeyDown()](#_bookmark1112)
+[keyUp()](#!AdobeDocs/developers-animatesdk-docs/test/Top-Level_Functions_and_Methods/keyUp.md)), [tools.getKeyDown()](#!AdobeDocs/developers-animatesdk-docs/test/Tools_object/tools4.md)
 
 <span id="keyUp()" class="anchor"></span>

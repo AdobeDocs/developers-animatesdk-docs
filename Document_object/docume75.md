@@ -20,7 +20,7 @@ If you omit this parameter, it defaults to "selection". If there is no selection
 
 #### Returns
 
-The [Stroke object](#_bookmark876) specified by the *locationOfStroke* parameter, if successful; otherwise, it returns undefined.
+The [Stroke object](#!AdobeDocs/developers-animatesdk-docs/test/Stroke_object/stroke_summary.md) specified by the *locationOfStroke* parameter, if successful; otherwise, it returns undefined.
 
 #### Description
 
@@ -37,4 +37,4 @@ var stroke = fl.getDocumentDOM().getCustomStroke("toolbar"); stroke.color = "\#F
 ```
 #### See also
 
-[document.setCustomStroke()](#_bookmark281)
+[document.setCustomStroke()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum480.md)

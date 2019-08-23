@@ -29,6 +29,6 @@ The following example returns the value of a property named URL: fl.xmlui.get("U
 ```
 #### See also
 
-[fl.xmlui](#_bookmark557), [document.xmlPanel()](#_bookmark342), [xmlui.getControlItemElement()](#xmlui.getControlItemElement()), [xmlui.set()](#_bookmark1159)
+[fl.xmlui](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl81.md)/fl81.md), [document.xmlPanel()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6198.md), [xmlui.getControlItemElement()](#!AdobeDocs/developers-animatesdk-docs/test/XMLUI_object/xmlui3.md)), [xmlui.set()](#!AdobeDocs/developers-animatesdk-docs/test/XMLUI_object/xmlui6.md)
 
 <span id="xmlui.getControlItemElement()" class="anchor"></span>

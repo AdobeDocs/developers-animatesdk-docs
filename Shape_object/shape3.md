@@ -10,5 +10,5 @@ shape.edges
 
 #### Description
 
-Read-only property; an array of Edge objects (see [Edge object](#_bookmark362)).
+Read-only property; an array of Edge objects (see [Edge object](#!AdobeDocs/developers-animatesdk-docs/test/Edge_object/edge_summary.md)).
 
