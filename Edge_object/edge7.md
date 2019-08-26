@@ -10,7 +10,7 @@ edge.stroke
 
 #### Description
 
-Property; a [Stroke object](#_bookmark876).
+Property; a [Stroke object](#!AdobeDocs/developers-animatesdk-docs/test/Stroke_object/stroke_summary.md).
 
 #### Example
 

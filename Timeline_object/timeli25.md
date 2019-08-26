@@ -26,4 +26,4 @@ var theSelectedFrames = timeline.getSelectedFrames(); fl.trace(theSelectedFrames
 ```
 #### See also
 
-[timeline.setSelectedFrames()](#_bookmark1082)
+[timeline.setSelectedFrames()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli46.md)

@@ -10,7 +10,7 @@ symbolInstance.colorAlphaAmount
 
 #### Description
 
-Property; an integer that is part of the color transformation for the instance, specifying the Advanced Effect Alpha settings. This property is equivalent to using the Color \Advanced setting in the Property inspector and adjusting the controls on the right of the dialog box. This value either reduces or increases the tint and alpha values by a constant amount. This value is added to the current value. This property is most useful if used with [symbolInstance.colorAlphaPercent](#symbolInstance.colorAlphaPercent). Allowable values are from -255 to 255.
+Property; an integer that is part of the color transformation for the instance, specifying the Advanced Effect Alpha settings. This property is equivalent to using the Color \Advanced setting in the Property inspector and adjusting the controls on the right of the dialog box. This value either reduces or increases the tint and alpha values by a constant amount. This value is added to the current value. This property is most useful if used with [symbolInstance.colorAlphaPercent](#!AdobeDocs/developers-animatesdk-docs/test/SymbolInstance_object/symbolInstanc9.md). Allowable values are from -255 to 255.
 
 #### Example
 

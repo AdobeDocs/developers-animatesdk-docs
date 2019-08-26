@@ -25,4 +25,4 @@ fl.outputPanel.trace("document.docClass has been set to " + myDocument.docClass)
 ```
 #### See also
 
-[item.linkageBaseClass](#_bookmark667)
+[item.linkageBaseClass](#!AdobeDocs/developers-animatesdk-docs/test/Item_object/item5.md)

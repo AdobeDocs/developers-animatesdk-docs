@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Description
 
-The actionsPanel object, which represents the currently displayed Actions panel, is a property of the flash object (see [fl.actionsPanel](#_bookmark450)).
+The actionsPanel object, which represents the currently displayed Actions panel, is a property of the flash object (see [fl.actionsPanel](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl.md)/fl.md)).
 
 #### Method summary
 
@@ -16,13 +16,13 @@ The following methods can be used with the actionsPanel object:
 |--------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [actionsPanel.getClassForObject() -](#actionsPanel.getClassForObject()_-_dropp) [dropped](#actionsPanel.getClassForObject()_-_dropp) | Dropped in Adobe Animate.                                              |
 | [actionsPanel.getScriptAssistMode() -](#_bookmark34) [dropped](#_bookmark34)                                                         | Dropped in Adobe Animate.                                              |
-| [actionsPanel.getSelectedText()](#_bookmark35)                                                                                       | Returns the text that is currently selected in the Actions panel.      |
-| [actionsPanel.getText()](#_bookmark36)                                                                                               | Returns the text in the Actions panel.                                 |
-| [actionsPanel.hasSelection()](#_bookmark37)                                                                                          | Specifies whether any text is currently selected in the Actions panel. |
-| [actionsPanel.replaceSelectedText()](#_bookmark38)                                                                                   | Replaces the currently selected text with specified text.              |
+| [actionsPanel.getSelectedText()](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane2.md)                                                                                       | Returns the text that is currently selected in the Actions panel.      |
+| [actionsPanel.getText()](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane3.md)                                                                                               | Returns the text in the Actions panel.                                 |
+| [actionsPanel.hasSelection()](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane4.md)                                                                                          | Specifies whether any text is currently selected in the Actions panel. |
+| [actionsPanel.replaceSelectedText()](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane5.md)                                                                                   | Replaces the currently selected text with specified text.              |
 | [actionsPanel.setScriptAssistMode() -](#_bookmark39) [dropped](#_bookmark39)                                                         | Dropped in Adobe Animate.                                              |
-| [actionsPanel.setSelection()](#_bookmark40)                                                                                          | Selects a specified set of characters in the Actions panel.            |
-| [actionsPanel.setText()](#_bookmark41)                                                                                               | Clears any text in the Actions panel and then adds specified text.     |
+| [actionsPanel.setSelection()](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane7.md)                                                                                          | Selects a specified set of characters in the Actions panel.            |
+| [actionsPanel.setText()](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane8.md)                                                                                               | Clears any text in the Actions panel and then adds specified text.     |
 
 <span id="actionsPanel.getClassForObject()_-_dropp" class="anchor"></span>
 

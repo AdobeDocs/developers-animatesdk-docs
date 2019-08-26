@@ -25,4 +25,4 @@ fl.trace("Here is the property dump for screenOutline: "+myArray);
 ```
 #### See also
 
-[document.allowScreens() - dropped](#_bookmark133)
+[document.allowScreens() - dropped](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume14.md)

@@ -31,4 +31,4 @@ var myURI=FLfile.platformPathToURI(myFilename); fl.outputPanel.save(myURI);
 ```
 #### See also
 
-[FLfile.uriToPlatformPath()](#_bookmark576)
+[FLfile.uriToPlatformPath()](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile14.md)

@@ -10,7 +10,7 @@ text.selectionStart
 
 #### Description
 
-Property; a zero-based integer that specifies the beginning of a text subselection. You can use this property with text.selectionEnd to select a range of characters. Characters up to, but not including, text.selectionEnd are selected. See [text.selectionEnd](#_bookmark990).
+Property; a zero-based integer that specifies the beginning of a text subselection. You can use this property with text.selectionEnd to select a range of characters. Characters up to, but not including, text.selectionEnd are selected. See [text.selectionEnd](#!AdobeDocs/developers-animatesdk-docs/test/Text_object/text20.md).
 
 -   If there is an insertion point or no selection, text.selectionEnd is equal to text.selectionStart.
 

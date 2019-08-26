@@ -11,7 +11,7 @@ text.selectionEnd
 #### Description
 
 Property; a zero-based integer that specifies the end of a text subselection. For more information, see
-[text.selectionStart](#text.selectionStart).
+[text.selectionStart](#!AdobeDocs/developers-animatesdk-docs/test/Text_object/text21.md).
 
 <span id="text.selectionStart" class="anchor"></span>
 

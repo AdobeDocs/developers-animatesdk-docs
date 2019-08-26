@@ -21,6 +21,6 @@ var libItem = fl.getDocumentDOM().library.items\[0\]; fl.trace("sourceFileExists
 ```
 #### See also
 
-[soundItem.sourceFileIsCurrent](#soundItem.sourceFileIsCurrent), [soundItem.sourceFilePath](#_bookmark841)
+[soundItem.sourceFileIsCurrent](#!AdobeDocs/developers-animatesdk-docs/test/SoundItem_object/soundIt11.md), [soundItem.sourceFilePath](#!AdobeDocs/developers-animatesdk-docs/test/SoundItem_object/soundIt12.md)
 
 <span id="soundItem.sourceFileIsCurrent" class="anchor"></span>

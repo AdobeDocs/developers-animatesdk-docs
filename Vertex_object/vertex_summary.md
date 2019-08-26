@@ -14,8 +14,8 @@ You can use the following methods with the Vertex object:
 
 | **Method**                                    | **Description**                                                  |
 |-----------------------------------------------|------------------------------------------------------------------|
-| [vertex.getHalfEdge()](#vertex.getHalfEdge()) | Gets a [HalfEdge object](#_bookmark644) that shares this vertex. |
-| [vertex.setLocation()](#_bookmark1136)        | Sets the location of the vertex.                                 |
+| [vertex.getHalfEdge()](#!AdobeDocs/developers-animatesdk-docs/test/Vertex_object/vertex.md)) | Gets a [HalfEdge object](#!AdobeDocs/developers-animatesdk-docs/test/HalfEdge_object/halfEdge_summary.md) that shares this vertex. |
+| [vertex.setLocation()](#!AdobeDocs/developers-animatesdk-docs/test/Vertex_object/vertex1.md)        | Sets the location of the vertex.                                 |
 
 #### Property summary
 
@@ -23,8 +23,8 @@ The following properties are available for the Vertex object:
 
 | **Property**               | **Description**                                      |
 |----------------------------|------------------------------------------------------|
-| [vertex.x](#_bookmark1137) | Read-only; the *x* location of the vertex in pixels. |
-| [vertex.y](#_bookmark1138) | Read-only; the *y* location of the vertex in pixels. |
+| [vertex.x](#!AdobeDocs/developers-animatesdk-docs/test/Vertex_object/vertex2.md) | Read-only; the *x* location of the vertex in pixels. |
+| [vertex.y](#!AdobeDocs/developers-animatesdk-docs/test/Vertex_object/vertex3.md) | Read-only; the *y* location of the vertex in pixels. |
 
 <span id="vertex.getHalfEdge()" class="anchor"></span>
 

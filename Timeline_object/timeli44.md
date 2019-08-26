@@ -19,7 +19,7 @@ A Boolean value of true if the guidelines are successfully applied; false otherw
 #### Description
 
 Method: replaces the guide lines for the timeline (View \Guides \Show Guides) with the information specified in
-*xmlString*. To retrieve an XML string that can be passed to this method, use [timeline.getGuidelines()](#_bookmark1056). To view the newly set guide lines, you may have to hide them and then view them.
+*xmlString*. To retrieve an XML string that can be passed to this method, use [timeline.getGuidelines()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli23.md). To view the newly set guide lines, you may have to hide them and then view them.
 
 #### Example
 

@@ -21,4 +21,4 @@ The following code illustrates use of this property.
 ```
 #### See also
 
-[bitmapItem.vPixels](#_bookmark65)
+[bitmapItem.vPixels](#!AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIt14.md)

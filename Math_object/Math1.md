@@ -10,7 +10,7 @@ Math.invertMatrix(mat)
 
 #### Parameters
 
-**mat** Indicates the Matrix object to invert (see [Matrix object](#_bookmark725)). It must have the following fields: a, b, c, d, tx, and ty.
+**mat** Indicates the Matrix object to invert (see [Matrix object](#!AdobeDocs/developers-animatesdk-docs/test/Matrix_object/matrix_summary.md)). It must have the following fields: a, b, c, d, tx, and ty.
 
 #### Returns
 

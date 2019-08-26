@@ -10,7 +10,7 @@ filter.knockout
 
 #### Description
 
-Property; a Boolean value that specifies whether the filter is a knockout filter (true) or not (false). This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", or "gradientGlowFilter" for the [filter.name](#filter.name) property.
+Property; a Boolean value that specifies whether the filter is a knockout filter (true) or not (false). This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", or "gradientGlowFilter" for the [filter.name](#!AdobeDocs/developers-animatesdk-docs/test/Filter_object/filter13.md) property.
 
 #### Example
 
@@ -25,6 +25,6 @@ fl.getDocumentDOM().setFilters(myFilters);
 ```
 #### See also
 
-[document.setFilterProperty()](#_bookmark289)
+[document.setFilterProperty()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum520.md)
 
 <span id="filter.name" class="anchor"></span>

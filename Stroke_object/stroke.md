@@ -2,7 +2,7 @@
 
 #### Availability
 
-Flash MX 2004. Deprecated in Flash CS3 in favor of [stroke.joinType](#_bookmark889).
+Flash MX 2004. Deprecated in Flash CS3 in favor of [stroke.joinType](#!AdobeDocs/developers-animatesdk-docs/test/Stroke_object/stroke11.md).
 
 #### Usage
 

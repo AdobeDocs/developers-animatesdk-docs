@@ -10,7 +10,7 @@ element.matrix
 
 #### Description
 
-Property; a Matrix object. A matrix has properties a, b, c, d, tx, and ty. The a, b, c, and d properties are floating-point values; the tx and ty properties are coordinates. See [Matrix object](#_bookmark725).
+Property; a Matrix object. A matrix has properties a, b, c, d, tx, and ty. The a, b, c, and d properties are floating-point values; the tx and ty properties are coordinates. See [Matrix object](#!AdobeDocs/developers-animatesdk-docs/test/Matrix_object/matrix_summary.md).
 
 #### Example
 

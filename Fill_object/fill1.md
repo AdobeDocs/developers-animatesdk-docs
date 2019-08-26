@@ -10,7 +10,7 @@ fill.bitmapPath
 
 #### Description
 
-Property; a string that specifies the path and name of the bitmap fill in the Library. This property is available only if the value of the [fill.style](#_bookmark423) property is "bitmap".
+Property; a string that specifies the path and name of the bitmap fill in the Library. This property is available only if the value of the [fill.style](#!AdobeDocs/developers-animatesdk-docs/test/Fill_object/fill9.md) property is "bitmap".
 
 #### Example
 
@@ -22,4 +22,4 @@ fill.bitmapPath = "myBitmap.jpg"; fl.getDocumentDOM().setCustomFill(fill);
 ```
 #### See also
 
-[fill.bitmapIsClipped](#_bookmark414)
+[fill.bitmapIsClipped](#!AdobeDocs/developers-animatesdk-docs/test/Fill_object/fill.md)

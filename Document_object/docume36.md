@@ -21,7 +21,7 @@ An object for the newly created symbol, or null if it cannot create the symbol.
 
 #### Description
 
-Method; converts the selected Stage item(s) to a new symbol. For information on defining linkage and shared asset properties for a symbol, see [Item object](#_bookmark658).
+Method; converts the selected Stage item(s) to a new symbol. For information on defining linkage and shared asset properties for a symbol, see [Item object](#!AdobeDocs/developers-animatesdk-docs/test/Item_object/item_summary.md).
 
 #### Example
 

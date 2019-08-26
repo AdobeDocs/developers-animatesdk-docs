@@ -19,7 +19,7 @@ A point (for example, {x:10, y:20}, where x and y are floating-point numbers) th
 #### Description
 
 Method; gets the value of the specified element’s transformation point.
-Transformation points are relative to different locations, depending on the type of item selected. For more information, see [element.setTransformationPoint()](#_bookmark400).
+Transformation points are relative to different locations, depending on the type of item selected. For more information, see [element.setTransformationPoint()](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/elemen19.md).
 
 #### Example
 
@@ -30,4 +30,4 @@ var transPoint = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[8\].eleme
 ```
 #### See also
 
-[document.getTransformationPoint()](#_bookmark219), [element.setTransformationPoint()](#_bookmark400), [element.transformX](#_bookmark406), [element.transformY](#_bookmark407)
+[document.getTransformationPoint()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume89.md), [element.setTransformationPoint()](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/elemen19.md), [element.transformX](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/elemen23.md), [element.transformY](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/elemen24.md)

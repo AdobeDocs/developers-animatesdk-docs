@@ -21,4 +21,4 @@ fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].blendMod
 ```
 #### See also
 
-[document.setBlendMode()](#_bookmark279)
+[document.setBlendMode()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum460.md)

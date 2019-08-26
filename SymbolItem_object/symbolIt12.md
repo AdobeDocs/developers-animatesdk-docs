@@ -10,7 +10,7 @@ symbolItem.timeline
 
 #### Description
 
-Read-only property; a [Timeline object](#_bookmark1030).
+Read-only property; a [Timeline object](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeline_summary.md).
 
 #### Example
 

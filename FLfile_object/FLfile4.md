@@ -36,6 +36,6 @@ alert("The file has not been modified since it was created.");
 ```
 #### See also
 
-[FLfile.getCreationDateObj()](#FLfile.getCreationDateObj()), [FLfile.getModificationDate()](#_bookmark567)
+[FLfile.getCreationDateObj()](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile5.md)), [FLfile.getModificationDate()](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile6.md)
 
 <span id="FLfile.getCreationDateObj()" class="anchor"></span>

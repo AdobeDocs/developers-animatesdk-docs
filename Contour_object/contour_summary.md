@@ -14,7 +14,7 @@ You can use the following method with the Contour object:
 
 | **Method**                             | **Description**                                                             |
 |----------------------------------------|-----------------------------------------------------------------------------|
-| [contour.getHalfEdge()](#_bookmark112) | Returns a [HalfEdge object](#_bookmark644) on the contour of the selection. |
+| [contour.getHalfEdge()](#!AdobeDocs/developers-animatesdk-docs/test/Contour_object/contour1.md) | Returns a [HalfEdge object](#!AdobeDocs/developers-animatesdk-docs/test/HalfEdge_object/halfEdge_summary.md) on the contour of the selection. |
 
 #### Property summary
 
@@ -22,9 +22,9 @@ You can use the following properties with the Contour object:
 
 | **Property**                         | **Description**                                                                |
 |--------------------------------------|--------------------------------------------------------------------------------|
-| [contour.fill](#contour.fill)        | A [Fill object](#_bookmark412).                                                |
-| [contour.interior](#_bookmark113)    | Read-only; the value is true if the contour encloses an area; false otherwise. |
-| [contour.orientation](#_bookmark114) | Read-only; an integer indicating the orientation of the contour.               |
+| [contour.fill](#!AdobeDocs/developers-animatesdk-docs/test/Contour_object/contour.md)        | A [Fill object](#!AdobeDocs/developers-animatesdk-docs/test/Fill_object/fill_summary.md).                                                |
+| [contour.interior](#!AdobeDocs/developers-animatesdk-docs/test/Contour_object/contour2.md)    | Read-only; the value is true if the contour encloses an area; false otherwise. |
+| [contour.orientation](#!AdobeDocs/developers-animatesdk-docs/test/Contour_object/contour3.md) | Read-only; an integer indicating the orientation of the contour.               |
 
 <span id="contour.fill" class="anchor"></span>
 

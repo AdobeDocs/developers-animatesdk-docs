@@ -11,7 +11,7 @@ soundItem.bits
 #### Description
 
 Property; a string that specifies the bits value for a sound in the library that has ADPCM compression. Acceptable values are "2 bit", "3 bit", "4 bit", and "5 bit".
-If you want to specify a value for this property, set [soundItem.useImportedMP3Quality](#_bookmark842) to false.
+If you want to specify a value for this property, set [soundItem.useImportedMP3Quality](#!AdobeDocs/developers-animatesdk-docs/test/SoundItem_object/soundIt13.md) to false.
 
 #### Example
 
@@ -22,6 +22,6 @@ alert(fl.getDocumentDOM().library.items\[0\].bits);
 ```
 #### See also
 
-[soundItem.compressionType](#soundItem.compressionType)
+[soundItem.compressionType](#!AdobeDocs/developers-animatesdk-docs/test/SoundItem_object/soundIte2.md)
 
 <span id="soundItem.compressionType" class="anchor"></span>

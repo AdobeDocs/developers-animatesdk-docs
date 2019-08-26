@@ -40,4 +40,4 @@ fl.getDocumentDOM().changeFilterOrder(1,0);
 ```
 #### See also
 
-[document.addFilter()](#_bookmark121), [document.disableFilter()](#_bookmark171), [document.enableFilter()](#_bookmark184), [document.getFilters()](#_bookmark207), [document.removeFilter()](#_bookmark255), [Filter object](#_bookmark425)
+[document.addFilter()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/documen3.md), [document.disableFilter()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume47.md), [document.enableFilter()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume59.md), [document.getFilters()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume79.md), [document.removeFilter()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum270.md), [Filter object](#!AdobeDocs/developers-animatesdk-docs/test/Filter_object/filter_summary.md)

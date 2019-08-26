@@ -18,8 +18,8 @@ A Boolean value: true if the save operation completes successfully; false otherw
 
 #### Description
 
-Method; saves the document in its default location. This method is equivalent to selecting File \Save. To specify a name for the file (instead of saving it with the same name), use [fl.saveDocument()](#_bookmark534).
-***Note:** If the file is new and has not been modified or saved, or if the file has not been modified since the last time it was saved, this method has no effect and false is returned. To allow an unsaved or unmodified file to be saved, use [fl.saveDocumentAs()](#_bookmark536).*
+Method; saves the document in its default location. This method is equivalent to selecting File \Save. To specify a name for the file (instead of saving it with the same name), use [fl.saveDocument()](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl64.md)/fl64.md).
+***Note:** If the file is new and has not been modified or saved, or if the file has not been modified since the last time it was saved, this method has no effect and false is returned. To allow an unsaved or unmodified file to be saved, use [fl.saveDocumentAs()](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl65.md)/fl65.md).*
 
 #### Example
 
@@ -30,4 +30,4 @@ fl.getDocumentDOM().save();
 ```
 #### See also
 
-[fl.saveAll()](#_bookmark532), [fl.saveDocument()](#_bookmark534), [fl.saveDocumentAs()](#_bookmark536)
+[fl.saveAll()](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl63.md)/fl63.md), [fl.saveDocument()](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl64.md)/fl64.md), [fl.saveDocumentAs()](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl65.md)/fl65.md)

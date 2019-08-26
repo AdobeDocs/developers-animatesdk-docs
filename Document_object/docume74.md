@@ -21,7 +21,7 @@ undefined. This parameter is optional.
 
 #### Returns
 
-The [Fill object](#_bookmark412) specified by the *objectToFill* parameter, if successful; otherwise, it returns undefined.
+The [Fill object](#!AdobeDocs/developers-animatesdk-docs/test/Fill_object/fill_summary.md) specified by the *objectToFill* parameter, if successful; otherwise, it returns undefined.
 
 #### Description
 
@@ -40,4 +40,4 @@ fill.colorArray = \[ 0x00ff00, 0xff0000, 0x0000ff \]; fill.posArray = \[0, 100, 
 ```
 #### See also
 
-[document.setCustomFill()](#_bookmark280)
+[document.setCustomFill()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum470.md)

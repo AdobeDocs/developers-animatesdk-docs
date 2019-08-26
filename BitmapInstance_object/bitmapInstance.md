@@ -33,4 +33,4 @@ fl.trace("width = " + bits.width); fl.trace("depth = " + bits.depth);
 ```
 #### See also
 
-[bitmapInstance.setBits()](#_bookmark46)
+[bitmapInstance.setBits()](#!AdobeDocs/developers-animatesdk-docs/test/BitmapInstance_object/bitmapInstanc2.md)

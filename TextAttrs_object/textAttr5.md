@@ -2,7 +2,7 @@
 
 #### Availability
 
-Flash MX 2004. Deprecated in Flash 8 in favor of [textAttrs.letterSpacing](#_bookmark1016).
+Flash MX 2004. Deprecated in Flash 8 in favor of [textAttrs.letterSpacing](#!AdobeDocs/developers-animatesdk-docs/test/TextAttrs_object/textAtt11.md).
 
 #### Usage
 

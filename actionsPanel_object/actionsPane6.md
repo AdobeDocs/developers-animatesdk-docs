@@ -36,4 +36,4 @@ fl.trace(fl.actionsPanel.getScriptAssistMode());
 ```
 #### See also
 
-[actionsPanel.getScriptAssistMode() - dropped](#_bookmark34)
+[actionsPanel.getScriptAssistMode() - dropped](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane1.md)

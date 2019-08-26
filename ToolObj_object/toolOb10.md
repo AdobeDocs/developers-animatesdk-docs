@@ -10,7 +10,7 @@ toolObj.showPIControl(control, bShow)
 
 #### Parameters
 
-**control** A string that specifies the name of the control to show or hide. This method is used only when you create extensible tools. Valid values depend on the Property inspector invoked by this tool (see [toolObj.setPI()](#_bookmark1098)).
+**control** A string that specifies the name of the control to show or hide. This method is used only when you create extensible tools. Valid values depend on the Property inspector invoked by this tool (see [toolObj.setPI()](#!AdobeDocs/developers-animatesdk-docs/test/ToolObj_object/toolObj7.md)).
 A shape Property inspector has the following controls:
 
 |        |      |

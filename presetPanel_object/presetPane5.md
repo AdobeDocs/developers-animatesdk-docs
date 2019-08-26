@@ -34,4 +34,4 @@ The following example demonstrates what files are created when different paramet
 ```
 #### See also
 
-[presetPanel.importItem()](#_bookmark789)
+[presetPanel.importItem()](#!AdobeDocs/developers-animatesdk-docs/test/presetPanel_object/presetPane8.md)

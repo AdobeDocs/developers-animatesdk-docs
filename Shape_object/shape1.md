@@ -10,7 +10,7 @@ shape.contours
 
 #### Description
 
-Read-only property; an array of Contour objects for the shape (see [Contour object](#_bookmark109)).
+Read-only property; an array of Contour objects for the shape (see [Contour object](#!AdobeDocs/developers-animatesdk-docs/test/Contour_object/contour_summary.md)).
 
 #### Example
 

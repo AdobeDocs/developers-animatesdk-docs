@@ -21,6 +21,6 @@ fl.trace(fl.swfPanels\[0\].name);
 ```
 #### See also
 
-[swfPanel.path](#swfPanel.path), [fl.swfPanels](#_bookmark547)
+[swfPanel.path](#!AdobeDocs/developers-animatesdk-docs/test/swfPanel_object/swfPane4.md), [fl.swfPanels](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl74.md)/fl74.md)
 
 <span id="swfPanel.path" class="anchor"></span>

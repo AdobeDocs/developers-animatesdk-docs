@@ -15,9 +15,9 @@ Property; a float value that specifies the anti-aliasing thickness of the text. 
 #### Example
 
 ```javascript
-See [text.fontRenderingMode](#_bookmark980).
+See [text.fontRenderingMode](#!AdobeDocs/developers-animatesdk-docs/test/Text_object/text10.md).
 
 ```
 #### See also
 
-[text.antiAliasSharpness](#_bookmark970), [text.fontRenderingMode](#_bookmark980)
+[text.antiAliasSharpness](#!AdobeDocs/developers-animatesdk-docs/test/Text_object/text1.md), [text.fontRenderingMode](#!AdobeDocs/developers-animatesdk-docs/test/Text_object/text10.md)

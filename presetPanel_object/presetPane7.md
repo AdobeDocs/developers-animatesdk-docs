@@ -18,7 +18,7 @@ An array of presetItem objects.
 
 #### Description
 
-Method; returns an array of presetItem objects corresponding to the currently selected items in the Motion Presets panel (see [presetItem object](#_bookmark770)). Each item in the array represents either a folder or a preset.
+Method; returns an array of presetItem objects corresponding to the currently selected items in the Motion Presets panel (see [presetItem object](#!AdobeDocs/developers-animatesdk-docs/test/presetItem_object/presetItem_summary.md)). Each item in the array represents either a folder or a preset.
 
 #### Example
 
@@ -31,4 +31,4 @@ for (x=0; x\<length; x++) { fl.trace(itemArray\[x\].path);
 ```
 #### See also
 
-[presetPanel.items](#_bookmark790)
+[presetPanel.items](#!AdobeDocs/developers-animatesdk-docs/test/presetPanel_object/presetPane9.md)
