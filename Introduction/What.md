@@ -1,7 +1,77 @@
 ## What’s new in the JavaScript API
 
-The following section lists new objects, methods, and properties in Flash CC. It also lists changes in Flash CS5, CS5.5, and CS6.
-If you have not used the JavaScript API before, you might want to skip this section and go directly to ["JavaScript API](#JavaScript_API_objects) [objects" on page 10](#JavaScript_API_objects)).
+The following section lists new objects, methods, and properties in Animate. It also lists changes in Flash CC, CS6, CS5.5, and CS5.
+If you have not used the JavaScript API before, you might want to skip this section and go directly to [JavaScript API objects](#JavaScript_API_objects).
+
+### New methods and properties in Animate 2020
+The following methods and properties for existing objects are new in Animate 2020:
+
+-   [Document object](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/document_summary.md)
+
+    -   document.getTaggedSwatches()
+
+    -   document.getTaggedSwatchByName()
+
+    -   document.getTaggedSwatchAtIndex()
+
+    -   document.setTaggedSwatchByName()
+
+    -   document.setTaggedSwatchAtIndex()
+
+    -   document.addTaggedSwatch()
+
+    -   document.addTaggedSwatchWithColor()
+
+    -   document.deleteTaggedSwatchByName()
+
+    -   document.deleteTaggedSwatchAtIndex()
+
+    -   document.getTaggedSwatchesPaletteList()
+
+    -   document.getIndexForTaggedSwatchesPalette()
+
+    -   document.convertToDoc()
+
+    -   document.exportCanvasPublishTemplate()
+
+    -   document.importCanvasPublishTemplate()
+
+-   [Layer object](#!AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer_summary.md)
+
+    -   layer.getZDepthAtFrame()
+
+    -   layer.setZDepthAtFrame()
+
+    -   layer.getRigParentAtFrame()
+
+    -   layer.setRigParentAtFrame()
+
+    -   layer.getRigMatrixAtFrame()
+
+    -   layer.getFiltersAtFrame()
+
+    -   layer. setFiltersAtFrame()
+
+    -   layer.getColorTransformAtFrame()
+
+    -   layer.setColorTransformAtFrame()
+
+    -   layer.getBlendModeAtFrame()
+
+    -   layer.setBlendModeAtFrame()
+
+-   [Timeline object](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeline_summary.md)
+
+    -   timeline.advancedLayersEnabled
+
+    -   timeline.mergeLayers()
+
+### New objects in Animate 2020
+The following object is new in Flash CS6:
+
+-   [TextureAtlasExporter object](#!AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter_summary.md)
+
+-   [Camera object](#!AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera_summary.md)
 
 ### New methods and properties in Flash CC
 
@@ -83,7 +153,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   Element.setPublishPersistentData()
 
--   [flash object (fl)](#_bookmark447)
+-   [flash object (fl)](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl_summary.md)
 
     -   Flash.addEventListener()prePublish, postPublish, selectionChanged, and dpiChanged events
 
@@ -211,7 +281,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   document.swfJPEGQuality
 
--   [flash object (fl)](#_bookmark447)
+-   [flash object (fl)](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl_summary.md)
 
     -   fl.spriteSheetExporter
 
@@ -261,7 +331,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   document.loadCuepointXML()
 
--   [flash object (fl)](#_bookmark447)
+-   [flash object (fl)](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl_summary.md)
 
     -   fl.languageCode
 
@@ -323,7 +393,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   timeline.pasteLayers()
 
--   [flash object (fl)](#_bookmark447)
+-   [flash object (fl)](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl_summary.md)
 
     -   fl.getSwfPanel()
 
@@ -379,5 +449,4 @@ The following objects and method are no longer available in Flash CS5:
 
 -   fl.synchronizeDocumentWithHeadVersion()
 
-<span id="JavaScript_API_objects" class="anchor"></span>
 
