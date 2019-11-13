@@ -1,7 +1,7 @@
 ## What’s new in the JavaScript API
 
 The following section lists new objects, methods, and properties in Animate. It also lists changes in Flash CC, CS6, CS5.5, and CS5.
-If you have not used the JavaScript API before, you might want to skip this section and go directly to [JavaScript API objects](#JavaScript_API_objects).
+If you have not used the JavaScript API before, you might want to skip this section and go directly to [JavaScript API objects](#!AdobeDocs/developers-animatesdk-docs/test/Introduction/JavaScript_API_objects.md).
 
 ### New methods and properties in Animate 2020
 The following methods and properties for existing objects are new in Animate 2020:
@@ -36,6 +36,10 @@ The following methods and properties for existing objects are new in Animate 202
 
     -   document.importCanvasPublishTemplate()
 
+    -   document.exportMedia()
+
+    -   document.exportSVG()
+
 -   [Layer object](#!AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer_summary.md)
 
     -   layer.getZDepthAtFrame()
@@ -65,6 +69,11 @@ The following methods and properties for existing objects are new in Animate 202
     -   timeline.advancedLayersEnabled
 
     -   timeline.mergeLayers()
+
+-   [flash object (fl)](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl_summary.md)
+
+    -   fl.addToolInToolbar()
+
 
 ### New objects in Animate 2020
 The following object is new in Flash CS6:

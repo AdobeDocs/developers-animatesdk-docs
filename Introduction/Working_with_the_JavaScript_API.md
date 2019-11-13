@@ -20,7 +20,7 @@ SpiderMonkey implements the core JavaScript language as defined in the ECMAScrip
 
 ### Creating JSFL files
 
-You can use Adobe Animate Professional or your preferred text editor to write and edit Animate JavaScript (JSFL) files. If you use Animate, these files have a .jsfl extension by default. To write a script, select File > New > Advanced > JSFl Script File.
+You can use Adobe Animate Professional or your preferred text editor to write and edit Animate JavaScript (JSFL) files. If you use Animate, these files have a .jsfl extension by default. To write a script, select File > New > Advanced > JSFL Script File.
 
 You can also create a JSFL file by selecting commands in the History panel. Then click the Save button in the History panel or select Save As Command from the panel menu. The command (JSFL) file is saved in the Commands folder ([see Saving JSFL files](#saving-jsfl-files)). You can then open the file and edit it the same as any other script file.
 
