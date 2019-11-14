@@ -1,12 +1,12 @@
 ## What’s new in the JavaScript API
 
 The following section lists new objects, methods, and properties in Animate. It also lists changes in Flash CC, CS6, CS5.5, and CS5.
-If you have not used the JavaScript API before, you might want to skip this section and go directly to [JavaScript API objects](#!../Introduction/JavaScript_API_objects.md).
+If you have not used the JavaScript API before, you might want to skip this section and go directly to [JavaScript API objects](../Introduction/JavaScript_API_objects.md).
 
 ### New methods and properties in Animate 2020
 The following methods and properties for existing objects are new in Animate 2020:
 
--   [Document object](#!../Document_object/document_summary.md)
+-   [Document object](../Document_object/document_summary.md)
 
     -   document.getTaggedSwatches()
 
@@ -40,7 +40,7 @@ The following methods and properties for existing objects are new in Animate 202
 
     -   document.exportSVG()
 
--   [Layer object](#!../Layer_object/layer_summary.md)
+-   [Layer object](../Layer_object/layer_summary.md)
 
     -   layer.getZDepthAtFrame()
 
@@ -64,13 +64,13 @@ The following methods and properties for existing objects are new in Animate 202
 
     -   layer.setBlendModeAtFrame()
 
--   [Timeline object](#!../Timeline_object/timeline_summary.md)
+-   [Timeline object](../Timeline_object/timeline_summary.md)
 
     -   timeline.advancedLayersEnabled
 
     -   timeline.mergeLayers()
 
--   [flash object (fl)](#!../flash_object_(fl)/fl_summary.md)
+-   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
 
     -   fl.addToolInToolbar()
 
@@ -78,15 +78,15 @@ The following methods and properties for existing objects are new in Animate 202
 ### New objects in Animate 2020
 The following object is new in Flash CS6:
 
--   [TextureAtlasExporter object](#!../TextureAtlasExporter_object/TextureAtlasExporter_summary.md)
+-   [TextureAtlasExporter object](../TextureAtlasExporter_object/TextureAtlasExporter_summary.md)
 
--   [Camera object](#!../Camera_object/Camera_summary.md)
+-   [Camera object](../Camera_object/Camera_summary.md)
 
 ### New methods and properties in Flash CC
 
 The following methods and properties for existing objects are new in Flash Profesional CC:
 
--   [Tween Object](#!../Tween_Object/Tween_object_Summary.md)
+-   [Tween Object](../Tween_Object/Tween_object_Summary.md)
 
     -   Tween.getColorTransform( )
 
@@ -102,7 +102,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   Tween.tweenType
 
--   [CompiledClipInstance object](#!../CompiledClipInstance_object/compiledClipInstance_summary.md)
+-   [CompiledClipInstance object](../CompiledClipInstance_object/compiledClipInstance_summary.md)
 
     -   CompiledClipInstance.backgroundColor
 
@@ -140,7 +140,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   CompiledClipInstance.visible
 
--   [Document object](#!../Document_object/document_summary.md)
+-   [Document object](../Document_object/document_summary.md)
 
     -   Document.convertSelectionToBitmap()
 
@@ -156,13 +156,13 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   Document.setPublishDocumenData()
 
--   [Element object](#!../Element_object/element_summary.md)
+-   [Element object](../Element_object/element_summary.md)
 
     -   Element.getPublishPersistentData()
 
     -   Element.setPublishPersistentData()
 
--   [flash object (fl)](#!../flash_object_(fl)/fl_summary.md)
+-   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
 
     -   Flash.addEventListener()prePublish, postPublish, selectionChanged, and dpiChanged events
 
@@ -180,7 +180,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   fl.xmlPanelFromString()
 
--   [Frame object](#!../Frame_object/frame_summary.md)
+-   [Frame object](../Frame_object/frame_summary.md)
 
     -   Frame.convertToFrameByFrameAnimation()
 
@@ -194,17 +194,17 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   Frame.isEmpty()
 
--   [Item object](#!../Item_object/item_summary.md)
+-   [Item object](../Item_object/item_summary.md)
 
     -   item.getPublishData()
 
     -   item.setPublishData()
 
--   [library object](#!../library_object/library_summary.md)
+-   [library object](../library_object/library_summary.md)
 
     -   library.unusedItems
 
--   [swfPanel object](#!../swfPanel_object/swfPanel_summary.md)
+-   [swfPanel object](../swfPanel_object/swfPanel_summary.md)
 
     -   swfPanel.dpiScaleFactorX
 
@@ -212,7 +212,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   swfPanel.reload()
 
--   [SymbolInstance object](#!../SymbolInstance_object/symbolInstance_summary.md)
+-   [SymbolInstance object](../SymbolInstance_object/symbolInstance_summary.md)
 
     -   SymbolInstance.brightness
 
@@ -220,7 +220,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   SymbolInstance.tintPercent
 
--   [Timeline object](#!../Timeline_object/timeline_summary.md)
+-   [Timeline object](../Timeline_object/timeline_summary.md)
 
     -   getBounds()
 
@@ -264,13 +264,13 @@ The following methods and properties for existing objects are dropped in Adobe A
 
 The following object is new in Flash CS6:
 
--   [SpriteSheetExporter object](#!../SpriteSheetExporter_object/SpriteSheetExporter_summary.md)
+-   [SpriteSheetExporter object](../SpriteSheetExporter_object/SpriteSheetExporter_summary.md)
 
 ### New methods and properties in Flash CS6
 
 The following methods and properties for existing objects are new in Flash Pro CS6:
 
--   [BitmapItem object](#!../BitmapItem_object/bitmapItem_summary.md)
+-   [BitmapItem object](../BitmapItem_object/bitmapItem_summary.md)
 
     -   bitmapItem.exportToFile()quality parameter
 
@@ -278,7 +278,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   bitmapItem.lastModifiedDate
 
--   [Document object](#!../Document_object/document_summary.md)
+-   [Document object](../Document_object/document_summary.md)
 
     -   document.exportInstanceToLibrary()
 
@@ -290,31 +290,31 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   document.swfJPEGQuality
 
--   [flash object (fl)](#!../flash_object_(fl)/fl_summary.md)
+-   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
 
     -   fl.spriteSheetExporter
 
--   [Layer object](#!../Layer_object/layer_summary.md)
+-   [Layer object](../Layer_object/layer_summary.md)
 
     -   layer.animationType
 
--   [Math object](#!../Math_object/Math_summary.md)
+-   [Math object](../Math_object/Math_summary.md)
 
     -   Math.transformPoint()
 
--   [Shape object](#!../Shape_object/shape_summary.md)
+-   [Shape object](../Shape_object/shape_summary.md)
 
     -   shape.isFloating
 
--   [SoundItem object](#!../SoundItem_object/soundItem_summary.md)
+-   [SoundItem object](../SoundItem_object/soundItem_summary.md)
 
     -   soundItem.lastModifiedDate
 
--   [SymbolInstance object](#!../SymbolInstance_object/symbolInstance_summary.md)
+-   [SymbolInstance object](../SymbolInstance_object/symbolInstance_summary.md)
 
     -   symbolInstance.is3D
 
--   [SymbolItem object](#!../SymbolItem_object/symbolItem_summary.md)
+-   [SymbolItem object](../SymbolItem_object/symbolItem_summary.md)
 
     -   symbolItem.exportToLibrary()
 
@@ -322,11 +322,11 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   symbolItem.lastModifiedDate
 
--   [Text object](#!../Text_object/text_summary.md)
+-   [Text object](../Text_object/text_summary.md)
 
     -   text.filters
 
--   [VideoItem object](#!../VideoItem_object/videoItem_summary.md)
+-   [VideoItem object](../VideoItem_object/videoItem_summary.md)
 
     -   videoItem.lastModifiedDate
 
@@ -334,19 +334,19 @@ The following methods and properties for existing objects are new in Flash Pro C
 
 The following methods and properties for existing objects are new in Flash Pro CS5:
 
--   [Document object](#!../Document_object/document_summary.md)
+-   [Document object](../Document_object/document_summary.md)
 
     -   document.debugMovie()
 
     -   document.loadCuepointXML()
 
--   [flash object (fl)](#!../flash_object_(fl)/fl_summary.md)
+-   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
 
     -   fl.languageCode
 
     -   fl.toggleBreakpoint
 
--   [Frame object](#!../Frame_object/frame_summary.md)
+-   [Frame object](../Frame_object/frame_summary.md)
 
     -   frame.convertMotionObjectTo2D()
 
@@ -368,7 +368,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   frame.tweenInstanceName
 
--   [Timeline object](#!../Timeline_object/timeline_summary.md)
+-   [Timeline object](../Timeline_object/timeline_summary.md)
 
     -   timeline.createMotionObject()
 
@@ -392,7 +392,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   symbolInstance.visible
 
--   [Timeline object](#../Timeline_object/timeline_summary.md)
+-   [Timeline object](../Timeline_object/timeline_summary.md)
 
     -   timeline.copyLayers()
 
@@ -402,7 +402,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   timeline.pasteLayers()
 
--   [flash object (fl)](#!../flash_object_(fl)/fl_summary.md)
+-   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
 
     -   fl.getSwfPanel()
 
@@ -418,7 +418,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   fl.clearPublishCache()
 
--   [swfPanel object](#!../swfPanel_object/swfPanel_summary.md)
+-   [swfPanel object](../swfPanel_object/swfPanel_summary.md)
 
     -   swfPanel.setFocus()
 
