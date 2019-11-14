@@ -29,6 +29,6 @@ fl.getDocumentDOM().resetOvalObject();
 ```
 #### See also
 
-[document.resetRectangleObject()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum320.md))
+[document.resetRectangleObject()](../Document_object/docum320.md))
 
 <span id="document.resetRectangleObject()" class="anchor"></span>

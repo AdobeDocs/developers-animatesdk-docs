@@ -29,7 +29,7 @@ fl.compilerErrors.clear();
 ```
 #### See also
 
-[compilerErrors.save()](#!AdobeDocs/developers-animatesdk-docs/test/compilerErrors_object/compilerError1.md))
+[compilerErrors.save()](../compilerErrors_object/compilerError1.md))
 **compilerErrors object**
 
 <span id="compilerErrors.save()" class="anchor"></span>

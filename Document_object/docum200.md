@@ -22,4 +22,4 @@ var filePathURI = flash.documents\[0\].pathURI; fl.trace(filePathURI);
 ```
 #### See also
 
-[document.path](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum190.md)
+[document.path](../Document_object/docum190.md)

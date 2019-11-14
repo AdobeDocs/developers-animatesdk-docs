@@ -18,7 +18,7 @@ A HalfEdge object.
 
 #### Description
 
-Method; returns a [HalfEdge object](#!AdobeDocs/developers-animatesdk-docs/test/HalfEdge_object/halfEdge_summary.md).
+Method; returns a [HalfEdge object](../HalfEdge_object/halfEdge_summary.md).
 
 #### Example
 

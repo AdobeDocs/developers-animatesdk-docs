@@ -32,4 +32,4 @@ var bits = fl.getDocumentDOM().selection\[0\].getBits(); bits.height = 150; fl.g
 ```
 #### See also
 
-[bitmapInstance.getBits()](#!AdobeDocs/developers-animatesdk-docs/test/BitmapInstance_object/bitmapInstance.md)
+[bitmapInstance.getBits()](../BitmapInstance_object/bitmapInstance.md)

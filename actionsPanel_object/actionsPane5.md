@@ -30,4 +30,4 @@ if (fl.actionsPanel.hasSelection()) { fl.actionsPanel.replaceSelectedText("// ©
 ```
 #### See also
 
-[actionsPanel.getSelectedText()](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane2.md), [actionsPanel.hasSelection()](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane4.md), [actionsPanel.setSelection()](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane7.md), [actionsPanel.setText()](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane8.md)
+[actionsPanel.getSelectedText()](../actionsPanel_object/actionsPane2.md), [actionsPanel.hasSelection()](../actionsPanel_object/actionsPane4.md), [actionsPanel.setSelection()](../actionsPanel_object/actionsPane7.md), [actionsPanel.setText()](../actionsPanel_object/actionsPane8.md)

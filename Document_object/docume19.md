@@ -23,6 +23,6 @@ fl.outputPanel.trace("Strict Mode value after modification is " + myDocument.as3
 ```
 #### See also
 
-[document.as3WarningsMode](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume20.md)
+[document.as3WarningsMode](../Document_object/docume20.md)
 
 <span id="document.as3WarningsMode" class="anchor"></span>

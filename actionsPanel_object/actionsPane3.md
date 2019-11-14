@@ -29,4 +29,4 @@ var apText = fl.actionsPanel.getText(); fl.trace(apText);
 ```
 #### See also
 
-[actionsPanel.getSelectedText()](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane2.md), [actionsPanel.setText()](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane8.md)
+[actionsPanel.getSelectedText()](../actionsPanel_object/actionsPane2.md), [actionsPanel.setText()](../actionsPanel_object/actionsPane8.md)

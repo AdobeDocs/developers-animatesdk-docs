@@ -30,4 +30,4 @@ fl.getDocumentDOM().getTimeline().setSelectedLayers(1, false);
 ```
 #### See also
 
-[timeline.getSelectedLayers()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli26.md)
+[timeline.getSelectedLayers()](../Timeline_object/timeli26.md)

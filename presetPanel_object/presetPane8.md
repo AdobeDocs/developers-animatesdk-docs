@@ -20,7 +20,7 @@ A Boolean value of true if the file is successfully imported; false otherwise.
 #### Description
 
 Method; adds a preset to the Motion Presets panel from a specified XML file. The path specified in *namePath* must exist in the panel.
-To create XML files that can be imported, use [presetPanel.exportItem()](#!AdobeDocs/developers-animatesdk-docs/test/presetPanel_object/presetPane5.md).
+To create XML files that can be imported, use [presetPanel.exportItem()](../presetPanel_object/presetPane5.md).
 If you don’t pass a value for *namePath*, the imported preset is placed in the Custom Presets folder and given the same name as the imported file (without the XML extension).
 
 #### Example
@@ -32,4 +32,4 @@ fl.presetPanel.importItem("file:///C\|/My Presets/thePulsePreset.xml", "Custom P
 ```
 #### See also
 
-[presetPanel.exportItem()](#!AdobeDocs/developers-animatesdk-docs/test/presetPanel_object/presetPane5.md)
+[presetPanel.exportItem()](../presetPanel_object/presetPane5.md)

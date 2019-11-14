@@ -18,7 +18,7 @@ The value of the specified property. Returns null if the property is an indeterm
 
 #### Description
 
-Method; gets the specified Element property for the current selection. For a list of acceptable values, see the Property summary table for the [Element object](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/element_summary.md).
+Method; gets the specified Element property for the current selection. For a list of acceptable values, see the Property summary table for the [Element object](../Element_object/element_summary.md).
 
 #### Example
 
@@ -30,4 +30,4 @@ var elementName = fl.getDocumentDOM().getElementProperty("name");
 ```
 #### See also
 
-[document.setElementProperty()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum490.md)
+[document.setElementProperty()](../Document_object/docum490.md)

@@ -29,6 +29,6 @@ fl.getDocumentDOM().enableAllFilters();
 ```
 #### See also
 
-[document.addFilter()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/documen3.md), [document.changeFilterOrder()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume29.md), [document.disableAllFilters()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume46.md), [document.enableFilter()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume59.md)), [document.getFilters()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume79.md), [document.removeAllFilters()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum240.md), [Filter object](#!AdobeDocs/developers-animatesdk-docs/test/Filter_object/filter_summary.md)
+[document.addFilter()](../Document_object/documen3.md), [document.changeFilterOrder()](../Document_object/docume29.md), [document.disableAllFilters()](../Document_object/docume46.md), [document.enableFilter()](../Document_object/docume59.md)), [document.getFilters()](../Document_object/docume79.md), [document.removeAllFilters()](../Document_object/docum240.md), [Filter object](../Filter_object/filter_summary.md)
 
 <span id="document.enableFilter()" class="anchor"></span>

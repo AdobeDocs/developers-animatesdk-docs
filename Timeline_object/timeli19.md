@@ -26,7 +26,7 @@ Method; finds an array of indexes for the layers with the given name. The layer 
 The following example shows the index values of all layers named Layer 7 in the Output panel:
 var layerIndex = fl.getDocumentDOM().getTimeline().findLayerIndex("Layer 7"); fl.trace(layerIndex);
 The following example illustrates how to pass the values returned from this method back to
-[timeline.setSelectedLayers()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli47.md):
+[timeline.setSelectedLayers()](../Timeline_object/timeli47.md):
 var layerIndex = fl.getDocumentDOM().getTimeline().findLayerIndex("Layer 1"); fl.getDocumentDOM().getTimeline().setSelectedLayers(layerIndex\[0\], true);
 
 ```

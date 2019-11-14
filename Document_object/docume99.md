@@ -22,4 +22,4 @@ myDoc.libraryPath = "../Files;" + myDoc.libraryPath; fl.trace(myDoc.libraryPath)
 ```
 #### See also
 
-[document.externalLibraryPath](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume69.md),[document.sourcePath](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum36.md), [fl.libraryPath](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl39.md)/fl39.md)
+[document.externalLibraryPath](../Document_object/docume69.md),[document.sourcePath](../Document_object/docum36.md), [fl.libraryPath](../flash_object_(fl)/fl39.md)/fl39.md)

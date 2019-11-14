@@ -33,6 +33,6 @@ fl.getDocumentDOM().setFilterProperty("shadowColor", 0, "\#FF00FF");
 ```
 #### See also
 
-[document.addFilter()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/documen3.md), [document.getFilters()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume79.md), [document.setBlendMode()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum460.md), [document.setFilters()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum530.md)), [Filter](#_bookmark425) [object](#_bookmark425)
+[document.addFilter()](../Document_object/documen3.md), [document.getFilters()](../Document_object/docume79.md), [document.setBlendMode()](../Document_object/docum460.md), [document.setFilters()](../Document_object/docum530.md)), [Filter](#_bookmark425) [object](#_bookmark425)
 
 <span id="document.setFilters()" class="anchor"></span>

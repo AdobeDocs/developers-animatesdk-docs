@@ -30,4 +30,4 @@ fl.trace(limits.end);
 ```
 #### See also
 
-[frame.setSoundEnvelopeLimits()](#!AdobeDocs/developers-animatesdk-docs/test/Frame_object/frame28.md)
+[frame.setSoundEnvelopeLimits()](../Frame_object/frame28.md)

@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-The bounding rectangle of the current selection, or 0 if nothing is selected. For information on the format of the return value, see [document.addNewRectangle()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume10.md).
+The bounding rectangle of the current selection, or 0 if nothing is selected. For information on the format of the return value, see [document.addNewRectangle()](../Document_object/docume10.md).
 
 #### Description
 
@@ -31,4 +31,4 @@ var outputStr = "left: " + newRect.left + " top: " + newRect.top + " right: " + 
 ```
 #### See also
 
-[document.selection](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum430.md), [document.setSelectionRect()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu9689.md)
+[document.selection](../Document_object/docum430.md), [document.setSelectionRect()](../Document_object/docu9689.md)

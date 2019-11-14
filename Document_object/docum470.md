@@ -10,7 +10,7 @@ document.setCustomFill(fill)
 
 #### Parameters
 
-**fill** A Fill object that specifies the fill settings to be used. See [Fill object](#!AdobeDocs/developers-animatesdk-docs/test/Fill_object/fill_summary.md).
+**fill** A Fill object that specifies the fill settings to be used. See [Fill object](../Fill_object/fill_summary.md).
 
 #### Returns
 
@@ -30,4 +30,4 @@ fill.style = "solid"; fl.getDocumentDOM().setCustomFill(fill);
 ```
 #### See also
 
-[document.getCustomFill()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume74.md)
+[document.getCustomFill()](../Document_object/docume74.md)

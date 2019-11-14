@@ -28,4 +28,4 @@ The following example removes from the selection the persistent data named "myDa
 ```
 #### See also
 
-[document.addDataToSelection()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/documen2.md)
+[document.addDataToSelection()](../Document_object/documen2.md)

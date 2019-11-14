@@ -10,7 +10,7 @@ symbolInstance.filters
 
 #### Description
 
-Property; an array of Filter objects (see [Filter object](#!AdobeDocs/developers-animatesdk-docs/test/Filter_object/filter_summary.md)). To modify filter properties, you don’t write to this array directly. Instead, retrieve the array, set the individual properties, and then set the array to reflect the new properties.
+Property; an array of Filter objects (see [Filter object](../Filter_object/filter_summary.md)). To modify filter properties, you don’t write to this array directly. Instead, retrieve the array, set the individual properties, and then set the array to reflect the new properties.
 
 #### Example
 

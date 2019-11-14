@@ -29,4 +29,4 @@ alert(fl.getDocumentDOM().deletePublishProfile());
 ```
 #### See also
 
-[document.addNewPublishProfile()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/documen9.md)
+[document.addNewPublishProfile()](../Document_object/documen9.md)

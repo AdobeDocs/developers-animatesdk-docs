@@ -28,4 +28,4 @@ The following example sets the blending mode for the selected object to "add". f
 ```
 #### See also
 
-[document.addFilter()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/documen3.md), [document.setFilterProperty()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum520.md), [symbolInstance.blendMode](#!AdobeDocs/developers-animatesdk-docs/test/SymbolInstance_object/symbolInstanc4.md)
+[document.addFilter()](../Document_object/documen3.md), [document.setFilterProperty()](../Document_object/docum520.md), [symbolInstance.blendMode](../SymbolInstance_object/symbolInstanc4.md)

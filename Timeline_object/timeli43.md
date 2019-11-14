@@ -10,9 +10,9 @@ timeline.setFrameProperty(property, value \[, startFrameIndex \[, endFrameIndex\
 
 #### Parameters
 
-**property** A string that specifies the name of the property to be modified. For a complete list of properties and values, see the Property summary for the [Frame object](#!AdobeDocs/developers-animatesdk-docs/test/Frame_object/frame_summary.md).
-You can’t use this method to set values for read-only properties such as [frame.duration](#!AdobeDocs/developers-animatesdk-docs/test/Frame_object/frame4.md) and [frame.elements](#!AdobeDocs/developers-animatesdk-docs/test/Frame_object/frame5.md).
-**value** Specifies the value to which you want to set the property. To determine the appropriate values and type, see the Property summary for the [Frame object](#!AdobeDocs/developers-animatesdk-docs/test/Frame_object/frame_summary.md).
+**property** A string that specifies the name of the property to be modified. For a complete list of properties and values, see the Property summary for the [Frame object](../Frame_object/frame_summary.md).
+You can’t use this method to set values for read-only properties such as [frame.duration](../Frame_object/frame4.md) and [frame.elements](../Frame_object/frame5.md).
+**value** Specifies the value to which you want to set the property. To determine the appropriate values and type, see the Property summary for the [Frame object](../Frame_object/frame_summary.md).
 **startFrameIndex** A zero-based index that specifies the starting frame number to modify. If you omit
 *startFrameIndex*, the method uses the current selection. This parameter is optional.
 **endFrameIndex** A zero-based index that specifies the first frame at which to stop. The range of frames goes up to, but does not include, *endFrameIndex*. If you specify *startFrameIndex* but omit *endFrameIndex*, *endFrameIndex* defaults to the value of *startFrameIndex*. This parameter is optional.

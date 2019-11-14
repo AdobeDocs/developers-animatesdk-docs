@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-A Boolean value: true if you can use the [document.testMovie()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu5948.md) method successfully: false otherwise.
+A Boolean value: true if you can use the [document.testMovie()](../Document_object/docu5948.md) method successfully: false otherwise.
 
 #### Description
 
-Method; determines whether you can use the [document.testMovie()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu5948.md) method successfully.
+Method; determines whether you can use the [document.testMovie()](../Document_object/docu5948.md) method successfully.
 
 #### Example
 
@@ -30,6 +30,6 @@ if(fl.getDocumentDOM().canTestMovie()){ fl.getDocumentDOM().testMovie();
 ```
 #### See also
 
-[document.canTestScene()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume28.md)), [document.testScene()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu5979.md)
+[document.canTestScene()](../Document_object/docume28.md)), [document.testScene()](../Document_object/docu5979.md)
 
 <span id="document.canTestScene()" class="anchor"></span>

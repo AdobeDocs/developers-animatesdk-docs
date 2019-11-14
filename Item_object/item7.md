@@ -11,8 +11,8 @@ item.linkageExportForAS
 #### Description
 
 Property; a Boolean value. If this property is true, the item is exported for ActionScript. You can also set the
-[item.linkageExportForRS](#!AdobeDocs/developers-animatesdk-docs/test/Item_object/item8.md) and [item.linkageExportInFirstFrame](#!AdobeDocs/developers-animatesdk-docs/test/Item_object/item9.md) properties to true.
-If you set this property to true, the [item.linkageImportForRS](#!AdobeDocs/developers-animatesdk-docs/test/Item_object/item11.md) property must be set to false. Also, you must specify an identifier ([item.linkageIdentifier](#!AdobeDocs/developers-animatesdk-docs/test/Item_object/item10.md)) and a URL ([item.linkageURL](#!AdobeDocs/developers-animatesdk-docs/test/Item_object/item12.md)).
+[item.linkageExportForRS](../Item_object/item8.md) and [item.linkageExportInFirstFrame](../Item_object/item9.md) properties to true.
+If you set this property to true, the [item.linkageImportForRS](../Item_object/item11.md) property must be set to false. Also, you must specify an identifier ([item.linkageIdentifier](../Item_object/item10.md)) and a URL ([item.linkageURL](../Item_object/item12.md)).
 
 #### Example
 

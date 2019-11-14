@@ -18,7 +18,7 @@ A Boolean value: true if the scene is added successfully; false otherwise.
 
 #### Description
 
-Method; adds a new scene ([Timeline object](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeline_summary.md)) as the next scene after the currently selected scene and makes the new scene the currently selected scene. If the specified scene name already exists, the scene is not added and the method returns an error.
+Method; adds a new scene ([Timeline object](../Timeline_object/timeline_summary.md)) as the next scene after the currently selected scene and makes the new scene the currently selected scene. If the specified scene name already exists, the scene is not added and the method returns an error.
 
 #### Example
 

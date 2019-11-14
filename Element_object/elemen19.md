@@ -29,12 +29,12 @@ Nothing.
 #### Description
 
 Method; sets the position of the element’s transformation point.
-This method is almost identical to [document.setTransformationPoint()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu9939.md). It is different in the following way:
+This method is almost identical to [document.setTransformationPoint()](../Document_object/docu9939.md). It is different in the following way:
 
 -   You can set transformation points for elements without first selecting them.
 
 This method moves the transformation point but does not move the element. By contrast, the
-[element.transformX](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/elemen23.md) and [element.transformY](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/elemen24.md) properties move the element.
+[element.transformX](../Element_object/elemen23.md) and [element.transformY](../Element_object/elemen24.md) properties move the element.
 
 #### Example
 
@@ -45,4 +45,4 @@ fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[2\].setTrans
 ```
 #### See also
 
-[document.setTransformationPoint()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu9939.md). [element.getTransformationPoint()](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/element4.md), [element.transformX](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/elemen23.md), [element.transformY](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/elemen24.md)
+[document.setTransformationPoint()](../Document_object/docu9939.md). [element.getTransformationPoint()](../Element_object/element4.md), [element.transformX](../Element_object/elemen23.md), [element.transformY](../Element_object/elemen24.md)

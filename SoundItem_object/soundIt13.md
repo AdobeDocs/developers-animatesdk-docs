@@ -21,4 +21,4 @@ fl.getDocumentDOM().library.items\[0\].useImportedMP3Quality = true;
 ```
 #### See also
 
-[soundItem.compressionType](#!AdobeDocs/developers-animatesdk-docs/test/SoundItem_object/soundIte2.md)
+[soundItem.compressionType](../SoundItem_object/soundIte2.md)

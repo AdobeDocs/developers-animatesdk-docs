@@ -10,7 +10,7 @@ shape.vertices
 
 #### Description
 
-Read-only property; an array of Vertex objects (see [Vertex object](#!AdobeDocs/developers-animatesdk-docs/test/Vertex_object/vertex_summary.md)).
+Read-only property; an array of Vertex objects (see [Vertex object](../Vertex_object/vertex_summary.md)).
 
 #### Example
 

@@ -10,7 +10,7 @@ filter.strength
 
 #### Description
 
-Property; an integer that specifies the percentage strength of the filter. Acceptable values are between 0 and 25,500. This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "glowFilter", "gradientGlowFilter", or "gradientBevelFilter" for the [filter.name](#!AdobeDocs/developers-animatesdk-docs/test/Filter_object/filter13.md) property.
+Property; an integer that specifies the percentage strength of the filter. Acceptable values are between 0 and 25,500. This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "glowFilter", "gradientGlowFilter", or "gradientBevelFilter" for the [filter.name](../Filter_object/filter13.md) property.
 
 #### Example
 
@@ -25,4 +25,4 @@ fl.getDocumentDOM().setFilters(myFilters);
 ```
 #### See also
 
-[document.setFilterProperty()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum520.md)
+[document.setFilterProperty()](../Document_object/docum520.md)

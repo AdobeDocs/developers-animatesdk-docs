@@ -11,7 +11,7 @@ soundItem.sampleRate
 #### Description
 
 Property; a string that specifies the sample rate for the audio clip. This property is available only for the ADPCM, Raw, and Speech compression types. Acceptable values are "5 kHz", "11 kHz", "22 kHz", and "44 kHz".
-If you want to specify a value for this property, set [soundItem.useImportedMP3Quality](#!AdobeDocs/developers-animatesdk-docs/test/SoundItem_object/soundIt13.md) to false.
+If you want to specify a value for this property, set [soundItem.useImportedMP3Quality](../SoundItem_object/soundIt13.md) to false.
 
 #### Example
 
@@ -22,4 +22,4 @@ fl.getDocumentDOM().library.items\[0\].sampleRate = "5 kHz";
 ```
 #### See also
 
-[soundItem.compressionType](#!AdobeDocs/developers-animatesdk-docs/test/SoundItem_object/soundIte2.md)
+[soundItem.compressionType](../SoundItem_object/soundIte2.md)

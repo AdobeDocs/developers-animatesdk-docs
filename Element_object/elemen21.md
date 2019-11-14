@@ -21,4 +21,4 @@ var element = fl.getDocumentDOM().selection\[0\]; element.skewY = 10;
 ```
 #### See also
 
-[document.setTransformationPoint()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu9939.md), [element.skewX](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/elemen20.md)
+[document.setTransformationPoint()](../Document_object/docu9939.md), [element.skewX](../Element_object/elemen20.md)

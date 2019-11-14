@@ -10,9 +10,9 @@ document.setElementProperty(property, value)
 
 #### Parameters
 
-**property** A string that specifies the name of the Element property to set. For a complete list of properties and values, see the Property summary table for the [Element object](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/element_summary.md).
-You can’t use this method to set values for read-only properties, such as [element.elementType](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/element1.md), [element.top](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/elemen22.md), or
-[element.left](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/element8.md).
+**property** A string that specifies the name of the Element property to set. For a complete list of properties and values, see the Property summary table for the [Element object](../Element_object/element_summary.md).
+You can’t use this method to set values for read-only properties, such as [element.elementType](../Element_object/element1.md), [element.top](../Element_object/elemen22.md), or
+[element.left](../Element_object/element8.md).
 **value** An integer that specifies the value to set in the specified Element property.
 
 #### Returns

@@ -18,7 +18,7 @@ A Boolean value: true if the preference is set to align the objects to the Stage
 
 #### Description
 
-Method; identical to retrieving the value of the To Stage button in the Align panel. Gets the preference that can be used for [document.align()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume13.md), [document.distribute()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume49.md), [document.match()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum120.md), and [document.space()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum67.md) methods on the document.
+Method; identical to retrieving the value of the To Stage button in the Align panel. Gets the preference that can be used for [document.align()](../Document_object/docume13.md), [document.distribute()](../Document_object/docume49.md), [document.match()](../Document_object/docum120.md), and [document.space()](../Document_object/docum67.md) methods on the document.
 
 #### Example
 
@@ -29,4 +29,4 @@ var isAlignToDoc = fl.getDocumentDOM().getAlignToDocument(); fl.getDocumentDOM()
 ```
 #### See also
 
-[document.setAlignToDocument()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum450.md)
+[document.setAlignToDocument()](../Document_object/docum450.md)

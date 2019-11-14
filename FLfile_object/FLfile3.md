@@ -15,11 +15,11 @@ FLfile.getAttributes(fileOrFolderURI)
 #### Returns
 
 A string that represents the attributes of the specified file or folder.
-Results are unpredictable if the file or folder doesn’t exist. You should use [FLfile.exists()](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile2.md) before using this method.
+Results are unpredictable if the file or folder doesn’t exist. You should use [FLfile.exists()](../FLfile_object/FLfile2.md) before using this method.
 
 #### Description
 
-Method; returns a string representing the attributes of the specified file or folder, or an empty string if the file has no specific attributes (that it, it is not read-only, not hidden, and so on). You should always use [FLfile.exists()](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile2.md) to test for the existence of a file or folder before using this method.
+Method; returns a string representing the attributes of the specified file or folder, or an empty string if the file has no specific attributes (that it, it is not read-only, not hidden, and so on). You should always use [FLfile.exists()](../FLfile_object/FLfile2.md) to test for the existence of a file or folder before using this method.
 Characters in the string represent the attributes as follows:
 
 -   R — *fileOrFolderURI* is read-only
@@ -47,4 +47,4 @@ if (attr && (attr.indexOf("R") != -1)) { // Returned string contains R. alert(UR
 ```
 #### See also
 
-[FLfile.setAttributes()](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile13.md)
+[FLfile.setAttributes()](../FLfile_object/FLfile13.md)

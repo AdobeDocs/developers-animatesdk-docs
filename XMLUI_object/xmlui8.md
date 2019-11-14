@@ -34,4 +34,4 @@ fl.xmlui.setControlItemElements("myControlID", monthArray);
 ```
 #### See also
 
-[xmlui.getControlItemElement()](#!AdobeDocs/developers-animatesdk-docs/test/XMLUI_object/xmlui3.md), [xmlui.set()](#!AdobeDocs/developers-animatesdk-docs/test/XMLUI_object/xmlui6.md), [xmlui.setControlItemElement()](#!AdobeDocs/developers-animatesdk-docs/test/XMLUI_object/xmlui7.md)
+[xmlui.getControlItemElement()](../XMLUI_object/xmlui3.md), [xmlui.set()](../XMLUI_object/xmlui6.md), [xmlui.setControlItemElement()](../XMLUI_object/xmlui7.md)

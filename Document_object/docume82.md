@@ -18,8 +18,8 @@ A string that represents the Flash Player version specified by using document.se
 
 #### Description
 
-Method; returns a string that represents the targeted player version for the specified document. For a list of values that this method can return, see [document.setPlayerVersion()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum600.md).
-To determine which version of ActionScript is being targeted in the specified file, use [document.asVersion](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume21.md).
+Method; returns a string that represents the targeted player version for the specified document. For a list of values that this method can return, see [document.setPlayerVersion()](../Document_object/docum600.md).
+To determine which version of ActionScript is being targeted in the specified file, use [document.asVersion](../Document_object/docume21.md).
 
 #### Example
 
@@ -31,4 +31,4 @@ var version = fl.getDocumentDOM().getPlayerVersion(); fl.trace(version) // displ
 ```
 #### See also
 
-[document.setPlayerVersion()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum600.md)
+[document.setPlayerVersion()](../Document_object/docum600.md)

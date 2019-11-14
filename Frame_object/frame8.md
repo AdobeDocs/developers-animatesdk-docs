@@ -34,4 +34,4 @@ var soundEnv = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].getSoun
 ```
 #### See also
 
-[frame.setSoundEnvelope()](#!AdobeDocs/developers-animatesdk-docs/test/Frame_object/frame27.md)
+[frame.setSoundEnvelope()](../Frame_object/frame27.md)

@@ -10,7 +10,7 @@ stroke.curve
 
 #### Description
 
-Property; a string that specifies the type of hatching for the stroke. This property can be set only if the stroke.style property is set to "hatched" (see [stroke.style](#!AdobeDocs/developers-animatesdk-docs/test/Stroke_object/stroke20.md)). Acceptable values are "straight", "slight curve", "medium curve", and "very curved".
+Property; a string that specifies the type of hatching for the stroke. This property can be set only if the stroke.style property is set to "hatched" (see [stroke.style](../Stroke_object/stroke20.md)). Acceptable values are "straight", "slight curve", "medium curve", and "very curved".
 
 #### Example
 

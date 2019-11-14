@@ -31,6 +31,6 @@ fl.getDocumentDOM().enterEditMode('newWindow');
 ```
 #### See also
 
-[document.exitEditMode()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume61.md))
+[document.exitEditMode()](../Document_object/docume61.md))
 
 <span id="document.exitEditMode()" class="anchor"></span>

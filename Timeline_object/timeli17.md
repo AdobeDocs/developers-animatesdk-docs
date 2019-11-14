@@ -32,4 +32,4 @@ fl.getDocumentDOM().getTimeline().duplicatedLayers(2,7);
 ```
 #### See also
 
-[timeline.copyLayers()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timelin7.md), [timeline.cutLayers()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli15.md), [timeline.pasteLayers()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli35.md)
+[timeline.copyLayers()](../Timeline_object/timelin7.md), [timeline.cutLayers()](../Timeline_object/timeli15.md), [timeline.pasteLayers()](../Timeline_object/timeli35.md)

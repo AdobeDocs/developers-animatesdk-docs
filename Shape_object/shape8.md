@@ -15,7 +15,7 @@ Read-only property; if true, the shape is a group. A group can contain different
 #### Example
 
 ```javascript
-The following example stores the first selected object in the sel variable and then uses the [element.elementType](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/element1.md) and
+The following example stores the first selected object in the sel variable and then uses the [element.elementType](../Element_object/element1.md) and
 shape.isGroup properties to determine if the selected item is a group:
 var sel = fl.getDocumentDOM().selection\[0\];
 var shapeGroup = (sel.elementType == "shape") && sel.isGroup; fl.trace(shapeGroup);
@@ -23,4 +23,4 @@ var shapeGroup = (sel.elementType == "shape") && sel.isGroup; fl.trace(shapeGrou
 ```
 #### See also
 
-[shape.isDrawingObject](#!AdobeDocs/developers-animatesdk-docs/test/Shape_object/shape6.md)
+[shape.isDrawingObject](../Shape_object/shape6.md)

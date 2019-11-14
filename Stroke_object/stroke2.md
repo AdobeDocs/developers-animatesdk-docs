@@ -27,4 +27,4 @@ var myStroke = fl.getDocumentDOM().getCustomStroke(); myStroke.color = "\#000000
 ```
 #### See also
 
-[stroke.shapeFill](#!AdobeDocs/developers-animatesdk-docs/test/Stroke_object/stroke17.md)
+[stroke.shapeFill](../Stroke_object/stroke17.md)

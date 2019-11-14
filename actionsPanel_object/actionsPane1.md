@@ -32,4 +32,4 @@ alert("For more guidance when writing ActionScript code, try Script Assist mode"
 ```
 #### See also
 
-[actionsPanel.setScriptAssistMode() - dropped](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane6.md)
+[actionsPanel.setScriptAssistMode() - dropped](../actionsPanel_object/actionsPane6.md)

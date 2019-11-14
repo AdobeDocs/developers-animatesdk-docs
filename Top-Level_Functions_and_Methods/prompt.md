@@ -30,4 +30,4 @@ var userName = prompt("Enter user name", "Type user name here"); fl.trace(userNa
 ```
 #### See also
 
-[alert()](#!AdobeDocs/developers-animatesdk-docs/test/Top-Level_Functions_and_Methods/alert.md), [confirm()](#!AdobeDocs/developers-animatesdk-docs/test/Top-Level_Functions_and_Methods/confirm.md)
+[alert()](../Top-Level_Functions_and_Methods/alert.md), [confirm()](../Top-Level_Functions_and_Methods/confirm.md)

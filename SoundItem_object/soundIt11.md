@@ -21,6 +21,6 @@ var libItem = fl.getDocumentDOM().library.items\[0\]; fl.trace("fileIsCurrent = 
 ```
 #### See also
 
-[soundItem.fileLastModifiedDate](#!AdobeDocs/developers-animatesdk-docs/test/SoundItem_object/soundIte5.md), [soundItem.sourceFilePath](#!AdobeDocs/developers-animatesdk-docs/test/SoundItem_object/soundIt12.md)
+[soundItem.fileLastModifiedDate](../SoundItem_object/soundIte5.md), [soundItem.sourceFilePath](../SoundItem_object/soundIt12.md)
 
 <span id="soundItem.sourceFilePath" class="anchor"></span>

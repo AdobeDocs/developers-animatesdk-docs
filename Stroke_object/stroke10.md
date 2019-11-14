@@ -10,7 +10,7 @@ stroke.jiggle
 
 #### Description
 
-Property; a string that specifies the jiggle property of a hatched line. This property is available only if the stroke.style property is set to hatched (see [stroke.style](#!AdobeDocs/developers-animatesdk-docs/test/Stroke_object/stroke20.md)). Acceptable values are "none", "bounce", "loose", and "wild".
+Property; a string that specifies the jiggle property of a hatched line. This property is available only if the stroke.style property is set to hatched (see [stroke.style](../Stroke_object/stroke20.md)). Acceptable values are "none", "bounce", "loose", and "wild".
 
 #### Example
 

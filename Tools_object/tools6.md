@@ -23,6 +23,6 @@ fl.trace("x,y location of last mouseDown event was " + pt1.x + ", " + pt1.y)
 ```
 #### See also
 
-[tools.penLoc](#!AdobeDocs/developers-animatesdk-docs/test/Tools_object/tools7.md)
+[tools.penLoc](../Tools_object/tools7.md)
 
 <span id="tools.penLoc" class="anchor"></span>

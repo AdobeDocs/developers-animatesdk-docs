@@ -10,7 +10,7 @@ shape.deleteEdge(index)
 
 #### Parameters
 
-**index** A zero-based index that specifies the edge to delete from the [shape.edges](#!AdobeDocs/developers-animatesdk-docs/test/Shape_object/shape3.md) array. This method changes the length of the shape.edges array.
+**index** A zero-based index that specifies the edge to delete from the [shape.edges](../Shape_object/shape3.md) array. This method changes the length of the shape.edges array.
 
 #### Returns
 
@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; deletes the specified edge. You must call [shape.beginEdit()](#!AdobeDocs/developers-animatesdk-docs/test/Shape_object/shape.md) before using this method.
+Method; deletes the specified edge. You must call [shape.beginEdit()](../Shape_object/shape.md) before using this method.
 
 #### Example
 

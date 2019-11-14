@@ -23,6 +23,6 @@ Method; determines whether the specified data has been attached to the specified
 #### Example
 
 ```javascript
-See [element.getPersistentData()](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/element2.md).
+See [element.getPersistentData()](../Element_object/element2.md).
 
 ```

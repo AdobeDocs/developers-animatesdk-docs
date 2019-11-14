@@ -10,7 +10,7 @@ document.getElementTextAttr(attrName \[, startIndex \[, endIndex\]\])
 
 #### Parameters
 
-**attrName** A string that specifies the name of the TextAttrs property to be returned. For a list of property names and expected values, see the Property summary table for the [TextAttrs object](#!AdobeDocs/developers-animatesdk-docs/test/TextAttrs_object/textAttrs_summary.md).
+**attrName** A string that specifies the name of the TextAttrs property to be returned. For a list of property names and expected values, see the Property summary table for the [TextAttrs object](../TextAttrs_object/textAttrs_summary.md).
 **startIndex** An integer that specifies the index of first character, with 0 (zero) specifying the first position. This parameter is optional.
 **endIndex** An integer that specifies the index of last character. This parameter is optional.
 
@@ -20,7 +20,7 @@ If one text field is selected, the property is returned if there is only one val
 
 #### Description
 
-Method; gets a specific TextAttrs property of the selected Text objects. Selected objects that are not text fields are ignored. For a list of property names and expected values, see the Property summary table for the [TextAttrs object](#!AdobeDocs/developers-animatesdk-docs/test/TextAttrs_object/textAttrs_summary.md). See also [document.setElementTextAttr()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum500.md).
+Method; gets a specific TextAttrs property of the selected Text objects. Selected objects that are not text fields are ignored. For a list of property names and expected values, see the Property summary table for the [TextAttrs object](../TextAttrs_object/textAttrs_summary.md). See also [document.setElementTextAttr()](../Document_object/docum500.md).
 
 #### Example
 

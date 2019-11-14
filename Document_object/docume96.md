@@ -29,4 +29,4 @@ fl.getDocumentDOM().importSWF(fl.configURI+"mySwf.swf");
 ```
 #### See also
 
-[document.importFile()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume93.md)
+[document.importFile()](../Document_object/docume93.md)

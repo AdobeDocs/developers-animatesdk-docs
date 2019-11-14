@@ -10,7 +10,7 @@ document.setCustomStroke(stroke)
 
 #### Parameters
 
-**stroke** A [Stroke object](#!AdobeDocs/developers-animatesdk-docs/test/Stroke_object/stroke_summary.md).
+**stroke** A [Stroke object](../Stroke_object/stroke_summary.md).
 
 #### Returns
 
@@ -29,4 +29,4 @@ var stroke = fl.getDocumentDOM().getCustomStroke(); stroke.thickness += 2; fl.ge
 ```
 #### See also
 
-[document.getCustomStroke()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume75.md)
+[document.getCustomStroke()](../Document_object/docume75.md)

@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; sets the location of the vertex. You must call [shape.beginEdit()](#!AdobeDocs/developers-animatesdk-docs/test/Shape_object/shape.md) before using this method.
+Method; sets the location of the vertex. You must call [shape.beginEdit()](../Shape_object/shape.md) before using this method.
 
 #### Example
 

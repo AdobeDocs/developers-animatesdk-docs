@@ -14,8 +14,8 @@ You can use the following methods with the componentsPanel object:
 
 | **Method**                                                                  | **Description**                                                         |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| [componentsPanel.addItemToDocument()](#!AdobeDocs/developers-animatesdk-docs/test/componentsPanel_object/componentsPanel.md)) | Adds the specified component to the document at the specified position. |
-| [componentsPanel.reload()](#!AdobeDocs/developers-animatesdk-docs/test/componentsPanel_object/componentsPane1.md)                                   | Refreshes the Components panel's list of components.                    |
+| [componentsPanel.addItemToDocument()](../componentsPanel_object/componentsPanel.md)) | Adds the specified component to the document at the specified position. |
+| [componentsPanel.reload()](../componentsPanel_object/componentsPane1.md)                                   | Refreshes the Components panel's list of components.                    |
 
 <span id="componentsPanel.addItemToDocument()" class="anchor"></span>
 

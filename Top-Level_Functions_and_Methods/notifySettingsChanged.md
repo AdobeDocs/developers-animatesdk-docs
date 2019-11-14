@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Function; called when the extensible tool is active and the user changes its options in the Property inspector. You can use the tools.activeTool property to query the current values of the options (see [tools.activeTool](#!AdobeDocs/developers-animatesdk-docs/test/Tools_object/tools.md)).
+Function; called when the extensible tool is active and the user changes its options in the Property inspector. You can use the tools.activeTool property to query the current values of the options (see [tools.activeTool](../Tools_object/tools.md)).
 
 #### Example
 

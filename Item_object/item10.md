@@ -10,7 +10,7 @@ item.linkageIdentifier
 
 #### Description
 
-Property; a string that specifies the name Flash will use to identify the asset when linking to the destination SWF file. Flash ignores this property if [item.linkageImportForRS](#!AdobeDocs/developers-animatesdk-docs/test/Item_object/item11.md), [item.linkageExportForAS](#!AdobeDocs/developers-animatesdk-docs/test/Item_object/item7.md), and [item.linkageExportForRS](#!AdobeDocs/developers-animatesdk-docs/test/Item_object/item8.md) are set to false. Conversely, this property must be set when any of those properties are set to true.
+Property; a string that specifies the name Flash will use to identify the asset when linking to the destination SWF file. Flash ignores this property if [item.linkageImportForRS](../Item_object/item11.md), [item.linkageExportForAS](../Item_object/item7.md), and [item.linkageExportForRS](../Item_object/item8.md) are set to false. Conversely, this property must be set when any of those properties are set to true.
 
 #### Example
 
@@ -21,6 +21,6 @@ fl.getDocumentDOM().library.items\[0\].linkageIdentifier = "my\_mc";
 ```
 #### See also
 
-[item.linkageURL](#!AdobeDocs/developers-animatesdk-docs/test/Item_object/item12.md)
+[item.linkageURL](../Item_object/item12.md)
 
 <span id="item.linkageImportForRS" class="anchor"></span>

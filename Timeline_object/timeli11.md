@@ -19,7 +19,7 @@ Nothing.
 
 #### Description
 
-Method; sets the [frame.tweenType](#!AdobeDocs/developers-animatesdk-docs/test/Frame_object/frame39.md) property to motion for each selected keyframe on the current layer, and converts each frame’s contents to a single symbol instance if necessary. This property is the equivalent to the Create Motion Tween menu item in the Flash authoring tool.
+Method; sets the [frame.tweenType](../Frame_object/frame39.md) property to motion for each selected keyframe on the current layer, and converts each frame’s contents to a single symbol instance if necessary. This property is the equivalent to the Create Motion Tween menu item in the Flash authoring tool.
 
 #### Example
 

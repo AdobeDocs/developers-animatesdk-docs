@@ -29,4 +29,4 @@ The following example hides the control with the ID attribute myControl: fl.xmlu
 ```
 #### See also
 
-[xmlui.getVisible()](#!AdobeDocs/developers-animatesdk-docs/test/XMLUI_object/xmlui5.md)
+[xmlui.getVisible()](../XMLUI_object/xmlui5.md)

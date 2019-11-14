@@ -29,4 +29,4 @@ fl.getDocumentDOM().getTimeline().pasteMotionSpecial();
 ```
 #### See also
 
-[timeline.pasteMotion()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli36.md)
+[timeline.pasteMotion()](../Timeline_object/timeli36.md)

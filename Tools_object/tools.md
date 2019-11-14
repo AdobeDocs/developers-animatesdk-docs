@@ -10,7 +10,7 @@ tools.activeTool
 
 #### Description
 
-Read-only property; returns the [ToolObj object](#!AdobeDocs/developers-animatesdk-docs/test/ToolObj_object/toolObj_summary.md) for the currently active tool.
+Read-only property; returns the [ToolObj object](../ToolObj_object/toolObj_summary.md) for the currently active tool.
 
 #### Example
 

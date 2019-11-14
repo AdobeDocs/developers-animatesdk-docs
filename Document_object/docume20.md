@@ -24,4 +24,4 @@ fl.outputPanel.trace("Warnings Mode value after modification is " + myDocument.a
 ```
 #### See also
 
-[document.as3StrictMode](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume19.md)
+[document.as3StrictMode](../Document_object/docume19.md)

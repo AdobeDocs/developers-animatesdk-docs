@@ -29,4 +29,4 @@ fl.actionsPanel.setText("// Deleted this code - no longer needed");
 ```
 #### See also
 
-[actionsPanel.getText()](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane3.md), [actionsPanel.replaceSelectedText()](#!AdobeDocs/developers-animatesdk-docs/test/actionsPanel_object/actionsPane5.md)
+[actionsPanel.getText()](../actionsPanel_object/actionsPane3.md), [actionsPanel.replaceSelectedText()](../actionsPanel_object/actionsPane5.md)

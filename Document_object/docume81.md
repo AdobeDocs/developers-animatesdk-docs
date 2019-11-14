@@ -31,4 +31,4 @@ fl.trace(fl.getDocumentDOM().getMobileSettings());
 ```
 #### See also
 
-[document.setMobileSettings()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum580.md)
+[document.setMobileSettings()](../Document_object/docum580.md)

@@ -18,7 +18,7 @@ Property; the color of the highlight, in one of the following formats:
 
 -   An integer that represents the decimal equivalent of a hexadecimal number
 
-This property is defined for Filter objects with a value of "bevelFilter" for the [filter.name](#!AdobeDocs/developers-animatesdk-docs/test/Filter_object/filter13.md) property.
+This property is defined for Filter objects with a value of "bevelFilter" for the [filter.name](../Filter_object/filter13.md) property.
 
 #### Example
 

@@ -19,7 +19,7 @@ false otherwise.
 
 #### Description
 
-Method; determines whether you can use the [document.revert()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum340.md) or [fl.revertDocument()](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl61.md)/fl61.md) method successfully.
+Method; determines whether you can use the [document.revert()](../Document_object/docum340.md) or [fl.revertDocument()](../flash_object_(fl)/fl61.md)/fl61.md) method successfully.
 
 #### Example
 

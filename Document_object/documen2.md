@@ -31,4 +31,4 @@ fl.getDocumentDOM().addDataToSelection("myData", "integer", 12);
 ```
 #### See also
 
-[document.removeDataFromSelection()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum260.md)
+[document.removeDataFromSelection()](../Document_object/docum260.md)

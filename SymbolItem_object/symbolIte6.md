@@ -21,6 +21,6 @@ fl.getDocumentDOM().library.items\[0\].scalingGrid = true;
 ```
 #### See also
 
-[symbolItem.scalingGridRect](#!AdobeDocs/developers-animatesdk-docs/test/SymbolItem_object/symbolIte7.md)
+[symbolItem.scalingGridRect](../SymbolItem_object/symbolIte7.md)
 
 <span id="symbolItem.scalingGridRect" class="anchor"></span>

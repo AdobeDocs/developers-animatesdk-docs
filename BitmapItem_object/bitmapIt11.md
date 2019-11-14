@@ -26,4 +26,4 @@ if (fl.getDocumentDOM().library.items\[idx\].itemType == "bitmap") { var myItem 
 ```
 #### See also
 
-[bitmapItem.sourceFileExists](#!AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIte9.md)
+[bitmapItem.sourceFileExists](../BitmapItem_object/bitmapIte9.md)

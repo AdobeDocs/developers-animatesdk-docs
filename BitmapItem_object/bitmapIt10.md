@@ -21,6 +21,6 @@ var libItem = fl.getDocumentDOM().library.items\[0\]; fl.trace("fileIsCurrent = 
 ```
 #### See also
 
-[bitmapItem.fileLastModifiedDate](#!AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIte3.md), [bitmapItem.sourceFilePath](#!AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIt11.md)
+[bitmapItem.fileLastModifiedDate](../BitmapItem_object/bitmapIte3.md), [bitmapItem.sourceFilePath](../BitmapItem_object/bitmapIt11.md)
 
 <span id="bitmapItem.sourceFilePath" class="anchor"></span>

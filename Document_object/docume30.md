@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; copies the current selection from the document to the Clipboard. To copy a string to the Clipboard, use [fl.clipCopyString()](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl6.md)/fl6.md).
+Method; copies the current selection from the document to the Clipboard. To copy a string to the Clipboard, use [fl.clipCopyString()](../flash_object_(fl)/fl6.md)/fl6.md).
 
 #### Example
 
@@ -29,6 +29,6 @@ fl.getDocumentDOM().clipCopy();
 ```
 #### See also
 
-[document.clipCut()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume31.md)), [document.clipPaste()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume32.md)
+[document.clipCut()](../Document_object/docume31.md)), [document.clipPaste()](../Document_object/docume32.md)
 
 <span id="document.clipCut()" class="anchor"></span>

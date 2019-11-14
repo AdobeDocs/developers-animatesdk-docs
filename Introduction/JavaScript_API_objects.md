@@ -65,7 +65,7 @@ The following table briefly describes each of the objects in the JavaScript API.
 
 ### The Flash Document Object Model
 
-The Flash Document Object Model (DOM) for the Flash JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods" on page 18](#_bookmark13)) and two top-level objects—the FLfile object and the flash object (fl). Each object is guaranteed to be available to a script because it always exists when the Flash authoring environment is open. For more information, see [FLfile object](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile_summary.md) and [flash object (fl)](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl_summary.md).
+The Flash Document Object Model (DOM) for the Flash JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods" on page 18](#_bookmark13)) and two top-level objects—the FLfile object and the flash object (fl). Each object is guaranteed to be available to a script because it always exists when the Flash authoring environment is open. For more information, see [FLfile object](../FLfile_object/FLfile_summary.md) and [flash object (fl)](../flash_object_(fl)/fl_summary.md).
 When referring to the flash object, you can use flash or fl. For example, to close all open FLA files, you can use either of the following statements:
 flash.closeAll(); fl.closeAll();
 The flash object contains the following *child objects*:
@@ -89,25 +89,25 @@ The flash object contains the following *child objects*:
 
 ### The Document object
 
-An important property of the top-level flash object is the [fl.documents](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl20.md)/fl20.md) property. This property contains an array of Document objects, each of which represents one of the FLA files currently open in the authoring environment. The properties of each Document object represent most of the elements that a FLA file can contain. Therefore, a large portion of the DOM is composed of child objects and properties of the Document object. For more information, see [Document object](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/document_summary.md).
+An important property of the top-level flash object is the [fl.documents](../flash_object_(fl)/fl20.md)/fl20.md) property. This property contains an array of Document objects, each of which represents one of the FLA files currently open in the authoring environment. The properties of each Document object represent most of the elements that a FLA file can contain. Therefore, a large portion of the DOM is composed of child objects and properties of the Document object. For more information, see [Document object](../Document_object/document_summary.md).
 To refer to the first open document, for example, use the statement flash.documents\[0\] or fl.documents\[0\]. The first document is the first Flash document that was opened during the current session in the authoring environment. When the first opened document is closed, the indexes of the other open documents are decremented.
-To find a particular document’s index, use flash.findDocumentIndex(*nameOfDocument*) or fl.findDocumentIndex(*nameOfDocument*). See [fl.findDocumentIndex()](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl26.md)/fl26.md).
-To access the document that is currently focused, use the statement flash.getDocumentDOM() or fl.getDocumentDOM(). See [fl.getDocumentDOM()](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl31.md)/fl31.md). The latter is the syntax used in most of the examples in this document.
+To find a particular document’s index, use flash.findDocumentIndex(*nameOfDocument*) or fl.findDocumentIndex(*nameOfDocument*). See [fl.findDocumentIndex()](../flash_object_(fl)/fl26.md)/fl26.md).
+To access the document that is currently focused, use the statement flash.getDocumentDOM() or fl.getDocumentDOM(). See [fl.getDocumentDOM()](../flash_object_(fl)/fl31.md)/fl31.md). The latter is the syntax used in most of the examples in this document.
 To find a particular document in the fl.documents array, iterate through the array and test each document for its
-document.name property. See [fl.documents](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl20.md)/fl20.md) and [document.name](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum170.md).
+document.name property. See [fl.documents](../flash_object_(fl)/fl20.md)/fl20.md) and [document.name](../Document_object/docum170.md).
 All the objects in the DOM that aren’t listed in the previous table (see ["The Flash Document Object Model" on page 12](#the-flash-document-object-model)) are accessed from the Document object. For example, to access the library of a document, you use the document.library property, which retrieves a library object:
 fl.getDocumentDOM().library
 To access the array of items in the library, you use the library.items property; each element in the array is an Item object:
 fl.getDocumentDOM().library.items
 To access a particular item in the library, you specify a member of the library.items array:
 fl.getDocumentDOM().library.items\[0\]
-In other words, the library object is a child of the Document object, and the Item object is a child of the library object. For more information, see [document.library](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume98.md), [library object](#!AdobeDocs/developers-animatesdk-docs/test/library_object/library_summary.md), [library.items](#!AdobeDocs/developers-animatesdk-docs/test/library_object/librar10.md)library.items, and [Item object](#!AdobeDocs/developers-animatesdk-docs/test/Item_object/item_summary.md).
+In other words, the library object is a child of the Document object, and the Item object is a child of the library object. For more information, see [document.library](../Document_object/docume98.md), [library object](../library_object/library_summary.md), [library.items](../library_object/librar10.md)library.items, and [Item object](../Item_object/item_summary.md).
 
 ### Specifying the target of an action
 
 Unless otherwise specified, methods affect the current focus or selection. For example, the following script doubles the size of the current selection because no particular object is specified:
 fl.getDocumentDOM().scaleSelection(2, 2);
-In some cases, you might want an action to specifically target the currently selected item in the Flash document. To do this, use the array that the document.selection property contains (see [document.selection](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum430.md)). The first element in the array represents the currently selected item, as shown in the following example:
+In some cases, you might want an action to specifically target the currently selected item in the Flash document. To do this, use the array that the document.selection property contains (see [document.selection](../Document_object/docum430.md)). The first element in the array represents the currently selected item, as shown in the following example:
 var accDescription = fl.getDocumentDOM().selection\[0\].description;
 The following script doubles the size of the first element on the Stage that is stored in the element array, instead of the current selection:
 var element = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\]; if (element) {

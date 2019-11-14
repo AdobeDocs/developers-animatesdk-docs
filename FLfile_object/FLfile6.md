@@ -38,6 +38,6 @@ alert("File 1 and File 2 were saved at the same time") ;
 ```
 #### See also
 
-[FLfile.getCreationDate()](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile4.md), [FLfile.getModificationDateObj()](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile7.md))
+[FLfile.getCreationDate()](../FLfile_object/FLfile4.md), [FLfile.getModificationDateObj()](../FLfile_object/FLfile7.md))
 
 <span id="FLfile.getModificationDateObj()" class="anchor"></span>

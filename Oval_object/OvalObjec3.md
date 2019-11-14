@@ -10,7 +10,7 @@ OvalObject.startAngle
 
 #### Description
 
-Read-only property; a float value that specifies the start angle of the Oval object. Acceptable values are from 0 to 360. To set this value, use [document.setOvalObjectProperty()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum590.md).
+Read-only property; a float value that specifies the start angle of the Oval object. Acceptable values are from 0 to 360. To set this value, use [document.setOvalObjectProperty()](../Document_object/docum590.md).
 
 #### Example
 
@@ -21,4 +21,4 @@ fl.getDocumentDOM().setOvalObjectProperty("startAngle",270);
 ```
 #### See also
 
-[document.setOvalObjectProperty()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum590.md), [OvalObject.endAngle](#!AdobeDocs/developers-animatesdk-docs/test/Oval_object/OvalObjec1.md), [shape.isOvalObject](#!AdobeDocs/developers-animatesdk-docs/test/Shape_object/shape9.md)
+[document.setOvalObjectProperty()](../Document_object/docum590.md), [OvalObject.endAngle](../Oval_object/OvalObjec1.md), [shape.isOvalObject](../Shape_object/shape9.md)

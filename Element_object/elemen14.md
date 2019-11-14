@@ -21,6 +21,6 @@ var element = fl.getDocumentDOM().selection\[0\]; element.scaleX = 2;
 ```
 #### See also
 
-[element.scaleY](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/elemen15.md)
+[element.scaleY](../Element_object/elemen15.md)
 
 <span id="element.scaleY" class="anchor"></span>

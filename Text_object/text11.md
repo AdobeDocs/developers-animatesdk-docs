@@ -10,7 +10,7 @@ text.getTextAttr(attrName \[, startIndex \[, endIndex\]\])
 
 #### Parameters
 
-**attrName** A string that specifies the name of the TextAttrs object property to be returned. For a list of possible values for *attrName*, see the Property summary for the [TextAttrs object](#!AdobeDocs/developers-animatesdk-docs/test/TextAttrs_object/textAttrs_summary.md).
+**attrName** A string that specifies the name of the TextAttrs object property to be returned. For a list of possible values for *attrName*, see the Property summary for the [TextAttrs object](../TextAttrs_object/textAttrs_summary.md).
 **startIndex** An integer that is the index of first character. This parameter is optional.
 **endIndex** An integer that specifies the end of the range of text, which starts with *startIndex* and goes up to, but does not include, *endIndex*. This parameter is optional.
 

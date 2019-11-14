@@ -18,7 +18,7 @@ An XML string.
 
 #### Description
 
-Method: returns an XML string that represents the current positions of the horizontal and vertical guide lines for a timeline (View \Guides \>Show Guides). To apply these guide lines to a timeline, use [timeline.setGuidelines()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli44.md).
+Method: returns an XML string that represents the current positions of the horizontal and vertical guide lines for a timeline (View \Guides \>Show Guides). To apply these guide lines to a timeline, use [timeline.setGuidelines()](../Timeline_object/timeli44.md).
 
 #### Example
 

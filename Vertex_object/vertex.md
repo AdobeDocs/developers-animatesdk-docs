@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-A [HalfEdge object](#!AdobeDocs/developers-animatesdk-docs/test/HalfEdge_object/halfEdge_summary.md).
+A [HalfEdge object](../HalfEdge_object/halfEdge_summary.md).
 
 #### Description
 
-Method; gets a [HalfEdge object](#!AdobeDocs/developers-animatesdk-docs/test/HalfEdge_object/halfEdge_summary.md) that shares this vertex.
+Method; gets a [HalfEdge object](../HalfEdge_object/halfEdge_summary.md) that shares this vertex.
 
 #### Example
 

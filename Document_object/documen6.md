@@ -11,7 +11,7 @@ document.addNewOval(boundingRectangle \[, bSuppressFill \[, bSuppressStroke \]\]
 #### Parameters
 
 **boundingRectangle** A rectangle that specifies the bounds of the oval to be added. For information on the format of
-*boundingRectangle*, see [document.addNewRectangle()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume10.md).
+*boundingRectangle*, see [document.addNewRectangle()](../Document_object/docume10.md).
 **bSuppressFill** A Boolean value that, if set to true, causes the method to create the shape without a fill. The default value is false. This parameter is optional.
 **bSuppressStroke** A Boolean value that, if set to true, causes the method to create the shape without a stroke. The default value is false. This parameter is optional.
 
@@ -34,6 +34,6 @@ fl.getDocumentDOM().addNewOval({left:72,top:50,right:236,bottom:228}, false, tru
 ```
 #### See also
 
-[document.addNewPrimitiveOval()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/documen7.md))
+[document.addNewPrimitiveOval()](../Document_object/documen7.md))
 
 <span id="document.addNewPrimitiveOval()" class="anchor"></span>

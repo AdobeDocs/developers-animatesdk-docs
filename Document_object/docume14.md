@@ -33,4 +33,4 @@ fl.trace("whoops, no screens.");
 ```
 #### See also
 
-[document.screenOutline - dropped](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum410.md)
+[document.screenOutline - dropped](../Document_object/docum410.md)

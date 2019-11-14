@@ -32,4 +32,4 @@ function keyUp() { fl.trace("Key is released");
 ```
 #### See also
 
-[keyDown()](#!AdobeDocs/developers-animatesdk-docs/test/Top-Level_Functions_and_Methods/keyDown.md)
+[keyDown()](../Top-Level_Functions_and_Methods/keyDown.md)

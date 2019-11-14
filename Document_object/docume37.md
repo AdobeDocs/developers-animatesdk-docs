@@ -29,4 +29,4 @@ fl.getDocumentDOM().crop();
 ```
 #### See also
 
-[document.deleteEnvelope()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume41.md), [document.intersect()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume97.md), [document.punch()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum230.md), [document.union()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6120.md), [shape.isDrawingObject](#!AdobeDocs/developers-animatesdk-docs/test/Shape_object/shape6.md)
+[document.deleteEnvelope()](../Document_object/docume41.md), [document.intersect()](../Document_object/docume97.md), [document.punch()](../Document_object/docum230.md), [document.union()](../Document_object/docu6120.md), [shape.isDrawingObject](../Shape_object/shape6.md)

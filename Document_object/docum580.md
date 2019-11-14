@@ -30,4 +30,4 @@ fl.getDocumentDOM().setMobileSettings("\<? xml version="1.0" encoding="UTF-16" s
 ```
 #### See also
 
-[document.getMobileSettings()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume81.md)
+[document.getMobileSettings()](../Document_object/docume81.md)

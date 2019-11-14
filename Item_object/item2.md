@@ -46,4 +46,4 @@ alert("publish persistent data for libElem: sampleData = '" + libItem.getData("s
 ```
 #### See also
 
-[item.setPublishData()](#!AdobeDocs/developers-animatesdk-docs/test/Item_object/item15.md)
+[item.setPublishData()](../Item_object/item15.md)

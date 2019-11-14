@@ -29,4 +29,4 @@ alert("Process Complete");
 ```
 #### See also
 
-[confirm()](#!AdobeDocs/developers-animatesdk-docs/test/Top-Level_Functions_and_Methods/confirm.md), [prompt()](#!AdobeDocs/developers-animatesdk-docs/test/Top-Level_Functions_and_Methods/prompt.md)
+[confirm()](../Top-Level_Functions_and_Methods/confirm.md), [prompt()](../Top-Level_Functions_and_Methods/prompt.md)

@@ -29,4 +29,4 @@ fl.getDocumentDOM().resetRectangleObject();
 ```
 #### See also
 
-[document.resetOvalObject()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum310.md)
+[document.resetOvalObject()](../Document_object/docum310.md)

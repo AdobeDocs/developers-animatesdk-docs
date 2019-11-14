@@ -21,4 +21,4 @@ fl.getDocumentDOM().as3Dialect="ES";
 ```
 #### See also
 
-[document.asVersion](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume21.md)
+[document.asVersion](../Document_object/docume21.md)

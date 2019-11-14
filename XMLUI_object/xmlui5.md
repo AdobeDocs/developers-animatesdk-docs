@@ -29,4 +29,4 @@ var isVisible = fl.xmlui.getVisible("myListBox"); fl.trace(isVisible);
 ```
 #### See also
 
-[xmlui.setVisible()](#!AdobeDocs/developers-animatesdk-docs/test/XMLUI_object/xmlui10.md)
+[xmlui.setVisible()](../XMLUI_object/xmlui10.md)

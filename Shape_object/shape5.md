@@ -15,7 +15,7 @@ shape.getCubicSegmentPoints(cubicSegmentIndex)
 #### Returns
 
 An array of points that define a cubic curve for the Edge object that corresponds to the specified *cubicSegmentIndex*
-(see [edge.cubicSegmentIndex](#!AdobeDocs/developers-animatesdk-docs/test/Edge_object/edge.md)).
+(see [edge.cubicSegmentIndex](../Edge_object/edge.md)).
 
 #### Description
 

@@ -30,4 +30,4 @@ var URI = FLfile.platformPathToURI(dir); fl.trace(URI == fl.configURI); // displ
 ```
 #### See also
 
-[FLfile.platformPathToURI()](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile10.md)
+[FLfile.platformPathToURI()](../FLfile_object/FLfile10.md)

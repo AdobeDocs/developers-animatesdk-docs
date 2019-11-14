@@ -10,7 +10,7 @@ toolObj.enablePIControl(control, bEnable)
 
 #### Parameters
 
-**control** A string that specifies the name of the control to enable or disable. Legal values depend on the Property inspector invoked by this tool; see [toolObj.setPI()](#!AdobeDocs/developers-animatesdk-docs/test/ToolObj_object/toolObj7.md).
+**control** A string that specifies the name of the control to enable or disable. Legal values depend on the Property inspector invoked by this tool; see [toolObj.setPI()](../ToolObj_object/toolObj7.md).
 A shape Property inspector has the following controls:
 A text Property inspector has the following controls:
 

@@ -29,4 +29,4 @@ The following example dims the control with the ID attribute myControl: fl.xmlui
 ```
 #### See also
 
-[xmlui.getEnabled()](#!AdobeDocs/developers-animatesdk-docs/test/XMLUI_object/xmlui4.md)
+[xmlui.getEnabled()](../XMLUI_object/xmlui4.md)

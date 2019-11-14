@@ -18,7 +18,7 @@ The current Timeline object.
 
 #### Description
 
-Method; retrieves the current [Timeline object](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeline_summary.md) in the document. The current timeline can be the current scene, the current symbol being edited, or the current screen.
+Method; retrieves the current [Timeline object](../Timeline_object/timeline_summary.md) in the document. The current timeline can be the current scene, the current symbol being edited, or the current screen.
 
 #### Example
 
@@ -33,4 +33,4 @@ var timeline = fl.getDocumentDOM().getTimeline(); alert(timeline.name);
 ```
 #### See also
 
-[document.currentTimeline](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume39.md), [document.timelines](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docu5995.md), [symbolItem.timeline](#!AdobeDocs/developers-animatesdk-docs/test/SymbolItem_object/symbolIt12.md)
+[document.currentTimeline](../Document_object/docume39.md), [document.timelines](../Document_object/docu5995.md), [symbolItem.timeline](../SymbolItem_object/symbolIt12.md)

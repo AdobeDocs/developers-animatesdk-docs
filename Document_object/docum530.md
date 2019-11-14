@@ -33,4 +33,4 @@ fl.getDocumentDOM().setFilters(myFilters);
 ```
 #### See also
 
-[document.addFilter()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/documen3.md), [document.getFilters()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume79.md), [document.setFilterProperty()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum520.md), [Filter object](#!AdobeDocs/developers-animatesdk-docs/test/Filter_object/filter_summary.md)
+[document.addFilter()](../Document_object/documen3.md), [document.getFilters()](../Document_object/docume79.md), [document.setFilterProperty()](../Document_object/docum520.md), [Filter object](../Filter_object/filter_summary.md)

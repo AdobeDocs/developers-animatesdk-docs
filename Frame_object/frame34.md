@@ -10,7 +10,7 @@ frame.soundName
 
 #### Description
 
-Property; a string that specifies the name of a sound that is attached directly to a frame ([frame.soundLibraryItem](#!AdobeDocs/developers-animatesdk-docs/test/Frame_object/frame31.md)), as stored in the library.
+Property; a string that specifies the name of a sound that is attached directly to a frame ([frame.soundLibraryItem](../Frame_object/frame31.md)), as stored in the library.
 
 #### Example
 

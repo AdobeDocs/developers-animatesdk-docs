@@ -26,4 +26,4 @@ if (fl.getDocumentDOM().library.items\[idx\].itemType == "video") { var myItem =
 ```
 #### See also
 
-[videoItem.sourceFileExists](#!AdobeDocs/developers-animatesdk-docs/test/VideoItem_object/videoIte3.md)
+[videoItem.sourceFileExists](../VideoItem_object/videoIte3.md)

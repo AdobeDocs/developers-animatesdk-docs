@@ -14,11 +14,11 @@ None.
 
 #### Returns
 
-An [Edge object](#!AdobeDocs/developers-animatesdk-docs/test/Edge_object/edge_summary.md).
+An [Edge object](../Edge_object/edge_summary.md).
 
 #### Description
 
-Method; gets the Edge object for the HalfEdge object. See [Edge object](#!AdobeDocs/developers-animatesdk-docs/test/Edge_object/edge_summary.md).
+Method; gets the Edge object for the HalfEdge object. See [Edge object](../Edge_object/edge_summary.md).
 
 #### Example
 

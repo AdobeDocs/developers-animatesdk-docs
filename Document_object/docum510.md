@@ -26,7 +26,7 @@ Nothing.
 
 #### Description
 
-Method; changes the selection and the tools panel to the specified fill color. For additional information on changing the fill color in the Tools panel and Property inspector, see [document.setCustomFill()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum470.md).
+Method; changes the selection and the tools panel to the specified fill color. For additional information on changing the fill color in the Tools panel and Property inspector, see [document.setCustomFill()](../Document_object/docum470.md).
 
 #### Example
 

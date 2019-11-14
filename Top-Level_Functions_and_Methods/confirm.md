@@ -30,4 +30,4 @@ confirm("Sort data?");
 ```
 #### See also
 
-[alert()](#!AdobeDocs/developers-animatesdk-docs/test/Top-Level_Functions_and_Methods/alert.md), [prompt()](#!AdobeDocs/developers-animatesdk-docs/test/Top-Level_Functions_and_Methods/prompt.md)
+[alert()](../Top-Level_Functions_and_Methods/alert.md), [prompt()](../Top-Level_Functions_and_Methods/prompt.md)

@@ -29,4 +29,4 @@ var profileXML=fl.getDocumentDOM().exportPublishProfileString(); fl.trace(profil
 ```
 #### See also
 
-[document.exportPublishProfile()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume65.md), [document.importPublishProfileString()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume95.md)
+[document.exportPublishProfile()](../Document_object/docume65.md), [document.importPublishProfileString()](../Document_object/docume95.md)

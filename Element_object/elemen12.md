@@ -23,6 +23,6 @@ Method; removes any persistent data with the specified name that has been attach
 #### Example
 
 ```javascript
-See [element.getPersistentData()](#!AdobeDocs/developers-animatesdk-docs/test/Element_object/element2.md).
+See [element.getPersistentData()](../Element_object/element2.md).
 
 ```

@@ -11,7 +11,7 @@ frame.labelType
 #### Description
 
 Property; a string that specifies the type of Frame name. Acceptable values are "none", "name", "comment", and
-"anchor". Setting a label to "none" clears the [frame.name](#!AdobeDocs/developers-animatesdk-docs/test/Frame_object/frame22.md) property.
+"anchor". Setting a label to "none" clears the [frame.name](../Frame_object/frame22.md) property.
 
 #### Example
 

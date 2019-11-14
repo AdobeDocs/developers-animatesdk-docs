@@ -31,4 +31,4 @@ fl.presetPanel.newFolder("Custom Presets/Bouncing");
 ```
 #### See also
 
-[presetPanel.addNewItem()](#!AdobeDocs/developers-animatesdk-docs/test/presetPanel_object/presetPanel.md)
+[presetPanel.addNewItem()](../presetPanel_object/presetPanel.md)

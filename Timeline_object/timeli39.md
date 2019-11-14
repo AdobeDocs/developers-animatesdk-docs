@@ -33,4 +33,4 @@ fl.getDocumentDOM().getTimeline().removeMotionObject(5, 15);
 ```
 #### See also
 
-[timeline.createMotionObject()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli10.md)
+[timeline.createMotionObject()](../Timeline_object/timeli10.md)

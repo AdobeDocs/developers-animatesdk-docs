@@ -20,7 +20,7 @@ A Boolean value of true if successful; false otherwise.
 
 #### Description
 
-Method; writes the specified string to the specified file (as UTF-8). If the specified file does not exist, it is created. However, the folder in which you are placing the file must exist before you use this method. To create folders, use [FLfile.createFolder()](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile1.md).
+Method; writes the specified string to the specified file (as UTF-8). If the specified file does not exist, it is created. However, the folder in which you are placing the file must exist before you use this method. To create folders, use [FLfile.createFolder()](../FLfile_object/FLfile1.md).
 
 #### Example
 
@@ -35,4 +35,4 @@ if (FLfile.write(URI, "aaa", "append")) { alert("Appended aaa to " + fileURI);
 ```
 #### See also
 
-[FLfile.createFolder()](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile1.md), [FLfile.exists()](#!AdobeDocs/developers-animatesdk-docs/test/FLfile_object/FLfile2.md)
+[FLfile.createFolder()](../FLfile_object/FLfile1.md), [FLfile.exists()](../FLfile_object/FLfile2.md)

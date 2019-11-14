@@ -21,4 +21,4 @@ The following code illustrates use of this property.
 ```
 #### See also
 
-[bitmapItem.hPixels](#!AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIte5.md)
+[bitmapItem.hPixels](../BitmapItem_object/bitmapIte5.md)

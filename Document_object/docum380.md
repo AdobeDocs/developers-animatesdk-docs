@@ -29,4 +29,4 @@ fl.getDocumentDOM().saveAndCompact();
 ```
 #### See also
 
-[document.save()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum370.md), [fl.saveDocumentAs()](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl65.md)/fl65.md), [fl.saveDocument()](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl64.md)/fl64.md), [fl.saveAll()](#!AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl63.md)/fl63.md)
+[document.save()](../Document_object/docum370.md), [fl.saveDocumentAs()](../flash_object_(fl)/fl65.md)/fl65.md), [fl.saveDocument()](../flash_object_(fl)/fl64.md)/fl64.md), [fl.saveAll()](../flash_object_(fl)/fl63.md)/fl63.md)

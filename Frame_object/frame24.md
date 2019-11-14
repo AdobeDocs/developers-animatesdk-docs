@@ -31,4 +31,4 @@ var theFrame = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\]; var ea
 ```
 #### See also
 
-[frame.getCustomEase()](#!AdobeDocs/developers-animatesdk-docs/test/Frame_object/frame6.md), [frame.hasCustomEase](#!AdobeDocs/developers-animatesdk-docs/test/Frame_object/frame10.md), [frame.useSingleEaseCurve](#!AdobeDocs/developers-animatesdk-docs/test/Frame_object/frame40.md)
+[frame.getCustomEase()](../Frame_object/frame6.md), [frame.hasCustomEase](../Frame_object/frame10.md), [frame.useSingleEaseCurve](../Frame_object/frame40.md)

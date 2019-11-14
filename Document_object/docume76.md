@@ -29,4 +29,4 @@ fl.getDocumentDOM().addDataToDocument("myData", "integer", 12); fl.trace(fl.getD
 ```
 #### See also
 
-[document.addDataToDocument()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/documen1.md), [document.documentHasData()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume53.md), [document.removeDataFromDocument()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docum250.md)
+[document.addDataToDocument()](../Document_object/documen1.md), [document.documentHasData()](../Document_object/docume53.md), [document.removeDataFromDocument()](../Document_object/docum250.md)

@@ -10,7 +10,7 @@ document.addNewPrimitiveOval( boundingRectangle \[, bSpupressFill \[, bSuppressS
 
 #### Parameters
 
-**boundingRectangle** A rectangle that specifies the bounds within which the new oval primitive is added. For information on the format of *boundingRectangle*, see [document.addNewRectangle()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume10.md).
+**boundingRectangle** A rectangle that specifies the bounds within which the new oval primitive is added. For information on the format of *boundingRectangle*, see [document.addNewRectangle()](../Document_object/docume10.md).
 **bSuppressFill** A Boolean value that, if set to true, causes the method to create the oval without a fill. The default value is false. This parameter is optional.
 **bSuppressStroke** A Boolean value that, if set to true, causes the method to create the oval without a stroke**.** The default value is false. This parameter is optional.
 
@@ -33,4 +33,4 @@ The following example adds oval primitives within the specified coordinates, wit
 ```
 #### See also
 
-[document.addNewOval()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/documen6.md)
+[document.addNewOval()](../Document_object/documen6.md)

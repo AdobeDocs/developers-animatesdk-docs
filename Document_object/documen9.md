@@ -30,4 +30,4 @@ The following example adds a new publish profile with the name "my profile": fl.
 ```
 #### See also
 
-[document.deletePublishProfile()](#!AdobeDocs/developers-animatesdk-docs/test/Document_object/docume42.md)
+[document.deletePublishProfile()](../Document_object/docume42.md)

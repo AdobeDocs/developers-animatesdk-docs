@@ -38,4 +38,4 @@ var savedSelectionList = fl.getDocumentDOM().getTimeline().getSelectedFrames();
 ```
 #### See also
 
-[timeline.getSelectedFrames()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli25.md)
+[timeline.getSelectedFrames()](../Timeline_object/timeli25.md)

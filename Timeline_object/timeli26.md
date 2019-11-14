@@ -26,4 +26,4 @@ var layerArray = fl.getDocumentDOM().getTimeline().getSelectedLayers(); fl.trace
 ```
 #### See also
 
-[timeline.setSelectedLayers()](#!AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli47.md)
+[timeline.setSelectedLayers()](../Timeline_object/timeli47.md)

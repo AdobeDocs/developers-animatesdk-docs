@@ -10,7 +10,7 @@ document.library
 
 #### Description
 
-Read-only property; the [library object](#!AdobeDocs/developers-animatesdk-docs/test/library_object/library_summary.md) for a document.
+Read-only property; the [library object](../library_object/library_summary.md) for a document.
 
 #### Example
 

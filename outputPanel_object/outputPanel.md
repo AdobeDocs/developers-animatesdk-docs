@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; clears the contents of the Output panel. You can use this method in a batch processing application to clear a list of errors, or to save them incrementally by using this method with [outputPanel.save()](#!AdobeDocs/developers-animatesdk-docs/test/outputPanel_object/outputPane1.md)).
+Method; clears the contents of the Output panel. You can use this method in a batch processing application to clear a list of errors, or to save them incrementally by using this method with [outputPanel.save()](../outputPanel_object/outputPane1.md)).
 
 #### Example
 
