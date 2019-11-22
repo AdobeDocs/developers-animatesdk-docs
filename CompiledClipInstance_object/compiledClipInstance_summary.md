@@ -1,6 +1,6 @@
 ## compiledClipInstance summary
 
-**Inheritance** [Element object](../Element_object/element_summary.md) \[Instance object](../Instance_object/instance_summary.md) \CompiledClipInstance object
+**Inheritance** [Element object](../Element_object/element_summary.md) > [Instance object](../Instance_object/instance_summary.md) > CompiledClipInstance object
 
 #### Availability
 
@@ -17,7 +17,7 @@ In addition to the properties of the [Instance object](../Instance_object/instan
 | **Property**                                                                | **Description**                                                                           |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | [compiledClipInstance.accName](../CompiledClipInstance_object/compiledClipInstance.md)               | A string that is equivalent to the Name field in the Accessibility panel.                 |
-| [compiledClipInstance.actionScript -](#_bookmark70) [dropped](#_bookmark70) | Dropped in Adobe Animate.                                                                 |
+| [compiledClipInstance.actionScript -](#) [dropped](#) | Dropped in Adobe Animate.                                                                 |
 | [compiledClipInstance.backgroundColor](../CompiledClipInstance_object/compiledClipInstanc2.md)                        | A string that specifies the matte color when Opaque is selected.                          |
 | [compiledClipInstance.description](../CompiledClipInstance_object/compiledClipInstan15.md)                            | A string that is equivalent to the Description field in the Accessibility panel.          |
 | [compiledClipInstance.blendMode](../CompiledClipInstance_object/compiledClipInstanc3.md)                              | A string that specifies the blend mode.                                                   |
