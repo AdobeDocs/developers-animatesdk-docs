@@ -16,7 +16,7 @@ In addition to the [Instance object](../Instance_object/instance_summary.md) met
 
 | **Method**                                            | **Description**                                                                                                            |
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| [bitmapInstance.getBits()](../BitmapInstance_object/bitmapInstance.md) | Lets you create bitmap effects by getting the bits out of the bitmap, manipulating them, and then returning them to Flash. |
+| [bitmapInstance.getBits()](../BitmapInstance_object/bitmapInstance.md) | Lets you create bitmap effects by getting the bits out of the bitmap, manipulating them, and then returning them to Animate. |
 | [bitmapInstance.setBits()](../BitmapInstance_object/bitmapInstanc2.md)              | Sets the bits of an existing bitmap element.                                                                               |
 
 #### Property summary

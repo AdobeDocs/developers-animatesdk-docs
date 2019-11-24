@@ -19,7 +19,7 @@ The byte array is meaningful only when referenced by a DLL or shared library. Yo
 
 #### Description
 
-Method; lets you create bitmap effects by getting the bits out of the bitmap, manipulating them, and then returning them to Flash.
+Method; lets you create bitmap effects by getting the bits out of the bitmap, manipulating them, and then returning them to Animate.
 
 #### Example
 
