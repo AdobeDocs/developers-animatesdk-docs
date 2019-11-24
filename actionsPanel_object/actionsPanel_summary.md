@@ -14,13 +14,13 @@ The following methods can be used with the actionsPanel object:
 
 | **Method**                                                                                                                           | **Description**                                                        |
 |--------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [actionsPanel.getClassForObject() -](#actionsPanel.getClassForObject()_-_dropp) [dropped](#actionsPanel.getClassForObject()_-_dropp) | Dropped in Adobe Animate.                                              |
-| [actionsPanel.getScriptAssistMode() -](#_bookmark34) [dropped](#_bookmark34)                                                         | Dropped in Adobe Animate.                                              |
+| [actionsPanel.getClassForObject() -dropped](../actionsPanel_object/actionsPane.md) | Dropped in Adobe Animate.                                              |
+| [actionsPanel.getScriptAssistMode() -dropped](../actionsPanel_object/actionsPane1.md)                                                         | Dropped in Adobe Animate.                                              |
 | [actionsPanel.getSelectedText()](../actionsPanel_object/actionsPane2.md)                                                                                       | Returns the text that is currently selected in the Actions panel.      |
 | [actionsPanel.getText()](../actionsPanel_object/actionsPane3.md)                                                                                               | Returns the text in the Actions panel.                                 |
 | [actionsPanel.hasSelection()](../actionsPanel_object/actionsPane4.md)                                                                                          | Specifies whether any text is currently selected in the Actions panel. |
 | [actionsPanel.replaceSelectedText()](../actionsPanel_object/actionsPane5.md)                                                                                   | Replaces the currently selected text with specified text.              |
-| [actionsPanel.setScriptAssistMode() -](#_bookmark39) [dropped](#_bookmark39)                                                         | Dropped in Adobe Animate.                                              |
+| [actionsPanel.setScriptAssistMode() -dropped](../actionsPanel_object/actionsPane6.md)                                                         | Dropped in Adobe Animate.                                              |
 | [actionsPanel.setSelection()](../actionsPanel_object/actionsPane7.md)                                                                                          | Selects a specified set of characters in the Actions panel.            |
 | [actionsPanel.setText()](../actionsPanel_object/actionsPane8.md)                                                                                               | Clears any text in the Actions panel and then adds specified text.     |
 
