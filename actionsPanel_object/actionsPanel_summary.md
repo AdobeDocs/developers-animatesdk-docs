@@ -14,7 +14,7 @@ The following methods can be used with the actionsPanel object:
 
 | **Method**                                                                                                                           | **Description**                                                        |
 |--------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [actionsPanel.getClassForObject() -dropped](../actionsPanel_object/actionsPaneL.md) | Dropped in Adobe Animate.                                              |
+| [actionsPanel.getClassForObject() -dropped](../actionsPanel_object/actionsPanel.md) | Dropped in Adobe Animate.                                              |
 | [actionsPanel.getScriptAssistMode() -dropped](../actionsPanel_object/actionsPane1.md)                                                         | Dropped in Adobe Animate.                                              |
 | [actionsPanel.getSelectedText()](../actionsPanel_object/actionsPane2.md)                                                                                       | Returns the text that is currently selected in the Actions panel.      |
 | [actionsPanel.getText()](../actionsPanel_object/actionsPane3.md)                                                                                               | Returns the text in the Actions panel.                                 |
