@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-drawingLayer.endFrame()
+*drawingLayer.endFrame()*
 
 #### Parameters
 
@@ -18,4 +18,4 @@ Nothing.
 
 #### Description
 
-Method; signals the end of a group of drawing commands. A group of drawing commands refers to everything drawn between [drawingLayer.beginFrame()](../drawingLayer_object/drawingLaye1.md) and drawingLayer.endFrame(). The next call to [drawingLayer.beginFrame()](../drawingLayer_object/drawingLaye1.md) will erase whatever was drawn in this group of drawing commands. You typically use this method only when creating extensible tools.
+Method; signals the end of a group of drawing commands. A group of drawing commands refers to everything drawn between [drawingLayer.beginFrame()](../drawingLayer_object/drawingLaye1.md) and *drawingLayer.endFrame()*. The next call to [drawingLayer.beginFrame()](../drawingLayer_object/drawingLaye1.md) will erase whatever was drawn in this group of drawing commands. You typically use this method only when creating extensible tools.

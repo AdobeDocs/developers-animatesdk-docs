@@ -2,7 +2,7 @@
 
 #### Availability
 
-Adobe animate.
+Flash CS3 Professional.
 
 #### Usage
 

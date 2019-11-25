@@ -6,12 +6,17 @@ Flash MX 2004.
 
 #### Usage
 
-drawingLayer.curveTo(xCtl, yCtl, xEnd, yEnd)
+*drawingLayer.curveTo(xCtl, yCtl, xEnd, yEnd)*
 
 #### Parameters
 
 **xCtl** A floating-point value that is the *x* position of the control point.
-**yCtl** A floating-point value that is the *y* position of the control point. **xEnd** A floating-point value that is the *x* position of the end control point. **yEnd** A floating-point value that is the *y* position of the end control point.
+
+**yCtl** A floating-point value that is the *y* position of the control point. 
+
+**xEnd** A floating-point value that is the *x* position of the end control point. 
+
+**yEnd** A floating-point value that is the *y* position of the end control point.
 
 #### Returns
 

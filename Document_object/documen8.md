@@ -2,11 +2,11 @@
 
 #### Availability
 
-Adobe Animate.
+Flash CS4 Professional.
 
 #### Usage
 
-document.addNewPrimitiveRectangle( boundingRectangle, roundness, [, bSuppressFill [, bSuppressStroke ]))
+document.addNewPrimitiveRectangle( boundingRectangle, roundness, [, bSuppressFill [, bSuppressStroke ]]))
 
 #### Parameters
 
