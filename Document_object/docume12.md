@@ -6,7 +6,7 @@ Flash MX 2004; optional *text* parameter added in Flash CS3 Professional.
 
 #### Usage
 
-document.addNewText(boundingRectangle \[, text \])
+document.addNewText(boundingRectangle [, text ])
 
 #### Parameters
 

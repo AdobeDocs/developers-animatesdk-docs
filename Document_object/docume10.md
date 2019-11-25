@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.addNewRectangle(boundingRectangle, roundness \[, bSuppressFill \[, bSuppressStroke\]\])
+document.addNewRectangle(boundingRectangle, roundness [, bSuppressFill [, bSuppressStroke]])
 
 #### Parameters
 

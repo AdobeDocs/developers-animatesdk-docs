@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.align(alignmode \[, bUseDocumentBounds\])
+document.align(alignmode [, bUseDocumentBounds])
 
 #### Parameters
 

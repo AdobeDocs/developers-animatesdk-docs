@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.addNewScene(\[name\])
+document.addNewScene([name])
 
 #### Parameters
 

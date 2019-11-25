@@ -2,11 +2,11 @@
 
 #### Availability
 
-Flash CS4 Professional.
+Adobe Animate.
 
 #### Usage
 
-document.addNewPrimitiveOval( boundingRectangle \[, bSpupressFill \[, bSuppressStroke \]\] ))
+document.addNewPrimitiveOval( boundingRectangle [, bSpupressFill [, bSuppressStroke ]] ))
 
 #### Parameters
 
