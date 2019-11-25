@@ -20,6 +20,6 @@ Property; a boolean that sets the background color:
 
 ```javascript
 The following example illustrates use of this property:
-fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].useBackgroundColor = true;
+fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].useBackgroundColor = true;
 
 ```

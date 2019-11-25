@@ -16,6 +16,6 @@ Property; a boolean that sets visibility. Equivalent to the visible checkbox in 
 
 ```javascript
 The following example illustrates use of this property:
-// change visible to false on currently selected symbol instance fl.getDocumentDOM().selection\[0\].visible = false;
+// change visible to false on currently selected symbol instance fl.getDocumentDOM().selection[0].visible = false;
 
 ```
