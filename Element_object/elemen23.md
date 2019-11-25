@@ -15,4 +15,4 @@ Property; a floating-point number that specifies the x value of the selected ele
 #### Example
 
 #### See also
-[element.getTransformationPoint()](..Element_object/element4.md), [element.setTransformationPoint()](../Element_object/elemen19.md), [element.transformY](../Element_object/elemen24.md)
+[element.getTransformationPoint()](../Element_object/element4.md), [element.setTransformationPoint()](../Element_object/elemen19.md), [element.transformY](../Element_object/elemen24.md)
