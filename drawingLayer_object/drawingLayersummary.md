@@ -14,7 +14,7 @@ The following methods are available for the drawingLayer object:
 
 | **Method**                                            | **Description**                                                                                                 |
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| [drawingLayer.beginDraw()](../drawingLayer_object/drawingLayer.md)) | Puts Flash in drawing mode.                                                                                     |
+| [drawingLayer.beginDraw()](../drawingLayer_object/drawingLayer.md) | Puts Flash in drawing mode.                                                                                     |
 | [drawingLayer.beginFrame()](../drawingLayer_object/drawingLaye1.md)            | Erases what was previously drawn using the drawingLayer and prepares for more drawing commands.                 |
 | [drawingLayer.cubicCurveTo()](../drawingLayer_object/drawingLaye2.md)          | Draws a cubic curve from the current pen location using the parameters as the coordinates of the cubic segment. |
 | [drawingLayer.curveTo()](../drawingLayer_object/drawingLaye3.md)               | Draws a quadratic curve segment starting at the current drawing position and ending at a specified point.       |
