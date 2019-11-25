@@ -34,6 +34,6 @@ fl.getDocumentDOM().addNewOval({left:72,top:50,right:236,bottom:228}, false, tru
 ```
 #### See also
 
-[document.addNewPrimitiveOval()](../Document_object/documen7.md))
+[document.addNewPrimitiveOval()](../Document_object/documen7.md)
 
 <span id="document.addNewPrimitiveOval()" class="anchor"></span>

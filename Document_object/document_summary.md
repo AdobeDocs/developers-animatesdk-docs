@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Description
 
-The Document object represents the Stage. That is, only FLA files are considered documents. To return the Document object for the current document, use [fl.getDocumentDOM()](../flash_object_(fl)/fl31.md)/fl31.md).
+The Document object represents the Stage. That is, only FLA files are considered documents. To return the Document object for the current document, use [fl.getDocumentDOM()](../flash_object_(fl)/fl31.md)
 
 #### Method summary
 

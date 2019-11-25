@@ -6,7 +6,7 @@ Adobe Animate.
 
 #### Usage
 
-document.addNewPrimitiveRectangle( boundingRectangle, roundness, [, bSuppressFill [, bSuppressStroke ]))
+document.addNewPrimitiveRectangle( boundingRectangle, roundness, [, bSuppressFill [, bSuppressStroke ]]))
 
 #### Parameters
 
