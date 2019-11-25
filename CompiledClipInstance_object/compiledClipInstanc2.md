@@ -2,7 +2,7 @@
 
 #### Availability
 
-Flash ProfessionalCC.
+Adobe Animate.
 
 #### Usage
 
