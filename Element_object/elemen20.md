@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-element.skewX
+*element.skewX*
 
 #### Description
 
@@ -16,7 +16,9 @@ Property; a float value between -180 and 180 that specifies the *x* skew value o
 
 ```javascript
 The following example sets the *x* skew value of the current selection to 10:
-var element = fl.getDocumentDOM().selection\[0\]; element.skewX = 10;
+
+var element = fl.getDocumentDOM().selection[0]; 
+element.skewX = 10;
 
 ```
 #### See also

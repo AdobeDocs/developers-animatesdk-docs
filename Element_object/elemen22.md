@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-element.top
+*element.top*
 
 #### Description
 
@@ -16,8 +16,11 @@ Read-only property; top side of the element. The value of element.top is relativ
 
 ```javascript
 The following example shows how the value of this property changes when an element is moved:
-// Select an element on the Stage and then run this script. var sel = fl.getDocumentDOM().selection\[0\];
-fl.trace("Top (before) = " + sel.top); fl.getDocumentDOM().moveSelectionBy({x:0, y:100}); fl.trace("Top (after) = " + sel.top);
-See the [element.elementType](../Element_object/element1.md) example.
-
+// Select an element on the Stage and then run this script. 
+var sel = fl.getDocumentDOM().selection[0];
+fl.trace("Top (before) = " + sel.top); 
+fl.getDocumentDOM().moveSelectionBy({x:0, y:100}); 
+fl.trace("Top (after) = " + sel.top);
 ```
+
+See the [element.elementType](../Element_object/element1.md) example.
