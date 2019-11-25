@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-componentsPanel.reload()
+*componentsPanel.reload()*
 
 #### Parameters
 
@@ -14,7 +14,7 @@ None.
 
 #### Returns
 
-A Boolean value of true if the Component panel list is refreshed, false otherwise.
+A Boolean value of *true* if the Component panel list is refreshed, *false* otherwise.
 
 #### Description
 

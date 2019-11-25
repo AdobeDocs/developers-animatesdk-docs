@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-compilerErrors.clear()
+*compilerErrors.clear()*
 
 #### Parameters
 
@@ -29,7 +29,7 @@ fl.compilerErrors.clear();
 ```
 #### See also
 
-[compilerErrors.save()](../compilerErrors_object/compilerError1.md))
+[compilerErrors.save()](../compilerErrors_object/compilerError1.md)
 **compilerErrors object**
 
 <span id="compilerErrors.save()" class="anchor"></span>
