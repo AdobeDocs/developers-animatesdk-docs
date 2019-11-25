@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-componentInstance.parameters
+*componentInstance.parameters*
 
 #### Description
 
@@ -16,7 +16,7 @@ Read-only property; an array of ActionScript 2.0 properties that are accessible 
 
 ```javascript
 The following example illustrates getting and setting the parameters property:
-var parms = fl.getDocumentDOM().selection\[0\].parameters; parms\[0\].value = "some value";
+var parms = fl.getDocumentDOM().selection[0].parameters; parms[0].value = "some value";
 
 ```
 #### See also

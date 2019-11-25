@@ -1,6 +1,6 @@
 ## bitmapItem summary
 
-**Inheritance** [Item object](../Item_object/item_summary.md) \BitmapItem object
+**Inheritance** [Item object](../Item_object/item_summary.md) > BitmapItem object
 
 #### Availability
 
