@@ -24,6 +24,6 @@ Method; gets a point object set to the location of the specified control point o
 
 ```javascript
 The following example stores the first control point of the specified shape in the pt variable:
-var shape = fl.getDocumentDOM().selection\[0\]; var pt = shape.edges\[0\].getControl(0);
+var shape = fl.getDocumentDOM().selection[0]; var pt = shape.edges[0].getControl(0);
 
 ```
