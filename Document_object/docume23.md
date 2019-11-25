@@ -12,7 +12,7 @@ document.backgroundColor
 
 Property; the color of the background, in one of the following formats:
 
--   A string in the format "\#RRGGBB" or "\#RRGGBBAA"
+-   A string in the format "#RRGGBB" or "#RRGGBBAA"
 
 -   A hexadecimal number in the format 0xRRGGBB
 
@@ -22,6 +22,6 @@ Property; the color of the background, in one of the following formats:
 
 ```javascript
 The following example sets the background color to black:
-fl.getDocumentDOM().backgroundColor = '\#000000';
+fl.getDocumentDOM().backgroundColor = '#000000';
 
 ```

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.addNewOval(boundingRectangle \[, bSuppressFill \[, bSuppressStroke \]\])
+document.addNewOval(boundingRectangle [, bSuppressFill [, bSuppressStroke ]])
 
 #### Parameters
 

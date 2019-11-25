@@ -25,10 +25,10 @@ Method; adds an item from any open document or library to the specified Document
 
 ```javascript
 The following example adds the first item from the library to the first document at the specified location for the selected symbol, bitmap, or video:
-var item = fl.documents\[0\].library.items\[0\]; fl.documents\[0\].addItem({x:0,y:0}, item);
+var item = fl.documents[0].library.items[0]; fl.documents[0].addItem({x:0,y:0}, item);
 The following example adds the symbol myMovieClip from the current document’s library to the current document:
-var itemIndex = fl.getDocumentDOM().library.findItemIndex("myMovieClip"); var theItem = fl.getDocumentDOM().library.items\[itemIndex\]; fl.getDocumentDOM().addItem({x:0,y:0}, theItem);
+var itemIndex = fl.getDocumentDOM().library.findItemIndex("myMovieClip"); var theItem = fl.getDocumentDOM().library.items[itemIndex]; fl.getDocumentDOM().addItem({x:0,y:0}, theItem);
 The following example adds the symbol myMovieClip from the second document in the documents array to the third document in the documents array:
-var itemIndex = fl.documents\[1\].library.findItemIndex("myMovieClip"); var theItem = fl.documents\[1\].library.items\[itemIndex\]; fl.documents\[2\].addItem({x:0,y:0}, theItem);
+var itemIndex = fl.documents[1].library.findItemIndex("myMovieClip"); var theItem = fl.documents[1].library.items[itemIndex]; fl.documents[2].addItem({x:0,y:0}, theItem);
 
 ```
