@@ -16,10 +16,10 @@ Property; an array of Filter objects. The properties of Filter object in the fil
 
 ```javascript
 The following example illustrates use of this property:
-//trace the name of the filter at index 0, if == glow filter, set its blurX to 100 var filterName = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].filters\[0\].name; fl.trace(filterName);
-var filterArray = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].filters; if (filterName == 'glowFilter'){
-filterArray\[0\].blurX = 100;
+//trace the name of the filter at index 0, if == glow filter, set its blurX to 100 var filterName = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].filters[0].name; fl.trace(filterName);
+var filterArray = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].filters; if (filterName == 'glowFilter'){
+filterArray[0].blurX = 100;
 }
-fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].filters = filterArray;
+fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].filters = filterArray;
 
 ```
