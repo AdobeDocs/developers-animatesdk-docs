@@ -17,7 +17,6 @@ Property; an array of integers, each in the range of zero to 255, indicating the
 ```javascript
 The following example specifies the colors to use in a linear gradient for the current selection:
 var fill = fl.getDocumentDOM().getCustomFill(); fill.style = "linearGradient";
-fill.colorArray = \[ 0x00ff00, 0xff0000, 0x0000ff \]; fill.posArray= \[0,100, 200\]; fl.getDocumentDOM().setCustomFill( fill );
+fill.colorArray =  [ 0x00ff00, 0xff0000, 0x0000ff  ]; fill.posArray=  [0,100, 200]; fl.getDocumentDOM().setCustomFill( fill );
 
-<span id="fill.style" class="anchor"></span
 ```

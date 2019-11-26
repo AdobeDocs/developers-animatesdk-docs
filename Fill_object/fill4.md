@@ -18,7 +18,7 @@ This property is available only if the value of the [fill.style](../Fill_object/
 ```javascript
 The following example sets the focal point of a radial gradient for the current selection to 100 pixels to the right of the shape’s center:
 var fill = fl.getDocumentDOM().getCustomFill(); fill.style = "radialGradient";
-fill.colorArray = \["\#00ff00","\#ff00ff"\]; fill.posArray = \[0, 255\];
+fill.colorArray = ["#00ff00","#ff00ff"]; fill.posArray = [0, 255];
 fill.focalPoint = 10100; fl.getDocumentDOM().setCustomFill(fill);
 
 ```

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-element.height
+*element.height*
 
 #### Description
 
@@ -17,6 +17,6 @@ Do not use this property to resize a text field. Instead, select the text field 
 
 ```javascript
 The following example sets the height of the specified element to 100:
-fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].height = 100;
+fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].height = 100;
 
 ```

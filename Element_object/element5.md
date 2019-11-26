@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-element.hasPersistentData(name)
+*element.hasPersistentData(name)*
 
 #### Parameters
 
@@ -14,7 +14,7 @@ element.hasPersistentData(name)
 
 #### Returns
 
-A Boolean value: true if the specified data is attached to the object; false otherwise.
+A Boolean value: *true* if the specified data is attached to the object; *false* otherwise.
 
 #### Description
 
@@ -22,7 +22,4 @@ Method; determines whether the specified data has been attached to the specified
 
 #### Example
 
-```javascript
 See [element.getPersistentData()](../Element_object/element2.md).
-
-```

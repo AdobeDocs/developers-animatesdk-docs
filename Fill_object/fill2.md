@@ -22,6 +22,6 @@ Property; the color of the fill, in one of the following formats:
 
 ```javascript
 The following example sets the fill color of the current selection:
-var fill = fl.getDocumentDOM().getCustomFill(); fill.color = "\#FFFFFF"; fl.getDocumentDOM().setCustomFill( fill );
+var fill = fl.getDocumentDOM().getCustomFill(); fill.color = "#FFFFFF"; fl.getDocumentDOM().setCustomFill( fill );
 
 ```

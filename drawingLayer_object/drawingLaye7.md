@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-drawingLayer.lineTo(x, y)
+*drawingLayer.lineTo(x, y)*
 
 #### Parameters
 
