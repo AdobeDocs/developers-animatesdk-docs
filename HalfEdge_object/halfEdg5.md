@@ -16,6 +16,6 @@ Read-only property; a unique integer identifier for the HalfEdge object.
 
 ```javascript
 The following example displays a unique identifier for the specified half edge in the Output panel:
-var shape = fl.getDocumentDOM().selection\[0\]; alert(shape.contours\[0\].getHalfEdge().id);
+var shape = fl.getDocumentDOM().selection[0]; alert(shape.contours[0].getHalfEdge().id);
 
 ```
