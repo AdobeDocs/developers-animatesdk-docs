@@ -6,7 +6,7 @@ Flash MX 2004 7.2.
 
 #### Usage
 
-FLfile.exists(fileURI)
+*FLfile.exists(fileURI)*
 
 #### Parameters
 
@@ -24,15 +24,19 @@ Method; determines whether a specified file exists. If you specify a folder and 
 
 ```javascript
 The following example checks for a file called mydata.txt in the temp folder and displays an alert box indicating whether the file exists:
-var fileURI = "file:///c\|/temp/mydata.txt"; if (FLfile.exists(fileURI)) {
-alert( fileURI + " exists.");
+
+var fileURI = "file:///c|/temp/mydata.txt"; 
+if (FLfile.exists(fileURI)) {
+    alert( fileURI + " exists.");
 }
 else {
-alert( fileURI + " does not exist.");
+    alert( fileURI + " does not exist.");
 }
 The following example checks to see if a required configuration file exists in the MyApplication folder. If the file doesn’t exist, it is created.
-var configFile = "file:///C\|/MyApplication/config.ini"; if (!FLfile.exists(configFile)) {
-FLfile.write(configFile,"");
+
+var configFile = "file:///C|/MyApplication/config.ini"; 
+if (!FLfile.exists(configFile)) {
+    FLfile.write(configFile,"");
 }
 
 ```
