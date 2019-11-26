@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.rotateSelection(angle \[, rotationPoint\])
+document.rotateSelection(angle [, rotationPoint])
 
 #### Parameters
 

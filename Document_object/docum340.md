@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; reverts the specified document to its previously saved version. This method is equivalent to selecting File \Revert.
+Method; reverts the specified document to its previously saved version. This method is equivalent to selecting File >Revert.
 
 #### Example
 
@@ -29,4 +29,4 @@ fl.getDocumentDOM().revert();
 ```
 #### See also
 
-[document.canRevert()](../Document_object/docume26.md), [fl.revertDocument()](../flash_object_(fl)/fl61.md)/fl61.md)
+[document.canRevert()](../Document_object/docume26.md), [fl.revertDocument()](../flash_object_(fl)/fl61.md).

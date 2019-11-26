@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.renamePublishProfile(\[profileNewName\])
+document.renamePublishProfile([profileNewName])
 
 #### Parameters
 

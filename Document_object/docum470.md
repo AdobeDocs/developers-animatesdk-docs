@@ -24,8 +24,9 @@ Method; sets the fill settings for the Tools panel, Property inspector, and any 
 
 ```javascript
 The following example changes the color of the fill color swatch in the Tools panel, Property inspector, and any selected shapes to white:
-var fill = fl.getDocumentDOM().getCustomFill(); fill.color = '\#FFFFFF';
-fill.style = "solid"; fl.getDocumentDOM().setCustomFill(fill);
+var fill = fl.getDocumentDOM().getCustomFill(); fill.color = '#FFFFFF';
+fill.style = "solid"; 
+fl.getDocumentDOM().setCustomFill(fill);
 
 ```
 #### See also
