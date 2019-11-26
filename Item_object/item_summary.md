@@ -14,7 +14,7 @@ The following methods are available for the Item object:
 
 | **Method**                             | **Description**                                                                                                                |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| [item.addData()](../Item_object/item.md))      | Adds specified data to a library item.                                                                                         |
+| [item.addData()](../Item_object/item.md)      | Adds specified data to a library item.                                                                                         |
 | [item.getData()](../Item_object/item1.md)        | Retrieves the value of the specified data.                                                                                     |
 | [item.getPublishData()](../Item_object/item2.md) | Indicates whether publishing of the specified persistent data is enabled for the specified format on a specified library item. |
 | [item.hasData()](../Item_object/item3.md)        | Determines whether the library item has the named data.                                                                        |
