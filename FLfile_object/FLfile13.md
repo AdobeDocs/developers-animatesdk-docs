@@ -6,11 +6,12 @@ Flash MX 2004 7.2.
 
 #### Usage
 
-FLfile.setAttributes(fileURI, strAttrs)
+*FLfile.setAttributes(fileURI, strAttrs)*
 
 #### Parameters
 
 **fileURI** A string, expressed as a file:/// URI, specifying the file whose attributes you want to set.
+
 **strAttrs** A string specifying values for the attribute(s) you want to set. For acceptable values for *strAttrs*, see the "Description" section below.
 
 #### Returns
@@ -43,12 +44,17 @@ If you want to make sure the archive attribute is not set, use this command with
 
 ```javascript
 The following example sets the file mydata.txt to be read-only and hidden. It has no effect on the archive attribute.
-var URI = "file:///c\|/temp/mydata.txt"; if (FLfile.exists(URI)) {
-FLfile.setAttributes(URI, "RH");
+
+var URI = "file:///c|/temp/mydata.txt"; 
+if (FLfile.exists(URI)) {
+    FLfile.setAttributes(URI, "RH");
 }
+
 The following example sets the file mydata.txt to be read-only and hidden. It also ensures that the archive attribute is not set.
-var URI = "file:///c\|/temp/mydata.txt";
-if (FLfile.exists(URI)) { FLfile.setAttributes(URI, "N"); FLfile.setAttributes(URI, "RH");
+
+var URI = "file:///c|/temp/mydata.txt";
+if (FLfile.exists(URI)) { 
+    FLfile.setAttributes(URI, "N"); FLfile.setAttributes(URI, "RH");
 }
 
 ```

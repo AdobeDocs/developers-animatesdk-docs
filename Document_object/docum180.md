@@ -19,7 +19,7 @@ Nothing.
 
 #### Description
 
-Method; optimizes smoothing for the current selection, allowing multiple passes, if specified, for optimal smoothing. This method is equivalent to selecting Modify \Shape \Optimize.
+Method; optimizes smoothing for the current selection, allowing multiple passes, if specified, for optimal smoothing. This method is equivalent to selecting Modify >Shape >Optimize.
 
 #### Example
 

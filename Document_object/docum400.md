@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.scaleSelection(xScale, yScale \[, whichCorner\])
+document.scaleSelection(xScale, yScale [, whichCorner])
 
 #### Parameters
 

@@ -6,7 +6,7 @@ Flash CS6.
 
 #### Usage
 
-document.saveAsCopy(URI \[, selectionOnly\])
+document.saveAsCopy(URI [, selectionOnly])
 
 #### Parameters
 

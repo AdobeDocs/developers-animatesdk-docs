@@ -31,6 +31,6 @@ fl.getDocumentDOM().mouseClick({x:300, y:200}, false, false);
 ```
 #### See also
 
-[document.mouseDblClk()](../Document_object/docum140.md))
+[document.mouseDblClk()](../Document_object/docum140.md)
 
 <span id="document.mouseDblClk()" class="anchor"></span>
