@@ -18,8 +18,8 @@ Property; an integer that specifies the index of the active timeline. You can se
 The following example displays the index of the current timeline:
 var myCurrentTL = fl.getDocumentDOM().currentTimeline; fl.trace("The index of the current timeline is: "+ myCurrentTL);
 The following example changes the active timeline from the main timeline to a scene named "myScene": var i = 0;
-var curTimelines = fl.getDocumentDOM().timelines; while(i \< fl.getDocumentDOM().timelines.length){
-if(curTimelines\[i\].name == "myScene"){ fl.getDocumentDOM().currentTimeline = i;
+var curTimelines = fl.getDocumentDOM().timelines; while(i < fl.getDocumentDOM().timelines.length){
+if(curTimelines[i].name == "myScene"){ fl.getDocumentDOM().currentTimeline = i;
 }
 ++i;
 }
