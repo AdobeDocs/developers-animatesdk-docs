@@ -14,7 +14,5 @@ Property; a Boolean value that specifies the format of the font that is output w
 
 #### Example
 
-```javascript
-See [fontItem.embedVariantGlyphs](../fontItem_object/fontIte4.md).
 
-```
+See [fontItem.embedVariantGlyphs](../fontItem_object/fontIte4.md).
