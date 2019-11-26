@@ -37,7 +37,7 @@ var soundEnv = fl.getDocumentDOM().getTimeline().layers[0].frames[0].getSoundEnv
 
 //Assigning the sound 1 in the library to Frame 2 
 fl.getDocumentDOM().getTimeline().layers[0].frames[1].soundLibraryItem
-=fl.getDocumentDOM().library.items\[1\];
+=fl.getDocumentDOM().library.items[1];
 
 //Set the Sound Envelope 
 fl.getDocumentDOM().getTimeline().layers[0].frames[1].setSoundEnvelope(soundEnv);
