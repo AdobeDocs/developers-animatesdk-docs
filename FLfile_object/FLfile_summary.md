@@ -15,12 +15,24 @@ The FLfile object lets you write Flash extensions that can access, modify, and r
 -   Mac OS X:
 
 Macintosh HD/Users/*username*/Library/Application Support/Adobe/Flash CC/*language*/Configuration/External Libraries/FLfile.dll
+
 ***Note:** Don't confuse the shared libraries that contain symbols in your Flash documents with the JavaScript API shared libraries. They are two different things.*
+
 The FLfile methods work with files or folders (directories) on disk. Therefore, each method takes one or more parameters to specify the location of a file or folder. The location of the file or folder is expressed as a string in a form very similar to a website URL. It is called a file URI (Uniform Resource Identifier) and is formatted as shown here (including the quote marks):
-"file:///drive\|/folder 1/folder 2/.../filename"
+
+*"file:///drive\|/folder 1/folder 2/.../filename"*
+
 For example, if you want to create a folder on the C drive called config and place it in the Program Files/MyApp folder, use the following command:
-FLfile.createFolder("file:///C\|/Program Files/MyApp/config");
-If you then want to place a file called config.ini in that folder, use the following command: FLfile.write("file:///C\|/Program Files/MyApp/config/config.ini", ""); To create a folder on the Macintosh, you could use the following command: FLfile.createFolder("file:///Macintosh/MyApp/config");
+
+*FLfile.createFolder("file:///C\|/Program Files/MyApp/config");*
+
+If you then want to place a file called config.ini in that folder, use the following command:
+
+*FLfile.write("file:///C\|/Program Files/MyApp/config/config.ini", "");*
+
+To create a folder on the Macintosh, you could use the following command:
+
+*FLfile.createFolder("file:///Macintosh/MyApp/config");*
 
 #### Method summary
 
@@ -28,7 +40,7 @@ The following methods can be used with the FLfile object:
 
 | **Method**                             | **Description**                               |
 |----------------------------------------|-----------------------------------------------|
-| [FLfile.copy()](../FLfile_object/FLfile.md))        | Copies a file.                                |
+| [FLfile.copy()](../FLfile_object/FLfile.md)        | Copies a file.                                |
 | [FLfile.createFolder()](../FLfile_object/FLfile1.md) | Creates one or more folders.                  |
 | [FLfile.exists()](../FLfile_object/FLfile2.md)       | Determines the existence of a file or folder. |
 

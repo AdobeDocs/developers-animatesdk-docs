@@ -6,7 +6,7 @@ Flash MX 2004 7.2.
 
 #### Usage
 
-FLfile.getCreationDate(fileOrFolderURI)
+*FLfile.getCreationDate(fileOrFolderURI)*
 
 #### Parameters
 
@@ -14,7 +14,7 @@ FLfile.getCreationDate(fileOrFolderURI)
 
 #### Returns
 
-A string containing a hexadecimal number that represents the number of seconds that have elapsed between January 1, 1970 and the time the file or folder was created, or "00000000" if the file or folder doesn’t exist.
+A string containing a hexadecimal number that represents the number of seconds that have elapsed between January 1, 1970 and the time the file or folder was created, or *"00000000"* if the file or folder doesn’t exist.
 
 #### Description
 
@@ -25,17 +25,19 @@ Method; specifies how many seconds have passed between January 1, 1970 and the t
 ```javascript
 The following example determines whether a file has been modified since it was created:
 // Make sure the specified file exists
-var fileURI = "file:///C\|/MyApplication/MyApp.fla"; var creationTime = FLfile.getCreationDate(fileURI);
-var modificationTime = FLfile.getModificationDate(fileURI); if ( modificationTime \creationTime ) {
-alert("The file has been modified since it was created.");
+var fileURI = "file:///C|/MyApplication/MyApp.fla"; 
+var creationTime = FLfile.getCreationDate(fileURI);
+var modificationTime = FLfile.getModificationDate(fileURI); 
+if ( modificationTime > creationTime ) {
+    alert("The file has been modified since it was created.");
 }
 else {
-alert("The file has not been modified since it was created.");
+    alert("The file has not been modified since it was created.");
 }
 
 ```
 #### See also
 
-[FLfile.getCreationDateObj()](../FLfile_object/FLfile5.md)), [FLfile.getModificationDate()](../FLfile_object/FLfile6.md)
+[FLfile.getCreationDateObj()](../FLfile_object/FLfile5.md), [FLfile.getModificationDate()](../FLfile_object/FLfile6.md)
 
 <span id="FLfile.getCreationDateObj()" class="anchor"></span>
