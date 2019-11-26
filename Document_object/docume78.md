@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.getElementTextAttr(attrName \[, startIndex \[, endIndex\]\])
+document.getElementTextAttr(attrName [, startIndex [, endIndex]])
 
 #### Parameters
 

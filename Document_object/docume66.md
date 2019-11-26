@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-document.exportPublishProfileString( \[profileName\] )
+document.exportPublishProfileString( [profileName] )
 
 #### Parameters
 

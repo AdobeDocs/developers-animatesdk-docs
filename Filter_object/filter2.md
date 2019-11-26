@@ -14,10 +14,9 @@ Property; a float value that specifies the amount to blur in the *y* direction, 
 
 #### Example
 
-```javascript
-See [filter.blurX](../Filter_object/filter1.md).
+See [filter.blurX](../Filter_object/filter1.md)
 
-```
+
 #### See also
 
 [document.setFilterProperty()](../Document_object/docum520.md), [filter.blurX](../Filter_object/filter1.md)

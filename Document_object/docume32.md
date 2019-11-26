@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.clipPaste(\[bInPlace\])
+document.clipPaste([bInPlace])
 
 #### Parameters
 
@@ -31,4 +31,4 @@ fl.getDocumentDOM().clipPaste(true);
 ```
 #### See also
 
-[document.clipCopy()](../Document_object/docume30.md), [document.clipCut()](../Document_object/docume31.md), [fl.clipCopyString()](../flash_object_(fl)/fl6.md)/fl6.md)
+[document.clipCopy()](../Document_object/docume30.md), [document.clipCut()](../Document_object/docume31.md), [fl.clipCopyString()](../flash_object_(fl)/fl6.md).

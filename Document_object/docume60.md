@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.enterEditMode(\[editMode\])
+document.enterEditMode([editMode])
 
 #### Parameters
 
@@ -31,6 +31,6 @@ fl.getDocumentDOM().enterEditMode('newWindow');
 ```
 #### See also
 
-[document.exitEditMode()](../Document_object/docume61.md))
+[document.exitEditMode()](../Document_object/docume61.md)
 
 <span id="document.exitEditMode()" class="anchor"></span>

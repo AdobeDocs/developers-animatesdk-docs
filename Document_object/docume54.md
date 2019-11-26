@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.duplicatePublishProfile(\[profileName\])
+document.duplicatePublishProfile([profileName])
 
 #### Parameters
 

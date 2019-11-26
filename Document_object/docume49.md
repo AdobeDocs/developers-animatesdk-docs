@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.distribute(distributemode \[, bUseDocumentBounds\])
+document.distribute(distributemode [, bUseDocumentBounds])
 
 #### Parameters
 

@@ -6,7 +6,7 @@ Flash Professional CS5.
 
 #### Usage
 
-document.DebugMovie(\[Boolean abortIfErrorsExist\])
+document.DebugMovie([Boolean abortIfErrorsExist])
 
 #### Description
 
