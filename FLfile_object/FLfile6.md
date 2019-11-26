@@ -43,6 +43,6 @@ else {
 ```
 #### See also
 
-[FLfile.getCreationDate()](../FLfile_object/FLfile4.md), [FLfile.getModificationDateObj()](../FLfile_object/FLfile7.md))
+[FLfile.getCreationDate()](../FLfile_object/FLfile4.md), [FLfile.getModificationDateObj()](../FLfile_object/FLfile7.md)
 
 <span id="FLfile.getModificationDateObj()" class="anchor"></span>
