@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.getTextString(\[startIndex \[, endIndex\]\])
+document.getTextString([startIndex [, endIndex]])
 
 #### Parameters
 

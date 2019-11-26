@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Method; publishes the document according to the active publish settings (File \Publish Settings). This method is equivalent to selecting File \Publish.
+Method; publishes the document according to the active publish settings (File >Publish Settings). This method is equivalent to selecting File >Publish.
 
 #### Example
 

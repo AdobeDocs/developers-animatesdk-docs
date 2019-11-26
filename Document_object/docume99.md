@@ -16,10 +16,11 @@ Property; a string that contains a list of items in the document’s ActionScrip
 
 ```javascript
 The following adds the ../Files folder to the document’s Library path and then displays the path Library path in the Output panel:
-var myDoc = fl.getDocumentDOM() fl.trace(myDoc.libraryPath);
-myDoc.libraryPath = "../Files;" + myDoc.libraryPath; fl.trace(myDoc.libraryPath);
+var myDoc = fl.getDocumentDOM() 
+fl.trace(myDoc.libraryPath);
+myDoc.libraryPath = "../Files;" + myDoc.libraryPath;fl.trace(myDoc.libraryPath);
 
 ```
 #### See also
 
-[document.externalLibraryPath](../Document_object/docume69.md),[document.sourcePath](../Document_object/docum36.md), [fl.libraryPath](../flash_object_(fl)/fl39.md)/fl39.md)
+[document.externalLibraryPath](../Document_object/docume69.md),[document.sourcePath](../Document_object/docum36.md), [fl.libraryPath](../flash_object_(fl)/fl39.md).

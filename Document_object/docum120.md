@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.match(bWidth, bHeight \[, bUseDocumentBounds\])
+document.match(bWidth, bHeight [, bUseDocumentBounds])
 
 #### Parameters
 
@@ -33,4 +33,4 @@ fl.getDocumentDOM().match(true,false,true);
 ```
 #### See also
 
-[document.getAlignToDocument()](../Document_object/docume72.md), [document.setAlignToDocument()](../Document_object/docum450.md)
+[document.getAlignToDocument()](../Document_object/docume72.md) [document.setAlignToDocument()](../Document_object/docum450.md)
