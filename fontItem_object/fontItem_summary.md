@@ -1,6 +1,6 @@
 ## fontItem summary
 
-**Inheritance** [Item object](../Item_object/item_summary.md) >fontItem object
+**Inheritance** [Item object](../Item_object/item_summary.md) > fontItem object
 
 #### Availability
 

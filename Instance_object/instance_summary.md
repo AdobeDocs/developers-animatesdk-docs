@@ -1,6 +1,6 @@
 ## instance summary
 
-**Inheritance** [Element object](../Element_object/element_summary.md) \Instance object
+**Inheritance** [Element object](../Element_object/element_summary.md) > Instance object
 
 #### Availability
 

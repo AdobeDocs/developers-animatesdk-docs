@@ -6,7 +6,7 @@ Flash MX 2004 7.2.
 
 #### Usage
 
-FLfile.getModificationDateObj(fileOrFolderURI)
+*FLfile.getModificationDateObj(fileOrFolderURI)*
 
 #### Parameters
 
@@ -24,8 +24,10 @@ Method; returns a JavaScript Date object that represents the date and time when 
 
 ```javascript
 The following example displays (in human-readable form) the date a file was last modified, in the Output panel:
+
 // Make sure the specified file exists.
-var file1Date = FLfile.getModificationDateObj("file:///c\|/temp/file1.txt"); trace(file1Date);
+var file1Date = FLfile.getModificationDateObj("file:///c|/temp/file1.txt");
+trace(file1Date);
 
 ```
 #### See also

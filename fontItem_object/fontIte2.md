@@ -17,6 +17,5 @@ This property can also be read, allowing you to find out what characters were sp
 
 ```javascript
 Assuming that the first item in the Library is a Font item, the following code embeds the characters a, b, and c.
-fl.getDocumentDOM().library.items\[0\].embeddedCharacters = "abc";
-
+fl.getDocumentDOM().library.items[0].embeddedCharacters = "abc";
 ```
