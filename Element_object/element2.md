@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-element.getPersistentData(name)
+*element.getPersistentData(name)*
 
 #### Parameters
 
@@ -24,7 +24,9 @@ Method; retrieves the value of the data specified by the *name* parameter. The t
 
 ```javascript
 The following example sets and gets data for the specified element, shows its value in the Output panel, and then removes the data:
-// At least one symbol or bitmap is selected in the first layer, first frame. var elt = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\]; elt.setPersistentData("myData","integer", 12);
+// At least one symbol or bitmap is selected in the first layer, first frame. 
+var elt = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0]; 
+elt.setPersistentData("myData","integer", 12);
 if (elt.hasPersistentData("myData")){
 fl.trace("myData = "+ elt.getPersistentData("myData")); elt.removePersistentData( "myData" );
 fl.trace("myData = "+ elt.getPersistentData("myData"));

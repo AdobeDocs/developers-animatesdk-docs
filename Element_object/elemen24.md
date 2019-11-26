@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-element.transformY
+*element.transformY*
 
 #### Description
 

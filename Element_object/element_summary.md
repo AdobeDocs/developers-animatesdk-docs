@@ -7,7 +7,7 @@ Flash MX 2004.
 #### Description
 
 Everything that appears on the Stage is of the type Element. The following code example lets you select an element:
-var el = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\];
+*var el = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\];*
 
 #### Method summary
 
@@ -16,7 +16,7 @@ The following methods are available for the Element object:
 | **Method**                                          | **Description**                                                                            |
 |-----------------------------------------------------|--------------------------------------------------------------------------------------------|
 | [element.getPersistentData()](../Element_object/element2.md)        | Retrieves the value of the data specified by the ***name*** parameter.                     |
-| [element.getPublishPersistentData()](../Element_object/element3.md) | True if the specified persistent data is enable for the specified format; otherwise False. |
+| [element.getPublishPersistentData()](../Element_object/element3.md) | *True* if the specified persistent data is enable for the specified format; otherwise *False*. |
 | [element.getTransformationPoint()](../Element_object/element4.md)   | Gets the value of the specified element’s transformation point.                            |
 | [element.hasPersistentData()](../Element_object/element5.md)        | Determines whether the specified data has been attached to the specified element.          |
 | [element.removePersistentData()](../Element_object/elemen12.md)     | Removes any persistent data with the specified name that has been attached to the object.  |
@@ -36,7 +36,7 @@ The following properties are available for the Element object:
 | [element.layer](../Element_object/element7.md)       | Read-only; represents the [Layer object](../Layer_object/layer_summary.md) on which the element is located.                                                                  |
 | [element.left](../Element_object/element8.md)        | Read-only; a float value that represents the left side of the element.                                                                                    |
 | [element.locked](../Element_object/element9.md)      | A Boolean value: true if the element is locked; false otherwise.                                                                                          |
-| [element.matrix](../Element_object/elemen10.md)      | A [Matrix object](../Matrix_object/matrix_summary.md). The matrix has properties a, b, c, d, tx, and ty. a, b, c, and d are floating- point values; tx and ty are coordinates. |
+| [element.matrix](../Element_object/elemen10.md)      | A [Matrix object](../Matrix_object/matrix_summary.md). The matrix has properties *a, b, c, d, tx,* and *ty. a, b, c,* and *d* are floating- point values; tx and ty are coordinates. |
 | [element.name](../Element_object/elemen11.md)        | A string that specifies the name of the element, normally referred to as the Instance name.                                                               |
 
 | **Property**                        | **Description**                                                                                                                                            |

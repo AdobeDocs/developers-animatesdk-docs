@@ -6,7 +6,7 @@ Adobe Animate.
 
 #### Usage
 
-exportVideo( fileURI \[, convertInAdobeMediaEncoder\] \[, transparent\] \[, stopAtFrame\] \[, stopAtFrameOrTime\] )
+exportVideo( fileURI [, convertInAdobeMediaEncoder] [, transparent] [, stopAtFrame] [, stopAtFrameOrTime] )
 
 #### Parameters
 

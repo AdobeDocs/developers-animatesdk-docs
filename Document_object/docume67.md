@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.exportSWF(\[fileURI \[, bCurrentSettings\]\])
+document.exportSWF([fileURI [, bCurrentSettings]])
 
 #### Parameters
 

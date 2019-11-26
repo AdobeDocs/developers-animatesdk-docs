@@ -21,4 +21,4 @@ var myDocument = fl.getDocumentDOM(); myDocument.externalLibraryPath = ".;../myS
 ```
 #### See also
 
-[document.libraryPath](../Document_object/docume99.md), [document.sourcePath](../Document_object/docum36.md),[fl.externalLibraryPath](../flash_object_(fl)/fl23.md)/fl23.md)
+[document.libraryPath](../Document_object/docume99.md), [document.sourcePath](../Document_object/docum36.md),[fl.externalLibraryPath](../flash_object_(fl)/fl23.md).

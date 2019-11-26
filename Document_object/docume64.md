@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-document.exportPNG(\[fileURI \[, bCurrentPNGSettings \[, bCurrentFrame\]\]\])
+document.exportPNG([fileURI [, bCurrentPNGSettings [, bCurrentFrame]]])
 
 #### Parameters
 

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-element.name
+*element.name*
 
 #### Description
 
@@ -16,6 +16,9 @@ element.elementType is "shape", this property is ignored. See [element.elementTy
 #### Example
 
 ```javascript
-The following example sets the Instance name of the first element in Frame 1, top layer to "clip\_mc": fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].name = "clip\_mc"; See the [element.elementType](../Element_object/element1.md) example.
+The following example sets the Instance name of the first element in Frame 1, top layer to "clip_mc": 
+fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].name = "clip_mc"; 
 
 ```
+
+See the [element.elementType](../Element_object/element1.md) example.
