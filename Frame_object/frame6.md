@@ -6,11 +6,11 @@ Flash 8.
 
 #### Usage
 
-Frame.getCustomEase(\[property\])
+*Frame.getCustomEase([property])*
 
 #### Parameters
 
-**property** An optional string that specifies the property for which you want to return the custom ease value. Acceptable values are "all", "position", "rotation", "scale", "color", and "filters". The default value is "all".
+**property** An optional string that specifies the property for which you want to return the custom ease value. Acceptable values are *"all", "position", "rotation", "scale", "color", and "filters"*. The default value is *"all"*.
 
 #### Returns
 
@@ -24,7 +24,9 @@ Method; returns an array of objects that represent the control points for the cu
 
 ```javascript
 The following example returns the custom ease value of the position property for the first frame in the top layer:
-var theFrame = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\] var easeArray = theFrame.getCustomEase("position");
+
+var theFrame = fl.getDocumentDOM().getTimeline().layers[0].frames[0] 
+var easeArray = theFrame.getCustomEase("position");
 
 ```
 #### See also

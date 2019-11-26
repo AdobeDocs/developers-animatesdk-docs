@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-frame.elements
+*frame.elements*
 
 #### Description
 
@@ -16,6 +16,6 @@ Read-only property; an array of Element objects (see [Element object](../Element
 
 ```javascript
 The following example stores an array of current elements in the top layer, first frame in the myElements variable:
-var myElements = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements;
+var myElements = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements;
 
 ```
