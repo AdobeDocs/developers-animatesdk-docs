@@ -216,19 +216,19 @@
              "title": "bitmapItem.sourceFileIsCurrent"
             },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIt11.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIte11.md",
              "title": "bitmapItem.sourceFilePath"
             },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIt12.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIte12.md",
              "title": "bitmapItem.useDeblocking"
             },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIt13.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIte13.md",
              "title": "bitmapItem.useImportedJPEGQuality"
             },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIt14.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIte14.md",
              "title": "bitmapItem.vPixels"
             }           
         ],
