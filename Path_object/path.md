@@ -18,7 +18,8 @@ path.addCubicCurve(xAnchor, yAnchor, x2, y2, x3, y3, x4, y4)
 
 **y2** A floating-point number that specifies the *y* position of the second control point.
 
-**x3** A floating-point number that specifies the *x* position of the third control point. 
+**x3** A floating-point number that specifies the *x* position of the third control point.
+
 **y3** A floating-point number that specifies the *y* position of the third control point.
 
 **x4** A floating-point number that specifies the *x* position of the fourth control point. 
