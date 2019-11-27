@@ -6,7 +6,7 @@ Adobe Animate.
 
 #### Usage
 
-library.unusedItems
+*library.unusedItems*
 
 #### Description
 
@@ -16,7 +16,9 @@ Property; an array of Library Items that are not used in the document. This is t
 
 ```javascript
 The following example illustrates the use of this property:
-var items = fl.getDocumentDOM().library.unusedItems; fl.trace("number of unused items found: " + items.length); for (var i in items)
-fl.trace("" + items\[i\].name);
+var items = fl.getDocumentDOM().library.unusedItems; 
+fl.trace("number of unused items found: " + items.length); 
+for (var i in items)
+    fl.trace("" + items[i].name);
 
 ```

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-library.updateItem(\[namePath\])
+*library.updateItem([namePath])*
 
 #### Parameters
 
@@ -24,6 +24,7 @@ Method; updates the specified item.
 
 ```javascript
 The following example displays a dialog box that shows whether the currently selected item is updated (true) or not (false):
+
 alert(fl.getDocumentDOM().library.updateItem());
 
 ```
