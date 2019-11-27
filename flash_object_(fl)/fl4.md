@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-fl.browseForFolderURL(\[description\])
+fl.browseForFolderURL([description])
 
 #### Parameters
 
@@ -29,4 +29,4 @@ var folderURI = fl.browseForFolderURL("Select a folder."); var folderContents = 
 ```
 #### See also
 
-[fl.browseForFileURL()](../flash_object_(fl)/fl3.md)/fl3.md), [FLfile object](../FLfile_object/FLfile_summary.md)
+[fl.browseForFileURL()](../flash_object_(fl)/fl3.md), [FLfile object](../FLfile_object/FLfile_summary.md)

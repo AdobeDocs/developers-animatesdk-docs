@@ -16,7 +16,7 @@ Property; a Boolean value: if true, the item is imported for run-time sharing. I
 
 ```javascript
 The following example sets this property to true for the specified library item:
-fl.getDocumentDOM().library.items\[0\].linkageImportForRS = true;
 
-<span id="item.linkageURL" class="anchor"></span
+fl.getDocumentDOM().library.items[0].linkageImportForRS = true;
 ```
+<span id="item.linkageURL" class="anchor"></span>
