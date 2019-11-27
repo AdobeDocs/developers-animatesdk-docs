@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.space(direction \[, bUseDocumentBounds\])
+document.space(direction [, bUseDocumentBounds])
 
 #### Parameters
 

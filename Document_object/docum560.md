@@ -12,7 +12,7 @@ document.setInstanceTint( color, strength )
 
 **color** The color of the tint, in one of the following formats:
 
--   A string in the format "\#RRGGBB" or "\#RRGGBBAA"
+-   A string in the format "#RRGGBB" or "#RRGGBBAA"
 
 -   A hexadecimal number in the format 0xRRGGBB
 
