@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-bitmapItem.sourceFileExists
+*bitmapItem.sourceFileExists*
 
 #### Description
 
@@ -16,11 +16,13 @@ Read-only property; a Boolean value of true if the file that was imported to the
 
 ```javascript
 Assuming the first item in the Library is a bitmap item, the following code displays "true" if the file that was imported into the Library still exists.
-var libItem = fl.getDocumentDOM().library.items\[0\]; fl.trace("sourceFileExists = "+ libItem.sourceFileExists);
+
+var libItem = fl.getDocumentDOM().library.items[0]; 
+fl.trace("sourceFileExists = "+ libItem.sourceFileExists);
 
 ```
 #### See also
 
-[bitmapItem.sourceFileIsCurrent](../BitmapItem_object/bitmapIt10.md), [bitmapItem.sourceFilePath](../BitmapItem_object/bitmapIt11.md)
+[bitmapItem.sourceFileIsCurrent](../BitmapItem_object/bitmapIt10.md), [bitmapItem.sourceFilePath](../BitmapItem_object/bitmapIte11.md)
 
 <span id="bitmapItem.sourceFileIsCurrent" class="anchor"></span>

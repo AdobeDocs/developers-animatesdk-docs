@@ -16,6 +16,6 @@ Property; a Boolean value that specifies the status of outlines for all objects 
 
 ```javascript
 The following example makes all objects on the first layer appear only with outlines:
-fl.getDocumentDOM().getTimeline().layers\[0\].outline = true;
 
+fl.getDocumentDOM().getTimeline().layers[0].outline = true;
 ```

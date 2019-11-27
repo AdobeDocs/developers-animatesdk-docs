@@ -22,7 +22,7 @@ In addition to the [Item object](../Item_object/item_summary.md) properties, the
 
 | **Method**                                | **Description**                                  |
 |-------------------------------------------|--------------------------------------------------|
-| [bitmapItem.exportToFile()](../BitmapItem_object/bitmapItem.exportToFile.md) | Exports the specified item to a PNG or JPG file. |
+| [bitmapItem.exportToFile()](../BitmapItem_object/bitmapIte2.md) | Exports the specified item to a PNG or JPG file. |
 
 <span id="bitmapItem.allowSmoothing" class="anchor"></span>
 

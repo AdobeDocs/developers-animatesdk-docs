@@ -14,7 +14,7 @@ The following properties are available for the Layer object:
 
 | **Property**                                                         | **Description**                                                                                                                 |
 |----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| [layer.animationTyp](#layer.animationType) [e](#layer.animationType) | The layer type: "none", "motion object", or "IK pose".                                                                          |
+| [layer.animationType](../Layer_object/layer.md)| The layer type: "none", "motion object", or "IK pose".                                                                          |
 | [layer.color](../Layer_object/layer1.md)                                         | A string, hexadecimal value, or integer that specifies the color assigned to outline the layer.                                 |
 | [layer.frameCount](../Layer_object/layer2.md)                                    | Read-only; an integer that specifies the number of frames in the layer.                                                         |
 | [layer.frames](../Layer_object/layer3.md)                                        | Read-only; an array of Frame objects.                                                                                           |
