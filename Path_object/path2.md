@@ -26,6 +26,7 @@ Method; adds a point to the path.
 
 ```javascript
 The following example creates a new path, stores it in the myPath variable, and assigns the new point to the path:
+
 var myPath = fl.drawingLayer.newPath(); myPath.addPoint(10, 100);
 
 ```
