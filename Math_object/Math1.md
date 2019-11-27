@@ -24,7 +24,8 @@ Method; returns the inverse of the specified matrix.
 
 ```javascript
 The following example stores the currently selected object in the elt variable, assigns that matrix to the mat variable, and stores the inverse of the matrix in the inv variable:
-var elt = fl.getDocumentDOM().selection\[0\]; var mat = elt.matrix;
+
+var elt = fl.getDocumentDOM().selection[0]; var mat = elt.matrix;
 var inv = fl.Math.invertMatrix( mat );
 
 ```
