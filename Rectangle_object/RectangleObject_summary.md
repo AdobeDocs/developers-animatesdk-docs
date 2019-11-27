@@ -1,6 +1,6 @@
 ## RectangleObject summary
 
-**Inheritance** [Element object](../Element_object/element_summary.md) \[Shape object](../Shape_object/shape_summary.md) \Rectangle object
+**Inheritance** [Element object](../Element_object/element_summary.md) > [Shape object](../Shape_object/shape_summary.md) > Rectangle object
 
 #### Availability
 
