@@ -16,10 +16,11 @@ Read-only property: a string that represents the path to the item in the Motion 
 
 ```javascript
 The following example illustrates the difference between the values in presetItem.name and presetItem.path.
+
 fl.outputPanel.clear();
-var presetItemArray=fl.presetPanel.items; for (i=0;i\<presetItemArray.length; i++){
-var presetItem = presetItemArray\[i\];
-fl.trace("Name: " + presetItem.name + "\\n" + "Path: " + presetItem.path); fl.trace("");
+var presetItemArray=fl.presetPanel.items; for (i=0;i<presetItemArray.length; i++){
+var presetItem = presetItemArray[i];
+fl.trace("Name: " + presetItem.name + "\n" + "Path: " + presetItem.path); fl.trace("");
 }
 
 ```

@@ -6,11 +6,12 @@ Flash MX 2004.
 
 #### Usage
 
-path.makeShape(\[bSupressFill \[, bSupressStroke\]\])
+path.makeShape([bSupressFill [, bSupressStroke]])
 
 #### Parameters
 
 **bSuppressFill** A Boolean value that, if set to true, suppresses the fill that would be applied to the shape. The default value is false. This parameter is optional.
+
 **bSupressStroke** A Boolean value that, if set to true, suppresses the stroke that would be applied to the shape. The default value is false. This parameter is optional.
 
 #### Returns
@@ -25,6 +26,7 @@ Method; creates a shape on the Stage by using the current stroke and fill settin
 
 ```javascript
 The following example creates a shape with the current fill and no stroke:
+
 var myPath = fl.drawingLayer.newPath(); myPath.makeShape(false, true);
 
 ```

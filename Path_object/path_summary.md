@@ -7,7 +7,9 @@ Flash MX 2004.
 #### Description
 
 The Path object defines a sequence of line segments (straight, curved, or both), which you typically use when creating extensible tools. The following example shows an instance of a Path object being returned from the flash object:
+
 path = fl.drawingLayer.newPath();
+
 See also the [drawingLayer object](../drawingLayer_object/drawingLayersummary.md).
 
 #### Method summary
@@ -16,7 +18,7 @@ The following methods are available for the Path object:
 
 | **Method**                                    | **Description**                                                                                                           |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| [path.addCubicCurve()](../Path_object/path.md)) | Appends a cubic Bézier curve segment to the path.                                                                         |
+| [path.addCubicCurve()](../Path_object/path.md) | Appends a cubic Bézier curve segment to the path.                                                                         |
 | [path.addCurve()](../Path_object/path1.md)              | Appends a quadratic Bézier segment to the path.                                                                           |
 | [path.addPoint()](../Path_object/path2.md)              | Adds a point to the path.                                                                                                 |
 | [path.clear()](../Path_object/path3.md)                 | Removes all points from the path.                                                                                         |
