@@ -16,6 +16,7 @@ Method: Reloads content in the SWF panel.
 
 ```javascript
 The following example illustrates the use of this method:
-fl.swfPanels\[0\].reload();
+
+fl.swfPanels[0].reload();
 
 ```
