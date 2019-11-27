@@ -22,9 +22,9 @@ Method; performs a matrix concatenation and returns the result.
 
 #### Example
 
-```javascript
 The following example stores the currently selected object in the elt variable, multiplies the object matrix by the view matrix, and stores that value in the mat variable:
-var elt = fl.getDocumentDOM().selection\[0\];
+```javascript
+var elt = fl.getDocumentDOM().selection[0];
 var mat = fl.Math.concatMatrix( elt.matrix , fl.getDocumentDOM().viewMatrix );
 
 ```

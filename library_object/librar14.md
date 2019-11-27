@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-library.selectAll(\[bSelectAll\])
+*library.selectAll([bSelectAll])*
 
 #### Parameters
 
@@ -24,8 +24,11 @@ Method; selects or deselects all items in the library.
 
 ```javascript
 The following examples select all the items in the library:
+
 fl.getDocumentDOM().library.selectAll(); fl.getDocumentDOM().library.selectAll(true);
+
 The following examples deselect all the items in the library:
+
 fl.getDocumentDOM().library.selectAll(false); fl.getDocumentDOM().library.selectNone();
 
 ```

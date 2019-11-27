@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-presetPanel.deleteItem( \[namePath\] )
+*presetPanel.deleteItem( [namePath] )*
 
 #### Parameters
 
@@ -19,12 +19,14 @@ A Boolean value of true if the item or items are successfully deleted; false oth
 #### Description
 
 Method; deletes the specified preset from the Motion Presets panel. If you don’t pass a value for *namePath*, any presets that are currently selected are deleted. You can’t delete items from the Default Presets folder.
+
 ***Note:** Items are deleted without requesting user confirmation, and there is no way to undo this action.*
 
 #### Example
 
-```javascript
 The following code deletes a preset named aDribble from the Custom Presets folder:
+
+```javascript
 fl.presetPanel.deleteItem("Custom Presets/aDribble");
 
 ```
