@@ -15,7 +15,8 @@ Read-only property; A boolean value indicating whether all the exported symbol f
 #### Example
 
 ```javascript
-var exporter = new SpriteSheetExporter; if (exporter.overflowed)
+var exporter = new SpriteSheetExporter; 
+if (exporter.overflowed)
 {
 exporter.sheetWidth = 1024;
 }

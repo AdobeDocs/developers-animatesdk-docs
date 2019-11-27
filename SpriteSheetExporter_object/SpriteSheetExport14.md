@@ -6,7 +6,7 @@ Flash Pro CS6.
 
 #### Usage
 
-SpriteSheetExporter.changeSymbol( symbol \[, beginFrame\] \[, endFrame\] )
+SpriteSheetExporter.changeSymbol( symbol [, beginFrame] [, endFrame] )
 
 #### Parameters
 
