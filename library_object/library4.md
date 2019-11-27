@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-library.editItem(\[namePath\])
+*library.editItem([namePath])*
 
 #### Parameters
 
@@ -14,7 +14,7 @@ library.editItem(\[namePath\])
 
 #### Returns
 
-A Boolean value: true if the specified item exists and can be edited; false otherwise.
+A Boolean value: *true* if the specified item exists and can be edited; *false* otherwise.
 
 #### Description
 
@@ -24,6 +24,7 @@ Method; opens the currently selected or specified item in Edit mode.
 
 ```javascript
 The following example opens the item circle in the test folder of the library for editing:
+
 fl.getDocumentDOM().library.editItem("test/circle");
 
 ```

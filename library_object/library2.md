@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-library.deleteItem(\[namePath\])
+*library.deleteItem([namePath])*
 
 #### Parameters
 
@@ -14,7 +14,7 @@ library.deleteItem(\[namePath\])
 
 #### Returns
 
-A Boolean value: true if the items are successfully deleted; false otherwise.
+A Boolean value: *true* if the items are successfully deleted; false otherwise.
 
 #### Description
 
@@ -24,8 +24,11 @@ Method; deletes the current items or a specified item from the Library panel. Th
 
 ```javascript
 The following example deletes the currently selected item:
+
 fl.getDocumentDOM().library.deleteItem();
-The following example deletes the item Symbol\_1 from the library folder Folder\_1:
-fl.getDocumentDOM().library.deleteItem("Folder\_1/Symbol\_1");
+
+The following example deletes the item Symbol_1 from the library folder Folder_1:
+
+fl.getDocumentDOM().library.deleteItem("Folder_1/Symbol_1");
 
 ```
