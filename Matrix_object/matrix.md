@@ -20,10 +20,10 @@ var mat = fl.getDocumentDOM().selection[0].matrix;
 mat.a = 2;
 mat.d = 3;
 fl.getDocumentDOM().selection[0].matrix = mat;
-
+```
 You can rotate an object by setting the a, b, c, and d matrix properties relative to one another, where a = d and b =
 -c. For example, values of 0.5, 0.8, -0.8, and 0.5 rotate the object 60º:
-
+```javascript
 var mat = fl.getDocumentDOM().selection[0].matrix;
 mat.a = 0.5;
 mat.b = 0.8;
