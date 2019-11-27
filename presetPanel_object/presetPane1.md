@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-presetPanel.applyPreset( \[presetPath\] )
+*presetPanel.applyPreset( [presetPath] )*
 
 #### Parameters
 
@@ -14,7 +14,7 @@ presetPanel.applyPreset( \[presetPath\] )
 
 #### Returns
 
-A Boolean value of true if the preset is successfully applied, false otherwise.
+A Boolean value of true if the preset is successfully applied, *false* otherwise.
 
 #### Description
 
@@ -31,8 +31,10 @@ This method fails in the following situations:
 
 #### Example
 
-```javascript
 The following example applies the aDribble preset to the currently selected item on the Stage:
-var result = fl.presetPanel.applyPreset("Custom Presets/Bounces/aDribble"); fl.trace(result);
+
+```javascript
+var result = fl.presetPanel.applyPreset("Custom Presets/Bounces/aDribble"); 
+fl.trace(result);
 
 ```

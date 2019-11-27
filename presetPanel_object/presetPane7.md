@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-presetPanel.getSelectedItems()
+*presetPanel.getSelectedItems()*
 
 #### Parameters
 
@@ -22,10 +22,14 @@ Method; returns an array of presetItem objects corresponding to the currently se
 
 #### Example
 
-```javascript
+
 The following code displays the full pathnames of the currently selected items in the Motion Presets panel:
-var itemArray = fl.presetPanel.getSelectedItems(); var length = itemArray.length
-for (x=0; x\<length; x++) { fl.trace(itemArray\[x\].path);
+
+```javascript
+var itemArray = fl.presetPanel.getSelectedItems(); 
+var length = itemArray.length
+for (x=0; x<length; x++) { 
+    fl.trace(itemArray[x].path);
 }
 
 ```
