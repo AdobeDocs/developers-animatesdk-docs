@@ -14,8 +14,8 @@ Read-only property; an integer that specifies the position of the tool in the To
 
 #### Example
 
-```javascript
 The following commands in the mouseDown() method of a tool’s JavaScript file will show that tool’s position in the Tools panel as an integer in the Output panel:
+```javascript
 myToolPos = fl.tools.activeTool.position; fl.trace(myToolPos);
 
 ```
