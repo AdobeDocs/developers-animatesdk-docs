@@ -25,7 +25,6 @@ Method; clears the contents of the Output panel. You can use this method in a ba
 
 The following example clears the current contents of the Output panel:
 ```javascript
-
 fl.outputPanel.clear();
 ```
 <span id="outputPanel.save()" class="anchor"></span>

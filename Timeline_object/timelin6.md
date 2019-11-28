@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.copyFrames(\[startFrameIndex \[, endFrameIndex\]\])
+timeline.copyFrames([startFrameIndex [, endFrameIndex]])
 
 #### Parameters
 
@@ -16,7 +16,7 @@ timeline.copyFrames(\[startFrameIndex \[, endFrameIndex\]\])
 
 #### Returns
 
-Nothing.
+Nothing.s
 
 #### Description
 
@@ -24,10 +24,16 @@ Method; copies a range of frames on the current layer to the clipboard.
 
 #### Example
 
-```javascript
-The following example copies the selected frames to the clipboard:
-fl.getDocumentDOM().getTimeline().copyFrames();
-The following example copies Frame 2 up to, but not including, Frame 10, to the clipboard (remember that index values are different from frame number values):
-fl.getDocumentDOM().getTimeline().copyFrames(1, 9); The following example copies Frame 5 to the clipboard: fl.getDocumentDOM().getTimeline().copyFrames(4);
 
+The following example copies the selected frames to the clipboard:
+```javascript
+fl.getDocumentDOM().getTimeline().copyFrames();
+```
+The following example copies Frame 2 up to, but not including, Frame 10, to the clipboard (remember that index values are different from frame number values):
+```javascript
+fl.getDocumentDOM().getTimeline().copyFrames(1, 9);
+```
+The following example copies Frame 5 to the clipboard:
+```javascript
+fl.getDocumentDOM().getTimeline().copyFrames(4);
 ```
