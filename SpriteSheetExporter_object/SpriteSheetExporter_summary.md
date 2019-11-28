@@ -1,6 +1,6 @@
 ## SpriteSheetExporter summary
 
-**Inheritance** [Item object](../Item_object/item_summary.md) \SpriteSheetExporter object
+**Inheritance** [Item object](../Item_object/item_summary.md) >SpriteSheetExporter object
 
 #### Availability
 
@@ -16,7 +16,7 @@ In addition to the Item object methods, you can use the following methods with t
 
 | **Method**                                                          | **Description**                                                   |
 |---------------------------------------------------------------------|-------------------------------------------------------------------|
-| [SpriteSheetExporter.addBitmap()](../SpriteSheetExporter_object/SpriteSheetExporter.md)) | Adds a bitmap or bitmapItem to the sprite sheet.                  |
+| [SpriteSheetExporter.addBitmap()](../SpriteSheetExporter_object/SpriteSheetExporter.md) | Adds a bitmap or bitmapItem to the sprite sheet.                  |
 | [SpriteSheetExporter.addSymbol()](../SpriteSheetExporter_object/SpriteSheetExporte1.md)                    | Adds a symbol to be used to generate the sprite sheet.            |
 | [SpriteSheetExporter.beginExport()](../SpriteSheetExporter_object/SpriteSheetExporte7.md)                  | Initializes the SpriteSheetExporter to create a new sprite sheet. |
 | [SpriteSheetExporter.changeSymbol()](../SpriteSheetExporter_object/SpriteSheetExport14.md)                 | Changes which symbol frames will be added to the sprite sheet.    |
@@ -42,18 +42,18 @@ In addition to the Item object properties, the following properties are availabl
 
 | **Property**                                                                       | **Description**                                                                                                          |
 |------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| [SpriteSheetExporter.canStackDuplic](#_bookmark859) [ateFrames](#_bookmark859)     | A Boolean value indicating whether sprite stacking is supported by the framework specified by the layoutFormat property. |
+| [SpriteSheetExporter.canStackDuplicateFrames](../SpriteSheetExporter_object/SpriteSheetExport13.md)     | A Boolean value indicating whether sprite stacking is supported by the framework specified by the layoutFormat property. |
 | [SpriteSheetExporter.canTrim](../SpriteSheetExporter_object/SpriteSheetExport11.md)                                       | A Boolean value indicating whether shape trimming is supported by the framework specified by the layoutFormat property.  |
 | [SpriteSheetExporter.format](../SpriteSheetExporter_object/SpriteSheetExport16.md)                                        | The format of the sprite sheet image file.                                                                               |
 | [SpriteSheetExporter.image](../SpriteSheetExporter_object/SpriteSheetExport17.md)                                         | The name of the image file of the sprite sheet.                                                                          |
 | [SpriteSheetExporter.layoutFormat](../SpriteSheetExporter_object/SpriteSheetExport18.md)                                  | The format of the sprite sheet metadata.                                                                                 |
-| ["SpriteSheetExporter.maxSheetHeight" on](#_bookmark865) [page 442](#_bookmark865) | Controls the maximum height of the generated sprite sheet when autoSize = true, clipped to a maximum value of 8192.      |
-| ["SpriteSheetExporter.maxSheetWidth"](#_bookmark866) [on page 442](#_bookmark866)  | Controls the maximum width of the generated sprite sheet when autoSize = true, clipped to a maximum value of 8192.       |
+| [SpriteSheetExporter.maxSheetHeight](../SpriteSheetExporter_object/SpriteSheetExport19.md) | Controls the maximum height of the generated sprite sheet when autoSize = true, clipped to a maximum value of 8192.      |
+| [SpriteSheetExporter.maxSheetWidth](../SpriteSheetExporter_object/SpriteSheetExport20.md)  | Controls the maximum width of the generated sprite sheet when autoSize = true, clipped to a maximum value of 8192.       |
 | [SpriteSheetExporter.overflowed](../SpriteSheetExporter_object/SpriteSheetExport21.md)                                    | A Boolean value indicating whether all the specified frames can fit in the specified sprite sheet size.                  |
 | [SpriteSheetExporter.shapePadding](../SpriteSheetExporter_object/SpriteSheetExport24.md)                                  | The amount of padding around each sprite, in pixels.                                                                     |
 | [SpriteSheetExporter.sheetHeight](../SpriteSheetExporter_object/SpriteSheetExport25.md)                                   | The height of the sprite sheet, in pixels.                                                                               |
 | [SpriteSheetExporter.sheetWidth](../SpriteSheetExporter_object/SpriteSheetExport26.md)                                    | The width of the sprite sheet, in pixels.                                                                                |
-| [SpriteSheetExporter.stackDuplicate](#_bookmark873) [Frames](#_bookmark873)        | A Boolean value indicating whether to stack identical symbol frames in the sprite sheet.                                 |
+| [SpriteSheetExporter.stackDuplicate](../SpriteSheetExporter_object/SpriteSheetExport27.md)        | A Boolean value indicating whether to stack identical symbol frames in the sprite sheet.                                 |
 | [SpriteSheetExporter.version](../SpriteSheetExporter_object/SpriteSheetExport28.md)                                       | The version number of the application creating the sprite sheet.                                                         |
 
 <span id="SpriteSheetExporter.addBitmap()" class="anchor"></span>

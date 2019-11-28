@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-presetPanel.findItemIndex(\[presetName\])
+*presetPanel.findItemIndex([presetName])*
 
 #### Parameters
 
@@ -28,8 +28,12 @@ Method; returns an integer that represents the index location of an item in the 
 
 #### Example
 
-```javascript
 The following code displays the index value and full pathname of the currently selected preset:
-// Select one preset in the Motions Preset panel before running this code var selectedPreset = fl.presetPanel.findItemIndex(); fl.trace(selectedPreset); fl.trace(fl.presetPanel.items\[selectedPreset\].path);
+
+```javascript
+// Select one preset in the Motions Preset panel before running this code
+var selectedPreset = fl.presetPanel.findItemIndex(); 
+fl.trace(selectedPreset); 
+fl.trace(fl.presetPanel.items[selectedPreset].path);
 
 ```

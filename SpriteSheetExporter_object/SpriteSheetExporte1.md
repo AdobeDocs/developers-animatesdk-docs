@@ -6,7 +6,7 @@ Flash Pro CS6.
 
 #### Usage
 
-SpriteSheetExporter.addSymbol(symbol \[, name\] \[, beginFrame\] \[, endFrame\])
+SpriteSheetExporter.addSymbol(symbol [, name] [, beginFrame] [, endFrame])
 
 #### Parameters
 
