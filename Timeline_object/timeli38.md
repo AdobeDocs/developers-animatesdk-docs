@@ -23,11 +23,13 @@ Method; deletes the frame.
 
 #### Example
 
-```javascript
 The following example deletes Frame 5 up to, but not including, Frame 10 of the top layer in the current scene (remember that index values are different from frame number values):
+```javascript
 fl.getDocumentDOM().getTimeline().currentLayer = 0;
 fl.getDocumentDOM().getTimeline().removeFrames(4, 9);
+```
 The following example deletes Frame 8 on the top layer in the current scene:
-fl.getDocumentDOM().getTimeline().currentLayer = 0; fl.getDocumentDOM().getTimeline().removeFrames(7);
 
+```javascript
+fl.getDocumentDOM().getTimeline().currentLayer = 0; fl.getDocumentDOM().getTimeline().removeFrames(7);
 ```

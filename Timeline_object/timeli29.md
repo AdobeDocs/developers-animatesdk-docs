@@ -23,10 +23,13 @@ This method works the same as [timeline.insertBlankKeyframe()](../Timeline_objec
 
 #### Example
 
-```javascript
+
 The following example inserts a keyframe at the playhead or selected location:
+```javascript
 fl.getDocumentDOM().getTimeline().insertKeyframe();
+```
 The following example inserts a keyframe at Frame 10 of the second layer (remember that index values are different from frame or layer number values):
+```javascript
 fl.getDocumentDOM().getTimeline().currentLayer = 1; fl.getDocumentDOM().getTimeline().insertKeyframe(9);
 
 ```
