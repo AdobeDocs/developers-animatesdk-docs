@@ -31,5 +31,6 @@ fl.getDocumentDOM().getTimeline().removeFrames(4, 9);
 The following example deletes Frame 8 on the top layer in the current scene:
 
 ```javascript
-fl.getDocumentDOM().getTimeline().currentLayer = 0; fl.getDocumentDOM().getTimeline().removeFrames(7);
+fl.getDocumentDOM().getTimeline().currentLayer = 0;
+fl.getDocumentDOM().getTimeline().removeFrames(7);
 ```
