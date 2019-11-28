@@ -30,9 +30,12 @@ Method; sets the property of the Frame object for the selected frames.
 The following example assigns the ActionScript stop() command to the first frame of the top layer in the current document:
 
 ```javascript
-fl.getDocumentDOM().getTimeline().currentLayer = 0; fl.getDocumentDOM().getTimeline().setSelectedFrames(0,0,true); fl.getDocumentDOM().getTimeline().setFrameProperty("actionScript", "stop();");
+fl.getDocumentDOM().getTimeline().currentLayer = 0;
+fl.getDocumentDOM().getTimeline().setSelectedFrames(0,0,true);
+fl.getDocumentDOM().getTimeline().setFrameProperty("actionScript", "stop();");
 ```
 The following example sets a motion tween from Frame 2 up to, but not including, Frame 5, of the current layer (remember that index values are different from frame number values):
 ```javascript
-var doc = fl.getDocumentDOM(); doc.getTimeline().setFrameProperty("tweenType","motion",1,4);
+var doc = fl.getDocumentDOM();
+doc.getTimeline().setFrameProperty("tweenType","motion",1,4);
 ```
