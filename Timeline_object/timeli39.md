@@ -24,7 +24,8 @@ Method; removes the motion object and converts the frame(s) back to static frame
 #### Example
 The following example deletes all motion objects and converts the frames back to static frames at the current playhead position on the top layer:
 ```javascript
-fl.getDocumentDOM().getTimeline().currentLayer = 0; fl.getDocumentDOM().getTimeline().removeMotionObject();
+fl.getDocumentDOM().getTimeline().currentLayer = 0;
+fl.getDocumentDOM().getTimeline().removeMotionObject();
 ```
 The following example deletes motion objects from Frame 5 up to, but not including, Frame 15 of the top layer in the current scene:
 ```javascript
