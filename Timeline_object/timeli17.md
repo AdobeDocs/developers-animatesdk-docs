@@ -23,10 +23,12 @@ Method; Duplicates the layers that are currently selected in the Timeline, or th
 
 #### Example
 
-```javascript
 The following example duplicates the layer currently selected in the Timeline:
+```javascript
 fl.getDocumentDOM().getTimeline().duplicateLayers();
+```
 The following example duplicates the layers from index 2 to index 7 above layer index 2:
+```javascript
 fl.getDocumentDOM().getTimeline().duplicatedLayers(2,7);
 
 ```
