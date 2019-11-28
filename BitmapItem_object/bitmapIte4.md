@@ -6,7 +6,7 @@ Flash CS6 Professional.
 
 #### Usage
 
-bitmapItem.hasValidAlphaLayer
+*bitmapItem.hasValidAlphaLayer*
 
 #### Description
 
@@ -16,11 +16,14 @@ Read-only property; a boolean indicating if a bitmap in the library has a valid/
 
 ```javascript
 The following code exports a library item with the proper file name extension depending on whether it has a valid alpha layer.
-var bitmapItem = fl.getDocumentDOM().library.items[0]; var uri = fl.browseForFileURI("open");
-if (bitmapItem.hasValidAlphaLayer) uri += ".png"; else uri += ".jpg";
+
+var bitmapItem = fl.getDocumentDOM().library.items[0]; 
+var uri = fl.browseForFileURI("open");
+if (bitmapItem.hasValidAlphaLayer) uri += ".png"; 
+    else uri += ".jpg";
 bitmapItem.exportToFile(uri);
 
 ```
 #### See also
 
-[bitmapItem.sourceFileExists](../BitmapItem_object/bitmapIte9.md), [bitmapItem.sourceFileIsCurrent](../BitmapItem_object/bitmapIt10.md), [bitmapItem.sourceFilePath](../BitmapItem_object/bitmapIt11.md), [FLfile.getModificationDate()](../FLfile_object/FLfile6.md)
+[bitmapItem.sourceFileExists](../BitmapItem_object/bitmapIte9.md), [bitmapItem.sourceFileIsCurrent](../BitmapItem_object/bitmapIt10.md), [bitmapItem.sourceFilePath](../BitmapItem_object/bitmapIte11.md), [FLfile.getModificationDate()](../FLfile_object/FLfile6.md)

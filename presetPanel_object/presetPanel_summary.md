@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Description
 
-The presetPanel object represents the Motion Presets panel (Window \Motion Presets). It is a property of the flash object ([fl.presetPanel](../flash_object_(fl)/fl49.md)/fl49.md)).
+The presetPanel object represents the Motion Presets panel (Window > Motion Presets). It is a property of the flash object ([fl.presetPanel](../flash_object_(fl)/fl49.md)).
 
 #### Method summary
 
@@ -14,7 +14,7 @@ You can use the following methods with the presetPanel object:
 
 | **Method**                                            | **Description**                                                                                                   |
 |-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [presetPanel.addNewItem()](../presetPanel_object/presetPanel.md)) | If a single motion tween is currently selected on the Stage, adds that motion to the Motion Presets panel.        |
+| [presetPanel.addNewItem()](../presetPanel_object/presetPanel.md) | If a single motion tween is currently selected on the Stage, adds that motion to the Motion Presets panel.        |
 | [presetPanel.applyPreset()](../presetPanel_object/presetPane1.md)            | Applies the specified or currently selected preset to the currently selected item on the Stage.                   |
 | [presetPanel.deleteFolder()](../presetPanel_object/presetPane2.md)           | Deletes the specified folder and any of its subfolders from the folder tree of the Motion Presets panel.          |
 | [presetPanel.deleteItem()](../presetPanel_object/presetPane3.md)             | Deletes the specified preset from the Motion Presets panel.                                                       |
