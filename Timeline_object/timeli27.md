@@ -26,10 +26,14 @@ Method; inserts a blank keyframe at the specified frame index; if the index is n
 
 The following example inserts a blank keyframe at Frame 20 (remember that index values are different from frame
 number values):
+
 ```java script
 fl.getDocumentDOM().getTimeline().insertBlankKeyframe(19);
+
 ```
 The following example inserts a blank keyframe at the currently selected frame (or playhead location if no frame is selected):
+
 ```javascript
 fl.getDocumentDOM().getTimeline().insertBlankKeyframe();
+
 ```
