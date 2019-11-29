@@ -14,9 +14,10 @@ Read-only property; an array of Vertex objects (see [Vertex object](../Vertex_ob
 
 #### Example
 
-```javascript
 The following example stores the first selected object in the someShape variable, and then shows the number of vertices for that object in the Output panel:
-var someShape = fl.getDocumentDOM().selection\[0\];
+
+```javascript
+var someShape = fl.getDocumentDOM().selection[0];
 fl.trace("The shape has " + someShape.vertices.length + " vertices.");
 
 ```

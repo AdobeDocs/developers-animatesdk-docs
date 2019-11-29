@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-shape.deleteEdge(index)
+*shape.deleteEdge(index)*
 
 #### Parameters
 
@@ -22,10 +22,13 @@ Method; deletes the specified edge. You must call [shape.beginEdit()](../Shape_o
 
 #### Example
 
-```javascript
 The following example takes the currently selected shape and removes the first edge in the edge array:
-var shape = fl.getDocumentDOM().selection\[0\]; shape.beginEdit();
-shape.deleteEdge(0); shape.endEdit();
 
-<span id="shape.edges" class="anchor"></span
+```javascript
+var shape = fl.getDocumentDOM().selection[0]; 
+shape.beginEdit();
+shape.deleteEdge(0); 
+shape.endEdit();
 ```
+
+<span id="shape.edges" class="anchor"></span>
