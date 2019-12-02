@@ -15,8 +15,9 @@ Document) in the FLA file.
 
 #### Example
 
-```javascript
+
 The following example sets the frame rate to 25.5 frames per second:
+```javascript
 fl.getDocumentDOM().frameRate = 25.5;
 
 ```

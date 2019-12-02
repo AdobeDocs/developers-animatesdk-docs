@@ -24,7 +24,10 @@ Method; determines whether you can use the [document.testMovie()](../Document_ob
 
 ```javascript
 The following example tests whether fl.getDocumentDOM().testMovie() can be used. If so, it calls the method.
-if(fl.getDocumentDOM().canTestMovie()){ fl.getDocumentDOM().testMovie();
+
+if(fl.getDocumentDOM().canTestMovie())
+{ 
+    fl.getDocumentDOM().testMovie();
 }
 
 ```

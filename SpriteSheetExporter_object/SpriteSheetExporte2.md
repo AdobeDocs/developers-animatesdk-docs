@@ -15,6 +15,7 @@ Property; A string indicating which algorithm to use to pack the sprite sheet. V
 #### Example
 
 ```javascript
-var exporter = new SpriteSheetExporter; exporter.algorithm = "maxRects";
+var exporter = new SpriteSheetExporter;
+exporter.algorithm = "maxRects";
 
 ```

@@ -23,10 +23,12 @@ Method; determines whether you can use the [document.revert()](../Document_objec
 
 #### Example
 
-```javascript
 The following example checks whether the current document can revert to the previously saved version. If so,
 fl.getDocumentDOM().revert() restores the previously saved version.
-if(fl.getDocumentDOM().canRevert()){ fl.getDocumentDOM().revert();
+
+```javascript
+if(fl.getDocumentDOM().canRevert()){ 
+    fl.getDocumentDOM().revert();
 }
 
 ```

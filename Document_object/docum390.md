@@ -25,7 +25,8 @@ Method; Saves a new FLA file based on the existing document object, with an opti
 
 ```javascript
 The following example exports the current selection to a new FLA file at the URI specified by the user:
-var uri = fl.browseForFileURL("save"); var selectionOnly = true;
+var uri = fl.browseForFileURL("save"); 
+var selectionOnly = true;
 fl.getDocumentDOM().saveAsCopy(uri, selectionOnly);
 
 ```

@@ -14,10 +14,17 @@ Property; a string that specifies the jiggle property of a hatched line. This pr
 
 #### Example
 
-```javascript
+
 The following example sets the jiggle property to wild for a stroke style of hatched:
-var myStroke = fl.getDocumentDOM().getCustomStroke(); myStroke.style = "hatched";
-myStroke.curve = "straight"; myStroke.space = "close"; myStroke.jiggle = "wild"; myStroke.rotate = "free"; myStroke.length = "slight"; myStroke.hatchThickness = "thin";
+```javascript
+var myStroke = fl.getDocumentDOM().getCustomStroke();
+myStroke.style = "hatched";
+myStroke.curve = "straight";
+myStroke.space = "close";
+myStroke.jiggle = "wild"; 
+myStroke.rotate = "free"; 
+myStroke.length = "slight"; 
+myStroke.hatchThickness = "thin";
 fl.getDocumentDOM().setCustomStroke(myStroke);
 
 ```

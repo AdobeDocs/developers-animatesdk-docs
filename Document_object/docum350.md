@@ -25,6 +25,8 @@ Method: applies a 3D rotation to the selection. This method is available only fo
 
 ```javascript
 In the following example, the selection is first rotated relative to the stage (globally) and then relative to itself (locally).
-var myDocument = fl.getDocumentDOM(); myDocument.rotate3DSelection({x:52.0, y:0, z:0}, true); myDocument.rotate3DSelection({x:52.0, y:0, z:-55.2}, false);
+
+var myDocument = fl.getDocumentDOM(); myDocument.rotate3DSelection({x:52.0, y:0, z:0}, true); 
+myDocument.rotate3DSelection({x:52.0, y:0, z:-55.2},false);
 
 ```

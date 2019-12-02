@@ -15,6 +15,7 @@ Property; A boolean value indicating whether the symbol frames can be trimmed of
 #### Example
 
 ```javascript
-var exporter = new SpriteSheetExporter; exporter.allowTrimming = false;
+var exporter = new SpriteSheetExporter;
+ exporter.allowTrimming = false;
 
 ```

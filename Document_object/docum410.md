@@ -16,9 +16,10 @@ document.screenOutline
 
 ```javascript
 The following example displays the array of values in the screenOutline property:
+
 var myArray = new Array();
 for(var i in fl.getDocumentDOM().screenOutline) {
-myArray.push(" "+i+" : "+fl.getDocumentDOM().screenOutline[i]) ;
+    myArray.push(" "+i+" : "+fl.getDocumentDOM().screenOutline[i]) ;
 }
 fl.trace("Here is the property dump for screenOutline: "+myArray);
 

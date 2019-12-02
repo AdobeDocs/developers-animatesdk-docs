@@ -24,6 +24,7 @@ Method; removes the specified filter from the Filters list of the selected objec
 
 ```javascript
 The following example removes the first filter (index value 0) from the Filters list of the selected objects:
+
 fl.getDocumentDOM().removeFilter(0);
 
 ```

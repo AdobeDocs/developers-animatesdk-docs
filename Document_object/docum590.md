@@ -24,10 +24,10 @@ Method; specifies a value for a specified property of primitive Oval objects.
 
 #### Example
 
-```javascript
+
 See individual properties in [Oval object](../Oval_object/OvalObject_summary.md) for examples.
 
-```
+
 #### See also
 
 [Oval object](../Oval_object/OvalObject_summary.md), [shape.isOvalObject](../Shape_object/shape9.md)

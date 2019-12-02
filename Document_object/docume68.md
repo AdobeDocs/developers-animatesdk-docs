@@ -26,8 +26,10 @@ Method; exports a video from the document and optionally sends it to Adobe Media
 
 #### Example
 
-```javascript
+
 The following example illustrates the use of this method:
+
+```javascript
 fl.getDocumentDOM().exportVideo("file:///C\|/myProject/myVideo.mov");
 
 ```

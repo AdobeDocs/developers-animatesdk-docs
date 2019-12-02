@@ -14,11 +14,14 @@ Property; a string that contains a list of items in the document’s ActionScrip
 
 #### Example
 
-```javascript
+
 The following adds the ../Files folder to the document’s Library path and then displays the path Library path in the Output panel:
+```javascript
+
 var myDoc = fl.getDocumentDOM() 
 fl.trace(myDoc.libraryPath);
-myDoc.libraryPath = "../Files;" + myDoc.libraryPath;fl.trace(myDoc.libraryPath);
+myDoc.libraryPath = "../Files;" + myDoc.libraryPath;
+fl.trace(myDoc.libraryPath);
 
 ```
 #### See also

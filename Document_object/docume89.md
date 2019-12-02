@@ -23,8 +23,9 @@ Method; gets the location of the transformation point of the current selection. 
 
 #### Example
 
-```javascript
 The following example gets the transformation point for the current selection. The transPoint.x property gives the *x* coordinate of the transformation point. The transPoint.y property gives the *y* coordinate of the transformation point.
+
+```javascript
 var transPoint = fl.getDocumentDOM().getTransformationPoint();
 
 ```

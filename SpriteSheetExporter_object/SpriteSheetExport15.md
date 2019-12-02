@@ -29,8 +29,9 @@ Method; Exports the sprite sheet into a an image file and a metadata file based 
 
 #### Example
 
-```javascript
+
 The following examples exports to a PNG with transparency:
+```javascript
 var sse = new SpriteSheetExporter;
 sse.exportSpriteSheet("file:///C|/xxx/sprite-sheet/test" ,{format:"png", bitDepth:32, backgroundColor:"#00000000"})
 

@@ -27,8 +27,15 @@ Method; adds a new Oval object in the specified bounding rectangle. This method 
 
 ```javascript
 The following example adds a new oval within the specified coordinates; it is 164 pixels in width and 178 pixels in height:
+
 fl.getDocumentDOM().addNewOval({left:72,top:50,right:236,bottom:228});
-The following example draws the oval without a fill: fl.getDocumentDOM().addNewOval({left:72,top:50,right:236,bottom:228}, true); The following example draws the oval without a stroke:
+
+The following example draws the oval without a fill:
+
+fl.getDocumentDOM().addNewOval({left:72,top:50,right:236,bottom:228}, true); 
+
+The following example draws the oval without a stroke:
+
 fl.getDocumentDOM().addNewOval({left:72,top:50,right:236,bottom:228}, false, true);
 
 ```

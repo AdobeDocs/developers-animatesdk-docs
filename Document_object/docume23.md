@@ -20,8 +20,9 @@ Property; the color of the background, in one of the following formats:
 
 #### Example
 
-```javascript
 The following example sets the background color to black:
+
+```javascript
 fl.getDocumentDOM().backgroundColor = '#000000';
 
 ```

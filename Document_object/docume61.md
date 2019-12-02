@@ -22,8 +22,9 @@ Method; exits from symbol-editing mode and returns focus to the next level up fr
 
 #### Example
 
-```javascript
+
 The following example exits symbol-editing mode:
+```javascript
 fl.getDocumentDOM().exitEditMode();
 
 ```

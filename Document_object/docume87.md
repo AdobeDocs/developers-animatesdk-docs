@@ -27,8 +27,10 @@ If there are several text fields selected, the concatenation of all the strings 
 ```javascript
 The following example gets the string in the selected text fields:
 fl.getDocumentDOM().getTextString();
+
 The following example gets the string at character index 5 in the selected text fields:
 fl.getDocumentDOM().getTextString(5);
+
 The following example gets the string from character index 2 up to, but not including, character index 10:
 fl.getDocumentDOM().getTextString(2, 10);
 

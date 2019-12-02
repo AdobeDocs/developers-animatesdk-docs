@@ -19,8 +19,10 @@ Method; loads a cue point XML file. The format and DTD of the XML file is the sa
 
 #### Example
 
-```javascript
+
 The following example the cue points XML file located at C:\\testCuePoints.xml:
+```javascript
+
 var cuePoints = fl.getDocumentDOM().LoadCuepointXML("c:\\testCuePoints.xml");
 
 ```
