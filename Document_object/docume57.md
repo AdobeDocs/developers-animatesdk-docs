@@ -22,8 +22,10 @@ Method; makes the specified scene the currently selected scene for editing.
 
 #### Example
 
-```javascript
 Assuming that there are three scenes (Scene0, Scene1, and Scene2) in the current document, the following example makes Scene2 the current scene and then deletes it:
-fl.getDocumentDOM().editScene(2); fl.getDocumentDOM().deleteScene();
+
+```javascript
+fl.getDocumentDOM().editScene(2);
+fl.getDocumentDOM().deleteScene();
 
 ```

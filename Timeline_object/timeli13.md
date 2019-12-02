@@ -14,10 +14,13 @@ Property; the zero-based index for the currently active layer. A value of 0 spec
 
 #### Example
 
-```javascript
+
 The following example makes the top layer active:
+```javascript
 fl.getDocumentDOM().getTimeline().currentLayer = 0;
+```
 The following example stores the index of the currently active layer in the curLayer variable:
+```javascript
 var curLayer = fl.getDocumentDOM().getTimeline().currentLayer;
 
 ```

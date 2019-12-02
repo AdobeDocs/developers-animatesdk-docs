@@ -22,10 +22,13 @@ Method; Paste layers that have been previously cut or copied above the currently
 
 #### Example
 
-```javascript
+
 The following example pastes the layers from the layer clipboard above the currently selected layer in the Timeline:
+```javascript
 fl.getDocumentDOM().getTimeline().pasteLayers();
+```
 The following example pastes the layers from the layer clipboard above layer index 2:
+```javascript
 fl.getDocumentDOM().getTimeline().pasteLayers(2);
 
 ```

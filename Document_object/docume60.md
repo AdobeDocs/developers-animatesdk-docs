@@ -21,10 +21,11 @@ Nothing.
 Method; switches the authoring tool into the editing mode specified by the parameter. If no parameter is specified, the method defaults to symbol-editing mode, which has the same result as right-clicking the symbol to invoke the context menu and selecting Edit.
 
 #### Example
-
 ```javascript
+
 The following example puts Flash in edit-in-place mode for the currently selected symbol:
 fl.getDocumentDOM().enterEditMode('inPlace');
+
 The following example puts Flash in edit-in-new-window mode for the currently selected symbol:
 fl.getDocumentDOM().enterEditMode('newWindow');
 

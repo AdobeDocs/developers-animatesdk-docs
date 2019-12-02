@@ -27,8 +27,10 @@ Method; gets a specific TextAttrs property of the selected Text objects. Selecte
 ```javascript
 The following example gets the size of the selected text fields:
 fl.getDocumentDOM().getElementTextAttr("size");
+
 The following example gets the color of the character at index 3 in the selected text fields:
 fl.getDocumentDOM().getElementTextAttr("fillColor", 3);
+
 The following example gets the font name of the text from index 2 up to, but not including, index 10 of the selected text fields:
 fl.getDocumentDOM().getElementTextAttr("face", 2, 10);
 

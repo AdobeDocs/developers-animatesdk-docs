@@ -21,9 +21,8 @@ Nothing.
 Method; selects all the frames in the current timeline.
 
 #### Example
+The following example selects all the frames in the current timeline.
 
 ```javascript
-The following example selects all the frames in the current timeline.
 fl.getDocumentDOM().getTimeline().selectAllFrames();
-
 ```

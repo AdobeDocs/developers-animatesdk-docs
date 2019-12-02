@@ -14,8 +14,9 @@ Property; a Boolean value that specifies whether the ActionScript 3.0 compiler s
 
 #### Example
 
-```javascript
+
 The following example turns off the Warnings Mode compiler option.
+```javascript
 var myDocument = fl.getDocumentDOM();
 fl.outputPanel.trace("Warnings Mode value before modification is " + myDocument.as3WarningsMode);
 myDocument.as3WarningsMode = false;

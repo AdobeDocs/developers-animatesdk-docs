@@ -24,11 +24,16 @@ Method; adds a new oval primitive fitting into the specified bounds. This method
 
 #### Example
 
-```javascript
+
 The following example adds oval primitives within the specified coordinates, with and without fill and stroke:
-// Add an oval primitive with fill and stroke fl.getDocumentDOM().addNewPrimitiveOval({left:0,top:0,right:100,bottom:100});
-// Add an oval primitive without a fill fl.getDocumentDOM().addNewPrimitiveOval({left:100,top:100,right:200,bottom:200}, true);
-// Add an oval primitive without a stroke fl.getDocumentDOM().addNewPrimitiveOval({left:200,top:200,right:300,bottom:300},false,true);
+
+```javascript
+// Add an oval primitive with fill and stroke 
+fl.getDocumentDOM().addNewPrimitiveOval({left:0,top:0,right:100,bottom:100});
+// Add an oval primitive without a fill 
+fl.getDocumentDOM().addNewPrimitiveOval({left:100,top:100,right:200,bottom:200}, true);
+// Add an oval primitive without a stroke
+ fl.getDocumentDOM().addNewPrimitiveOval({left:200,top:200,right:300,bottom:300},false,true);
 
 ```
 #### See also

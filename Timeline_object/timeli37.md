@@ -22,10 +22,9 @@ Method; Pastes motion on selected frames. Applies only to a copied classic tween
 
 #### Example
 
-```javascript
 The following example displays the dialog, then pastes the classic tween to the selected frames:
+```javascript
 fl.getDocumentDOM().getTimeline().pasteMotionSpecial();
-
 ```
 #### See also
 

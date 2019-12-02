@@ -15,7 +15,5 @@ stroke.style property is set to dashed (see [stroke.style](../Stroke_object/stro
 
 #### Example
 
-```javascript
 See [stroke.dash1](../Stroke_object/stroke4.md).
 
-```

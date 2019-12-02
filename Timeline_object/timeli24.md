@@ -14,17 +14,17 @@ timeline.getLayerProperty(property)
 
 #### Returns
 
-The value of the specified property. Flash looks at the layer’s properties to determine the type. If all the specified layers don’t have the same property value, Flash returns undefined.
+The value of the specified property. Animate looks at the layer’s properties to determine the type. If all the specified layers don’t have the same property value, Animate returns undefined.
 
 #### Description
 
 Method; retrieves the specified property’s value for the selected layers.
 
 #### Example
-
-```javascript
 The following example retrieves the name of the top layer in the current document and displays it in the Output panel:
+```javascript
 fl.getDocumentDOM().getTimeline().currentLayer = 0;
-var layerName = fl.getDocumentDOM().getTimeline().getLayerProperty("name"); fl.trace(layerName);
+var layerName = fl.getDocumentDOM().getTimeline().getLayerProperty("name");
+fl.trace(layerName);
 
 ```

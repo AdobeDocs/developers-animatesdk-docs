@@ -17,6 +17,7 @@ Property; a Boolean value that specifies whether the children of the specified o
 ```javascript
 The following example sets the areChildrenAccessible variable to the value of the forceSimple property. A value of false means the children are accessible.
 var areChildrenAccessible = fl.getDocumentDOM().forceSimple;
+
 The following example sets the forceSimple property to allow the children of the document to be accessible:
 fl.getDocumentDOM().forceSimple = false;
 

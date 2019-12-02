@@ -23,8 +23,10 @@ Method; returns a string that specifies the blending mode for the selected objec
 
 #### Example
 
-```javascript
+
 The following example displays the name of the blending mode in the Output panel:
+
+```javascript
 fl.trace(fl.getDocumentDom().getBlendMode());
 
 ```

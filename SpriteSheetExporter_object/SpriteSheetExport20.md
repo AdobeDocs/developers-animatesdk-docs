@@ -15,6 +15,8 @@ Controls the maximum width of the generated sprite sheet when autoSize = true, c
 #### Example
 
 ```javascript
-var exporter = new SpriteSheetExporter; exporter.autoSize to true; exporter.maxSheetWidth = 512;
+var exporter = new SpriteSheetExporter; 
+exporter.autoSize to true; 
+exporter.maxSheetWidth = 512;
 
 ```

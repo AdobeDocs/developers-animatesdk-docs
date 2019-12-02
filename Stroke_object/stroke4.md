@@ -15,10 +15,13 @@ stroke.style property is set to dashed(see [stroke.style](../Stroke_object/strok
 
 #### Example
 
-```javascript
+
 The following example sets the dash1 and dash2 properties for a stroke style of dashed:
-var myStroke = fl.getDocumentDOM().getCustomStroke(); myStroke.style = "dashed";
+```javascript
+var myStroke = fl.getDocumentDOM().getCustomStroke();
+myStroke.style = "dashed";
 myStroke.dash1 = 1;
-myStroke.dash2 = 2; fl.getDocumentDOM().setCustomStroke(myStroke);
+myStroke.dash2 = 2; 
+fl.getDocumentDOM().setCustomStroke(myStroke);
 
 ```

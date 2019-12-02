@@ -24,6 +24,7 @@ Method; sets the stroke settings for the Tools panel, Property inspector, and an
 
 ```javascript
 The following example changes the stroke thickness setting in the Tools panel, Property inspector, and any selected shapes:
+
 var stroke = fl.getDocumentDOM().getCustomStroke(); stroke.thickness += 2; 
 fl.getDocumentDOM().setCustomStroke(stroke);
 

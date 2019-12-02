@@ -15,6 +15,7 @@ Property; A boolean value indicating whether the symbol frames can be rotated wh
 #### Example
 
 ```javascript
-var exporter = new SpriteSheetExporter; exporter.allowRotate = true;
+var exporter = new SpriteSheetExporter; 
+exporter.allowRotate = true;
 
 ```

@@ -22,9 +22,12 @@ Method: returns a string that specifies, in XML format, the specified profile. I
 
 #### Example
 
-```javascript
+
 The following example stores an XML string that represents the current profile in a variable named profileXML and then displays it in the Output panel:
-var profileXML=fl.getDocumentDOM().exportPublishProfileString(); fl.trace(profileXML);
+
+```javascript
+var profileXML=fl.getDocumentDOM().exportPublishProfileString(); 
+fl.trace(profileXML);
 
 ```
 #### See also

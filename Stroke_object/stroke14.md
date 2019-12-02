@@ -14,9 +14,12 @@ Property; a string that specifies the pattern of a ragged line. This property is
 
 #### Example
 
-```javascript
+
 The following example sets the pattern property to random for a stroke style of ragged:
-var myStroke = fl.getDocumentDOM().getCustomStroke(); myStroke.style = "ragged";
-myStroke.pattern = "random"; fl.getDocumentDOM().setCustomStroke(myStroke);
+```javascript
+var myStroke = fl.getDocumentDOM().getCustomStroke(); 
+myStroke.style = "ragged";
+myStroke.pattern = "random"; 
+fl.getDocumentDOM().setCustomStroke(myStroke);
 
 ```

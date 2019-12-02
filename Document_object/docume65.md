@@ -22,8 +22,10 @@ Method; exports the currently active profile to an XML file.
 
 #### Example
 
-```javascript
 The following example exports the currently active profile to the file named profile.xml in the folder /Documents and Settings/username/Desktop on the C drive:
+
+
+```javascript
 fl.getDocumentDOM().exportPublishProfile('file:///C\|/Documents and Settings/username/Desktop/profile.xml');
 
 ```

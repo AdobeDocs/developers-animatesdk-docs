@@ -15,9 +15,12 @@ stroke.style property is set to dotted. See [stroke.style](../Stroke_object/stro
 
 #### Example
 
-```javascript
+
 The following example sets the dotSpace property to 3 for a stroke style of dotted:
-var myStroke = fl.getDocumentDOM().getCustomStroke(); myStroke.style = "dotted";
-myStroke.dotSpace= 3; fl.getDocumentDOM().setCustomStroke(myStroke);
+```javascript
+var myStroke = fl.getDocumentDOM().getCustomStroke(); 
+myStroke.style = "dotted";
+myStroke.dotSpace= 3; 
+fl.getDocumentDOM().setCustomStroke(myStroke);
 
 ```

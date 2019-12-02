@@ -27,6 +27,9 @@ Method; converts the selected Stage item(s) to a new symbol. For information on 
 
 ```javascript
 The following examples create a movie clip symbol with a specified name, a button symbol with a specified name, and a movie clip symbol with a default name:
-newMc = fl.getDocumentDOM().convertToSymbol("movie clip", "mcSymbolName", "top left"); newButton = fl.getDocumentDOM().convertToSymbol("button", "btnSymbolName", "bottom right"); newClipWithDefaultName = fl.getDocumentDOM().convertToSymbol("movie clip", "", "top left");
+
+newMc = fl.getDocumentDOM().convertToSymbol("movie clip", "mcSymbolName", "top left"); 
+newButton = fl.getDocumentDOM().convertToSymbol("button", "btnSymbolName", "bottom right"); 
+newClipWithDefaultName = fl.getDocumentDOM().convertToSymbol("movie clip", "", "top left");
 
 ```

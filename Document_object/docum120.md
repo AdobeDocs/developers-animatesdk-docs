@@ -26,7 +26,11 @@ Method; makes the size of the selected objects the same.
 
 ```javascript
 The following example matches the width of the selected objects only:
-fl.getDocumentDOM().match(true,false); The following example matches the height only: fl.getDocumentDOM().match(false,true);
+
+fl.getDocumentDOM().match(true,false); 
+
+The following example matches the height only: fl.getDocumentDOM().match(false,true);
+
 The following example matches the width only to the bounds of the document:
 fl.getDocumentDOM().match(true,false,true);
 

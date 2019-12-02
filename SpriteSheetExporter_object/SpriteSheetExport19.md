@@ -15,6 +15,8 @@ Controls the maximum height of the generated sprite sheet when autoSize = true, 
 #### Example
 
 ```javascript
-var exporter = new SpriteSheetExporter; exporter.autoSize to true; exporter.maxSheetHeight = 512;
+var exporter = new SpriteSheetExporter;
+exporter.autoSize to true;
+exporter.maxSheetHeight = 512;
 
 ```

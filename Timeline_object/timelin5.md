@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.convertToKeyframes(\[startFrameIndex \[, endFrameIndex\]\])
+timeline.convertToKeyframes([startFrameIndex [, endFrameIndex]])
 
 #### Parameters
 
@@ -24,10 +24,15 @@ Method; converts a range of frames to keyframes (or converts the selection if no
 
 #### Example
 
-```javascript
 The following example converts the selected frames to keyframes:
+```javascript
 fl.getDocumentDOM().getTimeline().convertToKeyframes();
+```
 The following example converts to keyframes the frames from Frame 2 up to, but not including, Frame 10 (remember that index values are different from frame number values):
-fl.getDocumentDOM().getTimeline().convertToKeyframes(1, 9); The following example converts Frame 5 to a keyframe: fl.getDocumentDOM().getTimeline().convertToKeyframes(4);
-
+```javascript
+fl.getDocumentDOM().getTimeline().convertToKeyframes(1, 9);
+```
+The following example converts Frame 5 to a keyframe:
+```javascript
+fl.getDocumentDOM().getTimeline().convertToKeyframes(4);
 ```

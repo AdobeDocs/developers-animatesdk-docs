@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.close(\[bPromptToSaveChanges\])
+document.close([bPromptToSaveChanges])
 
 #### Parameters
 
@@ -25,6 +25,7 @@ Method; closes the specified document.
 ```javascript
 The following example closes the current document and prompts the user with a dialog box to save changes:
 fl.getDocumentDOM().close();
+
 The following example closes the current document without saving changes:
 fl.getDocumentDOM().close(false);
 

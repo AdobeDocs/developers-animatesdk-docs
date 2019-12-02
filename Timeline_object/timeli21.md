@@ -23,12 +23,16 @@ Method; returns the bounding rectangle for all elements on all layers on the Tim
 
 #### Example
 
-```javascript
 The following example illustrates the use of this method:
-var doc = fl.getDocumentDOM(); var tl = doc.getTimeline();
-for (var f = 1; f \<= 20; f++) {
-var rect = tl.getBounds(f, true); if (rect != 0) {
-var width = rect.right - rect.left; var height = rect.bottom - rect.top;
+
+```javascript
+var doc = fl.getDocumentDOM();
+var tl = doc.getTimeline();
+for (var f = 1; f <= 20; f++) {
+var rect = tl.getBounds(f, true);
+if (rect != 0) {
+var width = rect.right - rect.left;
+var height = rect.bottom - rect.top;
 fl.trace("" + rect.left + "," + rect.top + "," + width + "," + height);
 }
 }

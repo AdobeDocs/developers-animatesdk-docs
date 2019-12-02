@@ -26,9 +26,12 @@ Method; scales the selection by a specified amount. This method is equivalent to
 
 ```javascript
 The following example expands the width of the current selection to double the original width and shrinks the height to half:
-fl.getDocumentDOM().scaleSelection(2.0, 0.5); The following example flips the selection vertically: fl.getDocumentDOM().scaleSelection(1, -1);
+fl.getDocumentDOM().scaleSelection(2.0, 0.5); The following example flips the selection vertically: 
+fl.getDocumentDOM().scaleSelection(1, -1);
+
 The following example flips the selection horizontally:
 fl.getDocumentDOM().scaleSelection(-1, 1);
+
 The following example scales the selection vertically by 1.9 from the top center:
 fl.getDocumentDOM().scaleSelection(1, 1.90, 'top center');
 
