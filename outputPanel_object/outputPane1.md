@@ -6,7 +6,7 @@ Flash MX 2004; *bUseSystemEncoding* parameter added in Flash 8.
 
 #### Usage
 
-outputPanel.save(fileURI \[, bAppendToFile \[ , bUseSystemEncoding\]\])
+outputPanel.save(fileURI [, bAppendToFile [ , bUseSystemEncoding] ] )
 
 #### Parameters
 
@@ -27,8 +27,9 @@ This method is useful for batch processing. For example, you can create a JSFL f
 
 #### Example
 
+The following example saves the Output panel’s contents to the batch.log file in the /tests 
+folder, overwriting the batch.log file if it already exists:
 ```javascript
-The following example saves the Output panel’s contents to the batch.log file in the /tests folder, overwriting the batch.log file if it already exists:
-fl.outputPanel.save("file:///c\|/tests/batch.log");
+fl.outputPanel.save("file:///c|/tests/batch.log"); 
 
 ```

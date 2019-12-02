@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.setSelectedLayers(index \[, bReplaceCurrentSelection\])
+timeline.setSelectedLayers(index [, bReplaceCurrentSelection])
 
 #### Parameters
 
@@ -23,10 +23,13 @@ Method; sets the layer to be selected, and also makes the specified layer the cu
 
 #### Example
 
+The following example selects the top layer:
 ```javascript
-The following example selects the top layer: fl.getDocumentDOM().getTimeline().setSelectedLayers(0); The following example adds the next layer to the selection:
+fl.getDocumentDOM().getTimeline().setSelectedLayers(0);
+```
+The following example adds the next layer to the selection:
+```javascript
 fl.getDocumentDOM().getTimeline().setSelectedLayers(1, false);
-
 ```
 #### See also
 

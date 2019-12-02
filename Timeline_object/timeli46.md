@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.setSelectedFrames(startFrameIndex, endFrameIndex \[, bReplaceCurrentSelection\]) timeline.setSelectedFrames(selectionList \[, bReplaceCurrentSelection\])
+timeline.setSelectedFrames(startFrameIndex, endFrameIndex [, bReplaceCurrentSelection]) timeline.setSelectedFrames(selectionList [, bReplaceCurrentSelection])
 
 #### Parameters
 
@@ -25,16 +25,17 @@ Method; selects a range of frames in the current layer or sets the selected fram
 
 #### Example
 
-```javascript
 The following examples show two ways to select the top layer, Frame 1, up to but not including Frame 10, and then to add Frame 12 up to but not including Frame 15 on the same layer to the current selection (remember that index values are different from frame number values):
+```javascript
 fl.getDocumentDOM().getTimeline().setSelectedFrames(0, 9);
 fl.getDocumentDOM().getTimeline().setSelectedFrames(11, 14, false);
-fl.getDocumentDOM().getTimeline().setSelectedFrames(\[0, 0, 9\]);
-fl.getDocumentDOM().getTimeline().setSelectedFrames(\[0, 11, 14\], false);
+fl.getDocumentDOM().getTimeline().setSelectedFrames([0, 0, 9]);
+fl.getDocumentDOM().getTimeline().setSelectedFrames([0, 11, 14], false);
+```
 The following example first stores the array of selected frames in the savedSelectionList variable and then uses the array later in the code to reselect those frames after a command or user interaction has changed the selection:
+```javascript
 var savedSelectionList = fl.getDocumentDOM().getTimeline().getSelectedFrames();
 // Do something that changes the selection. fl.getDocumentDOM().getTimeline().setSelectedFrames(savedSelectionList);
-
 ```
 #### See also
 

@@ -11,7 +11,10 @@ toolObj.enablePIControl(control, bEnable)
 #### Parameters
 
 **control** A string that specifies the name of the control to enable or disable. Legal values depend on the Property inspector invoked by this tool; see [toolObj.setPI()](../ToolObj_object/toolObj7.md).
+
 A shape Property inspector has the following controls:
+<table><thead></th></tr></thead><tbody><tr class="odd"><td>Stroke</td><td><p>fill</p></td></tr></tbody></table>
+
 A text Property inspector has the following controls:
 
 | type        | font         | pointsize   |
@@ -41,8 +44,9 @@ Method; enables or disables the specified control in a Property inspector. Used 
 
 #### Example
 
-```javascript
 The following command in an extensible tool’s JavaScript file sets Flash to not show the stroke options in the Property inspector for that tool:
+
+```javascript
 theTool.enablePIControl("stroke",false);
 
 ```

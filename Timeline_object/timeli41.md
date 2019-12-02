@@ -24,10 +24,13 @@ Method; reverses a range of frames.
 
 #### Example
 
-```javascript
+
 The following example reverses the positions of the currently selected frames:
+```javascript
 fl.getDocumentDOM().getTimeline().reverseFrames();
+```
 The following example reverses frames from Frame 10 up to, but not including, Frame 15 (remember that index values are different from frame number values):
+```javascript
 fl.getDocumentDOM().getTimeline().reverseFrames(9, 14);
 
 ```

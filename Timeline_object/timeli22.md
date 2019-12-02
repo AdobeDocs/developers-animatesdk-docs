@@ -25,10 +25,12 @@ Method; retrieves the specified property’s value for the selected frames.
 
 #### Example
 
-```javascript
+
 The following example retrieves the name of the first frame in the current document’s top layer and displays the name in the Output panel:
+```javascript
 fl.getDocumentDOM().getTimeline().currentLayer = 0;
 fl.getDocumentDOM().getTimeline().setSelectedFrames(0, 0, true);
-var frameName = fl.getDocumentDOM().getTimeline().getFrameProperty("name"); fl.trace(frameName);
+var frameName = fl.getDocumentDOM().getTimeline().getFrameProperty("name");
+fl.trace(frameName);
 
 ```

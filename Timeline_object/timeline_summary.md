@@ -6,8 +6,8 @@ Flash MX 2004.
 
 #### Description
 
-The Timeline object represents the Flash timeline, which can be accessed for the current document by using fl.getDocumentDOM().getTimeline(). This method returns the timeline of the current scene or symbol that is being edited.
-When you work with scenes, each scene’s timeline has an index value, and can be accessed for the current document by fl.getDocumentDOM().timelines\[i\]. (In this example, i is the index of the value of the timeline.)
+The Timeline object represents the Animate timeline, which can be accessed for the current document by using fl.getDocumentDOM().getTimeline(). This method returns the timeline of the current scene or symbol that is being edited.
+When you work with scenes, each scene’s timeline has an index value, and can be accessed for the current document by fl.getDocumentDOM().timelines[i]. (In this example, i is the index of the value of the timeline.)
 When you work with frames by using the methods and properties of the Timeline object, remember that the frame value is a zero-based index (not the actual frame number in the sequence of frames in the timeline). That is, the first frame has a frame index of 0.
 
 #### Method summary
@@ -16,7 +16,7 @@ The following methods are available for the Timeline object:
 
 | **Method**                                              | **Description**                                                                                                                                                                            |
 |---------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [timeline.addMotionGuide()](../Timeline_object/timeline.md)) | Adds a motion guide layer above the current layer and attaches the current layer to the newly added guide layer.                                                                           |
+| [timeline.addMotionGuide()](../Timeline_object/timeline.md) | Adds a motion guide layer above the current layer and attaches the current layer to the newly added guide layer.                                                                           |
 | [timeline.addNewLayer()](../Timeline_object/timelin1.md)                | Adds a new layer to the document and makes it the current layer.                                                                                                                           |
 | [timeline.clearFrames()](../Timeline_object/timelin2.md)                | Deletes all the contents from a frame or range of frames on the current layer.                                                                                                             |
 | [timeline.clearKeyframes()](../Timeline_object/timelin3.md)             | Converts a keyframe to a regular frame and deletes its contents on the current layer.                                                                                                      |

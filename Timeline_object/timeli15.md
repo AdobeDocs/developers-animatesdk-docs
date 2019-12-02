@@ -6,7 +6,7 @@ Flash CS5.5 Professional.
 
 #### Usage
 
-timeline.cutLayers(\[startLayerIndex \[, endLayerIndex\]\])
+timeline.cutLayers([startLayerIndex [, endLayerIndex]])
 
 #### Parameters
 
@@ -24,10 +24,9 @@ Method; Cuts the layers that are currently selected in the Timeline, or the laye
 
 #### Example
 
-```javascript
 The following example cuts the layers from index 2 to index 7 in the Timeline:
+```javascript
 fl.getDocumentDOM().getTimeline().cutLayers(2, 7);
-
 ```
 #### See also
 

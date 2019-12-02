@@ -15,10 +15,9 @@ To set this value, use [document.setOvalObjectProperty()](../Document_object/doc
 
 #### Example
 
-```javascript
 The following example deselects the OvalObject.closePath property:
+```javascript
 fl.getDocumentDOM().setOvalObjectProperty("closePath",false);
-
 ```
 #### See also
 
