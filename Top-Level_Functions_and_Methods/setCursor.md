@@ -7,7 +7,9 @@ Flash MX 2004.
 #### Usage
 
 function setCursor() {
+
 // statements
+
 }
 
 #### Parameters
@@ -25,7 +27,8 @@ Function; called when the extensible tool is active and the mouse moves, to allo
 #### Example
 
 ```javascript
-function setCursor() { fl.tools.setCursor( 1 );
+function setCursor() { 
+        fl.tools.setCursor( 1 );
 }
 
 ```

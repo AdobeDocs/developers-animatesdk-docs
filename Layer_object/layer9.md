@@ -14,12 +14,11 @@ Property; a Layer object that represents the layer’s containing folder, guidin
 
 #### Example
 
-```javascript
-
 The following example uses two layers at the same level on the same timeline. The first layer (layers[0]) is converted
 into a folder and then set as the parent folder of the second layer (layers[1]). This action moves the second layer
 inside the first layer.
 
+```javascript
 var parLayer = fl.getDocumentDOM().getTimeline().layers[0];
 parLayer.layerType = "folder";
 fl.getDocumentDOM().getTimeline().layers[1].parentLayer = parLayer;

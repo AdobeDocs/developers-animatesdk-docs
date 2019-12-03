@@ -14,9 +14,9 @@ Read-only property; an integer that specifies the number of frames in the layer.
 
 #### Example
 
-```javascript
 
 The following example stores the number of frames in the first layer in the fcNum variable:
 
+```javascript
 var fcNum = fl.getDocumentDOM().getTimeline().layers[0].frameCount; 
 ```

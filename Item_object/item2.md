@@ -25,9 +25,9 @@ Method; Indicates whether publishing of the specified persistent data is enabled
 
 #### Example
 
-```javascript
 The following example illustrates use of this method:
 
+```javascript
 var doc = fl.getDocumentDOM();
 // example setting library data
 if (doc){

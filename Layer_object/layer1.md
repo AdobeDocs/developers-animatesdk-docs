@@ -22,9 +22,9 @@ This property is equivalent to the Outline color setting in the Layer Properties
 
 #### Example
 
-```javascript
 The following example stores the value of the first layer in the colorValue variable: var colorValue = 
 
+```javascript
 var colorValue = fl.getDocumentDOM().getTimeline().layers[0].color;
 ```
 The following example shows three ways to set the color of the first layer to red:

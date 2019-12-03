@@ -14,11 +14,10 @@ Property; a string that specifies the URL where the SWF file containing the shar
 
 #### Example
 
-```javascript
 The following example specifies a linkage URL for the specified library item:
 
+```javascript
 fl.getDocumentDOM().library.items[0].linkageURL = "theShareSWF.swf";
-
 ```
 #### See also
 

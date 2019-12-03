@@ -14,8 +14,8 @@ Property; a library item used to instantiate this instance. You can change this 
 
 #### Example
 
-```javascript
 The following example changes the selected symbol to refer to the first item in the library:
-fl.getDocumentDOM().selection[0].libraryItem = fl.getDocumentDOM().library.items[0];
 
+```javascript
+fl.getDocumentDOM().selection[0].libraryItem = fl.getDocumentDOM().library.items[0];
 ```
