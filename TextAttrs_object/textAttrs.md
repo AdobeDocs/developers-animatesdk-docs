@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-textAttrs.aliasText
+*textAttrs.aliasText*
 
 #### Description
 
@@ -14,8 +14,9 @@ Property; a Boolean value that specifies that Flash should draw the text using a
 
 #### Example
 
-```javascript
 The following example sets the aliasText property to true for all the text in the currently selected text field:
+
+```javascript
 fl.getDocumentDOM().setElementTextAttr('aliasText', true);
 
 ```

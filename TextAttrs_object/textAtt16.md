@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-textAttrs.target
+*textAttrs.target*
 
 #### Description
 
@@ -14,8 +14,9 @@ Property; a string that represents the target property of the text field. This p
 
 #### Example
 
-```javascript
 The following example gets the target property of the text field in the first frame of the top layer of the current scene and shows it in the Output panel:
-fl.outputPanel.trace(fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].getTe xtAttr("target"));
+
+```javascript
+fl.outputPanel.trace(fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].getTe xtAttr("target"));
 
 ```
