@@ -1,6 +1,6 @@
 ## videoItem summary
 
-**Inheritance** [Item object](../Item_object/item_summary.md) \VideoItem object
+**Inheritance** [Item object](../Item_object/item_summary.md) > VideoItem object
 
 #### Availability
 
@@ -16,7 +16,7 @@ In addition to the Item object methods, the VideoItem object has the following m
 
 | **Property**                                        | **Description**                            |
 |-----------------------------------------------------|--------------------------------------------|
-| [videoItem.exportToFLV()](../VideoItem_object/videoItem.md)) | Exports the specified item to an FLV file. |
+| [videoItem.exportToFLV()](../VideoItem_object/videoItem.md) | Exports the specified item to an FLV file. |
 
 #### Property summary
 

@@ -14,8 +14,7 @@ Read-only property; a Boolean value that is true if the Control key is pressed; 
 
 #### Example
 
-```javascript
 The following example determines whether the Control key is being pressed:
+```javascript
 var isCtrldown = fl.tools.ctrlIsDown;
-
 ```

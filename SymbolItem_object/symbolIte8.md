@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-symbolItem.sourceAutoUpdate
+*symbolItem.sourceAutoUpdate*
 
 #### Description
 
@@ -14,8 +14,9 @@ Property; a Boolean value that specifies whether the item is updated when the FL
 
 #### Example
 
-```javascript
 The following example sets the sourceAutoUpdate property for a library item:
-fl.getDocumentDOM().library.items\[0\].sourceAutoUpdate = true;
+
+```javascript
+fl.getDocumentDOM().library.items[0].sourceAutoUpdate = true;
 
 ```

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-symbolItem.exportSWF(outputURI)
+*symbolItem.exportSWF(outputURI)*
 
 #### Parameters
 
@@ -22,8 +22,9 @@ Method; exports the symbol item to a SWF file.
 
 #### Example
 
-```javascript
 The following example exports an item in the library to the my.swf file in the tests folder:
-fl.getDocumentDOM().library.items\[0\].exportSWF("file:///c\|/tests/my.swf");
+
+```javascript
+fl.getDocumentDOM().library.items[0].exportSWF("file:///c|/tests/my.swf");
 
 ```

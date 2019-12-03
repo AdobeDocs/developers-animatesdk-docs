@@ -14,11 +14,14 @@ Property; a string that is equivalent to the Description field in the Accessibil
 
 #### Example
 
-```javascript
 The following example retrieves the description of the object:
+````javascript
 var doc = fl.getDocumentDOM();
-var desc = doc.selection\[0\].description;
-The following example sets the description of the object:
-var doc = fl.getDocumentDOM(); doc.selection\[0\].description= "Enter your name here";
+var desc = doc.selection[0].description;
+````
 
-```
+The following example sets the description of the object:
+
+````javascript
+var doc = fl.getDocumentDOM(); doc.selection[0].description= "Enter your name here";
+````

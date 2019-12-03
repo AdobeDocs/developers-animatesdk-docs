@@ -14,11 +14,14 @@ Property; a string that is equivalent to the Name field in the Accessibility pan
 
 #### Example
 
-```javascript
 The following example retrieves the name of the object:
-var doc = fl.getDocumentDOM();
-var theName = doc.selection\[0\].accName;
-The following example sets the name of the currently selected object:
-fl.getDocumentDOM().selection\[0\].accName = "Home Button";
 
-```
+````javascript
+var doc = fl.getDocumentDOM();
+var theName = doc.selection[0].accName;
+````
+The following example sets the name of the currently selected object:
+
+````javascript
+fl.getDocumentDOM().selection[0].accName = "Home Button";
+````

@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-xmlui.getVisible(controlID)
+*xmlui.getVisible(controlID)*
 
 #### Parameters
 
@@ -14,7 +14,7 @@ xmlui.getVisible(controlID)
 
 #### Returns
 
-A Boolean value of true if the control is visible, or false if it is invisible (hidden).
+A Boolean value of *true* if the control is visible, or *false* if it is invisible (hidden).
 
 #### Description
 
@@ -22,9 +22,11 @@ Method; returns a Boolean value that specifies whether the control is visible or
 
 #### Example
 
+The following example returns a value that indicates whether the control with the ID attribute *myListBox* is visible:
+
 ```javascript
-The following example returns a value that indicates whether the control with the ID attribute myListBox is visible:
-var isVisible = fl.xmlui.getVisible("myListBox"); fl.trace(isVisible);
+var isVisible = fl.xmlui.getVisible("myListBox"); 
+fl.trace(isVisible);
 
 ```
 #### See also

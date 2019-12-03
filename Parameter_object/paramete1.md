@@ -25,11 +25,15 @@ Method; inserts an item in an object or array. If a parameter is an object or ar
 
 #### Example
 
-```javascript
 The following example inserts the value of New Value into the labelPlacement parameter:
-// Select an instance of a Button component on the Stage. var parms = fl.getDocumentDOM().selection\[0\].parameters; parms\[3\].insertItem(0, "name", "New Value", "String"); var values = parms\[3\].value;
+
+```javascript
+// Select an instance of a Button component on the Stage.
+var parms = fl.getDocumentDOM().selection[0].parameters;
+parms[3].insertItem(0, "name", "New Value", "String");
+var values = parms[3].value;
 for(var prop in values){
-fl.trace("labelPlacement parameter value = " + values\[prop\].value);
+fl.trace("labelPlacement parameter value = " + values[prop].value);
 }
 
 ```

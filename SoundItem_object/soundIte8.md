@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-soundItem.quality
+*soundItem.quality*
 
 #### Description
 
@@ -15,9 +15,10 @@ If you want to specify a value for this property, set [soundItem.useImportedMP3Q
 
 #### Example
 
-```javascript
 The following example sets the playback quality of an item in the library to Best if the item has the MP3 compression type:
-fl.getDocumentDOM().library.items\[0\].quality = "Best";
+
+```javascript
+fl.getDocumentDOM().library.items[0].quality = "Best";
 
 ```
 #### See also

@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-videoItem.videoType
+*videoItem.videoType*
 
 #### Description
 
@@ -15,11 +15,14 @@ and "video".
 
 #### Example
 
-```javascript
 The following example displays the name and type of any items in the library that are of type video:
+
+```javascript
 for (idx in fl.getDocumentDOM().library.items) {
-if (fl.getDocumentDOM().library.items\[idx\].itemType == "video") { var myItem = fl.getDocumentDOM().library.items\[idx\]; fl.trace(myItem.name + " is " + myItem.videoType);
-}
+    if (fl.getDocumentDOM().library.items[idx].itemType == "video") { 
+    var myItem = fl.getDocumentDOM().library.items[idx]; 
+    fl.trace(myItem.name + " is " + myItem.videoType);
+    }
 }
 
 ```

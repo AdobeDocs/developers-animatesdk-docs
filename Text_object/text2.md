@@ -14,10 +14,8 @@ Property; a float value that specifies the anti-aliasing thickness of the text. 
 
 #### Example
 
-```javascript
 See [text.fontRenderingMode](../Text_object/text10.md).
 
-```
 #### See also
 
 [text.antiAliasSharpness](../Text_object/text1.md), [text.fontRenderingMode](../Text_object/text10.md)

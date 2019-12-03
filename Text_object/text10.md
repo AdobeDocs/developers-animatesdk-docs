@@ -17,6 +17,8 @@ Property; a string that specifies the rendering mode for the text. This property
 | device             | Renders the text with device fonts.                         |
 | bitmap             | Renders aliased text as a bitmap, or as a pixel font would. |
 
+
+
 | **Property value**       | **How text is rendered**                                                                                                                                                                 |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | standard                 | Renders text using the standard anti-aliasing method used by Flash MX 2004. This is the best setting to use for animated, very large, or skewed text.                                    |
@@ -25,11 +27,10 @@ Property; a string that specifies the rendering mode for the text. This property
 
 #### Example
 
-```javascript
 The following example shows how you can use the customThicknessSharpness value to specify the sharpness and thickness of the text:
+```javascript
 fl.getDocumentDOM().setElementProperty("fontRenderingMode", "customThicknessSharpness"); fl.getDocumentDOM().setElementProperty("antiAliasSharpness", 400);
 fl.getDocumentDOM().setElementProperty("antiAliasThickness", -200);
-
 ```
 #### See also
 

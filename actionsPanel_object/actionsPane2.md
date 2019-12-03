@@ -22,10 +22,10 @@ Method; returns the text that is currently selected in the Actions panel.
 
 #### Example
 
-```javascript
 The following example displays the text that is currently selected in the Actions panel.
-var apText = fl.actionsPanel.getSelectedText(); fl.trace(apText);
 
+```javascript
+var apText = fl.actionsPanel.getSelectedText(); fl.trace(apText);
 ```
 #### See also
 
