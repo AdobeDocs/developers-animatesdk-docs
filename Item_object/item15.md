@@ -26,9 +26,9 @@ Method; Enables publishing of persistent data for a library item.
 
 #### Example
 
-```javascript
 The following example illustrates use of this method:
 
+```javascript
 var doc = fl.getDocumentDOM();
 // example setting library data
 if (doc){

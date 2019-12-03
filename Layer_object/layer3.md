@@ -14,9 +14,9 @@ Read-only property; an array of Frame objects (see [Frame object](../Frame_objec
 
 #### Example
 
-```javascript
 The following example sets the variable frameArray to the array of Frame objects for the frames in the current document:
 
+```javascript
 var frameArray = fl.getDocumentDOM().getTimeline().layers[0].frames;
 ```
 

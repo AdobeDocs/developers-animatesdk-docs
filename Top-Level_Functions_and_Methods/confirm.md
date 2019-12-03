@@ -23,8 +23,9 @@ Method; displays a string in a modal Alert dialog box, along with OK and Cancel 
 
 #### Example
 
-```javascript
 The following example displays the message "Sort data?" in an Alert dialog box:
+
+```javascript
 confirm("Sort data?");
 
 ```

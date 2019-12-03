@@ -1,6 +1,6 @@
 ## JavaScript API objects
 
-This section provides a summary of the objects available in the Flash JavaScript API and how to begin working with them. All standard JavaScript commands are also available when working with the JavaScript API.
+This section provides a summary of the objects available in the Animate JavaScript API and how to begin working with them. All standard JavaScript commands are also available when working with the JavaScript API.
 
 The following table briefly describes each of the objects in the JavaScript API. The objects are listed in alphabetical order.
 
@@ -65,7 +65,7 @@ The following table briefly describes each of the objects in the JavaScript API.
 
 ### The Flash Document Object Model
 
-The Flash Document Object Model (DOM) for the Flash JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods" on page 18](#_bookmark13)) and two top-level objects—the FLfile object and the flash object (fl). Each object is guaranteed to be available to a script because it always exists when the Flash authoring environment is open. For more information, see [FLfile object](../FLfile_object/FLfile_summary.md) and [flash object (fl)](../flash_object_(fl)/fl_summary.md).
+The Flash Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods" on page 18](#_bookmark13)) and two top-level objects—the FLfile object and the flash object (fl). Each object is guaranteed to be available to a script because it always exists when the Flash authoring environment is open. For more information, see [FLfile object](../FLfile_object/FLfile_summary.md) and [flash object (fl)](../flash_object_(fl)/fl_summary.md).
 When referring to the flash object, you can use flash or fl. For example, to close all open FLA files, you can use either of the following statements:
 flash.closeAll(); fl.closeAll();
 The flash object contains the following *child objects*:

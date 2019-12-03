@@ -14,7 +14,7 @@ The process for implementing this capability is summarized in the following step
 
     -   Windows 7 and 8:
 
-        *boot drive*\\Users\\*username*\\AppData\\Local\\Adobe\\Flash *CC*\\*language*\\Configuration\\External Libraries
+        *boot drive\Users\username\AppData\Local\Adobe\Flash \*CC\*\language\Configuration\External Libraries*
 
     -   Mac OS X:
 
@@ -27,7 +27,7 @@ The process for implementing this capability is summarized in the following step
 
 ### C-level extensibility and the JavaScript interpreter
 
-The C code in the DLL or shared library interacts with the Flash JavaScript API at three different times:
+The C code in the DLL or shared library interacts with the Animate JavaScript API at three different times:
 
 -   At startup, to register the library’s functions
 

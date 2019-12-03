@@ -22,8 +22,8 @@ Property; removes persistent data from the library item.
 
 #### Example
 
-```javascript
 The following example removes the data named myData from the first item in the library:
-fl.getDocumentDOM().library.items[0].removeData("myData");
 
+```javascript
+fl.getDocumentDOM().library.items[0].removeData("myData");
 ```

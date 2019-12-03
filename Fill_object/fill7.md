@@ -15,8 +15,10 @@ Property; a string that specifies the behavior of a gradient’s overflow. Accep
 
 #### Example
 
-```javascript
 The following example specifies that the behavior of the overflow for the current selection should be "extend":
-var fill = fl.getDocumentDOM().getCustomFill(); fill.overflow = "extend"; fl.getDocumentDOM().setCustomFill(fill);
 
+```javascript
+var fill = fl.getDocumentDOM().getCustomFill();
+fill.overflow = "extend";
+fl.getDocumentDOM().setCustomFill(fill);
 ```

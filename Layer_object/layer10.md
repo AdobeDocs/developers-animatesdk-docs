@@ -14,9 +14,8 @@ Property; a Boolean value that specifies whether the layer’s objects on the St
 
 #### Example
 
-```javascript
 The following example makes all objects in the first layer invisible:
 
+```javascript
 fl.getDocumentDOM().getTimeline().layers[0].visible = false;
-
 ```

@@ -23,8 +23,10 @@ Method; gets the preceding HalfEdge object on the current contour.
 
 #### Example
 
-```javascript
 The following example stores the previous half edge of the specified contour in the prevHalfEdge variable:
-var shape = fl.getDocumentDOM().selection[0]; var hEdge = shape.edges[0].getHalfEdge( 0 ); var prevHalfEdge = hEdge.getPrev();
 
+```javascript
+var shape = fl.getDocumentDOM().selection[0];
+var hEdge = shape.edges[0].getHalfEdge( 0 );
+var prevHalfEdge = hEdge.getPrev();
 ```

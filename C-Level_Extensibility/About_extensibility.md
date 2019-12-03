@@ -14,7 +14,7 @@ This extensibility mechanism is a subset of the Adobe Dreamweaver CS3 API. If yo
 
 declarations in this API, to support Unicode when strings are passed.
 
--   The [JSVal JS\_BytesToValue()](../C-Level_Extensibility/The_C.md) function in this API is not part of the Dreamweaver API.
+-   The [JSVal JS_BytesToValue()](../C-Level_Extensibility/The_C.md) function in this API is not part of the Dreamweaver API.
 
 -   The location in which the DLL or shared library files must be stored is different (see ["Integrating C functions"](../C-Level_Extensibility/Integrating_C_functions.md)).
 
