@@ -24,7 +24,8 @@ myStroke.curve = "straight";
 myStroke.space = "close";
 myStroke.jiggle = "wild";
 myStroke.rotate = "free"; 
-myStroke.length = "slight"; myStroke.hatchThickness = "thin";
+myStroke.length = "slight"; 
+myStroke.hatchThickness = "thin";
 fl.getDocumentDOM().setCustomStroke(myStroke);
 
 ```

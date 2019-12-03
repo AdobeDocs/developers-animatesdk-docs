@@ -14,8 +14,9 @@ Property; a string that specifies the type of symbol. This property is equivalen
 
 #### Example
 
-```javascript
 The following example sets the first symbol in the first frame of the first layer in the timeline of the current document to behave as a graphic symbol:
-fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].symbolType = "graphic";
+
+```javascript
+fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].symbolType = "graphic";
 
 ```

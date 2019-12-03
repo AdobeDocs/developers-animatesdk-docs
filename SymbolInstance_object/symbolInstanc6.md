@@ -14,8 +14,8 @@ Property; a string that, for button symbols only, sets the same property as the 
 
 #### Example
 
-```javascript
 The following example sets the first symbol in the first frame of the first layer in the timeline to a Track As Menu Item, as long as that symbol is a button:
-fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].buttonTracking = "menu";
+```javascript
+fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].buttonTracking = "menu";
 
 ```

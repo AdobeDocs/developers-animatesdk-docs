@@ -14,8 +14,12 @@ Property; a string that is equivalent to the shortcut key associated with the sy
 
 #### Example
 
-```javascript
 The following example stores the value for the shortcut key of the object in the theShortcut variable:
-var theShortcut = fl.getDocumentDOM().selection\[0\].shortcut; The following example sets the shortcut key of the object to Ctrl+i: fl.getDocumentDOM().selection\[0\].shortcut = "Ctrl+i";
+
+```javascript
+var theShortcut = fl.getDocumentDOM().selection[0].shortcut; 
+
+The following example sets the shortcut key of the object to Ctrl+i: 
+fl.getDocumentDOM().selection[0].shortcut = "Ctrl+i";
 
 ```

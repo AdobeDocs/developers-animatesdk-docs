@@ -14,9 +14,9 @@ Property; a string that specifies the blending mode to be applied to a movie cli
 
 #### Example
 
-```javascript
 The following example sets the blending mode for the first movie clip symbol in the first frame on the first level to add:
-fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\].blendMode = "add";
+```javascript
+fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].blendMode = "add";
 
 ```
 #### See also

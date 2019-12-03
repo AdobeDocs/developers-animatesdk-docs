@@ -14,10 +14,11 @@ Read-only property; returns the value set in the color effect Property Inspector
 
 #### Example
 
-```javascript
 The following illustrates use of the brightness property:
-var elem = fl.getDocumentDOM().getTimeline().layers\[0\].frames\[0\].elements\[0\]; if (elem.colorMode == 'brightness') {
-fl.trace(elem.brightness);
+```javascript
+var elem = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0]; 
+if (elem.colorMode == 'brightness') {
+    fl.trace(elem.brightness);
 }
 
 ```
