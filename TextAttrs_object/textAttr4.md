@@ -10,8 +10,7 @@ Flash MX 2004.
 
 #### Description
 
-Property; a string that determines the baseline for the text. Acceptable values are *"normal", "subscript",* and
-*"superscript"*. This property applies only to static text.
+Property; a string that determines the baseline for the text. Acceptable values are *"normal", "subscript",* and *"superscript"*. This property applies only to static text.
 
 #### Example
 
