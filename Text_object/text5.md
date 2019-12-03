@@ -23,5 +23,6 @@ var desc = doc.selection[0].description;
 The following example sets the description of the object:
 
 ````javascript
-var doc = fl.getDocumentDOM(); doc.selection[0].description= "Enter your name here";
+var doc = fl.getDocumentDOM();
+doc.selection[0].description= "Enter your name here";
 ````

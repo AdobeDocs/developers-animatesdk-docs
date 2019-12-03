@@ -18,5 +18,5 @@ Property; a Boolean value. If the value is true, Flash draws the text as HTML an
 
 The following example sets the renderAsHTML property to true:
 ```javascript
- fl.getDocumentDOM().selection[0].renderAsHTML = true;
+fl.getDocumentDOM().selection[0].renderAsHTML = true;
 ```

@@ -18,7 +18,7 @@ The following example retrieves the name of the object:
 
 ````javascript
 var doc = fl.getDocumentDOM();
-var theName = doc.selection[0].accName;
+var theName = doc.selection[0].accName; 
 ````
 The following example sets the name of the currently selected object:
 

@@ -22,10 +22,13 @@ The following example assumes that the first or only item in the current selecti
 embedRanges property to "1|3|7":
 
 ```javascript
-var doc = fl.getDocumentDOM(); doc.selection[0].embedRanges = "1|3|7";
+var doc = fl.getDocumentDOM();
+doc.selection[0].embedRanges = "1|3|7";
 ```
 
 The following example resets the property:
 ```javascript
-var doc = fl.getDocumentDOM(); doc.selection[0].embedRanges = "";
+var doc = fl.getDocumentDOM();
+doc.selection[0].embedRanges = "";
+
 ```

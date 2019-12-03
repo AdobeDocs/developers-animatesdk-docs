@@ -14,9 +14,8 @@ Read-only property: a string that contains the DPI scale factor (scaleY) for swf
 
 #### Example
 
-```javascript
 The following code illustrates the use of this property:
-
+```javascript
 fl.trace(fl.swfPanel[x].dpiScaleFactorY);
 
 ```

@@ -14,7 +14,6 @@ Method: Sets the keyboard focus to the specified SWF panel.
 
 #### Example
 
-```javascript
 The following code sets the focus to the SWF panel named "Project":
 
 Please do the followings steps before running this command:
@@ -31,7 +30,7 @@ Please do the followings steps before running this command:
 
 flash.getSwfPanel("Project").setFocus();
 
-```
+
 #### See also
 
 [swfPanel.name](../swfPanel_object/swfPane3.md), [fl.swfPanels](../flash_object_(fl)/fl74.md)

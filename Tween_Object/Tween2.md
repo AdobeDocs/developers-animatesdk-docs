@@ -37,3 +37,4 @@ fl.trace(" alpha : amount = "+colors.colorAlphaAmount+" percent = "+colors.color
 fl.trace(" red : amount = "+colors.colorRedAmount+" percent = "+colors.colorRedPercent);
 fl.trace(" green : amount = "+colors.colorGreenAmount+" percent = "+colors.colorGreenPercent);
 fl.trace(" blue : amount = "+colors.colorBlueAmount+" percent = "+colors.colorBluePercent); }
+

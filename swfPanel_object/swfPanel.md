@@ -23,7 +23,6 @@ methods to communicate with the SWF panel from the authoring environment.
 
 #### Example
 
-```javascript
 The following example illustrates how to use ActionScript and JavaScript code to create a Window SWF panel and communicate with it from the authoring environment.
 
 1.  Create an ActionScript 3.0 FLA file, set its color to a medium gray, and set its size to 400 pixels wide and 250 pixels high.
@@ -39,22 +38,25 @@ The following example illustrates how to use ActionScript and JavaScript code to
     -   Times New Roman font, 28 points, red
 
 4.  Add the following ActionScript code:
-
-// Here's the callback function to be called from JSAPI function callMeFromJavascript(arg:String):void
+```javascript
+// Here's the callback function to be called from JSAPI
+function callMeFromJavascript(arg:String):void
 {
 try {
-var name:String = String(arg); myTextField.text = name;
+var name:String = String(arg);
+myTextField.text = name;
 } catch (e:Error) {
 }
 }
 
-// Expose the callback function as "callMySWF" ExternalInterface.addCallback("callMySWF", callMeFromJavascript);
+// Expose the callback function as "callMySWF"
+ExternalInterface.addCallback("callMySWF", callMeFromJavascript);
 
 // run the JSAPI to wire up the callback
 MMExecute("fl.runScript( fl.configURI + \"WindowSWF/fileOp.jsfl\" );");
 
 MMExecute("fl.trace(\"AS3 File Status Panel Initialized\");");
-
+```
 5.  Save the file as fileStatus.fla, and publish the SWF file with the default Publish settings.
 
 6.  Close Flash.
@@ -64,18 +66,18 @@ MMExecute("fl.trace(\"AS3 File Status Panel Initialized\");");
 8.  Start Flash.
 
 9.  Create a JSFL file with the following code:
-
+```javascript
 function callMyPanel(panelName, arg)
 {
 if(fl.swfPanels.length > 0){
 for(x = 0; x < fl.swfPanels.length; x++){
 // look for a SWF panel of the specified name, then call the specified AS3
-
 function
-
-// in this example, the panel is named "test" and the AS3 callback is "callMySWF" if(fl.swfPanels[x].name == panelName) // name busted?
+// in this example, the panel is named "test" and the AS3 callback is "callMySWF"
+if(fl.swfPanels[x].name == panelName) // name busted?
 {
-fl.swfPanels[x].call("callMySWF",arg); break;
+fl.swfPanels[x].call("callMySWF",arg);
+break;
 }
 }
 }
@@ -84,15 +86,19 @@ fl.trace("no panels");
 }
 
 // define the various handlers for events
-documentClosedHandler = function () { callMyPanel("fileStatus", "Document Closed");}; fl.addEventListener("documentClosed", documentClosedHandler );
-var dater = "New Document";
-documentNewHandler = function () { callMyPanel("fileStatus", dater );}; fl.addEventListener("documentNew", documentNewHandler );
-documentOpenedHandler = function () { callMyPanel("fileStatus", "Document Opened");}; fl.addEventListener("documentOpened", documentOpenedHandler );
+documentClosedHandler = function () { callMyPanel("fileStatus", "Document Closed");};
+fl.addEventListener("documentClosed", documentClosedHandler );
 
+var dater = "New Document";
+documentNewHandler = function () { callMyPanel("fileStatus", dater );};
+fl.addEventListener("documentNew", documentNewHandler );
+
+documentOpenedHandler = function () { callMyPanel("fileStatus", "Document Opened");};
+fl.addEventListener("documentOpened", documentOpenedHandler );
+```
 10.  Save the JSFL file in the same directory as the SWF file, with the name fileOp.jsfl.
 
 11.  Choose Window > Other panels > fileStatus.
 
 Now, as you create, open, and close FLA files, the fileStatus panel displays a message indicating the action you have taken.
 
-```

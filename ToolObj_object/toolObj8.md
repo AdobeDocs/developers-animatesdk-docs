@@ -25,6 +25,7 @@ Method; assigns a name to the tool for the configuration of the Tools panel. Thi
 The following example assigns the name polystar to the tool named theTool. This code is taken from the sample PolyStar.jsfl file (se[e "Sample PolyStar tool" on page 17](../Introduction/Sample_implementations.md)):
 
 ```javascript
-theTool = fl.tools.activeTool; theTool.setToolName("polystar");
+theTool = fl.tools.activeTool;
+theTool.setToolName("polystar");
 
 ```

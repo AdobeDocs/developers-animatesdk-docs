@@ -25,6 +25,7 @@ Method; identifies a PNG file to use as a tool icon in the Tools panel. This met
 The following example specifies that the image in the PolyStar.png file should be used as the icon for the tool named
 PolyStar. This code is taken from the sample PolyStar.jsfl file (see ["Sample PolyStar tool" on page 17](../Introduction/Sample_implementations.md)):
 ```javascript
-theTool = fl.tools.activeTool; theTool.setIcon("PolyStar.png");
+theTool = fl.tools.activeTool;
+theTool.setIcon("PolyStar.png");
 
 ```

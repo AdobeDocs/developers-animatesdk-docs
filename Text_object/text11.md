@@ -28,17 +28,24 @@ Method; retrieves the attribute specified by the *attrName* parameter for the te
 
 The following example gets the font size of the currently selected text field and shows it:
 ```javascript
-var TheTextSize = fl.getDocumentDOM().selection[0].getTextAttr("size"); fl.trace(TheTextSize);
+var TheTextSize = fl.getDocumentDOM().selection[0].getTextAttr("size");
+fl.trace(TheTextSize);
+
 ```
 The following example gets the text fill color of the selected text field:
 ```javascript
-var TheFill = fl.getDocumentDOM().selection[0].getTextAttr("fillColor"); fl.trace(TheFill);
+var TheFill = fl.getDocumentDOM().selection[0].getTextAttr("fillColor");
+fl.trace(TheFill);
+
 ```
 The following example gets the size of the third character:
 ```javascript
-var Char3 = fl.getDocumentDOM().selection[0].getTextAttr("size", 2); fl.trace(Char3);
+var Char3 = fl.getDocumentDOM().selection[0].getTextAttr("size", 2);
+fl.trace(Char3);
+
 ```
 The following example gets the color of the selected text field from the third through the eighth character:
 ```javascript
 fl.getDocumentDOM().selection[0].getTextAttr("fillColor", 2, 8);
+
 ```

@@ -25,6 +25,7 @@ Method; specifies which Property inspector should be used when the tool is activ
 The following example specifies that the shape Property inspector should be used when the tool is activated. This code is taken from the sample PolyStar.jsfl file (see ["Sample PolyStar tool" on page 17](../Introduction/Sample_implementations.md)):
 
 ```javascript
-theTool = fl.tools.activeTool; theTool.setPI("shape");
+theTool = fl.tools.activeTool;
+theTool.setPI("shape");
 
 ```

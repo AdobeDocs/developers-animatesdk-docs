@@ -16,7 +16,8 @@ Property; a string that is equivalent to the Shortcut field in the Accessibility
 
 The following example gets the shortcut key of the selected object and shows the value:
 ```javascript
-var theShortcut = fl.getDocumentDOM().selection[0].shortcut; fl.trace(theShortcut);
+var theShortcut = fl.getDocumentDOM().selection[0].shortcut;
+fl.trace(theShortcut); 
 ```
 The following example sets the shortcut key of the selected object:
 
