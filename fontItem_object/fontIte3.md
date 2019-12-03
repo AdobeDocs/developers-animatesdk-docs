@@ -16,11 +16,15 @@ This property can also be read, allowing you to find out what characters were sp
 
 #### Example
 
-```javascript
 Assuming that the first item in the Library is a Font item, the following code embeds the ranges identified by the
 integers 1, 3, and 7.
-fl.getDocumentDOM().library.items[0].embedRanges = "1|3|7";
-Assuming that the first item in the Library is a Font item, the following code resets the ranges to embed.
-fl.getDocumentDOM().library.items[0].embedRanges = "";
 
+```javascript
+fl.getDocumentDOM().library.items[0].embedRanges = "1|3|7";
+```
+
+Assuming that the first item in the Library is a Font item, the following code resets the ranges to embed.
+
+```javascript
+fl.getDocumentDOM().library.items[0].embedRanges = "";
 ```

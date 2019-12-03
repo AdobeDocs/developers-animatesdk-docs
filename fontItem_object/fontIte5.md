@@ -15,9 +15,9 @@ Property; a string that specifies the name of the device font associated with th
 
 #### Example
 
-```javascript
 Assuming that the first item in the Library is a Font item, the following code displays the name of the device font currently associated with the Font item, then changes it to Times:
 
+```javascript
 fl.outputPanel.clear();
 var theItem = fl.getDocumentDOM().library.items[0];
 fl.trace(theItem.font);
