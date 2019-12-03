@@ -25,7 +25,7 @@ Macintosh HD/Users/*username*/Library/Application Support/Adobe/Flash
 
 ### C-level extensibility and the JavaScript interpreter
 
-The C code in the DLL or shared library interacts with the Flash JavaScript API at three different times:
+The C code in the DLL or shared library interacts with the Animate JavaScript API at three different times:
 
 -   At startup, to register the library’s functions
 
