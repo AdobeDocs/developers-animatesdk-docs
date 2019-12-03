@@ -36,7 +36,7 @@ The C code in the DLL or shared library interacts with the Animate JavaScript AP
 To accomplish these tasks, the interpreter defines several data types and exposes an API. Definitions for the data types and functions that are listed in this section appear in the mm\_jsapi.h file. For your library to work properly, you must include the mm\_jsapi.h file at the top of each file in your library, with the following line:
 \#include "mm\_jsapi.h"
 Including the mm\_jsapi.h file includes the mm\_jsapi\_environment.h file, which defines the MM\_Environment structure.
-To get a copy of the mm\_jsapi.h file, extract it from the sample ZIP or SIT file (see ["Sample DLL implementation" on](#sample-dll-implementation) [page 595](#sample-dll-implementation)), or copy the following code into a file that you name mm\_jsapi.h:
+To get a copy of the mm\_jsapi.h file, extract it from the sample ZIP or SIT file (see ["Sample DLL implementation" ](#sample-dll-implementation) (#sample-dll-implementation)), or copy the following code into a file that you name mm\_jsapi.h:
 \#ifndef \_MM\_JSAPI\_H\_ \#define \_MM\_JSAPI\_H\_
 /\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 \* Public data types

@@ -14,7 +14,7 @@ You can use the following method with the swfPanel object:
 
 | **Method**                           | **Description**                                                                                                                                                      |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [swfPanel.call()](../swfPanel_object/swfPanel.md))  | Works in conjunction with the ActionScript ExternalInterface.addCallback() and MMExecute() methods to communicate with the SWF panel from the authoring environment. |
+| [swfPanel.call()](../swfPanel_object/swfPanel.md)  | Works in conjunction with the ActionScript ExternalInterface.addCallback() and MMExecute() methods to communicate with the SWF panel from the authoring environment. |
 | [swfPanel.reload()](../swfPanel_object/swfPane5.md)   | Reloads content in the SWF panel.                                                                                                                                    |
 | [swfPanel.setFocus()](../swfPanel_object/swfPane6.md) | Sets the keyboard focus to the specified SWF panel.                                                                                                                  |
 
