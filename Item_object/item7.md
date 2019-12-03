@@ -16,9 +16,9 @@ If you set this property to true, the [item.linkageImportForRS](../Item_object/i
 
 #### Example
 
-```javascript
 The following example sets this property for the specified library item:
 
+```javascript
 fl.getDocumentDOM().library.items[0].linkageExportForAS = true;
 ```
 <span id="item.linkageExportForRS" class="anchor"></span>

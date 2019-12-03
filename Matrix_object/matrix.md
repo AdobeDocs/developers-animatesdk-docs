@@ -30,6 +30,5 @@ mat.b = 0.8;
 mat.c = 0.8*(-1);
 mat.d = 0.5;
 fl.getDocumentDOM().selection[0].matrix = mat;
-You can set a = d = 1 and c = b = 0 to reset the object back to its original shape.
-
 ```
+You can set a = d = 1 and c = b = 0 to reset the object back to its original shape.

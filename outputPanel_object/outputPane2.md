@@ -33,5 +33,4 @@ fl.outputPanel.trace("\nI have a " + myPet);
 fl.outputPanel.trace("");
 fl.outputPanel.trace("I love my " + myPet);
 fl.outputPanel.trace("Do you have a " + myPet +"?");
-
 ```
