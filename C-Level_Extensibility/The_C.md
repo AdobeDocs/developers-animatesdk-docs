@@ -1,6 +1,6 @@
 ## The C-level API
 
-The C-level extensibility API consists of the JSBool (\*JSNative) function signature and the following functions:
+The C-level extensibility API consists of the JSBool (*JSNative) function signature and the following functions:
 
 -   [JSBool JS\_DefineFunction()](#jsbool-js_definefunction)
 
@@ -40,7 +40,7 @@ The C-level extensibility API consists of the JSBool (\*JSNative) function signa
 
 ***Note:** Adobe Animate runs on 64-bit operating systems only. All C extensions for this release must be built (or rebuilt) for 64 bit support.*
 
-### typedef JSBool (\*JSNative)(JSContext \*cx, JSObject \*obj, unsigned int argc, jsval \*argv, jsval \*rval)
+### typedef JSBool (*JSNative)(JSContext *cx, JSObject *obj, unsigned int argc, jsval *argv, jsval *rval)
 
 #### Description
 
@@ -56,24 +56,25 @@ keyword is equal to this object.
 
 -   The *argv* pointer is a pointer to an array of jsval structures. The array is argc elements in length.
 
--   The *rval* pointer is a pointer to a single jsval structure. The function’s return value should be written to \*rval.
+-   The *rval* pointer is a pointer to a single jsval structure. The function’s return value should be written to *rval.
 
-The function returns JS\_TRUE if successful; JS\_FALSE otherwise. If the function returns JS\_FALSE, the current script stops executing and an error message appears.
+The function returns JS_TRUE if successful; JS_FALSE otherwise. If the function returns JS_FALSE, the current script stops executing and an error message appears.
 
-### JSBool JS\_DefineFunction()
+### JSBool JS_DefineFunction()
 
 #### Usage
 
-JSBool JS\_DefineFunction(unsigned short \*name, JSNative call, unsigned int nargs)
+*JSBool JS_DefineFunction(unsigned short *name, JSNative call, unsigned int nargs)*
 
 #### Description
 
 Method; registers a C-level function with the JavaScript interpreter in Flash. After the JS\_DefineFunction() function registers the C-level function that you specify in the *call* argument, you can invoke it in a JavaScript script by referring to it with the name that you specify in the *name* argument. The *name* argument is case-sensitive.
-Typically, this function is called from the MM\_Init() function, which Flash calls during startup.
+
+Typically, this function is called from the MM_Init() function, which Flash calls during startup.
 
 #### Arguments
 
-unsigned short \**name*, JSNative*call*, unsigned int *nargs*
+unsigned short **name*, JSNative*call*, unsigned int *nargs*
 
 -   The *name* argument is the name of the function as it is exposed to JavaScript.
 
@@ -83,28 +84,29 @@ unsigned short \**name*, JSNative*call*, unsigned int *nargs*
 
 #### Returns
 
-A Boolean value: JS\_TRUE indicates success; JS\_FALSE indicates failure.
+A Boolean value: JS_TRUE indicates success; JS_FALSE indicates failure.
 
-### unsigned short \*JS\_ValueToString()
+### unsigned short *JS_ValueToString()
 
 #### Usage
 
-unsigned short \*JS\_ValueToString(JSContext \*cx, jsval v, unsigned int \*pLength)
+*unsigned short *JS_ValueToString(JSContext *cx, jsval v, unsigned int *pLength)*
 
 #### Description
 
 Method; extracts a function argument from a jsval structure, converts it to a string, if possible, and passes the converted value back to the caller.
+
 ***Note:** Do not modify the returned buffer pointer or you might corrupt the data structures of the JavaScript interpreter. To change the string, you must copy the characters into another buffer and create a new JavaScript string.*
 
 #### Arguments
 
-JSContext *\*cx*, jsval *v*, unsigned int *\*pLength*
+JSContext **cx*, jsval *v*, unsigned int **pLength*
 
 -   The *cx* argument is the opaque JSContext pointer that passes to the JavaScript function.
 
 -   The *v* argument is the jsval structure from which the string is to be extracted.
 
--   The *pLength* argument is a pointer to an unsigned integer. This function sets \*plength equal to the length of the string in bytes.
+-   The *pLength* argument is a pointer to an unsigned integer. This function sets *plength equal to the length of the string in bytes.
 
 #### Returns
 
@@ -122,23 +124,23 @@ Method; extracts a function argument from a jsval structure, converts it to an i
 
 #### Arguments
 
-JSContext *\*cx*, jsval *v*, long *\*lp*
+JSContext **cx*, jsval *v*, long **lp*
 
 -   The *cx* argument is the opaque JSContext pointer that passes to the JavaScript function.
 
 -   The *v* argument is the jsval structure from which the integer is to be extracted.
 
--   The *lp* argument is a pointer to a 4-byte integer. This function stores the converted value in \*lp.
+-   The *lp* argument is a pointer to a 4-byte integer. This function stores the converted value in *lp.
 
 #### Returns
 
-A Boolean value: JS\_TRUE indicates success; JS\_FALSE indicates failure.
+A Boolean value: JS_TRUE indicates success; JS_FALSE indicates failure.
 
-### JSBool JS\_ValueToDouble()
+### JSBool JS_ValueToDouble()
 
 #### Usage
 
-JSBool JS\_ValueToDouble(JSContext \*cx, jsval v, double \*dp);
+JSBool JS_ValueToDouble(JSContext *cx, jsval v, double *dp);
 
 #### Description
 
@@ -146,23 +148,23 @@ Method; extracts a function argument from a jsval structure, converts it to a do
 
 #### Arguments
 
-JSContext *\*cx*, jsval *v*, double *\*dp*
+JSContext **cx*, jsval *v*, double **dp*
 
 -   The *cx* argument is the opaque JSContext pointer that passed to the JavaScript function.
 
 -   The *v* argument is the jsval structure from which the double is to be extracted.
 
--   The *dp* argument is a pointer to an 8-byte double. This function stores the converted value in \*dp.
+-   The *dp* argument is a pointer to an 8-byte double. This function stores the converted value in *dp.
 
 #### Returns
 
-A Boolean value: JS\_TRUE indicates success; JS\_FALSE indicates failure.
+A Boolean value: JS_TRUE indicates success; JS_FALSE indicates failure.
 
-### JSBool JS\_ValueToBoolean()
+### JSBool JS_ValueToBoolean()
 
 #### Usage
 
-JSBool JS\_ValueToBoolean(JSContext \*cx, jsval v, JSBool \*bp);
+JSBool JS_ValueToBoolean(JSContext *cx, jsval v, JSBool *bp);
 
 #### Description
 
@@ -170,47 +172,47 @@ Method; extracts a function argument from a jsval structure, converts it to a Bo
 
 #### Arguments
 
-JSContext *\*cx*, jsval *v*, JSBool *\*bp*
+JSContext **cx*, jsval *v*, JSBool **bp*
 
 -   The *cx* argument is the opaque JSContext pointer that passes to the JavaScript function.
 
 -   The *v* argument is the jsval structure from which the Boolean value is to be extracted.
 
--   The *bp* argument is a pointer to a JSBool Boolean value. This function stores the converted value in \*bp.
+-   The *bp* argument is a pointer to a JSBool Boolean value. This function stores the converted value in *bp.
 
 #### Returns
 
-A Boolean value: JS\_TRUE indicates success; JS\_FALSE indicates failure.
+A Boolean value: JS_TRUE indicates success; JS_FALSE indicates failure.
 
-### JSBool JS\_ValueToObject()
+### JSBool JS_ValueToObject()
 
 #### Usage
 
-JSBool JS\_ValueToObject(JSContext \*cx, jsval v, JSObject \*\*op);
+*JSBool JS_ValueToObject(JSContext *cx, jsval v, JSObject **op);*
 
 #### Description
 
-Method; extracts a function argument from a jsval structure, converts it to an object (if possible), and passes the converted value back to the caller. If the object is an array, use JS\_GetArrayLength() and JS\_GetElement() to read its contents.
+Method; extracts a function argument from a jsval structure, converts it to an object (if possible), and passes the converted value back to the caller. If the object is an array, use *JS_GetArrayLength()* and *JS_GetElement()* to read its contents.
 
 #### Arguments
 
-JSContext *\*cx*, jsval *v*, JSObject *\*\*op*
+JSContext **cx*, jsval *v*, JSObject ***op*
 
 -   The *cx* argument is the opaque JSContext pointer that passes to the JavaScript function.
 
 -   The *v* argument is the jsval structure from which the object is to be extracted.
 
--   The *op* argument is a pointer to a JSObject pointer. This function stores the converted value in \*op.
+-   The *op* argument is a pointer to a JSObject pointer. This function stores the converted value in *op.
 
 #### Returns
 
-A Boolean value: JS\_TRUE indicates success; JS\_FALSE indicates failure.
+A Boolean value: JS_TRUE indicates success; JS_FALSE indicates failure.
 
 ### JSBool JS\_StringToValue()
 
 #### Usage
 
-JSBool JS\_StringToValue(JSContext \*cx, unsigned short \*bytes, uint sz, jsval \*vp);
+*JSBool JS_StringToValue(JSContext *cx, unsigned short *bytes, uint sz, jsval *vp);*
 
 #### Description
 
@@ -218,7 +220,7 @@ Method; stores a string return value in a jsval structure. It allocates a new Ja
 
 #### Arguments
 
-JSContext *\*cx*, unsigned short \**bytes*, size\_t*sz*, jsval *\*vp*
+JSContext **cx*, unsigned short **bytes*, size_t*sz*, jsval **vp*
 
 -   The *cx* argument is the opaque JSContext pointer that passes to the JavaScript function.
 
@@ -230,13 +232,13 @@ JSContext *\*cx*, unsigned short \**bytes*, size\_t*sz*, jsval *\*vp*
 
 #### Returns
 
-A Boolean value: JS\_TRUE indicates success; JS\_FALSE indicates failure.
+A Boolean value: JS_TRUE indicates success; JS_FALSE indicates failure.
 
 ### JSBool JS\_DoubleToValue()
 
 #### Usage
 
-JSBool JS\_DoubleToValue(JSContext \*cx, double dv, jsval \*vp);
+*JSBool JS_DoubleToValue(JSContext *cx, double dv, jsval *vp);*
 
 #### Description
 
@@ -244,7 +246,7 @@ Method; stores a floating-point number return value in a jsval structure.
 
 #### Arguments
 
-JSContext *\*cx*, double *dv*, jsval *\*vp*
+JSContext **cx*, double *dv*, jsval **vp*
 
 -   The *cx* argument is the opaque JSContext pointer that passes to the JavaScript function.
 
@@ -254,13 +256,13 @@ JSContext *\*cx*, double *dv*, jsval *\*vp*
 
 #### Returns
 
-A Boolean value: JS\_TRUE indicates success; JS\_FALSE indicates failure.
+A Boolean value: JS_TRUE indicates success; JS_FALSE indicates failure.
 
-### JSVal JS\_BooleanToValue()
+### JSVal JS_BooleanToValue()
 
 #### Usage
 
-jsval JS\_BooleanToValue(JSBool bv);
+*jsval JS_BooleanToValue(JSBool bv);*
 
 #### Description
 
@@ -270,17 +272,17 @@ Method; stores a Boolean return value in a jsval structure.
 
 JSBool *bv*
 
--   The *bv* argument is a Boolean value: JS\_TRUE indicates success; JS\_FALSE indicates failure.
+-   The *bv* argument is a Boolean value: *JS_TRUE* indicates success; *JS_FALSE* indicates failure.
 
 #### Returns
 
 A JSVal structure that contains the Boolean value that passes to the function as an argument.
 
-### JSVal JS\_BytesToValue()
+### JSVal JS_BytesToValue()
 
 #### Usage
 
-JSBool JS\_BytesToValue(JSContext \*cx, unsigned short \*bytes, uint sz, jsval \*vp);
+*JSBool JS_BytesToValue(JSContext *cx, unsigned short *bytes, uint sz, jsval *vp);*
 
 #### Description
 
@@ -288,7 +290,7 @@ Method; converts bytes to a JavaScript value.
 
 #### Arguments
 
-JSContext \**cx*, unsignedshort*\*bytes*, uint*sz*, jsval \**vp*
+JSContext **cx*, unsignedshort\*bytes, uint*sz*, jsval **vp*
 
 -   The *cx* argument is the JavaScript context.
 
@@ -300,13 +302,13 @@ JSContext \**cx*, unsignedshort*\*bytes*, uint*sz*, jsval \**vp*
 
 #### Returns
 
-A Boolean value: JS\_TRUE indicates success; JS\_FALSE indicates failure.
+A Boolean value: JS_TRUE indicates success; JS_FALSE indicates failure.
 
-### JSVal JS\_IntegerToValue()
+### JSVal JS_IntegerToValue()
 
 #### Usage
 
-jsval JS\_IntegerToValue(long lv);
+*jsval JS_IntegerToValue(long lv);*
 
 #### Description
 
@@ -321,20 +323,19 @@ The *lv* argument is the long integer value that you want to convert to a jsval 
 
 A JSVal structure that contains the integer that passed to the function as an argument.
 
-### JSVal JS\_ObjectToValue()
+### JSVal JS_ObjectToValue()
 
 #### Usage
 
-jsval JS\_ObjectToValue(JSObject \*obj);
+*jsval JS_ObjectToValue(JSObject \*obj);*
 
 #### Description
 
-Method; stores an object return value in a JSVal. Use JS\_NewArrayObject() to create an array object; use
-JS\_SetElement() to define its contents.
+Method; stores an object return value in a JSVal. Use *JS_NewArrayObject()* to create an array object; use *JS_SetElement()* to define its contents.
 
 #### Arguments
 
-JSObject *\*obj*
+JSObject **obj*
 The *obj* argument is a pointer to the JSObject object that you want to convert to a JSVal structure.
 
 #### Returns
@@ -345,27 +346,28 @@ A JSVal structure that contains the object that you passed to the function as an
 
 #### Usage
 
-unsigned short \*JS\_ObjectType(JSObject \*obj);
+*unsigned short \*JS_ObjectType(JSObject \*obj);*
 
 #### Description
 
 Method; given an object reference, returns the class name of the object. For example, if the object is a DOM object, the function returns "Document". If the object is a node in the document, the function returns "Element". For an array object, the function returns "Array".
+
 ***Note:** Do not modify the returned buffer pointer, or you might corrupt the data structures of the JavaScript interpreter.*
 
 #### Arguments
 
-JSObject *\*obj*
-Typically, this argument is passed in and converted using the JS\_ValueToObject() function.
+JSObject **obj*
+Typically, this argument is passed in and converted using the JS_ValueToObject() function.
 
 #### Returns
 
 A pointer to a null-terminated string. The caller should not free this string when it finishes.
 
-### JSObject \*JS\_NewArrayObject()
+### JSObject *JS_NewArrayObject()
 
 #### Usage
 
-JSObject \*JS\_NewArrayObject(JSContext \*cx, unsigned int length \[, jsval \*v\])
+*JSObject \*JS\_NewArrayObject(JSContext \*cx, unsigned int length \[, jsval \*v\])*
 
 #### Description
 
@@ -373,23 +375,23 @@ Method; creates a new object that contains an array of JSVals.
 
 #### Arguments
 
-JSContext *\*cx*, unsigned int *length*, jsval *\*v*
+JSContext **cx*, unsigned int *length*, jsval **v*
 
 -   The *cx* argument is the opaque JSContext pointer that passes to the JavaScript function.
 
 -   The *length* argument is the number of elements that the array can hold.
 
--   The *v* argument is an optional pointer to the jsvals to be stored in the array. If the return value is not null, *v* is an array that contains *length* elements. If the return value is null, the initial content of the array object is undefined and can be set using the JS\_SetElement() function.
+-   The *v* argument is an optional pointer to the jsvals to be stored in the array. If the return value is not null, *v* is an array that contains *length* elements. If the return value is null, the initial content of the array object is undefined and can be set using the *JS_SetElement()* function.
 
 #### Returns
 
 A pointer to a new array object or the value null upon failure.
 
-### long JS\_GetArrayLength()
+### long JS_GetArrayLength()
 
 #### Usage
 
-long JS\_GetArrayLength(JSContext \*cx, JSObject \*obj)
+*long JS_GetArrayLength(JSContext \*cx, JSObject \*obj)*
 
 #### Description
 
@@ -397,7 +399,7 @@ Method; given a pointer to an array object, gets the number of elements in the a
 
 #### Arguments
 
-JSContext *\*cx*, JSObject*\*obj*
+JSContext **cx*, JSObject*\*obj*
 
 -   The *cx* argument is the opaque JSContext pointer that passes to the JavaScript function.
 
@@ -407,11 +409,11 @@ JSContext *\*cx*, JSObject*\*obj*
 
 The number of elements in the array or -1 upon failure.
 
-### JSBool JS\_GetElement()
+### JSBool JS_GetElement()
 
 #### Usage
 
-JSBool JS\_GetElement(JSContext \*cx, JSObject \*obj, jsint idx, jsval \*vp)
+*JSBool JS_GetElement(JSContext \*cx, JSObject \*obj, jsint idx, jsval \*vp)*
 
 #### Description
 
@@ -419,7 +421,7 @@ Method; reads a single element of an array object.
 
 #### Arguments
 
-JSContext *\*cx*, JSObject *\*obj*, jsint *idx*, jsval *\*vp*
+JSContext **cx*, JSObject **obj*, jsint *idx*, jsval **vp*
 
 -   The *cx* argument is the opaque JSContext pointer that passes to the JavaScript function.
 
@@ -431,13 +433,13 @@ JSContext *\*cx*, JSObject *\*obj*, jsint *idx*, jsval *\*vp*
 
 #### Returns
 
-A Boolean value: JS\_TRUE indicates success; JS\_FALSE indicates failure.
+A Boolean value: JS_TRUE indicates success; JS_FALSE indicates failure.
 
-### JSBool JS\_SetElement()
+### JSBool JS_SetElement()
 
 #### Usage
 
-JSBool JS\_SetElement(JSContext \*cx, JSObject \*obj, jsint idx, jsval \*vp)
+*JSBool JS_SetElement(JSContext \*cx, JSObject \*obj, jsint idx, jsval \*vp)*
 
 #### Description
 
@@ -445,7 +447,7 @@ Method; writes a single element of an array object.
 
 #### Arguments
 
-JSContext *\*cx*, JSObject *\*obj*, jsint *idx*, jsval *\*vp*
+JSContext **cx*, JSObject **obj*, jsint *idx*, jsval **vp*
 
 -   The *cx* argument is the opaque JSContext pointer that passes to the JavaScript function.
 
@@ -457,22 +459,22 @@ JSContext *\*cx*, JSObject *\*obj*, jsint *idx*, jsval *\*vp*
 
 #### Returns
 
-A Boolean value: JS\_TRUE indicates success; JS\_FALSE indicates failure.
+A Boolean value: JS_TRUE indicates success; JS_FALSE indicates failure.
 
-### JSBool JS\_ExecuteScript()
+### JSBool JS_ExecuteScript()
 
 #### Usage
 
-JS\_ExecuteScript (JSContext \*cx, JSObject \*obj, unsigned short \*script, unsigned int sz, jsval
-\*rval)
+*JS_ExecuteScript (JSContext \*cx, JSObject \*obj, unsigned short \*script, unsigned int sz, jsval
+\*rval)*
 
 #### Description
 
-Method; compiles and executes a JavaScript string. If the script generates a return value, it returns in \*rval.
+Method; compiles and executes a JavaScript string. If the script generates a return value, it returns in *rval.
 
 #### Arguments
 
-JSContext *\*cx*, JSObject *\*obj*, unsigned short \**script*, unsigned int*sz*, jsval *\*rval*
+JSContext **cx*, JSObject **obj*, unsigned short **script*, unsigned int*sz*, jsval **rval*
 
 -   The *cx* argument is the opaque JSContext pointer that passes to the JavaScript function.
 
@@ -484,9 +486,9 @@ this keyword is equal to this object. Usually this is the JSObject pointer that 
 
 -   The *sz* argument is the size of the string. If *sz* is 0, the length of the null-terminated string is computed automatically.
 
--   The *rval* argument is a pointer to a single jsval structure. The function’s return value is stored in \*rval.
+-   The *rval* argument is a pointer to a single jsval structure. The function’s return value is stored in *rval.
 
 #### Returns
 
-A Boolean value: JS\_TRUE indicates success; JS\_FALSE indicates failure.
+A Boolean value: JS_TRUE indicates success; JS_FALSE indicates failure.
 
