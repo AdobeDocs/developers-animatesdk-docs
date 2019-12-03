@@ -22,8 +22,8 @@ Method; displays a string in a modal Alert dialog box, along with an OK button.
 
 #### Example
 
-```javascript
 The following example displays the message "Process Complete" in an Alert dialog box:
+```javascript
 alert("Process Complete");
 
 ```
