@@ -2,7 +2,7 @@
 
 #### About this section
 
-This section describes the top-level functions and methods that are available when you use the Adobe Flash JavaScript application programming interface (JavaScript API). For information about where to store JavaScript API files, see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md).
+This section describes the top-level functions and methods that are available when you use the Adobe Animate JavaScript application programming interface (JavaScript API). For information about where to store JavaScript API files, see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md).
 
 #### Global methods
 
