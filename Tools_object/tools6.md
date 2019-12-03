@@ -14,12 +14,11 @@ Read-only property; a point that represents the position of the last mouse-down 
 
 #### Example
 
-```javascript
 The following example determines the position of the last mouse-down event on the Stage and displays the *x* and *y*
 values in the Output panel:
+```javascript
 var pt1 = fl.tools.penDownLoc;
 fl.trace("x,y location of last mouseDown event was " + pt1.x + ", " + pt1.y)
-
 ```
 #### See also
 
