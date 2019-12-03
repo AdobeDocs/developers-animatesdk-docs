@@ -17,6 +17,9 @@ This property is available only for MovieClip objects.
 
 ```javascript
 The following example checks to see if the children of the object are accessible; a return value of false means the children are accessible:
-var areChildrenAccessible = fl.getDocumentDOM().selection\[0\].forceSimple; The following example allows the children of the object to be accessible: fl.getDocumentDOM().selection\[0\].forceSimple = false;
+var areChildrenAccessible = fl.getDocumentDOM().selection[0].forceSimple; 
+
+The following example allows the children of the object to be accessible: 
+fl.getDocumentDOM().selection[0].forceSimple = false;
 
 ```

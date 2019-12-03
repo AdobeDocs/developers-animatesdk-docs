@@ -23,11 +23,14 @@ Method; lets you create bitmap effects by getting the bits out of the bitmap, ma
 
 #### Example
 
-```javascript
 The following code creates a reference to the currently selected object; tests whether the object is a bitmap; and traces the height, width, and bit depth of the bitmap:
-var isBitmap = fl.getDocumentDOM().selection\[0\].instanceType; if(isBitmap == "bitmap"){
-var bits = fl.getDocumentDOM().selection\[0\].getBits(); fl.trace("height = " + bits.height);
-fl.trace("width = " + bits.width); fl.trace("depth = " + bits.depth);
+```javascript
+var isBitmap = fl.getDocumentDOM().selection[0].instanceType;
+if(isBitmap == "bitmap"){
+var bits = fl.getDocumentDOM().selection[0].getBits();
+fl.trace("height = " + bits.height);
+fl.trace("width = " + bits.width);
+fl.trace("depth = " + bits.depth);
 }
 
 ```

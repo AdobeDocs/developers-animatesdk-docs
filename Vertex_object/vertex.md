@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-vertex.getHalfEdge()
+*vertex.getHalfEdge()*
 
 #### Parameters
 
@@ -22,10 +22,14 @@ Method; gets a [HalfEdge object](../HalfEdge_object/halfEdge_summary.md) that sh
 
 #### Example
 
-```javascript
 The following example shows how to get other half edges that share the same vertex:
-var shape = fl.getDocumentDOM().selection\[0\]; var hEdge = shape.edges\[0\].getHalfEdge(0); var theVertex = hEdge.getVertex();
-var someHEdge = theVertex.getHalfEdge(); // Not necessarily the same half edge var theSameVertex = someHEdge.getVertex();
+
+```javascript
+var shape = fl.getDocumentDOM().selection[0]; 
+var hEdge = shape.edges[0].getHalfEdge(0); 
+var theVertex = hEdge.getVertex();
+var someHEdge = theVertex.getHalfEdge(); // Not necessarily the same half edge 
+var theSameVertex = someHEdge.getVertex();
 fl.trace('the same vertex: ' + theSameVertex);
 
 ```

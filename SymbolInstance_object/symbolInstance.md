@@ -16,7 +16,9 @@ Property; a string that is equivalent to the Name field in the Accessibility pan
 
 ```javascript
 The following example stores the value for the Accessibility panel name of the object in the theName variable:
-var theName = fl.getDocumentDOM().selection\[0\].accName;
-The following example sets the value for the Accessibility panel name of the object to Home Button: fl.getDocumentDOM().selection\[0\].accName = "Home Button";
+var theName = fl.getDocumentDOM().selection[0].accName;
+
+The following example sets the value for the Accessibility panel name of the object to Home Button: 
+fl.getDocumentDOM().selection[0].accName = "Home Button";
 
 ```

@@ -28,7 +28,6 @@ The following example replaces the characters "2006" in the Actions panel with t
 // Type the following as the first line in the Actions panel
 // 2006 - Addresses user request 40196
 // Type the following in the JSFL file fl.actionsPanel.setSelection(3,4); fl.actionsPanel.replaceSelectedText("// Last updated: 2007");
-
 ```
 #### See also
 
