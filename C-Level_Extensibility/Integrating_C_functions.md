@@ -14,7 +14,7 @@ The process for implementing this capability is summarized in the following step
 
     -   Windows 7 and 8:
 
-        *boot drive\Users\username\AppData\Local\Adobe\Flash \*CC\*\language\Configuration\External Libraries*
+        *boot drive\Users\username\AppData\Local\Adobe\Flash CC\language\Configuration\External Libraries*
 
     -   Mac OS X:
 
@@ -23,7 +23,7 @@ The process for implementing this capability is summarized in the following step
 
 1.  Create a JSFL file that calls the functions.
 
-2.  Run the JSFL file from the Commands menu in the Flash authoring environment. For more information, see ["Sample DLL implementation" on page 595](../C-Level_Extensibility/Integrating_C_functions.md).
+2.  Run the JSFL file from the Commands menu in the Flash authoring environment. For more information, see ["Sample DLL implementation"](#Sample-DLL-implementation).
 
 ### C-level extensibility and the JavaScript interpreter
 
@@ -41,18 +41,15 @@ To accomplish these tasks, the interpreter defines several data types and expose
 
 Including the mm_jsapi.h file includes the mm_jsapi_environment.h file, which defines the MM_Environment structure.
 
-To get a copy of the mm_jsapi.h file, extract it from the sample ZIP or SIT file (see ["Sample DLL implementation" on](../C-Level_Extensibility/Integrating_C_functions.md) [page 595](../C-Level_Extensibility/Integrating_C_functions.md)), or copy the following code into a file that you name mm_jsapi.h:
+To get a copy of the mm_jsapi.h file, extract it from the sample ZIP or SIT file (see ["Sample DLL implementation"](#Sample-DLL-implementation)), or copy the following code into a file that you name mm_jsapi.h:
 
 ```javascript
 #ifndef _MM_JSAPI_H_ 
 
 #define _MM_JSAPI_H_
 
-/***************************************************************************
 
-* Public data types
-
-****************************************************************************/
+ /*****************************************************************************   * Public data types   ****************************************************************************/
 
 typedef struct JSContext JSContext; 
 typedef struct JSObject JSObject; 
@@ -67,11 +64,8 @@ typedef JSBool (*JSNative)(JSContext *cx, JSObject *obj, unsigned int argc, jsva
 #define JS_TRUE 1
 #define JS_FALSE 0
 
-/***************************************************************************
 
-* Public Function
-
-****************************************************************************/
+ /*****************************************************************************   * Public functions   ****************************************************************************/
 
 /* JSBool JS_DefineFunction(unsigned short *name, JSNative call, unsigned int nargs) */ 
 #define JS_DefineFunction(n, c, a) \
@@ -80,7 +74,7 @@ typedef JSBool (*JSNative)(JSContext *cx, JSObject *obj, unsigned int argc, jsva
 
 /* unsigned short *JS_ValueToString(JSContext *cx, jsval v, unsigned int *pLength) */ 
 #define JS_ValueToString(c, v, l) \
-(mmEnv.valueToString? (*(mmEnv.valueToString))(c, v, l) : (char \*)0)
+(mmEnv.valueToString? (*(mmEnv.valueToString))(c, v, l) : (char *)0)
 
 
 /* unsigned char *JS_ValueToBytes(JSContext *cx, jsval v, unsigned int *pLength) */ 
@@ -123,11 +117,11 @@ typedef JSBool (*JSNative)(JSContext *cx, JSObject *obj, unsigned int argc, jsva
 
 
 /* jsval JS_IntegerToValue(long lv); */
-#define JS_IntegerToValue(lv) (((jsval)(lv) \<\< 1) \| 0x1)
+#define JS_IntegerToValue(lv) (((jsval)(lv) << 1) | 0x1)
 
 
 /* jsval JS_BooleanToValue(JSBool bv); */
-#define JS_BooleanToValue(bv) (((jsval)(bv) \<\< 3) \| 0x6)
+#define JS_BooleanToValue(bv) (((jsval)(bv) << 3) | 0x6)
 
 
 /* jsval JS_ObjectToValue(JSObject *obj); */ 
@@ -171,11 +165,8 @@ typedef JSBool (*JSNative)(JSContext *cx, JSObject *obj, unsigned int argc, jsva
 
 
 
-/***************************************************************************
 
-* Private data types, macros, and globals
-
-****************************************************************************/ 
+ /*****************************************************************************   * Private data types, macros, and globals   ****************************************************************************/ 
 
 typedef struct { 
     JSObject *libObj;
@@ -241,11 +232,11 @@ MM_Init();\
 
 ### Sample DLL implementation
 
-This section illustrates how to build a simple DLL implementation. If you want to see how the process works without actually building the DLL yourself, you can install the sample DLL files that are provided in the Samples.zip file; the files are located in the ExtendingFlash/dllSampleComputeSum folder. (For information on downloading the Samples.zip file, see ["Sample implementations" on page 16](../C-Level_Extensibility/Integrating_C_functions.md) Extract the sample files from the dllSampleComputeSum.dmg or dllSampleComputeSum.zip file, and then do the following:
+This section illustrates how to build a simple DLL implementation. If you want to see how the process works without actually building the DLL yourself, you can install the sample DLL files that are provided in the Samples.zip file; the files are located in the ExtendingFlash/dllSampleComputeSum folder. (For information on downloading the Samples.zip file, see ["Sample implementations"](#Sample-implementations) Extract the sample files from the dllSampleComputeSum.dmg or dllSampleComputeSum.zip file, and then do the following:
 
--   Store the Sample.jsfl file in the Configuration/Commands directory (see ["Saving JSFL files" on page 2](../Introduction/Working_with_the_JavaScript_API.md).
+-   Store the Sample.jsfl file in the Configuration/Commands directory (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md).
 
--   Store the Sample.dll file in the Configuration/External Libraries directory (see ["Integrating C functions" on page 591](../C-Level_Extensibility/Integrating_C_functions.md)).
+-   Store the Sample.dll file in the Configuration/External Libraries directory (see ["Integrating C functions"](#Integrating-C-functions)).
 
 -   In the Flash authoring environment, select Commands >Sample. The trace statement in the JSFL file sends the results of the function defined in Sample.dll to the Output panel.
 
@@ -257,6 +248,7 @@ The rest of this section discusses the development of the sample. In this case, 
 #include <windows.h>
 #include <stdlib.h>
 #include "mm_jsapi.h"
+
 // A sample function
 // Every implementation of a JavaScript function must have this signature.
 JSBool computeSum(JSContext *cx, JSObject *obj, unsigned int argc, jsval *argv, jsval *rval)
@@ -282,7 +274,7 @@ JSBool computeSum(JSContext *cx, JSObject *obj, unsigned int argc, jsval *argv, 
     return JS_TRUE;
 }
 ```
-After writing this code, build the DLL file or shared library, and store it in the appropriate Configuration/External Libraries directory (see ["Integrating C functions" on page 591](../C-Level_Extensibility/Integrating_C_functions.md)). Then create a JSFL file with the following code, and store it in the Configuration/Commands directory (see ["Saving JSFL files" on page 2](../Introduction/Working_with_the_JavaScript_API.md)).
+After writing this code, build the DLL file or shared library, and store it in the appropriate Configuration/External Libraries directory (see ["Integrating C functions"](Integrating-C-functions)). Then create a JSFL file with the following code, and store it in the Configuration/Commands directory (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md)).
 
 ```javascript
 // JSFL file to run C function defined above. 
