@@ -22,9 +22,11 @@ Method; returns a [HalfEdge object](../HalfEdge_object/halfEdge_summary.md).
 
 #### Example
 
-```javascript
 The following example stores the half edges of the specified edge in the hEdge0 and hEdge1 variables:
-var shape = fl.getDocumentDOM().selection[0]; var edge = shape.edges[0];
-var hEdge0 = edge.getHalfEdge(0); var hEdge1 = edge.getHalfEdge(1);
+```javascript
+var shape = fl.getDocumentDOM().selection[0];
+var edge = shape.edges[0];
+var hEdge0 = edge.getHalfEdge(0);
+var hEdge1 = edge.getHalfEdge(1);
 
 ```

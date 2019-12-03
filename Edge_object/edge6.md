@@ -22,9 +22,11 @@ Method; splits the edge into two pieces. You must call [shape.beginEdit()](../Sh
 
 #### Example
 
-```javascript
 The following example splits the specified edge in half:
-var shape = fl.getDocumentDOM().selection[0]; shape.beginEdit()
-shape.edges[0].splitEdge( 0.5 ); shape.endEdit()
+```javascript
+var shape = fl.getDocumentDOM().selection[0];
+shape.beginEdit()
+shape.edges[0].splitEdge( 0.5 );
+shape.endEdit()
 
 ```

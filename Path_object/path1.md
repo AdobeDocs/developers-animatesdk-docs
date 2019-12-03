@@ -32,9 +32,9 @@ Method; appends a quadratic Bézier segment to the path.
 
 #### Example
 
-```javascript
 The following example creates a new path, stores it in the myPath variable, and assigns the curve to the path:
-
-var myPath = fl.drawingLayer.newPath(); myPath.addCurve(0, 0, 10, 20, 20, 0);
+```javascript
+var myPath = fl.drawingLayer.newPath();
+myPath.addCurve(0, 0, 10, 20, 20, 0);
 
 ```

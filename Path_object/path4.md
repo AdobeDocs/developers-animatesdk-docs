@@ -22,9 +22,9 @@ Method; appends a point at the location of the first point of the path and exten
 
 #### Example
 
-```javascript
 The following example creates a closed path:
-
-var myPath = fl.drawingLayer.newPath(); myPath.close();
+```javascript
+var myPath = fl.drawingLayer.newPath();
+myPath.close();
 
 ```

@@ -24,9 +24,9 @@ Method; creates a shape on the Stage by using the current stroke and fill settin
 
 #### Example
 
-```javascript
 The following example creates a shape with the current fill and no stroke:
-
-var myPath = fl.drawingLayer.newPath(); myPath.makeShape(false, true);
+```javascript
+var myPath = fl.drawingLayer.newPath();
+myPath.makeShape(false, true); 
 
 ```
