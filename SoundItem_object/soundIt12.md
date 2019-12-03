@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-soundItem.sourceFilePath
+*soundItem.sourceFilePath*
 
 #### Description
 
@@ -14,13 +14,15 @@ Read-only property: a string, expressed as a file:/// URI, that represents the p
 
 #### Example
 
-```javascript
 The following example displays the name and source file path of any items in the library that are of type "sound":
+
+```javascript
 for (idx in fl.getDocumentDOM().library.items) {
-if (fl.getDocumentDOM().library.items\[idx\].itemType == "sound") { var myItem = fl.getDocumentDOM().library.items\[idx\]; fl.trace(myItem.name + " source is " + myItem.sourceFilePath);
+    if (fl.getDocumentDOM().library.items[idx].itemType == "sound") { 
+        var myItem = fl.getDocumentDOM().library.items[idx]; 
+        fl.trace(myItem.name + " source is " + myItem.sourceFilePath);
 
-}
-
+    }
 }
 
 ```
