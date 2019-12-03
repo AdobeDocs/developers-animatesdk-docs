@@ -6,7 +6,7 @@ Flash 8.
 
 #### Usage
 
-xmlui.getEnabled(controlID)
+*xmlui.getEnabled(controlID)*
 
 #### Parameters
 
@@ -14,7 +14,7 @@ xmlui.getEnabled(controlID)
 
 #### Returns
 
-A Boolean value of true if the control is enabled; false otherwise.
+A Boolean value of *true* if the control is enabled; *false* otherwise.
 
 #### Description
 
@@ -22,11 +22,13 @@ Method; returns a Boolean value that specifies whether the control is enabled or
 
 #### Example
 
-```javascript
 The following example returns a value that indicates whether the control with the ID attribute myListBox is enabled:
-var isEnabled = fl.xmlui.getEnabled("myListBox"); fl.trace(isEnabled);
+
+```javascript
+var isEnabled = fl.xmlui.getEnabled("myListBox"); 
+fl.trace(isEnabled);
 
 ```
 #### See also
 
-[fl.xmlui](../flash_object_(fl)/fl81.md)/fl81.md), [document.xmlPanel()](../Document_object/docu6198.md), [xmlui.setEnabled()](../XMLUI_object/xmlui9.md)
+[fl.xmlui](../flash_object_(fl)/fl81.md), [document.xmlPanel()](../Document_object/docu6198.md), [xmlui.setEnabled()](../XMLUI_object/xmlui9.md)

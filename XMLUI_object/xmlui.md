@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-xmlui.accept()
+*xmlui.accept()*
 
 #### Parameters
 
@@ -22,6 +22,6 @@ Method; closes the current XMLUI dialog box with an accept state, which is equiv
 
 #### See also
 
-[fl.xmlui](../flash_object_(fl)/fl81.md)/fl81.md), [document.xmlPanel()](../Document_object/docu6198.md), [xmlui.cancel()](../XMLUI_object/xmlui1.md))
+[fl.xmlui](../flash_object_(fl)/fl81.md) , [document.xmlPanel()](../Document_object/docu6198.md), [xmlui.cancel()](../XMLUI_object/xmlui1.md))
 
 <span id="xmlui.cancel()" class="anchor"></span>
