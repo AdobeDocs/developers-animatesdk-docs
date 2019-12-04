@@ -16,6 +16,5 @@ Property; an integer that is part of the color transformation for the instance, 
 The following example subtracts 100 from the alpha setting of the selected symbol instance:
 ```javascript
 fl.getDocumentDOM().selection[0].colorAlphaAmount = -100;
-
-<span id="symbolInstance.colorAlphaPercent" class="anchor"></span
 ```
+<span id="symbolInstance.colorAlphaPercent" class="anchor"></span>

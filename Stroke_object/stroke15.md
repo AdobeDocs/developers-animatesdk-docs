@@ -10,8 +10,7 @@ stroke.rotate
 
 #### Description
 
-Property; a string that specifies the rotation of a hatch line. This property is available only if the stroke.style
-property is set to hatched (see [stroke.style](../Stroke_object/stroke20.md)). Acceptable values are "none", "slight", "medium", and "free".
+Property; a string that specifies the rotation of a hatch line. This property is available only if the stroke.style property is set to hatched (see [stroke.style](../Stroke_object/stroke20.md)). Acceptable values are "none", "slight", "medium", and "free".
 
 #### Example
 
