@@ -22,5 +22,4 @@ The following example illustrates use of this property:
 fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].colorBluePercent = 100;
 //change the colorBluePercent of the selected symbol instance
 fl.getDocumentDOM().selection[0].colorBluePercent = 80;
-
 ```
