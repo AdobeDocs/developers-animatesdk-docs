@@ -18,7 +18,7 @@ Property; a string that sets the display type for the symbol. Acceptable values 
 
 -   "export" - sets the symbol to be exported as a bitmap when the SWF is compiled.
 
-The older ["symbolInstance.cacheAsBitmap"](../SymbolInstance_object/symbolInstanc7.md) on page 472 property is similar to this property, but it offers fewer choices since it's a boolean. In the future, the cacheAsBitmap property may be deprecated, so users should switch to this new property. The true/false options in the boolean cacheAsBitmap property are the same as the "cache" / "none" values for this new property.
+The older ["symbolInstance.cacheAsBitmap"](../SymbolInstance_object/symbolInstanc7.md) property is similar to this property, but it offers fewer choices since it's a boolean. In the future, the cacheAsBitmap property may be deprecated, so users should switch to this new property. The true/false options in the boolean cacheAsBitmap property are the same as the "cache" / "none" values for this new property.
 
 #### Example
 

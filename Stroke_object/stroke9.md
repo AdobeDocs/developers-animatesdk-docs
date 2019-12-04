@@ -10,8 +10,7 @@ stroke.hatchThickness
 
 #### Description
 
-Property; a string that specifies the thickness of a hatch line. This property is available only if the stroke.style
-property is set to hatched (see [stroke.style](../Stroke_object/stroke20.md)). Acceptable values are "hairline", "thin", "medium", and "thick".
+Property; a string that specifies the thickness of a hatch line. This property is available only if the stroke.style property is set to hatched (see [stroke.style](../Stroke_object/stroke20.md)). Acceptable values are "hairline", "thin", "medium", and "thick".
 
 #### Example
 

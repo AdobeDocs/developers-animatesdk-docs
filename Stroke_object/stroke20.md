@@ -22,9 +22,7 @@ Property; a string that describes the stroke style. Acceptable values are "noStr
 
 -   If value is "stipple", there are three additional properties: dotSize, variation, and density.
 
--   If value is "hatched", there are six additional properties: hatchThickness, space, jiggle, rotate, curve, and
-
-length.
+-   If value is "hatched", there are six additional properties: hatchThickness, space, jiggle, rotate, curve, and length.
 
 #### Example
 
