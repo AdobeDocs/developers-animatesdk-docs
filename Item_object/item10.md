@@ -14,11 +14,10 @@ Property; a string that specifies the name Animate will use to identify the asse
 
 #### Example
 
-```javascript
 The following example specifies that the string my\_mc will be used to identify the library item when it is linked to the destination SWF file to which it is being exported:
 
+```javascript
 fl.getDocumentDOM().library.items[0].linkageIdentifier = "my_mc";
-
 ```
 #### See also
 

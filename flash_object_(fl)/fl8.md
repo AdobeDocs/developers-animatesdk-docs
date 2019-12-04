@@ -22,8 +22,8 @@ Method; closes all the SWF files that were opened with Control > Test Movie.
 
 #### Example
 
-```javascript
 The following example closes all the SWF files that were opened with Control > Test Movie.
+```javascript
 fl.closeAllPlayerDocuments();
 
 ```

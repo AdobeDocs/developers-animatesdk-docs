@@ -14,10 +14,11 @@ Property; an integer that is equivalent to the Tab Index field in the Accessibil
 
 #### Example
 
-```javascript
 The following example illustrates getting and setting the tabIndex property:
+```javascript
 // Get the tabIndex of the object.
 var theTabIndex = fl.getDocumentDOM().selection[0].tabIndex;
-// Set the tabIndex of the object. fl.getDocumentDOM().selection[0].tabIndex = 1;
+// Set the tabIndex of the object.
+fl.getDocumentDOM().selection[0].tabIndex = 1;
 
 ```

@@ -27,6 +27,8 @@ and formats them as bold and green:
 ```javascript
 fl.getDocumentDOM().selection[0].selectionStart = 11;
 fl.getDocumentDOM().selection[0].selectionEnd = 18;
-var s = fl.getDocumentDOM().selection[0].selectionStart; var e = fl.getDocumentDOM().selection[0].selectionEnd; fl.getDocumentDOM().setElementTextAttr('bold', true, s, e);
+var s = fl.getDocumentDOM().selection[0].selectionStart;
+var e = fl.getDocumentDOM().selection[0].selectionEnd;
+fl.getDocumentDOM().setElementTextAttr('bold', true, s, e);
 fl.getDocumentDOM().setElementTextAttr("fillColor", "#00ff00", s, e);
 ```

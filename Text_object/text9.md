@@ -14,11 +14,14 @@ Property; an array of filters applied to the text element. To modify filter prop
 
 #### Example
 
-```javascript
 The following example traces the name of the filter at index 0. If it is a Glow filter, its blurX property is set to 100 and the new value is written to the filters array:
-
-//trace the name of the filter at index 0, if it's glow filter, set its blurX to 100 var filterName = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].filters[0].name; fl.trace(filterName);
-var filterArray = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].filters; if (filterName == 'glowFilter')
+```javascript
+//trace the name of the filter at index 0, if it's glow filter, set its blurX to 100
+var filterName =
+fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].filters[0].name;
+fl.trace(filterName);
+var filterArray = fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements[0].filters;
+if (filterName == 'glowFilter')
 {
 filterArray[0].blurX = 100;
 }

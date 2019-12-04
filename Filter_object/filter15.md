@@ -14,10 +14,12 @@ Property; a float value that specifies the saturation value of the filter. Accep
 
 #### Example
 
-```javascript
 The following example sets the saturation value to -100 (grayscale) for the Adjust Color filters on the selected object(s):
-var myFilters = fl.getDocumentDOM().getFilters(); for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'adjustColorFilter'){ myFilters[i].saturation = 0-100;
+```javascript
+var myFilters = fl.getDocumentDOM().getFilters();
+for(i=0; i < myFilters.length; i++){
+if(myFilters[i].name == 'adjustColorFilter'){
+myFilters[i].saturation = 0-100;
 }
 }
 fl.getDocumentDOM().setFilters(myFilters);

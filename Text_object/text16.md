@@ -18,5 +18,5 @@ This property works only with static text; it generates a warning if used with o
 
 The following example sets the orientation property to vertical right to left:
 ```javascript
- fl.getDocumentDOM().selection[0].orientation = "vertical right to left";
+fl.getDocumentDOM().selection[0].orientation = "vertical right to left";
 ```

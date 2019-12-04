@@ -14,10 +14,14 @@ Property; a Boolean value that specifies the locked status of the layer. If set 
 
 #### Example
 
-```javascript
 The following example stores the Boolean value for the status of the first layer in the lockStatus variable:
 
+```javascript
 var lockStatus = fl.getDocumentDOM().getTimeline().layers[0].locked;
+```
+
 The following example sets the status of the first layer to unlocked:
+
+```javascript
 fl.getDocumentDOM().getTimeline().layers[0].locked = false;
 ```

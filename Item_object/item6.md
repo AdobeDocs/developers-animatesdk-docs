@@ -15,10 +15,10 @@ For this property to be defined, the [item.linkageExportForAS](../Item_object/it
 
 #### Example
 
-```javascript
+
 The following example specifies that the ActionScript 2.0 class name associated with the first item in the library ismyClass:
 
+```javascript
 fl.getDocumentDOM().library.items[0].linkageClassName = "myClass";
-
 ```
 <span id="item.linkageExportForAS" class="anchor"></span>

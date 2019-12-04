@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Description
 
-The presetItem object represents an item (preset or folder) in the Motion Presets panel (Window \Motion Presets). The array of presetItem objects is a property of the presetPanel object ([presetPanel.items](../presetPanel_object/presetPane9.md)).
+The presetItem object represents an item (preset or folder) in the Motion Presets panel (Window > Motion Presets). The array of presetItem objects is a property of the presetPanel object ([presetPanel.items](../presetPanel_object/presetPane9.md)).
 
 All properties of the presetItem object are read only. To perform tasks such as deleting, renaming, or moving items, use the methods of the [presetPanel object](../presetPanel_object/presetPanel_summary.md).
 

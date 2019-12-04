@@ -24,5 +24,6 @@ Method; returns the most recently pressed key.
 
 The following example displays the integer value of the most recently pressed key:
 ```javascript
-var theKey = fl.tools.getKeyDown(); fl.trace(theKey);
+var theKey = fl.tools.getKeyDown();
+fl.trace(theKey);
 ```

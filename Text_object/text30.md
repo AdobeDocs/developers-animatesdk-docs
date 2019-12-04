@@ -18,5 +18,5 @@ This property is supported only in ActionScript 1.0 and ActionScript 2.0.
 
 The following example sets the variable name of the selected text box to firstName:
 ```javascript
- fl.getDocumentDOM().selection[0].variableName = "firstName";
+fl.getDocumentDOM().selection[0].variableName = "firstName";
 ```

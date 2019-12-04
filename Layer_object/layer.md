@@ -14,9 +14,9 @@ Read-only property; a string value indicating the animation type of the layer. P
 
 #### Example
 
-```javascript
 The following example returns the layer type of the first layer of the root timeline:
 
+```javascript
 var layer = fl.getDocumentDOM().getTimeline().layers[0];
 fl.trace("animationType: " + layer.animationType);
 ```

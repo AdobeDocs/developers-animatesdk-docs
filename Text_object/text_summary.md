@@ -1,6 +1,6 @@
 ## text summary
 
-**Inheritance** [Element object](../Element_object/element_summary.md) \Text object
+**Inheritance** [Element object](../Element_object/element_summary.md) > Text object
 
 #### Availability
 
@@ -14,7 +14,7 @@ To set properties of a text run within the text field, see the Property summary 
 
 To set generic properties of the selected text field, use [document.setElementProperty()](../Document_object/docum490.md). The following example sets the x value of the selected text field's registration point to 50:
 
-fl.getDocumentDOM().setElementProperty("x", 50);
+ fl.getDocumentDOM().setElementProperty("x", 50); 
 
 #### Method summary
 
