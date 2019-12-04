@@ -6,9 +6,8 @@ Flash MX 2004.
 
 #### Usage
 
-function deactivate() {
-
-    // statements
+function dactivate() {
+// statements
 }
 
 #### Parameters

@@ -22,8 +22,9 @@ Method; removes persistent data with the specified name that has been attached t
 
 #### Example
 
-```javascript
 The following example removes from the document the persistent data named "myData": 
+
+```javascript
 fl.getDocumentDOM().removeDataFromDocument("myData");
 
 ```

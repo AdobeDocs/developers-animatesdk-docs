@@ -22,8 +22,9 @@ Method; sets all values in the Property inspector to default Oval object setting
 
 #### Example
 
-```javascript
 The following example resets Oval object properties in the current document to default values:
+
+```javascript
 
 fl.getDocumentDOM().resetOvalObject();
 

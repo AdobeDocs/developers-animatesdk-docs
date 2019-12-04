@@ -22,8 +22,9 @@ Method; deselects any selected items.
 
 #### Example
 
-```javascript
 The following example deselects any items that are selected:
+
+```javascript
 fl.getDocumentDOM().selectNone();
 
 ```

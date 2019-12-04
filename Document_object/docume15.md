@@ -10,7 +10,7 @@ document.arrange(arrangeMode)
 
 #### Parameters
 
-**arrangeMode** Specifies the direction in which to move the selection. Acceptable values are "back", "backward", "forward", and "front". It provides the same capabilities as these options provide on the Modify \Arrange menu.
+**arrangeMode** Specifies the direction in which to move the selection. Acceptable values are "back", "backward", "forward", and "front". It provides the same capabilities as these options provide on the Modify >Arrange menu.
 
 #### Returns
 

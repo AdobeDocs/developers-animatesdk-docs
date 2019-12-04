@@ -10,9 +10,10 @@ document.convertToSymbol(type, name, registrationPoint)
 
 #### Parameters
 
-**type** A string that specifies the type of symbol to create. Acceptable values are "movie clip", "button", and
-"graphic".
+**type** A string that specifies the type of symbol to create. Acceptable values are "movie clip", "button", and "graphic".
+
 **name** A string that specifies the name for the new symbol, which must be unique. You can submit an empty string to have this method create a unique symbol name for you.
+
 **registration point** Specifies the point that represents the 0,0 location for the symbol. Acceptable values are: "top left", "top center", "top right", "center left", "center", "center right", "bottom left", "bottom center", and "bottom right".
 
 #### Returns

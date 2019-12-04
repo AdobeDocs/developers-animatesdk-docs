@@ -11,7 +11,12 @@ document.exportInstanceToPNGSequence(outputURI, startFrameNum, endFrameNum, matr
 #### Parameters
 
 **outputURI** String: The URI to export the PNG Sequence files to. This URI must reference a local file. Example: file:///c\|/tests/mytest.png.
-**startFrameNum** Optional. An integer indicating the first frame to be exported. The default is 1. **endFrameNum** Optional. An Integer indicating the last frame to be exported. The default is 99999. **matrix** Optional. A matrix to be appended to the exported PNG sequence.
+
+**startFrameNum** Optional. An integer indicating the first frame to be exported. The default is 1.
+
+**endFrameNum** Optional. An Integer indicating the last frame to be exported. The default is 99999.
+
+**matrix** Optional. A matrix to be appended to the exported PNG sequence.
 
 #### Returns
 

@@ -30,8 +30,9 @@ Method; sets the tint for the instance.
 
 #### Example
 
-```javascript
 The following example sets the tint for the selected instance to red with an opacity value of 50:
+
+```javascript
 fl.getDocumentDOM().setInstanceTint(0xff0000, 50);
 
 ```

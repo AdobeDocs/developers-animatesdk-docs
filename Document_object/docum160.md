@@ -19,7 +19,9 @@ Nothing.
 #### Description
 
 Method; moves selected objects by a specified distance.
+
 ***Note:** When the user uses the arrow keys to move the item, the History panel combines all presses of the arrow key as one move step. When the user presses the arrow keys repeatedly, rather than taking multiple steps in the History panel, the method performs one step, and the arguments are updated to reflect the repeated arrow keys.*
+
 For information on making a selection, see [document.setSelectionRect()](../Document_object/docu9689.md), [document.mouseClick()](../Document_object/docum130.md), [document.mouseDblClk()](../Document_object/docum140.md), and the [Element object](../Element_object/element_summary.md).
 
 #### Example

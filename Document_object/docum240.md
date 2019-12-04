@@ -22,7 +22,6 @@ Method; removes all filters from the selected objects.
 
 #### Example
 
-
 The following example removes all filters from the selected objects:
 ```javascript
 fl.getDocumentDOM().removeAllFilters();

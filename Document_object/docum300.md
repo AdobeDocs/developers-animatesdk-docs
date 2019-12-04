@@ -23,8 +23,9 @@ Method; moves the specified scene before another specified scene.
 
 #### Example
 
-```javascript
 The following example moves the second scene to before the first scene:
+
+```javascript
 
 fl.getDocumentDOM().reorderScene(1, 0);
 

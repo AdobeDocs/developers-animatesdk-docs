@@ -22,8 +22,9 @@ Methods; sets the opacity of the instance.
 
 #### Example
 
-```javascript
 The following example sets the opacity of the tint to a value of 50:
+
+```javascript
 fl.getDocumentDOM().setInstanceAlpha(50);
 
 ```

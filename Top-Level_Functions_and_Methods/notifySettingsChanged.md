@@ -7,8 +7,7 @@ Flash MX 2004.
 #### Usage
 
 function notifySettingsChanged() {
-    
-    // statements
+// statements
 }
 
 #### Parameters

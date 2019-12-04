@@ -22,8 +22,9 @@ Method; sets the blending mode for the selected objects.
 
 #### Example
 
-```javascript
 The following example sets the blending mode for the selected object to "add". 
+
+```javascript
 fl.getDocumentDOM().setBlendMode("add");
 
 ```

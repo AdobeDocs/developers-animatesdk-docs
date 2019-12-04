@@ -22,7 +22,8 @@ Method; exports the currently active profile to an XML file.
 
 #### Example
 
-The following example exports the currently active profile to the file named profile.xml in the folder /Documents and Settings/username/Desktop on the C drive:
+The following example exports the currently active profile to the file named profile.xml in the
+folder /Documents and Settings/username/Desktop on the C drive:
 
 
 ```javascript

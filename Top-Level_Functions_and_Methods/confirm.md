@@ -19,6 +19,7 @@ A Boolean value: true if the user clicks OK; false if the user clicks Cancel.
 #### Description
 
 Method; displays a string in a modal Alert dialog box, along with OK and Cancel buttons.
+
 ***Note:** If there are no documents (FLA files) open, this method fails with an error condition.*
 
 #### Example

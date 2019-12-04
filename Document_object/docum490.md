@@ -25,8 +25,9 @@ Method; sets the specified Element property on selected objects in the document.
 
 #### Example
 
-```javascript
 The following example sets the width of all selected objects to 100 and the height to 50:
+
+```javascript
 fl.getDocumentDOM().setElementProperty("width", 100);
 fl.getDocumentDOM().setElementProperty("height", 50);
 
