@@ -12,7 +12,43 @@ The Tween object can be used to access interpolated properties of tweens. Access
 
 You can use the following methods with the Tween object class:
 
-<table><thead><tr class="header"><th><strong>Method</strong></th><th><p><strong>Description</strong></p></th></tr></thead><tbody><tr class="odd"><td><a href="../Tween_Object/Tween.md">"Tween.getCol orTransform( )"</a><td><p>Returns color transformation data between frames.</p></td></tr><tr class="even"><td><p><a href="../Tween_Object/Tween1.md">"Tween.getFilters( )"</a><td><p>Returns filters data of a selected frame from a tween span.</p></td></tr><tr class="odd"><td><a href="../Tween_Object/Tween2.md">"Tween. getGeometricT ransform()"</a><td><p>Returns Matrix object that represents geometric transformation of a tween within a user-defined range (from offset to a selected frame).</p></td></tr><tr class="even"><td><a href="../Tween_Object/Tween3.md">"Tween. getShape( )"</a><td><p>Returns interpolated shape of a selected frame within a tween-span.</p></td></tr></tbody></table>
+<table>
+   <thead>
+      <tr class="header">
+         <th><strong>Method</strong></th>
+         <th>
+            <p><strong>Description</strong></p>
+         </th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr class="odd">
+         <td><a href="../Tween_Object/Tween.md">"Tween.getColorTransform( )"</a>
+         <td>
+            <p>Returns color transformation data between frames.</p>
+         </td>
+      </tr>
+      <tr class="even">
+         <td>
+            <p><a href="../Tween_Object/Tween1.md">"Tween.getFilters( )"</a>
+         <td>
+            <p>Returns filters data of a selected frame from a tween span.</p>
+         </td>
+      </tr>
+      <tr class="odd">
+         <td><a href="../Tween_Object/Tween2.md">"Tween.getGeometricTransform()"</a>
+         <td>
+            <p>Returns Matrix object that represents geometric transformation of a tween within a user-defined range (from offset to a selected frame).</p>
+         </td>
+      </tr>
+      <tr class="even">
+         <td><a href="../Tween_Object/Tween3.md">"Tween.getShape( )"</a>
+         <td>
+            <p>Returns interpolated shape of a selected frame within a tween-span.</p>
+         </td>
+      </tr>
+   </tbody>
+</table>
 
 #### Properties Summary
 
