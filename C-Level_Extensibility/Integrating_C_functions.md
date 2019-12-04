@@ -274,7 +274,7 @@ JSBool computeSum(JSContext *cx, JSObject *obj, unsigned int argc, jsval *argv, 
     return JS_TRUE;
 }
 ```
-After writing this code, build the DLL file or shared library, and store it in the appropriate Configuration/External Libraries directory (see ["Integrating C functions"](#Integrating-C-functions)). Then create a JSFL file with the following code, and store it in the Configuration/Commands directory (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md)).
+After writing this code, build the DLL file or shared library, and store it in the appropriate Configuration/External Libraries directory (see ["Integrating C functions"](#integrating-c-functions)). Then create a JSFL file with the following code, and store it in the Configuration/Commands directory (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md)).
 
 ```javascript
 // JSFL file to run C function defined above. 
