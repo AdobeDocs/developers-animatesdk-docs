@@ -23,7 +23,7 @@ The process for implementing this capability is summarized in the following step
 
 1.  Create a JSFL file that calls the functions.
 
-2.  Run the JSFL file from the Commands menu in the Flash authoring environment. For more information, see ["Sample DLL implementation"](#Sample-DLL-implementation).
+2.  Run the JSFL file from the Commands menu in the Flash authoring environment. For more information, see ["Sample DLL implementation"](#sample-dll-implementation).
 
 ### C-level extensibility and the JavaScript interpreter
 
@@ -43,7 +43,7 @@ Including the mm_jsapi.h file includes the mm_jsapi_environment.h file, which de
 
 To get a copy of the mm_jsapi.h file, extract it from the sample ZIP or SIT file (see ["Sample DLL implementation"](#Sample-DLL-implementation)), or copy the following code into a file that you name mm_jsapi.h:
 
-```javascript
+```C
 #ifndef _MM_JSAPI_H_ 
 
 #define _MM_JSAPI_H_
