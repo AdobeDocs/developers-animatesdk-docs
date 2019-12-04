@@ -41,7 +41,7 @@ To accomplish these tasks, the interpreter defines several data types and expose
 
 Including the mm_jsapi.h file includes the mm_jsapi_environment.h file, which defines the MM_Environment structure.
 
-To get a copy of the mm_jsapi.h file, extract it from the sample ZIP or SIT file (see ["Sample DLL implementation"](#Sample-DLL-implementation)), or copy the following code into a file that you name mm_jsapi.h:
+To get a copy of the mm_jsapi.h file, extract it from the sample ZIP or SIT file (see ["Sample DLL implementation"](#sample-dll-implementation)), or copy the following code into a file that you name mm_jsapi.h:
 
 ```C
 #ifndef _MM_JSAPI_H_ 
@@ -232,17 +232,17 @@ MM_Init();\
 
 ### Sample DLL implementation
 
-This section illustrates how to build a simple DLL implementation. If you want to see how the process works without actually building the DLL yourself, you can install the sample DLL files that are provided in the Samples.zip file; the files are located in the ExtendingFlash/dllSampleComputeSum folder. (For information on downloading the Samples.zip file, see ["Sample implementations"](#Sample-implementations) Extract the sample files from the dllSampleComputeSum.dmg or dllSampleComputeSum.zip file, and then do the following:
+This section illustrates how to build a simple DLL implementation. If you want to see how the process works without actually building the DLL yourself, you can install the sample DLL files that are provided in the Samples.zip file; the files are located in the ExtendingFlash/dllSampleComputeSum folder. (For information on downloading the Samples.zip file, see ["Sample implementations"](#sample-dll-implementation) Extract the sample files from the dllSampleComputeSum.dmg or dllSampleComputeSum.zip file, and then do the following:
 
 -   Store the Sample.jsfl file in the Configuration/Commands directory (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md).
 
--   Store the Sample.dll file in the Configuration/External Libraries directory (see ["Integrating C functions"](#Integrating-C-functions)).
+-   Store the Sample.dll file in the Configuration/External Libraries directory (see ["Integrating C functions"](#integrating-c-functions)).
 
 -   In the Flash authoring environment, select Commands >Sample. The trace statement in the JSFL file sends the results of the function defined in Sample.dll to the Output panel.
 
 The rest of this section discusses the development of the sample. In this case, the DLL contains only one function, which adds two numbers. The C code is shown in the following example:
 
-```javascript
+```C
 // Source code in C
 // Save the DLL or shared library with the name "Sample". 
 #include <windows.h>
@@ -274,7 +274,7 @@ JSBool computeSum(JSContext *cx, JSObject *obj, unsigned int argc, jsval *argv, 
     return JS_TRUE;
 }
 ```
-After writing this code, build the DLL file or shared library, and store it in the appropriate Configuration/External Libraries directory (see ["Integrating C functions"](Integrating-C-functions)). Then create a JSFL file with the following code, and store it in the Configuration/Commands directory (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md)).
+After writing this code, build the DLL file or shared library, and store it in the appropriate Configuration/External Libraries directory (see ["Integrating C functions"](#Integrating-C-functions)). Then create a JSFL file with the following code, and store it in the Configuration/Commands directory (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md)).
 
 ```javascript
 // JSFL file to run C function defined above. 
