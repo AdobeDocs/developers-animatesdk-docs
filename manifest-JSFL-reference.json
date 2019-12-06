@@ -8,8 +8,8 @@
     "publish_date": "26/06/2019",
     "show_edit_github_banner": false,
     "base_path": "https://raw.githubusercontent.com",
-    "pages": [
-        {
+   "pages": [
+         {
             "pages": [
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Introduction/Working_with_the_JavaScript_API.md",
@@ -3603,6 +3603,23 @@
         ],
           "title": "TextRun Object"
         },
+        {
+          "pages": [
+          {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/TextRun_object/textRun_summary.md",
+               "title": "TextureAtlasExporter object summary"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/TextRun_object/textRun.md",
+               "title": "textRun.textAttrs"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/TextRun_object/textRun1.md",
+               "title": "textRun.characters"
+              }           
+          ],
+            "title": "TextureAtlasExporter object"
+          },
         {
         "pages": [
         {
