@@ -2342,7 +2342,15 @@
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer10.md",
              "title": "layer.visible"
-            }           
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer11.md",
+              "title": "layer.getZDepthAtFrame()"
+             }, 
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer12.md",
+              "title": "layer.setZDepthAtFrame()"
+             }          
         ],
           "title": "Layer Object"
         },
