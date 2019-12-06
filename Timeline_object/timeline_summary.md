@@ -37,6 +37,7 @@ The following methods are available for the Timeline object:
 | [timeline.showLayerMasking()](../Timeline_object/timeli48.md)  | Shows the layer masking during authoring by locking the mask and masked layers.  |
 | [timeline.startPlayback()](../Timeline_object/timeli49.md)     | Starts automatic playback of the timeline if it is not currently playing.        |
 | [timeline.stopPlayback()](../Timeline_object/timeli50.md)      | Stops autoumatic playback of the timeline if it is currently playing.            |
+| [timeline.mergeLayers()](../Timeline_object/timeli51.md)      | Merge the layer at a specified index, or a range of layers.            |
 
 #### Property summary
 
@@ -51,6 +52,7 @@ The following properties are available for the Timeline object:
 | [timeline.layers](../Timeline_object/timeli31.md)       | Read-only; an array of layer objects.                                                        |
 | [timeline.libraryItem](../Timeline_object/timeli32.md)  | Read-only property; indicates whether the timeline belongs to a scene.                       |
 | [timeline.name](../Timeline_object/timeli33.md)         | A string that represents the name of the current timeline.                                   |
+| [timeline.advancedLayersEnabled](../Timeline_object/timeli52.md)         | enable / disable advanced layers mode. |
 
 <span id="timeline.addMotionGuide()" class="anchor"></span>
 
