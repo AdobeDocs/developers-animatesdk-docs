@@ -13,4 +13,7 @@ You can use the following methods with the layer object:
 | [layer.getRigParentAtFrame()] | layer.getRigParentAtFrame(frameIndex) 		|
 | [layer.setRigParentAtFrame()] | layer.setRigParentAtFrame(frameIndex,layer)   |
 | [layer.getRigMatrixAtFrame()] | layer.getRigMatrixAtFrame(frameIndex)   		|
+| [layer.getRigParentAtFrame()] | layer.getRigParentAtFrame(frameIndex) 		|
+| [layer.setRigParentAtFrame()] | layer.setRigParentAtFrame(frameIndex,layer) 		|
+| [layer.getRigMatrixAtFrame()] | layer.getRigMatrixAtFrame(frameIndex) 		|
 
