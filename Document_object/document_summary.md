@@ -114,6 +114,23 @@ You can use the following methods with the Document object:
 | [document.unlockAllElements()](../Document_object/docu6135.md)    | Unlocks all locked elements on the currently selected frame. |
 | [document.xmlPanel()](../Document_object/docu6198.md)             | Posts a XMLUI dialog box.                                    |
 
+
+| **Method**                                       | **Description**                                              |
+|--------------------------------------------------|--------------------------------------------------------------|
+| [document.addTaggedSwatch()](../Document_object/docu6058.md) | To add new tagged swatch.  |
+| [document.addTaggedSwatchWithColor()](../Document_object/docu6059.md)              | To add new tagged swatch with the given color string.       |
+| [document.getIndexForTaggedSwatchesPalette()](../Document_object/docu6060.md)                | To get the Tagged Swatches palette index for given palette name.          |
+| [document.getTaggedSwatchAtIndex()](../Document_object/docu6061.md)    | returns the Tagged Swatch with the given index. |
+| [document.getTaggedSwatchByName()](../Document_object/docu6062.md)             | returns the Tagged Swatch with the given name.    |
+| [document.getTaggedSwatchesPaletteList()](../Document_object/docu6063.md)             | To get the array of Tagged Swatches palette name
+| [document.getTaggedSwatches()](../Document_object/docu6064.md)             | returns array of tagged swatch objects 
+| [document.deleteTaggedSwatchAtIndex()](../Document_object/docu6065.md)             | delete tagged swatch with given index.
+| [document.deleteTaggedSwatchByName()](../Document_object/docu6066.md)             | delete tagged swatch with given name.
+| [document.setTaggedSwatchAtIndex()](../Document_object/docu6067.md)             | replace the tagged swatch with the given index to the given new swatch object
+| [document.setTaggedSwatchByName()](../Document_object/docu6068.md)             | replace the tagged swatch with the given name to the given new swatch object
+    
+
+
 #### Property summary
 
 You can use the following properties with the Document object.
