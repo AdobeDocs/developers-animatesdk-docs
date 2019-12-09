@@ -14,7 +14,7 @@ Property; An integer indicating the number of pixels of padding to add around ea
 
 #### Example
 
-``` java script
+``` javascript
 var exporter = new TextureAtlasExporter;
 exporter.borderPadding = 5;
 ````

@@ -14,6 +14,6 @@ Property; Specify the location of the texture atlas files.
 
 #### Example
 
-``` java script
+``` javascript
 
 ````

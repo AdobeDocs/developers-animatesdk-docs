@@ -15,7 +15,7 @@ SpriteSheetExporter.layoutFormat property may rotate symbol frames when adding t
 
 #### Example
 
-``` java script
+``` javascript
 var exporter = new TextureAtlasExporter;
 alert(exporter.canRotate);
 ````

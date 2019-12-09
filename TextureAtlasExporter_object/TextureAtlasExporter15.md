@@ -1,4 +1,4 @@
-## TextureAtlasExporter.shapePadding
+## TextureAtlasExporter.sheetHeight
 
 #### Availability
 
@@ -6,16 +6,16 @@ Animate 2020.
 
 #### Usage
 
-TextureAtlasExporter.shapePadding
+TextureAtlasExporter.sheetHeight
 
 #### Description
 
-Property; An integer value indicating how many pixels of padding should be added to each exported symbol frame
-when adding it to the sprite sheet.
+Property; An integer value specifying the height of the sprite sheet. This value is read-only if
+SpriteSheetExporter.autoSize is set to true.
 
 #### Example
 
-``` java script
+``` javascript
 var exporter = new TextureAtlasExporter;
-exporter.shapePadding = 10;
+exporter.sheetHeight = 512;
 ````

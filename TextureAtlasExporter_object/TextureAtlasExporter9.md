@@ -14,6 +14,6 @@ Property;The format of the sheet image file.(string: “RGB8888”  and “RGB8�
 
 #### Example
 
-``` java script
+``` javascript
 
 ````

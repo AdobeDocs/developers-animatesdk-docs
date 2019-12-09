@@ -14,7 +14,7 @@ Property; A boolean value indicating whether the symbol frames can be rotated wh
 
 #### Example
 
-``` java script
+``` javascript
 var exporter = new TextureAtlasExporter;
 exporter.allowRotate = true;
 ````

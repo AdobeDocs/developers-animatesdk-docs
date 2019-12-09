@@ -1,4 +1,4 @@
-## TextureAtlasExporter.sheetHeight
+## TextureAtlasExporter.sheetWidth
 
 #### Availability
 
@@ -6,16 +6,16 @@ Animate 2020.
 
 #### Usage
 
-TextureAtlasExporter.sheetHeight
+TextureAtlasExporter.sheetWidth
 
 #### Description
 
-Property; An integer value specifying the height of the sprite sheet. This value is read-only if
+Property;An integer value specifying the width of the sprite sheet. This value is read-only if
 SpriteSheetExporter.autoSize is set to true.
 
 #### Example
 
-``` java script
+``` javascript
 var exporter = new TextureAtlasExporter;
-exporter.sheetHeight = 512;
+exporter.sheetwidth = 512;
 ````

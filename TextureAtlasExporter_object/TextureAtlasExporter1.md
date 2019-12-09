@@ -15,7 +15,7 @@ Property;  A string indicating which algorithm to use to pack the sprite sheet. 
 
 #### Example
 
-``` java script
+``` javascript
 var exporter = new TextureAtlasExporter;
 exporter.algorithm = "maxRects";
 ````

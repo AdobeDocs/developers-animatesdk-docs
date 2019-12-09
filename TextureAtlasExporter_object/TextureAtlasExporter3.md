@@ -15,7 +15,7 @@ is provided for use by any future TextureAtlas generator plugins that may be cre
 
 #### Example
 
-``` java script
+``` javascript
 var exporter = new TextureAtlasExporter;
 alert(exporter.app);
 // "Animate 2020"

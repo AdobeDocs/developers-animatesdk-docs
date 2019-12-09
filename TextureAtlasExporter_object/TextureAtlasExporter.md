@@ -22,7 +22,7 @@ Method; Exports the texture atlas for the selected symbol.
 
 #### Example
 
-``` java script
+``` javascript
 symbolsArr=fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements;
 
 TextureAtlasExporter.exportTextureAtlas(symbolsArr[0].libraryItem)

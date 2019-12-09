@@ -15,7 +15,7 @@ sheet on its own.
 
 #### Example
 
-``` java script
+``` javascript
 var exporter = new TextureAtlasExporter;
 exporter.autoSize = false;
 ````

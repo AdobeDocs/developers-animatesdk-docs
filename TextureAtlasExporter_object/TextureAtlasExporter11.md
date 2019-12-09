@@ -1,4 +1,4 @@
-## TextureAtlasExporter.optimizeBitmap
+## TextureAtlasExporter.optimizeJson
 
 #### Availability
 
@@ -6,7 +6,7 @@ Animate 2020.
 
 #### Usage
 
-TextureAtlasExporter.optimizeBitmap
+TextureAtlasExporter.optimizeJson
 
 #### Description
 
@@ -14,6 +14,6 @@ Property;.
 
 #### Example
 
-``` java script
+``` javascript
 
 ````

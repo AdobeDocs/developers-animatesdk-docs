@@ -14,6 +14,6 @@ Property;boolean Flatten the skewed assets to the sheet.
 
 #### Example
 
-``` java script
+``` javascript
 
 ````

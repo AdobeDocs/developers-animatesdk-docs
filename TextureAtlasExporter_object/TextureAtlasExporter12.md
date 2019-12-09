@@ -1,4 +1,4 @@
-## TextureAtlasExporter.optimizeJson
+## TextureAtlasExporter.overflowed
 
 #### Availability
 
@@ -6,7 +6,7 @@ Animate 2020.
 
 #### Usage
 
-TextureAtlasExporter.optimizeJson
+TextureAtlasExporter.overflowed
 
 #### Description
 
@@ -14,6 +14,6 @@ Property;.
 
 #### Example
 
-``` java script
+``` javascript
 
 ````

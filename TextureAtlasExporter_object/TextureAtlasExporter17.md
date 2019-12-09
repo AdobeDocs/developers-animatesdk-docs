@@ -1,4 +1,4 @@
-## TextureAtlasExporter.sheetWidth
+## TextureAtlasExporter.version
 
 #### Availability
 
@@ -6,16 +6,17 @@ Animate 2020.
 
 #### Usage
 
-TextureAtlasExporter.sheetWidth
+TextureAtlasExporter.version
 
 #### Description
 
-Property;An integer value specifying the width of the sprite sheet. This value is read-only if
-SpriteSheetExporter.autoSize is set to true.
+Read-only property; A stinr gindicating the version number of the Flash Pro application. This property is provided for
+use by sprite sheet plugins
 
 #### Example
 
-``` java script
+``` javascript
 var exporter = new TextureAtlasExporter;
-exporter.sheetwidth = 512;
+alert(exporter.verion);
+// "12.0.0.416"
 ````
