@@ -129,6 +129,12 @@ You can use the following methods with the Document object:
 | [document.setTaggedSwatchAtIndex()](../Document_object/docu6067.md)             | replace the tagged swatch with the given index to the given new swatch object
 | [document.setTaggedSwatchByName()](../Document_object/docu6068.md)             | replace the tagged swatch with the given name to the given new swatch object
     
+| **Method**                                       | **Description**                                              |
+|--------------------------------------------------|--------------------------------------------------------------|
+| [document.convertToDoc()](../Document_object/docu6069.md) | Applies a 3D translation to the selection.                   |
+| [document.exportCanvasPublishTemplate()](../Document_object/docu6070.md)              | Ungroups the current selection.                              |
+| [document.importCanvasPublishTemplate()](../Document_object/docu6071.md)                | Combines all selected shapes into a drawing object.          |
+| [document.exportMedia()](../Document_object/docu6072.md)    | Unlocks all locked elements on the currently selected frame. |
 
 
 #### Property summary
