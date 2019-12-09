@@ -9,9 +9,10 @@ Adobe Animate 2020.
 timeline.mergeLayers(startLayerNum:int,endLayerNum:int).
 
 #### Parameters
-startLayerNum:int:0
 
-endLayerNum:int:0
+**startLayerNum**:integer,starting index.
+
+**endLayerNum**:integer,endlayer index.
 
 #### Returns
 
