@@ -4094,6 +4094,96 @@
             }
             ],
           "title": "C-Level Extensibility"
-        }
+        },
+        {
+          "pages": [
+          {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera_Summary.md",
+               "title": "Camera summary"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera.md",
+               "title": "getZDepth()"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera1.md",
+               "title": "getZoom()"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera2.md",
+               "title": "getRotation()"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera3.md",
+               "title": "getPosition()"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera4.md",
+               "title": "getTint()"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera5.md",
+               "title": "getColorFilter()"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera6.md",
+               "title": "setZDepth()"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera7.md",
+               "title": "setZoom()"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera8.md",
+               "title": "setRotation()"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera9.md",
+               "title": "setTint()"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera10.md",
+               "title": "setColorFilter()"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera11.md",
+               "title": "resetZoom()"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera12.md",
+               "title": "resetRotation()"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera13.md",
+               "title": "resetPosition()"
+              },
+              {
+               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera14.md",
+               "title": "resetTint()"
+              },
+              {
+                "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera15.md",
+                "title": "resetColorFilter()"
+              },
+              {
+                "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera16.md",
+                "title": "reset()"
+               },
+               {
+                "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera17.md",
+                "title": "camera.cameraEnabled"
+               },
+               {
+                "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera18.md",
+                "title": "camera.tintEnabled"
+               },
+               {
+                "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera19.md",
+                "title": "camera.colorFilterEnabled"
+               }
+
+          ],
+            "title": "Camera Object"
+          }
     ]
     }
