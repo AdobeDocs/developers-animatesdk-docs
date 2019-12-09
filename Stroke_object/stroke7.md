@@ -10,8 +10,7 @@ stroke.dotSize
 
 #### Description
 
-Property; a string that specifies the dot size of a stippled line. This property is available only if the stroke.style
-property is set to stipple (see [stroke.style](../Stroke_object/stroke20.md)). Acceptable values are "tiny", "small", "medium", and "large". 
+Property; a string that specifies the dot size of a stippled line. This property is available only if the stroke.style property is set to stipple (see [stroke.style](../Stroke_object/stroke20.md)). Acceptable values are "tiny", "small", "medium", and "large". 
 
 The following example sets the dotSize property to tiny for the stroke style of stipple:
 ```javascript

@@ -164,11 +164,9 @@ This option lets you run a script before you have saved it. This option also let
 
 1.  Copy the JSFL file for the tool and any other associated files to the Tools folder (see ["Saving JSFL files"](#saving-jsfl-files)).
 
-2.  Select Edit  > Customize Tools Panel (Windows) or Animate > Customize Tools Panel (Macintosh).
+2.  If tool is not visible in toolbar, click three dots (Edit Toolbar...)
 
 3.  Add the tool to the list of available tools.
-
-4.  Click OK.
 
 You can add individual JavaScript API commands to ActionScript files by using the MMExecute() function, which is documented in the *ActionScript 3.0 Language and Components Reference*. However, the MMExecute() function has an effect only when it is used in the context of a custom user interface element, such as a component Property inspector, or a SWF panel within the authoring environment. Even if called from ActionScript, JavaScript API commands have no effect in Flash Player or outside the authoring environment.
 

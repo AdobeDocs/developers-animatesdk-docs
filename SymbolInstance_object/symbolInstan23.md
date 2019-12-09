@@ -10,7 +10,8 @@ symbolInstance.shortcut
 
 #### Description
 
-Property; a string that is equivalent to the shortcut key associated with the symbol. This property is equivalent to the Shortcut field in the Accessibility panel. This key is read by the screen readers. This property is not available for graphic symbols.
+Property; a string that is equivalent to the shortcut key associated with the symbol. This property is equivalent to the Shortcut field in the Accessibility panel. This key is read by the screen readers.
+This property is not available for graphic symbols.
 
 #### Example
 

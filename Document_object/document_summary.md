@@ -37,8 +37,8 @@ You can use the following methods with the Document object:
 | [document.mouseDblClk()](../Document_object/docum140.md)                | Performs a double mouse click from the Selection tool.                                                                                                                           |
 | [document.moveSelectedBezierPointsBy()](../Document_object/docum150.md) | If the selection contains at least one path with at least one Bézier point selected, this method moves all selected Bézier points on all selected paths by the specified amount. |
 | [document.moveSelectionBy()](../Document_object/docum160.md)            | Moves selected objects by a specified distance.                                                                                                                                  |
-| [document.optimizeCurves()](../Document_object/docum180.md)             | Optimizes smoothing for the current selection, allowing multiple passes, if specified, for optimal smoothing; equivalent to selecting Modify \Shape \Optimize.               |
-| [document.publish()](../Document_object/docum210.md)                    | Publishes the document according to the active publish settings (File \Publish Settings); equivalent to selecting File \Publish.                                             |
+| [document.optimizeCurves()](../Document_object/docum180.md)             | Optimizes smoothing for the current selection, allowing multiple passes, if specified, for optimal smoothing; equivalent to selecting Modify >Shape >Optimize.               |
+| [document.publish()](../Document_object/docum210.md)                    | Publishes the document according to the active publish settings (File >Publish Settings); equivalent to selecting File >Publish.                                             |
 | [document.punch()](../Document_object/docum230.md)                      | Uses the top selected drawing object to punch through all selected drawing objects underneath it.                                                                                |
 | [document.removeAllFilters()](../Document_object/docum240.md)           | Removes all filters from the selected objects.                                                                                                                                   |
 | [document.removeDataFromDocument()](../Document_object/docum250.md)     | Removes persistent data with the specified name that has been attached to the document.                                                                                          |
@@ -52,15 +52,15 @@ You can use the following methods with the Document object:
 | [document.reorderScene()](../Document_object/docum300.md)             | Moves the specified scene before another specified scene.                                                                                                                                                                                                           |
 | [document.resetOvalObject()](../Document_object/docum310.md)          | Sets all values in the Property inspector to default Oval object settings.                                                                                                                                                                                          |
 | [document.resetRectangleObject()](../Document_object/docum320.md)     | Sets all values in the Property inspector to default Rectangle object settings.                                                                                                                                                                                     |
-| [document.resetTransformation()](../Document_object/docum330.md)      | Resets the transformation matrix; equivalent to selecting Modify \Transform \Remove Transform.                                                                                                                                                                  |
-| [document.revert()](../Document_object/docum340.md)                   | Reverts the specified document to its previously saved version; equivalent to selecting File \Revert.                                                                                                                                                             |
+| [document.resetTransformation()](../Document_object/docum330.md)      | Resets the transformation matrix; equivalent to selecting Modify >Transform >Remove Transform.                                                                                                                                                                  |
+| [document.revert()](../Document_object/docum340.md)                   | Reverts the specified document to its previously saved version; equivalent to selecting File >Revert.                                                                                                                                                             |
 | [document.rotate3DSelection()](../Document_object/docum350.md)        | Applies a 3D rotation to the selection.                                                                                                                                                                                                                             |
 | [document.rotateSelection()](../Document_object/docum360.md)          | Rotates the selection by a specified number of degrees.                                                                                                                                                                                                             |
-| [document.save()](../Document_object/docum370.md)                     | Saves the document in its default location; equivalent to selecting File \Save.                                                                                                                                                                                   |
+| [document.save()](../Document_object/docum370.md)                     | Saves the document in its default location; equivalent to selecting File >Save.                                                                                                                                                                                   |
 | [document.saveAsCopy()](../Document_object/docum390.md)               | Saves a copy of the document to a specified location.                                                                                                                                                                                                               |
 | [document.saveAndCompact() - dropped](../Document_object/docum380.md) | Dropped in Adobe Animate.                                                                                                                                                                                                     |
 | [document.scaleSelection()](../Document_object/docum400.md)           | Scales the selection by a specified amount; equivalent to using the Free Transform tool to scale the object.                                                                                                                                                        |
-| [document.selectAll()](../Document_object/docum420.md)                | Selects all items on the Stage; equivalent to pressing Control+A (Windows) or Command+A (Macintosh) or selecting Edit \Select All.                                                                                                                                |
+| [document.selectAll()](../Document_object/docum420.md)                | Selects all items on the Stage; equivalent to pressing Control+A (Windows) or Command+A (Macintosh) or selecting Edit >Select All.                                                                                                                                |
 | [document.selectNone()](../Document_object/docum440.md)               | Deselects any selected items.                                                                                                                                                                                                                                       |
 | [document.setAlignToDocument()](../Document_object/docum450.md)       | Sets the preferences for [document.align()](../Document_object/docume13.md), [document.distribute()](../Document_object/docume49.md), [document.match()](../Document_object/docum120.md), and [document.space()](../Document_object/docum67.md) to act on the document; equivalent to enabling the To Stage button in the Align panel. |
 | [document.setBlendMode()](../Document_object/docum460.md)             | Sets the blending mode for the selected objects.                                                                                                                                                                                                                    |
@@ -78,10 +78,7 @@ You can use the following methods with the Document object:
 | **Method**                                             | **Description**                                                                                                                         |
 |--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | [document.setMetadata()](../Document_object/docum570.md)                | Sets the XML metadata for the specified document, overwriting any existing metadata.                                                    |
-| [document.setMobileSettings()](../Document_object/docum580.md)          | Sets the value of an XML settings string in a mobile FLA file.                                                                          |
-
-
-
+| [document.setMobileSettings()](../Document_object/docum580.md)          | Sets the value of an XML settings string in a mobile FLA file.                                                             |
 | [document.setOvalObjectProperty()](../Document_object/docum590.md)      | Specifies a value for a specified property of primitive Oval objects.                                                                   |
 | [document.setPlayerVersion()](../Document_object/docum600.md)           | Sets the version of the Flash Player targeted by the specified document.                                                                |
 | [document.setRectangleObjectProperty()](../Document_object/docu9643.md) | Specifies a value for a specified property of primitive Rectangle objects.                                                              |
@@ -105,7 +102,7 @@ You can use the following methods with the Document object:
 | [document.swapStrokeAndFill()](../Document_object/docu5901.md)          | Swaps the Stroke and Fill colors.                                                                                                       |
 | [document.testMovie()](../Document_object/docu5948.md)                  | Executes a Test Movie operation on the document.                                                                                        |
 | [document.testScene()](../Document_object/docu5979.md)                  | Executes a Test Scene operation on the current scene of the document.                                                                   |
-| [document.traceBitmap()](../Document_object/docu6010.md)                | Performs a trace bitmap on the current selection; equivalent to selecting Modify \Bitmap \Trace Bitmap.                             |
+| [document.traceBitmap()](../Document_object/docu6010.md)                | Performs a trace bitmap on the current selection; equivalent to selecting Modify>Bitmap>Trace Bitmap.                             |
 | [document.transformSelection()](../Document_object/docu6073.md)         | Performs a general transformation on the current selection by applying the matrix specified in the arguments.                           |
 | [document.translate3DCenter()](../Document_object/docu6042.md)          | Sets the XYZ position around which the selection is translated or rotated.                                                              |
 
@@ -116,6 +113,29 @@ You can use the following methods with the Document object:
 | [document.union()](../Document_object/docu6120.md)                | Combines all selected shapes into a drawing object.          |
 | [document.unlockAllElements()](../Document_object/docu6135.md)    | Unlocks all locked elements on the currently selected frame. |
 | [document.xmlPanel()](../Document_object/docu6198.md)             | Posts a XMLUI dialog box.                                    |
+
+
+| **Method**                                       | **Description**                                              |
+|--------------------------------------------------|--------------------------------------------------------------|
+| [document.addTaggedSwatch()](../Document_object/docu6058.md) | To add new tagged swatch.  |
+| [document.addTaggedSwatchWithColor()](../Document_object/docu6059.md)              | To add new tagged swatch with the given color string.       |
+| [document.getIndexForTaggedSwatchesPalette()](../Document_object/docu6060.md)                | To get the Tagged Swatches palette index for given palette name.          |
+| [document.getTaggedSwatchAtIndex()](../Document_object/docu6061.md)    | returns the Tagged Swatch with the given index. |
+| [document.getTaggedSwatchByName()](../Document_object/docu6062.md)             | returns the Tagged Swatch with the given name.    |
+| [document.getTaggedSwatchesPaletteList()](../Document_object/docu6063.md)             | To get the array of Tagged Swatches palette name
+| [document.getTaggedSwatches()](../Document_object/docu6064.md)             | returns array of tagged swatch objects 
+| [document.deleteTaggedSwatchAtIndex()](../Document_object/docu6065.md)             | delete tagged swatch with given index.
+| [document.deleteTaggedSwatchByName()](../Document_object/docu6066.md)             | delete tagged swatch with given name.
+| [document.setTaggedSwatchAtIndex()](../Document_object/docu6067.md)             | replace the tagged swatch with the given index to the given new swatch object
+| [document.setTaggedSwatchByName()](../Document_object/docu6068.md)             | replace the tagged swatch with the given name to the given new swatch object
+    
+| **Method**                                       | **Description**                                              |
+|--------------------------------------------------|--------------------------------------------------------------|
+| [document.convertToDoc()](../Document_object/docu6069.md) | Applies a 3D translation to the selection.                   |
+| [document.exportCanvasPublishTemplate()](../Document_object/docu6070.md)              | Ungroups the current selection.                              |
+| [document.importCanvasPublishTemplate()](../Document_object/docu6071.md)                | Combines all selected shapes into a drawing object.          |
+| [document.exportMedia()](../Document_object/docu6072.md)    | Unlocks all locked elements on the currently selected frame. |
+
 
 #### Property summary
 

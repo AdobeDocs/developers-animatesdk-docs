@@ -8,6 +8,15 @@ Flash MX 2004.
 
 The Layer object represents a layer in the timeline. The [timeline.layers](../Timeline_object/timeli31.md) property contains an array of Layer objects, which can be accessed by fl.getDocumentDOM().getTimeline().layers.
 
+#### Method summary
+
+The following methods are available for the Item object:
+
+| **Method**                             | **Description**                                                                                                                |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| [layer.getZDepthAtFrame()	](../Item_object/item.md)      | Adds specified data to a library item.                                                                                         |
+| [layer.setZDepthAtFrame()	](../Item_object/item1.md)        | Retrieves the value of the specified data.                                                                                     |
+
 #### Property summary
 
 The following properties are available for the Layer object:
