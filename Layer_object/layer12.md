@@ -2,29 +2,30 @@
 
 #### Availability
 
-Flash MX 2004.
+Adobe Animate 2020.
 
 #### Usage
 
-item.getData(name)
+layer.setZDepthAtFrame(FrameNumber,ZVal)	
 
 #### Parameters
 
-**name** A string that specifies the name of the data to retrieve.
+FrameNumber :frame index,
+ZVal:int
 
 #### Returns
 
-The data specified by the *name* parameter. The type of data returned depends on the type of stored data.
+nothing	
 
 #### Description
 
-Method; retrieves the value of the specified data.
+Method; 
 
 #### Example
 
-The following example gets the value of the data named myData from the first item in the library and stores it in the variable libData:
+The following example illustrates use of this method:
 
 
 ```javascript
-var libData = fl.getDocumentDOM().library.items[0].getData("myData");
+fl.getDocumentDOM().getTimeline().layers[0].setZDepthAtFrame(0,900)	
 ```
