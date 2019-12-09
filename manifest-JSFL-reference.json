@@ -1142,6 +1142,48 @@
              "title": "document.translate3DSelection()"
             },
             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6058.md",
+              "title": "document.addTaggedSwatch()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6059.md",
+              "title": "document.addTaggedSwatchWithColor()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6060.md",
+              "title": "document.getIndexForTaggedSwatchesPalette()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6061.md",
+              "title": "document.getTaggedSwatchAtIndex()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6062.md",
+              "title": "document.getTaggedSwatchByName()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6063.md",
+              "title": "document.getTaggedSwatchesPaletteList()"
+             },
+              {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6064.md",
+              "title": "document.getTaggedSwatches()"
+             }, {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6065.md",
+              "title": "document.deleteTaggedSwatchAtIndex()"
+             }, 
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6066.md",
+              "title": "document.document.deleteTaggedSwatchByName()"
+             }, 
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6067.md",
+              "title": "document.document.setTaggedSwatchAtIndex()"
+             }, {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6068.md",
+              "title": "document.setTaggedSwatchByName()"
+             },
+            {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6073.md",
              "title": "document.transformSelection()"
             },
