@@ -1929,7 +1929,11 @@
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl81.md",
              "title": "fl.xmlui"
-            }           
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl82.md",
+              "title": "fl.addToolInToolbar()"
+             }           
         ],
           "title": "flash (fl) Object"
         },
