@@ -1,22 +1,29 @@
-## SpriteSheetExporter.addBitmap()
+## TextureAtlasExporter.exportTextureAtlas()
 
 #### Availability
 
-Flash Pro CS6.
+Animate 2020.
 
 #### Usage
 
-SpriteSheetExporter.addBitmap(bitmap)
+TextureAtlasExporter.exportTextureAtlas(symbol, path)
 
 #### Parameters
 
-**bitmap** The BitmapItem or Bitmap to include in the sprite sheet.
+**_symbol_**:  Object;  The SymbolItem or SymbolInstance on which texture atlas should be generated.
 
 #### Returns
 
-Nothing.
+Boolean.
 
 #### Description
 
-Method; Adds the specified bitmap or bitmapItem to the sprite sheet object.
+Method; Exports the texture atlas for the selected symbol.
 
+#### Example
+
+``` javascript
+symbolsArr=fl.getDocumentDOM().getTimeline().layers[0].frames[0].elements;
+
+TextureAtlasExporter.exportTextureAtlas(symbolsArr[0].libraryItem)
+````
