@@ -1179,14 +1179,35 @@
              {
               "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6067.md",
               "title": "document.document.setTaggedSwatchAtIndex()"
-             }, {
+             }, 
+             {
               "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6068.md",
               "title": "document.setTaggedSwatchByName()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6069.md",
+              "title": "document.convertToDoc()."
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6070.md",
+              "title": "document.exportCanvasPublishTemplate()."
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6071.md",
+              "title": "document.importCanvasPublishTemplate()."
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6072.md",
+              "title": "document.exportMedia()."
              },
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6073.md",
              "title": "document.transformSelection()"
             },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6074.md",
+              "title": "document.exportSVG()"
+             },
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6104.md",
              "title": "document.unGroup()"
