@@ -14,18 +14,18 @@ The following methods are available for the Item object:
 
 | **Method**                             | **Description**                                                                                                                |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| [layer.getZDepthAtFrame()	](../Item_object/item.md)      | Adds specified data to a library item.                                                                                         |
-| [layer.setZDepthAtFrame()	](../Item_object/item1.md)        | Retrieves the value of the specified data.                                                                                     |
+| [layer.getZDepthAtFrame()	](../Item_object/item.md)      | An integer value that specifies the ZDepth valur at the frame.                                                                                         |
+| [layer.setZDepthAtFrame()	](../Item_object/item1.md)        | Enables to set ZDepth value at the frame.                                                                                     |
 
 
 | **Method**                             | **Description**                                                                                                                |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| [layer.getBlendModeAtFrame()](../Item_object/item.md)      | Adds specified data to a library item.                                                                                         |
-| [layer.getColorTransformAtFrame()](../Item_object/item1.md)        | Retrieves the value of the specified data.                                                                                     |
-| [layer.getFiltersAtFrame()](../Item_object/item.md)      | Adds specified data to a library item.                                                                                         |
-| [layer.setBlendModeAtFrame()](../Item_object/item.md)      | Adds specified data to a library item.                                                                                         |
-| [layer.setColorTransformAtFrame()](../Item_object/item.md)      | Adds specified data to a library item.                                                                                         |
-| [layer. setFiltersAtFrame()](../Item_object/item.md)      | Adds specified data to a library item.                                                                                         |
+| [layer.getBlendModeAtFrame()](../Item_object/item.md)      | A string value that specifies the blend mode at frame.                                                                                         |
+| [layer.getColorTransformAtFrame()](../Item_object/item1.md)        | Based on the mode, the paramters will be updated here. For example, if tint is present, the value corresponding to tint only will be present along with the color matrix values..                                                                                     |
+| [layer.getFiltersAtFrame()](../Item_object/item.md)      | An array that contains a list of filters applied to the frame at frameIndex.                                                                                         |
+| [layer.setBlendModeAtFrame()](../Item_object/item.md)      |FrameNumber :frame index,  ZVal:int.                                                                                         |
+| [layer.setColorTransformAtFrame()](../Item_object/item.md)      | frameIndex – int, cxFormObject - The cxform to be set	.                                                                                         |
+| [layer. setFiltersAtFrame()](../Item_object/item.md)      | frameIndex – int, filterArray - The array of filters to be set.                                                                                         |
 
 #### Property summary
 
