@@ -61,7 +61,7 @@ MMExecute("fl.trace(\"AS3 File Status Panel Initialized\");");
 
 6.  Close Flash.
 
-7.  Copy the fileStatus.swf file to the WindowSWF folder, which is a subfolder of the Configuration folder (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md#Saving-JSFL-files)). For example, on Windows XP, the folder is in \boot drive\Documents and Settings\\user\Local Settings\Application Data\Adobe\Flash CS4\language\Configuration\WindowSWF.
+7.  Copy the fileStatus.swf file to the WindowSWF folder, which is a subfolder of the Configuration folder (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md#saving-jsfl-files)). For example, on Windows XP, the folder is in \boot drive\Documents and Settings\\user\Local Settings\Application Data\Adobe\Flash CS4\language\Configuration\WindowSWF.
 
 8.  Start Flash.
 
