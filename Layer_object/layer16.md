@@ -1,4 +1,4 @@
-## layer.setBlendModeAtFrame()	
+## layer.setZDepthAtFrame()	
 
 #### Availability
 
@@ -6,15 +6,16 @@ Adobe Animate 2020.
 
 #### Usage
 
-layer.setBlendModeAtFrame(frameIndex,blendModeString)		
+layer.setZDepthAtFrame(FrameNumber,ZVal)	
 
 #### Parameters
 
-frameIndex – int , blendModeString - The blendmode to be set	
+FrameNumber :frame index,
+ZVal:int
 
 #### Returns
 
-none		
+nothing	
 
 #### Description
 
@@ -26,7 +27,5 @@ The following example illustrates use of this method:
 
 
 ```javascript
-var myBlend = an. getDocumentDOM(). getTimeline(). layers[0].getBlendModeAtFrame (0);
-
-an.getDocumentDOM().getTimeline().layers[0]. setBlendModeAtFrame (9, myBlend);	
+fl.getDocumentDOM().getTimeline().layers[0].setZDepthAtFrame(0,900)	
 ```

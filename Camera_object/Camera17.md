@@ -1,30 +1,21 @@
-## filter.strength
+## camera.cameraEnabled	
 
 #### Availability
 
-Flash 8.
+Adobe Animate 2020
 
 #### Usage
 
-filter.strength
+camera.cameraEnabled	
 
-#### Description
+#### Returns
 
-Property; an integer that specifies the percentage strength of the filter. Acceptable values are between 0 and 25,500. This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "glowFilter", "gradientGlowFilter", or "gradientBevelFilter" for the [filter.name](../Filter_object/filter13.md) property.
+Boolean
 
 #### Example
 
-The following example sets the strength to 50 for the Glow filters on the selected object(s):
 ```javascript
-var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'glowFilter'){
-myFilters[i].strength = 50;
-}
-}
-fl.getDocumentDOM().setFilters(myFilters);
+var timeline = an.getDocumentDOM().getTimeline();
 
+fl.trace(timeline.camera.cameraEnabled);
 ```
-#### See also
-
-[document.setFilterProperty()](../Document_object/docum520.md)
