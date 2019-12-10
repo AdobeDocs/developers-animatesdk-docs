@@ -17,6 +17,16 @@ The following methods are available for the Item object:
 | [layer.getZDepthAtFrame()	](../Item_object/item.md)      | Adds specified data to a library item.                                                                                         |
 | [layer.setZDepthAtFrame()	](../Item_object/item1.md)        | Retrieves the value of the specified data.                                                                                     |
 
+
+| **Method**                             | **Description**                                                                                                                |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| [layer.getBlendModeAtFrame()](../Item_object/item.md)      | Adds specified data to a library item.                                                                                         |
+| [layer.getColorTransformAtFrame()](../Item_object/item1.md)        | Retrieves the value of the specified data.                                                                                     |
+| [layer.getFiltersAtFrame()](../Item_object/item.md)      | Adds specified data to a library item.                                                                                         |
+| [layer.setBlendModeAtFrame()](../Item_object/item.md)      | Adds specified data to a library item.                                                                                         |
+| [layer.setColorTransformAtFrame()](../Item_object/item.md)      | Adds specified data to a library item.                                                                                         |
+| [layer. setFiltersAtFrame()](../Item_object/item.md)      | Adds specified data to a library item.                                                                                         |
+
 #### Property summary
 
 The following properties are available for the Layer object:

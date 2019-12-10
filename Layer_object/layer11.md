@@ -1,4 +1,4 @@
-## item.getData()
+## layer.getZDepthAtFrame()	
 
 #### Availability
 
