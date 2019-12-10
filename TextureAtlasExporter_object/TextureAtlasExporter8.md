@@ -10,10 +10,11 @@ TextureAtlasExporter.flattenSkewObject
 
 #### Description
 
-Property;boolean Flatten the skewed assets to the sheet.
+Property; Boolean value which indicates whether skewed assets needs to be flattened to the texture atlas.
 
 #### Example
 
 ``` javascript
-
+var exporter = new TextureAtlasExporter;
+exporter.flattenSkewObject = true;
 ````

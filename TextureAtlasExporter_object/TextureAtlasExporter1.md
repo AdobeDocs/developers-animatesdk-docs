@@ -10,7 +10,7 @@ TextureAtlasExporter.algorithm
 
 #### Description
 
-Property;  A string indicating which algorithm to use to pack the sprite sheet. Valid values are "basic", and
+Property;  A string indicating which algorithm to use to pack the TextureAtlas. Valid values are "basic", and
 "maxRects" (the default).
 
 #### Example

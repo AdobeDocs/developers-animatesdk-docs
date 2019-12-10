@@ -24,31 +24,20 @@ In addition to the Item object properties, the following properties are availabl
 
 | **Property**                                       | **Description**                                                                                                          |
 |----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| [SpriteSheetExporter.algorithm](../SpriteSheetExporter_object/SpriteSheetExporte2.md)     | Sets the encoding algorithm for the sprite sheet.                                                                        |
-| [SpriteSheetExporter.allowRotate](../SpriteSheetExporter_object/SpriteSheetExporte3.md)   | Allows sprites to be rotated when added to the sprite sheet.                                                             |
-| [SpriteSheetExporter.allowTrimming](../SpriteSheetExporter_object/SpriteSheetExporte4.md) | Allows trimming of whitespace around sprites.                                                                            |
-| [SpriteSheetExporter.app](../SpriteSheetExporter_object/SpriteSheetExporte5.md)           | A string indicating the name of the application generating the sprite sheet.                                             |
-| [SpriteSheetExporter.autoSize](../SpriteSheetExporter_object/SpriteSheetExporte6.md)      | Automatically size the sprite sheet to fit all sprites.                                                                  |
-| [SpriteSheetExporter.borderPadding](../SpriteSheetExporter_object/SpriteSheetExporte8.md) | The amount of padding around the sprite sheet borders, in pixels.                                                        |
-| [SpriteSheetExporter.canBorderPad](../SpriteSheetExporter_object/SpriteSheetExporte9.md)  | A Boolean value indicating whether border padding is supported by the framework specified by the layoutFormat property.  |
-| [SpriteSheetExporter.canRotate](../SpriteSheetExporter_object/SpriteSheetExport10.md)     | A Boolean value indicating whether sprite rotation is supported by the framework specified by the layoutFormat property. |
-| [SpriteSheetExporter.canShapePad](../SpriteSheetExporter_object/SpriteSheetExport12.md)   | A Boolean value indicating whether shape padding is supported by the framework specified by the layoutFormat property.   |
-
-| **Property**                                                                       | **Description**                                                                                                          |
-|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| [SpriteSheetExporter.canStackDuplicateFrames](../SpriteSheetExporter_object/SpriteSheetExport13.md)     | A Boolean value indicating whether sprite stacking is supported by the framework specified by the layoutFormat property. |
-| [SpriteSheetExporter.canTrim](../SpriteSheetExporter_object/SpriteSheetExport11.md)                                       | A Boolean value indicating whether shape trimming is supported by the framework specified by the layoutFormat property.  |
-| [SpriteSheetExporter.format](../SpriteSheetExporter_object/SpriteSheetExport16.md)                                        | The format of the sprite sheet image file.                                                                               |
-| [SpriteSheetExporter.image](../SpriteSheetExporter_object/SpriteSheetExport17.md)                                         | The name of the image file of the sprite sheet.                                                                          |
-| [SpriteSheetExporter.layoutFormat](../SpriteSheetExporter_object/SpriteSheetExport18.md)                                  | The format of the sprite sheet metadata.                                                                                 |
-| [SpriteSheetExporter.maxSheetHeight](../SpriteSheetExporter_object/SpriteSheetExport19.md) | Controls the maximum height of the generated sprite sheet when autoSize = true, clipped to a maximum value of 8192.      |
-| [SpriteSheetExporter.maxSheetWidth](../SpriteSheetExporter_object/SpriteSheetExport20.md)  | Controls the maximum width of the generated sprite sheet when autoSize = true, clipped to a maximum value of 8192.       |
-| [SpriteSheetExporter.overflowed](../SpriteSheetExporter_object/SpriteSheetExport21.md)                                    | A Boolean value indicating whether all the specified frames can fit in the specified sprite sheet size.                  |
-| [SpriteSheetExporter.shapePadding](../SpriteSheetExporter_object/SpriteSheetExport24.md)                                  | The amount of padding around each sprite, in pixels.                                                                     |
-| [SpriteSheetExporter.sheetHeight](../SpriteSheetExporter_object/SpriteSheetExport25.md)                                   | The height of the sprite sheet, in pixels.                                                                               |
-| [SpriteSheetExporter.sheetWidth](../SpriteSheetExporter_object/SpriteSheetExport26.md)                                    | The width of the sprite sheet, in pixels.                                                                                |
-| [SpriteSheetExporter.stackDuplicate](../SpriteSheetExporter_object/SpriteSheetExport27.md)        | A Boolean value indicating whether to stack identical symbol frames in the sprite sheet.                                 |
-| [SpriteSheetExporter.version](../SpriteSheetExporter_object/SpriteSheetExport28.md)                                       | The version number of the application creating the sprite sheet.                                                         |
-
-<span id="SpriteSheetExporter.addBitmap()" class="anchor"></span>
-
+| [TextureAtlasExporter.algorithm](../SpriteSheetExporter_object/SpriteSheetExporte2.md)     | Sets the encoding algorithm for the TextureAtlas                                |
+| [TextureAtlasExporter.allowRotate](../SpriteSheetExporter_object/SpriteSheetExporte3.md)   | Allows sprites to be rotated when added to the TextureAtlas                                       
+| [TextureAtlasExporter.app](../SpriteSheetExporter_object/SpriteSheetExporte5.md)           | A string indicating the name of the application that is generating the TextureAtlas.                                             |
+| [TextureAtlasExporter.autoSize](../SpriteSheetExporter_object/SpriteSheetExporte6.md)      | A boolean value indicating whether the TextureAtlasExporter should calculate the overall size of TextureAtlas on its own.                                                                  |
+| [TextureAtlasExporter.borderPadding](../SpriteSheetExporter_object/SpriteSheetExporte8.md) | An integer indicating the number of pixels of padding to add around each texture in the texture atlas.        
+| [TextureAtlasExporter.canRotate](../SpriteSheetExporter_object/SpriteSheetExport10.md)     | A boolean value indicating whether the framework specified by the TextureAtlasExporter.layoutFormat property may rotate textures when adding them to the texture atlas. |
+| [TextureAtlasExporter.filePath](../SpriteSheetExporter_object/SpriteSheetExport12.md)   | It's the location where the texture atlas files needs to be exported.    |
+| [TextureAtlasExporter.flattenSkewObject](../SpriteSheetExporter_object/SpriteSheetExport12.md)   | It's the location where the texture atlas files needs to be exported.    |
+| [TextureAtlasExporter.imageFormat](../SpriteSheetExporter_object/SpriteSheetExport12.md)   | Boolean value which indicates whether skewed assets needs to be flattened to the texture atlas..    |
+| [TextureAtlasExporter.optimizeBitmap](../SpriteSheetExporter_object/SpriteSheetExport12.md)   | Boolean value which indicates whether texture atlas bitmaps needs to be optimized by removing extra spaces.    |
+| [TextureAtlasExporter.optimizeJson](../SpriteSheetExporter_object/SpriteSheetExport12.md)   |  Boolean value which indicates whether animation.json needs to be optimized by removing indentation, decomposed matrix and use shortened names.    |
+| [TextureAtlasExporter.overflowed](../SpriteSheetExporter_object/SpriteSheetExport12.md)   | Read-only property; Boolean value which indicates, if any assets are remaining after packing into texture atlas.    |
+| [TextureAtlasExporter.resolution](../SpriteSheetExporter_object/SpriteSheetExport12.md)   | Floating value which indicates in which resolution the textures needs to be exported.    |
+| [TextureAtlasExporter.shapePadding](../SpriteSheetExporter_object/SpriteSheetExport12.md)   | An integer value indicating how many pixels of padding should be added to each exported symbol frame when adding it to the TextureAtlas.    |
+| [TextureAtlasExporter.sheetHeight](../SpriteSheetExporter_object/SpriteSheetExport12.md)   | An integer value specifying the height of the texture atlas. This value is read-only if TextureAtlasExporter.autoSize is set to true..    |
+| [TextureAtlasExporter.sheetWidth](../SpriteSheetExporter_object/SpriteSheetExport12.md)   | An integer value specifying the width of the texture atlas. This value is read-only if TextureAtlasExporter.autoSize is set to true.    |
+| [TextureAtlasExporter.version](../SpriteSheetExporter_object/SpriteSheetExport12.md)   | Read-only property; A stinrg indicating the version number of the Animate application. This property is provided for use by texture atlas plugins.    |

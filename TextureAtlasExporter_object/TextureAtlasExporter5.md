@@ -10,7 +10,7 @@ TextureAtlasExporter.borderPadding
 
 #### Description
 
-Property; An integer indicating the number of pixels of padding to add around each sprite in the sprite sheet.
+Property; An integer indicating the number of pixels of padding to add around each texture in the texture atlas.
 
 #### Example
 
