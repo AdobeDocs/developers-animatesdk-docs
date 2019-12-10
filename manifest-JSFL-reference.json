@@ -1179,14 +1179,35 @@
              {
               "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6067.md",
               "title": "document.document.setTaggedSwatchAtIndex()"
-             }, {
+             }, 
+             {
               "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6068.md",
               "title": "document.setTaggedSwatchByName()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6069.md",
+              "title": "document.convertToDoc()."
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6070.md",
+              "title": "document.exportCanvasPublishTemplate()."
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6071.md",
+              "title": "document.importCanvasPublishTemplate()."
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6072.md",
+              "title": "document.exportMedia()."
              },
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6073.md",
              "title": "document.transformSelection()"
             },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6074.md",
+              "title": "document.exportSVG()"
+             },
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6104.md",
              "title": "document.unGroup()"
@@ -1908,7 +1929,11 @@
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl81.md",
              "title": "fl.xmlui"
-            }           
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl82.md",
+              "title": "fl.addToolInToolbar()"
+             }           
         ],
           "title": "flash (fl) Object"
         },
@@ -2392,6 +2417,30 @@
              {
               "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer12.md",
               "title": "layer.setZDepthAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer13.md",
+              "title": "layer.getFiltersAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer14.md",
+              "title": "layer. setFiltersAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer15.md",
+              "title": "layer.getColorTransformAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer16.md",
+              "title": "layer.setColorTransformAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer17.md",
+              "title": "layer.getBlendModeAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer18.md",
+              "title": "layer.setBlendModeAtFrame()"
              }          
         ],
           "title": "Layer Object"
@@ -2413,7 +2462,19 @@
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting3.md",
              "title": "layer.getRigMatrixAtFrame()"
-            }           
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting4.md",
+              "title": "layer.getRigParentAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting5.md",
+              "title": "layer.setRigParentAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting6.md",
+              "title": "layer.getRigMatrixAtFrame()"
+             }                    
         ],
           "title": "Layer Parenting Object"
         },

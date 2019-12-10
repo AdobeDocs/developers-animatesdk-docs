@@ -1,4 +1,4 @@
-## layer.getRigMatrixAtFrame()
+## layer.setRigParentAtFrame()	
 
 #### Availability
 
@@ -6,20 +6,22 @@ Adobe Animate 2020.
 
 #### Parameters
 
-frameIndex – int
+frameIndex – int , layer - The layer object to be set as parent	
 
 #### Usage
 
-layer.getRigMatrixAtFrame(frameIndex)
+layer.setRigParentAtFrame(frameIndex,layer)	
 
 #### Returns
 
-matrix object
+none	
 
 #### Example
 
 ```javascript
 
-var matrix = an. getDocumentDOM(). getTimeline(). layers[0]. getRigMatrixAtFrame (0);
+var myParent=an.getDocumentDOM().
+getTimeline().layers[0].getRigParentAtFrame (0);
+an.getDocumentDOM().getTimeline().layers[0].setRigParentAtFrame (9, myParent);
 
 ```

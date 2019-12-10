@@ -44,6 +44,7 @@ The following properties are available for the Timeline object:
 
 | **Property**                            | **Description**                                                                              |
 |-----------------------------------------|----------------------------------------------------------------------------------------------|
+| [timeline.advancedLayersEnabled](../Timeline_object/timeli52.md)         | enable / disable advanced layers mode. |
 | [timeline.currentFrame](../Timeline_object/timeli12.md) | A zero-based index for the frame at the current playhead location.                           |
 | [timeline.currentLayer](../Timeline_object/timeli13.md) | A zero-based index for the currently active layer.                                           |
 | [timeline.frameCount](../Timeline_object/timeli20.md)   | Read-only; an integer that represents the number of frames in this timeline’s longest layer. |
@@ -51,7 +52,7 @@ The following properties are available for the Timeline object:
 | [timeline.layers](../Timeline_object/timeli31.md)       | Read-only; an array of layer objects.                                                        |
 | [timeline.libraryItem](../Timeline_object/timeli32.md)  | Read-only property; indicates whether the timeline belongs to a scene.                       |
 | [timeline.name](../Timeline_object/timeli33.md)         | A string that represents the name of the current timeline.                                   |
-| [timeline.advancedLayersEnabled](../Timeline_object/timeli52.md)         | enable / disable advanced layers mode. |
+
 
 <span id="timeline.addMotionGuide()" class="anchor"></span>
 
