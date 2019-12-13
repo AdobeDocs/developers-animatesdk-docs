@@ -50,19 +50,19 @@ The following methods and properties for existing objects are new in Animate 202
 
     -   [layer.setRigParentAtFrame()](../Layer_Parenting_Object/layerParenting2.md)
 
-    -   [layer.getRigMatrixAtFrame()](../Layer_Parenting_Object/layerParenting6.md)
+    -   [layer.getRigMatrixAtFrame()](../Layer_Parenting_Object/layerParenting3.md)
 
-    -   [layer.getFiltersAtFrame()](../Layer_object/layer13.md)
+    -   [layer.getFiltersAtFrame()](../Layer_object/layer15.md)
 
-    -   [layer. setFiltersAtFrame()](../Layer_object/layer14.md)
+    -   [layer. setFiltersAtFrame()](../Layer_object/layer18.md)
 
-    -   [layer.getColorTransformAtFrame()](../Layer_object/layer15.md)
+    -   [layer.getColorTransformAtFrame()](../Layer_object/layer14.md)
 
-    -   [layer.setColorTransformAtFrame()](../Layer_object/layer16.md)
+    -   [layer.setColorTransformAtFrame()](../Layer_object/layer17.md)
 
-    -   [layer.getBlendModeAtFrame()](../Layer_object/layer17.md)
+    -   [layer.getBlendModeAtFrame()](../Layer_object/layer13.md)
 
-    -   [layer.setBlendModeAtFrame()](../Layer_object/layer18.md)
+    -   [layer.setBlendModeAtFrame()](../Layer_object/layer16.md)
 
 -   [Timeline object](../Timeline_object/timeline_summary.md)
 
