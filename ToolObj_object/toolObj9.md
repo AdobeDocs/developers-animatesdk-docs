@@ -22,7 +22,7 @@ Method; sets the tooltip that appears when the mouse is held over the tool icon.
 
 #### Example
 
-The following example specifies that the tooltip for the tool should be PolyStar Tool. This code is taken from the sample PolyStar.jsfl file (see[ "Sample PolyStar tool"](../Introduction/Sample_implementations.md#Sample-PolyStar-tool)):
+The following example specifies that the tooltip for the tool should be PolyStar Tool. This code is taken from the sample PolyStar.jsfl file (see[ "Sample PolyStar tool"](../Introduction/Sample_implementations.md#sample-polyStar-tool)):
 
 ```javascript
 theTool = fl.tools.activeTool;

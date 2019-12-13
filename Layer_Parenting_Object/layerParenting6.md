@@ -1,4 +1,4 @@
-## layer.getRigMatrixAtFrame()
+## layer.getRigMatrixAtFrame()	
 
 #### Availability
 
@@ -10,7 +10,7 @@ frameIndex – int
 
 #### Usage
 
-layer.getRigMatrixAtFrame(frameIndex)
+layer. getRigMatrixAtFrame(frameIndex)	
 
 #### Returns
 
