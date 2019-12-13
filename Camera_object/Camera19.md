@@ -8,6 +8,10 @@ Adobe Animate 2020
 
 camera.colorFilterEnabled	
 
+#### Description
+
+This property is defined Enable camera's color Filter
+
 #### Returns
 
 Boolean
