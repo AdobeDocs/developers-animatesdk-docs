@@ -34,7 +34,7 @@ The following methods and properties for existing objects are new in Animate 202
 
     -   [document.exportCanvasPublishTemplate()](../Document_object/docu6070.md)
 
-    -   [document.importCanvasPublishTemplate()](../Document_object/docume6071.md)
+    -   [document.importCanvasPublishTemplate()](../Document_object/docu6071.md)
 
     -  [document.exportMedia()](../Document_object/docu6072.md)
 
