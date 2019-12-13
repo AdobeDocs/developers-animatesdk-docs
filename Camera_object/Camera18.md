@@ -8,21 +8,13 @@ Adobe Animate 2020
 
 camera.tintEnabled	
 
-#### Parameters
-
-frameIndex:int
-
 #### Return
 
-double
+Boolean
 
 #### Description
 
 This property is defined Enable tint
-
-#### Returns
-
-Boolean
 
 #### Example
 
@@ -30,4 +22,5 @@ Boolean
 var timeline = an.getDocumentDOM().getTimeline();
 
 fl.trace(timeline.camera.tintEnabled);
+
 ```

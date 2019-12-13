@@ -8,21 +8,13 @@ Adobe Animate 2020
 
 camera.cameraEnabled	
 
-#### Parameters
-
-frameIndex:int
-
 #### Return
 
-double
+Boolean
 
 #### Description
 
 This property is defined to Enable camera.
-
-#### Returns
-
-Boolean
 
 #### Example
 

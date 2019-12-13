@@ -8,27 +8,19 @@ Adobe Animate 2020
 
 camera.colorFilterEnabled	
 
-#### Parameters
-
-frameIndex:int
-
 #### Return
 
-double
+Boolean
 
 #### Description
 
-This property is defined Enable camera's color Filter
-
-#### Returns
-
-Boolean
+This property is defined Enable camera's color Filter.
 
 #### Example
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
 
-fl.trace(timeline.camera.colorFilterEnabled); 
+fl.trace(timeline.camera.colorFilterEnabled);
 
 ```
