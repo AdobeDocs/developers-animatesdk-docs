@@ -8,6 +8,14 @@ Flash 8.
 
 filter.name
 
+#### Parameters
+
+frameIndex:int
+
+#### Return
+
+double
+
 #### Description
 
 Read-only property; a string that specifies the type of filter. The value of this property determines which other properties of the Filter object are available. The value is one of the following: "adjustColorFilter", "bevelFilter", "blurFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", or "gradientGlowFilter".
