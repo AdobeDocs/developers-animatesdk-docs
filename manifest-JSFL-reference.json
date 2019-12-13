@@ -2383,6 +2383,22 @@
              "title": "layer.frames"
             },
             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer17.md",
+              "title": "layer.getBlendModeAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer15.md",
+              "title": "layer.getColorTransformAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer13.md",
+              "title": "layer.getFiltersAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer11.md",
+              "title": "layer.getZDepthAtFrame()"
+             }, 
+            {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer4.md",
              "title": "layer.height"
             },
@@ -2407,41 +2423,25 @@
              "title": "layer.parentLayer"
             },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer10.md",
-             "title": "layer.visible"
-            },
-            {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer11.md",
-              "title": "layer.getZDepthAtFrame()"
-             }, 
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer18.md",
+              "title": "layer.setBlendModeAtFrame()"
+             },  
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer12.md",
-              "title": "layer.setZDepthAtFrame()"
-             },
-             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer13.md",
-              "title": "layer.getFiltersAtFrame()"
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer16.md",
+              "title": "layer.setColorTransformAtFrame()"
              },
              {
               "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer14.md",
               "title": "layer. setFiltersAtFrame()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer15.md",
-              "title": "layer.getColorTransformAtFrame()"
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer12.md",
+              "title": "layer.setZDepthAtFrame()"
              },
-             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer16.md",
-              "title": "layer.setColorTransformAtFrame()"
-             },
-             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer17.md",
-              "title": "layer.getBlendModeAtFrame()"
-             },
-             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer18.md",
-              "title": "layer.setBlendModeAtFrame()"
-             }          
+            {
+             "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer10.md",
+             "title": "layer.visible"
+            }
         ],
           "title": "Layer Object"
         },
@@ -2452,29 +2452,17 @@
              "title": "layerParenting summary"
             },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting1.md",
-             "title": "layer.getRigParentAtFrame()"
-            },
-            {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting2.md",
-             "title": "layer.setRigParentAtFrame()"
-            },
-            {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting3.md",
              "title": "layer.getRigMatrixAtFrame()"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting4.md",
-              "title": "layer.getRigParentAtFrame()"
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting1.md",
+             "title": "layer.getRigParentAtFrame()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting5.md",
-              "title": "layer.setRigParentAtFrame()"
-             },
-             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting6.md",
-              "title": "layer.getRigMatrixAtFrame()"
-             }                    
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting2.md",
+             "title": "layer.setRigParentAtFrame()"
+             }                
         ],
           "title": "Layer Parenting Object"
         },
