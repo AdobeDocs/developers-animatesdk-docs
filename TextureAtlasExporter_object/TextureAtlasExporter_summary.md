@@ -1,22 +1,22 @@
-## SpriteSheetExporter summary
+## TextureAtlasExporter summary
 
-**Inheritance** [Item object](../Item_object/item_summary.md) >SpriteSheetExporter object
+**Inheritance** [Item object](../Item_object/item_summary.md) >TextureAtlasExporter object
 
 #### Availability
 
-Flash Pro CS6.
+Animate 2020.
 
 #### Description
 
-The SpriteSheetExporter object is a subclass of the [Item object](../Item_object/item_summary.md).
+The TextureAtlasExporter object is a subclass of the [Item object](../Item_object/item_summary.md).
 
 #### Method summary
 
-In addition to the Item object methods, you can use the following methods with the SpriteSheetExporter object:
+In addition to the Item object methods, you can use the following methods with the TextureAtlasExporter object:
 
 | **Method**                                                          | **Description**                                                   |
 |---------------------------------------------------------------------|-------------------------------------------------------------------|
-| [SpriteSheetExporter.addBitmap()](../TextureAtlasExporter_object\TextureAtlasExporter.md) | Adds a bitmap or bitmapItem to the sprite sheet.      |
+| [TextureAtlasExporter.exportTextureAtlas()](../TextureAtlasExporter_object\TextureAtlasExporter.md)| Exports the texture atlas for the selected symbol. |
 
 #### Property summary
 

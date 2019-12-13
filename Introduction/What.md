@@ -8,71 +8,71 @@ The following methods and properties for existing objects are new in Animate 202
 
 -   [Document object](../Document_object/document_summary.md)
 
-    -   document.getTaggedSwatches()
+    -   [document.getTaggedSwatches()](../Document_object/docu6064.md)
 
-    -   document.getTaggedSwatchByName()
+    -   [document.getTaggedSwatchByName()](../Document_object/docu6062.md)
 
-    -   document.getTaggedSwatchAtIndex()
+    -   [document.getTaggedSwatchAtIndex()](../Document_object/docu6061.md)
 
-    -   document.setTaggedSwatchByName()
+    -   [document.setTaggedSwatchByName()](../Document_object/docu6068.md)
 
-    -   document.setTaggedSwatchAtIndex()
+    -   [document.setTaggedSwatchAtIndex()](../Document_object/docu6067.md)
 
-    -   document.addTaggedSwatch()
+    -   [document.addTaggedSwatch()](../Document_object/docu6058.md)
 
-    -   document.addTaggedSwatchWithColor()
+    -   [document.addTaggedSwatchWithColor()](../Document_object/docu6059.md)
 
-    -   document.deleteTaggedSwatchByName()
+    -  [document.deleteTaggedSwatchByName()](../Document_object/docu6066.md)
 
-    -   document.deleteTaggedSwatchAtIndex()
+    -   [document.deleteTaggedSwatchAtIndex()](../Document_object/docu6065.md)
 
-    -   document.getTaggedSwatchesPaletteList()
+    -   [document.getTaggedSwatchesPaletteList()](../Document_object/docu6063.md)
 
-    -   document.getIndexForTaggedSwatchesPalette()
+    -   [document.getIndexForTaggedSwatchesPalette()](../Document_object/docu6060.md)
 
-    -   document.convertToDoc()
+    -   [document.convertToDoc()](../Document_object/docu6069.md)
 
-    -   document.exportCanvasPublishTemplate()
+    -   [document.exportCanvasPublishTemplate()](../Document_object/docu6070.md)
 
-    -   document.importCanvasPublishTemplate()
+    -   [document.importCanvasPublishTemplate()](../Document_object/docu6071.md)
 
-    -   document.exportMedia()
+    -  [document.exportMedia()](../Document_object/docu6072.md)
 
-    -   document.exportSVG()
+    -   [document.exportSVG()](../Document_object/docu6074.md)
 
 -   [Layer object](../Layer_object/layer_summary.md)
 
-    -   layer.getZDepthAtFrame()
+    -   [layer.getZDepthAtFrame()](../Layer_object/layer11.md)
 
-    -   layer.setZDepthAtFrame()
+    -   [layer.setZDepthAtFrame()](../Layer_object/layer12.md)
 
-    -   layer.getRigParentAtFrame()
+    -   [layer.getRigParentAtFrame()](../Layer_Parenting_Object/layerParenting1.md)
 
-    -   layer.setRigParentAtFrame()
+    -   [layer.setRigParentAtFrame()](../Layer_Parenting_Object/layerParenting2.md)
 
-    -   layer.getRigMatrixAtFrame()
+    -   [layer.getRigMatrixAtFrame()](../Layer_Parenting_Object/layerParenting3.md)
 
-    -   layer.getFiltersAtFrame()
+    -   [layer.getFiltersAtFrame()](../Layer_object/layer15.md)
 
-    -   layer. setFiltersAtFrame()
+    -   [layer. setFiltersAtFrame()](../Layer_object/layer18.md)
 
-    -   layer.getColorTransformAtFrame()
+    -   [layer.getColorTransformAtFrame()](../Layer_object/layer14.md)
 
-    -   layer.setColorTransformAtFrame()
+    -   [layer.setColorTransformAtFrame()](../Layer_object/layer17.md)
 
-    -   layer.getBlendModeAtFrame()
+    -   [layer.getBlendModeAtFrame()](../Layer_object/layer13.md)
 
-    -   layer.setBlendModeAtFrame()
+    -   [layer.setBlendModeAtFrame()](../Layer_object/layer16.md)
 
 -   [Timeline object](../Timeline_object/timeline_summary.md)
 
-    -   timeline.advancedLayersEnabled
+    -   [timeline.advancedLayersEnabled](../Timeline_object/timeli52.md)
 
-    -   timeline.mergeLayers()
+    -   [timeline.mergeLayers()](../Timeline_object/timeli51.md)
 
 -   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
 
-    -   fl.addToolInToolbar()
+    -   [fl.addToolInToolbar()](../flash_object_(fl)/fl82.md)
 
 
 ### New objects in Animate 2020

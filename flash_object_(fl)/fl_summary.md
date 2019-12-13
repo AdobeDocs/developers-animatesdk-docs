@@ -15,6 +15,7 @@ The following methods can be used with the flash object:
 | **Method**                                       | **Description**                                                                                                |
 |--------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | [fl.addEventListener()](../flash_object_(fl)/fl1.md)           | Registers a function to be called when a specific event is received.                                           |
+| [fl.addToolInToolbar()](../flash_object_(fl)/fl1.md)           | Add the specified tool from master toolbar to main toolbar, appends in the last.                                           |
 | [fl.browseForFileURL()](../flash_object_(fl)/fl3.md)           | Opens a File Open or File Save system dialog box and lets the user specify a file to be opened or saved.       |
 | [fl.browseForFolderURL()](../flash_object_(fl)/fl4.md)         | Displays a Browse for Folder dialog box and lets the user select a folder.                                     |
 | [fl.clearPublishCache()](../flash_object_(fl)/fl5.md)          | Clears the publish cache.                                                                                      |

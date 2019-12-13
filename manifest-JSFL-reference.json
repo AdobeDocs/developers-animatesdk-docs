@@ -474,6 +474,14 @@
              "title": "document.addNewText()"
             },
             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6058.md",
+              "title": "document.addTaggedSwatch()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6059.md",
+              "title": "document.addTaggedSwatchWithColor()"
+             },
+            {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume13.md",
              "title": "document.align()"
             },
@@ -566,6 +574,10 @@
              "title": "document.convertSelectionToBitmap()"
             },
             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6069.md",
+              "title": "document.convertToDoc()"
+             },
+            {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume36.md",
              "title": "document.convertToSymbol()"
             },
@@ -601,6 +613,14 @@
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume44.md",
              "title": "document.deleteSelection()"
             },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6065.md",
+              "title": "document.deleteTaggedSwatchAtIndex()"
+             }, 
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6066.md",
+              "title": "document.deleteTaggedSwatchByName()"
+             },
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume45.md",
              "title": "document.description"
@@ -670,6 +690,10 @@
              "title": "document.exitEditMode()"
             },
             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6070.md",
+              "title": "document.exportCanvasPublishTemplate()"
+             },
+            {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume62.md",
              "title": "document.exportInstanceToLibrary()"
             },
@@ -677,6 +701,10 @@
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume63.md",
              "title": "document.exportInstanceToPNGSequence()"
             },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6072.md",
+              "title": "document.exportMedia()"
+             },
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume64.md",
              "title": "document.exportPNG()"
@@ -689,6 +717,10 @@
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume66.md",
              "title": "document.exportPublishProfileString()"
             },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6074.md",
+              "title": "document.exportSVG()"
+             },
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume67.md",
              "title": "document.exportSWF()"
@@ -742,6 +774,10 @@
              "title": "document.getFilters()"
             },
             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6060.md",
+              "title": "document.getIndexForTaggedSwatchesPalette()"
+             },
+            {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume80.md",
              "title": "document.getMetadata()"
             },
@@ -765,6 +801,22 @@
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume85.md",
              "title": "document.getSWFPathFromProfile()"
             },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6061.md",
+              "title": "document.getTaggedSwatchAtIndex()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6062.md",
+              "title": "document.getTaggedSwatchByName()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6064.md",
+              "title": "document.getTaggedSwatches()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6063.md",
+              "title": "document.getTaggedSwatchesPaletteList()"
+             },
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume86.md",
              "title": "document.getTelemetryForSwf()"
@@ -793,6 +845,10 @@
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume92.md",
              "title": "document.id"
             },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6071.md",
+              "title": "document.importCanvasPublishTemplate()"
+             },
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume93.md",
              "title": "document.importFile()"
@@ -1066,6 +1122,14 @@
              "title": "document.setStrokeStyle()"
             },
             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6067.md",
+              "title": "document.setTaggedSwatchAtIndex()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6068.md",
+              "title": "document.setTaggedSwatchByName()"
+             },
+            {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu9846.md",
              "title": "document.setTextRectangle()"
             },
@@ -1141,52 +1205,11 @@
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6057.md",
              "title": "document.translate3DSelection()"
             },
-            {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6058.md",
-              "title": "document.addTaggedSwatch()"
-             },
-             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6059.md",
-              "title": "document.addTaggedSwatchWithColor()"
-             },
-             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6060.md",
-              "title": "document.getIndexForTaggedSwatchesPalette()"
-             },
-             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6061.md",
-              "title": "document.getTaggedSwatchAtIndex()"
-             },
-             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6062.md",
-              "title": "document.getTaggedSwatchByName()"
-             },
-             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6063.md",
-              "title": "document.getTaggedSwatchesPaletteList()"
-             },
-              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6064.md",
-              "title": "document.getTaggedSwatches()"
-             }, {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6065.md",
-              "title": "document.deleteTaggedSwatchAtIndex()"
-             }, 
-             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6066.md",
-              "title": "document.document.deleteTaggedSwatchByName()"
-             }, 
-             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6067.md",
-              "title": "document.document.setTaggedSwatchAtIndex()"
-             }, {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6068.md",
-              "title": "document.setTaggedSwatchByName()"
-             },
-            {
+           {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6073.md",
              "title": "document.transformSelection()"
             },
+          
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6104.md",
              "title": "document.unGroup()"
@@ -1590,6 +1613,10 @@
              "title": "fl.addEventListener()"
             },
             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl82.md",
+              "title": "fl.addToolInToolbar()"
+             },  
+            {
              "path": "AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl2.md",
              "title": "fl.as3PackagePaths"
             },
@@ -1908,7 +1935,7 @@
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl81.md",
              "title": "fl.xmlui"
-            }           
+            }         
         ],
           "title": "flash (fl) Object"
         },
@@ -2358,6 +2385,22 @@
              "title": "layer.frames"
             },
             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer13.md",
+              "title": "layer.getBlendModeAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer14.md",
+              "title": "layer.getColorTransformAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer15.md",
+              "title": "layer.getFiltersAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer11.md",
+              "title": "layer.getZDepthAtFrame()"
+             }, 
+            {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer4.md",
              "title": "layer.height"
             },
@@ -2382,17 +2425,25 @@
              "title": "layer.parentLayer"
             },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer10.md",
-             "title": "layer.visible"
-            },
-            {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer11.md",
-              "title": "layer.getZDepthAtFrame()"
-             }, 
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer16.md",
+              "title": "layer.setBlendModeAtFrame()"
+             },  
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer17.md",
+              "title": "layer.setColorTransformAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer18.md",
+              "title": "layer. setFiltersAtFrame()"
+             },
              {
               "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer12.md",
               "title": "layer.setZDepthAtFrame()"
-             }          
+             },
+            {
+             "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer10.md",
+             "title": "layer.visible"
+            }
         ],
           "title": "Layer Object"
         },
@@ -2403,17 +2454,17 @@
              "title": "layerParenting summary"
             },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting1.md",
-             "title": "layer.getRigParentAtFrame()"
-            },
-            {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting2.md",
-             "title": "layer.setRigParentAtFrame()"
-            },
-            {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting3.md",
              "title": "layer.getRigMatrixAtFrame()"
-            }           
+            },
+            {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting1.md",
+             "title": "layer.getRigParentAtFrame()"
+             },
+             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting2.md",
+             "title": "layer.setRigParentAtFrame()"
+             }                
         ],
           "title": "Layer Parenting Object"
         },
@@ -3741,6 +3792,10 @@
              "title": "timeline.addNewLayer()"
             },
             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli52.md",
+              "title": "timeline.advancedLayersEnabled"
+             }, 
+            {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timelin2.md",
              "title": "timeline.clearFrames()"
             },
@@ -3865,6 +3920,10 @@
              "title": "timeline.libraryItem"
             },
             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli51.md",
+              "title": "timeline.mergeLayers()"
+             },
+            {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli33.md",
              "title": "timeline.name"
             },
@@ -3935,16 +3994,9 @@
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli50.md",
              "title": "timeline.stopPlayback()"
-            },
-            {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli51.md",
-              "title": "timeline.mergeLayers()"
-             },
-             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli52.md",
-              "title": "timeline.advancedLayersEnabled"
-             }           
-        ],
+            }
+            
+           ],
           "title": "Timeline Object"
         },
         {
