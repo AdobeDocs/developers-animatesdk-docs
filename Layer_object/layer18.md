@@ -10,7 +10,7 @@ layer. setFiltersAtFrame (frameIndex,filterArray)
 
 #### Parameters
 
-frameIndex – int, filterArray - The array of filters to be set
+**frameIndex** – int, **filterArray** - The array of filters to be set
 
 #### Returns
 
