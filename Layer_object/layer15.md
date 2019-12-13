@@ -18,7 +18,7 @@ An array that contains a list of filters applied to the frame at frameIndex
 
 #### Description
 
-Method; 
+Method; An array that contains a list of filters applied to the frame at frameIndex. 
 
 #### Example
 
