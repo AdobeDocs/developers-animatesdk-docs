@@ -42,27 +42,27 @@ The following methods and properties for existing objects are new in Animate 202
 
 -   [Layer object](../Layer_object/layer_summary.md)
 
-    -   layer.getZDepthAtFrame()
+    -   [layer.getZDepthAtFrame()](../Layer_object/layer11.md)
 
-    -   layer.setZDepthAtFrame()
+    -   [layer.setZDepthAtFrame()](../Layer_object/layer12.md)
 
-    -   layer.getRigParentAtFrame()
+    -   [layer.getRigParentAtFrame()](../Layer_Parenting_Object/layerParenting1.md)
 
-    -   layer.setRigParentAtFrame()
+    -   [layer.setRigParentAtFrame()](../Layer_Parenting_Object/layerParenting2.md)
 
-    -   layer.getRigMatrixAtFrame()
+    -   [layer.getRigMatrixAtFrame()](../Layer_Parenting_Object/layerParenting6.md)
 
-    -   layer.getFiltersAtFrame()
+    -   [layer.getFiltersAtFrame()](../Layer_object/layer13.md)
 
-    -   layer. setFiltersAtFrame()
+    -   [layer. setFiltersAtFrame()](../Layer_object/layer14.md)
 
-    -   layer.getColorTransformAtFrame()
+    -   [layer.getColorTransformAtFrame()](../Layer_object/layer15.md)
 
-    -   layer.setColorTransformAtFrame()
+    -   [layer.setColorTransformAtFrame()](../Layer_object/layer16.md)
 
-    -   layer.getBlendModeAtFrame()
+    -   [layer.getBlendModeAtFrame()](../Layer_object/layer17.md)
 
-    -   layer.setBlendModeAtFrame()
+    -   [layer.setBlendModeAtFrame()](../Layer_object/layer18.md)
 
 -   [Timeline object](../Timeline_object/timeline_summary.md)
 
@@ -72,7 +72,7 @@ The following methods and properties for existing objects are new in Animate 202
 
 -   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
 
-    -   fl.addToolInToolbar()
+    -   [fl.addToolInToolbar()](../flash_object_(fl)/fl82.md)
 
 
 ### New objects in Animate 2020
