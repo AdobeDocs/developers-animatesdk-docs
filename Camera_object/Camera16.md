@@ -1,12 +1,12 @@
-## filter.shadowColor
+## reset()
 
 #### Availability
 
-Flash 8.
+Adobe Animate 2020.
 
 #### Usage
 
-filter.shadowColor
+camera.reset(frameIndex)
 
 #### Parameters
 
@@ -14,33 +14,16 @@ frameIndex:int
 
 #### Return
 
-double
+Nothing
 
 #### Description
 
-Property; the color of the shadow, in one of the following formats:
-
--   A string in the format "#RRGGBB" or "#RRGGBBAA"
-
--   A hexadecimal number in the format 0xRRGGBB
-
--   An integer that represents the decimal equivalent of a hexadecimal number
-
-This property is defined for Filter objects with a value of "bevelFilter" for the [filter.name](../Filter_object/filter13.md) property.
+Property; Reset all camera properties to default.
 
 #### Example
 
-The following example sets the shadow color to "#ff00003e" for the Bevel filters on the selected object(s):
+The following example reset all camera properties to default.
 ```javascript
-var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'bevelFilter'){
-myFilters[i].shadowColor = '#ff00003e';
-}
-}
-fl.getDocumentDOM().setFilters(myFilters);
-
+var timeline = an.getDocumentDOM().getTimeline();
+timeline.camera.reset(0);
 ```
-#### See also
-
-[document.setFilterProperty()](../Document_object/docum520.md)

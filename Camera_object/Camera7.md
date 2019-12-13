@@ -1,35 +1,29 @@
-## filter.enabled
+## setZoom()
 
 #### Availability
 
-Flash CS3 Professional.
+Adobe Animate 2020
 
 #### Usage
 
-filter.enabled
+camera.setZoom(frameIndex, zoomVal)
 
 #### Parameters
 
-frameIndex:int
+frameIndex:int zoomVal:int
 
 #### Return
 
-double
+Nothing
 
 #### Description
 
-Property; a Boolean value that specifies whether the specified filter is enabled (true) or disabled (false).
+Property; Zoom camera to absolute value given by input parameter in percentage.
 
 #### Example
 
-The following example disables the Color filters on the selected object(s):
+The following example zooms camera to absolute value given by input parameter in percentage.
 ```javascript
-var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'adjustColorFilter'){
-myFilters[i].enabled = false;
-}
-}
-fl.getDocumentDOM().setFilters(myFilters);
-
+var timeline = an.getDocumentDOM().getTimeline();
+timeline.camera.setZoom(37,-100);
 ```

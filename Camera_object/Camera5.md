@@ -1,12 +1,12 @@
-## filter.contrast
+## getColorFilter()
 
 #### Availability
 
-Flash 8.
+Adobe Animate 2020.
 
 #### Usage
 
-filter.contrast
+camera.getColorFilter(frameIndex)
 
 #### Parameters
 
@@ -14,22 +14,24 @@ frameIndex:int
 
 #### Return
 
-double
+object
+e.g.{brightness:0,contrast:0,saturation:0,hue:0}
 
 #### Description
 
-Property; a float value that specifies the contrast value of the filter. Acceptable values are between -100 and 100. This property is defined for Filter objects with a value of "adjustColorFilter" for the [filter.name](../Filter_object/filter13.md) property.
+Property; Get camera color filter.
 
 #### Example
 
-The following example sets the contrast value to -15.5 for the Adjust Color filters on the selected object(s):
+The following example gets camera color filter.
 ```javascript
-var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'adjustColorFilter'){
-myFilters[i].contrast = -15.5;
-}
-}
-fl.getDocumentDOM().setFilters(myFilters);
+var timeline = an.getDocumentDOM().getTimeline();
+timeline.camera.cameraEnabled = true;
+timeline.camera.colorFilterEnabled = true;
+var filterVal = timeline.camera.getColorFilter(0);
+fl.trace(" Brightness: " + filterVal.brightness +
+" Contrast: " + filterVal.contrast+ 
+" Saturation: " + filterVal.saturation + 
+" Hue: " + filterVal.hue);
 
 ```

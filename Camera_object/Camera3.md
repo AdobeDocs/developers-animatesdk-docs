@@ -2,7 +2,7 @@
 
 #### Availability
 
-Animate CC.
+Adobe Animate 2020.
 
 #### Usage
 

@@ -1,12 +1,12 @@
-## filter.quality
+## resetTint()
 
 #### Availability
 
-Flash 8.
+Adobe Animate 2020.
 
 #### Usage
 
-filter.quality
+camera.resetTint(frameIndex)
 
 #### Parameters
 
@@ -14,25 +14,18 @@ frameIndex:int
 
 #### Return
 
-double
+Nothing.
 
 #### Description
 
-Property; a string that specifies the blur quality. Acceptable values are "low", "medium", and "high" ("high" is similar to a Gaussian blur). This property is defined for Filter objects with a value of "bevelFilter", "blurFilter", "dropShadowFilter", "glowFilter", "gradientGlowFilter", or "gradientBevelFilter" for the [filter.name](../Filter_object/filter13.md) property.
+Property; Remove camera tint.
 
 #### Example
 
-The following example sets the blur quality to "medium" for the Glow filters on the selected object(s):
+The following example Remove camera tint.
 ```javascript
-var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'glowFilter'){
-myFilters[i].quality = 'medium';
-}
-}
-fl.getDocumentDOM().setFilters(myFilters);
+var timeline = an.getDocumentDOM().getTimeline();
+timeline.camera.resetPosition(0);
 
 ```
-#### See also
 
-[document.setFilterProperty()](../Document_object/docum520.md)

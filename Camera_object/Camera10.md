@@ -1,35 +1,33 @@
-## filter.hue
+## setColorFilter()
 
 #### Availability
 
-Flash 8.
+Adobe Animate 2020.
 
 #### Usage
 
-filter.hue
+camera.setColorFilter(frameIndex, brightness, contrast, saturation, hue)
 
 #### Parameters
 
-frameIndex:int
+frameIndex:int brightness:number contrast:number saturation:number hue:number
 
 #### Return
 
-double
+nothing
 
 #### Description
 
-Property; a float value that specifies the hue of the filter. Acceptable values are between -180 and 180. This property is defined for Filter objects with a value of "adjustColorFilter" for the [filter.name](../Filter_object/filter13.md) property.
+Property; Set camera color filter using decomposed values of (Brightness,Contrast,saturation,hue).
 
 #### Example
 
-The following example sets the hue to 120 for the Adjust Color filters on the selected object(s):
+The following example sets Set camera color filter using decomposed values of (Brightness,Contrast,saturation,hue).
 ```javascript
-var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'adjustColorFilter'){
-myFilters[i].hue = 120;
-}
-}
-fl.getDocumentDOM().setFilters(myFilters);
+var timeline = an.getDocumentDOM().getTimeline();
+timeline.camera.cameraEnabled = true;
+timeline.camera.colorFilterEnabled = true;
+
+timeline.camera.setColorFilter(0, 50, 255, 255, 100);
 
 ```
