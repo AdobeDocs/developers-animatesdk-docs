@@ -80,7 +80,7 @@ The following object is new in Flash CS6:
 
 -   [TextureAtlasExporter object](../TextureAtlasExporter_object/TextureAtlasExporter_summary.md)
 
--   [Camera object](../Camera_object/Camera_summary.md)
+-   [Camera object](../Camera_object/Camera_Summary.md)
 
 ### New methods and properties in Flash CC
 
