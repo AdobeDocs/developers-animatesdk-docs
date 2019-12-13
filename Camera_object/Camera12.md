@@ -8,6 +8,14 @@ Flash 8.
 
 filter.knockout
 
+#### Parameters
+
+frameIndex:int
+
+#### Return
+
+double
+
 #### Description
 
 Property; a Boolean value that specifies whether the filter is a knockout filter (true) or not (false). This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", or "gradientGlowFilter" for the [filter.name](../Filter_object/filter13.md) property.

@@ -8,6 +8,14 @@ Flash 8.
 
 filter.type
 
+#### Parameters
+
+frameIndex:int
+
+#### Return
+
+double
+
 #### Description
 
 Property; a string that specifies the type of bevel or glow. Acceptable values are "inner", "outer", and "full". This property is defined for Filter objects with a value of "bevelFilter", "gradientGlowFilter", or "gradientBevelFilter" for the [filter.name](../Filter_object/filter13.md) property.

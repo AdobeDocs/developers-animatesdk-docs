@@ -8,6 +8,14 @@ Flash 8.
 
 filter.hideObject
 
+#### Parameters
+
+frameIndex:int
+
+#### Return
+
+double
+
 #### Description
 
 Property; a Boolean value that specifies whether the source image is hidden (true) or displayed (false). This property is defined for Filter objects with a value of "dropShadowFilter" for the [filter.name](../Filter_object/filter13.md) property.
