@@ -1,4 +1,4 @@
-## layer.setZDepthAtFrame()	
+## layer.setBlendModeAtFrame()
 
 #### Availability
 

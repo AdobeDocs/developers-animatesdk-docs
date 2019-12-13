@@ -2383,15 +2383,15 @@
              "title": "layer.frames"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer17.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer13.md",
               "title": "layer.getBlendModeAtFrame()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer15.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer14.md",
               "title": "layer.getColorTransformAtFrame()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer13.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer15.md",
               "title": "layer.getFiltersAtFrame()"
              },
              {
@@ -2423,15 +2423,15 @@
              "title": "layer.parentLayer"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer18.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer16.md",
               "title": "layer.setBlendModeAtFrame()"
              },  
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer16.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer17.md",
               "title": "layer.setColorTransformAtFrame()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer14.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer18.md",
               "title": "layer. setFiltersAtFrame()"
              },
              {
