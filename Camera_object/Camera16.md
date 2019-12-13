@@ -8,6 +8,14 @@ Flash 8.
 
 filter.shadowColor
 
+#### Parameters
+
+frameIndex:int
+
+#### Return
+
+double
+
 #### Description
 
 Property; the color of the shadow, in one of the following formats:

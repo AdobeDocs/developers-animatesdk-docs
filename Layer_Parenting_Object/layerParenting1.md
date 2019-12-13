@@ -6,7 +6,7 @@ Adobe Animate 2020.
 
 #### Parameters
 
-frameIndex – int
+**frameIndex** – int
 
 #### Usage
 

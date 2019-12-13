@@ -10,7 +10,7 @@ layer.getColorTransformAtFrame(frameIndex)
 
 #### Parameters
 
-frameIndex - int (absolute frame index)
+**frameIndex** - int (absolute frame index)
 
 #### Returns
 

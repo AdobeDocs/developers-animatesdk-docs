@@ -10,7 +10,7 @@ layer.setColorTransformAtFrame(frameIndex,cxformObject)
 
 #### Parameters
 
-frameIndex – int, cxFormObject - The cxform to be set	
+**frameIndex** – int, **cxFormObject** - The cxform to be set	
 
 #### Returns
 

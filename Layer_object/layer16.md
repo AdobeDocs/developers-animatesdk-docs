@@ -10,7 +10,7 @@ layer.setBlendModeAtFrame(frameIndex,blendModeString)
 
 #### Parameters
 
-frameIndex – int , blendModeString - The blendmode to be set
+**frameIndex** – int , **blendModeString** - The blendmode to be set
 
 #### Returns
 

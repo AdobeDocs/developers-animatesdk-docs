@@ -8,6 +8,14 @@ Flash 8.
 
 filter.highlightColor
 
+#### Parameters
+
+frameIndex:int
+
+#### Return
+
+double
+
 #### Description
 
 Property; the color of the highlight, in one of the following formats:

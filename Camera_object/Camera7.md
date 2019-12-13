@@ -8,6 +8,14 @@ Flash CS3 Professional.
 
 filter.enabled
 
+#### Parameters
+
+frameIndex:int
+
+#### Return
+
+double
+
 #### Description
 
 Property; a Boolean value that specifies whether the specified filter is enabled (true) or disabled (false).
