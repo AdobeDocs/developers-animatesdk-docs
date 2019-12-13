@@ -8,6 +8,10 @@ Adobe Animate 2020
 
 camera.tintEnabled	
 
+#### Description
+
+This property is defined Enable tint
+
 #### Returns
 
 Boolean
