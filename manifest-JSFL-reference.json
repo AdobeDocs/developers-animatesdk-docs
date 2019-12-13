@@ -619,7 +619,7 @@
              }, 
              {
               "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6066.md",
-              "title": "document.document.deleteTaggedSwatchByName()"
+              "title": "document.deleteTaggedSwatchByName()"
              },
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume45.md",
@@ -1123,7 +1123,7 @@
             },
             {
               "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6067.md",
-              "title": "document.document.setTaggedSwatchAtIndex()"
+              "title": "document.setTaggedSwatchAtIndex()"
              },
              {
               "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6068.md",
