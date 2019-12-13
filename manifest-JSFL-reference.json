@@ -1611,6 +1611,10 @@
              "title": "fl.addEventListener()"
             },
             {
+              "path": "AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl82.md",
+              "title": "fl.addToolInToolbar()"
+             },  
+            {
              "path": "AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl2.md",
              "title": "fl.as3PackagePaths"
             },
@@ -1929,11 +1933,7 @@
             {
              "path": "AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl81.md",
              "title": "fl.xmlui"
-            },
-            {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl82.md",
-              "title": "fl.addToolInToolbar()"
-             }           
+            }         
         ],
           "title": "flash (fl) Object"
         },
