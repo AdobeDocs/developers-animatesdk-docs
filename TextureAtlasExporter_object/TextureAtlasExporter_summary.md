@@ -16,7 +16,7 @@ In addition to the Item object methods, you can use the following methods with t
 
 | **Method**                                                          | **Description**                                                   |
 |---------------------------------------------------------------------|-------------------------------------------------------------------|
-| [TextureAtlasExporter.exportTextureAtlas()](../TextureAtlasExporter_object\TextureAtlasExporter.md)| Exports the texture atlas for the selected symbol. |
+| [TextureAtlasExporter.exportTextureAtlas()](../TextureAtlasExporter_object/TextureAtlasExporter.md)| Exports the texture atlas for the selected symbol. |
 
 #### Property summary
 
