@@ -1,32 +1,31 @@
-## filter.knockout
+## resetRotation()
 
 #### Availability
 
-Flash 8.
+Adobe Animate 2020.
 
 #### Usage
 
-filter.knockout
+camera.resetRotation(frameIndex)
+
+#### Parameters
+
+frameIndex:int
+
+#### Return
+
+Nothing.
 
 #### Description
 
-Property; a Boolean value that specifies whether the filter is a knockout filter (true) or not (false). This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "glowFilter", "gradientBevelFilter", or "gradientGlowFilter" for the [filter.name](../Filter_object/filter13.md) property.
+Property; Reset camera angle to zero.
 
 #### Example
 
-The following example sets the knockout property to true for the Glow filters on the selected object(s):
+The following example resets camera angle to zero.
 ```javascript
-var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'glowFilter'){
-myFilters[i].knockout = true;
-}
-}
-fl.getDocumentDOM().setFilters(myFilters);
+var timeline = an.getDocumentDOM().getTimeline();
+timeline.camera.resetRotation(0);
 
 ```
-#### See also
 
-[document.setFilterProperty()](../Document_object/docum520.md)
-
-<span id="filter.name" class="anchor"></span>

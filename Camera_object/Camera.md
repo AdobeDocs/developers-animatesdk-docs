@@ -1,30 +1,35 @@
-## filter.angle
+## getZDepth()
 
 #### Availability
 
-Flash 8.
+Adobe Animate 2020.
 
 #### Usage
 
-filter.angle
+*camera.getZDepth(frameIndex)*
+
+#### Parameters
+
+frameIndex:int
+
+#### Return
+
+int
+
 
 #### Description
 
-Property; a float value that specifies the angle of the shadow or highlight color, in degrees. Acceptable values are between 0 and 360. This property is defined for Filter objects with a value of "bevelFilter", "dropShadowFilter", "gradientBevelFilter", or "gradientGlowFilter" for the [filter.name](../Filter_object/filter13.md) property.
+Property; Return current Z Depth value of camera.
 
 #### Example
 
-The following example sets the angle to 120 for the Bevel filters on the selected object(s):
+The following example :
 ```javascript
-var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++) {
-if(myFilters[i].name == 'bevelFilter'){
-myFilters[i].angle = 120;
-}
-}
-fl.getDocumentDOM().setFilters(myFilters);
+var timeline = an.getDocumentDOM().getTimeline();
+timeline.camera.cameraEnabled = true;
+var depth = timeline.camera.getZDepth(0);
 
 ```
 #### See also
 
-[document.setFilterProperty()](../Document_object/docum520.md)
+[getRotation()](../Camera_object/Camera2.md)

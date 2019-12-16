@@ -10,8 +10,8 @@ layer.setZDepthAtFrame(FrameNumber,ZVal)
 
 #### Parameters
 
-FrameNumber :frame index,
-ZVal:int
+**FrameNumber** :frame index, 
+**ZVal**:int
 
 #### Returns
 
@@ -19,7 +19,7 @@ nothing
 
 #### Description
 
-Method; 
+Method; Enables to set ZDepth value at the frame.
 
 #### Example
 

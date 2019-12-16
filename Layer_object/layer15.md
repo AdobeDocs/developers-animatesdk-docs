@@ -10,7 +10,7 @@ layer.getFiltersAtFrame(frameIndex)
 
 #### Parameters
 
-frameIndex - int (absolute frame index)	
+**frameIndex** - int (absolute frame index)	
 
 #### Returns
 
@@ -18,7 +18,7 @@ An array that contains a list of filters applied to the frame at frameIndex
 
 #### Description
 
-Method; 
+Method; An array that contains a list of filters applied to the frame at frameIndex. 
 
 #### Example
 

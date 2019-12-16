@@ -10,7 +10,7 @@ layer.getBlendModeAtFrame(frameIndex)
 
 #### Parameters
 
-frameIndex - int (absolute frame index)	
+**frameIndex** - int (absolute frame index)	
 
 #### Returns
 
@@ -18,7 +18,7 @@ blendmode string
 
 #### Description
 
-Method; 
+Method; A string value that specifies the blend mode at frame.
 
 #### Example
 

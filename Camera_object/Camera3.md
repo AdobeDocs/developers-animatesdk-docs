@@ -1,27 +1,24 @@
-## filter.brightness
+## getPosition()
 
 #### Availability
 
-Flash 8.
+Adobe Animate 2020.
 
 #### Usage
 
-filter.brightness
+*camera.getPosition(frameIndex)*
+
+#### Parameters
+
+frameIndex:int
+
+#### Return
+
+Point object
+e.g.{x:0,y:0}
 
 #### Description
 
-Property; a float value that specifies the brightness of the filter. Acceptable values are between -100 and 100. This property is defined for Filter objects with a value of "adjustColorFilter" for the [filter.name](../Filter_object/filter13.md) property.
+Property; Return object with x,y, and z properties that specify current location of camera. 
 
-#### Example
 
-The following example sets the brightness to 30.5 for the Adjust Color filters on the selected object(s):
-```javascript
-var myFilters = fl.getDocumentDOM().getFilters();
-for(i=0; i < myFilters.length; i++){
-if(myFilters[i].name == 'adjustColorFilter'){
-myFilters[i].brightness = 30.5;
-}
-}
-fl.getDocumentDOM().setFilters(myFilters);
-
-```

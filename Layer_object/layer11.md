@@ -18,7 +18,7 @@ ZVal:int
 
 #### Description
 
-Method;
+Method; An integer value that specifies the ZDepth valur at the frame.
 
 #### Example
 

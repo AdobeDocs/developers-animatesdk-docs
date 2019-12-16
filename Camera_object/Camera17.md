@@ -8,9 +8,13 @@ Adobe Animate 2020
 
 camera.cameraEnabled	
 
-#### Returns
+#### Return
 
 Boolean
+
+#### Description
+
+This property is defined to Enable camera.
 
 #### Example
 

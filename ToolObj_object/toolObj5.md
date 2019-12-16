@@ -22,7 +22,7 @@ Method; sets the string that appears in the pop-up menu as the name for the tool
 
 #### Example
 
-The following example specifies that the tool named theTool should display the name "PolyStar Tool" in its pop-up menu. This code is taken from the sample PolyStar.jsfl file (see ["Sample PolyStar tool"](../Introduction/Sample_implementations.md#Sample-PolyStar-tool)):
+The following example specifies that the tool named theTool should display the name "PolyStar Tool" in its pop-up menu. This code is taken from the sample PolyStar.jsfl file (see ["Sample PolyStar tool"](../Introduction/Sample_implementations.md#sample-polyStar-tool)):
 
 ```javascript
 theTool = fl.tools.activeTool;

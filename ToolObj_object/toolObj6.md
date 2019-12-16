@@ -48,7 +48,7 @@ type="Double" />
 ```
 #### Example
 
-The following example specifies that the file named PolyStar.xml is associated with the currently active tool. This code is taken from the sample PolyStar.jsfl file (see ["Sample PolyStar tool"](../Introduction/Sample_implementations.md#Sample-PolyStar-tool)):
+The following example specifies that the file named PolyStar.xml is associated with the currently active tool. This code is taken from the sample PolyStar.jsfl file (see ["Sample PolyStar tool"](../Introduction/Sample_implementations.md#sample-polyStar-tool)):
 
 ```javascript
 theTool = fl.tools.activeTool;

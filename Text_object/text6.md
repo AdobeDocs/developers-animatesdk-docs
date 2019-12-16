@@ -14,7 +14,7 @@ Property; a string that specifies characters to embed. This is equivalent to ent
 
 This property works only with dynamic or input text; it generates a warning if used with other text types.
 
-***Note:** Beginning in Flash Professional CS5, font embedding is controlled at the document level instead of the text object level. Use the* *["fontItem.embeddedCharacters"](../fontItem_object/fontIte2.md#fontItem.embeddedCharacters) property instead of the text.embeddedCharacters property.*
+***Note:** Beginning in Flash Professional CS5, font embedding is controlled at the document level instead of the text object level. Use the* *["fontItem.embeddedCharacters"](../fontItem_object/fontIte2.md#fontitem.embeddedCharacters) property instead of the text.embeddedCharacters property.*
 
 #### Example
 
