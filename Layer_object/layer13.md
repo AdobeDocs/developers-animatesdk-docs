@@ -2,7 +2,7 @@
 
 #### Availability
 
-Adobe Animate 2020.
+Animate 2020.
 
 #### Usage
 
@@ -18,7 +18,7 @@ blendmode string
 
 #### Description
 
-A string value that specifies the blend mode at frame.
+Method; A string value that specifies the blend mode at frame.
 
 #### Example
 

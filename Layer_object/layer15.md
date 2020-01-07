@@ -2,7 +2,7 @@
 
 #### Availability
 
-Adobe Animate 2020.
+Animate 2020.
 
 #### Usage
 
@@ -18,7 +18,7 @@ An array that contains a list of filters applied to the frame at frameIndex
 
 #### Description
 
-An array that contains a list of filters applied to the frame at frameIndex. 
+Method; An array that contains a list of filters applied to the frame at frameIndex. 
 
 #### Example
 

@@ -2,7 +2,7 @@
 
 #### Availability
 
-Adobe Animate 2019.
+Animate 2019.
 
 #### Usage
 
@@ -18,7 +18,7 @@ ZVal:int
 
 #### Description
 
-An integer value that specifies the ZDepth value of the frame.
+Method; An integer value that specifies the ZDepth value of the frame.
 
 #### Example
 
