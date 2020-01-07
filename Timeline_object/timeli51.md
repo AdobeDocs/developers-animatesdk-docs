@@ -2,7 +2,7 @@
 
 #### Availability
 
-Adobe Animate 2020.
+Animate 2020.
 
 #### Usage
 
@@ -10,9 +10,9 @@ timeline.mergeLayers(startLayerNum:int,endLayerNum:int).
 
 #### Parameters
 
-**startLayerNum**:integer,starting index.
+**startLayerNum**:It is an integer that specifies the starting layer index.
 
-**endLayerNum**:integer,endlayer index.
+**endLayerNum**:It is an integer that specifies the ending layer index.
 
 #### Returns
 
@@ -20,7 +20,7 @@ Nothing.
 
 #### Description
 
-Method; Merge the layer at a specified index, or a range of layers
+Method; Merge the layers within specified range of indexes.
 
 #### Example
 

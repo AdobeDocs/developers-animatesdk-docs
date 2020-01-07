@@ -2,7 +2,7 @@
 
 #### Availability
 
-AdobeAnimate2020.
+Animate 2020.
 
 #### Usage
 
@@ -11,12 +11,12 @@ timeline.advancedLayersEnabled
 
 #### Description
 
-Property; enable / disable advanced layers mode.
+Property; Checks the advanced layers mode is enabled or disabled.
 
 #### Example
 
 
-The following example enables/disables the advanced layer mode.
+The following example enables or disables the advanced layer mode.
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
