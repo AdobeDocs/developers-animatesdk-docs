@@ -10,13 +10,12 @@ TextureAtlasExporter.version
 
 #### Description
 
-Read-only property; A stinr gindicating the version number of the Flash Pro application. This property is provided for
-use by sprite sheet plugins
+Read-only property; A stinrg indicating the version number of the Animate application. This property is provided for use by texture atlas plugins.
 
 #### Example
 
 ``` javascript
 var exporter = new TextureAtlasExporter;
-alert(exporter.verion);
-// "12.0.0.416"
+alert(exporter.version);
+// "20.0.1.19255"
 ````

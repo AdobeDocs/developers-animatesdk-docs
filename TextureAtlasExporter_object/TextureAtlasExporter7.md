@@ -10,10 +10,11 @@ TextureAtlasExporter.filePath
 
 #### Description
 
-Property; Specify the location of the texture atlas files.
+property; It's the location where the texture atlas files needs to be exported.
 
 #### Example
 
 ``` javascript
-
+var exporter = new TextureAtlasExporter;
+exporter.filePath  = "file:///Downloads/TextureAtlasExporter";
 ````

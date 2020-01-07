@@ -10,10 +10,11 @@ TextureAtlasExporter.resolution
 
 #### Description
 
-Property;.
+Property; Floating value which indicates in which resolution the textures needs to be exported. 
 
 #### Example
 
 ``` javascript
-
+var exporter = new TextureAtlasExporter;
+exporter.resolution = 1.5;
 ````

@@ -10,8 +10,7 @@ TextureAtlasExporter.autoSize
 
 #### Description
 
-Property; A boolean value indicating whether the sprite sheet exporter should calculate the overall size of the sprite
-sheet on its own.
+Property; A boolean value indicating whether the TextureAtlasExporter should calculate the overall size of TextureAtlas on its own.
 
 #### Example
 

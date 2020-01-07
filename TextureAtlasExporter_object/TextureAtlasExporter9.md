@@ -10,10 +10,11 @@ TextureAtlasExporter.imageFormat
 
 #### Description
 
-Property;The format of the sheet image file.(string: “RGB8888”  and “RGB8”)
+property; The format of the texture atlas bitmaps 32 bit and 8 bit represented as “RGB8888”  and “RGB8” respectively.
 
 #### Example
 
 ``` javascript
-
+var exporter = new TextureAtlasExporter;
+exporter.imageFormat = "RGB8";
 ````

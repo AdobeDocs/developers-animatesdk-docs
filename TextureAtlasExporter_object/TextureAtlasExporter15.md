@@ -10,8 +10,7 @@ TextureAtlasExporter.sheetHeight
 
 #### Description
 
-Property; An integer value specifying the height of the sprite sheet. This value is read-only if
-SpriteSheetExporter.autoSize is set to true.
+Property; An integer value specifying the height of the texture atlas. This value is read-only if TextureAtlasExporter.autoSize is set to true.
 
 #### Example
 
