@@ -2,7 +2,7 @@
 
 #### Availability
 
-Adobe Animate 2020.
+Animate 2019.
 
 #### Usage
 
@@ -10,7 +10,7 @@ layer.getZDepthAtFrame(FrameNumber)
 
 #### Parameters
 
-**FrameNumber :frame index** A string that specifies the index of the frame.	
+**FrameNumber :frame index** An integer specifying the frame index	number starting from 0.
 
 #### Returns
 
@@ -18,7 +18,7 @@ ZVal:int
 
 #### Description
 
-Method; An integer value that specifies the ZDepth valur at the frame.
+Method; An integer value that specifies the ZDepth value of the frame.
 
 #### Example
 

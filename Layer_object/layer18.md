@@ -2,7 +2,7 @@
 
 #### Availability
 
-Adobe Animate 2020.
+Animate 2020.
 
 #### Usage
 
@@ -18,7 +18,7 @@ none
 
 #### Description
 
-Method; It sets filters at frame.
+Method; Sets filters at frame.
 
 #### Example
 
