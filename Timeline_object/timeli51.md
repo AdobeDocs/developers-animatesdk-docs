@@ -16,7 +16,7 @@ timeline.mergeLayers(startLayerNum:int,endLayerNum:int).
 
 #### Returns
 
-Nothing.
+Layer Object of the merged layer.
 
 #### Description
 
@@ -26,5 +26,5 @@ Method; Merge the layers within specified range of indexes.
 
 The following example merge layers from index 0 to 3.
 ```javascript
-fl.getDocumentDOM().getTimeline().mergeLayers(0,3)
+fl.getDocumentDOM().getTimeline().mergeLayers(0,3);
 ```

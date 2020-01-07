@@ -11,14 +11,14 @@ timeline.advancedLayersEnabled
 
 #### Description
 
-Property; Checks the advanced layers mode is enabled or disabled.
+Property;A boolean value that specifies the advanced layers mode is enabled or disabled.
 
 #### Example
 
 
-The following example enables or disables the advanced layer mode.
+The following example enables the advanced layer mode.
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
-timeline.advancedLayersEnabled = true / false
+timeline.advancedLayersEnabled = true ;
 ```
