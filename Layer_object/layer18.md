@@ -18,7 +18,7 @@ none
 
 #### Description
 
-Method; It sets filters at frame.
+Sets filters at frame.
 
 #### Example
 

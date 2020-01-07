@@ -2,7 +2,7 @@
 
 #### Availability
 
-Adobe Animate 2020.
+Adobe Animate 2019.
 
 #### Usage
 
@@ -19,7 +19,7 @@ nothing
 
 #### Description
 
-Method; Enables to set ZDepth value at the frame.
+Sets the ZDepth value at the specified frame number.
 
 #### Example
 

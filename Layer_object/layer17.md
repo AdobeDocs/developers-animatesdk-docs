@@ -18,7 +18,7 @@ none
 
 #### Description
 
-Method; It sets the color transform at frame.
+Sets the color transform at frame.
 
 #### Example
 

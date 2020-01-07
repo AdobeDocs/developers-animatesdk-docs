@@ -18,7 +18,7 @@ blendmode string
 
 #### Description
 
-Method; A string value that specifies the blend mode at frame.
+A string value that specifies the blend mode at frame.
 
 #### Example
 

@@ -18,7 +18,7 @@ none
 
 #### Description
 
-Method; It sets blend mode at the frame.
+Sets blend mode at the frame.
 
 #### Example
 
