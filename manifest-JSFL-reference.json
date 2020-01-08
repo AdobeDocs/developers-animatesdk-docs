@@ -302,7 +302,7 @@
               },
               {
                 "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera6.md",
-                "title": "setZDepth"
+                "title": "setZDepth()"
               },
               {
                 "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera7.md",
