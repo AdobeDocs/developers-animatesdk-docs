@@ -6,7 +6,7 @@ Adobe Animate 2020.
 
 #### Parameters
 
-**frameIndex** – int
+**frameIndex** – It is an integer that specifies absolute frame index.
 
 #### Usage
 
@@ -15,6 +15,10 @@ layer.getRigParentAtFrame(frameIndex)
 #### Returns
 
 layer object
+
+#### Description
+
+Method; It will return the layer parent at the given frame.
 
 #### Example
 

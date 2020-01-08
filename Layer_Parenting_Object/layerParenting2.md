@@ -17,6 +17,10 @@ Adobe Animate 2020.
 
 none
 
+#### Description
+
+Method; It will set the layer parent at the particular frame.
+
 #### Example
 
 ```javascript
