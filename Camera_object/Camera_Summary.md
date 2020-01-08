@@ -2,7 +2,7 @@
 
 #### Availability
 
-Adobe Animate 2019.
+Adobe Animate 2019
 
 #### Description
 
