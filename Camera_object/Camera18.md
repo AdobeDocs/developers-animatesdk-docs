@@ -2,7 +2,7 @@
 
 #### Availability
 
-Adobe Animate 2020
+Animate 2020
 
 #### Usage
 
@@ -14,9 +14,11 @@ Boolean
 
 #### Description
 
-This property is defined Enable tint
+Property; Used to Enable tint
 
 #### Example
+
+The following example enables the tint:
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();

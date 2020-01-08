@@ -2,7 +2,7 @@
 
 #### Availability
 
-Adobe Animate 2020
+Animate 2020
 
 #### Usage
 
@@ -14,9 +14,11 @@ Boolean
 
 #### Description
 
-This property is defined Enable camera's color Filter.
+Property; Used to Enable camera's color Filter.
 
 #### Example
+
+The following example enables the color filter:
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
