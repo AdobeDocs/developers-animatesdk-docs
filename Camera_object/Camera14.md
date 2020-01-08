@@ -2,7 +2,7 @@
 
 #### Availability
 
-Adobe Animate 2020.
+Adobe Animate 2019.
 
 #### Usage
 
@@ -24,8 +24,9 @@ Property; Remove camera tint.
 
 The following example Remove camera tint.
 ```javascript
-var timeline = an.getDocumentDOM().getTimeline();
-timeline.camera.resetPosition(0);
+var tl = an.getDocumentDOM().getTimeline();
+tl.camera.resetTint(0); // reset camera tint at first frame in timeline
+
 
 ```
 

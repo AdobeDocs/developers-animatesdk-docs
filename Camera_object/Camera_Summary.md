@@ -2,7 +2,7 @@
 
 #### Availability
 
-Adobe Animate 2020.
+Adobe Animate 2019
 
 #### Description
 
@@ -52,9 +52,9 @@ The following properties can be used with the Camera object:
 
 | **Property**                           | **Description**                                                                                 |
 |----------------------------------------|-------------------------------------------------------------------------------------------------|
-| [camera.cameraEnabled](../Camera_object/Camera17.md)          |       Enables camera|
-| [camera.tintEnabled](../Camera_object/Camera18.md)          |     Enables tint           |
-| [camera.colorFilterEnabled](../Camera_object/Camera19.md)          |  Enables camera's color Filter               |
+| [camera.cameraEnabled](../Camera_object/Camera17.md)          |       Enable/Disable camera|
+| [camera.colorFilterEnabled](../Camera_object/Camera19.md)          |  Enable/Disable camera's color Filter|   
+| [camera.tintEnabled](../Camera_object/Camera18.md)          |     Enable/Disable tint           |            |
 
 
 

@@ -2,24 +2,27 @@
 
 #### Availability
 
-Adobe Animate 2020
+Animate 2019
 
 #### Usage
 
 camera.cameraEnabled	
 
-#### Return
+#### Type
 
-Boolean
+Boolean value true if camera is enabled otherwise false.
 
 #### Description
 
-This property is defined to Enable camera.
+Property; Used to Enable/Disable camera.
 
 #### Example
 
-```javascript
-var timeline = an.getDocumentDOM().getTimeline();
+The following example enables the camera:
 
-fl.trace(timeline.camera.cameraEnabled);
+```javascript
+
+var timeline = an.getDocumentDOM().getTimeline();
+timeline.camera.cameraEnabled = true;
+
 ```

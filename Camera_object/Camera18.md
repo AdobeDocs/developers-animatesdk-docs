@@ -2,25 +2,27 @@
 
 #### Availability
 
-Adobe Animate 2020
+Animate 2019
 
 #### Usage
 
 camera.tintEnabled	
 
-#### Return
+#### Type
 
-Boolean
+Boolean value true if tint is enabled otherwise false.
 
 #### Description
 
-This property is defined Enable tint
+Property; Used to Enable/Disable tint
 
 #### Example
+
+The following example enables the tint:
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
 
-fl.trace(timeline.camera.tintEnabled);
+timeline.camera.tintEnabled = true;
 
 ```

@@ -25,5 +25,5 @@ Method; A string value that specifies the blending mode applied at the particula
 The following example displays the name of the blending mode in the Output panel:
 
 ```javascript
-var myblend= an.getDocumentDOM().getTimeline().layers[0]. getBlendModeAtFrame (0);
+an.trace(an.getDocumentDOM().getTimeline().layers[0].getBlendModeAtFrame(0));
 ```
