@@ -15,7 +15,7 @@ layer. setFiltersAtFrame (frameIndex,filterArray)
 
 #### Returns
 
-none	
+Nothing	
 
 #### Description
 
@@ -23,7 +23,7 @@ Method; Apply filters at a particular frame.
 
 #### Example
 
-The following example illustrates use of this method:
+In the following example it copies the filter applied at the first frame and sets it to the tenth frame:
 
 ```javascript
 var myFilters = an. getDocumentDOM(). getTimeline(). layers[0].getFiltersAtFrame(0);
