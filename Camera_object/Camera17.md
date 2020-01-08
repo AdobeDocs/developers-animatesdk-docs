@@ -8,7 +8,7 @@ Animate 2019
 
 camera.cameraEnabled	
 
-#### Return
+#### Type
 
 Boolean value true if camera is enabled otherwise false.
 
@@ -21,7 +21,8 @@ Property; Used to Enable/Disable camera.
 The following example enables the camera:
 
 ```javascript
-var timeline = an.getDocumentDOM().getTimeline();
 
-fl.trace(timeline.camera.cameraEnabled = true);
+var timeline = an.getDocumentDOM().getTimeline();
+timeline.camera.cameraEnabled = true;
+
 ```

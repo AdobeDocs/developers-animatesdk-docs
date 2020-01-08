@@ -8,7 +8,7 @@ Animate 2019
 
 camera.tintEnabled	
 
-#### Return
+#### Type
 
 Boolean value true if tint is enabled otherwise false.
 
@@ -23,6 +23,6 @@ The following example enables the tint:
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
 
-fl.trace(timeline.camera.tintEnabled = true);
+timeline.camera.tintEnabled = true;
 
 ```

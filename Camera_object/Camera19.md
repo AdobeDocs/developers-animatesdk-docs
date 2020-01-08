@@ -8,7 +8,7 @@ Animate 2019
 
 camera.colorFilterEnabled	
 
-#### Return
+#### Type
 
 Boolean value true if color filter is enabled otherwise false.
 
@@ -23,6 +23,6 @@ The following example enables the color filter:
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
 
-fl.trace(timeline.camera.colorFilterEnabled = true);
+timeline.camera.colorFilterEnabled = true;
 
 ```
