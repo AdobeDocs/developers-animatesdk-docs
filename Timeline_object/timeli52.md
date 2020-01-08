@@ -16,7 +16,7 @@ Property;A boolean value that specifies the advanced layers mode is enabled or d
 #### Example
 
 
-The following example enables the advanced layer mode.
+The following example enables the advanced layers mode.
 
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
