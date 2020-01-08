@@ -16,6 +16,10 @@ layer.getRigMatrixAtFrame(frameIndex)
 
 matrix object
 
+#### Description
+
+Method; It will return the rig matrix at the particular frame.
+
 #### Example
 
 ```javascript

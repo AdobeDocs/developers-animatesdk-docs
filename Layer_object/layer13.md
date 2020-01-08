@@ -10,20 +10,19 @@ layer.getBlendModeAtFrame(frameIndex)
 
 #### Parameters
 
-**frameIndex** - int (absolute frame index)	
+**frameIndex** - It is an integer that specifies absolute frame index.	
 
 #### Returns
 
-blendmode string
+A string value that specifies the blending mode applied at the particular frame.
 
 #### Description
 
-Method; A string value that specifies the blend mode at frame.
+Method; A string value that specifies the blending mode applied at the particular frame.
 
 #### Example
 
-The following example illustrates use of this method:
-
+The following example displays the name of the blending mode in the Output panel:
 
 ```javascript
 var myblend= an.getDocumentDOM().getTimeline().layers[0]. getBlendModeAtFrame (0);

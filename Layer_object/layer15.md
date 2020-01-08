@@ -10,7 +10,7 @@ layer.getFiltersAtFrame(frameIndex)
 
 #### Parameters
 
-**frameIndex** - int (absolute frame index)	
+**frameIndex** - It is an integer that specifies absolute frame index.
 
 #### Returns
 
@@ -23,7 +23,6 @@ Method; An array that contains a list of filters applied to the frame at frameIn
 #### Example
 
 The following example illustrates use of this method:
-
 
 ```javascript
 var myFilters = an.getDocumentDOM().getTimeline().layers[0].getFiltersAtFrame(0);	

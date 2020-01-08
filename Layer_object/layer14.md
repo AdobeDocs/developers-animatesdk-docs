@@ -10,7 +10,7 @@ layer.getColorTransformAtFrame(frameIndex)
 
 #### Parameters
 
-**frameIndex** - int (absolute frame index)
+**frameIndex** - It is an integer that specifies absolute frame index.
 
 #### Returns
 
@@ -24,9 +24,8 @@ Based on the mode, the paramters will be updated here. For example, if tint is p
 
 #### Example
 
-The following example illustrates use of this method:
-
+The following example gets the color transform of the fifth frame of first layer:
 
 ```javascript
-var myCxform = an.getDocumentDOM().getTimeline().layers[0]. getColorTransformAtFrame (0);
+var myCxform = an.getDocumentDOM().getTimeline().layers[0]. getColorTransformAtFrame (4);
 ```

@@ -10,22 +10,21 @@ layer.setZDepthAtFrame(FrameNumber,ZVal)
 
 #### Parameters
 
-**FrameNumber** :frame index, 
-**ZVal**:int
+**FrameNumber** : It is an integer that specifies the frame index starting from 0. 
+**ZVal**: It is an integer that specifies the ZDepth value ranges between -5000 to 10000.
 
 #### Returns
 
-nothing	
+Nothing	
 
 #### Description
 
-Method; Sets the ZDepth value at the specified frame number.
+Method; Sets the ZDepth at the specified frame number.
 
 #### Example
 
-The following example illustrates use of this method:
-
+The following example sets the zdepth value of first frame to 100 of the first layer: 
 
 ```javascript
-fl.getDocumentDOM().getTimeline().layers[0].setZDepthAtFrame(0,900)	
+fl.getDocumentDOM().getTimeline().layers[0].setZDepthAtFrame(0,100);
 ```
