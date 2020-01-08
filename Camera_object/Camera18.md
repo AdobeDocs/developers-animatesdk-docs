@@ -2,7 +2,7 @@
 
 #### Availability
 
-Animate 2020
+Animate 2019
 
 #### Usage
 
@@ -10,11 +10,11 @@ camera.tintEnabled
 
 #### Return
 
-Boolean
+Boolean value true if tint is enabled otherwise false.
 
 #### Description
 
-Property; Used to Enable tint
+Property; Used to Enable/Disable tint
 
 #### Example
 
@@ -23,6 +23,6 @@ The following example enables the tint:
 ```javascript
 var timeline = an.getDocumentDOM().getTimeline();
 
-fl.trace(timeline.camera.tintEnabled);
+fl.trace(timeline.camera.tintEnabled = true);
 
 ```
