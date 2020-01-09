@@ -6,7 +6,7 @@ Adobe Animate 2020.
 
 #### Parameters
 
-**frameIndex** – int
+**frameIndex** – It is an integer that specifies absolute frame index.
 
 #### Usage
 

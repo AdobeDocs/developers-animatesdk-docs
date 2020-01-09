@@ -6,8 +6,8 @@ Adobe Animate 2020.
 
 #### Parameters
 
-**frameIndex** – int
-**layer** - The layer object to be set as parent
+**frameIndex** – It is an integer that specifies absolute frame index.
+**layer** - The layer object to be set as parent.
 
 #### Usage
 
@@ -15,7 +15,7 @@ Adobe Animate 2020.
  
 #### Returns
 
-none
+Nothing
 
 #### Description
 
