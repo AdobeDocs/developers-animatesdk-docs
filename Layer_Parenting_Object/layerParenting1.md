@@ -18,11 +18,11 @@ layer object
 
 #### Description
 
-Method; It will return the layer parent at the given frame.
+Method; It will return the layer parent of the given frame.
 
 #### Example
 
-The following example gets the layer parent of the first frame of the first layer:
+The following example gets the layer parent of the first frame of the layer index 0:
 
 ```javascript
 

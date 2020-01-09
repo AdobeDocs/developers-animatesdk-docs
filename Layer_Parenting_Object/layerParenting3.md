@@ -18,11 +18,11 @@ matrix object
 
 #### Description
 
-Method; It will return the rig matrix at the particular frame.
+Method; It will return the rig matrix of the particular frame.
 
 #### Example
 
-The following example gets the rig matrix of the first frame of the first layer:
+The following example gets the rig matrix of the first frame of the layer index 0:
 
 ```javascript
 

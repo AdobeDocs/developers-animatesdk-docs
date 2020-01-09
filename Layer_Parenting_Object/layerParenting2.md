@@ -19,7 +19,7 @@ Nothing
 
 #### Description
 
-Method; It will set the layer parent at the particular frame.
+Method; It will set the layer parent of the particular frame.
 
 #### Example
 
