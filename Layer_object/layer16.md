@@ -15,7 +15,7 @@ layer.setBlendModeAtFrame(frameIndex,blendModeString)
 
 #### Returns
 
-none
+Nothing
 
 #### Description
 

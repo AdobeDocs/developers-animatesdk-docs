@@ -23,6 +23,7 @@ The following example enables the camera:
 ```javascript
 
 var timeline = an.getDocumentDOM().getTimeline();
+
 timeline.camera.cameraEnabled = true;
 
 ```
