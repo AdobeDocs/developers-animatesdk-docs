@@ -22,6 +22,8 @@ Method; It will return the rig matrix at the particular frame.
 
 #### Example
 
+The following example gets the rig matrix of the first frame of the first layer:
+
 ```javascript
 
 var matrix = an. getDocumentDOM(). getTimeline(). layers[0]. getRigMatrixAtFrame (0);

@@ -22,6 +22,8 @@ Method; It will return the layer parent at the given frame.
 
 #### Example
 
+The following example gets the layer parent of the first frame of the first layer:
+
 ```javascript
 
 var myparent = an. getDocumentDOM(). getTimeline(). layers[0]. getRigParentAtFrame (0);
