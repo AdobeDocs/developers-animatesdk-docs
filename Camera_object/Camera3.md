@@ -19,7 +19,7 @@ e.g.{x:0,y:0}
 
 #### Description
 
-Property; Return object with x,y, and z properties that specify current location of camera. 
+Return object with x,y, and z properties that specify current location of camera. 
 
 #### Example
 

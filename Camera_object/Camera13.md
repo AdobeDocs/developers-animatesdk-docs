@@ -18,7 +18,7 @@ Nothing
 
 #### Description
 
-property; Reset camera position to the original position i.e (0,0,0).
+Reset camera position to the original position i.e (0,0,0).
 
 #### Example
 

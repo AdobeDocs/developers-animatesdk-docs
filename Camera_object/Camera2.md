@@ -18,7 +18,7 @@ int
 
 #### Description
 
-Property; Return current angle of camera.
+Return current angle of camera.
 
 #### Example
 

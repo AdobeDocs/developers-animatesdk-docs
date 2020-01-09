@@ -18,7 +18,7 @@ Nothing
 
 #### Description
 
-Property; Reset camera zoom to it's default zoom value i.e 100%.
+Reset camera zoom to it's default zoom value i.e 100%.
 
 #### Example
 

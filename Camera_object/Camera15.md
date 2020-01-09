@@ -18,7 +18,7 @@ Nothing
 
 #### Description
 
-Property; Remove color filter.
+Remove color filter.
 
 #### Example
 

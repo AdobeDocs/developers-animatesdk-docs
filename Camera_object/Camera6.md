@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Property; Set camera's Z Depth value.
+Sets camera's Z Depth value.
 
 #### Example
 

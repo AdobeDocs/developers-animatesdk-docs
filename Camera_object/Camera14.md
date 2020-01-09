@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Property; Remove camera tint.
+Remove camera tint.
 
 #### Example
 

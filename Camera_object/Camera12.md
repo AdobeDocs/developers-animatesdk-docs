@@ -18,7 +18,7 @@ Nothing.
 
 #### Description
 
-Property; Reset camera angle to zero.
+Reset camera angle to zero.
 
 #### Example
 

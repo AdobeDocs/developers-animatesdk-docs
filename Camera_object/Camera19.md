@@ -10,11 +10,11 @@ camera.colorFilterEnabled
 
 #### Type
 
-Boolean value true if color filter is enabled otherwise false.
+Boolean
 
 #### Description
 
-Property; Used to Enable/Disable camera's color Filter.
+Used to Enable/Disable camera's color Filter. The value is true if camera is enabled otherwise false.
 
 #### Example
 

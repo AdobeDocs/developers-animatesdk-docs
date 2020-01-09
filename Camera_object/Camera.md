@@ -19,7 +19,7 @@ int
 
 #### Description
 
-Property; Return current Z Depth value of camera.
+Return current Z Depth value of camera.
 
 #### Example
 

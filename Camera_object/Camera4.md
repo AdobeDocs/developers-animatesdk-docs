@@ -19,7 +19,7 @@ e.g.{percent:0,red:0,green:0,blue:0}
 
 #### Description
 
-Property; Return object with two properties: ‘percent’ & ‘color’.
+Return object with two properties: ‘percent’ & ‘color’.
 
 #### Example
 

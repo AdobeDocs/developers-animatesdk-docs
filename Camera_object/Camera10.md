@@ -18,7 +18,7 @@ nothing
 
 #### Description
 
-Property; Set camera color filter using decomposed values of (Brightness,Contrast,saturation,hue).
+Set camera color filter using decomposed values of (Brightness,Contrast,saturation,hue).
 
 #### Example
 

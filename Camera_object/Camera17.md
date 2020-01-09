@@ -10,11 +10,11 @@ camera.cameraEnabled
 
 #### Type
 
-Boolean value true if camera is enabled otherwise false.
+Boolean 
 
 #### Description
 
-Property; Used to Enable/Disable camera.
+Used to Enable/Disable camera. The value is true if camera is enabled otherwise false.
 
 #### Example
 

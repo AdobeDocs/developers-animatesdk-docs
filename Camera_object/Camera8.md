@@ -20,7 +20,7 @@ nothing
 
 #### Description
 
-Property; Rotate camera by absolute angle given as input parameters.
+Rotate camera by absolute angle given as input parameters.
 
 #### Example
 

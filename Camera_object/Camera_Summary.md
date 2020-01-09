@@ -6,7 +6,7 @@ Adobe Animate 2019
 
 #### Description
 
-This object contains all the properties for Camera. It allows to simulate a real-life camera.
+This javascript object allows user to access and change properties of camera at any frame in timeline.
 
 Animators can use the following features that are integral to any motion film.
 

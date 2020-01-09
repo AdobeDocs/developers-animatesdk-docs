@@ -19,7 +19,7 @@ e.g.{brightness:0,contrast:0,saturation:0,hue:0}
 
 #### Description
 
-Property; Get camera color filter.
+Gets camera color filter.
 
 #### Example
 

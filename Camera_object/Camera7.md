@@ -18,7 +18,7 @@ Nothing
 
 #### Description
 
-Property; Zoom camera to absolute value given by input parameter in percentage.
+Zooms camera to absolute value given by input parameter in percentage.
 
 #### Example
 

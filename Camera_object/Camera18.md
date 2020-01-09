@@ -10,11 +10,11 @@ camera.tintEnabled
 
 #### Type
 
-Boolean value true if tint is enabled otherwise false.
+Boolean
 
 #### Description
 
-Property; Used to Enable/Disable tint
+Used to Enable/Disable tint. The value true is if camera is enabled otherwise false.
 
 #### Example
 

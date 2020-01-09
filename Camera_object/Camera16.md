@@ -18,7 +18,7 @@ Nothing
 
 #### Description
 
-Property; Reset all camera properties to default.
+Reset all camera properties to default.
 
 #### Example
 

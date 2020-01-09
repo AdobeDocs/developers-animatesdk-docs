@@ -18,7 +18,7 @@ double
 
 #### Description
 
-Property; Return the current zoom value of camera. Default is 100%.
+Return the current zoom value of camera. Default is 100%.
 
 #### Example
 
