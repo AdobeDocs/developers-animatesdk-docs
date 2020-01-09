@@ -22,10 +22,10 @@ Method; It will return the rig matrix of the particular frame.
 
 #### Example
 
-The following example gets the rig matrix of the first frame of the layer index 0:
+The following example gets the rig matrix of the first frame of the ninth layer:
 
 ```javascript
 
-var matrix = an. getDocumentDOM(). getTimeline(). layers[0]. getRigMatrixAtFrame (0);
+var matrix = an. getDocumentDOM(). getTimeline(). layers[8]. getRigMatrixAtFrame (0);
 
 ```
