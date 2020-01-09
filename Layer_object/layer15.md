@@ -22,7 +22,7 @@ Method; An array that contains a list of filters applied to the frame at frameIn
 
 #### Example
 
-The following example illustrates use of this method:
+The following example gets the filters at the first frame of the first layer:
 
 ```javascript
 var myFilters = an.getDocumentDOM().getTimeline().layers[0].getFiltersAtFrame(0);	

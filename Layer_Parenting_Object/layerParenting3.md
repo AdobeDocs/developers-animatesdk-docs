@@ -22,7 +22,7 @@ Method; It will return the rig matrix of the particular frame.
 
 #### Example
 
-The following example gets the rig matrix of the first frame of the ninth layer:
+The following example gets the rig matrix from the first frame of the ninth layer:
 
 ```javascript
 

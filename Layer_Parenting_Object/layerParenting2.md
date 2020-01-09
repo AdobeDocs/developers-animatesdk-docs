@@ -23,13 +23,11 @@ Method; It will set the layer parent of the particular frame.
 
 #### Example
 
-In the following example it copies the layer parent applied at the first frame and sets it to the tenth frame of the first layer:
+The following example gets the layer parent of the first frame and sets the same to the tenth frame of the first layer:
 
 ```javascript
 
-var myParent=an.getDocumentDOM().
-
-getTimeline().layers[0].getRigParentAtFrame (0);
+var myParent=an.getDocumentDOM().getTimeline().layers[0].getRigParentAtFrame (0);
 
 an.getDocumentDOM().getTimeline().layers[0].setRigParentAtFrame (9, myParent);
 

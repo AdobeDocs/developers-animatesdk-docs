@@ -23,7 +23,7 @@ Method; Sets the color transform at the frame.
 
 #### Example
 
-In the following example it copies the color transform of the first frame and sets it to the tenth frame:
+The following example copies the color transform of the first frame and sets it to the tenth frame:
 
 ```javascript
 var myCxform = an. getDocumentDOM(). getTimeline(). layers[0].getColorTransformAtFrame (0);

@@ -22,7 +22,7 @@ Method; It will return the layer parent of the given frame.
 
 #### Example
 
-The following example gets the layer parent of the first frame of the ninth layer:
+The following example gets the layer parent from the first frame of the ninth layer:
 
 ```javascript
 

@@ -18,11 +18,11 @@ ZVal: An integer value that specifies the ZDepth value of the frame.
 
 #### Description
 
-Method; An integer value that specifies the ZDepth value of the frame.
+Method; An integer value that specifies the ZDepth value at the frame.
 
 #### Example
 
-The following example illustrates use of this method:
+The following example gets the zdepth value at first frame of the first layer:
 
 ```javascript
 fl.getDocumentDOM().getTimeline().layers[0].getZDepthAtFrame(0)	

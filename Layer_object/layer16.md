@@ -23,8 +23,7 @@ Method; Sets the blending mode at the particular frame.
 
 #### Example
 
-The following example sets the blending mode at the frame number 5.
-
+The following example sets the blending mode of the frame number 5.
 
 ```javascript
 an.getDocumentDOM().getTimeline().layers[0].setBlendModeAtFrame(4,"Subtract");
