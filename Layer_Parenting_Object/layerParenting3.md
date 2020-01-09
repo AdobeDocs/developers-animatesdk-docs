@@ -6,7 +6,7 @@ Adobe Animate 2020.
 
 #### Parameters
 
-**frameIndex** – int
+**frameIndex** – It is an integer that specifies absolute frame index.
 
 #### Usage
 
@@ -18,12 +18,14 @@ matrix object
 
 #### Description
 
-Method; It will return the rig matrix at the particular frame.
+Method; It will return the rig matrix of the particular frame.
 
 #### Example
 
+The following example gets the rig matrix from the first frame of the ninth layer:
+
 ```javascript
 
-var matrix = an. getDocumentDOM(). getTimeline(). layers[0]. getRigMatrixAtFrame (0);
+var matrix = an. getDocumentDOM(). getTimeline(). layers[8]. getRigMatrixAtFrame (0);
 
 ```

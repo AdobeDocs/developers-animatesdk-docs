@@ -24,7 +24,7 @@ Based on the mode, the paramters will be updated here. For example, if tint is p
 
 #### Example
 
-The following example gets the color transform of the fifth frame of first layer:
+The following example gets the color transform at the fifth frame of first layer:
 
 ```javascript
 var myCxform = an.getDocumentDOM().getTimeline().layers[0]. getColorTransformAtFrame (4);

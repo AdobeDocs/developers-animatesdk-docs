@@ -23,7 +23,7 @@ Method; Sets the ZDepth at the specified frame number.
 
 #### Example
 
-The following example sets the zdepth value of first frame to 100 of the first layer: 
+The following example sets the zdepth value at first frame to 100 of the first layer: 
 
 ```javascript
 fl.getDocumentDOM().getTimeline().layers[0].setZDepthAtFrame(0,100);

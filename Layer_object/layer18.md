@@ -23,7 +23,7 @@ Method; Apply filters at a particular frame.
 
 #### Example
 
-In the following example it copies the filter applied at the first frame and sets it to the tenth frame:
+The following example copies the filter applied at the first frame and sets it to the tenth frame:
 
 ```javascript
 var myFilters = an. getDocumentDOM(). getTimeline(). layers[0].getFiltersAtFrame(0);
