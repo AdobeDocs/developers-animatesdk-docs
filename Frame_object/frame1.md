@@ -6,7 +6,7 @@ Flash Professional CS5.
 
 #### Usage
 
-frame.convertMotionObjectTo3D()
+*frame.convertMotionObjectTo3D()*
 
 #### Description
 
@@ -16,9 +16,14 @@ Method; Converts the selected motion object to a 3D motion object.
 
 ```javascript
 The following example converts the selected motion object to a 3D motion object:
+
 var doc = fl.getDocumentDOM();
-v a r my\_tl = doc.getTimeline(); this.getCurrentF r ame = functi on() {
-var layer = my\_tl.layers\[my \_tl.cu rrentLa yer\]; var frame = layer.frames\[my\_tl.currentFrame \]; retur n frame;}
+v a r my_tl = doc.getTimeline(); 
+this.getCurrentF r ame = functi on() {
+var layer = my_tl.layers[my  _tl.cu  rrentLa yer]; 
+var frame = layer.frames[my_tl.currentFrame ]; 
+retur n frame;
+}
 var theFrame = getCurrentFrame();
 if(theFrame.isMotionObject() && !theFrame.is3DMotionObject()){ theFrame.convertMotionObjectTo3D();
 }else{

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.addNewScene(\[name\])
+document.addNewScene([name])
 
 #### Parameters
 
@@ -23,10 +23,12 @@ Method; adds a new scene ([Timeline object](../Timeline_object/timeline_summary.
 #### Example
 
 ```javascript
-The following example adds a new scene named myScene after the current scene in the current document. The variable
-success will be true when the new scene is created; false otherwise.
+The following example adds a new scene named myScene after the current scene in the current document. The variable success will be true when the new scene is created; false otherwise.
+
 var success = fl.getDocumentDOM().addNewScene("myScene");
+
 The following example adds a new scene using the default naming convention. If only one scene exists, the newly created scene is named "Scene 2".
+
 fl.getDocumentDOM().addNewScene();
 
 ```

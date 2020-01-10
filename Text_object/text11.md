@@ -6,12 +6,14 @@ Flash MX 2004.
 
 #### Usage
 
-text.getTextAttr(attrName \[, startIndex \[, endIndex\]\])
+text.getTextAttr(attrName [, startIndex [, endIndex]])
 
 #### Parameters
 
 **attrName** A string that specifies the name of the TextAttrs object property to be returned. For a list of possible values for *attrName*, see the Property summary for the [TextAttrs object](../TextAttrs_object/textAttrs_summary.md).
+
 **startIndex** An integer that is the index of first character. This parameter is optional.
+
 **endIndex** An integer that specifies the end of the range of text, which starts with *startIndex* and goes up to, but does not include, *endIndex*. This parameter is optional.
 
 #### Returns
@@ -24,14 +26,26 @@ Method; retrieves the attribute specified by the *attrName* parameter for the te
 
 #### Example
 
-```javascript
 The following example gets the font size of the currently selected text field and shows it:
-var TheTextSize = fl.getDocumentDOM().selection\[0\].getTextAttr("size"); fl.trace(TheTextSize);
+```javascript
+var TheTextSize = fl.getDocumentDOM().selection[0].getTextAttr("size");
+fl.trace(TheTextSize);
+
+```
 The following example gets the text fill color of the selected text field:
-var TheFill = fl.getDocumentDOM().selection\[0\].getTextAttr("fillColor"); fl.trace(TheFill);
+```javascript
+var TheFill = fl.getDocumentDOM().selection[0].getTextAttr("fillColor");
+fl.trace(TheFill);
+
+```
 The following example gets the size of the third character:
-var Char3 = fl.getDocumentDOM().selection\[0\].getTextAttr("size", 2); fl.trace(Char3);
+```javascript
+var Char3 = fl.getDocumentDOM().selection[0].getTextAttr("size", 2);
+fl.trace(Char3);
+
+```
 The following example gets the color of the selected text field from the third through the eighth character:
-fl.getDocumentDOM().selection\[0\].getTextAttr("fillColor", 2, 8);
+```javascript
+fl.getDocumentDOM().selection[0].getTextAttr("fillColor", 2, 8);
 
 ```

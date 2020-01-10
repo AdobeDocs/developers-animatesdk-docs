@@ -14,10 +14,12 @@ Property; an integer that specifies the percentage strength of the filter. Accep
 
 #### Example
 
-```javascript
 The following example sets the strength to 50 for the Glow filters on the selected object(s):
-var myFilters = fl.getDocumentDOM().getFilters(); for(i=0; i \< myFilters.length; i++){
-if(myFilters\[i\].name == 'glowFilter'){ myFilters\[i\].strength = 50;
+```javascript
+var myFilters = fl.getDocumentDOM().getFilters();
+for(i=0; i < myFilters.length; i++){
+if(myFilters[i].name == 'glowFilter'){
+myFilters[i].strength = 50;
 }
 }
 fl.getDocumentDOM().setFilters(myFilters);

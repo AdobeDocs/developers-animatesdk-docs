@@ -19,14 +19,15 @@ false otherwise.
 
 #### Description
 
-Method; determines whether you can use the [document.revert()](../Document_object/docum340.md) or [fl.revertDocument()](../flash_object_(fl)/fl61.md)/fl61.md) method successfully.
+Method; determines whether you can use the [document.revert()](../Document_object/docum340.md) or [fl.revertDocument()](../flash_object_(fl)/fl61.md) method successfully.
 
 #### Example
 
+The following example checks whether the current document can revert to the previously saved version. If so,fl.getDocumentDOM().revert() restores the previously saved version.
+
 ```javascript
-The following example checks whether the current document can revert to the previously saved version. If so,
-fl.getDocumentDOM().revert() restores the previously saved version.
-if(fl.getDocumentDOM().canRevert()){ fl.getDocumentDOM().revert();
+if(fl.getDocumentDOM().canRevert()){ 
+    fl.getDocumentDOM().revert();
 }
 
 ```

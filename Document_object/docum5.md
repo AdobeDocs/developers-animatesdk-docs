@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.skewSelection(xSkew, ySkew \[, whichEdge\])
+document.skewSelection(xSkew, ySkew [, whichEdge])
 
 #### Parameters
 

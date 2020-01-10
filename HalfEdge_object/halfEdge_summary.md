@@ -15,7 +15,7 @@ The following methods are available for the HalfEdge object:
 
 | **Method**                                      | **Description**                                                              |
 |-------------------------------------------------|------------------------------------------------------------------------------|
-| [halfEdge.getEdge()](../HalfEdge_object/halfEdge.md))       | Gets the [Edge object](../Edge_object/edge_summary.md) for the HalfEdge object.               |
+| [halfEdge.getEdge()](../HalfEdge_object/halfEdge.md)       | Gets the [Edge object](../Edge_object/edge_summary.md) for the HalfEdge object.               |
 | [halfEdge.getNext()](../HalfEdge_object/halfEdg1.md)             | Gets the next half edge on the current contour.                              |
 | [halfEdge.getOppositeHalfEdge()](../HalfEdge_object/halfEdg2.md) | Gets the HalfEdge object on the other side of the edge.                      |
 | [halfEdge.getPrev()](../HalfEdge_object/halfEdg3.md)             | Gets the preceding HalfEdge object on the current contour.                   |

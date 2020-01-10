@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.clipPaste(\[bInPlace\])
+document.clipPaste([bInPlace])
 
 #### Parameters
 
@@ -25,10 +25,11 @@ Method; pastes the contents of the Clipboard into the document.
 ```javascript
 The following example pastes the Clipboard contents to the center of the document:
 fl.getDocumentDOM().clipPaste();
+
 The following example pastes the Clipboard contents in place in the current document:
 fl.getDocumentDOM().clipPaste(true);
 
 ```
 #### See also
 
-[document.clipCopy()](../Document_object/docume30.md), [document.clipCut()](../Document_object/docume31.md), [fl.clipCopyString()](../flash_object_(fl)/fl6.md)/fl6.md)
+[document.clipCopy()](../Document_object/docume30.md), [document.clipCut()](../Document_object/docume31.md), [fl.clipCopyString()](../flash_object_(fl)/fl6.md).

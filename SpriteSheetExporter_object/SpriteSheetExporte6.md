@@ -15,6 +15,7 @@ Property; A boolean value indicating whether the sprite sheet exporter should ca
 #### Example
 
 ```javascript
-var exporter = new SpriteSheetExporter; exporter.autoSize = false;
+var exporter = new SpriteSheetExporter; 
+exporter.autoSize = false;
 
 ```

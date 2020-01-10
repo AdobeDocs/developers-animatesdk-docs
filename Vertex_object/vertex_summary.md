@@ -14,7 +14,7 @@ You can use the following methods with the Vertex object:
 
 | **Method**                                    | **Description**                                                  |
 |-----------------------------------------------|------------------------------------------------------------------|
-| [vertex.getHalfEdge()](../Vertex_object/vertex.md)) | Gets a [HalfEdge object](../HalfEdge_object/halfEdge_summary.md) that shares this vertex. |
+| [vertex.getHalfEdge()](../Vertex_object/vertex.md) | Gets a [HalfEdge object](../HalfEdge_object/halfEdge_summary.md) that shares this vertex. |
 | [vertex.setLocation()](../Vertex_object/vertex1.md)        | Sets the location of the vertex.                                 |
 
 #### Property summary

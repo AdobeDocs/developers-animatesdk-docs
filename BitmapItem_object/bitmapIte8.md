@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-bitmapItem.quality
+*bitmapItem.quality*
 
 #### Description
 
@@ -16,6 +16,8 @@ Property; an integer that specifies the quality of the bitmap. To use the defaul
 
 ```javascript
 The following code sets the quality property of the first item in the library of the current document to 65:
-fl.getDocumentDOM().library.items\[0\].quality = 65; alert(fl.getDocumentDOM().library.items\[0\].quality);
+
+fl.getDocumentDOM().library.items[0].quality = 65; 
+alert(fl.getDocumentDOM().library.items[0].quality);
 
 ```

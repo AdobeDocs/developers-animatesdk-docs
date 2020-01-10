@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.rotateSelection(angle \[, rotationPoint\])
+document.rotateSelection(angle [, rotationPoint])
 
 #### Parameters
 
@@ -26,6 +26,7 @@ Method; rotates the selection by a specified number of degrees. The effect is th
 ```javascript
 The following example rotates the selection by 45º around the transformation point:
 fl.getDocumentDOM().rotateSelection(45);
+
 The following example rotates the selection by 45º around the lower-left corner:
 fl.getDocumentDOM().rotateSelection(45, "bottom left");
 

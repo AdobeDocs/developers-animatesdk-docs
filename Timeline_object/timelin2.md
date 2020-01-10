@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.clearFrames(\[startFrameIndex \[, endFrameIndex\]\])
+timeline.clearFrames([startFrameIndex [, endFrameIndex]])
 
 #### Parameters
 
@@ -24,8 +24,12 @@ Method; deletes all the contents from a frame or range of frames on the current 
 
 #### Example
 
-```javascript
 The following example clears the frames from Frame 6 up to, but not including, Frame 11 (remember that index values are different from frame number values):
-fl.getDocumentDOM().getTimeline().clearFrames(5, 10); The following example clears Frame 15: fl.getDocumentDOM().getTimeline().clearFrames(14);
+```javascript
+fl.getDocumentDOM().getTimeline().clearFrames(5, 10);
+```
+The following example clears Frame 15:
+```javascript
+fl.getDocumentDOM().getTimeline().clearFrames(14);
 
 ```

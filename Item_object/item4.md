@@ -14,8 +14,9 @@ Read-only property; a string that specifies the type of element. The value is on
 
 #### Example
 
-```javascript
-The following example shows the type of the specified library item in the Output panel:
-fl.trace(fl.getDocumentDOM().library.items\[0\].itemType);
 
+The following example shows the type of the specified library item in the Output panel:
+
+```javascript
+fl.trace(fl.getDocumentDOM().library.items[0].itemType);
 ```

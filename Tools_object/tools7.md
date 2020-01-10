@@ -14,10 +14,9 @@ Read-only property; a point that represents the current location of the mouse po
 
 #### Example
 
-```javascript
 The following example determines the current location of the mouse:
+```javascript
 var tempPt = fl.tools.penLoc;
-
 ```
 #### See also
 

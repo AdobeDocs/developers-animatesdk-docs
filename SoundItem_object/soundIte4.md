@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-soundItem.exportToFile(fileURI)
+*soundItem.exportToFile(fileURI)*
 
 #### Parameters
 
@@ -14,7 +14,7 @@ soundItem.exportToFile(fileURI)
 
 #### Returns
 
-A Boolean value of true if the file was exported successfully; false otherwise.
+A Boolean value of *true* if the file was exported successfully; *false* otherwise.
 
 #### Description
 
@@ -23,9 +23,11 @@ When exporting sound items, you should check if the soundItem.originalCompressio
 
 #### Example
 
-```javascript
 Assuming that the first item in the Library is a sound item, the following code exports it as a WAV file:
-var soundFileURL = "file:///C\|/out.wav";
-var libItem = fl.getDocumentDOM().library.items\[0\]; libItem.exportToFile(soundFileURL);
+
+```javascript
+var soundFileURL = "file:///C|/out.wav";
+var libItem = fl.getDocumentDOM().library.items[0]; 
+libItem.exportToFile(soundFileURL);
 
 ```

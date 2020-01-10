@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-drawingLayer.endDraw()
+*drawingLayer.endDraw()*
 
 #### Parameters
 

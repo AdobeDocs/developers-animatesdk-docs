@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-element.y
+*element.y*
 
 #### Description
 
@@ -14,7 +14,6 @@ Property; a float value that specifies the *y* value of the selected element’s
 
 #### Example
 
-```javascript
+
 See [element.x](../Element_object/elemen26.md)
 
-```

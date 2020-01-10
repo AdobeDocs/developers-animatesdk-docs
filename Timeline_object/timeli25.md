@@ -18,10 +18,13 @@ Method; retrieves the currently selected frames in an array.
 
 #### Example
 
+With the top layer being the current layer, the following example displays 0, 5, 10, 0, 20, 25 in the Output panel:
 ```javascript
-With the top layer being the current layer, the following example displays 0,5,10,0,20,25 in the Output panel:
-var timeline = fl.getDocumentDOM().getTimeline(); timeline.setSelectedFrames(5,10); timeline.setSelectedFrames(20,25,false);
-var theSelectedFrames = timeline.getSelectedFrames(); fl.trace(theSelectedFrames);
+var timeline = fl.getDocumentDOM().getTimeline();
+timeline.setSelectedFrames(5,10);
+timeline.setSelectedFrames(20,25,false);
+var theSelectedFrames = timeline.getSelectedFrames();
+fl.trace(theSelectedFrames);
 
 ```
 #### See also

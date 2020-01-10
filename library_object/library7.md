@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-library.getItemType(\[namePath\])
+*library.getItemType([namePath])*
 
 #### Parameters
 
@@ -23,8 +23,9 @@ Method; gets the type of object currently selected or specified by a library pat
 #### Example
 
 ```javascript
-The following example shows a dialog box that contains the item type of Symbol\_1 located in the Folder\_1/Folder\_2
+The following example shows a dialog box that contains the item type of Symbol_1 located in the Folder_1/Folder_2
 folder:
-alert(fl.getDocumentDOM().library.getItemType("Folder\_1/Folder\_2/Symbol\_1"));
+
+alert(fl.getDocumentDOM().library.getItemType("Folder_1/Folder_2/Symbol_1"));
 
 ```

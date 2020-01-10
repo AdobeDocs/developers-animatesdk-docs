@@ -35,6 +35,7 @@ If you then issue the command fl.getDocumentDOM().changeFilterOrder(0, 2), the f
 
 ```javascript
 The following example moves the filter that is currently in the second position in the Filters list to the first position:
+
 fl.getDocumentDOM().changeFilterOrder(1,0);
 
 ```

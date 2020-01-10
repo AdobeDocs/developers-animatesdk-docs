@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-element.removePersistentData(name)
+*element.removePersistentData(name)*
 
 #### Parameters
 
@@ -14,7 +14,7 @@ element.removePersistentData(name)
 
 #### Returns
 
-A Boolean value: true if data was removed; false otherwise.
+A Boolean value: true if data was removed; *false* otherwise.
 
 #### Description
 
@@ -22,7 +22,5 @@ Method; removes any persistent data with the specified name that has been attach
 
 #### Example
 
-```javascript
-See [element.getPersistentData()](../Element_object/element2.md).
 
-```
+See [element.getPersistentData()](../Element_object/element2.md).

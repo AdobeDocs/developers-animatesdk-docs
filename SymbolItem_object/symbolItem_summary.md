@@ -1,6 +1,6 @@
 ## symbolItem summary
 
-**Inheritance** [Item object](../Item_object/item_summary.md) \SymbolItem object
+**Inheritance** [Item object](../Item_object/item_summary.md) > SymbolItem object
 
 #### Availability
 
@@ -16,7 +16,7 @@ In addition to the Item object methods, you can use the following methods with t
 
 | **Method**                                                                | **Description**                                                 |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------|
-| [symbolItem.convertToCompiledClip()](../SymbolItem_object/symbolItem.md)) | Converts a symbol item in the library to a compiled movie clip. |
+| [symbolItem.convertToCompiledClip()](../SymbolItem_object/symbolItem.md) | Converts a symbol item in the library to a compiled movie clip. |
 | [symbolItem.exportSWC()](../SymbolItem_object/symbolIte1.md)                                   | Exports the symbol item to a SWC file.                          |
 | [symbolItem.exportSWF()](../SymbolItem_object/symbolIte2.md)                                   | Exports the symbol item to a SWF file.                          |
 | [symbolItem.exportToLibrary()](../SymbolItem_object/symbolIte3.md)                             | Export an instance to a new bitmap in the Library.              |

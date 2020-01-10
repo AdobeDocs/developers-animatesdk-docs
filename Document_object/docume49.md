@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.distribute(distributemode \[, bUseDocumentBounds\])
+document.distribute(distributemode [, bUseDocumentBounds])
 
 #### Parameters
 
@@ -26,9 +26,11 @@ Method; distributes the selection.
 ```javascript
 The following example distributes the selected objects by their top edges:
 fl.getDocumentDOM().distribute("top edge");
+
 The following example distributes the selected objects by their top edges and expressly sets the *bUseDcoumentBounds*
 parameter:
 fl.getDocumentDOM().distribute("top edge", false);
+
 The following example distributes the selected objects by their top edges, using the bounds of the document:
 fl.getDocumentDOM().distribute("top edge", true);
 

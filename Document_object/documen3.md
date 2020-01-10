@@ -1,7 +1,6 @@
 ## document.addFilter()
 
 #### Availability
-
 Flash 8.
 
 #### Usage

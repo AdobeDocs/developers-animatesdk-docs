@@ -16,6 +16,7 @@ Property; a string that specifies the top-level ActionScript 3.0 class associate
 
 ```javascript
 The following example specifies that the ActionScript 3.0 class associated with the document is com.mycompany.ManagerClass, which is defined in com/mycompany/ManagerClass.as:
+
 var myDocument = fl.getDocumentDOM();
 // set the property
 myDocument.docClass = "com.mycompany.ManagerClass";

@@ -11,11 +11,10 @@ toolObj.showPIControl(control, bShow)
 #### Parameters
 
 **control** A string that specifies the name of the control to show or hide. This method is used only when you create extensible tools. Valid values depend on the Property inspector invoked by this tool (see [toolObj.setPI()](../ToolObj_object/toolObj7.md)).
+
 A shape Property inspector has the following controls:
 
-|        |      |
-|--------|------|
-| stroke | fill |
+<table><thead></th></tr></thead><tbody><tr class="odd"><td>Stroke</td><td><p>fill</p></td></tr></tbody></table>
 
 A text Property inspector has the following controls:
 
@@ -49,8 +48,9 @@ Method; shows or hides a control in the Property inspector. This method is used 
 
 #### Example
 
-```javascript
 The following command in an extensible tool’s JavaScript file will set Flash to not show the fill options in the Property inspector for that tool:
+
+```javascript
 fl.tools.activeTool.showPIControl("fill", false);
 
 ```

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.exportSWF(\[fileURI \[, bCurrentSettings\]\])
+document.exportSWF([fileURI [, bCurrentSettings]])
 
 #### Parameters
 
@@ -26,8 +26,10 @@ Method; exports the document in the Flash SWF format.
 ```javascript
 The following example exports the document to the specified file location with the current publish settings:
 fl.getDocumentDOM().exportSWF("file:///C\|/Documents and Settings/joe\_user/Desktop/qwerty.swf", true);
+
 The following example displays the Export Movie dialog box and the Export Flash Player dialog box and then exports the document based on the specified settings:
 fl.getDocumentDOM().exportSWF("", false);
+
 The following example displays the Export Movie dialog box and the Export Flash Player dialog box and then exports the document based on the specified settings:
 fl.getDocumentDOM().exportSWF();
 

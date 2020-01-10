@@ -24,6 +24,7 @@ Method; converts lines to fills on the selected objects.
 
 ```javascript
 The following example converts the current selected lines to fills:
+
 fl.getDocumentDOM().convertLinesToFills();
 
 ```

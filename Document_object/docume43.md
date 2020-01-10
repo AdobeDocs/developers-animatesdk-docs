@@ -24,6 +24,7 @@ Method; deletes the current scene ([Timeline object](../Timeline_object/timeline
 
 ```javascript
 Assuming there are three scenes (Scene0, Scene1, and Scene2) in the current document, the following example makes Scene2 the current scene and then deletes it:
+
 fl.getDocumentDOM().editScene(2);
 var success = fl.getDocumentDOM().deleteScene();
 

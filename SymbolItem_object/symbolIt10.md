@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-symbolItem.sourceLibraryName
+*symbolItem.sourceLibraryName*
 
 #### Description
 
@@ -14,8 +14,9 @@ Property; a string that specifies the name of the item in the source file librar
 
 #### Example
 
-```javascript
 The following example shows the value of the sourceLibraryName property in the Output panel:
-fl.trace(fl.getDocumentDOM().library.items\[0\].sourceLibraryName);
+
+```javascript
+fl.trace(fl.getDocumentDOM().library.items[0].sourceLibraryName);
 
 ```

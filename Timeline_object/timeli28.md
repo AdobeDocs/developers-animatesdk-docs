@@ -36,15 +36,23 @@ If the specified or selected frame is a regular frame, the frame is inserted at 
 
 #### Example
 
-```javascript
-The following example inserts a frame (or frames, depending on the selection) at the current selection in the current layer:
-fl.getDocumentDOM().getTimeline().insertFrames();
-The following example inserts five frames at the current frame in all layers:
-fl.getDocumentDOM().getTimeline().insertFrames(5);
-***Note:** If you have multiple layers with frames in them, and you select a frame in one layer when using the previous command, Flash inserts the frames in the selected layer only. If you have multiple layers with no frames selected in them, Flash inserts the frames in all layers.*
-The following example inserts three frames in the current layer only:
-fl.getDocumentDOM().getTimeline().insertFrames(3, false);
-The following example inserts four frames in all layers, starting from the first frame:
-fl.getDocumentDOM().getTimeline().insertFrames(4, true, 0);
 
+The following example inserts a frame (or frames, depending on the selection) at the current selection in the current layer:
+```javascript
+fl.getDocumentDOM().getTimeline().insertFrames();
+```
+The following example inserts five frames at the current frame in all layers:
+```javascript
+fl.getDocumentDOM().getTimeline().insertFrames(5);
+```
+***Note:** If you have multiple layers with frames in them, and you select a frame in one layer when using the previous command, Flash inserts the frames in the selected layer only. If you have multiple layers with no frames selected in them, Flash inserts the frames in all layers.*
+
+The following example inserts three frames in the current layer only:
+```javascript
+fl.getDocumentDOM().getTimeline().insertFrames(3, false);
+```
+The following example inserts four frames in all layers, starting 
+from the first frame:
+```javascript
+fl.getDocumentDOM().getTimeline().insertFrames(4, true, 0);
 ```

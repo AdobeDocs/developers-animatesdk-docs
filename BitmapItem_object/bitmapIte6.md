@@ -6,7 +6,7 @@ Flash Pro CS6.
 
 #### Usage
 
-bitmapItem.lastModifiedDate
+*bitmapItem.lastModifiedDate*
 
 #### Description
 
@@ -16,10 +16,11 @@ Read-only property; a hexadecimal value indicating the modification date and tim
 
 ```javascript
 Assuming the first item in the Library is a bitmap item, the following code displays a hex number as described above.
-var libItem = fl.getDocumentDOM().library.items\[0\];
+
+var libItem = fl.getDocumentDOM().library.items[0];
 fl.trace("Mod date when imported = " + libItem.lastModifiedDate);
 
 ```
 #### See also
 
-[bitmapItem.sourceFileExists](../BitmapItem_object/bitmapIte9.md), [bitmapItem.sourceFileIsCurrent](../BitmapItem_object/bitmapIt10.md), [bitmapItem.sourceFilePath](../BitmapItem_object/bitmapIt11.md), [FLfile.getModificationDate()](../FLfile_object/FLfile6.md)
+[bitmapItem.sourceFileExists](../BitmapItem_object/bitmapIte9.md), [bitmapItem.sourceFileIsCurrent](../BitmapItem_object/bitmapIt10.md), [bitmapItem.sourceFilePath](../BitmapItem_object/bitmapIte11.md), [FLfile.getModificationDate()](../FLfile_object/FLfile6.md)

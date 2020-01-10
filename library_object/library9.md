@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-library.itemExists(namePath)
+*library.itemExists(namePath)*
 
 #### Parameters
 
@@ -14,7 +14,7 @@ library.itemExists(namePath)
 
 #### Returns
 
-A Boolean value: true if the specified item exists in the library; false otherwise.
+A Boolean value: true if the specified item exists in the library; *false* otherwise.
 
 #### Description
 
@@ -23,8 +23,9 @@ Method; checks to see if a specified item exists in the library.
 #### Example
 
 ```javascript
-The following example displays true or false in a dialog box, depending on whether the item Symbol\_1 exists in the
-Folder\_1 library folder:
-alert(fl.getDocumentDOM().library.itemExists('Folder\_1/Symbol\_1'));
+The following example displays true or false in a dialog box, depending on whether the item Symbol_1 exists in the
+Folder_1 library folder:
+
+alert(fl.getDocumentDOM().library.itemExists('Folder_1/Symbol_1'));
 
 ```

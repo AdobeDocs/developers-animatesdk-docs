@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-fl.closeAll(\[bPromptToSave\])
+fl.closeAll([bPromptToSave])
 
 #### Parameters
 
@@ -22,13 +22,14 @@ Method; closes all open files (FLA files, SWF files, JSFL files, and so on). If 
 
 #### Example
 
-```javascript
 The following code closes all open files, prompting the user to save any new or changed files.
+```javascript
 fl.closeAll();
-
 ```
+
+
 #### See also
 
-[fl.closeAllPlayerDocuments()](../flash_object_(fl)/fl8.md)/fl8.md)), [fl.closeDocument()](../flash_object_(fl)/fl9.md)/fl9.md)
+[fl.closeAllPlayerDocuments()](../flash_object_(fl)/fl8.md), [fl.closeDocument()](../flash_object_(fl)/fl9.md)
 
 <span id="fl.closeAllPlayerDocuments()" class="anchor"></span>

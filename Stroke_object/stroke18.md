@@ -14,10 +14,17 @@ Property; a string that specifies the spacing of a hatched line. This property i
 
 #### Example
 
-```javascript
+
 The following example sets the space property to close for a stroke style of hatched:
-var myStroke = fl.getDocumentDOM().getCustomStroke(); myStroke.style = "hatched";
-myStroke.curve = "straight"; myStroke.space = "close"; myStroke.jiggle = "wild"; myStroke.rotate = "free"; myStroke.length = "slight"; myStroke.hatchThickness = "thin";
+```javascript
+var myStroke = fl.getDocumentDOM().getCustomStroke();
+myStroke.style = "hatched";
+myStroke.curve = "straight"; 
+myStroke.space = "close"; 
+myStroke.jiggle = "wild"; 
+myStroke.rotate = "free"; 
+myStroke.length = "slight"; 
+myStroke.hatchThickness = "thin";
 fl.getDocumentDOM().setCustomStroke(myStroke);
 
 ```

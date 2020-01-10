@@ -1,6 +1,6 @@
 ## shape summary
 
-**Inheritance** [Element object](../Element_object/element_summary.md) \Shape object
+**Inheritance** [Element object](../Element_object/element_summary.md) > Shape object
 
 #### Availability
 
@@ -10,7 +10,7 @@ Flash MX 2004.
 
 The Shape object is a subclass of the Element object. The Shape object provides more precise control than the drawing APIs when manipulating or creating geometry on the Stage. This control is necessary so that scripts can create useful effects and other drawing commands (see [Element object](../Element_object/element_summary.md)).
 All Shape methods and properties that change a shape or any of its subordinate parts must be placed between
-[shape.beginEdit()](../Shape_object/shape.md)) and [shape.endEdit()](../Shape_object/shape4.md) calls to function correctly.
+[shape.beginEdit()](../Shape_object/shape.md) and [shape.endEdit()](../Shape_object/shape4.md) calls to function correctly.
 
 #### Method summary
 
@@ -19,7 +19,7 @@ In addition to the Element object methods, you can use the following methods wit
 | **Method**                                     | **Description**                                       |
 |------------------------------------------------|-------------------------------------------------------|
 | [shape.getCubicSegmentPoints()](../Shape_object/shape5.md) | Returns an array of points that define a cubic curve. |
-| [shape.beginEdit()](../Shape_object/shape.md))        | Defines the start of an edit session.                 |
+| [shape.beginEdit()](../Shape_object/shape.md)        | Defines the start of an edit session.                 |
 | [shape.deleteEdge()](../Shape_object/shape2.md)            | Deletes the specified edge.                           |
 | [shape.endEdit()](../Shape_object/shape4.md)               | Defines the end of an edit session for the shape.     |
 

@@ -14,8 +14,8 @@ Method; a string that specifies the name of the library item, which includes the
 
 #### Example
 
-```javascript
 The following example shows the name of the specified library item in the Output panel:
-fl.trace(fl.getDocumentDOM().library.items\[0\].name);
 
+```javascript
+fl.trace(fl.getDocumentDOM().library.items[0].name);
 ```

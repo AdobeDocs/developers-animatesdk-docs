@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.getCustomStroke(\[locationOfStroke\])
+document.getCustomStroke([locationOfStroke])
 
 #### Parameters
 
@@ -30,9 +30,14 @@ Returns the stroke object of the selected shape or, if specified, of the Tools p
 
 ```javascript
 The following example returns the current stroke settings of the selection and changes the stroke thickness to 2:
-var stroke = fl.getDocumentDOM().getCustomStroke("selection"); stroke.thickness = 2; fl.getDocumentDOM().setCustomStroke(stroke);
+var stroke = fl.getDocumentDOM().getCustomStroke("selection"); 
+stroke.thickness = 2; 
+fl.getDocumentDOM().setCustomStroke(stroke);
+
 The following example returns the current stroke settings of the Tools panel and Property inspector and sets the stroke color to red:
-var stroke = fl.getDocumentDOM().getCustomStroke("toolbar"); stroke.color = "\#FF0000"; fl.getDocumentDOM().setCustomStroke(stroke);
+var stroke = fl.getDocumentDOM().getCustomStroke("toolbar"); 
+stroke.color = "#FF0000"; 
+fl.getDocumentDOM().setCustomStroke(stroke);
 
 ```
 #### See also

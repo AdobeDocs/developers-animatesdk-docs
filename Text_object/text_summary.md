@@ -1,6 +1,6 @@
 ## text summary
 
-**Inheritance** [Element object](../Element_object/element_summary.md) \Text object
+**Inheritance** [Element object](../Element_object/element_summary.md) > Text object
 
 #### Availability
 
@@ -9,9 +9,12 @@ Flash MX 2004.
 #### Description
 
 The Text object represents a single text item in a document. All properties of the text pertain to the entire text block.
+
 To set properties of a text run within the text field, see the Property summary for the [TextAttrs object](../TextAttrs_object/textAttrs_summary.md). To change properties of a selection within a text field, you can use [document.setElementTextAttr()](../Document_object/docum500.md) and specify a range of text, or use the current selection.
+
 To set generic properties of the selected text field, use [document.setElementProperty()](../Document_object/docum490.md). The following example sets the x value of the selected text field's registration point to 50:
-fl.getDocumentDOM().setElementProperty("x", 50);
+
+ fl.getDocumentDOM().setElementProperty("x", 50); 
 
 #### Method summary
 

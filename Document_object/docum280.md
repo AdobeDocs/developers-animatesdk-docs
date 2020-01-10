@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.renamePublishProfile(\[profileNewName\])
+document.renamePublishProfile([profileNewName])
 
 #### Parameters
 
@@ -22,8 +22,8 @@ Method; renames the current profile.
 
 #### Example
 
-```javascript
 The following example renames the current profile to a default name and displays it:
+```javascript
 alert(fl.getDocumentDOM().renamePublishProfile());
 
 ```

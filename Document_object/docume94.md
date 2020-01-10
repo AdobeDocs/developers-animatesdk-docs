@@ -22,8 +22,9 @@ Method; imports a profile from a file.
 
 #### Example
 
-```javascript
 The following example imports the profile contained in the profile.xml file and displays its index in the profiles list:
+
+```javascript
 alert(fl.getDocumentDOM().importPublishProfile('file:///C\|/Documents and Settings/janeUser/Desktop/profile.xml'));
 
 ```

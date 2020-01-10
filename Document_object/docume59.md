@@ -22,8 +22,9 @@ Method; enables the specified filter for the selected objects.
 
 #### Example
 
-```javascript
+
 The following example enables the second filter of the selected objects:
+```javascript
 fl.getDocumentDOM().enableFilter(1);
 
 ```

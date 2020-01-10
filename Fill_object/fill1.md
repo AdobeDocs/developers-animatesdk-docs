@@ -14,11 +14,13 @@ Property; a string that specifies the path and name of the bitmap fill in the Li
 
 #### Example
 
-```javascript
 The following example sets the fill style of the specified item to a bitmap image in the Library:
-var fill = fl.getDocumentDOM().getCustomFill(); fill.style = "bitmap";
-fill.bitmapPath = "myBitmap.jpg"; fl.getDocumentDOM().setCustomFill(fill);
 
+```javascript
+var fill = fl.getDocumentDOM().getCustomFill();
+fill.style = "bitmap";
+fill.bitmapPath = "myBitmap.jpg";
+fl.getDocumentDOM().setCustomFill(fill);
 ```
 #### See also
 

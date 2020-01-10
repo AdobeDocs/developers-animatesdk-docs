@@ -22,8 +22,9 @@ Method; Indicates whether if the "Enable detailed telemetry" checkbox is selecte
 
 #### Example
 
-```javascript
+
 The following example calls getTelemetryFromSwf():
+```javascript
 fl.trace("is detailed telemetry enabled for this doc: " + fl.getDocumentDOM().getTelemetryForSwf());
 
 ```

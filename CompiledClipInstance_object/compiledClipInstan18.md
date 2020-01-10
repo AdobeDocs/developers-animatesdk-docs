@@ -14,10 +14,11 @@ Property; a string that is equivalent to the Shortcut field in the Accessibility
 
 #### Example
 
-```javascript
 The following example illustrates getting and setting the shortcut property:
+```javascript
 // Get the shortcut key of the object.
-var theShortcut = fl.getDocumentDOM().selection\[0\].shortcut;
-// Set the shortcut key of the object. fl.getDocumentDOM().selection\[0\].shortcut = "Ctrl+I";
+var theShortcut = fl.getDocumentDOM().selection[0].shortcut;
+// Set the shortcut key of the object.
+fl.getDocumentDOM().selection[0].shortcut = "Ctrl+I";
 
 ```

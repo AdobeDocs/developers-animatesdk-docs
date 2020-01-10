@@ -18,17 +18,17 @@ A Boolean value: true if one or more movie windows were open; false otherwise.
 
 #### Description
 
-Method; closes all the SWF files that were opened with Control \Test Movie.
+Method; closes all the SWF files that were opened with Control > Test Movie.
 
 #### Example
 
+The following example closes all the SWF files that were opened with Control > Test Movie.
 ```javascript
-The following example closes all the SWF files that were opened with Control \Test Movie.
 fl.closeAllPlayerDocuments();
 
 ```
 #### See also
 
-[fl.closeAll()](../flash_object_(fl)/fl7.md)/fl7.md), [fl.closeDocument()](../flash_object_(fl)/fl9.md)/fl9.md))
+[fl.closeAll()](../flash_object_(fl)/fl7.md) , [fl.closeDocument()](../flash_object_(fl)/fl9.md)
 
 <span id="fl.closeDocument()" class="anchor"></span>

@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-document.addNewPrimitiveRectangle( boundingRectangle, roundness, \[, bSuppressFill \[, bSuppressStroke \]\] ))
+document.addNewPrimitiveRectangle( boundingRectangle, roundness, [, bSuppressFill [, bSuppressStroke ]]))
 
 #### Parameters
 
@@ -25,11 +25,16 @@ Method; adds a new rectangle primitive fitting into the specified bounds. This m
 
 #### Example
 
-```javascript
+
 The following example adds rectangle primitives within the specified coordinates, with and without fill and stroke, and with different amounts of roundness:
-// Add a rectangle primitive with fill and stroke fl.getDocumentDOM().addNewPrimitiveRectangle({left:0,top:0,right:100,bottom:100}, 0);
-// Add a rectangle primitive without a fill fl.getDocumentDOM().addNewPrimitiveRectangle({left:100,top:100,right:200,bottom:200}, 20, true);
-// Add a rectangle primitive without a stroke fl.getDocumentDOM().addNewPrimitiveRectangle({left:200,top:200,right:300,bottom:300}, 50,false,true);
+
+```javascript
+// Add a rectangle primitive with fill and stroke 
+fl.getDocumentDOM().addNewPrimitiveRectangle({left:0,top:0,right:100,bottom:100}, 0);
+// Add a rectangle primitive without a fill 
+fl.getDocumentDOM().addNewPrimitiveRectangle({left:100,top:100,right:200,bottom:200}, 20, true);
+// Add a rectangle primitive without a stroke 
+fl.getDocumentDOM().addNewPrimitiveRectangle({left:200,top:200,right:300,bottom:300}, 50,false,true);
 
 ```
 #### See also

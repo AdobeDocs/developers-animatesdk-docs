@@ -30,19 +30,41 @@ The format of the metadata is RDF that is compliant with the XMP specification. 
 
 #### Example
 
-```javascript
+
 The following examples show several different legal ways to represent the same data. In all of these cases but the second one, if the data were sent to Document.setMetadata(), it would not be rewritten (aside from removing line breaks).
 In the first example, metadata is in tags, with different schemas placed in separate rdf:Description tags:
-\<rdf:RDF [xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns\#'\>](http://www.w3.org/1999/02/22-rdf-syntax-ns#%27)
-\<rdf:Description rdf:about='' [xmlns:dc='http://purl.org/dc/1.1/'\>](http://purl.org/dc/1.1/%27)
-\<dc:title\>Simple title\</dc:title\\<dc:description\>Simple description\</dc:description\\</rdf:Description\\<rdf:Description rdf:about='' [xmlns:xmp='http://ns.adobe.com/xap/1.0/'\>](http://ns.adobe.com/xap/1.0/%27)
-\<xmp:CreateDate\>2004-10-12T10:29-07:00\</xmp:CreateDate\\<xmp:CreatorTool\>Flash Authoring WIN 8,0,0,215\</xmp:CreatorTool\\</rdf:Description\\</rdf:RDF\In the second example, metadata is in tags, but with different schemas all in one rdf:Description tag. This example also includes comments, which will be ignored and discarded by the Document.setMetadata():
-\<rdf:RDF [xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns\#'\>](http://www.w3.org/1999/02/22-rdf-syntax-ns#%27)
-\<!-- This is before the first rdf:Description tag --\\<rdf:Description rdf:about='' [xmlns:dc='http://purl.org/dc/1.1/'\>](http://purl.org/dc/1.1/%27)
-\<dc:title\>Simple title\</dc:title\\<dc:description\>Simple description\</dc:description\\</rdf:Description\\<!-- This is between the two rdf:Description tags --\\<rdf:Description rdf:about='' [xmlns:xmp='http://ns.adobe.com/xap/1.0/'\>](http://ns.adobe.com/xap/1.0/%27)
-\<xmp:CreateDate\>2004-10-12T10:29-07:00\</xmp:CreateDate\\<xmp:CreatorTool\>Flash Authoring WIN 8,0,0,215\</xmp:CreatorTool\\</rdf:Description\\<!-- This is after the second rdf:Description tag --\\</rdf:RDF\In the third example, metadata is in attributes, and different schemas are all in one rdf:Description tag:
-\<rdf:RDF [xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns\#'\>](http://www.w3.org/1999/02/22-rdf-syntax-ns#%27)
-\<rdf:Description rdf:about='' [xmlns:dc='http://purl.org/dc/1.1/'](http://purl.org/dc/1.1/%27) dc:title='Simple title' dc:description='Simple description' /\\<rdf:Description rdf:about='' [xmlns:xmp='http://ns.adobe.com/xap/1.0/'](http://ns.adobe.com/xap/1.0/%27) xmp:CreateDate='2004-10-12T10:29-07:00' xmp:CreatorTool='Flash Authoring WIN 8,0,0,215' /\\</rdf:RDF\
+```xml
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+<rdf:Description rdf:about='' xmlns:dc='http://purl.org/dc/1.1'>
+<dc:title>Simple title</dc:title>
+<dc:description>Simple description</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about='' xmlns:xmp='http://ns.adobe.com/xap/1.0/'>
+<xmp:CreateDate>2004-10-12T10:29-07:00</xmp:CreateDate>
+<xmp:CreatorTool>Flash Authoring WIN 8,0,0,215</xmp:CreatorTool>
+</rdf:Description>
+</rdf:RDF>
+In the second example, metadata is in tags, but with different schemas all in one rdf:Description tag. 
+This example also includes comments, which will be ignored and discarded by the Document.setMetadata():
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+
+<!-- This is before the first rdf:Description tag--> <rdf:Description rdf:about='' xmlns:dc='http://purl.org/dc/1.1/'>
+<dc:title>Simple title</dc:title>
+<dc:description>Simple description</dc:description>
+</rdf:Description>
+<!-- This is between the two rdf:Description tags-->
+<rdf:Description rdf:about='' xmlns:xmp='http://ns.adobe.com/xap/1.0/'>
+<xmp:CreateDate>2004-10-12T10:29-07:00</xmp:CreateDate>
+<xmp:CreatorTool>Flash Authoring WIN 8,0,0,215
+</xmp:CreatorTool>
+</rdf:Description>
+<!-- This is after the second rdf:Description tag -->
+</rdf:RDF>
+In the third example, metadata is in attributes, and different schemas are all in one rdf:Description tag:
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns\#'>
+<rdf:Description rdf:about='' xmlns:dc='http://purl.org/dc/1.1/' dc:title='Simple title' dc:description='Simple description' />
+<rdf:Description rdf:about='' xmlns:xmp='http://ns.adobe.com/xap/1.0/' xmp:CreateDate='2004-10-12T10:29-07:00' xmp:CreatorTool='Flash Authoring WIN 8,0,0,215' />
+</rdf:RDF>
 ```
 #### See also
 

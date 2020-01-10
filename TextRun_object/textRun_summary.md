@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Description
 
-The TextRun object represents a run of characters that have attributes that match all of the properties in the [TextAttrs](#_bookmark1003) [object](#_bookmark1003). This object is a property of the Text object ([text.textRuns](../Text_object/text27.md)).
+The TextRun object represents a run of characters that have attributes that match all of the properties in the [TextAttrs object](../TextAttrs_object/textAttrs_summary.md) . This object is a property of the Text object ([text.textRuns](../Text_object/text27.md)).
 
 #### Property summary
 

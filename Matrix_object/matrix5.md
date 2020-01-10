@@ -15,7 +15,6 @@ You can move an object by setting the matrix.tx and matrix.ty properties.
 
 #### Example
 
-```javascript
+
 See the [matrix.tx](../Matrix_object/matrix4.md) example.
 
-```

@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.duplicatePublishProfile(\[profileName\])
+document.duplicatePublishProfile([profileName])
 
 #### Parameters
 
@@ -24,6 +24,7 @@ Method; duplicates the currently active profile and gives the duplicate version 
 
 ```javascript
 The following example duplicates the currently active profile and displays the index of the new profile in the Output panel:
+
 fl.trace(fl.getDocumentDOM().duplicatePublishProfile("dup profile"));
 
 ```

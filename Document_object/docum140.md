@@ -15,8 +15,7 @@ document.mouseDblClk(position, bAltDown, bShiftDown, bShiftSelect)
 for not pressed.
 **bShiftDown** A Boolean value that records whether the Shift key was down when the event occurred: true for pressed;
 false for not pressed.
-**bShiftSelect** A Boolean value that indicates the state of the application preference Shift select: true for on; false
-for off.
+**bShiftSelect** A Boolean value that indicates the state of the application preference Shift select: true for on; false for off.
 
 #### Returns
 
@@ -28,8 +27,10 @@ Method; performs a double mouse click from the Selection tool.
 
 #### Example
 
-```javascript
+
 The following example performs a double mouse click at the specified location:
+
+```javascript
 fl.getDocumentDOM().mouseDblClk({x:392.9, y:73}, false, false, true);
 
 ```

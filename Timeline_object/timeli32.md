@@ -14,10 +14,12 @@ Read-only property; If the timeline's libraryItem property is null, the timeline
 
 #### Example
 
-```javascript
-The following example outputs the name of the libraryItem if the value of libraryItem is not null, and the name of the scene if librayItem is null:
-var item = fl.getDocumentDOM().getTimeline().libraryItem; if (item)
-fl.trace("libraryItem name: " + item.name); else
-fl.trace("scene name: " + fl.getDocumentDOM().getTimeline().name);
 
+The following example outputs the name of the libraryItem if the value of libraryItem is not null, and the name of the scene if librayItem is null:
+```javascript
+var item = fl.getDocumentDOM().getTimeline().libraryItem;
+if (item)
+fl.trace("libraryItem name: " + item.name);
+else
+fl.trace("scene name: " + fl.getDocumentDOM().getTimeline().name);
 ```

@@ -14,7 +14,7 @@ The following properties are available for the Fill object:
 
 | **Property**                                                            | **Description**                                                                                                           |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| [fill.bitmapIsClippe](#fill.bitmapIsClipped) [d](#fill.bitmapIsClipped) | A Boolean value that specifies whether the bitmap fill for a shape that is larger than the bitmap is clipped or repeated. |
+| [fill.bitmapIsClipped](../Fill_object/fill.md) | A Boolean value that specifies whether the bitmap fill for a shape that is larger than the bitmap is clipped or repeated. |
 | [fill.bitmapPath](../Fill_object/fill1.md)                                        | A string that specifies the path and name of the bitmap fill in the Library.                                              |
 | [fill.color](../Fill_object/fill2.md)                                             | A string, hexadecimal value, or integer that represents the fill color.                                                   |
 | [fill.colorArray](../Fill_object/fill3.md)                                        | An array of colors in gradient.                                                                                           |

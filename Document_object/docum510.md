@@ -12,7 +12,7 @@ document.setFillColor(color)
 
 **color** The color of the fill, in one of the following formats:
 
--   A string in the format "\#RRGGBB" or "\#RRGGBBAA"
+-   A string in the format "#RRGGBB" or "#RRGGBBAA"
 
 -   A hexadecimal number in the format 0xRRGGBB
 
@@ -30,8 +30,11 @@ Method; changes the selection and the tools panel to the specified fill color. F
 
 #### Example
 
-```javascript
 The first three statements in the following example set the fill color using each of the different formats for specifying color. The fourth statement sets the fill to no fill.
-fl.getDocumentDOM().setFillColor("\#cc00cc"); fl.getDocumentDOM().setFillColor(0xcc00cc); fl.getDocumentDOM().setFillColor(120000); fl.getDocumentDOM().setFillColor(null);
+
+```javascript
+fl.getDocumentDOM().setFillColor("#cc00cc"); fl.getDocumentDOM().setFillColor(0xcc00cc); 
+fl.getDocumentDOM().setFillColor(120000); 
+fl.getDocumentDOM().setFillColor(null);
 
 ```

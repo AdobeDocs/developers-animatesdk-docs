@@ -22,8 +22,9 @@ Method; sets the brightness for the instance.
 
 #### Example
 
-```javascript
 The following example sets the brightness for the instance to a value of 50:
+
+```javascript
 fl.getDocumentDOM().setInstanceBrightness(50);
 
 ```

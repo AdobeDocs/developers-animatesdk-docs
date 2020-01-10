@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-presetPanel.renameItem(newName)
+*presetPanel.renameItem(newName)*
 
 #### Parameters
 
@@ -30,8 +30,10 @@ Method; renames the currently selected preset or folder to a specified name. Thi
 
 #### Example
 
+The following example renames the currently selected preset in the Custom Presets folder to *Bounce Faster*.
+
 ```javascript
-The following example renames the currently selected preset in the Custom Presets folder to Bounce Faster.
-var renamed = fl.presetPanel.renameItem("Bounce Faster"); fl.trace(renamed);
+var renamed = fl.presetPanel.renameItem("Bounce Faster"); 
+fl.trace(renamed);
 
 ```

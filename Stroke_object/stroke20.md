@@ -22,14 +22,15 @@ Property; a string that describes the stroke style. Acceptable values are "noStr
 
 -   If value is "stipple", there are three additional properties: dotSize, variation, and density.
 
--   If value is "hatched", there are six additional properties: hatchThickness, space, jiggle, rotate, curve, and
-
-length.
+-   If value is "hatched", there are six additional properties: hatchThickness, space, jiggle, rotate, curve, and length.
 
 #### Example
 
-```javascript
+
 The following example sets the stroke style to ragged:
-var myStroke = fl.getDocumentDOM().getCustomStroke(); myStroke.style = "ragged"; fl.getDocumentDOM().setCustomStroke(myStroke);
+```javascript
+var myStroke = fl.getDocumentDOM().getCustomStroke();
+myStroke.style = "ragged"; 
+fl.getDocumentDOM().setCustomStroke(myStroke);
 
 ```

@@ -6,7 +6,7 @@ Flash CS3 Professional.
 
 #### Usage
 
-element.scaleX
+*element.scaleX*
 
 #### Description
 
@@ -15,8 +15,9 @@ Property; a float value that specifies the *x* scale value of symbols, drawing o
 #### Example
 
 ```javascript
-The following example sets the *x* scale value of the current selection to 2 (doubles its value):
-var element = fl.getDocumentDOM().selection\[0\]; element.scaleX = 2;
+The following example sets the x scale value of the current selection to 2 (doubles its value):
+var element = fl.getDocumentDOM().selection[0]; 
+element.scaleX = 2;
 
 ```
 #### See also

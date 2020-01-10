@@ -14,10 +14,11 @@ Property; a Boolean value that enables and disables the children of the object t
 
 #### Example
 
-```javascript
 The following example illustrates getting and setting the forceSimple property:
+```javascript
 // Query if the children of the object are accessible.
-var areChildrenAccessible = fl.getDocumentDOM().selection\[0\].forceSimple;
-// Allow the children of the object to be accessible. fl.getDocumentDOM().selection\[0\].forceSimple = false;
+var areChildrenAccessible = fl.getDocumentDOM().selection[0].forceSimple;
+// Allow the children of the object to be accessible.
+fl.getDocumentDOM().selection[0].forceSimple = false;
 
 ```

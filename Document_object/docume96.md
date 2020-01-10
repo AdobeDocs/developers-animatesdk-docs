@@ -22,8 +22,9 @@ Nothing.
 
 #### Example
 
-```javascript
+
 The following example imports the "mySwf.swf" file from the Flash Configuration folder:
+```javascript
 fl.getDocumentDOM().importSWF(fl.configURI+"mySwf.swf");
 
 ```

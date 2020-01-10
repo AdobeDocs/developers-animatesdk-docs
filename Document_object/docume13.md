@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-document.align(alignmode \[, bUseDocumentBounds\])
+document.align(alignmode [, bUseDocumentBounds])
 
 #### Parameters
 
@@ -23,10 +23,11 @@ Method; aligns the selection.
 
 #### Example
 
-```javascript
-The following example aligns objects to the left and to the Stage. This is equivalent to turning on the To Stage setting in the Align panel and clicking the Align to Left button:
-fl.getDocumentDOM().align("left", true);
 
+The following example aligns objects to the left and to the Stage. This is equivalent to turning on the To Stage setting in the Align panel and clicking the Align to Left button:
+
+```javascript
+fl.getDocumentDOM().align("left", true);
 ```
 #### See also
 

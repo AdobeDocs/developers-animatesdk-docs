@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-timeline.createMotionTween(\[startFrameIndex \[, endFrameIndex\]\])
+timeline.createMotionTween([startFrameIndex [, endFrameIndex]])
 
 #### Parameters
 
@@ -19,12 +19,12 @@ Nothing.
 
 #### Description
 
-Method; sets the [frame.tweenType](../Frame_object/frame39.md) property to motion for each selected keyframe on the current layer, and converts each frame’s contents to a single symbol instance if necessary. This property is the equivalent to the Create Motion Tween menu item in the Flash authoring tool.
+Method; sets the [frame.tweenType](../Frame_object/frame39.md) property to motion for each selected keyframe on the current layer, and converts each frame’s contents to a single symbol instance if necessary. This property is the equivalent to the Create Motion Tween menu item in the Animate authoring tool.
 
 #### Example
 
-```javascript
-The following example converts the shape in the first frame up to, but not including, Frame 10 to a graphic symbol instance and sets the frame.tweenType to motion (remember that index values are different from frame number values):
-fl.getDocumentDOM().getTimeline().createMotionTween(0, 9);
 
+The following example converts the shape in the first frame up to, but not including, Frame 10 to a graphic symbol instance and sets the frame.tweenType to motion (remember that index values are different from frame number values):
+```javascript
+fl.getDocumentDOM().getTimeline().createMotionTween(0, 9);
 ```

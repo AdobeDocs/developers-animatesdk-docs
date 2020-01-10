@@ -6,7 +6,7 @@ Flash CS4 Professional.
 
 #### Usage
 
-videoItem.exportToFLV(fileURI)
+*videoItem.exportToFLV(fileURI)*
 
 #### Parameters
 
@@ -22,9 +22,11 @@ Method; exports the specified item to an FLV file.
 
 #### Example
 
-```javascript
 Assuming that the first item in the Library is a video item, the following code exports it as an FLV file:
-var videoFileURL = "file:///C\|/out.flv";
-var libItem = fl.getDocumentDOM().library.items\[0\]; libItem.exportToFLV(videoFileURL);
+
+```javascript
+var videoFileURL = "file:///C|/out.flv";
+var libItem = fl.getDocumentDOM().library.items[0]; 
+libItem.exportToFLV(videoFileURL);
 
 ```

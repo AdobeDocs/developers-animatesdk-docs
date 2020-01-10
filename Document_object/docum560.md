@@ -12,7 +12,7 @@ document.setInstanceTint( color, strength )
 
 **color** The color of the tint, in one of the following formats:
 
--   A string in the format "\#RRGGBB" or "\#RRGGBBAA"
+-   A string in the format "#RRGGBB" or "#RRGGBBAA"
 
 -   A hexadecimal number in the format 0xRRGGBB
 
@@ -30,8 +30,9 @@ Method; sets the tint for the instance.
 
 #### Example
 
-```javascript
 The following example sets the tint for the selected instance to red with an opacity value of 50:
+
+```javascript
 fl.getDocumentDOM().setInstanceTint(0xff0000, 50);
 
 ```

@@ -6,11 +6,12 @@ Flash CS4 Professional.
 
 #### Usage
 
-presetPanel.importItem(fileURI \[,namePath \])
+*presetPanel.importItem(fileURI [,namePath ])*
 
 #### Parameters
 
 **fileURI** A string, expressed as a file:/// URI, that specifies the XML file to be imported as a preset in the Motion Presets panel.
+
 **namePath** A string that specifies in which folder to place the imported file and what to name it. This parameter is optional.
 
 #### Returns
@@ -25,9 +26,10 @@ If you don’t pass a value for *namePath*, the imported preset is placed in the
 
 #### Example
 
-```javascript
 The following example imports a preset into the Custom Presets/Pulse folder, and names it fastPulse.
-fl.presetPanel.importItem("file:///C\|/My Presets/thePulsePreset.xml", "Custom Presets/Pulse/fastPulse");
+
+```javascript
+fl.presetPanel.importItem("file:///C|/My Presets/thePulsePreset.xml", "Custom Presets/Pulse/fastPulse");
 
 ```
 #### See also

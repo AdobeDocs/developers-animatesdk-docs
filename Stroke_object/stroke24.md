@@ -14,9 +14,14 @@ Property; a string that specifies the wavelength of a ragged line. This property
 
 #### Example
 
-```javascript
+
 The following example sets the waveLength property to short for a stroke style of ragged:
-var myStroke = fl.getDocumentDOM().getCustomStroke(); myStroke.style = "ragged";
-myStroke.pattern = "random"; myStroke.waveHeight = 'flat"; myStroke.waveLength = "short"; fl.getDocumentDOM().setCustomStroke(myStroke);
+```javascript
+var myStroke = fl.getDocumentDOM().getCustomStroke();
+myStroke.style = "ragged";
+myStroke.pattern = "random"; 
+myStroke.waveHeight ="flat"; 
+myStroke.waveLength = "short"; 
+fl.getDocumentDOM().setCustomStroke(myStroke);
 
 ```

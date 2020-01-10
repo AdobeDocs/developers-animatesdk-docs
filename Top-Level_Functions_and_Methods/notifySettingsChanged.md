@@ -24,9 +24,12 @@ Function; called when the extensible tool is active and the user changes its opt
 
 #### Example
 
-```javascript
 The following example displays a message in the Output panel when the extensible tool is active and the user changes its options in the Property inspector.
-function notifySettingsChanged() { var theTool = fl.tools.activeTool; var newValue = theTool.myProp;
+
+```javascript
+function notifySettingsChanged() { 
+    var theTool = fl.tools.activeTool; 
+    var newValue = theTool.myProp;
 }
 
 ```

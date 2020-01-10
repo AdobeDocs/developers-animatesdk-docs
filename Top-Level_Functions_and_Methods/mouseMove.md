@@ -6,7 +6,7 @@ Flash MX 2004.
 
 #### Usage
 
-function mouseMove( \[ pt \] ) {
+function mouseMove( [ pt ] ) {
 // statements
 }
 
@@ -24,12 +24,14 @@ Function; called whenever the extensible tool is active and the mouse moves over
 
 #### Example
 
-```javascript
 The following examples show how this function can be used. The first example displays a message in the Output panel that the mouse is being moved. The second example displays the *x* and *y* coordinates of the mouse’s location as it moves.
-function mouseMove() { fl.trace("moving");
+
+```javascript
+function mouseMove() { 
+        fl.trace("moving");
 }
 function mouseMove(pt) {
-fl.trace("x = "+ pt.x + " :: y = " + pt.y);
+    fl.trace("x = "+ pt.x + " :: y = " + pt.y);
 }
 
 ```

@@ -24,11 +24,17 @@ Method; retrieves the current [Timeline object](../Timeline_object/timeline_summ
 
 ```javascript
 The following example gets the Timeline object and returns the number of frames in the longest layer:
-var longestLayer = fl.getDocumentDOM().getTimeline().frameCount; fl.trace("The longest layer has" + longestLayer + "frames");
+
+var longestLayer = fl.getDocumentDOM().getTimeline().frameCount; 
+fl.trace("The longest layer has" + longestLayer + "frames");
+
 The following example enters edit-in-place mode for the selected symbol on the Stage and inserts a frame on the symbol’s timeline.
-fl.getDocumentDOM().enterEditMode("inPlace"); fl.getDocumentDOM().getTimeline().insertFrames();
+fl.getDocumentDOM().enterEditMode("inPlace"); 
+fl.getDocumentDOM().getTimeline().insertFrames();
+
 The following example gets the Timeline object and displays its name:
-var timeline = fl.getDocumentDOM().getTimeline(); alert(timeline.name);
+var timeline = fl.getDocumentDOM().getTimeline(); 
+alert(timeline.name);
 
 ```
 #### See also
