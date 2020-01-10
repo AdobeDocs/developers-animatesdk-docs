@@ -216,19 +216,19 @@
              "title": "bitmapItem.sourceFileIsCurrent"
             },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIte11.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/BitmapItem_object/bitmapIte11.md",
              "title": "bitmapItem.sourceFilePath"
             },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIte12.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/BitmapItem_object/bitmapIte12.md",
              "title": "bitmapItem.useDeblocking"
             },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIte13.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/BitmapItem_object/bitmapIte13.md",
              "title": "bitmapItem.useImportedJPEGQuality"
             },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/BitmapItem_object/bitmapIte14.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/BitmapItem_object/bitmapIte14.md",
              "title": "bitmapItem.vPixels"
             }           
         ],
@@ -237,87 +237,87 @@
         {
           "pages": [
           {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera_Summary.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera_Summary.md",
                "title": "Camera summary"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera5.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera5.md",
                "title": "getColorFilter()"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera3.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera3.md",
                "title": "getPosition()"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera2.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera2.md",
                "title": "getRotation()"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera4.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera4.md",
                "title": "getTint()"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera.md",
                "title": "getZDepth()"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera1.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera1.md",
                "title": "getZoom()"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera16.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera16.md",
                "title": "reset()"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera15.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera15.md",
                "title": "resetColorFilter()"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera13.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera13.md",
                "title": "resetPosition()"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera12.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera12.md",
                "title": "resetRotation()"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera14.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera14.md",
                "title": "resetTint()"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera11.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera11.md",
                "title": "resetZoom()"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera10.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera10.md",
                "title": "setColorFilter()"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera8.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera8.md",
                "title": "setRotation()"
               },
               {
-               "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera9.md",
+               "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera9.md",
                "title": "setTint()"
               },
               {
-                "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera6.md",
+                "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera6.md",
                 "title": "setZDepth()"
               },
               {
-                "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera7.md",
+                "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera7.md",
                 "title": "setZoom()"
                },
                {
-                "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera17.md",
+                "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera17.md",
                 "title": "camera.cameraEnabled"
                },
                {
-                "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera19.md",
+                "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera19.md",
                 "title": "camera.colorFilterEnabled"
                },
                {
-                "path": "AdobeDocs/developers-animatesdk-docs/test/Camera_object/Camera18.md",
+                "path": "AdobeDocs/developers-animatesdk-docs/master/Camera_object/Camera18.md",
                 "title": "camera.tintEnabled"
                }
 
@@ -564,15 +564,15 @@
              "title": "document.addNewText()"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6058.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6058.md",
               "title": "document.addTaggedSwatch()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6059.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6059.md",
               "title": "document.addTaggedSwatchWithColor()"
              },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume13.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docume13.md",
              "title": "document.align()"
             },
             {
@@ -664,11 +664,11 @@
              "title": "document.convertSelectionToBitmap()"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6069.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6069.md",
               "title": "document.convertToDoc()"
              },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume36.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docume36.md",
              "title": "document.convertToSymbol()"
             },
             {
@@ -704,15 +704,15 @@
              "title": "document.deleteSelection()"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6065.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6065.md",
               "title": "document.deleteTaggedSwatchAtIndex()"
              }, 
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6066.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6066.md",
               "title": "document.deleteTaggedSwatchByName()"
              },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume45.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docume45.md",
              "title": "document.description"
             },
             {
@@ -780,11 +780,11 @@
              "title": "document.exitEditMode()"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6070.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6070.md",
               "title": "document.exportCanvasPublishTemplate()"
              },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume62.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docume62.md",
              "title": "document.exportInstanceToLibrary()"
             },
             {
@@ -792,11 +792,11 @@
              "title": "document.exportInstanceToPNGSequence()"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6072.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6072.md",
               "title": "document.exportMedia()"
              },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume64.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docume64.md",
              "title": "document.exportPNG()"
             },
             {
@@ -808,11 +808,11 @@
              "title": "document.exportPublishProfileString()"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6074.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6074.md",
               "title": "document.exportSVG()"
              },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume67.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docume67.md",
              "title": "document.exportSWF()"
             },
             {
@@ -864,11 +864,11 @@
              "title": "document.getFilters()"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6060.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6060.md",
               "title": "document.getIndexForTaggedSwatchesPalette()"
              },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume80.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docume80.md",
              "title": "document.getMetadata()"
             },
             {
@@ -892,23 +892,23 @@
              "title": "document.getSWFPathFromProfile()"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6061.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6061.md",
               "title": "document.getTaggedSwatchAtIndex()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6062.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6062.md",
               "title": "document.getTaggedSwatchByName()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6064.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6064.md",
               "title": "document.getTaggedSwatches()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6063.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6063.md",
               "title": "document.getTaggedSwatchesPaletteList()"
              },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume86.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docume86.md",
              "title": "document.getTelemetryForSwf()"
             },
             {
@@ -936,11 +936,11 @@
              "title": "document.id"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6071.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6071.md",
               "title": "document.importCanvasPublishTemplate()"
              },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docume93.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docume93.md",
              "title": "document.importFile()"
             },
             {
@@ -1212,15 +1212,15 @@
              "title": "document.setStrokeStyle()"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6067.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6067.md",
               "title": "document.setTaggedSwatchAtIndex()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6068.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6068.md",
               "title": "document.setTaggedSwatchByName()"
              },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu9846.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu9846.md",
              "title": "document.setTextRectangle()"
             },
             {
@@ -1296,7 +1296,7 @@
              "title": "document.translate3DSelection()"
             },
            {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Document_object/docu6073.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Document_object/docu6073.md",
              "title": "document.transformSelection()"
             },
           
@@ -1703,11 +1703,11 @@
              "title": "fl.addEventListener()"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl82.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl82.md",
               "title": "fl.addToolInToolbar()"
              },  
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/flash_object_(fl)/fl2.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/flash_object_(fl)/fl2.md",
              "title": "fl.as3PackagePaths"
             },
             {
@@ -2475,23 +2475,23 @@
              "title": "layer.frames"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer13.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_object/layer13.md",
               "title": "layer.getBlendModeAtFrame()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer14.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_object/layer14.md",
               "title": "layer.getColorTransformAtFrame()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer15.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_object/layer15.md",
               "title": "layer.getFiltersAtFrame()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer11.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_object/layer11.md",
               "title": "layer.getZDepthAtFrame()"
              }, 
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer4.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_object/layer4.md",
              "title": "layer.height"
             },
             {
@@ -2515,23 +2515,23 @@
              "title": "layer.parentLayer"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer16.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_object/layer16.md",
               "title": "layer.setBlendModeAtFrame()"
              },  
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer17.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_object/layer17.md",
               "title": "layer.setColorTransformAtFrame()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer18.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_object/layer18.md",
               "title": "layer. setFiltersAtFrame()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer12.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_object/layer12.md",
               "title": "layer.setZDepthAtFrame()"
              },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_object/layer10.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_object/layer10.md",
              "title": "layer.visible"
             }
         ],
@@ -2544,15 +2544,15 @@
              "title": "layerParenting summary"
             },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting3.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_Parenting_Object/layerParenting3.md",
              "title": "layer.getRigMatrixAtFrame()"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting1.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_Parenting_Object/layerParenting1.md",
              "title": "layer.getRigParentAtFrame()"
              },
              {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Layer_Parenting_Object/layerParenting2.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Layer_Parenting_Object/layerParenting2.md",
              "title": "layer.setRigParentAtFrame()"
              }                
         ],
@@ -3789,79 +3789,79 @@
         {
          "pages": [
         {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter_summary.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter_summary.md",
             "title": "TextureAtlasExporter object summary"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter.md",
             "title": "TextureAtlasExporter.algorithm"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter1.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter1.md",
             "title": "TextureAtlasExporter.allowRotate"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter2.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter2.md",
             "title": "TextureAtlasExporter.app"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter3.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter3.md",
             "title": "TextureAtlasExporter.autoSize"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter4.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter4.md",
             "title": "TextureAtlasExporter.borderPadding"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter5.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter5.md",
             "title": "TextureAtlasExporter.canRotate"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter6.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter6.md",
             "title": "TextureAtlasExporter.exportTextureAtlas()"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter7.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter7.md",
             "title": "TextureAtlasExporter.filePath"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter8.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter8.md",
             "title": "TextureAtlasExporter.flattenSkewObject"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter9.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter9.md",
             "title": "TextureAtlasExporter.imageFormat"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter10.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter10.md",
             "title": "TextureAtlasExporter.optimizeBitmap"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter11.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter11.md",
             "title": "TextureAtlasExporter.optimizeJson"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter12.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter12.md",
             "title": "TextureAtlasExporter.overflowed"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter13.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter13.md",
             "title": "TextureAtlasExporter.resolution"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter14.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter14.md",
             "title": "TextureAtlasExporter.shapePadding"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter15.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter15.md",
             "title": "TextureAtlasExporter.sheetHeight"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter16.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter16.md",
             "title": "TextureAtlasExporter.sheetWidth"
             },
             {
-            "path": "AdobeDocs/developers-animatesdk-docs/test/TextureAtlasExporter_object/TextureAtlasExporter17.md",
+            "path": "AdobeDocs/developers-animatesdk-docs/master/TextureAtlasExporter_object/TextureAtlasExporter17.md",
             "title": "TextureAtlasExporter.version"
             }                              
           ],
@@ -3882,11 +3882,11 @@
              "title": "timeline.addNewLayer()"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli52.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Timeline_object/timeli52.md",
               "title": "timeline.advancedLayersEnabled"
              }, 
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timelin2.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Timeline_object/timelin2.md",
              "title": "timeline.clearFrames()"
             },
             {
@@ -4010,11 +4010,11 @@
              "title": "timeline.libraryItem"
             },
             {
-              "path": "AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli51.md",
+              "path": "AdobeDocs/developers-animatesdk-docs/master/Timeline_object/timeli51.md",
               "title": "timeline.mergeLayers()"
              },
             {
-             "path": "AdobeDocs/developers-animatesdk-docs/test/Timeline_object/timeli33.md",
+             "path": "AdobeDocs/developers-animatesdk-docs/master/Timeline_object/timeli33.md",
              "title": "timeline.name"
             },
             {
