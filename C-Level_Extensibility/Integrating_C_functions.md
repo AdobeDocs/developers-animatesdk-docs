@@ -1,6 +1,6 @@
 ## Integrating C functions
 
-The C-level extensibility mechanism lets you implement Flash extensibility files using a combination of JavaScript and C code.
+The C-level extensibility mechanism lets you implement Animate extensibility files using a combination of JavaScript and C code.
 
 ***Note:** Adobe Animate runs on 64-bit operating systems only. All C extensions for this release must be built (or rebuilt) for 64 bit support.*
 
@@ -12,18 +12,18 @@ The process for implementing this capability is summarized in the following step
 
 3.  Save the DLL file or library in the appropriate location:
 
-    -   Windows 7 and 8:
+    -   Windows 10:
 
-        *boot drive\Users\username\AppData\Local\Adobe\Flash CC\language\Configuration\External Libraries*
+        *boot drive\Users\username\AppData\Local\Adobe\Animate version\language\Configuration\External Libraries*
 
     -   Mac OS X:
 
-        Macintosh HD/Users/*username*/Library/Application Support/Adobe/Flash
-        *CC*/*language*/Configuration/External Libraries
+        Macintosh HD/Users/*username*/Library/Application Support/Adobe/Animate
+        *version*/*language*/Configuration/External Libraries
 
 1.  Create a JSFL file that calls the functions.
 
-2.  Run the JSFL file from the Commands menu in the Flash authoring environment. For more information, see ["Sample DLL implementation"](#sample-dll-implementation).
+2.  Run the JSFL file from the Commands menu in the Animate authoring environment. For more information, see ["Sample DLL implementation"](#sample-dll-implementation).
 
 ### C-level extensibility and the JavaScript interpreter
 
@@ -232,13 +232,13 @@ MM_Init();\
 
 ### Sample DLL implementation
 
-This section illustrates how to build a simple DLL implementation. If you want to see how the process works without actually building the DLL yourself, you can install the sample DLL files that are provided in the Samples.zip file; the files are located in the ExtendingFlash/dllSampleComputeSum folder. (For information on downloading the Samples.zip file, see ["Sample implementations"](#sample-dll-implementation) Extract the sample files from the dllSampleComputeSum.dmg or dllSampleComputeSum.zip file, and then do the following:
+This section illustrates how to build a simple DLL implementation. If you want to see how the process works without actually building the DLL yourself, you can install the sample DLL files that are provided in the Samples.zip file; the files are located in the ExtendingAnimate/dllSampleComputeSum folder. (For information on downloading the Samples.zip file, see ["Sample implementations"](../Introduction/Sample_implementations.md) Extract the sample files from the dllSampleComputeSum.dmg or dllSampleComputeSum.zip file, and then do the following:
 
--   Store the Sample.jsfl file in the Configuration/Commands directory (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md).
+-   Store the Sample.jsfl file in the Configuration/Commands directory (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md)).
 
 -   Store the Sample.dll file in the Configuration/External Libraries directory (see ["Integrating C functions"](#integrating-c-functions)).
 
--   In the Flash authoring environment, select Commands >Sample. The trace statement in the JSFL file sends the results of the function defined in Sample.dll to the Output panel.
+-   In the Animate authoring environment, select Commands >Sample. The trace statement in the JSFL file sends the results of the function defined in Sample.dll to the Output panel.
 
 The rest of this section discusses the development of the sample. In this case, the DLL contains only one function, which adds two numbers. The C code is shown in the following example:
 
@@ -284,5 +284,5 @@ var sum = Sample.computeSum(a, b);
 fl.trace("The sum of " + a + " and " + b + " is " + sum );
 ```
 
-To run the function defined in the DLL, select Commands > Sample in the Flash authoring environment.
+To run the function defined in the DLL, select Commands > Sample in the Animate authoring environment.
 
