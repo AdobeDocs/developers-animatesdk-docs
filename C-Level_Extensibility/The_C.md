@@ -68,9 +68,9 @@ The function returns JS_TRUE if successful; JS_FALSE otherwise. If the function 
 
 #### Description
 
-Method; registers a C-level function with the JavaScript interpreter in Flash. After the JS\_DefineFunction() function registers the C-level function that you specify in the *call* argument, you can invoke it in a JavaScript script by referring to it with the name that you specify in the *name* argument. The *name* argument is case-sensitive.
+Method; registers a C-level function with the JavaScript interpreter in Animate. After the JS\_DefineFunction() function registers the C-level function that you specify in the *call* argument, you can invoke it in a JavaScript script by referring to it with the name that you specify in the *name* argument. The *name* argument is case-sensitive.
 
-Typically, this function is called from the MM_Init() function, which Flash calls during startup.
+Typically, this function is called from the MM_Init() function, which Animate calls during startup.
 
 #### Arguments
 
