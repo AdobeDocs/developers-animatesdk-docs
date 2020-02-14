@@ -1,6 +1,6 @@
 ## Sample implementations
 
-Several sample JSFL implementations are available for Adobe Animate. You can review and install these files to familiarize yourself with the JavaScript API. The samples are in a folder named Samples within the Samples.zip file located at [Animate SDK Downloads](https://console.adobe.io/downloads/an).
+Several sample JSFL implementations are available for Adobe Animate. You can review and install these files to familiarize yourself with the JavaScript API. The samples are in a folder named Samples within the [Samples.zip](../downloads/Samples.zip).
 
 ### Sample Shape command
 
