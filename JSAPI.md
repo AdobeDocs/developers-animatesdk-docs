@@ -1,12 +1,11 @@
- 
-# Animate JSAPI Documentation      
- 
 ---
 id:Animate-JSAPI
 title:AnimateJSAPIDocumentation
 description:ThisisthehomepageofAnimateAPIs
----
+--- 
 
+# Animate JSAPI Documentation      
+ 
 
 ## Introduction
 
