@@ -1,8 +1,7 @@
 ---
-id:Animate-JSAPI
-title:AnimateJSAPIDocumentation
-description:ThisisthehomepageofAnimateAPIs
---- 
+title: Animate JSAPI Documentation
+description: This is the home page of Animate APIs
+---
 
 # Animate JSAPI Documentation      
  
@@ -167,7 +166,7 @@ description:ThisisthehomepageofAnimateAPIs
 ["camera.tintEnabled"](./Camera_object/Camera18.md)
 
 
-## ["compiledClipInstanceObject"]
+## compiledClipInstanceObject
 
 ["compiledClipInstancesummary"](./CompiledClipInstance_object/compiledClipInstance_summary.md)
 
