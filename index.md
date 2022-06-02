@@ -226,87 +226,87 @@ If you have not used the JavaScript API before, you might want to skip this sect
 ### New methods and properties in Animate 2020
 The following methods and properties for existing objects are new in Animate 2020:
 
--   [Document object](../Document_object/document_summary.md)
+-   [Document object](/Document_object/document_summary.md)
 
-    -   [document.getTaggedSwatches()](../Document_object/docu6064.md)
+    -   [document.getTaggedSwatches()](/Document_object/docu6064.md)
 
-    -   [document.getTaggedSwatchByName()](../Document_object/docu6062.md)
+    -   [document.getTaggedSwatchByName()](/Document_object/docu6062.md)
 
-    -   [document.getTaggedSwatchAtIndex()](../Document_object/docu6061.md)
+    -   [document.getTaggedSwatchAtIndex()](/Document_object/docu6061.md)
 
-    -   [document.setTaggedSwatchByName()](../Document_object/docu6068.md)
+    -   [document.setTaggedSwatchByName()](/Document_object/docu6068.md)
 
-    -   [document.setTaggedSwatchAtIndex()](../Document_object/docu6067.md)
+    -   [document.setTaggedSwatchAtIndex()](/Document_object/docu6067.md)
 
-    -   [document.addTaggedSwatch()](../Document_object/docu6058.md)
+    -   [document.addTaggedSwatch()](/Document_object/docu6058.md)
 
-    -   [document.addTaggedSwatchWithColor()](../Document_object/docu6059.md)
+    -   [document.addTaggedSwatchWithColor()](/Document_object/docu6059.md)
 
-    -  [document.deleteTaggedSwatchByName()](../Document_object/docu6066.md)
+    -  [document.deleteTaggedSwatchByName()](/Document_object/docu6066.md)
 
-    -   [document.deleteTaggedSwatchAtIndex()](../Document_object/docu6065.md)
+    -   [document.deleteTaggedSwatchAtIndex()](/Document_object/docu6065.md)
 
-    -   [document.getTaggedSwatchesPaletteList()](../Document_object/docu6063.md)
+    -   [document.getTaggedSwatchesPaletteList()](/Document_object/docu6063.md)
 
-    -   [document.getIndexForTaggedSwatchesPalette()](../Document_object/docu6060.md)
+    -   [document.getIndexForTaggedSwatchesPalette()](/Document_object/docu6060.md)
 
-    -   [document.convertToDoc()](../Document_object/docu6069.md)
+    -   [document.convertToDoc()](/Document_object/docu6069.md)
 
-    -   [document.exportCanvasPublishTemplate()](../Document_object/docu6070.md)
+    -   [document.exportCanvasPublishTemplate()](/Document_object/docu6070.md)
 
-    -   [document.importCanvasPublishTemplate()](../Document_object/docu6071.md)
+    -   [document.importCanvasPublishTemplate()](/Document_object/docu6071.md)
 
-    -  [document.exportMedia()](../Document_object/docu6072.md)
+    -  [document.exportMedia()](/Document_object/docu6072.md)
 
-    -   [document.exportSVG()](../Document_object/docu6074.md)
+    -   [document.exportSVG()](/Document_object/docu6074.md)
 
--   [Layer object](../Layer_object/layer_summary.md)
+-   [Layer object](/Layer_object/layer_summary.md)
 
-    -   [layer.getZDepthAtFrame()](../Layer_object/layer11.md)
+    -   [layer.getZDepthAtFrame()](/Layer_object/layer11.md)
 
-    -   [layer.setZDepthAtFrame()](../Layer_object/layer12.md)
+    -   [layer.setZDepthAtFrame()](/Layer_object/layer12.md)
 
-    -   [layer.getRigParentAtFrame()](../Layer_Parenting_Object/layerParenting1.md)
+    -   [layer.getRigParentAtFrame()](/Layer_Parenting_Object/layerParenting1.md)
 
-    -   [layer.setRigParentAtFrame()](../Layer_Parenting_Object/layerParenting2.md)
+    -   [layer.setRigParentAtFrame()](/Layer_Parenting_Object/layerParenting2.md)
 
-    -   [layer.getRigMatrixAtFrame()](../Layer_Parenting_Object/layerParenting3.md)
+    -   [layer.getRigMatrixAtFrame()](/Layer_Parenting_Object/layerParenting3.md)
 
-    -   [layer.getFiltersAtFrame()](../Layer_object/layer15.md)
+    -   [layer.getFiltersAtFrame()](/Layer_object/layer15.md)
 
-    -   [layer. setFiltersAtFrame()](../Layer_object/layer18.md)
+    -   [layer. setFiltersAtFrame()](/Layer_object/layer18.md)
 
-    -   [layer.getColorTransformAtFrame()](../Layer_object/layer14.md)
+    -   [layer.getColorTransformAtFrame()](/Layer_object/layer14.md)
 
-    -   [layer.setColorTransformAtFrame()](../Layer_object/layer17.md)
+    -   [layer.setColorTransformAtFrame()](/Layer_object/layer17.md)
 
-    -   [layer.getBlendModeAtFrame()](../Layer_object/layer13.md)
+    -   [layer.getBlendModeAtFrame()](/Layer_object/layer13.md)
 
-    -   [layer.setBlendModeAtFrame()](../Layer_object/layer16.md)
+    -   [layer.setBlendModeAtFrame()](/Layer_object/layer16.md)
 
--   [Timeline object](../Timeline_object/timeline_summary.md)
+-   [Timeline object](/Timeline_object/timeline_summary.md)
 
-    -   [timeline.advancedLayersEnabled](../Timeline_object/timeli52.md)
+    -   [timeline.advancedLayersEnabled](/Timeline_object/timeli52.md)
 
-    -   [timeline.mergeLayers()](../Timeline_object/timeli51.md)
+    -   [timeline.mergeLayers()](/Timeline_object/timeli51.md)
 
--   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
+-   [flash object (fl)](/flash_object_(fl)/fl_summary.md)
 
-    -   [fl.addToolInToolbar()](../flash_object_(fl)/fl82.md)
+    -   [fl.addToolInToolbar()](/flash_object_(fl)/fl82.md)
 
 
 ### New objects in Animate 2020
 The following object is new in Flash CS6:
 
--   [TextureAtlasExporter object](../TextureAtlasExporter_object/TextureAtlasExporter_summary.md)
+-   [TextureAtlasExporter object](/TextureAtlasExporter_object/TextureAtlasExporter_summary.md)
 
--   [Camera object](../Camera_object/Camera_Summary.md)
+-   [Camera object](/Camera_object/Camera_Summary.md)
 
 ### New methods and properties in Flash CC
 
 The following methods and properties for existing objects are new in Flash Profesional CC:
 
--   [Tween Object](../Tween_Object/Tween_object_Summary.md)
+-   [Tween Object](/Tween_Object/Tween_object_Summary.md)
 
     -   Tween.getColorTransform( )
 
@@ -322,7 +322,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   Tween.tweenType
 
--   [CompiledClipInstance object](../CompiledClipInstance_object/compiledClipInstance_summary.md)
+-   [CompiledClipInstance object](/CompiledClipInstance_object/compiledClipInstance_summary.md)
 
     -   CompiledClipInstance.backgroundColor
 
@@ -360,7 +360,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   CompiledClipInstance.visible
 
--   [Document object](../Document_object/document_summary.md)
+-   [Document object](/Document_object/document_summary.md)
 
     -   Document.convertSelectionToBitmap()
 
@@ -376,13 +376,13 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   Document.setPublishDocumenData()
 
--   [Element object](../Element_object/element_summary.md)
+-   [Element object](/Element_object/element_summary.md)
 
     -   Element.getPublishPersistentData()
 
     -   Element.setPublishPersistentData()
 
--   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
+-   [flash object (fl)](/flash_object_(fl)/fl_summary.md)
 
     -   Flash.addEventListener()prePublish, postPublish, selectionChanged, and dpiChanged events
 
@@ -400,7 +400,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   fl.xmlPanelFromString()
 
--   [Frame object](../Frame_object/frame_summary.md)
+-   [Frame object](/Frame_object/frame_summary.md)
 
     -   Frame.convertToFrameByFrameAnimation()
 
@@ -414,17 +414,17 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   Frame.isEmpty()
 
--   [Item object](../Item_object/item_summary.md)
+-   [Item object](/Item_object/item_summary.md)
 
     -   item.getPublishData()
 
     -   item.setPublishData()
 
--   [library object](../library_object/library_summary.md)
+-   [library object](/library_object/library_summary.md)
 
     -   library.unusedItems
 
--   [swfPanel object](../swfPanel_object/swfPanel_summary.md)
+-   [swfPanel object](/swfPanel_object/swfPanel_summary.md)
 
     -   swfPanel.dpiScaleFactorX
 
@@ -432,7 +432,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   swfPanel.reload()
 
--   [SymbolInstance object](../SymbolInstance_object/symbolInstance_summary.md)
+-   [SymbolInstance object](/SymbolInstance_object/symbolInstance_summary.md)
 
     -   SymbolInstance.brightness
 
@@ -440,7 +440,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   SymbolInstance.tintPercent
 
--   [Timeline object](../Timeline_object/timeline_summary.md)
+-   [Timeline object](/Timeline_object/timeline_summary.md)
 
     -   getBounds()
 
@@ -484,13 +484,13 @@ The following methods and properties for existing objects are dropped in Adobe A
 
 The following object is new in Flash CS6:
 
--   [SpriteSheetExporter object](../SpriteSheetExporter_object/SpriteSheetExporter_summary.md)
+-   [SpriteSheetExporter object](/SpriteSheetExporter_object/SpriteSheetExporter_summary.md)
 
 ### New methods and properties in Flash CS6
 
 The following methods and properties for existing objects are new in Flash Pro CS6:
 
--   [BitmapItem object](../BitmapItem_object/bitmapItem_summary.md)
+-   [BitmapItem object](/BitmapItem_object/bitmapItem_summary.md)
 
     -   bitmapItem.exportToFile()quality parameter
 
@@ -498,7 +498,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   bitmapItem.lastModifiedDate
 
--   [Document object](../Document_object/document_summary.md)
+-   [Document object](/Document_object/document_summary.md)
 
     -   document.exportInstanceToLibrary()
 
@@ -510,31 +510,31 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   document.swfJPEGQuality
 
--   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
+-   [flash object (fl)](/flash_object_(fl)/fl_summary.md)
 
     -   fl.spriteSheetExporter
 
--   [Layer object](../Layer_object/layer_summary.md)
+-   [Layer object](/Layer_object/layer_summary.md)
 
     -   layer.animationType
 
--   [Math object](../Math_object/Math_summary.md)
+-   [Math object](/Math_object/Math_summary.md)
 
     -   Math.transformPoint()
 
--   [Shape object](../Shape_object/shape_summary.md)
+-   [Shape object](/Shape_object/shape_summary.md)
 
     -   shape.isFloating
 
--   [SoundItem object](../SoundItem_object/soundItem_summary.md)
+-   [SoundItem object](/SoundItem_object/soundItem_summary.md)
 
     -   soundItem.lastModifiedDate
 
--   [SymbolInstance object](../SymbolInstance_object/symbolInstance_summary.md)
+-   [SymbolInstance object](/SymbolInstance_object/symbolInstance_summary.md)
 
     -   symbolInstance.is3D
 
--   [SymbolItem object](../SymbolItem_object/symbolItem_summary.md)
+-   [SymbolItem object](/SymbolItem_object/symbolItem_summary.md)
 
     -   symbolItem.exportToLibrary()
 
@@ -542,11 +542,11 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   symbolItem.lastModifiedDate
 
--   [Text object](../Text_object/text_summary.md)
+-   [Text object](/Text_object/text_summary.md)
 
     -   text.filters
 
--   [VideoItem object](../VideoItem_object/videoItem_summary.md)
+-   [VideoItem object](/VideoItem_object/videoItem_summary.md)
 
     -   videoItem.lastModifiedDate
 
@@ -554,19 +554,19 @@ The following methods and properties for existing objects are new in Flash Pro C
 
 The following methods and properties for existing objects are new in Flash Pro CS5:
 
--   [Document object](../Document_object/document_summary.md)
+-   [Document object](/Document_object/document_summary.md)
 
     -   document.debugMovie()
 
     -   document.loadCuepointXML()
 
--   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
+-   [flash object (fl)](/flash_object_(fl)/fl_summary.md)
 
     -   fl.languageCode
 
     -   fl.toggleBreakpoint
 
--   [Frame object](../Frame_object/frame_summary.md)
+-   [Frame object](/Frame_object/frame_summary.md)
 
     -   frame.convertMotionObjectTo2D()
 
@@ -588,7 +588,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   frame.tweenInstanceName
 
--   [Timeline object](../Timeline_object/timeline_summary.md)
+-   [Timeline object](/Timeline_object/timeline_summary.md)
 
     -   timeline.createMotionObject()
 
@@ -602,7 +602,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
 The following methods and properties for existing objects are new in Flash Pro CS5.5:
 
--   [SymbolInstance object](../SymbolInstance_object/symbolInstance_summary.md)
+-   [SymbolInstance object](/SymbolInstance_object/symbolInstance_summary.md)
 
     -   symbolInstance.bitmapRenderMode
 
@@ -612,7 +612,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   symbolInstance.visible
 
--   [Timeline object](../Timeline_object/timeline_summary.md)
+-   [Timeline object](/Timeline_object/timeline_summary.md)
 
     -   timeline.copyLayers()
 
@@ -622,7 +622,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   timeline.pasteLayers()
 
--   [flash object (fl)](../flash_object_(fl)/fl_summary.md)
+-   [flash object (fl)](/flash_object_(fl)/fl_summary.md)
 
     -   fl.getSwfPanel()
 
@@ -638,7 +638,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   fl.clearPublishCache()
 
--   [swfPanel object](../swfPanel_object/swfPanel_summary.md)
+-   [swfPanel object](/swfPanel_object/swfPanel_summary.md)
 
     -   swfPanel.setFocus()
 
@@ -749,7 +749,7 @@ The following table briefly describes each of the objects in the JavaScript API.
 
 ### The Animate Document Object Model
 
-The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](../Top-Level_Functions_and_Methods/Top.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](../FLfile_object/FLfile_summary.md) and [flash object (fl)](../flash_object_(fl)/fl_summary.md).
+The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](/Top-Level_Functions_and_Methods/Top.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](/FLfile_object/FLfile_summary.md) and [flash object (fl)](/flash_object_(fl)/fl_summary.md).
 When referring to the flash object, you can use flash or an or fl. For example, to close all open FLA files, you can use either of the following statements:
 ```javascript
 flash.closeAll(); 
@@ -777,16 +777,16 @@ The flash object contains the following *child objects*:
 
 ### The Document object
 
-An important property of the top-level flash object is the [fl.documents](../flash_object_(fl)/fl20.md) property. This property contains an array of Document objects, each of which represents one of the FLA files currently open in the authoring environment. The properties of each Document object represent most of the elements that a FLA file can contain. Therefore, a large portion of the DOM is composed of child objects and properties of the Document object. For more information, see [Document object](../Document_object/document_summary.md).
+An important property of the top-level flash object is the [fl.documents](/flash_object_(fl)/fl20.md) property. This property contains an array of Document objects, each of which represents one of the FLA files currently open in the authoring environment. The properties of each Document object represent most of the elements that a FLA file can contain. Therefore, a large portion of the DOM is composed of child objects and properties of the Document object. For more information, see [Document object](/Document_object/document_summary.md).
 
 To refer to the first open document, for example, use the statement ```flash.documents[0]``` or ```fl.documents[0]```. The first document is the first Animate document that was opened during the current session in the authoring environment. When the first opened document is closed, the indexes of the other open documents are decremented.
 
-To find a particular document’s index, use ```flash.findDocumentIndex(nameOfDocument)``` or ```fl.findDocumentIndex(nameOfDocument)```. See [fl.findDocumentIndex()](../flash_object_(fl)/fl26.md).
+To find a particular document’s index, use ```flash.findDocumentIndex(nameOfDocument)``` or ```fl.findDocumentIndex(nameOfDocument)```. See [fl.findDocumentIndex()](/flash_object_(fl)/fl26.md).
 
-To access the document that is currently focused, use the statement ```flash.getDocumentDOM()``` or ```fl.getDocumentDOM()```. See [fl.getDocumentDOM()](../flash_object_(fl)/fl31.md). The latter is the syntax used in most of the examples in this document.
+To access the document that is currently focused, use the statement ```flash.getDocumentDOM()``` or ```fl.getDocumentDOM()```. See [fl.getDocumentDOM()](/flash_object_(fl)/fl31.md). The latter is the syntax used in most of the examples in this document.
 
 To find a particular document in the fl.documents array, iterate through the array and test each document for its
-```document.name``` property. See [fl.documents](../flash_object_(fl)/fl20.md) and [document.name](../Document_object/docum170.md).
+```document.name``` property. See [fl.documents](/flash_object_(fl)/fl20.md) and [document.name](/Document_object/docum170.md).
 
 All the objects in the DOM that aren’t listed in the previous table (see ["The Animate Document Object Model"](#the-animate-document-object-model)) are accessed from the Document object. For example, to access the library of a document, you use the ```document.library``` property, which retrieves a library object:
 
@@ -800,7 +800,7 @@ To access a particular item in the library, you specify a member of the library.
 
 ```fl.getDocumentDOM().library.items[0]```
 
-In other words, the library object is a child of the Document object, and the Item object is a child of the library object. For more information, see [document.library](../Document_object/docume98.md), [library object](../library_object/library_summary.md), [library.items](../library_object/librar10.md) and [Item object](../Item_object/item_summary.md).
+In other words, the library object is a child of the Document object, and the Item object is a child of the library object. For more information, see [document.library](/Document_object/docume98.md), [library object](/library_object/library_summary.md), [library.items](/library_object/librar10.md) and [Item object](/Item_object/item_summary.md).
 
 ### Specifying the target of an action
 
@@ -808,7 +808,7 @@ Unless otherwise specified, methods affect the current focus or selection. For e
 
 ```fl.getDocumentDOM().scaleSelection(2, 2);```
 
-In some cases, you might want an action to specifically target the currently selected item in the Animate document. To do this, use the array that the ```document.selection``` property contains (see [document.selection](../Document_object/docum430.md)). The first element in the array represents the currently selected item, as shown in the following example:
+In some cases, you might want an action to specifically target the currently selected item in the Animate document. To do this, use the array that the ```document.selection``` property contains (see [document.selection](/Document_object/docum430.md)). The first element in the array represents the currently selected item, as shown in the following example:
 
 ```var accDescription = fl.getDocumentDOM().selection[0].description;```
 
@@ -956,7 +956,7 @@ The image is converted into a group of shapes.
 
 ### Sample DLL
 
-A sample DLL implementation is located in the dllSampleComputeSum folder (see "Sample implementations" above). For more information about building DLLs, see[ "C-Level Extensibility"](../C-Level_Extensibility/About_extensibility.md).
+A sample DLL implementation is located in the dllSampleComputeSum folder (see "Sample implementations" above). For more information about building DLLs, see[ "C-Level Extensibility"](/C-Level_Extensibility/About_extensibility.md).
 
 
 
