@@ -22,7 +22,7 @@ Using the JavaScript API, you can write Animate application scripts to help stre
 
 The Animate JavaScript API is designed to resemble the Adobe® Dreamweaver® and Adobe® Fireworks® JavaScript API (which were designed based on the Netscape JavaScript API). The Animate JavaScript API is based on a Document Object Model (DOM), which allows Animate documents to be accessed using JavaScript objects. The Animate JavaScript API includes all elements of the Netscape JavaScript API, plus the Animate DOM. These added objects and their methods and properties are described in this document. You can use any of the elements of the native JavaScript language in an Animate script, but only elements that make sense in the context of an Animate document have an effect.
 
-The JavaScript API also contains methods that let you implement extensibility using a combination of JavaScript and custom C code. For more information, see [C-Level Extensibility](../C-Level_Extensibility/About_extensibility.md).
+The JavaScript API also contains methods that let you implement extensibility using a combination of JavaScript and custom C code. For more information, see [C-Level Extensibility](/C-Level_Extensibility/About_extensibility.md).
 
 The JavaScript interpreter in Animate is the Mozilla SpiderMonkey engine, version 1.8, which is available on the web at [www.mozilla.org/js/spidermonkey/](http://www.mozilla.org/js/spidermonkey/). SpiderMonkey is one of the two reference implementations of the JavaScript language developed by Mozilla.org. It is the same engine that is embedded in the Mozilla browser.
 
@@ -62,7 +62,7 @@ You can have JSFL scripts available within the Animate authoring environment by 
 
 Macintosh HD/Users/*username*/Library/Application Support/Adobe/Animate *version*/*language*/Configuration/
 
-To determine the location of the Configuration folder, use [fl.configDirectory](../flash_object_(fl)/fl12.md) or [fl.configURI](../flash_object_(fl)/fl13.md), as shown in the following example:
+To determine the location of the Configuration folder, use [fl.configDirectory](/flash_object_(fl)/fl12.md) or [fl.configURI](/flash_object_(fl)/fl13.md), as shown in the following example:
 
 ```javascript
 // store directory to a variable 
@@ -73,7 +73,7 @@ fl.trace(fl.configDirectory);
 
 Within the Configuration folder, the following folders can contain scripts that you can access in the authoring environment: Behaviors (to support the user interface for behaviors); Commands (for scripts that appear on the Commands menu); JavaScript (for scripts used by Script Assist to populate the user interface controls); Tools (for extensible tools in the Tools panel); and WindowSWF (for panels that appear in the Windows menu). This document focuses on scripts used for commands and tools.
 
-If you edit a script in the Commands folder, the new script is immediately available in Animate. If you edit a script for an extensible tool, close and restart Animate, or else use the [fl.reloadTools()](../flash_object_(fl)/fl57.md) command. However, if you used a script to add an extensible tool to the Tools panel and you then edit the script, either remove and then add the tool to the Tools panel again, or else close and restart Animate for the revised tool to be available.
+If you edit a script in the Commands folder, the new script is immediately available in Animate. If you edit a script for an extensible tool, close and restart Animate, or else use the [fl.reloadTools()](flash_object_(fl)/fl57.md) command. However, if you used a script to add an extensible tool to the Tools panel and you then edit the script, either remove and then add the tool to the Tools panel again, or else close and restart Animate for the revised tool to be available.
 There are two locations where you can store command and tool files so they can be accessed in the authoring environment.
 
 -   For scripts that appear as items in the Commands menu, save the JSFL file in the Commands folder in the following location:
@@ -166,7 +166,7 @@ This option lets you run a script before you have saved it. This option also let
 
 -   From the authoring environment, select Commands > Run Command, and then select the script to run.
 
--   From within a script, use the [fl.runScript()](../flash_object_(fl)/fl62.md) command.
+-   From within a script, use the [fl.runScript()](flash_object_(fl)/fl62.md) command.
 
 -   From the file system, double-click the script file.
 
