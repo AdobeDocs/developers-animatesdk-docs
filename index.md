@@ -6,9 +6,7 @@ description: This is the home page of Animate APIs
 
 # Animate JSAPI Documentation
 
-Table of Contents
-=================
-
+## Table of Contents
 
  * [Introduction](#introduction)
       * [Working with the JavaScript API](#working-with-the-javascript-api)
