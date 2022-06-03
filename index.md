@@ -1130,111 +1130,97 @@ Some objects are subclasses of other objects, rather than being children of othe
    02 [componentsPanel object](#componentspanel-object)
 
    02 [Document object (fl.documents array)](#document-object)
-   [Filter object](#filter-object)
 
-   03 [Matrix object](#matrix-object)
+   02 [Filter object](#filter-object)
+   -  [Matrix object](#matrix-object)
+   - [Fill object](#fill-object)
+   - [Stroke object](#stroke-object)
 
-   03 [Fill object](#fill-object)
+   - [library object](#library-object)
 
-   03 [Stroke object](#stroke-object)
+        * [Item object (library.items array)](#item-object)
 
-   03 [library object](#library-object)
+        * [BitmapItem object(subclass of Item object) ](#bitmapitem-object)
 
-   04 [Item object (library.items array)](#item-object)
+        * [folderItem object (subclass of Item object) ](#folderitem-object)
 
-   04 [BitmapItem object(subclass of Item object) ](#bitmapitem-object)
+        * [fontItem object (subclass of Item object) ](#fontitem-object)
 
-   04 [folderItem object (subclass of Item object) ](#folderitem-object)
+        * [SoundItem object (subclass of Item object) ](#sounditem-object)
 
-   04 [fontItem object (subclass of Item object) ](#fontitem-object)
+        * [SymbolItem object (subclass of Item object) ](#symbolitem-object)
 
-   04 [SoundItem object (subclass of Item object) ](#sounditem-object)
+        * [VideoItem object (subclass of Item object)](#videoitem-object)
 
-   04 [SymbolItem object (subclass of Item object) ](#symbolitem-object)
+   - [Timeline object (document.timelines array) ](#timeline-object)
 
-   04 [VideoItem object (subclass of Item object)](#videoitem-object)
+   - [Layer object (timeline.layers array)](#layer-object)
 
-   03 [Timeline object (document.timelines array) ](#timeline-object)
+        - [Frame object (layer.frames array)](#frame-object)
 
-   04 [Layer object (timeline.layers array)](#layer-object)
+        - [Element object (frame.elements array) ](#element-object)
 
-   05 [Frame object (layer.frames array)](#frame-object)
+   - [Matrix object (element.matrix)](#matrix-object)
 
-   06 [Element object (frame.elements array) ](#element-object)
+   - [Instance object (abstract class, subclass of Element object) ](#instance-object)
 
-   07 [Matrix object (element.matrix)](#matrix-object)
+   - [BitmapInstance object (subclass of Instance object)](#bitmapinstance-object)
 
-   06 [Instance object (abstract class, subclass of Element object) ](#instance-object)
+   - [CompiledClipInstance object (subclass of Instance object)](#compiledclipinstance-object)
 
-   06 [BitmapInstance object (subclass of Instance object)](#bitmapinstance-object)
+   - [ComponentInstance object (subclass of SymbolInstance object) ](#componentinstance-object)
 
-   06 [CompiledClipInstance object (subclass of Instance object)](#compiledclipinstance-object)
+   - [Parameter object (componentInstance.parameters array)](#parameter-object)
 
-   06 [ComponentInstance object (subclass of SymbolInstance object) ](#componentinstance-object)
+   - [SymbolInstance object (subclass of Instance object) ](#symbolinstance-object)
 
-   07 [Parameter object (componentInstance.parameters array)](#parameter-object)
+   - [Text object (subclass of Element object)](#text-object)
 
-   06 [SymbolInstance object (subclass of Instance object) ](#symbolinstance-object)
+   - [TextRun object (text.textRuns array)](#textrun-object)
 
-   06 [Text object (subclass of Element object)](#text-object)
+   - [TextAttrs object (textRun.textAttrs array) ](#textattrs-object)
 
-   07 [TextRun object (text.textRuns array)](#textrun-object)
+   - [Shape object (subclass of Element object)](#shape-object)
 
-   08 [TextAttrs object (textRun.textAttrs array) ](#textattrs-object)
+   - [Oval object](#oval-object)
 
-   06 [Shape object (subclass of Element object)](#shape-object)
+   - [Rectangle object](#rectangle-object)
 
-   07 [Oval object](#oval-object)
+   - [Contour object (shape.contours array) ](#contour-object)
 
-   07 [Rectangle object](#rectangle-object)
+   - [HalfEdge object](#halfedge-object)
 
-   07 [Contour object (shape.contours array) ](#contour-object)
+   - [Vertex object](#vertex-object)
 
-   08 [HalfEdge object](#halfedge-object)
+   - [Edge object](#edge-object)
 
-   09 [Vertex object](#vertex-object)
+   - [Edge object (shape.edges array) ](#edge-object)
 
-   09 [Edge object](#edge-object)
+   - [HalfEdge object](#halfedge-object)
 
-   07 [Edge object (shape.edges array) ](#edge-object)
+   - [Parameter object (screen.parameters array) ](#parameter-object)
 
-   08 [HalfEdge object](#halfedge-object)
+ 02 [drawingLayer object](#drawinglayer)
 
-   09 [Vertex object](#vertex-object)
+   * [Path object](#path-object)
 
-   09 [Edge object](#edge-object)
+        - [Contour object](#contour-object)
 
-   07 [Vertex object(shape.vertices array)](#vertex-object)
+ 02 [Math object](#math-object)
 
-   08 [HalfEdge object](#halfedge-object)
+ 02 [outputPanel object](#outputpanel-object)
 
-   09 [Vertex object](#vertex-object)(#vertex-object)
+ 02 [presetPanel object](#presetpanel-object)
 
-   09 [Edge object](#edge-object)(#edge-object)
+- [presetItem object ](#presetitem-object)
 
-   05 [Parameter object (screen.parameters array) ](#parameter-object)
+ 02 [swfPanel object](#swfpanel-object)
 
-   02 [drawingLayer object](#drawinglayer)
+ 02 [Tools object (fl.tools array)](#tools-object)
 
-   03 [Path object](#path-object)
+   * [ToolObj object (tools.toolObjs array) ](#toolobj-object)
 
-   04 [Contour object](#contour-object)
-
-   02 [Math object](#math-object)
-
-   02 [outputPanel object](#outputpanel-object)
-
-   02 [presetPanel object](#presetpanel-object)
-
-   03 [presetItem object ](#presetitem-object)
-
-   02 [swfPanel object](#swfpanel-object)
-
-   02 [Tools object (fl.tools array)](#tools-object)
-
-   03 [ToolObj object (tools.toolObjs array) ](#toolobj-object)
-
-   02 [XMLUI object](#xmlui-object)
+ 02 [XMLUI object](#xmlui-object)
     
 
 
