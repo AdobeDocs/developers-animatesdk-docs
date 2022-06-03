@@ -1059,7 +1059,7 @@ The following methods can be used with the actionsPanel object:
 
 ## bitmapInstance Object
 
-## bitmapInstance summary
+### Summary
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > [Instance object](/Instance_object/instance_summary.md) > BitmapInstance object
 
@@ -1371,7 +1371,7 @@ You can use the following properties with the Contour object:
 
 ## document Object
 
-## Summary
+### Summary
 
 #### Availability
 
@@ -1545,10 +1545,6 @@ You can use the following properties with the Document object.
 <span id="document.accName" class="anchor"></span>
 
 
-
-
-
-
 ## drawingLayer
 
 ### Summary
@@ -1589,7 +1585,7 @@ The following methods are available for the drawingLayer object:
 
 ## edge Object
 
-## Summary
+### Summary
 
 #### Availability
 
@@ -1622,8 +1618,6 @@ The following properties are available for the Edge object:
 | [edge.stroke](/Edge_object/edge7.md)                      | A [Stroke object](/Stroke_object/stroke_summary.md).                                         |
 
 <span id="edge.cubicSegmentIndex" class="anchor"></span>
-
-
 
 
 
@@ -1719,11 +1713,9 @@ The following properties are available for the Fill object:
 
 
 
-
-
 ## filter Object
 
-## Summary
+### Summary
 
 #### Availability
 
@@ -1762,8 +1754,6 @@ The following properties can be used with the Filter object:
 | [filter.type](/Filter_object/filter18.md)           | A string that specifies the type of bevel or glow.                                              |
 
 <span id="filter.angle" class="anchor"></span>
-
-
 
 
 
@@ -1856,8 +1846,6 @@ The following properties can be used with the flash object.
 
 
 
-
-
 ## FLfile Object
 
 ### Summary
@@ -1925,8 +1913,6 @@ The following methods can be used with the FLfile object:
 <span id="FLfile.copy()" class="anchor"></span>
 
 
-
-
 ## folder Item Object
 
 ### Summary
@@ -1975,8 +1961,6 @@ In addition to the Item object properties, the following properties are availabl
 | [fontItem.size](/fontItem_object/fontIte8.md)                | The size of the Font item, in points.                                                     |
 
 <span id="fontItem.bitmap" class="anchor"></span>
-
-
 
 
 
@@ -2030,8 +2014,6 @@ The following properties can be used with the Frame object:
 | [frame.useSingleEaseCurve](/Frame_object/frame40.md)      | A Boolean value that specifies whether a single custom ease curve is used for easing information for all properties.                                                                                      |
 
 <span id="frame.convertMotionObjectTo2D()" class="anchor"></span>
-
-
 
 
 ## HalfEdge Object
@@ -2145,8 +2127,6 @@ The following properties are available for the Item object:
 
 
 
-
-
 ## Layer Object
 
 ## Summary
@@ -2195,8 +2175,6 @@ The following properties are available for the Layer object:
 <span id="layer.animationType" class="anchor"></span>
 
 
-
-
     
 ## LayerParenting Object
 
@@ -2215,8 +2193,6 @@ You can use the following methods with the layer object:
 | [layer.getRigMatrixAtFrame()](/Layer_Parenting_Object/layerParenting3.md) | layer.getRigMatrixAtFrame(frameIndex)           |
 | [layer.getRigParentAtFrame()](/Layer_Parenting_Object/layerParenting1.md) | layer.getRigParentAtFrame(frameIndex)       |
 | [layer.setRigParentAtFrame()](/Layer_Parenting_Object/layerParenting2.md) | layer.setRigParentAtFrame(frameIndex,layer)   |
-
-
 
 
 
@@ -2272,8 +2248,6 @@ The following property is available for the library object:
 
 
 
-
-
 ## Math Object
 
 ### Summary
@@ -2298,7 +2272,6 @@ The following methods are available for the Math object:
 | [Math.transformPoint()](/Math_object/Math3.md)      | Applies a matrix to a point.                            |
 
 <span id="Math.concatMatrix()" class="anchor"></span>
-
 
 
 
@@ -2331,8 +2304,6 @@ The following properties are available for the Matrix object:
 
 
 
-
-
 ## outputPanel Object
 
 ### Summary
@@ -2356,8 +2327,6 @@ The outputPanel object uses the following methods:
 | [outputPanel.trace()](/outputPanel_object/outputPane2.md)        | Adds a line to the contents of the Output panel, terminated by a new line. |
 
 <span id="outputPanel.clear()" class="anchor"></span>
-
-
 
 
 
@@ -2391,7 +2360,6 @@ In addition to the [Shape object](/Shape_object/shape_summary.md) properties, yo
 
 
 
-
 ## Parameter object
 
 ### Summary
@@ -2422,8 +2390,7 @@ The following properties are available for the Parameter object:
 <span id="parameter.category" class="anchor"></span>
 
 
-
-
+ 
 ## Path object
 
 ### Summary
@@ -2497,7 +2464,6 @@ You can use the following properties with the presetItem object:
 
 
 
-
 ## presetPanel object
 
 ### Summary
@@ -2543,7 +2509,6 @@ You can use the following property with the presetPanel object:
 
 
 
-
 ## Rectangle object
 
 ### Summary
@@ -2571,7 +2536,6 @@ In addition to the [Shape object](/Shape_object/shape_summary.md) properties, yo
 | [RectangleObject.topRightRadius](/Rectangle_object/RectangleObjec4.md)                       | Read-only; a float value that sets the radius of the top-right corner of the Rectangle object.                                                             |
 
 <span id="RectangleObject.bottomLeftRadius" class="anchor"></span>
-
 
 
 
@@ -2624,8 +2588,6 @@ In addition to the Element object properties, the following properties are avail
 
 
 
-
-
 ## SoundItem object
 
 ### Summary
@@ -2672,8 +2634,6 @@ In addition to the Item object properties, the following properties are availabl
 | [soundItem.useImportedMP3Quality](/SoundItem_object/soundIt13.md) | A Boolean value; if true, all other properties are ignored, and the imported MP3 quality is used.                                                                            |
 
 <span id="soundItem.bitRate" class="anchor"></span>
-
-
 
 
 
@@ -2794,8 +2754,6 @@ The following properties are available for the Stroke object:
 
 
 
-
-
 ## swfPanel object
 
 ### swfPanel summary
@@ -2860,8 +2818,6 @@ In addition to the Instance object properties, the SymbolInstance object has the
 
 
 
-
-
 ## SymbolItem object
 
 ### Summary
@@ -2904,8 +2860,6 @@ In addition to the Item object properties, the following properties are availabl
 | [symbolItem.timeline](/SymbolItem_object/symbolIt12.md)          | Read-only; a [Timeline object](/Timeline_object/timeline_summary.md).                                            |
 
 <span id="symbolItem.convertToCompiledClip()" class="anchor"></span>
-
-
 
 
 
@@ -2958,8 +2912,6 @@ In addition to the Element object properties, the following properties are avail
 <span id="text.accName" class="anchor"></span>
 
 
-
-
 ## TextAttrs Object
 
 ### Summary
@@ -3001,8 +2953,6 @@ The following properties are available for the TextAttrs object:
 
 
 
-
-
 ## TextRun Object
 
 ## Summary
@@ -3025,7 +2975,6 @@ In addition to the properties available for use with the Text object, the TextRu
 | [textRun.textAttrs](/TextRun_object/textRun.md) | The TextAttrs object containing the attributes of the run of text. |
 
 <span id="textRun.textAttrs" class="anchor"></span>
-
 
 
 
@@ -3139,8 +3088,6 @@ The following properties are available for the Timeline object:
 
 
 
-
-
 ## ToolObj object
 
 ### Summary
@@ -3185,7 +3132,6 @@ The following properties are available for the ToolObj object:
 
 
 
-
 ## Tools Object
 
 ### Summary
@@ -3227,7 +3173,6 @@ The following properties are available for the Tools object:
 | [tools.toolObjs](/Tools_object/tools11.md)      | Read-only; an array of ToolObj objects.                                                    |
 
 <span id="tools.activeTool" class="anchor"></span>
-
 
 
 
@@ -3314,8 +3259,6 @@ fl.trace(" blue : amount = "+colors.colorBlueAmount+" percent = "+colors.colorBl
 
 
 
-
-
 ## Vertex object
 
 ### Summary
@@ -3347,7 +3290,6 @@ The following properties are available for the Vertex object:
 | [vertex.y](/Vertex_object/vertex3.md) | Read-only; the *y* location of the vertex in pixels. |
 
 <span id="vertex.getHalfEdge()" class="anchor"></span>
-
 
 
 
@@ -3390,8 +3332,6 @@ In addition to the Item object properties, you can use the following properties 
 
 
 
-
-
 ## XMLUI Object
 
 ### Summary
@@ -3424,8 +3364,6 @@ The following methods are available for the XMLUI object:
 | [xmlui.setVisible()](/XMLUI_object/xmlui10.md)             | Shows or hides a control.                                                                   |
 
 <span id="xmlui.accept()" class="anchor"></span>
-
-
 
 
 
