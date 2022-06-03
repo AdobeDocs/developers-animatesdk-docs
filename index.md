@@ -18,7 +18,7 @@ description: This is the home page of Animate APIs
   	* [Specifying the target of an action](#specifying-the-target-of-an-action)
   	* [Summary of the DOM structure](#summary-of-the-dom-structure)
   	* [Sample implementations](#sample-implementations)
- - [Top-Level Functions and Methods](#top-level-functions-and-methods)
+ - [Top-Level Functions and Methods](#top-level-functions-and-methods-1)
  - [actionsPanel Object](#actionspanel-object)
  - [bitmapInstance Object](#bitmapinstance-object)
  - [bitmapItem Object](#bitmapitem-object)
