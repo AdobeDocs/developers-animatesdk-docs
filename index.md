@@ -1121,64 +1121,64 @@ Some objects are subclasses of other objects, rather than being children of othe
 
 ```
 01 Top-Level Functions and Methods 
-01 FLfile object
-01 flash object (fl)
-    02 compilerErrors object
-    02 componentsPanel object
-    02 Document object (fl.documents array) 
-        03 Filter object
-        03 Matrix object
-        03 Fill object
-        03 Stroke object
-        03 library object
-            04 Item object (library.items array)
-            04 BitmapItem object(subclass of Item object) 
-            04 folderItem object (subclass of Item object) 
-            04 fontItem object (subclass of Item object) 
-            04 SoundItem object (subclass of Item object) 
-            04 SymbolItem object (subclass of Item object) 
-            04 VideoItem object (subclass of Item object)
-        03 Timeline object (document.timelines array) 
-            04 Layer object (timeline.layers array)
-                05 Frame object (layer.frames array)
-                    06 Element object (frame.elements array) 
-                        07 Matrix object (element.matrix)
-                    06 Instance object (abstract class, subclass of Element object) 
-                    06 BitmapInstance object (subclass of Instance object)
-                    06 CompiledClipInstance object (subclass of Instance object)
-                    06 ComponentInstance object (subclass of SymbolInstance object) 
-                        07 Parameter object (componentInstance.parameters array)
-                    06 SymbolInstance object (subclass of Instance object) 
-                    06 Text object (subclass of Element object)
-                        07 TextRun object (text.textRuns array)
-                            08 TextAttrs object (textRun.textAttrs array) 
-                    06 Shape object (subclass of Element object)
-                        07 Oval object
-                        07 Rectangle object
-                        07 Contour object (shape.contours array) 
-                            08 HalfEdge object
-                                09 Vertex object
-                                09 Edge object
-                        07 Edge object (shape.edges array) 
-                            08 HalfEdge object
-                                09 Vertex object
-                                09 Edge object
-                        07 Vertex object(shape.vertices array)
-                            08 HalfEdge object
-                                09 Vertex object
-                                09 Edge object
-                05 Parameter object (screen.parameters array) 
-    02 drawingLayer object
-        03 Path object
-            04 Contour object
-    02 Math object
-    02 outputPanel object
-    02 presetPanel object
-        03 presetItem object(presetPanel.items array) 
-    02 swfPanel object
-    02 Tools object (fl.tools array)
-        03 ToolObj object (tools.toolObjs array) 
-    02 XMLUI object
+01 [FLfile object](#flfile-object)
+01 [flash object (fl)](#flashfl-object)
+    02 [compilerErrors object](#compilererrors-object)
+    02 [componentsPanel object](#componentspanel-object)
+    02 [Document object (fl.documents array) ](#document-object)
+        03 [Filter object](#filter-object)
+        03 [Matrix object](#matrix-object)
+        03 [Fill object](#fill-object)
+        03 [Stroke object](#stroke-object)
+        03 [library object](#library-object)
+            04 [Item object (library.items array)](#item-object)
+            04 [BitmapItem object(subclass of Item object) ](#bitmapitem-object)
+            04 [folderItem object (subclass of Item object) ](#folderitem-object)
+            04 [fontItem object (subclass of Item object) ](#fontitem-object)
+            04 [SoundItem object (subclass of Item object) ](#sounditem-object)
+            04 [SymbolItem object (subclass of Item object) ](#symbolitem-object)
+            04 [VideoItem object (subclass of Item object)](#videoitem-object)
+        03 [Timeline object (document.timelines array) ](#timeline-object)
+            04 [Layer object (timeline.layers array)](#layer-object)
+                05 [Frame object (layer.frames array)](#frame-object)
+                    06 [Element object (frame.elements array) ](#element-object)
+                        07 [Matrix object (element.matrix)](#matrix-object)
+                    06 [Instance object (abstract class, subclass of Element object) ](#instance-object)
+                    06 [BitmapInstance object (subclass of Instance object)](#bitmapinstance-object)
+                    06 [CompiledClipInstance object (subclass of Instance object)](#compiledclipinstance-object)
+                    06 [ComponentInstance object (subclass of SymbolInstance object) ](#componentinstance-object)
+                        07 [Parameter object (componentInstance.parameters array)](#parameter-object)
+                    06 [SymbolInstance object (subclass of Instance object) ](#symbolinstance-object)
+                    06 [Text object (subclass of Element object)](#text-object)
+                        07 [TextRun object (text.textRuns array)](#textrun-object)
+                            08 [TextAttrs object (textRun.textAttrs array) ](#textattrs-object)
+                    06 [Shape object (subclass of Element object)](#shape-object)
+                        07 [Oval object](#oval-object)
+                        07 [Rectangle object](#rectangle-object)
+                        07 [Contour object (shape.contours array) ](#contour-object)
+                            08 [HalfEdge object](#halfedge-object)
+                                09 [Vertex object](#vertex-object)
+                                09 [Edge object](#edge-object)
+                        07 [Edge object (shape.edges array) ](#edge-object)
+                            08 [HalfEdge object](#halfedge-object)
+                                09 [Vertex object](#vertex-object)
+                                09 [Edge object](#edge-object)
+                        07 [Vertex object(shape.vertices array)](#vertex-object)
+                            08 [HalfEdge object](#halfedge-object)
+                                09 [Vertex object](#vertex-object)(#vertex-object)
+                                09 [Edge object](#edge-object)(#edge-object)
+                05 [Parameter object (screen.parameters array) ](#parameter-object)
+    02 [drawingLayer object](#drawinglayer)
+        03 [Path object](#path-object)
+            04 [Contour object](#contour-object)
+    02 [Math object](#math-object)
+    02 [outputPanel object](#outputpanel-object)
+    02 [presetPanel object](#presetpanel-object)
+        03 [presetItem object ](#presetitem-object)
+    02 [swfPanel object](#swfpanel-object)
+    02 [Tools object (fl.tools array)](#tools-object)
+        03 [ToolObj object (tools.toolObjs array) ](#toolobj-object)
+    02 [XMLUI object](#xmlui-object)
 ```
 
 ### Sample implementations
