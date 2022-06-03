@@ -1,10 +1,10 @@
 ---
 title: Animate JSAPI Documentation
 description: This is the home page of Animate APIs
+
 ---
 
-# Animate JSAPI Documentation      
- 
+# Animate JSAPI Documentation
 
 ## Introduction
 
@@ -961,7 +961,7 @@ A sample DLL implementation is located in the dllSampleComputeSum folder (see "S
 
 
 
-## Top-LevelFunctionsandMethods
+## Top-Level Functions and Methods
 
 ## Top-level summary
 
@@ -1059,7 +1059,6 @@ The following methods can be used with the actionsPanel object:
 
 ## bitmapInstance Object
 
-### Summary
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > [Instance object](/Instance_object/instance_summary.md) > BitmapInstance object
 
@@ -1097,7 +1096,6 @@ In addition to the [Instance object](/Instance_object/instance_summary.md) prope
 
 ## bitmapItem Object
 
-### Summary
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > BitmapItem object
 
@@ -1130,7 +1128,6 @@ In addition to the [Item object](/Item_object/item_summary.md) properties, the B
 
 ## Camera Object
 
-### Summary
 
 #### Availability
 
@@ -1199,7 +1196,6 @@ The following properties can be used with the Camera object:
 
 ## compiledClipInstance Object
 
-### Summary
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > [Instance object](/Instance_object/instance_summary.md) > CompiledClipInstance object
 
@@ -1256,7 +1252,7 @@ In addition to the properties of the [Instance object](/Instance_object/instance
 
 ## compilerErrors Object
 
-### Summary
+#
 
 #### Availability
 
@@ -1283,7 +1279,7 @@ The following methods can be used with the compilerErrors object:
 
 ## componentInstance Object
 
-### Summary
+
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > [Instance object](/Instance_object/instance_summary.md) > [SymbolInstance object](/SymbolInstance_object/symbolInstance_summary.md) > ComponentInstance object
 
@@ -1310,8 +1306,6 @@ In addition to all the properties of the [SymbolInstance object](/SymbolInstance
 
 ## componentsPanel Object
 
-### Summary
-
 #### Availability
 
 Flash MX 2004.
@@ -1336,7 +1330,6 @@ You can use the following methods with the componentsPanel object:
 
 ## contour Object
 
-### Summary
 
 #### Availability
 
@@ -1371,7 +1364,6 @@ You can use the following properties with the Contour object:
 
 ## document Object
 
-### Summary
 
 #### Availability
 
@@ -1547,7 +1539,6 @@ You can use the following properties with the Document object.
 
 ## drawingLayer
 
-### Summary
 
 #### Availability
 
@@ -1585,7 +1576,6 @@ The following methods are available for the drawingLayer object:
 
 ## edge Object
 
-### Summary
 
 #### Availability
 
@@ -1682,7 +1672,6 @@ The following properties are available for the Edge object:
 
 ## fill Object
 
-### Summary
 
 #### Availability
 
@@ -1715,7 +1704,6 @@ The following properties are available for the Fill object:
 
 ## filter Object
 
-### Summary
 
 #### Availability
 
@@ -1759,7 +1747,7 @@ The following properties can be used with the Filter object:
 
 ## flash(fl.()) Object
 
-### Summary
+
 
 #### Availability
 
@@ -1848,7 +1836,7 @@ The following properties can be used with the flash object.
 
 ## FLfile Object
 
-### Summary
+
 
 #### Availability
 
@@ -1913,9 +1901,9 @@ The following methods can be used with the FLfile object:
 <span id="FLfile.copy()" class="anchor"></span>
 
 
-## folder Item Object
+## folderItem Object
 
-### Summary
+
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > folderItem object
 
@@ -1966,7 +1954,6 @@ In addition to the Item object properties, the following properties are availabl
 
 ## Frame Object
 
-### Summary
 
 #### Availability
 
@@ -2018,7 +2005,6 @@ The following properties can be used with the Frame object:
 
 ## HalfEdge Object
 
-### Summary
 
 #### Availability
 
@@ -2056,7 +2042,6 @@ The following properties are available for the HalfEdge object:
 
 ## Instance Object
 
-### Summary
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > Instance object
 
@@ -2083,7 +2068,6 @@ In addition to all of the Element object properties, Instance has the following 
 
 ## Item Object
 
-### Summary
 
 #### Availability
 
@@ -2178,7 +2162,6 @@ The following properties are available for the Layer object:
     
 ## LayerParenting Object
 
-### Summary
 
 #### Availability
 
@@ -2198,7 +2181,6 @@ You can use the following methods with the layer object:
 
 ## library Object
 
-### Summary
 
 #### Availability
 
@@ -2250,7 +2232,6 @@ The following property is available for the library object:
 
 ## Math Object
 
-### Summary
 
 #### Availability
 
@@ -2277,7 +2258,6 @@ The following methods are available for the Math object:
 
 ## Matrix Object
 
-### Summary
 
 #### Availability
 
@@ -2306,7 +2286,6 @@ The following properties are available for the Matrix object:
 
 ## outputPanel Object
 
-### Summary
 
 #### Availability
 
@@ -2332,7 +2311,6 @@ The outputPanel object uses the following methods:
 
 ## Oval Object
 
-### Summary
 
 **Inheritance** [Element object](/Element_object/element_summary.md) >[Shape object](/Shape_object/shape_summary.md) Oval object
 
@@ -2362,7 +2340,6 @@ In addition to the [Shape object](/Shape_object/shape_summary.md) properties, yo
 
 ## Parameter object
 
-### Summary
 
 #### Availability
 
@@ -2392,8 +2369,6 @@ The following properties are available for the Parameter object:
 
  
 ## Path object
-
-### Summary
 
 #### Availability
 
@@ -2435,7 +2410,6 @@ The following properties are available for the Path object:
 
 ## presetItem object
 
-### Summary
 
 #### Availability
 
@@ -2466,7 +2440,6 @@ You can use the following properties with the presetItem object:
 
 ## presetPanel object
 
-### Summary
 
 #### Availability
 
@@ -2511,7 +2484,6 @@ You can use the following property with the presetPanel object:
 
 ## Rectangle object
 
-### Summary
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > [Shape object](/Shape_object/shape_summary.md) > Rectangle object
 
@@ -2542,7 +2514,6 @@ In addition to the [Shape object](/Shape_object/shape_summary.md) properties, yo
 
 ## Shape object
 
-### Summary
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > Shape object
 
@@ -2590,7 +2561,6 @@ In addition to the Element object properties, the following properties are avail
 
 ## SoundItem object
 
-### Summary
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > SoundItem object
 
@@ -2639,7 +2609,6 @@ In addition to the Item object properties, the following properties are availabl
 
 ## SpriteSheetExporter object
 
-### Summary
 
 **Inheritance** [Item object](/Item_object/item_summary.md) >SpriteSheetExporter object
 
@@ -2704,7 +2673,6 @@ In addition to the Item object properties, the following properties are availabl
 
 ## Strokeobject
 
-### Summary
 
 #### Availability
 
@@ -2794,7 +2762,6 @@ You can use the following properties with the swfPanel object:
 
 ## SymbolInstance object
 
-### Summary
 
 **Inheritance** [Element object](/Element_object/element_summary.md) >[Instance object](/Instance_object/instance_summary.md) >SymbolInstance object
 
@@ -2820,7 +2787,6 @@ In addition to the Instance object properties, the SymbolInstance object has the
 
 ## SymbolItem object
 
-### Summary
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > SymbolItem object
 
@@ -2865,7 +2831,6 @@ In addition to the Item object properties, the following properties are availabl
 
 ## Text Object
 
-### Summary
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > Text object
 
@@ -2913,8 +2878,6 @@ In addition to the Element object properties, the following properties are avail
 
 
 ## TextAttrs Object
-
-### Summary
 
 #### Availability
 
@@ -3028,7 +2991,6 @@ In addition to the Item object properties, the following properties are availabl
 
 ## Timeline Object
 
-### Summary
 
 #### Availability
 
@@ -3090,7 +3052,6 @@ The following properties are available for the Timeline object:
 
 ## ToolObj object
 
-### Summary
 
 #### Availability
 
@@ -3134,7 +3095,6 @@ The following properties are available for the ToolObj object:
 
 ## Tools Object
 
-### Summary
 
 #### Availability
 
@@ -3178,8 +3138,6 @@ The following properties are available for the Tools object:
 
 
 ## Tween Object
-
-### Summary
 
 #### Availability
 
@@ -3261,7 +3219,6 @@ fl.trace(" blue : amount = "+colors.colorBlueAmount+" percent = "+colors.colorBl
 
 ## Vertex object
 
-### Summary
 
 #### Availability
 
@@ -3295,7 +3252,6 @@ The following properties are available for the Vertex object:
 
 ## VideoItem Object
 
-### Summary
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > VideoItem object
 
@@ -3333,8 +3289,6 @@ In addition to the Item object properties, you can use the following properties 
 
 
 ## XMLUI Object
-
-### Summary
 
 #### Availability
 
