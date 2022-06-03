@@ -306,7 +306,7 @@ The Animate JavaScript API is designed to resemble the Adobe® Dreamweaver® and
 
 The JavaScript API also contains methods that let you implement extensibility using a combination of JavaScript and custom C code. For more information, see [C-Level Extensibility](/C-Level_Extensibility/About_extensibility.md).
 
-The JavaScript interpreter in Animate is the Mozilla SpiderMonkey engine, version 1.8, which is available on the web at [www.mozilla.org/js/spidermonkey/](http://www.mozilla.org/js/spidermonkey/). SpiderMonkey is one of the two reference implementations of the JavaScript language developed by Mozilla.org. It is the same engine that is embedded in the Mozilla browser.
+The JavaScript interpreter in Animate is the Mozilla SpiderMonkey engine, version 1.8. SpiderMonkey is one of the two reference implementations of the JavaScript language developed by Mozilla.org. It is the same engine that is embedded in the Mozilla browser.
 
 SpiderMonkey implements the core JavaScript language as defined in the ECMAScript (ECMA-262) edition 3 language specification and it is fully compliant with the specification. Only the browser-specific host objects, which are not part of the ECMA-262 specification, are not supported. Similarly, many JavaScript reference guides distinguish between core JavaScript and client-side (browser-related) JavaScript. Only core JavaScript applies to the Animate JavaScript interpreter.
 
