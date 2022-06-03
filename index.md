@@ -8,7 +8,7 @@ description: This is the home page of Animate APIs
 
 ## Introduction
 
-## Working with the JavaScript API
+### Working with the JavaScript API
 
 As a user of Adobe® Animate®, you may be familiar with Adobe® ActionScript®, which lets you create scripts that execute at run time in Adobe® Flash® Player. The Animate JavaScript application programming interface (JavaScript API or JSAPI) described in this document is a complementary programming tool that lets you create scripts that run in the Animate authoring environment.
 
@@ -218,12 +218,12 @@ osascript myScript
 
 
 
-## What’s new in the JavaScript API
+### What’s new in the JavaScript API
 
 The following section lists new objects, methods, and properties in Animate. It also lists changes in Flash CC, CS6, CS5.5, and CS5.
 If you have not used the JavaScript API before, you might want to skip this section and go directly to [JavaScript API objects](/Introduction/JavaScript_API_objects.md).
 
-### New methods and properties in Animate 2020
+#### New methods and properties in Animate 2020
 The following methods and properties for existing objects are new in Animate 2020:
 
 -   [Document object](/Document_object/document_summary.md)
@@ -295,14 +295,14 @@ The following methods and properties for existing objects are new in Animate 202
     -   [fl.addToolInToolbar()](/flash_object_(fl)/fl82.md)
 
 
-### New objects in Animate 2020
+#### New objects in Animate 2020
 The following object is new in Flash CS6:
 
 -   [TextureAtlasExporter object](/TextureAtlasExporter_object/TextureAtlasExporter_summary.md)
 
 -   [Camera object](/Camera_object/Camera_Summary.md)
 
-### New methods and properties in Flash CC
+#### New methods and properties in Flash CC
 
 The following methods and properties for existing objects are new in Flash Profesional CC:
 
@@ -444,7 +444,7 @@ The following methods and properties for existing objects are new in Flash Profe
 
     -   getBounds()
 
-### Dropped methods and properties in Flash CC
+#### Dropped methods and properties in Flash CC
 
 The following methods and properties for existing objects are dropped in Adobe Animate:
 
@@ -480,13 +480,13 @@ The following methods and properties for existing objects are dropped in Adobe A
 
 -   SymbolInstance.actionscript
 
-### New objects in Flash CS6
+#### New objects in Flash CS6
 
 The following object is new in Flash CS6:
 
 -   [SpriteSheetExporter object](/SpriteSheetExporter_object/SpriteSheetExporter_summary.md)
 
-### New methods and properties in Flash CS6
+#### New methods and properties in Flash CS6
 
 The following methods and properties for existing objects are new in Flash Pro CS6:
 
@@ -550,7 +550,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   videoItem.lastModifiedDate
 
-### New methods and properties in Flash CS5 and CS5.5
+#### New methods and properties in Flash CS5 and CS5.5
 
 The following methods and properties for existing objects are new in Flash Pro CS5:
 
@@ -642,7 +642,7 @@ The following methods and properties for existing objects are new in Flash Pro C
 
     -   swfPanel.setFocus()
 
-### Other changes in Flash CS5 and CS5.5
+#### Other changes in Flash CS5 and CS5.5
 
 The following methods and properties are updated in Flash CS5:
 
@@ -682,7 +682,7 @@ The following objects and method are no longer available in Flash CS5:
 
 
 
-## JavaScript API objects
+### JavaScript API objects
 
 This section provides a summary of the objects available in the Animate JavaScript API and how to begin working with them. All standard JavaScript commands are also available when working with the JavaScript API.
 
@@ -747,7 +747,7 @@ The following table briefly describes each of the objects in the JavaScript API.
 | VideoItem object  | The VideoItem object is a subclass of the Item object.                                                                                        |
 | XMLUI object      | The XMLUI object provides the ability to get and set properties of an XMLUI dialog box, and accept or cancel out of one.                      |
 
-### The Animate Document Object Model
+#### The Animate Document Object Model
 
 The Animate Document Object Model (DOM) for the Animate JavaScript API consists of a set of top-level functions (see ["Top-Level Functions and Methods"](/Top-Level_Functions_and_Methods/Top.md)) and two top-level objects—the FLfile object and the flash object (an or fl). Each object is guaranteed to be available to a script because it always exists when the Animate authoring environment is open. For more information, see [FLfile object](/FLfile_object/FLfile_summary.md) and [flash object (fl)](/flash_object_(fl)/fl_summary.md).
 When referring to the flash object, you can use flash or an or fl. For example, to close all open FLA files, you can use either of the following statements:
@@ -775,7 +775,7 @@ The flash object contains the following *child objects*:
 | Tools object       | Use ```fl.tools``` to access an array of Tools objects.                                                                                                    |
 | XMLUI object       | Use ```fl.xmlui``` to access an XML User Interface (XMLUI) object. The XMLUI object provides the ability to get and set properties of an XMLUI dialog box. |
 
-### The Document object
+#### The Document object
 
 An important property of the top-level flash object is the [fl.documents](/flash_object_(fl)/fl20.md) property. This property contains an array of Document objects, each of which represents one of the FLA files currently open in the authoring environment. The properties of each Document object represent most of the elements that a FLA file can contain. Therefore, a large portion of the DOM is composed of child objects and properties of the Document object. For more information, see [Document object](/Document_object/document_summary.md).
 
@@ -899,11 +899,11 @@ Some objects are subclasses of other objects, rather than being children of othe
     02 XMLUI object
 ```
 
-## Sample implementations
+### Sample implementations
 
 Several sample JSFL implementations are available for Adobe Animate. You can review and install these files to familiarize yourself with the JavaScript API. The samples are in a folder named Samples within the [Samples.zip](https://github.com/AdobeDocs/developers-animatesdk-docs/raw/master/downloads/Samples.zip).
 
-### Sample Shape command
+#### Sample Shape command
 
 A sample JavaScript API script named Shape.jsfl is located in the Shape folder (see "Sample implementations" above). This script displays information about the contours of the shape in the Output panel.
 
@@ -915,7 +915,7 @@ A sample JavaScript API script named Shape.jsfl is located in the Shape folder (
 
 3.  Select Commands > Shape to run the script.
 
-### Sample get and set filters command
+#### Sample get and set filters command
 
 A sample JavaScript API script named filtersGetSet.jsfl is located in the filtersGetSet folder (see "Sample implementations" above). This script adds filters to a selected object and displays information about the filters being added in the Output panel.
 
@@ -927,12 +927,12 @@ A sample JavaScript API script named filtersGetSet.jsfl is located in the filter
 
 3.  Select Commands > filtersGetSet to run the script.
 
-### Sample PolyStar tool
+#### Sample PolyStar tool
 
 A sample JavaScript API script named PolyStar.jsfl is located in the PolyStar folder (see "Sample implementations" above).
 The PolyStar.jsfl replicates the PolyStar tool that can be found in the Animate Tools panel. The script demonstrates how to build the PolyStar tool using the JavaScript API and includes detailed comments describing what the code is doing. Read this file to gain a better understanding of how the JavaScript API can be used. You should also read the PolyStar.xml file in the Tools directory to learn more about how to build your own tool.
 
-### Sample Trace Bitmap panel
+#### Sample Trace Bitmap panel
 
 A set of files named TraceBitmap.fla and TraceBitmap.swf are located in the TraceBitmapPanel folder (see "Sample implementations" above). These files illustrate how to design and build a panel to control the functions of Animate. They also show the use of the MMExecute() function to call JavaScript commands from an ActionScript script.
 
@@ -954,16 +954,14 @@ You can use the flower.jpg file provided in the TraceBitmapPanel folder or anoth
 
 The image is converted into a group of shapes.
 
-### Sample DLL
+#### Sample DLL
 
 A sample DLL implementation is located in the dllSampleComputeSum folder (see "Sample implementations" above). For more information about building DLLs, see[ "C-Level Extensibility"](/C-Level_Extensibility/About_extensibility.md).
 
 
 
 
-## Top-Level Functions and Methods
-
-## Top-level summary
+### Top-Level Functions and Methods
 
 #### About this section
 
@@ -1024,9 +1022,7 @@ setCursor()
 [setCursor()](./Top-Level_Functions_and_Methods/setCursor.md)
 
 
-## actionsPanelObject
-
-## actionsPanel summary
+### actionsPanel Object
 
 #### Availability
 
@@ -1057,7 +1053,7 @@ The following methods can be used with the actionsPanel object:
 
 
 
-## bitmapInstance Object
+### bitmapInstance Object
 
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > [Instance object](/Instance_object/instance_summary.md) > BitmapInstance object
@@ -1094,7 +1090,7 @@ In addition to the [Instance object](/Instance_object/instance_summary.md) prope
 
 
 
-## bitmapItem Object
+### bitmapItem Object
 
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > BitmapItem object
@@ -1126,7 +1122,7 @@ In addition to the [Item object](/Item_object/item_summary.md) properties, the B
 
 
 
-## Camera Object
+### Camera Object
 
 
 #### Availability
@@ -1194,7 +1190,7 @@ The following properties can be used with the Camera object:
 
 
 
-## compiledClipInstance Object
+### compiledClipInstance Object
 
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > [Instance object](/Instance_object/instance_summary.md) > CompiledClipInstance object
@@ -1250,9 +1246,7 @@ In addition to the properties of the [Instance object](/Instance_object/instance
 
 
 
-## compilerErrors Object
-
-#
+### compilerErrors Object
 
 #### Availability
 
@@ -1277,7 +1271,7 @@ The following methods can be used with the compilerErrors object:
 
 
 
-## componentInstance Object
+### componentInstance Object
 
 
 
@@ -1304,7 +1298,7 @@ In addition to all the properties of the [SymbolInstance object](/SymbolInstance
 
 
 
-## componentsPanel Object
+### componentsPanel Object
 
 #### Availability
 
@@ -1328,7 +1322,7 @@ You can use the following methods with the componentsPanel object:
 
 
 
-## contour Object
+### contour Object
 
 
 #### Availability
@@ -1362,7 +1356,7 @@ You can use the following properties with the Contour object:
 
 
 
-## document Object
+### document Object
 
 
 #### Availability
@@ -1537,7 +1531,7 @@ You can use the following properties with the Document object.
 <span id="document.accName" class="anchor"></span>
 
 
-## drawingLayer
+### drawingLayer
 
 
 #### Availability
@@ -1574,7 +1568,7 @@ The following methods are available for the drawingLayer object:
 
 
 
-## edge Object
+### edge Object
 
 
 #### Availability
@@ -1611,7 +1605,7 @@ The following properties are available for the Edge object:
 
 
 
-## element Object
+### element Object
 
 [element.depth](./Element_object/element.md)
 
@@ -1670,7 +1664,7 @@ The following properties are available for the Edge object:
 [element.y](./Element_object/elemen27.md)
 
 
-## fill Object
+### fill Object
 
 
 #### Availability
@@ -1702,7 +1696,7 @@ The following properties are available for the Fill object:
 
 
 
-## filter Object
+### filter Object
 
 
 #### Availability
@@ -1745,7 +1739,7 @@ The following properties can be used with the Filter object:
 
 
 
-## flash(fl.()) Object
+### flash(fl.()) Object
 
 
 
@@ -1834,7 +1828,7 @@ The following properties can be used with the flash object.
 
 
 
-## FLfile Object
+### FLfile Object
 
 
 
@@ -1901,7 +1895,7 @@ The following methods can be used with the FLfile object:
 <span id="FLfile.copy()" class="anchor"></span>
 
 
-## folderItem Object
+### folderItem Object
 
 
 
@@ -1918,9 +1912,8 @@ The folderItem object is a subclass of the Item object. There are no unique meth
 
 
 
-## fontItemObject
+### fontItem Object
 
-## fontItem summary
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > fontItem object
 
@@ -1952,7 +1945,7 @@ In addition to the Item object properties, the following properties are availabl
 
 
 
-## Frame Object
+### Frame Object
 
 
 #### Availability
@@ -2003,7 +1996,7 @@ The following properties can be used with the Frame object:
 <span id="frame.convertMotionObjectTo2D()" class="anchor"></span>
 
 
-## HalfEdge Object
+### HalfEdge Object
 
 
 #### Availability
@@ -2040,7 +2033,7 @@ The following properties are available for the HalfEdge object:
 
 
 
-## Instance Object
+### Instance Object
 
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > Instance object
@@ -2066,7 +2059,7 @@ In addition to all of the Element object properties, Instance has the following 
 
 
 
-## Item Object
+### Item Object
 
 
 #### Availability
@@ -2111,9 +2104,8 @@ The following properties are available for the Item object:
 
 
 
-## Layer Object
+### Layer Object
 
-## Summary
 
 #### Availability
 
@@ -2160,7 +2152,7 @@ The following properties are available for the Layer object:
 
 
     
-## LayerParenting Object
+### LayerParenting Object
 
 
 #### Availability
@@ -2179,7 +2171,7 @@ You can use the following methods with the layer object:
 
 
 
-## library Object
+### library Object
 
 
 #### Availability
@@ -2230,7 +2222,7 @@ The following property is available for the library object:
 
 
 
-## Math Object
+### Math Object
 
 
 #### Availability
@@ -2256,7 +2248,7 @@ The following methods are available for the Math object:
 
 
 
-## Matrix Object
+### Matrix Object
 
 
 #### Availability
@@ -2284,7 +2276,7 @@ The following properties are available for the Matrix object:
 
 
 
-## outputPanel Object
+### outputPanel Object
 
 
 #### Availability
@@ -2309,7 +2301,7 @@ The outputPanel object uses the following methods:
 
 
 
-## Oval Object
+### Oval Object
 
 
 **Inheritance** [Element object](/Element_object/element_summary.md) >[Shape object](/Shape_object/shape_summary.md) Oval object
@@ -2338,7 +2330,7 @@ In addition to the [Shape object](/Shape_object/shape_summary.md) properties, yo
 
 
 
-## Parameter object
+### Parameter object
 
 
 #### Availability
@@ -2368,7 +2360,7 @@ The following properties are available for the Parameter object:
 
 
  
-## Path object
+### Path object
 
 #### Availability
 
@@ -2408,7 +2400,7 @@ The following properties are available for the Path object:
 
 
 
-## presetItem object
+### presetItem object
 
 
 #### Availability
@@ -2438,7 +2430,7 @@ You can use the following properties with the presetItem object:
 
 
 
-## presetPanel object
+### presetPanel object
 
 
 #### Availability
@@ -2482,7 +2474,7 @@ You can use the following property with the presetPanel object:
 
 
 
-## Rectangle object
+### Rectangle object
 
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > [Shape object](/Shape_object/shape_summary.md) > Rectangle object
@@ -2512,7 +2504,7 @@ In addition to the [Shape object](/Shape_object/shape_summary.md) properties, yo
 
 
 
-## Shape object
+### Shape object
 
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > Shape object
@@ -2559,7 +2551,7 @@ In addition to the Element object properties, the following properties are avail
 
 
 
-## SoundItem object
+### SoundItem object
 
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > SoundItem object
@@ -2607,7 +2599,7 @@ In addition to the Item object properties, the following properties are availabl
 
 
 
-## SpriteSheetExporter object
+### SpriteSheetExporter object
 
 
 **Inheritance** [Item object](/Item_object/item_summary.md) >SpriteSheetExporter object
@@ -2671,7 +2663,7 @@ In addition to the Item object properties, the following properties are availabl
 
 
 
-## Strokeobject
+### Stroke object
 
 
 #### Availability
@@ -2722,9 +2714,7 @@ The following properties are available for the Stroke object:
 
 
 
-## swfPanel object
-
-### swfPanel summary
+### swfPanel object
 
 #### Availability
 
@@ -2760,7 +2750,7 @@ You can use the following properties with the swfPanel object:
 
 
 
-## SymbolInstance object
+### SymbolInstance object
 
 
 **Inheritance** [Element object](/Element_object/element_summary.md) >[Instance object](/Instance_object/instance_summary.md) >SymbolInstance object
@@ -2785,7 +2775,7 @@ In addition to the Instance object properties, the SymbolInstance object has the
 
 
 
-## SymbolItem object
+### SymbolItem object
 
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > SymbolItem object
@@ -2829,7 +2819,7 @@ In addition to the Item object properties, the following properties are availabl
 
 
 
-## Text Object
+### Text Object
 
 
 **Inheritance** [Element object](/Element_object/element_summary.md) > Text object
@@ -2877,7 +2867,7 @@ In addition to the Element object properties, the following properties are avail
 <span id="text.accName" class="anchor"></span>
 
 
-## TextAttrs Object
+### TextAttrs Object
 
 #### Availability
 
@@ -2916,9 +2906,8 @@ The following properties are available for the TextAttrs object:
 
 
 
-## TextRun Object
+### TextRun Object
 
-## Summary
 
 #### Availability
 
@@ -2941,9 +2930,8 @@ In addition to the properties available for use with the Text object, the TextRu
 
 
 
-## TextureAtlasExporter object
+### TextureAtlasExporter object
 
-## Summary
 
 **Inheritance** [Item object](/Item_object/item_summary.md) >TextureAtlasExporter object
 
@@ -2989,7 +2977,7 @@ In addition to the Item object properties, the following properties are availabl
 
 
 
-## Timeline Object
+### Timeline Object
 
 
 #### Availability
@@ -3050,7 +3038,7 @@ The following properties are available for the Timeline object:
 
 
 
-## ToolObj object
+### ToolObj object
 
 
 #### Availability
@@ -3093,7 +3081,7 @@ The following properties are available for the ToolObj object:
 
 
 
-## Tools Object
+### Tools Object
 
 
 #### Availability
@@ -3137,7 +3125,7 @@ The following properties are available for the Tools object:
 
 
 
-## Tween Object
+### Tween Object
 
 #### Availability
 
@@ -3217,7 +3205,7 @@ fl.trace(" blue : amount = "+colors.colorBlueAmount+" percent = "+colors.colorBl
 
 
 
-## Vertex object
+### Vertex object
 
 
 #### Availability
@@ -3250,7 +3238,7 @@ The following properties are available for the Vertex object:
 
 
 
-## VideoItem Object
+### VideoItem Object
 
 
 **Inheritance** [Item object](/Item_object/item_summary.md) > VideoItem object
@@ -3288,7 +3276,7 @@ In addition to the Item object properties, you can use the following properties 
 
 
 
-## XMLUI Object
+### XMLUI Object
 
 #### Availability
 
@@ -3321,9 +3309,9 @@ The following methods are available for the XMLUI object:
 
 
 
-## C-LevelExtensibility
+### C-LevelExtensibility
 
-### About extensibility
+#### About extensibility
 
 This chapter describes the C-level extensibility mechanism, which lets you implement Adobe Animate extensibility files using a combination of JavaScript and custom C code.
 
