@@ -75,7 +75,7 @@ description: This is the home page of Animate APIs
  - [C-LevelExtensibility](#c-levelextensibility)
         
 
-### Introduction
+## Introduction
 
 ### Working with the JavaScript API
 
