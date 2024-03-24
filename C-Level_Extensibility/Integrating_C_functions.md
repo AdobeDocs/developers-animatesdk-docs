@@ -273,6 +273,21 @@ JSBool computeSum(JSContext *cx, JSObject *obj, unsigned int argc, jsval *argv, 
     /* Indicate success. */ 
     return JS_TRUE;
 }
+
+/* MM_STATE is a macro that expands to some definitions that are
+ * needed in order interact with Animate.  This macro must be
+ * defined exactly once in your library */
+MM_STATE
+
+/* Animate calls MM_Init when your library is loaded. */
+void
+MM_Init()
+{
+	/* Declare the Javascript function, giving it a name that's
+	 * likely to be unique */
+	JS_DefineFunction(L"computeSum", computeSum, 2);
+
+}
 ```
 After writing this code, build the DLL file or shared library, and store it in the appropriate Configuration/External Libraries directory (see ["Integrating C functions"](#integrating-c-functions)). Then create a JSFL file with the following code, and store it in the Configuration/Commands directory (see ["Saving JSFL files"](../Introduction/Working_with_the_JavaScript_API.md)).
 
